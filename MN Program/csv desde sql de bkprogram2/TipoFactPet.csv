@@ -1,0 +1,7 @@
+﻿id,sdescripcion,itipoE,itipoR,stextoE,stextoR,ifrecibida,icodcliR
+1,Centro médico a mutua,1,5,Centro médico,,0,
+2,Centro médico a paciente,1,4,Centro médico,,0,
+3,Consultorio a mutua,2,5,Consultorio,,0,
+4,Consultorio a paciente,2,4,Consultorio,,0,
+5,Médico a mutua,3,5,,,0,
+6,Médico a paciente,3,4,,,0,

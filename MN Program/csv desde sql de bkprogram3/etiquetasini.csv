@@ -1,0 +1,2319 @@
+﻿id,seccion,etiqueta,valor
+1,Oportunidades,OportunidadesPl,CRM-Presupuestos
+2,Oportunidades,OporPredef,CRM-Presupuestos 
+3,Oportunidades,OportunidadSg,CRM-Presupuesto
+4,Oportunidades,OporTipo,Tipo CRM-Presupuesto
+5,Oportunidades,OporImp,Importe CRM-Presupuesto con IVA
+6,Oportunidades,OporHora,Hora CRM-Presupuesto
+7,Oportunidades,OporFecha,Fecha
+8,Oportunidades,OporColectivo,Colectivo CRM-Presupuesto
+9,Oportunidades,OporEtapa,Etapa CRM-Presupuesto
+10,Oportunidades,OporImpIVA,Importe Venta con IVA CRM-Presupuesto
+11,Oportunidades,OporFCierre,Fecha Cierre CRM-Presupuesto
+12,Oportunidades,OporFuente,Fuente CRM-Presupuesto
+13,Oportunidades,OporFUltimaAbierta,F. Último CRM-Presupuesto Abierto
+14,Oportunidades,OporDormido,Dormido CRM-Presupuesto
+15,Oportunidades,OporAbiertas,CRM-Presupuestos Abiertos
+16,Oportunidades,OporDatosUsu,Datos uso CRM-Presupuestos (%)
+17,Oportunidades,OporUsu,Usuario CRM-Presupuesto
+18,Oportunidades,OporDesc,Desc CRM-Presupuesto
+19,Oportunidades,OporDescrip,Descripción CRM-Presupuesto
+20,Oportunidades,OporRel,CRM-Presupuestos Relacionados
+21,FormExpPral,ExpAñoNum,Nº /Año Exp
+22,FormExpPral,TipoExpTit,Tipo Expediente
+23,FormExpPral,ExpUsuario,Usuario Expediente
+24,FormExpPral,ExpRefExp,Ref. Propia Expediente
+25,FormExpPral,ExpYearExp,Año Expediente
+26,FormExpPral,ExpReferExp,Ref. Expediente
+27,Tareas,TareasPl,Tareas-Plazos
+28,Tareas,TareaPredef,Tareas-Plazos 
+29,Tareas,TareaSg,Tarea
+30,Tareas,TareaTipo,Tipo Tarea
+31,Tareas,TareaImp,Importe Tarea con IVA
+32,Tareas,TareaHora,Hora Tarea
+33,Tareas,TareaFecha,Fecha Tarea
+34,Tareas,TareaColectivo,Colectivo Tarea
+35,Tareas,TareaEtapa,Etapa Tarea
+36,Tareas,TareaImpIVA,Importe Venta con IVA Tarea
+37,Tareas,TareaFCierre,Fecha Cierre Tarea
+38,Tareas,TareaFuente,Fuente Tarea
+39,Tareas,TareaFUltimaAbierta,F. Último Tarea Abierta
+40,Tareas,TareaDormido,Dormido Tarea
+41,Tareas,TareaAbiertas,Tareas Abiertas
+42,Tareas,TareaDatosUsu,Datos uso Tareas (%)
+43,Tareas,TareaUsu,Usuario Tarea
+44,Tareas,TareaDesc,Desc Tarea
+45,Tareas,TareaDescrip,Descripción Tarea
+46,Tareas,TareaRel,Tareas Relacionadas
+47,FormJuzPral,fechaAltaNotificacion,Fecha de Alta
+48,FormCorConPral,contactoRelacionado,Contactos Relacionados
+49,FormCorConPral,clienteRelacionado,Clientes Relacionados
+50,CodPerso,clinombrecomercial,Nombre Comercial
+51,CodPerso,cliUsuario,Usuario
+52,CodPerso,cliUsuarioCli,Usuario Cliente
+53,CodPerso,cliFactura,Usuario Factura
+54,CodPerso,cliFicha,Usuario Ficha
+55,CodPerso,cliActuacion,Usuario Actuación
+56,CodPerso,cliFase,Usuario Fase
+57,CodPerso,cliOpor,Usuario Opor
+58,CodPerso,cliCuentas,Usuario Cuentas
+59,CodPerso,cliBono,Usuario Cuentas
+60,CodPerso,cliUsuarioTiempo,Tiempo Uso por Usuario
+61,CodPerso,cliUsuarioUltimo,Último Usuario
+62,Servicios,Servicios,Servicios Contratados
+63,CodPerso,moddespachos,0
+64,CodPerso,modmura,0
+65,CodPerso,ver3dat,0
+66,CodPerso,ver4dat,0
+67,CodPerso,ver5dat,0
+68,CodPerso,ver6dat,0
+69,CodPerso,ver7dat,0
+70,CodPerso,ver8dat,0
+71,CodPerso,ver9dat,0
+72,CodPerso,verCRMdat,1
+73,CodPerso,ver_exp,1
+74,CodPerso,ver_opor,1
+75,CodPerso,verConsdat,0
+76,CodPerso,cue_salant,0
+77,CodPerso,mod6dat,1
+78,CodPerso,mod7dat,0
+79,CodPerso,persoadv,0
+80,CodPerso,ver_factu,1
+81,CodPerso,ctracc,0
+82,CodPerso,ver_hints,0
+83,CodPerso,ver_scan,0
+84,CodPerso,bAnt303,0
+85,CodPerso,Public_Web,0
+86,CodPerso,mescobrosper,0
+87,CodPerso,bconta,1
+88,CodPerso,clipot,1
+89,CodPerso,codjuzga,0
+90,CodPerso,expe_con,1
+91,CodPerso,expe_seg,0
+92,CodPerso,expe_rec,0
+93,CodPerso,expe_perso1,0
+94,CodPerso,expe_perso2,0
+95,CodPerso,expe_perso3,0
+96,CodPerso,expe_perso4,0
+97,CodPerso,expe_perso5,0
+98,CodPerso,codper1,0
+99,CodPerso,codper2,0
+100,CodPerso,codper3,0
+101,CodPerso,codper4,0
+102,CodPerso,codper5,0
+103,CodPerso,codper6,0
+104,CodPerso,codper7,1
+105,CodPerso,codper8,0
+106,CodPerso,codper9,0
+107,CodPerso,codper10,0
+108,CodPerso,cli_colab,0
+109,CodPerso,igu_grupo2,0
+110,CodPerso,igu_grupo3,0
+111,CodPerso,igu_grupo4,0
+112,CodPerso,igu_grupo5,0
+113,CodPerso,igu_grupo6,0
+114,CodPerso,cli_perso1,0
+115,CodPerso,cli_perso2,0
+116,CodPerso,cli_perso3,0
+117,CodPerso,cli_perso4,0
+118,CodPerso,cli_perso5,0
+119,CodPerso,cli_perso6,0
+120,CodPerso,cli_perso7,0
+121,CodPerso,mn_program,0
+122,CodPerso,Pode_abo,0
+123,CodPerso,Pode_pro,0
+124,CodPerso,cola_con,1
+125,CodPerso,bimpfactpersonalizado,0
+126,CodPerso,ver_otros,1
+127,CodPerso,ver_orden,0
+128,CodPerso,aloha,0
+129,CodPerso,clipers5,0
+130,CodPerso,codvar,0
+132,CodPerso,plan_web,1
+133,CodPerso,banc_con,1
+134,CodPerso,clie_subcli,0
+135,CodPerso,PeopleSoft,0
+136,CodPerso,GrupoPatin,0
+137,FormCliPral,CliTitulo,Clientes
+138,FormCliPral,CliTitulo2,Cliente
+139,FormCliPral,CliAmpliada,Otros Datos
+140,FormCliPral,CliPestaña1,Datos Administrativos
+141,FormCliPral,CliPestaña2,Pestaña2
+142,FormCliPral,CliNie,Etiqueta Editable
+143,FormCliPral,CliPasaporte,CNAE
+144,FormCliPral,CliTarjetaresidencia,Etiqueta Editable
+145,FormCliPral,CliCampo21,Campo Libre 1
+146,FormCliPral,CliCampo22,Campo Libre 2
+147,FormCliPral,CliCampo23,Campo Libre 3
+148,FormCliPral,CliCampo24,Campo Libre 4
+149,FormCliPral,CliOrigen,Fuente Contacto
+150,FormCliPral,CliZona,Ubicación
+151,FormCliPral,CliEmpresa,Tamaño
+152,FormCliPral,CliDepartamento,Departamento
+153,FormCliPral,CliCargo,Cargo
+154,FormCliPral,Clinumempleados,Nº Empleados
+155,FormCliPral,CliSector,Sector
+156,FormCliPral,CliFechanacimiento,Fecha
+157,FormCliPral,CliFechapermiso,Fecha inicio del ejercicio
+158,FormCliPral,CliCampoFecha9,Fecha fin del ejercicio
+159,FormCliPral,CliCampoFecha10,Fecha vencimiento contrato
+160,FormCliPral,CliCampoFecha11,Campo Fecha Libre 3
+161,FormCliPral,CliCampoFecha12,Campo Fecha Libre 4
+162,FormCliPral,CliCampofecha13,Campo Fecha Libre 5
+169,FormCliPral,CliEstado2,Estado 2
+170,FormCliPral,CliEstado3,Estado 3
+171,FormCliPral,CliEstado4,Estado 4
+172,FormCliPral,CliNombre,Nombre
+173,FormCliPral,CliTelefono,Teléfono 1
+174,FormCliPral,CliTelefono2,Teléfono 2
+175,FormCliPral,CliTelefono3,Teléfono 3
+176,FormCliPral,CliFax,Fax
+177,FormCliPral,CliNif,N.I.F./C.I.F.
+178,FormCliPral,CliCampo1,Campo Libre
+179,FormCliPral,CliCampo2,Campo Libre
+180,FormCliPral,CliCampo3,Campo Libre
+181,FormCliPral,CliCampo4,Campo Libre
+182,FormCliPral,CliCampo5,Campo Libre
+183,FormCliPral,CliCampo6,Campo Libre
+184,FormCliPral,CliCampo7,Campo Libre
+185,FormCliPral,CliCampo8,Campo Libre
+186,FormCliPral,CliCampo9,Campo Libre
+187,FormCliPral,CliCampo10,Campo Libre
+188,FormCliPral,CliCampo11,Campo Libre
+189,FormCliPral,CliCampo12,Campo Libre
+190,FormCliPral,CliCampo13,Campo Libre
+191,FormCliPral,CliCampo14,Campo Libre
+192,FormCliPral,CliCampo15,Campo Libre
+193,FormCliPral,CliCampo16,Campo Libre
+194,FormCliPral,CliCampo17,Campo Libre
+195,FormCliPral,CliCampo18,Campo Libre
+196,FormCliPral,CliCampo19,Campo Libre
+197,FormCliPral,CliCampo20,Campo Libre
+198,FormCliPral,CliCampoFecha1,Campo Fecha Libre
+199,FormCliPral,CliCampoFecha2,Campo Fecha Libre
+200,FormCliPral,CliCampoFecha3,Campo Fecha Libre
+201,FormCliPral,CliCampoFecha4,Campo Fecha Libre
+202,FormCliPral,CliCampoFecha5,Campo Fecha Libre
+203,FormCliPral,CliCampoFecha6,Campo Fecha Libre
+204,FormCliPral,CliCampoFecha7,Campo Fecha Libre
+205,FormCliPral,CliCampoFecha8,Campo Fecha Libre
+206,FormCliPral,Cliperso83,perso83
+207,FormCliPral,Cliperso84,perso84
+208,FormCliPral,Cliperso85,perso85
+209,FormCliPral,Cliperso86,perso86
+210,FormCliPral,Cliperso87,perso87
+211,FormCliPral,Cliperso88,perso88
+212,FormCliPral,Clipersofecha2,persofecha2
+213,FormCliPral,Clipersofecha3,persofecha3
+214,FormCliPral,Clipersofecha4,persofecha4
+215,FormCliPral,Clipersofecha5,persofecha5
+216,FormCliPral,Clipersofecha9,persofecha9
+217,FormCliPral,Clipersofecha7,persofecha7
+218,FormCliPral,Clipersofecha6,persofecha6
+219,FormCliPral,Cliperso79,perso79
+220,FormCliPral,Cliperso78,perso78
+221,FormCliPral,Cliperso77,perso77
+222,FormCliPral,Cliperso76,perso76
+223,FormCliPral,Cliperso75,perso75
+224,FormCliPral,Cliperso74,perso74
+225,FormCliPral,Clipersofecha8,persofecha8
+226,FormTrabajadores,CliTitulo,Clientes
+227,FormTrabajadores,CliTitulo2,Cliente
+228,FormTrabajadores,CliAmpliada,Otros Datos
+229,FormTrabajadores,CliPestaña1,Otros Datos 2
+230,FormTrabajadores,CliPestaña2,Otros Datos 3
+231,FormTrabajadores,CliNie,Etiqueta Editable
+232,FormTrabajadores,CliPasaporte,Categoría profesional
+233,FormTrabajadores,CliTarjetaresidencia,Etiqueta Editable
+234,FormTrabajadores,CliCampo21,Campo Libre 1
+235,FormTrabajadores,CliCampo22,Campo Libre 2
+236,FormTrabajadores,CliCampo23,Campo Libre 3
+237,FormTrabajadores,CliCampo24,Campo Libre 5
+238,FormTrabajadores,CliOrigen,Carnet de conducir
+239,FormTrabajadores,CliZona,Nivel de estudios
+240,FormTrabajadores,CliEmpresa,Tamaño
+241,FormTrabajadores,CliDepartamento,Departamento
+242,FormTrabajadores,CliCargo,Cargo
+243,FormTrabajadores,Clinumempleados,Número Empleados
+244,FormTrabajadores,CliSector,Sector
+245,FormTrabajadores,CliFechanacimiento,Fecha Nacimiento
+246,FormTrabajadores,CliFechapermiso,Fecha inicio del ejercicio
+247,FormTrabajadores,CliCampoFecha9,Fecha fin del ejercicio
+248,FormTrabajadores,CliCampoFecha10,Fecha vencimiento contrato
+249,FormTrabajadores,CliCampoFecha11,Campo Fecha Libre 3
+250,FormTrabajadores,CliCampoFecha12,Campo Fecha Libre 4
+251,FormTrabajadores,CliCampofecha13,Campo Fecha Libre 5
+252,FormTrabajadores,CliNotas,Notas
+253,FormTrabajadores,CliNotas1,Notas 2
+254,FormTrabajadores,CliNotas2,Notas 3
+255,FormTrabajadores,CliNotas3,Vacaciones
+256,FormTrabajadores,CliNotas4,Ausencias
+257,FormTrabajadores,CliNotas5,Otros Datos
+258,FormTrabajadores,CliEstado2,Estado2
+259,FormTrabajadores,CliEstado3,Estado3
+260,FormTrabajadores,CliEstado4,Estado4
+261,FormTrabajadores,CliNombre,Nombre
+262,FormTrabajadores,CliTelefono,Teléfono 1
+263,FormTrabajadores,CliTelefono2,Teléfono 2
+264,FormTrabajadores,CliTelefono3,Teléfono 3
+265,FormTrabajadores,CliFax,Fax
+266,FormTrabajadores,CliNif,NIF
+267,FormTrabajadores,CliCampo1,campo1
+268,FormTrabajadores,CliCampo2,campo2
+269,FormTrabajadores,CliCampo3,campo3
+270,FormTrabajadores,CliCampo4,campo4
+271,FormTrabajadores,CliCampo5,campo5
+272,FormTrabajadores,CliCampo6,campo6
+273,FormTrabajadores,CliCampo7,campo7
+274,FormTrabajadores,CliCampo8,campo8
+275,FormTrabajadores,CliCampo9,campo9
+276,FormTrabajadores,CliCampo10,campo10
+277,FormTrabajadores,CliCampo11,Campo11
+278,FormTrabajadores,CliCampo12,campo12
+279,FormTrabajadores,CliCampo13,campo13
+280,FormTrabajadores,CliCampo14,campo14
+281,FormTrabajadores,CliCampo15,Campo15
+282,FormTrabajadores,CliCampo16,Campo16
+283,FormTrabajadores,CliCampo17,Campo17
+284,FormTrabajadores,CliCampo18,Campo18
+285,FormTrabajadores,CliCampo19,Campo19
+286,FormTrabajadores,CliCampo20,Campo20
+287,FormTrabajadores,CliCampoFecha1,campofecha1
+288,FormTrabajadores,CliCampoFecha2,campofecha2
+289,FormTrabajadores,CliCampoFecha3,campofecha3
+290,FormTrabajadores,CliCampoFecha4,campofecha4
+291,FormTrabajadores,CliCampoFecha5,Fecha5
+292,FormTrabajadores,CliCampoFecha6,Fecha6
+293,FormTrabajadores,CliCampoFecha7,Fecha7
+294,FormTrabajadores,CliCampoFecha8,Fecha8
+295,FormTrabajadores,Cliperso83,perso83
+296,FormTrabajadores,Cliperso84,perso84
+297,FormTrabajadores,Cliperso85,perso85
+298,FormTrabajadores,Cliperso86,perso86
+299,FormTrabajadores,Cliperso87,perso87
+300,FormTrabajadores,Cliperso88,perso88
+301,FormTrabajadores,Clipersofecha2,persofecha2
+302,FormTrabajadores,Clipersofecha3,persofecha3
+303,FormTrabajadores,Clipersofecha4,persofecha4
+304,FormTrabajadores,Clipersofecha5,persofecha5
+305,FormTrabajadores,Clipersofecha9,persofecha9
+306,FormTrabajadores,Clipersofecha7,persofecha7
+307,FormTrabajadores,Clipersofecha6,persofecha6
+308,FormTrabajadores,Cliperso79,perso79
+309,FormTrabajadores,Cliperso78,perso78
+310,FormTrabajadores,Cliperso77,perso77
+311,FormTrabajadores,Cliperso76,perso76
+312,FormTrabajadores,Cliperso75,perso75
+313,FormTrabajadores,Cliperso74,perso74
+314,FormTrabajadores,Clipersofecha8,persofecha8
+315,FormCliPoten,CliTitulo,Potenciales
+316,FormCliPoten,CliTitulo2,Potencial
+317,FormCliPoten,CliAmpliada,Otros Datos
+318,FormCliPoten,CliPestaña1,Otros Datos 2
+319,FormCliPoten,CliPestaña2,Otros Datos 3
+320,FormCliPoten,CliNie,Etiqueta Editable
+321,FormCliPoten,CliPasaporte,CNAE
+322,FormCliPoten,CliTarjetaresidencia,Etiqueta Editable
+323,FormCliPoten,CliCampo21,Deporte
+324,FormCliPoten,CliCampo22,Altura
+325,FormCliPoten,CliCampo23,Peso (Kg)
+326,FormCliPoten,CliCampo24,Campo Libre 1
+327,FormCliPoten,CliOrigen,Fuente Contacto
+328,FormCliPoten,CliZona,Ubicación
+329,FormCliPoten,CliEmpresa,Tamaño
+330,FormCliPoten,CliDepartamento,Departamento
+331,FormCliPoten,CliCargo,Campo Libre 1
+332,FormCliPoten,Clinumempleados,Campo Libre 2
+333,FormCliPoten,CliSector,Sector
+334,FormCliPoten,CliFechanacimiento,Fecha Nacimiento
+335,FormCliPoten,CliFechapermiso,Fecha inicio del ejercicio
+336,FormCliPoten,CliCampoFecha9,Fecha fin del ejercicio
+337,FormCliPoten,CliCampoFecha10,Fecha vencimiento contrato
+338,FormCliPoten,CliCampoFecha11,Campo Fecha Libre 3
+339,FormCliPoten,CliCampoFecha12,Campo Fecha Libre 4
+340,FormCliPoten,CliCampofecha13,Campo Fecha Libre 5
+341,FormCliPotenPral,CliNotas,Notas
+342,FormCliPotenPral,CliNotas1,Notas 2
+343,FormCliPotenPral,CliNotas2,Notas 3
+344,FormCliPotenPral,CliNotas3,Notas 4
+345,FormCliPotenPral,CliNotas4,Notas 5
+346,FormCliPotenPral,CliNotas5,Notas 6
+347,FormCliPoten,CliEstado2,Estado 2
+348,FormCliPoten,CliEstado3,Estado 3
+349,FormCliPoten,CliEstado4,Estado 4
+350,FormCliPoten,CliNombre,Nombre
+351,FormCliPoten,CliTelefono,Teléfono 1
+352,FormCliPoten,CliTelefono2,Teléfono 2
+353,FormCliPoten,CliTelefono3,Teléfono 3
+354,FormCliPoten,CliFax,Fax
+355,FormCliPoten,CliNif,N.I.F./C.I.F.
+356,FormCliPoten,CliCampo1,Mútua
+357,FormCliPoten,CliCampo2,Núm. Póliza
+358,FormCliPoten,CliCampo3,campo3
+359,FormCliPoten,CliCampo4,campo4
+360,FormCliPoten,CliCampo5,Núm. Afiliación Seguridad Social
+361,FormCliPoten,CliCampo6,Cobertura
+362,FormCliPoten,CliCampo7,campo7
+363,FormCliPoten,CliCampo8,campo8
+364,FormCliPoten,CliCampo9,campo9
+365,FormCliPoten,CliCampo10,campo10
+366,FormCliPoten,CliCampo11,Campo11
+367,FormCliPoten,CliCampo12,campo12
+368,FormCliPoten,CliCampo13,campo13
+369,FormCliPoten,CliCampo14,campo14
+370,FormCliPoten,CliCampo15,Campo15
+371,FormCliPoten,CliCampo16,Campo16
+372,FormCliPoten,CliCampo17,Campo17
+373,FormCliPoten,CliCampo18,Campo18
+374,FormCliPoten,CliCampo19,Campo19
+375,FormCliPoten,CliCampo20,Campo20
+376,FormCliPoten,CliCampoFecha1,campofecha1
+377,FormCliPoten,CliCampoFecha2,campofecha2
+378,FormCliPoten,CliCampoFecha3,campofecha3
+379,FormCliPoten,CliCampoFecha4,campofecha4
+380,FormCliPoten,CliCampoFecha5,Fecha5
+381,FormCliPoten,CliCampoFecha6,Fecha6
+382,FormCliPoten,CliCampoFecha7,Fecha7
+383,FormCliPoten,CliCampoFecha8,Fecha8
+384,FormCliPoten,Cliperso83,perso83
+385,FormCliPoten,Cliperso84,perso84
+386,FormCliPoten,Cliperso85,perso85
+387,FormCliPoten,Cliperso86,perso86
+388,FormCliPoten,Cliperso87,perso87
+389,FormCliPoten,Cliperso88,perso88
+390,FormCliPoten,Clipersofecha2,persofecha2
+391,FormCliPoten,Clipersofecha3,persofecha3
+392,FormCliPoten,Clipersofecha4,persofecha4
+393,FormCliPoten,Clipersofecha5,persofecha5
+394,FormCliPoten,Clipersofecha9,persofecha9
+395,FormCliPoten,Clipersofecha7,persofecha7
+396,FormCliPoten,Clipersofecha6,persofecha6
+397,FormCliPoten,Cliperso79,perso79
+398,FormCliPoten,Cliperso78,perso78
+399,FormCliPoten,Cliperso77,perso77
+400,FormCliPoten,Cliperso76,perso76
+401,FormCliPoten,Cliperso75,perso75
+402,FormCliPoten,Cliperso74,perso74
+403,FormCliPoten,Clipersofecha8,persofecha8
+404,FormOtros,CliTitulo,Contactos
+405,FormOtros,CliTitulo2,Contacto
+406,FormOtros,CliAmpliada,Otros Datos
+407,FormOtros,CliPestaña1,Otros Datos 2
+408,FormOtros,CliPestaña2,Otros Datos 3
+409,FormOtros,CliNie,NIE
+410,FormOtros,CliPasaporte,Pasaporte
+411,FormOtros,CliTarjetaresidencia,Tarjeta de residencia
+412,FormOtros,CliCampo21,Campo Libre 1
+413,FormOtros,CliCampo22,Campo Libre 2
+414,FormOtros,CliCampo23,Campo Libre 3
+415,FormOtros,CliCampo24,Campo Libre 5
+416,FormOtros,CliOrigen,Origen
+417,FormOtros,CliZona,Zona
+418,FormOtros,CliEmpresa,Empresa
+419,FormOtros,CliDepartamento,Departamento
+420,FormOtros,CliCargo,Cargo
+421,FormOtros,Clinumempleados,Número Empleados
+422,FormOtros,CliSector,Sector
+423,FormOtros,CliFechanacimiento,Fecha
+424,FormOtros,CliFechapermiso,Campo Fecha Libre
+425,FormOtros,CliCampoFecha9,Campo Fecha Libre 1
+426,FormOtros,CliCampoFecha10,Campo Fecha Libre 2
+427,FormOtros,CliCampoFecha11,Campo Fecha Libre 3
+428,FormOtros,CliCampoFecha12,Campo Fecha Libre 4
+429,FormOtros,CliCampofecha13,Campo Fecha Libre 5
+430,FormOtros,CliNotas,Notas
+431,FormOtros,CliNotas1,Notas 2
+432,FormOtros,CliNotas2,Notas 3
+433,FormOtros,CliNotas3,Notas 4
+434,FormOtros,CliNotas4,Notas 5
+435,FormOtros,CliNotas5,Notas 6
+436,FormOtros,CliEstado2,Estado 2
+437,FormOtros,CliEstado3,Estado 3
+438,FormOtros,CliEstado4,Estado 4
+439,FormOtros,CliNombre,Nombre
+440,FormOtros,CliTelefono,Teléfono 1
+441,FormOtros,CliTelefono2,Teléfono 2
+442,FormOtros,CliTelefono3,Teléfono 3
+443,FormOtros,CliFax,Fax
+444,FormOtros,CliNif,NIF
+445,FormOtros,CliCampo1,campo1
+446,FormOtros,CliCampo2,campo2
+447,FormOtros,CliCampo3,campo3
+448,FormOtros,CliCampo4,campo4
+449,FormOtros,CliCampo5,campo5
+450,FormOtros,CliCampo6,campo6
+451,FormOtros,CliCampo7,campo7
+452,FormOtros,CliCampo8,campo8
+453,FormOtros,CliCampo9,campo9
+454,FormOtros,CliCampo10,campo10
+455,FormOtros,CliCampo11,Campo11
+456,FormOtros,CliCampo12,campo12
+457,FormOtros,CliCampo13,campo13
+458,FormOtros,CliCampo14,campo14
+459,FormOtros,CliCampo15,Campo15
+460,FormOtros,CliCampo16,Campo16
+461,FormOtros,CliCampo17,Campo17
+462,FormOtros,CliCampo18,Campo18
+463,FormOtros,CliCampo19,Campo19
+464,FormOtros,CliCampo20,Campo20
+465,FormOtros,CliCampoFecha1,campofecha1
+466,FormOtros,CliCampoFecha2,campofecha2
+467,FormOtros,CliCampoFecha3,campofecha3
+468,FormOtros,CliCampoFecha4,campofecha4
+469,FormOtros,CliCampoFecha5,Fecha5
+470,FormOtros,CliCampoFecha6,Fecha6
+471,FormOtros,CliCampoFecha7,Fecha7
+472,FormOtros,CliCampoFecha8,Fecha8
+473,FormOtros,Cliperso83,perso83
+474,FormOtros,Cliperso84,perso84
+475,FormOtros,Cliperso85,perso85
+476,FormOtros,Cliperso86,perso86
+477,FormOtros,Cliperso87,perso87
+478,FormOtros,Cliperso88,perso88
+479,FormOtros,Clipersofecha2,persofecha2
+480,FormOtros,Clipersofecha3,persofecha3
+481,FormOtros,Clipersofecha4,persofecha4
+482,FormOtros,Clipersofecha5,persofecha5
+483,FormOtros,Clipersofecha9,persofecha9
+484,FormOtros,Clipersofecha7,persofecha7
+485,FormOtros,Clipersofecha6,persofecha6
+486,FormOtros,Cliperso79,perso79
+487,FormOtros,Cliperso78,perso78
+488,FormOtros,Cliperso77,perso77
+489,FormOtros,Cliperso76,perso76
+490,FormOtros,Cliperso75,perso75
+491,FormOtros,Cliperso74,perso74
+492,FormOtros,Clipersofecha8,persofecha8
+493,FormPacientes,CliTitulo,Clientes
+494,FormPacientes,CliTitulo2,Cliente
+495,FormPacientes,CliAmpliada,Otros Datos
+496,FormPacientes,CliPestaña1,Otros Datos 2
+497,FormPacientes,CliPestaña2,Otros Datos 3
+498,FormPacientes,CliNie,NIE
+499,FormPacientes,CliPasaporte,Pasaporte
+500,FormPacientes,CliTarjetaresidencia,Tarjeta de residencia
+501,FormPacientes,CliCampo21,Campo Libre 1
+502,FormPacientes,CliCampo22,Campo Libre 2
+503,FormPacientes,CliCampo23,Campo Libre 3
+504,FormPacientes,CliCampo24,Campo Libre 5
+505,FormPacientes,CliOrigen,Origen
+506,FormPacientes,CliZona,Zona
+507,FormPacientes,CliEmpresa,Empresa
+508,FormPacientes,CliDepartamento,Departamento
+509,FormPacientes,CliCargo,Cargo
+510,FormPacientes,Clinumempleados,Número Empleados
+511,FormPacientes,CliSector,Sector
+512,FormPacientes,CliFechanacimiento,Fecha Nacimiento
+513,FormPacientes,CliFechapermiso,Fecha Permiso Conducir
+514,FormPacientes,CliCampoFecha9,Campo Fecha Libre 1
+515,FormPacientes,CliCampoFecha10,Campo Fecha Libre 2
+516,FormPacientes,CliCampoFecha11,Campo Fecha Libre 3
+517,FormPacientes,CliCampoFecha12,Campo Fecha Libre 4
+518,FormPacientes,CliCampofecha13,Campo Fecha Libre 5
+519,FormPacientes,CliNotas,Notas
+520,FormPacientes,CliNotas1,Notas1
+521,FormPacientes,CliNotas2,Notas2
+522,FormPacientes,CliNotas3,Notas3
+523,FormPacientes,CliNotas4,Notas4
+524,FormPacientes,CliNotas5,Notas5
+525,FormPacientes,CliEstado2,Estado 2
+526,FormPacientes,CliEstado3,Estado 3
+527,FormPacientes,CliEstado4,Estado 4
+528,FormPacientes,CliNombre,Nombre
+529,FormPacientes,CliTelefono,Teléfono 1
+530,FormPacientes,CliTelefono2,Teléfono 2
+531,FormPacientes,CliTelefono3,Teléfono 3
+532,FormPacientes,CliFax,Fax
+533,FormPacientes,CliNif,NIF
+534,FormPacientes,CliCampo1,campo1
+535,FormPacientes,CliCampo2,campo2
+536,FormPacientes,CliCampo3,campo3
+537,FormPacientes,CliCampo4,campo4
+538,FormPacientes,CliCampo5,campo5
+539,FormPacientes,CliCampo6,campo6
+540,FormPacientes,CliCampo7,campo7
+541,FormPacientes,CliCampo8,campo8
+542,FormPacientes,CliCampo9,campo9
+543,FormPacientes,CliCampo10,campo10
+544,FormPacientes,CliCampo11,Campo11
+545,FormPacientes,CliCampo12,campo12
+546,FormPacientes,CliCampo13,campo13
+547,FormPacientes,CliCampo14,campo14
+548,FormPacientes,CliCampo15,Campo15
+549,FormPacientes,CliCampo16,Campo16
+550,FormPacientes,CliCampo17,Campo17
+551,FormPacientes,CliCampo18,Campo18
+552,FormPacientes,CliCampo19,Campo19
+553,FormPacientes,CliCampo20,Campo20
+554,FormPacientes,CliCampoFecha1,campofecha1
+555,FormPacientes,CliCampoFecha2,campofecha2
+556,FormPacientes,CliCampoFecha3,campofecha3
+557,FormPacientes,CliCampoFecha4,campofecha4
+558,FormPacientes,CliCampoFecha5,Fecha5
+559,FormPacientes,CliCampoFecha6,Fecha6
+560,FormPacientes,CliCampoFecha7,Fecha7
+561,FormPacientes,CliCampoFecha8,Fecha8
+562,FormPacientes,Cliperso83,perso83
+563,FormPacientes,Cliperso84,perso84
+564,FormPacientes,Cliperso85,perso85
+565,FormPacientes,Cliperso86,perso86
+566,FormPacientes,Cliperso87,perso87
+567,FormPacientes,Cliperso88,perso88
+568,FormPacientes,Clipersofecha2,persofecha2
+569,FormPacientes,Clipersofecha3,persofecha3
+570,FormPacientes,Clipersofecha4,persofecha4
+571,FormPacientes,Clipersofecha5,persofecha5
+572,FormPacientes,Clipersofecha9,persofecha9
+573,FormPacientes,Clipersofecha7,persofecha7
+574,FormPacientes,Clipersofecha6,persofecha6
+575,FormPacientes,Cliperso79,perso79
+576,FormPacientes,Cliperso78,perso78
+577,FormPacientes,Cliperso77,perso77
+578,FormPacientes,Cliperso76,perso76
+579,FormPacientes,Cliperso75,perso75
+580,FormPacientes,Cliperso74,perso74
+581,FormPacientes,Clipersofecha8,persofecha8
+582,FormAlumnos,CliTitulo,Clientes
+583,FormAlumnos,CliTitulo2,Cliente
+584,FormAlumnos,CliAmpliada,Otros Datos
+585,FormAlumnos,CliPestaña1,Otros Datos 2
+586,FormAlumnos,CliPestaña2,Otros Datos 3
+587,FormAlumnos,CliNie,NIE
+588,FormAlumnos,CliPasaporte,Pasaporte
+589,FormAlumnos,CliTarjetaresidencia,Tarjeta de residencia
+590,FormAlumnos,CliCampo21,Campo Libre 1
+591,FormAlumnos,CliCampo22,Campo Libre 2
+592,FormAlumnos,CliCampo23,Campo Libre 3
+593,FormAlumnos,CliCampo24,Campo Libre 5
+594,FormAlumnos,CliOrigen,Origen
+595,FormAlumnos,CliZona,Zona
+596,FormAlumnos,CliEmpresa,Empresa
+597,FormAlumnos,CliDepartamento,Departamento
+598,FormAlumnos,CliCargo,Cargo
+599,FormAlumnos,Clinumempleados,Número Empleados
+600,FormAlumnos,CliSector,Sector
+601,FormAlumnos,CliFechanacimiento,Fecha Nacimiento
+602,FormAlumnos,CliFechapermiso,Fecha Permiso Conducir
+603,FormAlumnos,CliCampoFecha9,Campo Fecha Libre 1
+604,FormAlumnos,CliCampoFecha10,Campo Fecha Libre 2
+605,FormAlumnos,CliCampoFecha11,Campo Fecha Libre 3
+606,FormAlumnos,CliCampoFecha12,Campo Fecha Libre 4
+607,FormAlumnos,CliCampofecha13,Campo Fecha Libre 5
+608,FormAlumnos,CliNotas,Notas
+609,FormAlumnos,CliNotas1,Notas1
+610,FormAlumnos,CliNotas2,Notas2
+611,FormAlumnos,CliNotas3,Notas3
+612,FormAlumnos,CliNotas4,Notas4
+613,FormAlumnos,CliNotas5,Notas5
+614,FormAlumnos,CliEstado2,Estado 2
+615,FormAlumnos,CliEstado3,Estado 3
+616,FormAlumnos,CliEstado4,Estado 4
+617,FormAlumnos,CliNombre,Nombre
+618,FormAlumnos,CliTelefono,Teléfono 1
+619,FormAlumnos,CliTelefono2,Teléfono 2
+620,FormAlumnos,CliTelefono3,Teléfono 3
+621,FormAlumnos,CliFax,Fax
+622,FormAlumnos,CliNif,NIF
+623,FormAlumnos,CliCampo1,campo1
+624,FormAlumnos,CliCampo2,campo2
+625,FormAlumnos,CliCampo3,campo3
+626,FormAlumnos,CliCampo4,campo4
+627,FormAlumnos,CliCampo5,campo5
+628,FormAlumnos,CliCampo6,campo6
+629,FormAlumnos,CliCampo7,campo7
+630,FormAlumnos,CliCampo8,campo8
+631,FormAlumnos,CliCampo9,campo9
+632,FormAlumnos,CliCampo10,campo10
+633,FormAlumnos,CliCampo11,Campo11
+634,FormAlumnos,CliCampo12,campo12
+635,FormAlumnos,CliCampo13,campo13
+636,FormAlumnos,CliCampo14,campo14
+637,FormAlumnos,CliCampo15,Campo15
+638,FormAlumnos,CliCampo16,Campo16
+639,FormAlumnos,CliCampo17,Campo17
+640,FormAlumnos,CliCampo18,Campo18
+641,FormAlumnos,CliCampo19,Campo19
+642,FormAlumnos,CliCampo20,Campo20
+643,FormAlumnos,CliCampoFecha1,campofecha1
+644,FormAlumnos,CliCampoFecha2,campofecha2
+645,FormAlumnos,CliCampoFecha3,campofecha3
+646,FormAlumnos,CliCampoFecha4,campofecha4
+647,FormAlumnos,CliCampoFecha5,Fecha5
+648,FormAlumnos,CliCampoFecha6,Fecha6
+649,FormAlumnos,CliCampoFecha7,Fecha7
+650,FormAlumnos,CliCampoFecha8,Fecha8
+651,FormAlumnos,Cliperso83,perso83
+652,FormAlumnos,Cliperso84,perso84
+653,FormAlumnos,Cliperso85,perso85
+654,FormAlumnos,Cliperso86,perso86
+655,FormAlumnos,Cliperso87,perso87
+656,FormAlumnos,Cliperso88,perso88
+657,FormAlumnos,Clipersofecha2,persofecha2
+658,FormAlumnos,Clipersofecha3,persofecha3
+659,FormAlumnos,Clipersofecha4,persofecha4
+660,FormAlumnos,Clipersofecha5,persofecha5
+661,FormAlumnos,Clipersofecha9,persofecha9
+662,FormAlumnos,Clipersofecha7,persofecha7
+663,FormAlumnos,Clipersofecha6,persofecha6
+664,FormAlumnos,Cliperso79,perso79
+665,FormAlumnos,Cliperso78,perso78
+666,FormAlumnos,Cliperso77,perso77
+667,FormAlumnos,Cliperso76,perso76
+668,FormAlumnos,Cliperso75,perso75
+669,FormAlumnos,Cliperso74,perso74
+670,FormAlumnos,Clipersofecha8,persofecha8
+671,FormCliPral,CliTitulo,Clientes
+672,FormCliPral,CliTitulo2,Cliente
+673,FormCliPral,CliAmpliada,Otros Datos
+674,FormCliPral,CliPestaña1,Datos Administrativos
+675,FormCliPral,CliPestaña2,Pestaña2
+676,FormCliPral,CliNie,Etiqueta Editable
+677,FormCliPral,CliPasaporte,CNAE
+678,FormCliPral,CliTarjetaresidencia,Etiqueta Editable
+679,FormCliPral,CliCampo21,Campo Libre 1
+680,FormCliPral,CliCampo22,Campo Libre 2
+681,FormCliPral,CliCampo23,Campo Libre 3
+682,FormCliPral,CliCampo24,Campo Libre 4
+683,FormCliPral,CliOrigen,Fuente Contacto
+684,FormCliPral,CliZona,Ubicación
+685,FormCliPral,CliEmpresa,Tamaño
+686,FormCliPral,CliDepartamento,Departamento
+687,FormCliPral,CliCargo,Cargo
+688,FormCliPral,Clinumempleados,Nº Empleados
+689,FormCliPral,CliSector,Sector
+690,FormCliPral,CliFechanacimiento,Fecha
+691,FormCliPral,CliFechapermiso,Fecha inicio del ejercicio
+692,FormCliPral,CliCampoFecha9,Fecha fin del ejercicio
+693,FormCliPral,CliCampoFecha10,Fecha vencimiento contrato
+694,FormCliPral,CliCampoFecha11,Campo Fecha Libre 3
+695,FormCliPral,CliCampoFecha12,Campo Fecha Libre 4
+696,FormCliPral,CliCampofecha13,Campo Fecha Libre 5
+703,FormCliPral,CliEstado2,Estado 2
+704,FormCliPral,CliEstado3,Estado 3
+705,FormCliPral,CliEstado4,Estado 4
+706,FormCliPral,CliNombre,Nombre
+707,FormCliPral,CliTelefono,Teléfono 1
+708,FormCliPral,CliTelefono2,Teléfono 2
+709,FormCliPral,CliTelefono3,Teléfono 3
+710,FormCliPral,CliFax,Fax
+711,FormCliPral,CliNif,N.I.F./C.I.F.
+712,FormCliPral,CliCampo1,Campo Libre
+713,FormCliPral,CliCampo2,Campo Libre
+714,FormCliPral,CliCampo3,Campo Libre
+715,FormCliPral,CliCampo4,Campo Libre
+716,FormCliPral,CliCampo5,Campo Libre
+717,FormCliPral,CliCampo6,Campo Libre
+718,FormCliPral,CliCampo7,Campo Libre
+719,FormCliPral,CliCampo8,Campo Libre
+720,FormCliPral,CliCampo9,Campo Libre
+721,FormCliPral,CliCampo10,Campo Libre
+722,FormCliPral,CliCampo11,Campo Libre
+723,FormCliPral,CliCampo12,Campo Libre
+724,FormCliPral,CliCampo13,Campo Libre
+725,FormCliPral,CliCampo14,Campo Libre
+726,FormCliPral,CliCampo15,Campo Libre
+727,FormCliPral,CliCampo16,Campo Libre
+728,FormCliPral,CliCampo17,Campo Libre
+729,FormCliPral,CliCampo18,Campo Libre
+730,FormCliPral,CliCampo19,Campo Libre
+731,FormCliPral,CliCampo20,Campo Libre
+732,FormCliPral,CliCampoFecha1,Campo Fecha Libre
+733,FormCliPral,CliCampoFecha2,Campo Fecha Libre
+734,FormCliPral,CliCampoFecha3,Campo Fecha Libre
+735,FormCliPral,CliCampoFecha4,Campo Fecha Libre
+736,FormCliPral,CliCampoFecha5,Campo Fecha Libre
+737,FormCliPral,CliCampoFecha6,Campo Fecha Libre
+738,FormCliPral,CliCampoFecha7,Campo Fecha Libre
+739,FormCliPral,CliCampoFecha8,Campo Fecha Libre
+740,FormCliPral,Cliperso83,perso83
+741,FormCliPral,Cliperso84,perso84
+742,FormCliPral,Cliperso85,perso85
+743,FormCliPral,Cliperso86,perso86
+744,FormCliPral,Cliperso87,perso87
+745,FormCliPral,Cliperso88,perso88
+746,FormCliPral,Clipersofecha2,persofecha2
+747,FormCliPral,Clipersofecha3,persofecha3
+748,FormCliPral,Clipersofecha4,persofecha4
+749,FormCliPral,Clipersofecha5,persofecha5
+750,FormCliPral,Clipersofecha9,persofecha9
+751,FormCliPral,Clipersofecha7,persofecha7
+752,FormCliPral,Clipersofecha6,persofecha6
+753,FormCliPral,Cliperso79,perso79
+754,FormCliPral,Cliperso78,perso78
+755,FormCliPral,Cliperso77,perso77
+756,FormCliPral,Cliperso76,perso76
+757,FormCliPral,Cliperso75,perso75
+758,FormCliPral,Cliperso74,perso74
+759,FormCliPral,Clipersofecha8,persofecha8
+760,FormMascotasTutores,CliTitulo,Clientes
+761,FormMascotasTutores,CliTitulo2,Cliente
+762,FormMascotasTutores,CliAmpliada,Otros Datos
+763,FormMascotasTutores,CliPestaña1,Otros Datos 2
+764,FormMascotasTutores,CliPestaña2,Otros Datos 3
+765,FormMascotasTutores,CliNie,NIE
+766,FormMascotasTutores,CliPasaporte,Pasaporte
+767,FormMascotasTutores,CliTarjetaresidencia,Tarjeta de residencia
+768,FormMascotasTutores,CliCampo21,Campo Libre 1
+769,FormMascotasTutores,CliCampo22,Campo Libre 2
+770,FormMascotasTutores,CliCampo23,Campo Libre 3
+771,FormMascotasTutores,CliCampo24,Campo Libre 5
+772,FormMascotasTutores,CliOrigen,Origen
+773,FormMascotasTutores,CliZona,Zona
+774,FormMascotasTutores,CliEmpresa,Empresa
+775,FormMascotasTutores,CliDepartamento,Departamento
+776,FormMascotasTutores,CliCargo,Cargo
+777,FormMascotasTutores,Clinumempleados,Número Empleados
+778,FormMascotasTutores,CliSector,Sector
+779,FormMascotasTutores,CliFechanacimiento,Fecha Nacimiento
+780,FormMascotasTutores,CliFechapermiso,Fecha Permiso Conducir
+781,FormMascotasTutores,CliCampoFecha9,Campo Fecha Libre 1
+782,FormMascotasTutores,CliCampoFecha10,Campo Fecha Libre 2
+783,FormMascotasTutores,CliCampoFecha11,Campo Fecha Libre 3
+784,FormMascotasTutores,CliCampoFecha12,Campo Fecha Libre 4
+785,FormMascotasTutores,CliCampofecha13,Campo Fecha Libre 5
+786,FormMascotasTutores,CliNotas,Notas
+787,FormMascotasTutores,CliNotas1,Notas1
+788,FormMascotasTutores,CliNotas2,Notas2
+789,FormMascotasTutores,CliNotas3,Notas3
+790,FormMascotasTutores,CliNotas4,Notas4
+791,FormMascotasTutores,CliNotas5,Notas5
+792,FormMascotasTutores,CliEstado2,Estado 2
+793,FormMascotasTutores,CliEstado3,Estado 3
+794,FormMascotasTutores,CliEstado4,Estado 4
+795,FormMascotasTutores,CliNombre,Nombre
+796,FormMascotasTutores,CliTelefono,Teléfono 1
+797,FormMascotasTutores,CliTelefono2,Teléfono 2
+798,FormMascotasTutores,CliTelefono3,Teléfono 3
+799,FormMascotasTutores,CliFax,Fax
+800,FormMascotasTutores,CliNif,NIF
+801,FormMascotasTutores,CliCampo1,campo1
+802,FormMascotasTutores,CliCampo2,campo2
+803,FormMascotasTutores,CliCampo3,campo3
+804,FormMascotasTutores,CliCampo4,campo4
+805,FormMascotasTutores,CliCampo5,campo5
+806,FormMascotasTutores,CliCampo6,campo6
+807,FormMascotasTutores,CliCampo7,campo7
+808,FormMascotasTutores,CliCampo8,campo8
+809,FormMascotasTutores,CliCampo9,campo9
+810,FormMascotasTutores,CliCampo10,campo10
+811,FormMascotasTutores,CliCampo11,Campo11
+812,FormMascotasTutores,CliCampo12,campo12
+813,FormMascotasTutores,CliCampo13,campo13
+814,FormMascotasTutores,CliCampo14,campo14
+815,FormMascotasTutores,CliCampo15,Campo15
+816,FormMascotasTutores,CliCampo16,Campo16
+817,FormMascotasTutores,CliCampo17,Campo17
+818,FormMascotasTutores,CliCampo18,Campo18
+819,FormMascotasTutores,CliCampo19,Campo19
+820,FormMascotasTutores,CliCampo20,Campo20
+821,FormMascotasTutores,CliCampoFecha1,campofecha1
+822,FormMascotasTutores,CliCampoFecha2,campofecha2
+823,FormMascotasTutores,CliCampoFecha3,campofecha3
+824,FormMascotasTutores,CliCampoFecha4,campofecha4
+825,FormMascotasTutores,CliCampoFecha5,Fecha5
+826,FormMascotasTutores,CliCampoFecha6,Fecha6
+827,FormMascotasTutores,CliCampoFecha7,Fecha7
+828,FormMascotasTutores,CliCampoFecha8,Fecha8
+829,FormMascotasTutores,Cliperso83,perso83
+830,FormMascotasTutores,Cliperso84,perso84
+831,FormMascotasTutores,Cliperso85,perso85
+832,FormMascotasTutores,Cliperso86,perso86
+833,FormMascotasTutores,Cliperso87,perso87
+834,FormMascotasTutores,Cliperso88,perso88
+835,FormMascotasTutores,Clipersofecha2,persofecha2
+836,FormMascotasTutores,Clipersofecha3,persofecha3
+837,FormMascotasTutores,Clipersofecha4,persofecha4
+838,FormMascotasTutores,Clipersofecha5,persofecha5
+839,FormMascotasTutores,Clipersofecha9,persofecha9
+840,FormMascotasTutores,Clipersofecha7,persofecha7
+841,FormMascotasTutores,Clipersofecha6,persofecha6
+842,FormMascotasTutores,Cliperso79,perso79
+843,FormMascotasTutores,Cliperso78,perso78
+844,FormMascotasTutores,Cliperso77,perso77
+845,FormMascotasTutores,Cliperso76,perso76
+846,FormMascotasTutores,Cliperso75,perso75
+847,FormMascotasTutores,Cliperso74,perso74
+848,FormMascotasTutores,Clipersofecha8,persofecha8
+849,FormCliPral,CliTitulo,Clientes
+850,FormCliPral,CliTitulo2,Cliente
+851,FormCliPral,CliAmpliada,Otros Datos
+852,FormCliPral,CliPestaña1,Datos Administrativos
+853,FormCliPral,CliPestaña2,Pestaña2
+854,FormCliPral,CliNie,Etiqueta Editable
+855,FormCliPral,CliPasaporte,CNAE
+856,FormCliPral,CliTarjetaresidencia,Etiqueta Editable
+857,FormCliPral,CliCampo21,Campo Libre 1
+858,FormCliPral,CliCampo22,Campo Libre 2
+859,FormCliPral,CliCampo23,Campo Libre 3
+860,FormCliPral,CliCampo24,Campo Libre 4
+861,FormCliPral,CliOrigen,Fuente Contacto
+862,FormCliPral,CliZona,Ubicación
+863,FormCliPral,CliEmpresa,Tamaño
+864,FormCliPral,CliDepartamento,Departamento
+865,FormCliPral,CliCargo,Cargo
+866,FormCliPral,Clinumempleados,Nº Empleados
+867,FormCliPral,CliSector,Sector
+868,FormCliPral,CliFechanacimiento,Fecha
+869,FormCliPral,CliFechapermiso,Fecha inicio del ejercicio
+870,FormCliPral,CliCampoFecha9,Fecha fin del ejercicio
+871,FormCliPral,CliCampoFecha10,Fecha vencimiento contrato
+872,FormCliPral,CliCampoFecha11,Campo Fecha Libre 3
+873,FormCliPral,CliCampoFecha12,Campo Fecha Libre 4
+874,FormCliPral,CliCampofecha13,Campo Fecha Libre 5
+881,FormCliPral,CliEstado2,Estado 2
+882,FormCliPral,CliEstado3,Estado 3
+883,FormCliPral,CliEstado4,Estado 4
+884,FormCliPral,CliNombre,Nombre
+885,FormCliPral,CliTelefono,Teléfono 1
+886,FormCliPral,CliTelefono2,Teléfono 2
+887,FormCliPral,CliTelefono3,Teléfono 3
+888,FormCliPral,CliFax,Fax
+889,FormCliPral,CliNif,N.I.F./C.I.F.
+890,FormCliPral,CliCampo1,Campo Libre
+891,FormCliPral,CliCampo2,Campo Libre
+892,FormCliPral,CliCampo3,Campo Libre
+893,FormCliPral,CliCampo4,Campo Libre
+894,FormCliPral,CliCampo5,Campo Libre
+895,FormCliPral,CliCampo6,Campo Libre
+896,FormCliPral,CliCampo7,Campo Libre
+897,FormCliPral,CliCampo8,Campo Libre
+898,FormCliPral,CliCampo9,Campo Libre
+899,FormCliPral,CliCampo10,Campo Libre
+900,FormCliPral,CliCampo11,Campo Libre
+901,FormCliPral,CliCampo12,Campo Libre
+902,FormCliPral,CliCampo13,Campo Libre
+903,FormCliPral,CliCampo14,Campo Libre
+904,FormCliPral,CliCampo15,Campo Libre
+905,FormCliPral,CliCampo16,Campo Libre
+906,FormCliPral,CliCampo17,Campo Libre
+907,FormCliPral,CliCampo18,Campo Libre
+908,FormCliPral,CliCampo19,Campo Libre
+909,FormCliPral,CliCampo20,Campo Libre
+910,FormCliPral,CliCampoFecha1,Campo Fecha Libre
+911,FormCliPral,CliCampoFecha2,Campo Fecha Libre
+912,FormCliPral,CliCampoFecha3,Campo Fecha Libre
+913,FormCliPral,CliCampoFecha4,Campo Fecha Libre
+914,FormCliPral,CliCampoFecha5,Campo Fecha Libre
+915,FormCliPral,CliCampoFecha6,Campo Fecha Libre
+916,FormCliPral,CliCampoFecha7,Campo Fecha Libre
+917,FormCliPral,CliCampoFecha8,Campo Fecha Libre
+918,FormCliPral,Cliperso83,perso83
+919,FormCliPral,Cliperso84,perso84
+920,FormCliPral,Cliperso85,perso85
+921,FormCliPral,Cliperso86,perso86
+922,FormCliPral,Cliperso87,perso87
+923,FormCliPral,Cliperso88,perso88
+924,FormCliPral,Clipersofecha2,persofecha2
+925,FormCliPral,Clipersofecha3,persofecha3
+926,FormCliPral,Clipersofecha4,persofecha4
+927,FormCliPral,Clipersofecha5,persofecha5
+928,FormCliPral,Clipersofecha9,persofecha9
+929,FormCliPral,Clipersofecha7,persofecha7
+930,FormCliPral,Clipersofecha6,persofecha6
+931,FormCliPral,Cliperso79,perso79
+932,FormCliPral,Cliperso78,perso78
+933,FormCliPral,Cliperso77,perso77
+934,FormCliPral,Cliperso76,perso76
+935,FormCliPral,Cliperso75,perso75
+936,FormCliPral,Cliperso74,perso74
+937,FormCliPral,Clipersofecha8,persofecha8
+938,FormOtros,CliTitulo,Contactos
+939,FormOtros,CliTitulo2,Contacto
+940,FormOtros,CliAmpliada,Otros Datos
+941,FormOtros,CliPestaña1,Otros Datos 2
+942,FormOtros,CliPestaña2,Otros Datos 3
+943,FormOtros,CliNie,NIE
+944,FormOtros,CliPasaporte,Pasaporte
+945,FormOtros,CliTarjetaresidencia,Tarjeta de residencia
+946,FormOtros,CliCampo21,Campo Libre 1
+947,FormOtros,CliCampo22,Campo Libre 2
+948,FormOtros,CliCampo23,Campo Libre 3
+949,FormOtros,CliCampo24,Campo Libre 5
+950,FormOtros,CliOrigen,Origen
+951,FormOtros,CliZona,Zona
+952,FormOtros,CliEmpresa,Empresa
+953,FormOtros,CliDepartamento,Departamento
+954,FormOtros,CliCargo,Cargo
+955,FormOtros,Clinumempleados,Número Empleados
+956,FormOtros,CliSector,Sector
+957,FormOtros,CliFechanacimiento,Fecha
+958,FormOtros,CliFechapermiso,Campo Fecha Libre
+959,FormOtros,CliCampoFecha9,Campo Fecha Libre 1
+960,FormOtros,CliCampoFecha10,Campo Fecha Libre 2
+961,FormOtros,CliCampoFecha11,Campo Fecha Libre 3
+962,FormOtros,CliCampoFecha12,Campo Fecha Libre 4
+963,FormOtros,CliCampofecha13,Campo Fecha Libre 5
+964,FormOtros,CliNotas,Notas
+965,FormOtros,CliNotas1,Notas 2
+966,FormOtros,CliNotas2,Notas 3
+967,FormOtros,CliNotas3,Notas 4
+968,FormOtros,CliNotas4,Notas 5
+969,FormOtros,CliNotas5,Notas 6
+970,FormOtros,CliEstado2,Estado 2
+971,FormOtros,CliEstado3,Estado 3
+972,FormOtros,CliEstado4,Estado 4
+973,FormOtros,CliNombre,Nombre
+974,FormOtros,CliTelefono,Teléfono 1
+975,FormOtros,CliTelefono2,Teléfono 2
+976,FormOtros,CliTelefono3,Teléfono 3
+977,FormOtros,CliFax,Fax
+978,FormOtros,CliNif,NIF
+979,FormOtros,CliCampo1,campo1
+980,FormOtros,CliCampo2,campo2
+981,FormOtros,CliCampo3,campo3
+982,FormOtros,CliCampo4,campo4
+983,FormOtros,CliCampo5,campo5
+984,FormOtros,CliCampo6,campo6
+985,FormOtros,CliCampo7,campo7
+986,FormOtros,CliCampo8,campo8
+987,FormOtros,CliCampo9,campo9
+988,FormOtros,CliCampo10,campo10
+989,FormOtros,CliCampo11,Campo11
+990,FormOtros,CliCampo12,campo12
+991,FormOtros,CliCampo13,campo13
+992,FormOtros,CliCampo14,campo14
+993,FormOtros,CliCampo15,Campo15
+994,FormOtros,CliCampo16,Campo16
+995,FormOtros,CliCampo17,Campo17
+996,FormOtros,CliCampo18,Campo18
+997,FormOtros,CliCampo19,Campo19
+998,FormOtros,CliCampo20,Campo20
+999,FormOtros,CliCampoFecha1,campofecha1
+1000,FormOtros,CliCampoFecha2,campofecha2
+1001,FormOtros,CliCampoFecha3,campofecha3
+1002,FormOtros,CliCampoFecha4,campofecha4
+1003,FormOtros,CliCampoFecha5,Fecha5
+1004,FormOtros,CliCampoFecha6,Fecha6
+1005,FormOtros,CliCampoFecha7,Fecha7
+1006,FormOtros,CliCampoFecha8,Fecha8
+1007,FormOtros,Cliperso83,perso83
+1008,FormOtros,Cliperso84,perso84
+1009,FormOtros,Cliperso85,perso85
+1010,FormOtros,Cliperso86,perso86
+1011,FormOtros,Cliperso87,perso87
+1012,FormOtros,Cliperso88,perso88
+1013,FormOtros,Clipersofecha2,persofecha2
+1014,FormOtros,Clipersofecha3,persofecha3
+1015,FormOtros,Clipersofecha4,persofecha4
+1016,FormOtros,Clipersofecha5,persofecha5
+1017,FormOtros,Clipersofecha9,persofecha9
+1018,FormOtros,Clipersofecha7,persofecha7
+1019,FormOtros,Clipersofecha6,persofecha6
+1020,FormOtros,Cliperso79,perso79
+1021,FormOtros,Cliperso78,perso78
+1022,FormOtros,Cliperso77,perso77
+1023,FormOtros,Cliperso76,perso76
+1024,FormOtros,Cliperso75,perso75
+1025,FormOtros,Cliperso74,perso74
+1026,FormOtros,Clipersofecha8,persofecha8
+1027,FormVoluntarios,CliTitulo,Clientes
+1028,FormVoluntarios,CliTitulo2,Cliente
+1029,FormVoluntarios,CliAmpliada,Otros Datos
+1030,FormVoluntarios,CliPestaña1,Otros Datos 2
+1031,FormVoluntarios,CliPestaña2,Otros Datos 3
+1032,FormVoluntarios,CliNie,NIE
+1033,FormVoluntarios,CliPasaporte,Pasaporte
+1034,FormVoluntarios,CliTarjetaresidencia,Tarjeta de residencia
+1035,FormVoluntarios,CliCampo21,Campo Libre 1
+1036,FormVoluntarios,CliCampo22,Campo Libre 2
+1037,FormVoluntarios,CliCampo23,Campo Libre 3
+1038,FormVoluntarios,CliCampo24,Campo Libre 5
+1039,FormVoluntarios,CliOrigen,Origen
+1040,FormVoluntarios,CliZona,Zona
+1041,FormVoluntarios,CliEmpresa,Empresa
+1042,FormVoluntarios,CliDepartamento,Departamento
+1043,FormVoluntarios,CliCargo,Cargo
+1044,FormVoluntarios,Clinumempleados,Número Empleados
+1045,FormVoluntarios,CliSector,Sector
+1046,FormVoluntarios,CliFechanacimiento,Fecha Nacimiento
+1047,FormVoluntarios,CliFechapermiso,Fecha Permiso Conducir
+1048,FormVoluntarios,CliCampoFecha9,Campo Fecha Libre 1
+1049,FormVoluntarios,CliCampoFecha10,Campo Fecha Libre 2
+1050,FormVoluntarios,CliCampoFecha11,Campo Fecha Libre 3
+1051,FormVoluntarios,CliCampoFecha12,Campo Fecha Libre 4
+1052,FormVoluntarios,CliCampofecha13,Campo Fecha Libre 5
+1053,FormVoluntarios,CliNotas,Notas
+1054,FormVoluntarios,CliNotas1,Notas1
+1055,FormVoluntarios,CliNotas2,Notas2
+1056,FormVoluntarios,CliNotas3,Notas3
+1057,FormVoluntarios,CliNotas4,Notas4
+1058,FormVoluntarios,CliNotas5,Notas5
+1059,FormVoluntarios,CliEstado2,Estado 2
+1060,FormVoluntarios,CliEstado3,Estado 3
+1061,FormVoluntarios,CliEstado4,Estado 4
+1062,FormVoluntarios,CliNombre,Nombre
+1063,FormVoluntarios,CliTelefono,Teléfono 1
+1064,FormVoluntarios,CliTelefono2,Teléfono 2
+1065,FormVoluntarios,CliTelefono3,Teléfono 3
+1066,FormVoluntarios,CliFax,Fax
+1067,FormVoluntarios,CliNif,NIF
+1068,FormVoluntarios,CliCampo1,campo1
+1069,FormVoluntarios,CliCampo2,campo2
+1070,FormVoluntarios,CliCampo3,campo3
+1071,FormVoluntarios,CliCampo4,campo4
+1072,FormVoluntarios,CliCampo5,campo5
+1073,FormVoluntarios,CliCampo6,campo6
+1074,FormVoluntarios,CliCampo7,campo7
+1075,FormVoluntarios,CliCampo8,campo8
+1076,FormVoluntarios,CliCampo9,campo9
+1077,FormVoluntarios,CliCampo10,campo10
+1078,FormVoluntarios,CliCampo11,Campo11
+1079,FormVoluntarios,CliCampo12,campo12
+1080,FormVoluntarios,CliCampo13,campo13
+1081,FormVoluntarios,CliCampo14,campo14
+1082,FormVoluntarios,CliCampo15,Campo15
+1083,FormVoluntarios,CliCampo16,Campo16
+1084,FormVoluntarios,CliCampo17,Campo17
+1085,FormVoluntarios,CliCampo18,Campo18
+1086,FormVoluntarios,CliCampo19,Campo19
+1087,FormVoluntarios,CliCampo20,Campo20
+1088,FormVoluntarios,CliCampoFecha1,campofecha1
+1089,FormVoluntarios,CliCampoFecha2,campofecha2
+1090,FormVoluntarios,CliCampoFecha3,campofecha3
+1091,FormVoluntarios,CliCampoFecha4,campofecha4
+1092,FormVoluntarios,CliCampoFecha5,Fecha5
+1093,FormVoluntarios,CliCampoFecha6,Fecha6
+1094,FormVoluntarios,CliCampoFecha7,Fecha7
+1095,FormVoluntarios,CliCampoFecha8,Fecha8
+1096,FormVoluntarios,Cliperso83,perso83
+1097,FormVoluntarios,Cliperso84,perso84
+1098,FormVoluntarios,Cliperso85,perso85
+1099,FormVoluntarios,Cliperso86,perso86
+1100,FormVoluntarios,Cliperso87,perso87
+1101,FormVoluntarios,Cliperso88,perso88
+1102,FormVoluntarios,Clipersofecha2,persofecha2
+1103,FormVoluntarios,Clipersofecha3,persofecha3
+1104,FormVoluntarios,Clipersofecha4,persofecha4
+1105,FormVoluntarios,Clipersofecha5,persofecha5
+1106,FormVoluntarios,Clipersofecha9,persofecha9
+1107,FormVoluntarios,Clipersofecha7,persofecha7
+1108,FormVoluntarios,Clipersofecha6,persofecha6
+1109,FormVoluntarios,Cliperso79,perso79
+1110,FormVoluntarios,Cliperso78,perso78
+1111,FormVoluntarios,Cliperso77,perso77
+1112,FormVoluntarios,Cliperso76,perso76
+1113,FormVoluntarios,Cliperso75,perso75
+1114,FormVoluntarios,Cliperso74,perso74
+1115,FormVoluntarios,Clipersofecha8,persofecha8
+1116,FormFinanciadores,CliTitulo,Clientes
+1117,FormFinanciadores,CliTitulo2,Cliente
+1118,FormFinanciadores,CliAmpliada,Otros Datos
+1119,FormFinanciadores,CliPestaña1,Otros Datos 2
+1120,FormFinanciadores,CliPestaña2,Otros Datos 3
+1121,FormFinanciadores,CliNie,NIE
+1122,FormFinanciadores,CliPasaporte,Pasaporte
+1123,FormFinanciadores,CliTarjetaresidencia,Tarjeta de residencia
+1124,FormFinanciadores,CliCampo21,Campo Libre 1
+1125,FormFinanciadores,CliCampo22,Campo Libre 2
+1126,FormFinanciadores,CliCampo23,Campo Libre 3
+1127,FormFinanciadores,CliCampo24,Campo Libre 5
+1128,FormFinanciadores,CliOrigen,Origen
+1129,FormFinanciadores,CliZona,Zona
+1130,FormFinanciadores,CliEmpresa,Empresa
+1131,FormFinanciadores,CliDepartamento,Departamento
+1132,FormFinanciadores,CliCargo,Cargo
+1133,FormFinanciadores,Clinumempleados,Número Empleados
+1134,FormFinanciadores,CliSector,Sector
+1135,FormFinanciadores,CliFechanacimiento,Fecha Nacimiento
+1136,FormFinanciadores,CliFechapermiso,Fecha Permiso Conducir
+1137,FormFinanciadores,CliCampoFecha9,Campo Fecha Libre 1
+1138,FormFinanciadores,CliCampoFecha10,Campo Fecha Libre 2
+1139,FormFinanciadores,CliCampoFecha11,Campo Fecha Libre 3
+1140,FormFinanciadores,CliCampoFecha12,Campo Fecha Libre 4
+1141,FormFinanciadores,CliCampofecha13,Campo Fecha Libre 5
+1142,FormFinanciadores,CliNotas,Notas
+1143,FormFinanciadores,CliNotas1,Notas1
+1144,FormFinanciadores,CliNotas2,Notas2
+1145,FormFinanciadores,CliNotas3,Notas3
+1146,FormFinanciadores,CliNotas4,Notas4
+1147,FormFinanciadores,CliNotas5,Notas5
+1148,FormFinanciadores,CliEstado2,Estado 2
+1149,FormFinanciadores,CliEstado3,Estado 3
+1150,FormFinanciadores,CliEstado4,Estado 4
+1151,FormFinanciadores,CliNombre,Nombre
+1152,FormFinanciadores,CliTelefono,Teléfono 1
+1153,FormFinanciadores,CliTelefono2,Teléfono 2
+1154,FormFinanciadores,CliTelefono3,Teléfono 3
+1155,FormFinanciadores,CliFax,Fax
+1156,FormFinanciadores,CliNif,NIF
+1157,FormFinanciadores,CliCampo1,campo1
+1158,FormFinanciadores,CliCampo2,campo2
+1159,FormFinanciadores,CliCampo3,campo3
+1160,FormFinanciadores,CliCampo4,campo4
+1161,FormFinanciadores,CliCampo5,campo5
+1162,FormFinanciadores,CliCampo6,campo6
+1163,FormFinanciadores,CliCampo7,campo7
+1164,FormFinanciadores,CliCampo8,campo8
+1165,FormFinanciadores,CliCampo9,campo9
+1166,FormFinanciadores,CliCampo10,campo10
+1167,FormFinanciadores,CliCampo11,Campo11
+1168,FormFinanciadores,CliCampo12,campo12
+1169,FormFinanciadores,CliCampo13,campo13
+1170,FormFinanciadores,CliCampo14,campo14
+1171,FormFinanciadores,CliCampo15,Campo15
+1172,FormFinanciadores,CliCampo16,Campo16
+1173,FormFinanciadores,CliCampo17,Campo17
+1174,FormFinanciadores,CliCampo18,Campo18
+1175,FormFinanciadores,CliCampo19,Campo19
+1176,FormFinanciadores,CliCampo20,Campo20
+1177,FormFinanciadores,CliCampoFecha1,campofecha1
+1178,FormFinanciadores,CliCampoFecha2,campofecha2
+1179,FormFinanciadores,CliCampoFecha3,campofecha3
+1180,FormFinanciadores,CliCampoFecha4,campofecha4
+1181,FormFinanciadores,CliCampoFecha5,Fecha5
+1182,FormFinanciadores,CliCampoFecha6,Fecha6
+1183,FormFinanciadores,CliCampoFecha7,Fecha7
+1184,FormFinanciadores,CliCampoFecha8,Fecha8
+1185,FormFinanciadores,Cliperso83,perso83
+1186,FormFinanciadores,Cliperso84,perso84
+1187,FormFinanciadores,Cliperso85,perso85
+1188,FormFinanciadores,Cliperso86,perso86
+1189,FormFinanciadores,Cliperso87,perso87
+1190,FormFinanciadores,Cliperso88,perso88
+1191,FormFinanciadores,Clipersofecha2,persofecha2
+1192,FormFinanciadores,Clipersofecha3,persofecha3
+1193,FormFinanciadores,Clipersofecha4,persofecha4
+1194,FormFinanciadores,Clipersofecha5,persofecha5
+1195,FormFinanciadores,Clipersofecha9,persofecha9
+1196,FormFinanciadores,Clipersofecha7,persofecha7
+1197,FormFinanciadores,Clipersofecha6,persofecha6
+1198,FormFinanciadores,Cliperso79,perso79
+1199,FormFinanciadores,Cliperso78,perso78
+1200,FormFinanciadores,Cliperso77,perso77
+1201,FormFinanciadores,Cliperso76,perso76
+1202,FormFinanciadores,Cliperso75,perso75
+1203,FormFinanciadores,Cliperso74,perso74
+1204,FormFinanciadores,Clipersofecha8,persofecha8
+1205,FormTerceraEdad,CliTitulo,Clientes
+1206,FormTerceraEdad,CliTitulo2,Cliente
+1207,FormTerceraEdad,CliAmpliada,Otros Datos
+1208,FormTerceraEdad,CliPestaña1,Otros Datos 2
+1209,FormTerceraEdad,CliPestaña2,Otros Datos 3
+1210,FormTerceraEdad,CliNie,NIE
+1211,FormTerceraEdad,CliPasaporte,Pasaporte
+1212,FormTerceraEdad,CliTarjetaresidencia,Tarjeta de residencia
+1213,FormTerceraEdad,CliCampo21,Campo Libre 1
+1214,FormTerceraEdad,CliCampo22,Campo Libre 2
+1215,FormTerceraEdad,CliCampo23,Campo Libre 3
+1216,FormTerceraEdad,CliCampo24,Campo Libre 5
+1217,FormTerceraEdad,CliOrigen,Origen
+1218,FormTerceraEdad,CliZona,Zona
+1219,FormTerceraEdad,CliEmpresa,Empresa
+1220,FormTerceraEdad,CliDepartamento,Departamento
+1221,FormTerceraEdad,CliCargo,Cargo
+1222,FormTerceraEdad,Clinumempleados,Número Empleados
+1223,FormTerceraEdad,CliSector,Sector
+1224,FormTerceraEdad,CliFechanacimiento,Fecha Nacimiento
+1225,FormTerceraEdad,CliFechapermiso,Fecha Permiso Conducir
+1226,FormTerceraEdad,CliCampoFecha9,Campo Fecha Libre 1
+1227,FormTerceraEdad,CliCampoFecha10,Campo Fecha Libre 2
+1228,FormTerceraEdad,CliCampoFecha11,Campo Fecha Libre 3
+1229,FormTerceraEdad,CliCampoFecha12,Campo Fecha Libre 4
+1230,FormTerceraEdad,CliCampofecha13,Campo Fecha Libre 5
+1231,FormTerceraEdad,CliNotas,Notas
+1232,FormTerceraEdad,CliNotas1,Notas1
+1233,FormTerceraEdad,CliNotas2,Notas2
+1234,FormTerceraEdad,CliNotas3,Notas3
+1235,FormTerceraEdad,CliNotas4,Notas4
+1236,FormTerceraEdad,CliNotas5,Notas5
+1237,FormTerceraEdad,CliEstado2,Estado 2
+1238,FormTerceraEdad,CliEstado3,Estado 3
+1239,FormTerceraEdad,CliEstado4,Estado 4
+1240,FormTerceraEdad,CliNombre,Nombre
+1241,FormTerceraEdad,CliTelefono,Teléfono 1
+1242,FormTerceraEdad,CliTelefono2,Teléfono 2
+1243,FormTerceraEdad,CliTelefono3,Teléfono 3
+1244,FormTerceraEdad,CliFax,Fax
+1245,FormTerceraEdad,CliNif,NIF
+1246,FormTerceraEdad,CliCampo1,campo1
+1247,FormTerceraEdad,CliCampo2,campo2
+1248,FormTerceraEdad,CliCampo3,campo3
+1249,FormTerceraEdad,CliCampo4,campo4
+1250,FormTerceraEdad,CliCampo5,campo5
+1251,FormTerceraEdad,CliCampo6,campo6
+1252,FormTerceraEdad,CliCampo7,campo7
+1253,FormTerceraEdad,CliCampo8,campo8
+1254,FormTerceraEdad,CliCampo9,campo9
+1255,FormTerceraEdad,CliCampo10,campo10
+1256,FormTerceraEdad,CliCampo11,Campo11
+1257,FormTerceraEdad,CliCampo12,campo12
+1258,FormTerceraEdad,CliCampo13,campo13
+1259,FormTerceraEdad,CliCampo14,campo14
+1260,FormTerceraEdad,CliCampo15,Campo15
+1261,FormTerceraEdad,CliCampo16,Campo16
+1262,FormTerceraEdad,CliCampo17,Campo17
+1263,FormTerceraEdad,CliCampo18,Campo18
+1264,FormTerceraEdad,CliCampo19,Campo19
+1265,FormTerceraEdad,CliCampo20,Campo20
+1266,FormTerceraEdad,CliCampoFecha1,campofecha1
+1267,FormTerceraEdad,CliCampoFecha2,campofecha2
+1268,FormTerceraEdad,CliCampoFecha3,campofecha3
+1269,FormTerceraEdad,CliCampoFecha4,campofecha4
+1270,FormTerceraEdad,CliCampoFecha5,Fecha5
+1271,FormTerceraEdad,CliCampoFecha6,Fecha6
+1272,FormTerceraEdad,CliCampoFecha7,Fecha7
+1273,FormTerceraEdad,CliCampoFecha8,Fecha8
+1274,FormTerceraEdad,Cliperso83,perso83
+1275,FormTerceraEdad,Cliperso84,perso84
+1276,FormTerceraEdad,Cliperso85,perso85
+1277,FormTerceraEdad,Cliperso86,perso86
+1278,FormTerceraEdad,Cliperso87,perso87
+1279,FormTerceraEdad,Cliperso88,perso88
+1280,FormTerceraEdad,Clipersofecha2,persofecha2
+1281,FormTerceraEdad,Clipersofecha3,persofecha3
+1282,FormTerceraEdad,Clipersofecha4,persofecha4
+1283,FormTerceraEdad,Clipersofecha5,persofecha5
+1284,FormTerceraEdad,Clipersofecha9,persofecha9
+1285,FormTerceraEdad,Clipersofecha7,persofecha7
+1286,FormTerceraEdad,Clipersofecha6,persofecha6
+1287,FormTerceraEdad,Cliperso79,perso79
+1288,FormTerceraEdad,Cliperso78,perso78
+1289,FormTerceraEdad,Cliperso77,perso77
+1290,FormTerceraEdad,Cliperso76,perso76
+1291,FormTerceraEdad,Cliperso75,perso75
+1292,FormTerceraEdad,Cliperso74,perso74
+1293,FormTerceraEdad,Clipersofecha8,persofecha8
+1294,FormExpPral,Titulo,Expedientes
+1295,FormExpPral,Titulo2,Expediente
+1296,FormExpPral,ExpAmpliada,Otros Datos
+1297,FormExpPral,Expcampo21,Etiqueta Editable
+1298,FormExpPral,Expcampo22,Etiqueta Editable
+1299,FormExpPral,Expcampo23,Etiqueta Editable
+1300,FormExpPral,Expcampo24,Campo Libre 4
+1301,FormExpPral,Expcampo25,Campo Libre 5
+1302,FormExpPral,Expcampo26,Campo Libre 6
+1303,FormExpPral,Expcampo27,Campo Libre 7
+1304,FormExpPral,Expcampo28,Etiqueta Editable
+1305,FormExpPral,Expcampo29,Etiqueta Editable
+1306,FormExpPral,Expcampo30,Etiqueta Editable
+1307,FormExpPral,Expcampo31,Campo Libre 11
+1308,FormExpPral,Expcampo32,Campo Libre 12
+1309,FormExpPral,Expcampo33,Campo Libre 13
+1310,FormExpPral,Expcampo34,Campo Libre 14
+1311,FormExpPral,Expcampofecha13,Etiqueta Editable
+1312,FormExpPral,Expcampofecha14,Etiqueta Editable
+1313,FormExpPral,Expcampofecha15,Etiqueta Editable
+1314,FormExpPral,Expcampofecha16,Campo Fecha Libre 4
+1315,FormExpPral,Expcampofecha17,Campo Fecha Libre 5
+1316,FormExpPral,Expcampofecha18,Campo Fecha Libre 6
+1317,FormExpPral,Expcampofecha19,Campo Fecha Libre 7
+1318,FormExpPral,ExpNotas,Notas
+1319,FormExpPral,ExpNotas1,Notas
+1320,FormExpPral,ExpNotas2,Notas2
+1321,FormExpPral,ExpNotas3,Notas3
+1322,FormExpPral,ExpNotas4,Notas4
+1323,FormExpPral,ExpNotas5,Notas5
+1324,FormExpPral,ExpPestaña1,Pestaña 1
+1325,FormExpPral,ExpPestaña2,Pestaña 2
+1326,FormExpPral,ExpPestaña3,Otros Datos 1 Expediente
+1327,FormExpPral,ExpPestaña4,Otros Datos 2 Expediente
+1328,FormExpPral,ExpPestaña5,Otros Datos 3 Expediente
+1329,FormExpPral,ExpPestaña6,Otros Datos 4 Expediente
+1330,FormExpPral,ExpPestaña7,Datos Perso
+1331,FormExpPral,ExpCampo1,Campo Libre
+1332,FormExpPral,ExpCampo2,Campo Libre
+1333,FormExpPral,ExpCampo3,Campo Libre
+1334,FormExpPral,ExpCampo4,Campo Libre
+1335,FormExpPral,ExpCampo5,Campo Libre
+1336,FormExpPral,ExpCampo6,Campo Libre
+1337,FormExpPral,ExpCampo7,Campo Libre
+1338,FormExpPral,ExpCampo8,Campo Libre
+1339,FormExpPral,ExpCampo9,Campo Libre
+1340,FormExpPral,ExpCampo10,Campo Libre
+1341,FormExpPral,ExpCampo11,Campo Libre
+1342,FormExpPral,ExpCampo12,Campo Libre
+1343,FormExpPral,ExpCampo13,Campo Libre
+1344,FormExpPral,ExpCampo14,Campo Libre
+1345,FormExpPral,ExpCampo15,Campo Libre
+1346,FormExpPral,ExpCampo16,Estado Civil
+1347,FormExpPral,ExpCampo17,Campo Libre
+1348,FormExpPral,ExpCampo18,Campo Libre
+1349,FormExpPral,ExpCampo19,Campo Libre
+1350,FormExpPral,ExpCampo20,Campo Libre
+1351,FormExpPral,ExpCampoFecha1,Campo Fecha Libre
+1352,FormExpPral,ExpCampoFecha2,Campo Fecha Libre
+1353,FormExpPral,ExpCampoFecha3,Campo Fecha Libre
+1354,FormExpPral,ExpCampoFecha4,Campo Fecha Libre
+1355,FormExpPral,ExpCampoFecha5,Campo Fecha Libre
+1356,FormExpPral,ExpCampoFecha6,Campo Fecha Libre
+1357,FormExpPral,ExpCampoFecha7,Campo Fecha Libre
+1358,FormExpPral,ExpCampoFecha8,Campo Fecha Libre
+1359,FormExpPral,ExpPestañaEmp,Emplazamientos/Fechas
+1360,FormExpPral,ExpDir,Dirección
+1361,FormExpPral,ExpPob,Población
+1362,FormExpPral,ExpMun,Municipio
+1363,FormExpPral,ExpCp,Código Postal
+1364,FormExpPral,ExpProv,Provincia
+1365,FormExpPral,ExpPais,País
+1366,FormExpPral,Expfencargo,Fecha Encargo
+1367,FormExpPral,Expfvisado,Fecha Visado Colegial
+1368,FormExpPral,Expflicencia,Fecha Licencia de Obras
+1369,FormExpPral,Expfcomienzo,Fecha Comienzo de Obras
+1370,FormExpPral,Expffinal,Fecha Final de Obras
+1371,FormExpPral,Expfcierre,Fecha Cierre de Obra
+1372,FormExpPral,ExpcostefinArq,Coste Final
+1373,FormExpPral,Label140,Emplazamiento
+1374,FormExpPral,Label146,Fechas
+1375,FormExpPral,Label135,Otros Datos
+1376,FormExpPral,ExpInf,Datos Personalizados
+1377,FormExpPral,Expcampotipo1,Número Máximo
+1378,FormExpPral,Expcampotipo2,Campo 2
+1379,FormExpPral,Expcampotipo3,Campo 3
+1380,FormExpPral,Expcampotipo4,Categoría
+1381,FormExpPral,Expcampotipo5,Modalidad
+1382,FormExpPral,Expcampotipo6,Campo Tipo 3
+1383,FormExpPral,Expcampotipo7,Comentarios
+1384,FormExpPral,Expcampofechatipo1,Fecha Inicio
+1385,FormExpPral,Expcampofechatipo2,Fecha fin
+1386,FormExpPral,Expcampofechatipo3,Campo Fecha 3
+1387,FormExpPral,ExpCuantiaPral,Cuantía Principal
+1388,FormExpPral,ExpInter,Intereses
+1389,FormExpPral,ExpCostas,Costas
+1390,FormExpPral,ExpCuantiaTotal,Cuantía Total
+1391,FormExpPral,ExpRefCli,Ref. Expediente
+1392,FormExpPral,ExpNumExp,Núm. Expediente
+1393,FormExpPral,ExpRefProp,Ref. Propia
+1394,FormExpPral,ExpDescripcionExp,Descripción Expediente
+1395,FormExpPral,ExpActual,Expedientes Abiertos
+1396,FormPer1,TituloFormPerX,Inmuebles
+1397,FormPer1,Perso1FormPerX,Descripción
+1398,FormPer1,Perso2FormPerX,NIF/CIF
+1399,FormPer1,Perso3FormPerX,Teléfono 1
+1400,FormPer1,Perso4FormPerX,Fax
+1401,FormPer1,Perso5FormPerX,C.C.C. Inmueble
+1402,FormPer1,Perso6FormPerX,Dirección
+1403,FormPer1,Perso7FormPerX,Población
+1404,FormPer1,Perso8FormPerX,Código Postal
+1405,FormPer1,Perso9FormPerX,Provincia
+1406,FormPer1,Perso10FormPerX,Nacionalidad
+1407,FormPer1,Perso11FormPerX,Teléfono 2
+1408,FormPer1,Perso12FormPerX,Teléfono 3
+1409,FormPer1,Perso13FormPerX,Móvil 1
+1410,FormPer1,Perso14FormPerX,Correo Electrónico
+1411,FormPer1,Perso15FormPerX,Página Web
+1412,FormPer1,Perso18FormPerX,Perso18
+1413,FormPer1,Perso19FormPerX,Perso19
+1414,FormPer1,Perso20FormPerX,Perso20
+1415,FormPer1,Perso21FormPerX,Perso21
+1416,FormPer1,NotasFormPerX,Notas
+1417,FormPer2,TituloFormPerX,Notarías
+1418,FormPer2,Perso1FormPerX,Nombre
+1419,FormPer2,Perso2FormPerX,NIF/CIF
+1420,FormPer2,Perso3FormPerX,Teléfono 1
+1421,FormPer2,Perso4FormPerX,Fax
+1422,FormPer2,Perso5FormPerX,C.C.C. Notaría
+1423,FormPer2,Perso6FormPerX,Dirección
+1424,FormPer2,Perso7FormPerX,Población
+1425,FormPer2,Perso8FormPerX,Código Postal
+1426,FormPer2,Perso9FormPerX,Provincia
+1427,FormPer2,Perso10FormPerX,Nacionalidad
+1428,FormPer2,Perso11FormPerX,Teléfono 2
+1429,FormPer2,Perso12FormPerX,Teléfono 3
+1430,FormPer2,Perso13FormPerX,Móvil 1
+1431,FormPer2,Perso14FormPerX,Correo Electrónico
+1432,FormPer2,Perso15FormPerX,Página Web
+1433,FormPer2,Perso18FormPerX,Perso18
+1434,FormPer2,Perso19FormPerX,Perso19
+1435,FormPer2,Perso20FormPerX,Perso20
+1436,FormPer2,Perso21FormPerX,Perso21
+1437,FormPer2,NotasFormPerX,Notas
+1438,FormPer3,TituloFormPerX,Promotoras
+1439,FormPer3,Perso1FormPerX,Nombre
+1440,FormPer3,Perso2FormPerX,NIF/CIF
+1441,FormPer3,Perso3FormPerX,Teléfono 1
+1442,FormPer3,Perso4FormPerX,Fax
+1443,FormPer3,Perso5FormPerX,C.C.C. Promotora
+1444,FormPer3,Perso6FormPerX,Dirección
+1445,FormPer3,Perso7FormPerX,Población
+1446,FormPer3,Perso8FormPerX,Código Postal
+1447,FormPer3,Perso9FormPerX,Provincia
+1448,FormPer3,Perso10FormPerX,Nacionalidad
+1449,FormPer3,Perso11FormPerX,Teléfono 2
+1450,FormPer3,Perso12FormPerX,Teléfono 3
+1451,FormPer3,Perso13FormPerX,Móvil 1
+1452,FormPer3,Perso14FormPerX,Correo Electrónico
+1453,FormPer3,Perso15FormPerX,Página Web
+1454,FormPer3,Perso18FormPerX,Perso18
+1455,FormPer3,Perso19FormPerX,Perso19
+1456,FormPer3,Perso20FormPerX,Perso20
+1457,FormPer3,Perso21FormPerX,Perso21
+1458,FormPer3,NotasFormPerX,Notas
+1459,FormPer4,TituloFormPerX,Vehículos
+1460,FormPer4,Perso1FormPerX,Matrícula
+1461,FormPer4,Perso2FormPerX,Marca
+1462,FormPer4,Perso3FormPerX,Modelo
+1463,FormPer4,Perso4FormPerX,Franquicia
+1464,FormPer4,Perso5FormPerX,Todo Riesgo
+1465,FormPer4,Perso6FormPerX,Dirección
+1466,FormPer4,Perso7FormPerX,Población
+1467,FormPer4,Perso8FormPerX,Código Postal
+1468,FormPer4,Perso9FormPerX,Provincia
+1469,FormPer4,Perso10FormPerX,Nacionalidad
+1470,FormPer4,Perso11FormPerX,Teléfono 2
+1471,FormPer4,Perso12FormPerX,Teléfono 3
+1472,FormPer4,Perso13FormPerX,Móvil 1
+1473,FormPer4,Perso14FormPerX,Correo Electrónico
+1474,FormPer4,Perso15FormPerX,Página Web
+1475,FormPer4,Perso18FormPerX,Perso18
+1476,FormPer4,Perso19FormPerX,Perso19
+1477,FormPer4,Perso20FormPerX,Perso20
+1478,FormPer4,Perso21FormPerX,Perso21
+1479,FormPer4,NotasFormPerX,Notas
+1480,FormPer5,TituloFormPerX,Agencias Inmobiliarias
+1481,FormPer5,Perso1FormPerX,Nombre
+1482,FormPer5,Perso2FormPerX,NIF/CIF
+1483,FormPer5,Perso3FormPerX,Teléfono 1
+1484,FormPer5,Perso4FormPerX,Fax
+1485,FormPer5,Perso5FormPerX,C.C.C. Agencia Inmobiliaria
+1486,FormPer5,Perso6FormPerX,Dirección
+1487,FormPer5,Perso7FormPerX,Población
+1488,FormPer5,Perso8FormPerX,Código Postal
+1489,FormPer5,Perso9FormPerX,Provincia
+1490,FormPer5,Perso10FormPerX,Nacionalidad
+1491,FormPer5,Perso11FormPerX,Teléfono 2
+1492,FormPer5,Perso12FormPerX,Teléfono 3
+1493,FormPer5,Perso13FormPerX,Móvil 1
+1494,FormPer5,Perso14FormPerX,Correo Electrónico
+1495,FormPer5,Perso15FormPerX,Página Web
+1496,FormPer5,Perso18FormPerX,Perso18
+1497,FormPer5,Perso19FormPerX,Perso19
+1498,FormPer5,Perso20FormPerX,Perso20
+1499,FormPer5,Perso21FormPerX,Perso21
+1500,FormPer5,NotasFormPerX,Notas
+1501,FormPer6,TituloFormPerX,Constructoras
+1502,FormPer6,Perso1FormPerX,Nombre
+1503,FormPer6,Perso2FormPerX,NIF/CIF
+1504,FormPer6,Perso3FormPerX,Teléfono 1
+1505,FormPer6,Perso4FormPerX,Fax
+1506,FormPer6,Perso5FormPerX,C.C.C. Constructora
+1507,FormPer6,Perso6FormPerX,Dirección
+1508,FormPer6,Perso7FormPerX,Población
+1509,FormPer6,Perso8FormPerX,Código Postal
+1510,FormPer6,Perso9FormPerX,Provincia
+1511,FormPer6,Perso10FormPerX,Nacionalidad
+1512,FormPer6,Perso11FormPerX,Teléfono 2
+1513,FormPer6,Perso12FormPerX,Teléfono 3
+1514,FormPer6,Perso13FormPerX,Móvil 1
+1515,FormPer6,Perso14FormPerX,Correo Electrónico
+1516,FormPer6,Perso15FormPerX,Página Web
+1517,FormPer6,Perso18FormPerX,Perso18
+1518,FormPer6,Perso19FormPerX,Perso19
+1519,FormPer6,Perso20FormPerX,Perso20
+1520,FormPer6,Perso21FormPerX,Perso21
+1521,FormPer6,NotasFormPerX,Notas
+1522,FormPer7,TituloFormPerX,Proveedores
+1523,FormPer7,Perso1FormPerX,Nombre
+1524,FormPer7,Perso2FormPerX,NIF/CIF
+1525,FormPer7,Perso3FormPerX,Teléfono 1
+1526,FormPer7,Perso4FormPerX,Fax
+1527,FormPer7,Perso5FormPerX,C.C.C. Proveedor
+1528,FormPer7,Perso6FormPerX,Dirección
+1529,FormPer7,Perso7FormPerX,Población
+1530,FormPer7,Perso8FormPerX,Código Postal
+1531,FormPer7,Perso9FormPerX,Provincia
+1532,FormPer7,Perso10FormPerX,Nacionalidad
+1533,FormPer7,Perso11FormPerX,Teléfono 2
+1534,FormPer7,Perso12FormPerX,Teléfono 3
+1535,FormPer7,Perso13FormPerX,Móvil 1
+1536,FormPer7,Perso14FormPerX,Correo Electrónico
+1537,FormPer7,Perso15FormPerX,Página Web
+1538,FormPer7,Perso18FormPerX,Perso18
+1539,FormPer7,Perso19FormPerX,Perso19
+1540,FormPer7,Perso20FormPerX,Perso20
+1541,FormPer7,Perso21FormPerX,Perso21
+1542,FormPer7,NotasFormPerX,Notas
+1543,FormPer8,TituloFormPerX,Fichero Libre 1
+1544,FormPer8,Perso1FormPerX,Nombre
+1545,FormPer8,Perso2FormPerX,NIF/CIF
+1546,FormPer8,Perso3FormPerX,Teléfono 1
+1547,FormPer8,Perso4FormPerX,Fax
+1548,FormPer8,Perso5FormPerX,C.C.C. Fichero 1
+1549,FormPer8,Perso6FormPerX,Dirección
+1550,FormPer8,Perso7FormPerX,Población
+1551,FormPer8,Perso8FormPerX,Código Postal
+1552,FormPer8,Perso9FormPerX,Provincia
+1553,FormPer8,Perso10FormPerX,Nacionalidad
+1554,FormPer8,Perso11FormPerX,Teléfono 2
+1555,FormPer8,Perso12FormPerX,Teléfono 3
+1556,FormPer8,Perso13FormPerX,Móvil 1
+1557,FormPer8,Perso14FormPerX,Correo Electrónico
+1558,FormPer8,Perso15FormPerX,Página Web
+1559,FormPer8,Perso18FormPerX,Perso18
+1560,FormPer8,Perso19FormPerX,Perso19
+1561,FormPer8,Perso20FormPerX,Perso20
+1562,FormPer8,Perso21FormPerX,Perso21
+1563,FormPer8,NotasFormPerX,Notas
+1564,FormPer9,TituloFormPerX,Fichero Libre 2
+1565,FormPer9,Perso1FormPerX,Nombre
+1566,FormPer9,Perso2FormPerX,NIF/CIF
+1567,FormPer9,Perso3FormPerX,Teléfono 1
+1568,FormPer9,Perso4FormPerX,Fax
+1569,FormPer9,Perso5FormPerX,C.C.C. Fichero 2
+1570,FormPer9,Perso6FormPerX,Dirección
+1571,FormPer9,Perso7FormPerX,Población
+1572,FormPer9,Perso8FormPerX,Código Postal
+1573,FormPer9,Perso9FormPerX,Provincia
+1574,FormPer9,Perso10FormPerX,Nacionalidad
+1575,FormPer9,Perso11FormPerX,Teléfono 2
+1576,FormPer9,Perso12FormPerX,Teléfono 3
+1577,FormPer9,Perso13FormPerX,Móvil 1
+1578,FormPer9,Perso14FormPerX,Correo Electrónico
+1579,FormPer9,Perso15FormPerX,Página Web
+1580,FormPer9,Perso18FormPerX,Perso18
+1581,FormPer9,Perso19FormPerX,Perso19
+1582,FormPer9,Perso20FormPerX,Perso20
+1583,FormPer9,Perso21FormPerX,Perso21
+1584,FormPer9,NotasFormPerX,Notas
+1585,FormPer10,TituloFormPerX,Fichero Libre 3
+1586,FormPer10,Perso1FormPerX,Nombre
+1587,FormPer10,Perso2FormPerX,NIF/CIF
+1588,FormPer10,Perso3FormPerX,Teléfono 1
+1589,FormPer10,Perso4FormPerX,Fax
+1590,FormPer10,Perso5FormPerX,C.C.C. Fichero 3
+1591,FormPer10,Perso6FormPerX,Dirección
+1592,FormPer10,Perso7FormPerX,Población
+1593,FormPer10,Perso8FormPerX,Código Postal
+1594,FormPer10,Perso9FormPerX,Provincia
+1595,FormPer10,Perso10FormPerX,Nacionalidad
+1596,FormPer10,Perso11FormPerX,Teléfono 2
+1597,FormPer10,Perso12FormPerX,Teléfono 3
+1598,FormPer10,Perso13FormPerX,Móvil 1
+1599,FormPer10,Perso14FormPerX,Correo Electrónico
+1600,FormPer10,Perso15FormPerX,Página Web
+1601,FormPer10,Perso18FormPerX,Perso18
+1602,FormPer10,Perso19FormPerX,Perso19
+1603,FormPer10,Perso20FormPerX,Perso20
+1604,FormPer10,Perso21FormPerX,Perso21
+1605,FormPer10,NotasFormPerX,Notas
+1606,FormSegExp,SegCampofecha1,campofecha1
+1607,FormSegExp,SegCampofecha2,Fecha2
+1608,FormSegExp,SegCampofecha3,Fecha3
+1609,FormSegExp,SegCampofecha4,Fecha4
+1610,FormSegExp,SegCampofecha5,Fecha5
+1611,FormSegExp,SegCampofecha6,Campo Fecha 6
+1612,FormSegExp,SegCampo1,Campo1
+1613,FormSegExp,SegCampo2,Campo2
+1614,FormSegExp,SegCampo3,Campo3
+1615,FormSegExp,SegCampo4,campo4
+1616,FormSegExp,SegCampo5,Campo5
+1617,FormSegExp,SegCampo6,Campo6
+1618,FormSegExp,SegCampo7,Campo7
+1619,FormSegExp,SegCampo8,Campo 8
+1620,FormSegExp,SegCampo9,campo9
+1621,FormSegExp,SegCampofecha7,Campo Fecha 7
+1622,FormSegExp,SegCampofecha8,Campo Fecha 8
+1623,FormSegExp,SegCampofecha9,Campo Fecha 9
+1624,FormSegExp,SegCampofecha10,Campo Fecha 10
+1625,FormSegExp,SegCampofecha11,Campo Fecha 11
+1626,FormSegExp,SegCampofecha12,Campo Fecha 12
+1627,FormSegExp,SegCampo10,Campo 10
+1628,FormSegExp,SegCampo11,Campo 11
+1629,FormSegExp,SegCampo12,Campo 12
+1630,FormSegExp,SegCampo13,Campo 13
+1631,FormSegExp,SegCampo14,Campo 14
+1632,FormSegExp,SegCampo15,Campo 15
+1633,FormSegExp,SegCampo16,Campo 16
+1634,FormSegExp,SegCampo17,Campo 17
+1635,FormSegExp,SegCampo18,Campo 18
+1636,FormSegExp,SegCampofecha13,Campo Fecha 13
+1637,FormSegExp,SegCampofecha14,Campo Fecha 14
+1638,FormSegExp,SegCampofecha15,Campo Fecha 15
+1639,FormSegExp,SegCampofecha16,Campo Fecha 16
+1640,FormSegExp,SegCampofecha17,Campo Fecha 17
+1641,FormSegExp,SegCampofecha18,Campo Fecha 18
+1642,FormSegExp,SegCampo19,Campo 19
+1643,FormSegExp,SegCampo20,Campo 20
+1644,FormSegExp,SegCampo21,Campo 21
+1645,FormSegExp,SegCampo22,Campo 22
+1646,FormSegExp,SegCampo23,Campo 23
+1647,FormSegExp,SegCampo24,Campo 24
+1648,FormSegExp,SegCampo25,Campo 25
+1649,FormSegExp,SegCampo26,Campo 26
+1650,FormSegExp,SegCampo27,Campo 27
+1651,FormSegExp,SegPanel1,Otros Datos 1
+1652,FormSegExp,SegPanel2,Otros Datos 2
+1653,FormSegExp,SegPanel3,Otros Datos 3
+1654,FormSegExp,SegPlanIndividual,Plan Individual
+1655,FormSegExp,Segestado,Estado Enero
+1656,FormSegExp,Segestado2,Estado Febrero
+1657,FormSegExp,Segestado3,Estado Marzo
+1658,FormSegExp,Segestado4,Estado Abril
+1659,FormSegExp,Segestado5,Estado Mayo
+1660,FormSegExp,Segestado6,Estado Junio
+1661,FormSegExp,Segestado7,Estado Julio
+1662,FormSegExp,Segestado8,Estado Agosto
+1663,FormSegExp,Segestado9,Estado Septiembre
+1664,FormSegExp,Segestado10,Estado Octubre
+1665,FormSegExp,Segestado11,Estado Noviembre
+1666,FormSegExp,Segestado12,Estado Diciembre
+1667,FormSegExp,SegNotas,Notas
+1668,FormSegExp,SegNotas1,Notas 1
+1669,FormSegExp,SegNotas2,Notas 2
+1670,FormSegExp,SegNotas3,Notas 3
+1671,FormSegExp,SegNotas4,Notas 4
+1672,FormSegExp,SegNotas5,Notas 5
+1673,FormSegCli,SegNotas,Notas
+1674,FormSegCli,SegNotas1,Notas 2
+1675,FormSegCli,SegNotas2,Notas 3
+1676,FormSegCli,SegNotas3,Notas 3
+1677,FormSegCli,SegNotas4,Notas 4
+1678,FormSegCli,SegNotas5,Notas 5
+1679,FormClivencimientos,VenCampoFecha1,Fecha 1
+1680,FormClivencimientos,VenCampoFecha2,Fecha 2
+1681,FormClivencimientos,VenCampo1,Campo Libre 1
+1682,FormClivencimientos,VenCampo2,Campo Libre 1
+1683,FormClivencimientos,VenCampo3,Campo Libre 2
+1684,FormClivencimientos,VenCampo4,Campo Libre 2
+1685,FormCliModOblig,ObliCampo1,Campo1
+1686,FormCliModOblig,ObliCampo2,Campo2
+1687,FormCliModOblig,ObliCampo3,Campo3
+1688,FormCliModOblig,ObliCampo4,Campo4
+1689,FormCliModOblig,ObliCampo5,Campo5
+1690,FormCliModOblig,ObliCampo6,Campo6
+1691,FormCliModOblig,ObliTipo,Tipo Obligación
+1692,FormCliModOblig,ObliCodigo,Código Electrónico
+1693,FormOporMan,oporCampoNum1,Campo Numérico 1
+1694,FormOporMan,oporCampoNum2,Campo Numérico 2
+1695,FormOporMan,oporCampoNum3,Campo Numérico 3
+1696,FormOporMan,oporCampoNum4,Campo Numérico 4
+1697,FormOporMan,oporCampoNum5,Campo Numérico 5
+1698,FormOporMan,oporCampo1,Campo Alfanumérico 1
+1699,FormOporMan,oporCampo2,Campo Alfanumérico 2
+1700,FormOporMan,oporCampo3,Campo Alfanumérico 3
+1701,FormOporMan,oporCampo4,Campo Alfanumérico 4
+1702,FormOporMan,oporCampo5,Campo Alfanumérico 5
+1703,FormOporMan,oporCampo6,Campo Alfanumérico 6
+1704,FormOporMan,oporCampo7,Campo Desplegable Libre 1
+1705,FormOporMan,oporCampo8,Desplegable 2
+1706,FormOporMan,oporCampo9,Desplegable 3
+1707,FormOporMan,oporCampo10,Gestor impagado
+1708,FormOporMan,oporCampo11,Desplegable 5
+1709,FormOporMan,oporCampo12,Desplegable 6
+1710,FormOporMan,oporCampo13,Desplegable 7
+1711,FormOporMan,oporCampo14,Desplegable 8
+1712,FormOporMan,oporCampo15,Desplegable 9
+1713,FormOporMan,oporCampo16,Desplegable 10
+1714,FormOporMan,oporCampo17,Campo BD Libre 1
+1715,FormOporMan,oporCampo18,Campo BD Libre 2
+1716,FormOporMan,oporCampo19,Campo BD Libre 3
+1717,FormOporMan,oporCampo20,Campo BD Libre 4
+1718,FormOporMan,oporCampo21,Campo BD Libre 5
+1719,FormOporMan,oporNotas,Notas
+1720,FormOporMan,oporNotas1,Notas 1
+1721,FormOporMan,oporNotas2,Notas 2
+1722,FormOporMan,oporNotas3,Notas 3
+1723,FormOporMan,oporNotas4,Notas 4
+1724,FormOporMan,oporNotas5,Notas 5
+1725,FormOporMan,tareasNotas,Notas
+1726,FormOporMan,tareasNotas1,Notas 1
+1727,FormOporMan,tareasNotas2,Notas 2
+1728,FormOporMan,tareasNotas3,Notas 3
+1729,FormOporMan,tareasNotas4,Notas 4
+1730,FormOporMan,tareasNotas5,Notas 5
+1731,FormOporMan,pedidosNotas,Notas
+1732,FormOporMan,pedidosNotas1,Notas 1
+1733,FormOporMan,pedidosNotas2,Notas 2
+1734,FormOporMan,pedidosNotas3,Notas 3
+1735,FormOporMan,pedidosNotas4,Notas 4
+1736,FormOporMan,pedidosNotas5,Notas 5
+1737,FormOporMan,oporCampoFecha1,Campo Fecha Libre 1
+1738,FormOporMan,oporCampoFecha2,Campo Fecha Libre 2
+1739,FormOporMan,oporCampoFecha3,Campo Fecha Libre 3
+1740,FormOporMan,oporCampoFecha4,Campo Fecha Libre 4
+1741,FormOporMan,oporCampoFecha5,Campo Fecha Libre 5
+1742,FormOporMan,oporCampoFecha6,Campo Fecha Libre 6
+1743,FormOporMan,oporCampoFecha7,Campo Fecha Libre 7
+1744,FormOporMan,oporCampoFecha8,Campo Fecha Libre 8
+1745,FormOporMan,recobrosNotas,Notas
+1746,FormOporMan,recobrosNotas1,Notas 1
+1747,FormOporMan,recobrosNotas2,Notas 2
+1748,FormOporMan,recobrosNotas3,Notas 3
+1749,FormOporMan,recobrosNotas4,Notas 4
+1750,FormOporMan,recobrosNotas5,Notas 5
+1751,FormFacMan,Tipologia1,Tipologias Factura
+1752,FormFacMan,Tipologia2,Tipologias Factura 2
+1753,FormFacMan,Tipologia3,Tipologias Factura 3
+1754,FormFacMan,campolibreproforma1,Campo Libre 1
+1755,FormFacMan,campolibreproforma2,Campo Libre 2
+1756,FormFacMan,campolibreproforma3,Campo Libre 3
+1757,FormFacMan,campolibreproforma4,Campo Libre 4
+1758,FormFacMan,campolibreproforma5,Campo Libre 5
+1759,FormExpCue,CueCampo1,Campo 1
+1760,FormExpCue,CueCampo2,Campo 2
+1761,FormExpCue,CueCampo3,Campo 3
+1762,FormExpCue,CueCampo4,Campo 4
+1763,FormExpCue,CueCampo5,Campo 5
+1764,FormExpCue,CueCampoFecha1,Fecha 1
+1765,FormExpCue,CueCampoFecha2,Fecha 2
+1766,FormExpCue,CueCampoFecha3,Fecha 3
+1767,FormExpCue,CuePrevi,Previas
+1768,FormExpCue,CuePrevi1,Previas1
+1769,FormExpCue,CuePrevi2,Previas2
+1770,FormExpCue,CuePrevi3,Previas3
+1771,FormCliPers3,CliPersTitulo,Medicación
+1772,FormCliPers3,CliPer1,Tipo Medicación
+1773,FormCliPers3,CliPer2,Medicación
+1774,FormCliPers3,CliPer3,Motivo
+1775,FormCliPers3,CliPer4,Estado
+1776,FormCliPers3,CliPer5,Desayuno
+1777,FormCliPers3,CliPer6,Merienda
+1778,FormCliPers3,CliPer7,Noche
+1779,FormCliPers3,CliPer8,Campo Libre
+1780,FormCliPers3,CliPer9,Comida
+1781,FormCliPers3,CliPer10,Cena
+1782,FormCliPers3,CliPer11,Campo Libre
+1783,FormCliPers3,CliPer12,Campo Personalizable 3
+1784,FormCliPers3,CliPer13,Campo Personalizable 4
+1785,FormCliPers3,CliPer14,Campo Personalizable 5
+1786,FormCliPers3,CliPer15,Campo Personalizable 6
+1787,FormCliPers3,CliPer16,Label16
+1788,FormCliPers3,CliPer17,Label17
+1789,FormCliPers3,CliPer18,Label18
+1790,FormCliPers3,CliPer19,Label19
+1791,FormCliPers3,CliPer20,Label20
+1792,FormCliPers3,CliPer21,Tipo de Almacén
+1793,FormCliPers3,CliPer22,Tipo de Envase
+1794,FormCliPers3,CliPer23,Principio Activo
+1795,FormCliPers3,CliPer24,Frecuencia
+1796,FormCliPers3,CliPer25,Label25
+1797,FormCliPers3,CliPerFecha1,Fecha Alta
+1798,FormCliPers3,CliPerFecha2,Fecha Baja
+1799,FormCliPers3,CliPerFecha3,lblFECHA3
+1800,FormCliPers3,CliPerFecha4,Fecha Visado
+1801,FormCliPers3,CliPerFecha5,Fecha Prescripción
+1802,FormCliPers3,CliPerFecha6,Fecha Caducidad
+1803,FormCliPers3,CliPersologic7,Visado
+1804,FormCliPers3,CliPerNum6,CliPerNum6
+1805,FormCliPers3,CliPerNum7,CliPerNum7
+1806,FormCliPers3,CliPerNum8,CliPerNum8
+1807,FormCliPers3,CliPerNum9,CliPerNum9
+1808,FormCliPers3,CliPerNum10,CliPerNum10
+1809,FormCliPers3,Clidosis,Dosis
+1810,FormCliPers3,Clidonde,Dónde comprarlo
+1811,FormCliConPral,ContrarioTituloPlural,Contrarios
+1812,FormCliConPral,ContrarioTituloSingular,Contrario
+1813,FormAboPral,AbogadoTituloPlural,Abogados
+1814,FormAboPral,AbogadoTituloSingular,Abogado
+1815,FormProPral,ProcuradorTituloPlural,Procuradores
+1816,FormProPral,ProcuradorTituloSingular,Procurador
+1817,FormJuzPral,JuzgadoTituloPlural,Juzgados
+1818,FormJuzPral,JuzgadoTituloSingular,Juzgado
+1819,FormOrgPral,OrganismosTituloPlural,Organismos
+1820,FormOrgPral,OrganismoTituloSingular,Organismo
+1821,FormBan,BancosNotas,Notas
+1822,FormExpPerso1,TituloFormExpPersoX,FormExpPerso1
+1823,FormExpPerso2,TituloFormExpPersoX,FormExpPerso2
+1824,FormExpPerso3,TituloFormExpPersoX,FormExpPerso3
+1825,FormExpPerso4,TituloFormExpPersoX,FormExpPerso4
+1826,FormExpPerso5,TituloFormExpPersoX,FormExpPerso5
+1827,FormCliPers1,TituloFormCliPersoX,FormCliPers1
+1828,FormCliPers2,TituloFormCliPersoX,FormCliPers2
+1829,FormCliPers3,TituloFormCliPersoX,Medicación
+1830,FormCliPers4,TituloFormCliPersoX,FormCliPers4
+1831,FormCliPers5,TituloFormCliPersoX,FormCliPers5
+1832,FormCliPers6,TituloFormCliPersoX,Direcciones
+1833,FormCliPers7,TituloFormCliPersoX,Perso7
+1834,FormCliPers1,ClipersX_PERSO1,Label1
+1835,FormCliPers1,ClipersX_PERSO2,Label2
+1836,FormCliPers1,ClipersX_PERSO3,Label3
+1837,FormCliPers1,ClipersX_PERSO4,Label4
+1838,FormCliPers1,ClipersX_PERSO5,Label5
+1839,FormCliPers1,ClipersX_PERSO6,Label6
+1840,FormCliPers1,ClipersX_PERSO7,Label7
+1841,FormCliPers1,ClipersX_PERSO8,Label8
+1842,FormCliPers1,ClipersX_PERSO9,Label9
+1843,FormCliPers1,ClipersX_PERSO10,Label10
+1844,FormCliPers1,ClipersX_PERSO11,Label11
+1845,FormCliPers1,ClipersX_PERSO12,Label12
+1846,FormCliPers1,ClipersX_PERSO13,Label13
+1847,FormCliPers1,ClipersX_PERSO14,Label14
+1848,FormCliPers1,ClipersX_PERSO15,Label15
+1849,FormCliPers1,ClipersX_PERSO16,Label16
+1850,FormCliPers1,ClipersX_PERSO17,Label17
+1851,FormCliPers1,ClipersX_PERSO18,Label18
+1852,FormCliPers1,ClipersX_PERSO19,Label19
+1853,FormCliPers1,ClipersX_PERSO20,Label20
+1854,FormCliPers1,ClipersX_PERSOFECHA1,lblFECHA
+1855,FormCliPers1,ClipersX_PERSOFECHA2,lblFECHA2
+1856,FormCliPers1,ClipersX_PERSOFECHA3,lblFECHA3
+1857,FormCliPers2,ClipersX_PERSO1,Label1
+1858,FormCliPers2,ClipersX_PERSO2,Label2
+1859,FormCliPers2,ClipersX_PERSO3,Label3
+1860,FormCliPers2,ClipersX_PERSO4,Label4
+1861,FormCliPers2,ClipersX_PERSO5,Label5
+1862,FormCliPers2,ClipersX_PERSO6,Label6
+1863,FormCliPers2,ClipersX_PERSO7,Label7
+1864,FormCliPers2,ClipersX_PERSO8,Label8
+1865,FormCliPers2,ClipersX_PERSO9,N.I.F. / C.I.F.
+1866,FormCliPers2,ClipersX_PERSO10,Label10
+1867,FormCliPers2,ClipersX_PERSO11,Label11
+1868,FormCliPers2,ClipersX_PERSO12,Label12
+1869,FormCliPers2,ClipersX_PERSO13,Label13
+1870,FormCliPers2,ClipersX_PERSO14,Label14
+1871,FormCliPers2,ClipersX_PERSO15,Label15
+1872,FormCliPers2,ClipersX_PERSO16,Label16
+1873,FormCliPers2,ClipersX_PERSO17,Label17
+1874,FormCliPers2,ClipersX_PERSO18,Label18
+1875,FormCliPers2,ClipersX_PERSO19,Label19
+1876,FormCliPers2,ClipersX_PERSO20,Label20
+1877,FormCliPers2,ClipersX_PERSOFECHA1,lblFECHA
+1878,FormCliPers2,ClipersX_PERSOFECHA2,lblFECHA2
+1879,FormCliPers2,ClipersX_PERSOFECHA3,lblFECHA3
+1880,FormCliPers3,ClipersX_PERSO1,Tipo Medicación
+1881,FormCliPers3,ClipersX_PERSO2,Medicación
+1882,FormCliPers3,ClipersX_PERSO3,Motivo
+1883,FormCliPers3,ClipersX_PERSO4,Estado
+1884,FormCliPers3,ClipersX_PERSO5,Desayuno
+1885,FormCliPers3,ClipersX_PERSO6,Merienda
+1886,FormCliPers3,ClipersX_PERSO7,Noche
+1887,FormCliPers3,ClipersX_PERSO8,Campo Libre
+1888,FormCliPers3,ClipersX_PERSO9,Comida
+1889,FormCliPers3,ClipersX_PERSO10,Cena
+1890,FormCliPers3,ClipersX_PERSO11,Campo Libre
+1891,FormCliPers3,ClipersX_PERSO12,Label12
+1892,FormCliPers3,ClipersX_PERSO13,Label13
+1893,FormCliPers3,ClipersX_PERSO14,Label14
+1894,FormCliPers3,ClipersX_PERSO15,Label15
+1895,FormCliPers3,ClipersX_PERSO16,Label16
+1896,FormCliPers3,ClipersX_PERSO17,Label17
+1897,FormCliPers3,ClipersX_PERSO18,Label18
+1898,FormCliPers3,ClipersX_PERSO19,Label19
+1899,FormCliPers3,ClipersX_PERSO20,Label20
+1900,FormCliPers3,ClipersX_PERSOFECHA1,Fecha Alta
+1901,FormCliPers3,ClipersX_PERSOFECHA2,Fecha Baja
+1902,FormCliPers3,ClipersX_PERSOFECHA3,lblFECHA3
+1903,FormCliPers4,ClipersX_PERSO1,Label1
+1904,FormCliPers4,ClipersX_PERSO2,Label2
+1905,FormCliPers4,ClipersX_PERSO3,Label3
+1906,FormCliPers4,ClipersX_PERSO4,Label4
+1907,FormCliPers4,ClipersX_PERSO5,Label5
+1908,FormCliPers4,ClipersX_PERSO6,Label6
+1909,FormCliPers4,ClipersX_PERSO7,Label7
+1910,FormCliPers4,ClipersX_PERSO8,Label8
+1911,FormCliPers4,ClipersX_PERSO9,Label9
+1912,FormCliPers4,ClipersX_PERSO10,Label10
+1913,FormCliPers4,ClipersX_PERSO11,Label11
+1914,FormCliPers4,ClipersX_PERSO12,Label12
+1915,FormCliPers4,ClipersX_PERSO13,Label13
+1916,FormCliPers4,ClipersX_PERSO14,Label14
+1917,FormCliPers4,ClipersX_PERSO15,Label15
+1918,FormCliPers4,ClipersX_PERSO16,Label16
+1919,FormCliPers4,ClipersX_PERSO17,Label17
+1920,FormCliPers4,ClipersX_PERSO18,Label18
+1921,FormCliPers4,ClipersX_PERSO19,Label19
+1922,FormCliPers4,ClipersX_PERSO20,Label20
+1923,FormCliPers4,ClipersX_PERSOFECHA1,lblFECHA
+1924,FormCliPers4,ClipersX_PERSOFECHA2,lblFECHA2
+1925,FormCliPers4,ClipersX_PERSOFECHA3,lblFECHA3
+1926,FormCliPers5,ClipersX_PERSO1,Label1
+1927,FormCliPers5,ClipersX_PERSO2,Label2
+1928,FormCliPers5,ClipersX_PERSO3,Label3
+1929,FormCliPers5,ClipersX_PERSO4,Label4
+1930,FormCliPers5,ClipersX_PERSO5,Label5
+1931,FormCliPers5,ClipersX_PERSO6,Label6
+1932,FormCliPers5,ClipersX_PERSO7,Label7
+1933,FormCliPers5,ClipersX_PERSO8,Label8
+1934,FormCliPers5,ClipersX_PERSO9,Label9
+1935,FormCliPers5,ClipersX_PERSO10,Label10
+1936,FormCliPers5,ClipersX_PERSO11,Label11
+1937,FormCliPers5,ClipersX_PERSO12,Label12
+1938,FormCliPers5,ClipersX_PERSO13,Label13
+1939,FormCliPers5,ClipersX_PERSO14,Label14
+1940,FormCliPers5,ClipersX_PERSO15,Label15
+1941,FormCliPers5,ClipersX_PERSO16,Label16
+1942,FormCliPers5,ClipersX_PERSO17,Label17
+1943,FormCliPers5,ClipersX_PERSO18,Label18
+1944,FormCliPers5,ClipersX_PERSO19,Label19
+1945,FormCliPers5,ClipersX_PERSO20,Label20
+1946,FormCliPers5,ClipersX_PERSOFECHA1,lblFECHA
+1947,FormCliPers5,ClipersX_PERSOFECHA2,lblFECHA2
+1948,FormCliPers5,ClipersX_PERSOFECHA3,lblFECHA3
+1949,FormCliPers6,ClipersX_PERSO1,Dirección
+1950,FormCliPers6,ClipersX_PERSO2,Provincia
+1951,FormCliPers6,ClipersX_PERSO3,Código Postal
+1952,FormCliPers6,ClipersX_PERSO4,Población
+1953,FormCliPers6,ClipersX_PERSO5,Nacionalidad
+1954,FormCliPers6,ClipersX_PERSO6,Teléfono
+1955,FormCliPers6,ClipersX_PERSO7,Estado
+1956,FormCliPers6,ClipersX_PERSO8,País
+1957,FormCliPers6,ClipersX_PERSO9,Nombre Contacto
+1958,FormCliPers6,ClipersX_PERSO10,Label10
+1959,FormCliPers6,ClipersX_PERSO11,Label11
+1960,FormCliPers6,ClipersX_PERSO12,Label12
+1961,FormCliPers6,ClipersX_PERSO13,Label13
+1962,FormCliPers6,ClipersX_PERSO14,Label14
+1963,FormCliPers6,ClipersX_PERSO15,Label15
+1964,FormCliPers6,ClipersX_PERSO16,Tipo Dirección
+1965,FormCliPers6,ClipersX_PERSO17,Label17
+1966,FormCliPers6,ClipersX_PERSO18,Label18
+1967,FormCliPers6,ClipersX_PERSO19,Label19
+1968,FormCliPers6,ClipersX_PERSO20,Label20
+1969,FormCliPers6,ClipersX_PERSOFECHA1,Fecha Alta
+1970,FormCliPers6,ClipersX_PERSOFECHA2,Fecha Baja
+1971,FormCliPers6,ClipersX_PERSOFECHA3,lblFECHA3
+1972,FormCliPers7,ClipersX_PERSO1,Label1
+1973,FormCliPers7,ClipersX_PERSO2,Label2
+1974,FormCliPers7,ClipersX_PERSO3,Label3
+1975,FormCliPers7,ClipersX_PERSO4,Label4
+1976,FormCliPers7,ClipersX_PERSO5,Label5
+1977,FormCliPers7,ClipersX_PERSO6,Label6
+1978,FormCliPers7,ClipersX_PERSO7,Label7
+1979,FormCliPers7,ClipersX_PERSO8,Label8
+1980,FormCliPers7,ClipersX_PERSO9,Label9
+1981,FormCliPers7,ClipersX_PERSO10,Label10
+1982,FormCliPers7,ClipersX_PERSO11,Label11
+1983,FormCliPers7,ClipersX_PERSO12,Label12
+1984,FormCliPers7,ClipersX_PERSO13,Label13
+1985,FormCliPers7,ClipersX_PERSO14,Label14
+1986,FormCliPers7,ClipersX_PERSO15,Label15
+1987,FormCliPers7,ClipersX_PERSO16,Label16
+1988,FormCliPers7,ClipersX_PERSO17,Label17
+1989,FormCliPers7,ClipersX_PERSO18,Label18
+1990,FormCliPers7,ClipersX_PERSO19,Label19
+1991,FormCliPers7,ClipersX_PERSO20,Label20
+1992,FormCliPers7,ClipersX_PERSOFECHA1,lblFECHA
+1993,FormCliPers7,ClipersX_PERSOFECHA2,lblFECHA2
+1994,FormCliPers7,ClipersX_PERSOFECHA3,lblFECHA3
+1995,FormFac,FacNotas,Notas
+1996,FormFac,FacNotas1,Notas1
+1997,FormFac,FacNotas2,Notas2
+1998,FormFac,FacNotas3,Notas3
+1999,FormFac,FacNotas4,Notas4
+2000,FormFac,FacNotas5,Notas5
+2001,FormFac,FacNotas6,Notas6
+2002,FormCorConPral,TituloFormCorConPral,Personas de Contacto
+2003,FormCorConPral,FormCorConPral_Titulo2,Persona de Contacto
+2004,FormCorConPral,FormCorConPral_ContactNombre,Nombre
+2005,FormCorConPral,FormCorConPral_ContactNif,N.I.F./C.I.F.
+2006,FormCorConPral,FormCorConPral_ContactDir,Dirección
+2007,FormCorConPral,FormCorConPral_ContactPob,Población
+2008,FormCorConPral,FormCorConPral_ContactCueProv,Cta Provisión
+2009,FormCorConPral,FormCorConPral_ContactCP,Código Postal
+2010,FormCorConPral,FormCorConPral_ContactProv,Provincia
+2011,FormCorConPral,FormCorConPral_ContactNaciona,Nacionalidad
+2012,FormCorConPral,FormCorConPral_ContactTel1,Teléfono 1
+2013,FormCorConPral,FormCorConPral_ContactTel2,Teléfono 2
+2014,FormCorConPral,FormCorConPral_ContactTel3,Teléfono 3
+2015,FormCorConPral,FormCorConPral_ContactCorreo,Correo Electrónico
+2016,FormCorConPral,FormCorConPral_ContactFax,Fax
+2017,FormCorConPral,FormCorConPral_ContactTelMovil,Móvil 1
+2018,FormCorConPral,FormCorConPral_ContactWeb,Página Web
+2019,FormCorConPral,FormCorConPral_ContacNotas,Notas
+2020,FormCorConPral,FormCorConPral_ContacPerso1,Cargo
+2021,FormPer1,TituloFormPer1,Inmuebles
+2022,FormColPral,TituloFormColPral,Colaboradores
+2023,FormTipAsu,TituloFormTipAsu,Tipos de Asunto
+2024,FormTipExp,TipExpTitulo,Tipo de Expediente
+2025,FormTipExp,TipExpTitulo2,Tipo de Expediente
+2026,FormTipExp,TipExpDescripcion,Descripción
+2027,FormProced,TituloFormProced,Tipos de Procedimiento
+2028,FormSegExp,Segpreciocoste,Coste Acto
+2029,FormSegExp,Segfcostemateriales,Materiales/Productos
+2030,FormSegExp,Segfcosteamortizacion,Amortización Maquinaria
+2031,FormSegExp,Segfcosteterceros,Costes de Terceros
+2032,FormSegExp,Segfcosteotros,Otros
+2033,FormSegExp,Segfcampolibre6,Campo Libre 6
+2034,FormSegExp,Segfcampolibre7,Campo Libre 7
+2035,FormSegExp,Segfcampolibre8,Campo Libre 8
+2036,FormSegExp,Segfcampolibre9,Campo Libre 9
+2037,FormSegExp,Segfcampolibre10,Campo Libre 10
+2038,FormSegExp,Segfcostetotalprecio,T.Precio
+2039,FormSegExp,Segfcostetotalcoste,T. Costes
+2040,FormSegExp,Segfcostetotalbeneficio,T. Beneficio
+2041,FormSegExp,Segfcosteporbeneficio,% Beneficio
+2042,FormSegExp,Segaplicarcoste,Aplicar Coste
+2043,Firmas,ruta_eSignatureOffice,
+2044,CodPerso,clie_conta,1
+2045,CodPerso,cli_merca,1
+2046,CodPerso,cont_con,0
+2047,CodPerso,abog_con,0
+2048,CodPerso,proc_con,0
+2049,CodPerso,gast_imp,0
+2050,CodPerso,hono_imp,0
+2051,CodPerso,per1_altexp,0
+2052,CodPerso,per1_con,0
+2053,CodPerso,per1_adj,0
+2054,CodPerso,per2_altexp,0
+2055,CodPerso,per2_con,0
+2056,CodPerso,per3_altexp,0
+2057,CodPerso,per3_con,0
+2058,CodPerso,per4_altexp,0
+2059,CodPerso,per4_con,0
+2060,CodPerso,per4_adj,0
+2061,CodPerso,per5_altexp,0
+2062,CodPerso,per5_con,0
+2063,CodPerso,per6_altexp,0
+2064,CodPerso,per6_con,0
+2065,CodPerso,per7_altexp,0
+2066,CodPerso,per7_con,1
+2067,CodPerso,per8_altexp,0
+2068,CodPerso,per8_con,0
+2069,CodPerso,per9_altexp,0
+2070,CodPerso,per9_con,0
+2071,CodPerso,per10_altexp,0
+2072,CodPerso,per10_con,0
+2073,CodPerso,Pode_not,0
+2074,codperso,cont_subusu,0
+2075,CodPerso,expe_provgas,0
+2076,CodPerso,expe_5con,0
+2077,CodPerso,expe_arch,0
+2078,CodPerso,expe_archref,0
+2079,CodPerso,expe_tari,0
+2080,CodPerso,expe_esta,0
+2081,CodPerso,expe_prev1,0
+2082,CodPerso,expe_prev2,0
+2083,CodPerso,expe_prev3,0
+2084,CodPerso,extr_con,0
+2085,CodPerso,extr_provgas,0
+2086,CodPerso,extr_tari,0
+2087,CodPerso,extr_prev1,0
+2088,CodPerso,extr_prev2,0
+2089,CodPerso,extr_prev3,0
+2090,CodPerso,igua_provgas,0
+2091,CodPerso,vari_provgas,0
+2092,CodPerso,vari_tari,0
+2093,CodPerso,ContadorDcto,0
+2094,CodPerso,vari_prev1,0
+2095,CodPerso,vari_prev2,0
+2096,CodPerso,vari_prev3,0
+2097,CodPerso,cue_clie,0
+2098,CodPerso,cue_estpagos,0
+2099,CodPerso,cue_salpre,0
+2100,CodPerso,seg_clie,0
+2101,CodPerso,fechareali,0
+2102,CodPerso,ocufecharec,0
+2103,CodPerso,ocufechase,0
+2104,CodPerso,ocuimportes,0
+2105,CodPerso,fechaven,0
+2106,CodPerso,fact_agru,0
+2107,CodPerso,cons_fich,0
+2108,CodPerso,ver_subusuexp,0
+2109,CodPerso,conf_reg,0
+2110,CodPerso,ver_grupos,0
+2111,CodPerso,ver_trabajadores,1
+2112,CodPerso,ver_A3,0
+2113,CodPerso,ver_ext,0
+2114,CodPerso,mod6.dat,1
+2115,codperso,per4_cli,0
+2116,codperso,var_ban,0
+2117,codperso,clipers1,0
+2118,codperso,verinfomn,0
+2119,codperso,verformclinew,0
+2120,codperso,loadformexp,0
+2121,codperso,loadformalumn,0
+2122,codperso,loadformpac,0
+2123,codperso,loadformpot,0
+2124,codperso,loadformtrab,0
+2125,codperso,loadformotro,0
+2126,CodPerso,Control_Renta,0
+2127,FormAct,Titulo,Actuaciones
+2128,FormCliPral,Titulo3,Pacientes
+2129,FormCliPral,Titulo,Clientes
+2130,FormCliPoten,Titulo,Potenciales
+2131,FormOtros,Titulo,Contactos
+2132,FormCliConPral,Titulo,Contrarios
+2133,FormMascotasTutores,Titulo,Mascotas
+2134,FormPod,Titulo,Poderes
+2135,FormColPral,Titulo,Colaboradores
+2136,FormAboPral,Titulo,Abogados
+2137,FormProPral,Titulo,Procuradores
+2138,FormTipAsu,Titulo,Tipos de Asunto
+2139,FormProced,Titulo,Tipos de Procedimiento
+2140,FormProced,Titulo2,Tipo de Procedimiento
+2141,FormJuzPral,Titulo,Juzgados
+2142,FormSup,Titulo,Suplidos
+2143,FormDer,Titulo,Servicios
+2144,FormAct,Titulo2,Actuaciones Predefinidas
+2145,FormOrgPral,Titulo,Organismos
+2146,FormBan,Titulo,Bancos
+2147,FormCorConPral,Titulo,Personas de Contacto
+2148,FormPer1,Titulo,Inmuebles
+2149,FormPer2,Titulo,Notarías
+2150,FormPer3,Titulo,Promotoras
+2151,FormPer4,Titulo,Vehículos
+2152,FormPer5,Titulo,Agencias Inmobiliarias
+2153,FormPer6,Titulo,Constructoras
+2154,FormPer7,Titulo,Proveedores
+2155,FormPer8,Titulo,Fichero Libre 1
+2156,FormPer9,Titulo,Fichero Libre 2
+2157,FormPer10,Titulo,Fichero Libre 3
+2158,FormOporMan,Titulo,Oportunidades Predefinidas
+2159,FormCentrosPredef,Titulo,Centros Predefinidos
+2160,FormExpPral,TitAct,Expedientes abiertos
+2161,FormExpPral,TitAct2,Exp. Cerrados
+2162,FormExpPral,TitAct3,Exp. Todos
+2163,FormExpHPral,TitHisto,Exp. Cerrados
+2164,FormExpCue,Titulo,Cuentas
+2165,FormExhoPral,Titulo2,Extrajudicial
+2166,FormExhoPral,Titulo,Extrajudiciales
+2167,formvar,titulo2,Vario
+2168,FormIgu,Titulo2,Iguala
+2169,FormIgu,Titulo,Igualas
+2170,FormFac,Titulo,Facturas
+2171,FormUsuSu,UsuTitulo,Usuarios
+2172,FormUsuSu,UsuTitulo2,Usuario
+2173,FormUsuSu,UsuTitulo5,Usu
+2174,FormExhoPral,Titulo3,Ext
+2175,FormVar,Titulo3,Var
+2176,FormTipExp,Titulo,Tipo de Expediente
+2177,Etiquetas,Alertas,Trabajos Prioritarios
+2178,CodPerso,modold,0
+2179,CodPerso,instkiply,0
+2180,CodPerso,datoscliaexp,0
+2181,codperso,ver_panelw7,0
+2182,Etiquetas,-,-
+2183,Etiquetas,Expedientes,Expedientes
+2184,Etiquetas,Fic&heros  ,Fic&heros
+2185,Etiquetas,&Facturación Emitida,&Facturación Emitida
+2186,Etiquetas,Facturación &Emitida,Facturación &Emitida
+2187,Etiquetas,F&acturación Recibida,F&acturación Recibida
+2188,Etiquetas,&Nóminas,&Nóminas
+2189,Etiquetas,&Control de Facturación Recibida,&Control de Facturación Recibida
+2190,Etiquetas,&Domiciliaciones Bancarias,&Domiciliaciones Bancarias
+2191,Etiquetas,&Conciliación,&Conciliación
+2192,Etiquetas,&Utilidades,&Utilidades
+2193,Etiquetas,Gest&ión Peticiones,Gest&ión Peticiones
+2194,Etiquetas,&Listados Contabilidad ,&Listados Contabilidad
+2195,Etiquetas,&Libros Declaraciones,&Libros Declaraciones
+2196,Etiquetas,&Formularios Agencia Tributaria,&Formularios Agencia Tributaria
+2197,Etiquetas,&Configuración Cuentas,&Configuración Cuentas
+2198,Etiquetas,S&tock,S&tock
+2199,Etiquetas,I&nformes,I&nformes
+2200,Etiquetas,C&uentas,C&uentas
+2201,Etiquetas,&Diario,&Diario
+2202,Etiquetas,B&alances,B&alances
+2203,Etiquetas,Lib&ros Contabilidad  ,Lib&ros Contabilidad
+2204,Etiquetas,&Libros Según Diario PGC,&Libros Según Diario PGC
+2205,Etiquetas,Lib&ros Según Facturación,Lib&ros Según Facturación
+2206,Etiquetas,&Formularios Según Diario PGC,&Formularios Según Diario PGC
+2207,Etiquetas,F&ormularios Según Facturación,F&ormularios Según Facturación
+2208,Etiquetas,&Balances P.G.C. Antigüo,&Balances P.G.C. Antigüo
+2209,Etiquetas,&Cierre/Apertura Ejercicio,&Cierre/Apertura Ejercicio
+2210,Etiquetas,A&sientos Predefinidos/Periódicos,A&sientos Predefinidos/Periódicos
+2211,Etiquetas,U&tilidades,U&tilidades
+2212,Etiquetas,&Herramientas de Chequeo,&Herramientas de Chequeo
+2213,Etiquetas,&Adjuntos,&Adjuntos
+2214,Etiquetas,&WhatsApp,&WhatsApp
+2215,Etiquetas,&Configuración,&Configuración
+2216,Etiquetas,&Sincronización,&Sincronización
+2217,Etiquetas,&Outlook (antiguo),&Outlook (antiguo)
+2218,Etiquetas,&Consultas  ,&Consultas
+2219,Etiquetas,&Clientes,&Clientes
+2220,Etiquetas,&Expedientes,&Expedientes
+2221,Etiquetas,Informes &QR,Informes &QR
+2222,Etiquetas,F&acturas,F&acturas
+2223,Etiquetas,O&bligaciones,O&bligaciones
+2224,Etiquetas,B&onos,B&onos
+2225,Etiquetas,O&dontología,O&dontología
+2226,Etiquetas,P&redefinidos,P&redefinidos
+2227,Etiquetas,Recetas &Médicas,Recetas &Médicas
+2228,Etiquetas,&Pediatría,&Pediatría
+2229,Etiquetas,&Formación Bonificada,&Formación Bonificada
+2230,Etiquetas,&Generar XML,&Generar XML
+2231,Etiquetas,Ca&lificaciones,Ca&lificaciones
+2232,Etiquetas,Plan &Individual,Plan &Individual
+2233,Etiquetas,Vencimientos/Póli&zas,Vencimientos/Póli&zas
+2234,Etiquetas,Co&nfiguración,Co&nfiguración
+2235,Etiquetas,Clases,Clases
+2236,Etiquetas,&Reserva Online Clases,&Reserva Online Clases
+2237,Etiquetas,R&eserva Online Cursos,R&eserva Online Cursos
+2238,Etiquetas,&Formularios de Registro Web,&Formularios de Registro Web
+2239,Etiquetas,Control Se&guimiento,Control Se&guimiento
+2240,Etiquetas,Control de Ser&vicios y Artículos,Control de Ser&vicios y Artículos
+2241,Etiquetas,Protección de Datos,Protección de Datos
+2242,Etiquetas,&Bajas Comunicaciones Comerciales (LSSI),&Bajas Comunicaciones Comerciales (LSSI)
+2243,Etiquetas,Oport&unidades,Oport&unidades
+2244,Etiquetas,Comisiones,Comisiones
+2245,Etiquetas,Tareas,Tareas
+2246,Etiquetas,Procesos Automáticos,Procesos Automáticos
+2247,Etiquetas,&Reglas Automáticas,&Reglas Automáticas
+2248,Etiquetas,&Correos Automáticos,&Correos Automáticos
+2249,Etiquetas,&Valoraciones,&Valoraciones
+2250,Etiquetas,&SMS Automáticos,&SMS Automáticos
+2251,Etiquetas,Emailer,Emailer
+2252,Etiquetas,Firma Electrónica,Firma Electrónica
+2253,Etiquetas,C&onfiguración,C&onfiguración
+2254,Etiquetas,Time Report-Control Horario,Time Report-Control Horario
+2255,Etiquetas,Cuadro de Mandos,Cuadro de Mandos
+2256,Etiquetas,&Configuración Cuadro de Mandos,&Configuración Cuadro de Mandos
+2257,Etiquetas,Acceso Cloud,Acceso Cloud
+2258,Etiquetas,Reserva Online,Reserva Online
+2259,Etiquetas,Formularios de Registro Web,Formularios de Registro Web
+2260,Etiquetas,&Enviar Enlace,&Enviar Enlace
+2261,Etiquetas,Exportación Gas Natural Fenosa,Exportación Gas Natural Fenosa
+2262,Etiquetas,Control de Rentabilidad,Control de Rentabilidad
+2263,Etiquetas,MNBackup Cloud,MNBackup Cloud
+2264,Etiquetas,Configuraciones &Iniciales,Configuraciones &Iniciales
+2265,Etiquetas,&Predefinidos,&Predefinidos
+2266,Etiquetas,P&lantillas,P&lantillas
+2267,Etiquetas,Configuraciones &Avanzadas,Configuraciones &Avanzadas
+2268,Etiquetas,&Personalización,&Personalización
+2269,Etiquetas,Gestión &de Permisos,Gestión &de Permisos
+2270,Etiquetas,Ge&stión Regional,Ge&stión Regional
+2271,Etiquetas,Gesti&ón Logs,Gesti&ón Logs
+2272,Etiquetas,&Manuales,&Manuales
+2273,FormExpPral,Titulo3,Expedientes
+2274,formclipral,TSAREA2,Area2
+2275,formclipral,TSAREA3,Area3
+2276,formclipral,TSAREA4,Area4
+2277,formclipral,TSAREA5,Area5
+2278,formclipral,TSAREA6,Area6
+2279,FormSegExp,SegDescripcion2,Descripción 2
+2284,FormExpPral,Inf,Ficha Datos Personalizados
+2285,CodPerso,vistanet,1
+2286,FormExpPral,ExpNig,N.I.G.
+2287,FormCliPral,CliNotas,Notas
+2288,FormCliPral,CliNotas1,Notas 2
+2289,FormCliPral,CliNotas2,Notas 3
+2290,FormCliPral,CliNotas3,Notas 4
+2291,FormCliPral,CliNotas4,Notas 5
+2292,FormCliPral,CliNotas5,Notas 6
+2293,Compras,Compras,Compras
+2294,Compras,ComprasPredef,Compras 
+2295,Centros,CentrosSingular,Centro
+2296,Centros,CentrosPlural,Centros
+2297,Centros,CentrosFicha,Centro Ficha
+2298,Centros,CentrosPrincipal,Centro Principal
+2299,FormExpPral,TotalExp,Total Expedientes
+2300,FormExpPral,ExpRelExp,Expedientes Relacionados
+2301,FormExpPral,ExpActivoExp,Activo Expediente
+2302,FormCorConPral,Titulo2,Pers.Cto.
+2311,CodPerso,estado1relaciones,Relaciones
+2312,CodPerso,estado1jornadalab,Jornada Laboral
+2313,CodPerso,estado2,Estado2
+2314,CodPerso,estado2hora,Nº Hora
+2315,CodPerso,estado2costes,Costes Directos
+2316,CodPerso,estado3,Estado3
+2317,CodPerso,estado3costes,Costes Organización
+2318,CodPerso,estado4,Estado4
+2319,CodPerso,estado4costes,Total Costes Elegibles
+2320,CodPerso,estado5,Estado5
+2321,CodPerso,estado5costes,Costes Salariales
+2322,CodPerso,estado6,Estado6
+2323,CodPerso,estado6costes,Costes Indirectos
+2324,Centros,CentrosPredefinidos,Centros Predefinidos
+2325,Tareas,TareasPredefinidas,Tareas-Plazos Predefinidas
+2326,FormOporMan,recursosNotas,Notas
+2327,FormOporMan,recursosNotas1,Notas 1
+2328,FormOporMan,recursosNotas2,Notas 2
+2329,FormOporMan,recursosNotas3,Notas 3
+2330,FormOporMan,recursosNotas4,Notas 4
+2331,FormOporMan,recursosNotas5,Notas 5
+2332,Articulos,ArtNotas,Notas
+2333,Articulos,ArtNotas2,Notas2
+2334,Articulos,ArtNotas3,Notas4
+2335,Articulos,ArtNotas4,Notas4
+2336,Articulos,ArtNotas5,Notas5
+2337,Articulos,ArtNotas6,Notas6
+2338,CodPerso,clinombrecomercialcli,Nombre Comercial Cliente
+2339,FormExpPral,ExpTituloCobro,Expediente Cobro
+2340,FormExpPral,ExpDescripcionExpSug,Descripción Expediente Sugerido
+2341,FormExpPral,ExpNumExpSug,Núm. Expediente Sugerido
+2342,FormExpPral,ExpYearExpSug,Año Expediente Sugerido
+2351,CodPerso,cliUsuarioMultiple,Usuarios
+2352,CodPerso,clienfax,Fax
+2353,FormExpCue,CuePrevi4,Movimientos Recobros
+2354,CodPerso,cliPrincipalCli,Cliente Principal
+2355,CodPerso,cliTodosCli,Clientes (Todos)
+2356,FormExpPral,ExpBuscarExp,Buscar Expediente
+2357,FormExpPral,ExpTipo,Tipo de Expediente

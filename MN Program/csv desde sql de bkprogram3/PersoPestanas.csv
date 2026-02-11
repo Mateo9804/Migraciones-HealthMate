@@ -1,0 +1,27 @@
+﻿id,entidad,etiqueta,verEtiqColumnas,columna1,columna2,columna3,visualizar,tipopestana,columnas
+1,100,Fechas Clave,True,,,,True,1,3
+2,101,Fechas Clave,True,,,,True,1,3
+3,102,Fechas Clave,True,,,,True,1,3
+4,103,Fechas Clave,True,,,,True,1,
+5,104,Fechas Clave,True,,,,True,1,3
+6,105,Fechas Clave,True,,,,True,1,
+7,106,Fechas Clave,True,,,,True,1,
+8,107,Fechas Clave,True,,,,True,1,
+9,108,Fechas Clave,True,,,,True,1,
+10,109,Fechas Clave,True,,,,True,1,3
+11,110,Fechas Clave,True,,,,True,1,
+12,111,Fechas Clave,True,,,,True,1,
+13,112,Fechas Clave,True,,,,True,1,
+14,3,Fechas Clave,True,,,,True,1,3
+15,4,Fechas Clave,True,,,,True,1,
+16,6,Fechas Clave,True,,,,True,1,
+17,9,Implantología,False,,,,False,3,
+18,9,Cirugía,False,,,,False,3,
+19,3,Contratos,True,Datos del Contrato,Datos del Cobro,,True,4,3
+20,6,Más Información,False,,,,False,5,
+21,108,Doctores,False,Nombre,Departamento,Correo electrónico,True,0,3
+22,11,Otros Datos,False,,,,True,0,3
+23,11,Propiedades,False,,,,True,0,3
+2000000001,14,Valoraciones,False,,,,True,0,3
+2000000002,115,Más Datos,False,,,,True,0,3
+2000000003,104,Datos Personalizados,False,,,,True,0,

@@ -1,0 +1,18 @@
+﻿id,indice,descripcion,predefinido,tipo
+1,0,Temperatura,True,Resultado
+2,0,Tensión,True,Tension
+3,0,Pulso,True,Resultado
+4,0,Saturación de Oxígeno: %,True,Resultado
+5,0,Glucemia,True,Resultado
+6,0,Peso/Talla,True,PesoTalla
+7,0,Diuresis,True,Diuresis
+8,0,Sintrom,True,Sintrom
+9,0,Ingesta de líquidos,True,Cantidad
+10,0,Ingesta de sólidos,True,IngestaSolidos
+11,0,Acetona,True,Resultado
+12,0,Curas,True,Curas
+13,0,Deposiciones,True,Deposiciones
+14,0,Sondas vesicales,True,SondaVesical
+15,0,Sondas nasogástricas,True,Sonda
+17,0,Sondas gástricas,True,Sonda
+18,0,Recogida fístulas,True,Cantidad

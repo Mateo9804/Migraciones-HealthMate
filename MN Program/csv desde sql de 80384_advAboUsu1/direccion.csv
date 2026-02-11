@@ -1,0 +1,5 @@
+﻿id,tipoVia,nombreVia,numero,bloque,escalera,piso,letra,pais,provincia,poblacion,codigoPostal,principal,icod,tipo
+2,Calle,Rosalía de Castro,60,1,,5,A,España,A Coruña,"Coruña, A",15002,True,67,0
+3,Calle,TORRE ,78,5,,6,B,España,A Coruña,"Coruña, A",15001,True,68,0
+4,Calle,ALFREDO VALIÑAS,5,8,3,4,U,España,A Coruña,"Coruña, A",15006,True,69,0
+5,Calle,CORCONDANCIA,96,6,,,,España,A Coruña,Camiño De Penamoa,15010,True,70,0

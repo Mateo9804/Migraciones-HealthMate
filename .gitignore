@@ -1,5 +1,6 @@
 # Directorio de archivos subidos
 uploads/
+temp/
 *.log
 
 # Archivos del sistema
@@ -11,4 +12,9 @@ desktop.ini
 *.tmp
 *.temp
 ~*
+
+# Directorio de descargas (mantener estructura pero ignorar contenido)
+downloads/*
+!downloads/.htaccess
+!downloads/.gitkeep
 

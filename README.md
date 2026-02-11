@@ -25,16 +25,39 @@ Una aplicación web moderna para subir archivos CSV, XML y JSON con una interfaz
 
 ## Uso
 
-1. Abre `index.html` en tu navegador
-2. Arrastra y suelta archivos CSV, XML o JSON en el área de carga
-3. O haz clic en "Seleccionar archivos" para elegir archivos
-4. Revisa la lista de archivos seleccionados
-5. Haz clic en "Subir archivos" para enviarlos al servidor
+### ⚠️ IMPORTANTE: Acceso a través de XAMPP
+
+**NO abras el archivo `index.html` directamente desde el explorador de archivos.**
+
+Debes acceder a través de XAMPP:
+
+1. **Inicia XAMPP** y asegúrate de que **Apache** esté ejecutándose
+2. Abre tu navegador y accede a:
+   ```
+   http://localhost/Migraciones%20HealthMate/index.html
+   ```
+   O simplemente:
+   ```
+   http://localhost/Migraciones HealthMate/
+   ```
+
+### Pasos para usar la aplicación:
+
+1. Selecciona la base de datos (Clinni, DriCloud o MN Program)
+2. Arrastra y suelta archivos en el área de carga, o haz clic en "Seleccionar archivos"
+3. Revisa la lista de archivos seleccionados
+4. Haz clic en "Procesar archivos" para procesarlos con el script correspondiente
+5. Descarga el archivo ZIP con los resultados procesados
 
 ## Requisitos
 
-- Servidor web con PHP (XAMPP, WAMP, etc.)
-- PHP 7.0 o superior
+- **XAMPP** (o WAMP, MAMP, etc.) con Apache y PHP ejecutándose
+- **PHP 7.0 o superior**
+- **Python 3.x** instalado y accesible desde la línea de comandos
+- Los scripts Python deben estar en sus respectivas carpetas:
+  - `CLINNI/script/clinni_to_plantillas.py`
+  - `DRICloud/script/dricloud_to_plantillas.py`
+  - `MN Program/script/mn_program_to_plantillas.py`
 
 ## Notas
 

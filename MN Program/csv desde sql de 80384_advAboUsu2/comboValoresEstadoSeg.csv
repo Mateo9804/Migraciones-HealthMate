@@ -1,0 +1,12 @@
+﻿id,iindex,valor,porcentaje
+1,0,No lo Hace,0.0000
+2,1,No lo Hace,10.0000
+3,2,No lo Hace,20.0000
+4,3,Ayuda Física,30.0000
+5,4,Ayuda Física,40.0000
+6,5,Ayuda Física,50.0000
+7,6,Ayuda Verbal,60.0000
+8,7,Ayuda Verbal,70.0000
+9,8,Ayuda Verbal,80.0000
+10,9,Lo Hace,90.0000
+11,10,Lo Hace,100.0000

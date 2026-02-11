@@ -1,0 +1,6 @@
+﻿pk_id,nombre,ruta,parametros,interna,accioninterna,web
+90,Agenda,Aplicación Interna,,1,actAgenda,0
+91,Agenda,Aplicación Interna,,1,Agenda1,0
+92,Correo,Aplicación Interna,,1,Correo1,0
+93,Pacientes,Aplicación Interna,,1,actpacientes,0
+94,MNBackup Cloud,Aplicación Interna,,1,actMNBackupCloud,0

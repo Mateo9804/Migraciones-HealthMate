@@ -1,0 +1,19 @@
+﻿id,nombre,valor
+1,inumcierre                                        ,1
+2,inumtraspaso                                      ,1
+3,icodalmacen                                       ,1
+4,tickets                                           ,1
+5,NumBono                                           ,6
+6,inumcobro                                         ,1
+7,inumordenseg                                      ,1
+8,numopor                                           ,2
+9,numtarea                                          ,1
+10,numPedido                                         ,1
+11,numDiploma                                        ,1
+12,inumexpLOPD                                       ,1
+13,iyearLOPD                                         ,1
+14,inumexpCM                                         ,1
+15,iyearCM                                           ,2022
+1008,activarEstadosAlta                                ,1
+1009,numcasoortodoncia                                 ,1
+1010,codmascotas2                                      ,1

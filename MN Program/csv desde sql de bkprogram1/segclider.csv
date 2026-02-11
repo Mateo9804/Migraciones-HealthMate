@@ -1,0 +1,10 @@
+﻿id,icodcli,dfechaact,linea,unidades,descripcion,fecha,tipounidad,preciounidad,dcto,notas,campo1,campo2,campo3,campo4,campo5,campo6,referencia,facturar,ctaingreso,ctaiva,ctairpf,fimporte,idcontrolmutua,idlineprevcobros,indicehono,ordenhono,descriphono,idarticulo,bhonoarticulo,bhonoactu,icodigoactupredef,inumexp,iyear,dfechaactexp,lineaexp,bselloteauto,lote,bmovstock,idalmacen,idTarifa,fechaCaducidad,serieLote,tiempo,subusu,modelosIVA,modelosIRPF,idderecho,codigoIAETicketBai
+1,60,2024-07-30 00:00:00,1,1.0000,2 SP,2024-07-15 00:00:00,,0.0,0.0,,,,,,,,,True,,,,0.0,,,,,,,,,,,,,,,,,,,,,,0,,,,
+3,669,2024-08-28 00:00:00,1,1.0000,TENDINITIS SUPRAESPINOSO BRAZO DERECHO,2024-08-20 00:00:00,,0.0,0.0,,,,,,,,,True,,,,0.0,,,,,,,,,,,,,,,,,,,,,,0,,,,
+4,1482,2024-09-05 00:00:00,1,1.0000,SEGUNDA SESION BONO,2024-08-20 00:00:00,,0.0,0.0,,,,,,,,,True,,,,0.0,,,,,,,,,,,,,,,,,,,,,,0,,,,
+7,909,2024-09-10 00:00:00,1,1.0000,ECOM CUELLO. TRAPECIOS...SUPER CONTRACTURADOS,2024-08-29 00:00:00,,0.0,0.0,,,,,,,,,True,,,,0.0,,,,,,,,,,,,,,,,,,,,,,0,,,,
+8,1757,2024-09-10 00:00:00,1,1.0000,NP,2024-09-02 00:00:00,,0.0,0.0,,,,,,,,,True,,,,0.0,,,,,,,,,,,,,,,,,,,,,,0,,,,
+9,1757,2024-09-19 00:00:00,1,1.0000,2SP,2024-09-02 00:00:00,,0.0,0.0,,,,,,,,,True,,,,0.0,,,,,,,,,,,,,,,,,,,,,,0,,,,
+11,48,2024-09-17 00:00:00,1,1.0000,2sp,2024-09-03 00:00:00,,0.0,0.0,,,,,,,,,True,,,,0.0,,,,,,,,,,,,,,,,,,,,,,0,,,,
+12,669,2024-09-11 00:00:00,2,1.0000,4/5,2024-09-04 00:00:00,,0.0,0.0,,,,,,,,,True,,,,0.0,,,,,,,,,,,,,,,,,,,,,,0,,,,
+13,1860,2024-09-11 00:00:00,2,1.0000,dolor lumbar,2024-09-10 00:00:00,,0.0,0.0,,,,,,,,,True,,,,0.0,,,,,,,,,,,,,,,,,,,,,,0,,,,

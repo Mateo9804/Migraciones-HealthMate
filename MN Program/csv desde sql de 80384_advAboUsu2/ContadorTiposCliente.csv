@@ -1,0 +1,16 @@
+﻿id,tabla,tipocliente,contador
+1,clientes,General,0
+2,alumnos,General,0
+3,clientespotenciales,General,0
+4,compañias,General,0
+5,financiadores,General,0
+6,mascotastutores,General,0
+7,mutuas,General,0
+8,otros,General,0
+9,pacientes,General,0
+10,terceraedad,General,0
+11,trabajadores,General,0
+12,voluntarios,General,0
+13,otros,Centro de Impartición,0
+14,otros,Lugar de Impartición,0
+15,proveedores,General,0

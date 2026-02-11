@@ -1,0 +1,432 @@
+﻿id,tipo,indice,plantilla
+1,0,0,"{\rtf1\ansi\ansicpg1252\deff0{\fonttbl{\f0\fnil\fcharset0 MS Sans Serif;}}
+\viewkind4\uc1\pard\lang3082\b\f0\fs16 
+\par }
+"
+2,0,1,"{\rtf1\ansi\ansicpg1252\deff0{\fonttbl{\f0\fnil\fcharset0 MS Sans Serif;}}
+\viewkind4\uc1\pard\lang3082\b\f0\fs16 
+\par }
+"
+3,0,2,"{\rtf1\ansi\ansicpg1252\deff0{\fonttbl{\f0\fnil\fcharset0 MS Sans Serif;}}
+\viewkind4\uc1\pard\lang3082\b\f0\fs16 
+\par }
+"
+4,0,3,"{\rtf1\ansi\ansicpg1252\deff0{\fonttbl{\f0\fnil\fcharset0 MS Sans Serif;}}
+\viewkind4\uc1\pard\lang3082\b\f0\fs16 
+\par }
+"
+5,0,4,"{\rtf1\ansi\ansicpg1252\deff0{\fonttbl{\f0\fnil\fcharset0 MS Sans Serif;}}
+\viewkind4\uc1\pard\lang3082\b\f0\fs16 
+\par }
+"
+6,0,5,"{\rtf1\ansi\ansicpg1252\deff0{\fonttbl{\f0\fnil\fcharset0 MS Sans Serif;}}
+\viewkind4\uc1\pard\lang3082\b\f0\fs16 
+\par }
+"
+7,1,0,"{\rtf1\ansi\ansicpg1252\deff0{\fonttbl{\f0\fnil\fcharset0 MS Sans Serif;}}
+\viewkind4\uc1\pard\lang3082\b\f0\fs16 
+\par }
+"
+8,1,1,"{\rtf1\ansi\ansicpg1252\deff0{\fonttbl{\f0\fnil\fcharset0 MS Sans Serif;}}
+\viewkind4\uc1\pard\lang3082\b\f0\fs16 
+\par }
+"
+9,1,2,"{\rtf1\ansi\ansicpg1252\deff0{\fonttbl{\f0\fnil\fcharset0 MS Sans Serif;}}
+\viewkind4\uc1\pard\lang3082\b\f0\fs16 
+\par }
+"
+10,1,3,"{\rtf1\ansi\ansicpg1252\deff0{\fonttbl{\f0\fnil\fcharset0 MS Sans Serif;}}
+\viewkind4\uc1\pard\lang3082\b\f0\fs16 
+\par }
+"
+11,1,4,"{\rtf1\ansi\ansicpg1252\deff0{\fonttbl{\f0\fnil\fcharset0 MS Sans Serif;}}
+\viewkind4\uc1\pard\lang3082\b\f0\fs16 
+\par }
+"
+12,1,5,"{\rtf1\ansi\ansicpg1252\deff0{\fonttbl{\f0\fnil\fcharset0 MS Sans Serif;}}
+\viewkind4\uc1\pard\lang3082\b\f0\fs16 
+\par }
+"
+13,2,0,"{\rtf1\ansi\deff0{\fonttbl{\f0\fnil\fcharset0 MS Sans Serif;}{\f1\fnil\fcharset0 Times New Roman;}{\f2\fnil MS Sans Serif;}}
+{\colortbl ;\red0\green0\blue0;}
+\viewkind4\uc1\pard\lang3082\b\f0\fs16\tab\tab\tab\tab\tab Motivo de la Consulta
+\par 
+\par \cf1 Motivo principal de la consulta:\b0    
+\par 
+\par 
+\par \b\f1\fs6 
+\par \fs4 
+\par \f0\fs16 S\'edntomas:\b0       
+\par \b\f1\fs6 
+\par \cf0\b0\f2\fs16 
+\par \b\f0 
+\par 
+\par }
+"
+14,2,1,"{\rtf1\ansi\deff0{\fonttbl{\f0\fnil\fcharset0 MS Sans Serif;}{\f1\fnil MS Sans Serif;}}
+{\colortbl ;\red0\green0\blue0;}
+\viewkind4\uc1\pard\lang3082\b\f0\fs16\tab\tab\tab\tab Antecedentes y Exploraci\'f3n
+\par 
+\par \cf1 Antecedentes Personales:\b0  \cf0 
+\par \cf1 
+\par 
+\par 
+\par \b Antecedentes Familiares:\b0  
+\par 
+\par 
+\par 
+\par \b Enfermedades en Infancia:\b0  
+\par 
+\par 
+\par 
+\par \cf0\b Enfermedades en Adulto:\b0  \b 
+\par \cf1\b0 
+\par 
+\par 
+\par \cf0\b Operaciones:\b0  \b 
+\par \cf1\b0 
+\par 
+\par 
+\par \cf0\b Accidentes:\b0  \b 
+\par \cf1\b0 
+\par 
+\par 
+\par \cf0\b H\'e1bitos:\b0  \b 
+\par \cf1\b0 
+\par 
+\par 
+\par \cf0\b Alergias:\b0  \b 
+\par \cf1\b0 
+\par 
+\par 
+\par \cf0\b Pruebas y Ex\'e1menes:\b0  \b 
+\par \b0\f1 
+\par \b\f0 
+\par }
+"
+15,2,2,"{\rtf1\ansi\deff0{\fonttbl{\f0\fnil\fcharset0 MS Sans Serif;}{\f1\fnil\fcharset0 Times New Roman;}{\f2\fnil MS Sans Serif;}}
+{\colortbl ;\red0\green0\blue0;}
+\viewkind4\uc1\pard\lang3082\b\f0\fs16\tab\tab\tab\tab\tab\tab Tratamiento
+\par 
+\par \cf1 Medicaci\'f3n Actual:\b0    
+\par 
+\par 
+\par \b\f1\fs6 
+\par \fs4 
+\par \f0\fs16 Tratamiento:\b0   
+\par 
+\par 
+\par \b\f1\fs6 
+\par \fs4 
+\par \f0\fs16 Terapia:\b0    
+\par \cf0\f2 
+\par \b\f0 
+\par 
+\par }
+"
+16,2,3,"{\rtf1\ansi\deff0{\fonttbl{\f0\fnil\fcharset0 MS Sans Serif;}{\f1\fnil\fcharset0 Times New Roman;}{\f2\fnil MS Sans Serif;}}
+{\colortbl ;\red0\green0\blue0;}
+\viewkind4\uc1\pard\lang3082\b\f0\fs16\tab\tab\tab\tab Diagn\'f3stico, Pron\'f3stico y Evoluci\'f3n
+\par 
+\par \cf1 Diagn\'f3stico:\b0    
+\par 
+\par 
+\par \b\f1\fs6 
+\par \fs4 
+\par \f0\fs16 Pron\'f3stico:\b0    
+\par \b\f1\fs6 
+\par \b0\f0\fs16 
+\par \b\f1\fs6 
+\par \fs4 
+\par \f0\fs16 Evoluci\'f3n:\b0    
+\par \b\f1\fs6 
+\par \cf0\b0\f2\fs16 
+\par \b\f0 
+\par 
+\par }
+"
+17,2,4,"{\rtf1\ansi\deff0{\fonttbl{\f0\fnil\fcharset0 MS Sans Serif;}}
+\viewkind4\uc1\pard\qc\lang3082\b\f0\fs16 Resumen Evoluci\'f3n
+\par \pard\b0 
+\par 
+\par \b 
+\par 
+\par }
+"
+18,2,5,"{\rtf1\ansi\deff0{\fonttbl{\f0\fnil\fcharset0 MS Sans Serif;}{\f1\fnil MS Sans Serif;}}
+\viewkind4\uc1\pard\lang3082\b\f0\fs16\tab\tab\tab\tab\tab\tab Otras Observaciones
+\par 
+\par Observaciones:\b0    
+\par 
+\par \f1 
+\par \b\f0 
+\par 
+\par }
+"
+19,3,0,
+20,3,1,
+21,3,2,
+22,3,3,
+23,3,4,
+24,3,5,
+31,-1,4,"{\rtf1\ansi\ansicpg1252\deff0{\fonttbl{\f0\fnil\fcharset0 MS Sans Serif;}}
+\viewkind4\uc1\pard\qc\lang3082\b\f0\fs16 Receta
+\par \pard 
+\par Doctor:
+\par 
+\par 
+\par Fecha:
+\par 
+\par 
+\par Prescripci\'f3n:
+\par 
+\par 
+\par Duraci\'f3n del Tratamiento:
+\par 
+\par 
+\par Posolog\'eda (unidades/toma):
+\par 
+\par 
+\par Cada (horas):
+\par 
+\par 
+\par Observaciones:
+\par 
+\par 
+\par Firma:\b0 
+\par \pard\qc 
+\par }
+"
+32,-1,0,"{\rtf1\ansi\deff0{\fonttbl{\f0\fnil\fcharset0 MS Sans Serif;}}
+\viewkind4\uc1\pard\qc\lang3082\b\f0\fs16 Motivo de la Consulta
+\par \pard 
+\par 
+\par Motivo Principal de la consulta:
+\par 
+\par 
+\par 
+\par S\'edntomas:
+\par }
+"
+33,-1,1,"{\rtf1\ansi\deff0{\fonttbl{\f0\fnil\fcharset0 MS Sans Serif;}}
+\viewkind4\uc1\pard\qc\lang3082\b\f0\fs16 Antecedentes y Exploraci\'f3n
+\par 
+\par \pard Antecedentes Personales:
+\par 
+\par 
+\par Antecedentes Familiares:
+\par 
+\par 
+\par Enfermedades en Infancia:
+\par 
+\par 
+\par Enfermedades en Adulto:
+\par 
+\par 
+\par Operaciones:
+\par 
+\par 
+\par Accidentes:
+\par 
+\par 
+\par H\'e1bitos:
+\par 
+\par 
+\par Alergias:
+\par 
+\par 
+\par Pruebas y Ex\'e1menes:
+\par 
+\par 
+\par }
+"
+34,-1,2,"{\rtf1\ansi\deff0{\fonttbl{\f0\fnil\fcharset0 MS Sans Serif;}}
+\viewkind4\uc1\pard\qc\lang3082\b\f0\fs16 Tratmiento
+\par \pard 
+\par Medicaci\'f3n Actual:
+\par 
+\par 
+\par Tratamiento:
+\par 
+\par 
+\par Terapia:
+\par }
+"
+35,-1,3,"{\rtf1\ansi\deff0{\fonttbl{\f0\fnil\fcharset0 MS Sans Serif;}}
+\viewkind4\uc1\pard\qc\lang3082\b\f0\fs16 Diagn\'f3stico, Pron\'f3stico y Evoluci\'f3n:
+\par \pard 
+\par 
+\par Diagn\'f3stico:
+\par 
+\par 
+\par Pron\'f3stico:
+\par 
+\par 
+\par Evoluci\'f3n:
+\par }
+"
+36,-1,5,
+37,9,0,
+38,9,1,
+39,9,2,
+40,9,3,
+41,9,4,
+42,9,5,
+43,4,0,"{\rtf1\ansi\deff0{\fonttbl{\f0\fnil\fcharset0 MS Sans Serif;}{\f1\fnil\fcharset0 Times New Roman;}{\f2\fnil MS Sans Serif;}}
+{\colortbl ;\red0\green0\blue0;}
+\viewkind4\uc1\pard\lang3082\b\f0\fs16\tab\tab\tab\tab\tab Motivo de la Consulta
+\par 
+\par \cf1 Motivo principal de la consulta:\b0    
+\par 
+\par 
+\par \b\f1\fs6 
+\par \fs4 
+\par \f0\fs16 S\'edntomas:\b0       
+\par \b\f1\fs6 
+\par \cf0\b0\f2\fs16 
+\par \b\f0 
+\par 
+\par }
+"
+44,4,1,"{\rtf1\ansi\deff0{\fonttbl{\f0\fnil\fcharset0 MS Sans Serif;}{\f1\fnil MS Sans Serif;}}
+{\colortbl ;\red0\green0\blue0;}
+\viewkind4\uc1\pard\lang3082\b\f0\fs16\tab\tab\tab\tab Antecedentes y Exploraci\'f3n
+\par 
+\par \cf1 Antecedentes Personales:\b0  \cf0 
+\par \cf1 
+\par 
+\par 
+\par \b Antecedentes Familiares:\b0  
+\par 
+\par 
+\par 
+\par \b Enfermedades en Infancia:\b0  
+\par 
+\par 
+\par 
+\par \cf0\b Enfermedades en Adulto:\b0  \b 
+\par \cf1\b0 
+\par 
+\par 
+\par \cf0\b Operaciones:\b0  \b 
+\par \cf1\b0 
+\par 
+\par 
+\par \cf0\b Accidentes:\b0  \b 
+\par \cf1\b0 
+\par 
+\par 
+\par \cf0\b H\'e1bitos:\b0  \b 
+\par \cf1\b0 
+\par 
+\par 
+\par \cf0\b Alergias:\b0  \b 
+\par \cf1\b0 
+\par 
+\par 
+\par \cf0\b Pruebas y Ex\'e1menes:\b0  \b 
+\par \b0\f1 
+\par \b\f0 
+\par }
+"
+45,4,2,"{\rtf1\ansi\deff0{\fonttbl{\f0\fnil\fcharset0 MS Sans Serif;}{\f1\fnil\fcharset0 Times New Roman;}{\f2\fnil MS Sans Serif;}}
+{\colortbl ;\red0\green0\blue0;}
+\viewkind4\uc1\pard\lang3082\b\f0\fs16\tab\tab\tab\tab\tab\tab Tratamiento
+\par 
+\par \cf1 Medicaci\'f3n Actual:\b0    
+\par 
+\par 
+\par \b\f1\fs6 
+\par \fs4 
+\par \f0\fs16 Tratamiento:\b0   
+\par 
+\par 
+\par \b\f1\fs6 
+\par \fs4 
+\par \f0\fs16 Terapia:\b0    
+\par \cf0\f2 
+\par \b\f0 
+\par 
+\par }
+"
+46,4,3,"{\rtf1\ansi\deff0{\fonttbl{\f0\fnil\fcharset0 MS Sans Serif;}{\f1\fnil\fcharset0 Times New Roman;}{\f2\fnil MS Sans Serif;}}
+{\colortbl ;\red0\green0\blue0;}
+\viewkind4\uc1\pard\lang3082\b\f0\fs16\tab\tab\tab\tab Diagn\'f3stico, Pron\'f3stico y Evoluci\'f3n
+\par 
+\par \cf1 Diagn\'f3stico:\b0    
+\par 
+\par 
+\par \b\f1\fs6 
+\par \fs4 
+\par \f0\fs16 Pron\'f3stico:\b0    
+\par \b\f1\fs6 
+\par \b0\f0\fs16 
+\par \b\f1\fs6 
+\par \fs4 
+\par \f0\fs16 Evoluci\'f3n:\b0    
+\par \b\f1\fs6 
+\par \cf0\b0\f2\fs16 
+\par \b\f0 
+\par 
+\par }
+"
+47,4,4,"{\rtf1\ansi\deff0{\fonttbl{\f0\fnil\fcharset0 MS Sans Serif;}}
+\viewkind4\uc1\pard\qc\lang3082\b\f0\fs16 Resumen Evoluci\'f3n
+\par \pard\b0 
+\par 
+\par \b 
+\par 
+\par }
+"
+48,4,5,"{\rtf1\ansi\deff0{\fonttbl{\f0\fnil\fcharset0 MS Sans Serif;}{\f1\fnil MS Sans Serif;}}
+\viewkind4\uc1\pard\lang3082\b\f0\fs16\tab\tab\tab\tab\tab\tab Otras Observaciones
+\par 
+\par Observaciones:\b0    
+\par 
+\par \f1 
+\par \b\f0 
+\par 
+\par }
+"
+49,5,0,
+50,5,1,
+51,5,2,
+52,5,3,
+53,5,4,
+54,5,5,
+55,6,0,
+56,6,1,
+57,6,2,
+58,6,3,
+59,6,4,
+60,6,5,
+61,7,0,
+62,7,1,
+63,7,2,
+64,7,3,
+65,7,4,
+66,7,5,
+67,8,0,
+68,8,1,
+69,8,2,
+70,8,3,
+71,8,4,
+72,8,5,
+73,10,0,
+74,10,1,
+75,10,2,
+76,10,3,
+77,10,4,
+78,10,5,
+79,11,0,
+80,11,1,
+81,11,2,
+82,11,3,
+83,11,4,
+84,11,5,
+85,12,0,
+86,12,1,
+87,12,2,
+88,12,3,
+89,12,4,
+90,12,5,

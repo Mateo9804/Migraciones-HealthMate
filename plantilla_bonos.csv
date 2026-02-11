@@ -1,0 +1,6 @@
+Teléfono,Nombre Cliente,Nombre Bono,Servicio,Sesiones Totales,Sesiones Consumidas,Precio Total,Pagado,Importe Pagado,Fecha Caducidad
+612345678,María García,Pack Relax,Masaje Relajante,10,3,800,Sí,800,31/12/2025
+612345678,María García,Pack Relax,Facial Hidratante,5,1,800,Sí,800,31/12/2025
+634567890,Juan López,Bono 10 Depilación,Depilación Láser,10,0,500,No,,30/06/2025
+655123456,Ana Martínez,Bono Belleza,Manicura,8,2,200,Sí,150,31/03/2025
+655123456,Ana Martínez,Bono Belleza,Pedicura,8,2,200,Sí,150,31/03/2025

@@ -1,0 +1,1536 @@
+﻿idAcceso,codOpe,numEmpresa,visible,texto
+1,1,1,0,Bases de Datos
+1,1,2,0,Bases de Datos
+2,1,1,0,Potenciales
+2,1,2,0,Potenciales
+3,1,1,0,Clientes
+3,1,2,0,Clientes
+4,1,1,0,Alumnos
+4,1,2,0,Alumnos
+5,1,1,1,Pacientes
+5,1,2,1,Pacientes
+6,1,1,0,Expedientes
+6,1,2,0,Expedientes
+7,1,1,0,Trabajadores
+7,1,2,0,Trabajadores
+8,1,1,0,Contactos
+8,1,2,0,Terceros
+9,1,1,0,Proveedores
+9,1,2,0,Proveedores
+10,1,1,0,Aseguradoras
+10,1,2,0,Aseguradoras
+11,1,1,0,Mascotas
+11,1,2,0,Mascotas
+12,1,1,0,Compañías
+12,1,2,0,Compañías
+13,1,1,0,Voluntarios
+13,1,2,0,Voluntarios
+14,1,1,0,Financiadores
+14,1,2,0,Financiadores
+15,1,1,0,Tercera Edad
+15,1,2,0,Tercera Edad
+16,1,1,0,Ficheros
+16,1,2,0,Ficheros
+17,1,1,0,Personas de Contactos
+17,1,2,0,Contactos
+18,1,1,0,Contrarios
+18,1,2,0,Contrarios
+19,1,1,0,Abogados
+19,1,2,0,Abogados
+20,1,1,0,Procuradores
+20,1,2,0,Procuradores
+21,1,1,0,Juzgados
+21,1,2,0,Juzgados
+22,1,1,0,Poderes
+22,1,2,0,Poderes
+23,1,1,0,Colaboradores
+23,1,2,0,Colaboradores
+24,1,1,0,Organismos
+24,1,2,0,Organismos
+25,1,1,0,Inmuebles
+25,1,2,0,Inmuebles
+26,1,1,0,Notarías
+26,1,2,0,Notarías
+27,1,1,0,Promotoras
+27,1,2,0,Promotoras
+28,1,1,0,Vehículos
+28,1,2,0,Vehículos
+29,1,1,0,Agencias Inmobiliarias
+29,1,2,0,Agencias Inmobiliarias
+30,1,1,0,Constructoras
+30,1,2,0,Constructoras
+31,1,1,0,Proveedores
+31,1,2,0,Proveedores
+32,1,1,0,Fichero Libre 1
+32,1,2,0,Fichero Libre 1
+33,1,1,0,Fichero Libre 2
+33,1,2,0,Fichero Libre 2
+34,1,1,0,Fichero Libre 3
+34,1,2,0,Fichero Libre 3
+35,1,1,0,Peritos
+35,1,2,0,Peritos
+36,1,1,0,Talleres
+36,1,2,0,Talleres
+37,1,1,0,Asegurados
+37,1,2,0,Asegurados
+38,1,1,0,Colitigantes
+38,1,2,0,Colitigantes
+39,1,1,0,Agenda
+39,1,2,0,Agenda
+41,1,1,0,Sincronización Agenda
+41,1,2,0,Sincronización Agenda
+42,1,1,0,Office 365/Outlook
+42,1,2,0,Office 365/Outlook
+43,1,1,0,Google Calendar
+43,1,2,0,Google Calendar
+44,1,1,0,Correo
+44,1,2,0,Correo
+47,1,1,0,Adjuntos
+47,1,2,0,Adjuntos
+50,1,1,0,Control de Adjuntos
+50,1,2,0,Control de Adjuntos
+51,1,1,0,Documentación Interna
+51,1,2,0,Documentación Interna
+52,1,1,0,Facturación Emitida
+52,1,2,0,Facturación Emitida
+53,1,1,0,Facturas
+53,1,2,0,Facturas
+56,1,1,0,Proformas
+56,1,2,0,Proformas
+59,1,1,0,Presupuestos
+59,1,2,0,Presupuestos
+62,1,1,0,Albaranes
+62,1,2,0,Albaranes
+65,1,1,0,Pedidos
+65,1,2,0,Pedidos
+68,1,1,0,Control de Cuentas
+68,1,2,0,Control de Cuentas
+69,1,1,0,Cobros
+69,1,2,0,Cobros
+71,1,1,0,Remesas
+71,1,2,0,Remesas
+72,1,1,0,Bancos
+72,1,2,0,Bancos
+73,1,1,0,Facturación Recibida
+73,1,2,0,Facturación Recibida
+74,1,1,0,Facturas
+74,1,2,0,Facturas
+75,1,1,0,Albaranes
+75,1,2,0,Albaranes
+76,1,1,0,Pedidos
+76,1,2,0,Pedidos
+77,1,1,0,Presupuestos
+77,1,2,0,Presupuestos
+78,1,1,0,Pagos
+78,1,2,0,Pagos
+79,1,1,0,Contabilidad
+79,1,2,0,Contabilidad
+81,1,1,0,Libros/Modelos AEAT
+81,1,2,0,Libros/Modelos AEAT
+82,1,1,0,Diario
+82,1,2,0,Diario
+83,1,1,0,Listado del Mayor
+83,1,2,0,Listado del Mayor
+84,1,1,0,Balances
+84,1,2,0,Balances
+85,1,1,0,Modelos
+85,1,2,0,Modelos
+86,1,1,0,Herramientas de Chequeo
+86,1,2,0,Herramientas de Chequeo
+87,1,1,0,Importación
+87,1,2,0,Importación
+88,1,1,0,Whatsapp
+88,1,2,0,Whatsapp
+91,1,1,0,CRM-Presupuestos
+91,1,2,0,Oportunidades
+94,1,1,0,Tareas-Plazos
+94,1,2,0,Tareas
+96,1,1,0,Compras
+96,1,2,0,Compras
+97,1,1,0,Comisiones
+97,1,2,0,Comisiones
+100,1,1,0,Inicio Jornada
+100,1,2,0,Inicio Jornada
+101,1,1,0,Fin Jornada
+101,1,2,0,Fin Jornada
+102,1,1,0,Inicio Descanso
+102,1,2,0,Inicio Descanso
+103,1,1,0,Fin Descanso
+103,1,2,0,Fin Descanso
+104,1,1,0,Time Sheet
+104,1,2,0,Time Sheet
+105,1,1,0,Informes
+105,1,2,0,Informes
+106,1,1,0,Cuadros de Mando
+106,1,2,0,Cuadro de Mandos
+108,1,1,0,Emailer
+108,1,2,0,Emailer
+110,1,1,0,Firma Electrónica
+110,1,2,0,Firma Electrónica
+118,1,1,0,Seguridad
+118,1,2,0,Protección de Datos
+120,1,1,0,Auditoría Datos (logs)
+120,1,2,0,Auditoría Datos (logs)
+121,1,1,0,Análisis de Seguridad
+121,1,2,0,Análisis de Seguridad
+122,1,1,0,Baja Comunicaciones Comerciales (LSSI)
+122,1,2,0,Baja Comunicaciones Comerciales (LSSI)
+123,1,1,0,Control de Historial
+123,1,2,0,Control de Historial
+124,1,1,0,Stock
+124,1,2,0,Stock
+125,1,1,0,Artículos
+125,1,2,0,Artículos
+127,1,1,0,Clases
+127,1,2,0,Clases
+128,1,1,0,Control de Clases
+128,1,2,0,Control de Clases
+129,1,1,0,Control Seguimiento
+129,1,2,0,Control Seguimiento
+130,1,1,0,Seguimiento y Asistencia
+130,1,2,0,Seguimiento y Asistencia
+131,1,1,0,Imprimir Plantillas de Asistencia
+131,1,2,0,Imprimir Plantillas de Asistencia
+133,1,1,0,Reserva Online Clases
+133,1,2,0,Reserva Online Clases
+134,1,1,0,Configurar Web
+134,1,2,0,Configurar Web
+135,1,1,0,Enviar Enlace de Reserva
+135,1,2,0,Enviar Enlace de Reserva
+136,1,1,0,Reserva Online Cursos
+136,1,2,0,Reserva Online Cursos
+137,1,1,0,Configurar Web
+137,1,2,0,Configurar Web
+138,1,1,0,Enviar Enlace de Reserva
+138,1,2,0,Enviar Enlace de Reserva
+139,1,1,0,Formularios Registro Web
+139,1,2,0,Formularios Registro Web
+140,1,1,0,Configurar Web
+140,1,2,0,Configurar Web
+141,1,1,0,Enviar Enlace
+141,1,2,0,Enviar Enlace
+142,1,1,0,Recobros
+142,1,2,0,Recobros
+143,1,1,0,Crédito y Caución
+143,1,2,0,Crédito y Caución
+146,1,1,0,Control de Vencimientos
+146,1,2,0,Vencimientos/Pólizas
+147,1,1,0,Odontología
+147,1,2,0,Odontograma
+148,1,1,0,Lexnet
+148,1,2,0,Lexnet
+150,1,1,0,Avantius
+150,1,2,0,Avantius
+152,1,1,0,Vereda
+152,1,2,0,Vereda
+154,1,1,0,Justizia.Sip
+154,1,2,0,Justizia.Sip
+156,1,1,0,Ejusticia.Cat
+156,1,2,0,Ejusticia.Cat
+158,1,1,0,RPA
+158,1,2,0,Procesos Automáticos
+159,1,1,0,Opciones Automáticas Actuaciones
+159,1,2,0,Creación de Historial
+160,1,1,0,Correos Automáticos
+160,1,2,0,Recordatorios Automáticos
+163,1,1,0,Valoraciones
+163,1,2,0,Valoraciones
+165,1,1,0,Acceso Web/Móvil
+165,1,2,0,Acceso Web/Móvil
+166,1,1,0,Reserva Online
+166,1,2,0,Reserva Online
+167,1,1,0,Configurar webs
+167,1,2,0,Configurar webs
+168,1,1,0,Formularios Registro Web
+168,1,2,0,Formularios Registro Web
+169,1,1,0,Configurar Formularios Web
+169,1,2,0,Configurar webs
+171,1,1,0,Configuraciones Obligatorias
+171,1,2,0,Configuraciones Obligatorias
+172,1,1,0,Seleccionar Empresa
+172,1,2,0,Seleccionar Empresa
+173,1,1,0,Logo de Empresa
+173,1,2,0,Logo de Empresa
+174,1,1,0,Configuraciones Generales
+174,1,2,0,Configuraciones Generales
+175,1,1,0,Predefinidos
+175,1,2,0,Predefinidos
+176,1,1,0,Gestión de Plantillas
+176,1,2,0,Gestión de Plantillas
+177,1,1,0,Seleccionar Ejercicio
+177,1,2,0,Seleccionar Ejercicio
+178,1,1,0,Seleccionar Impresora
+178,1,2,0,Seleccionar Impresora
+179,1,1,0,Configuraciones Supervisor
+179,1,2,0,Configuraciones Supervisor
+180,1,1,0,Configuraciones Generales
+180,1,2,0,Configuraciones Generales
+181,1,1,0,Personalización
+181,1,2,0,Personalización
+182,1,1,0,Gestión de Permisos
+182,1,2,0,Gestión de Permisos
+183,1,1,0,Correo
+183,1,2,0,Correo
+184,1,1,0,SMS
+184,1,2,0,SMS
+185,1,1,0,Correo
+185,1,2,0,Correo
+187,1,1,0,Correo
+187,1,2,0,Correo
+188,1,1,0,WhatsApp
+188,1,2,0,WhatsApp
+189,1,1,0,Correo
+189,1,2,0,Correo
+190,1,1,0,WhatsApp
+190,1,2,0,WhatsApp
+191,1,1,0,Control Horario
+191,1,2,0,Control Horario
+193,1,1,0,Libros/Declaraciones
+193,1,2,0,Libros/Declaraciones
+194,1,1,0,Libro del IVA/IGIC (Fra. Emitidas/Fra. Recibidas)
+194,1,2,0,Libro del IVA/IGIC (Fra. Emitidas/Fra. Recibidas)
+196,1,1,0,Libro de Gastos
+196,1,2,0,Libro de Gastos
+197,1,1,0,Libro Bs. Inversión
+197,1,2,0,Libro Bs. Inversión
+199,1,1,0,I.V.A.
+199,1,2,0,I.V.A.
+200,1,1,0,Liquidación IVA Mód. 303
+200,1,2,0,Liquidación IVA Mód. 303
+201,1,1,0,Declaración Mód. 347
+201,1,2,0,Declaración Mód. 347
+202,1,1,0,I.R.P.F.
+202,1,2,0,I.R.P.F.
+203,1,1,0,Ventas
+203,1,2,0,Ventas
+204,1,1,0,Nóminas
+204,1,2,0,Nóminas
+205,1,1,0,Alquileres
+205,1,2,0,Alquileres
+206,1,1,0,Profesionales
+206,1,2,0,Profesionales
+207,1,1,0,Nóminas - Rendimientos en Especie
+207,1,2,0,Nóminas - Rendimientos en Especie
+208,1,1,0,Libros
+208,1,2,0,Libros
+209,1,1,0,Libros Declaraciones
+209,1,2,0,Libros Declaraciones
+210,1,1,0,Libro del IVA/IGIC (Fra. Emitidas/Fra Recibidas)
+210,1,2,0,Libro del IVA/IGIC (Fra. Emitidas/Fra Recibidas)
+211,1,1,0,Libros de Ingresos
+211,1,2,0,Libros de Ingresos
+212,1,1,0,Libro de Gastos
+212,1,2,0,Libro de Gastos
+213,1,1,0,Libro Bs. Inversión
+213,1,2,0,Libro Bs. Inversión
+214,1,1,0,Libro Provisiones/Suplidos
+214,1,2,0,Libro Provisiones/Suplidos
+215,1,1,0,I.V.A.
+215,1,2,0,I.V.A.
+216,1,1,0,Liquidación IVA Mód. 303
+216,1,2,0,Liquidación IVA Mód. 303
+217,1,1,0,Declaración Mód. 347
+217,1,2,0,Declaración Mód. 347
+218,1,1,0,I.R.P.F.
+218,1,2,0,I.R.P.F.
+219,1,1,0,Ventas
+219,1,2,0,Ventas
+220,1,1,0,Nóminas
+220,1,2,0,Nóminas
+221,1,1,0,Alquileres
+221,1,2,0,Alquileres
+222,1,1,0,Profesionales
+222,1,2,0,Profesionales
+223,1,1,0,IRPF - Nóminas - Rendimientos en Especie
+223,1,2,0,IRPF - Nóminas - Rendimientos en Especie
+224,1,1,0,Diario
+224,1,2,0,Diario
+225,1,1,0,Listado del Diario
+225,1,2,0,Listado del Diario
+226,1,1,0,Balance de Situación
+226,1,2,0,Balance de Situación
+227,1,1,0,Balance Sumas y Saldos
+227,1,2,0,Balance Sumas y Saldos
+228,1,1,0,Resumen Sumas y Saldos Anual 
+228,1,2,0,Resumen Sumas y Saldos Anual 
+229,1,1,0,Pérdidas y Ganancias
+229,1,2,0,Pérdidas y Ganancias
+230,1,1,0,Estado de Cambios En el Patrimonio Neto
+230,1,2,0,Estado de Cambios En el Patrimonio Neto
+232,1,1,0,Modelo 111
+232,1,2,0,Modelo 111
+233,1,1,0,Modelo 115
+233,1,2,0,Modelo 115
+234,1,1,0,Modelo 130
+234,1,2,0,Modelo 130
+235,1,1,0,Modelo 180
+235,1,2,0,Modelo 180
+236,1,1,0,Modelo 303
+236,1,2,0,Modelo 303
+237,1,1,0,Modelo 347
+237,1,2,0,Modelo 347
+238,1,1,0,Modelo 696
+238,1,2,0,Modelo 696
+239,1,1,0,Modelos
+239,1,2,0,Modelos
+240,1,1,0,Modelo 111
+240,1,2,0,Modelo 111
+241,1,1,0,Modelo 115
+241,1,2,0,Modelo 115
+242,1,1,0,Modelo 130
+242,1,2,0,Modelo 130
+243,1,1,0,Modelo 180
+243,1,2,0,Modelo 180
+244,1,1,0,Modelo 233
+244,1,2,0,Modelo 233
+245,1,1,0,Modelo 303
+245,1,2,0,Modelo 303
+246,1,1,0,Modelo 347
+246,1,2,0,Modelo 347
+247,1,1,0,Modelo 696
+247,1,2,0,Modelo 696
+248,1,1,0,Chequeo Asientos Descuadrados
+248,1,2,0,Chequeo Asientos Descuadrados
+249,1,1,0,Chequeo Asientos con descuadres inferior a 1 euro
+249,1,2,0,Chequeo Asientos con descuadres inferior a 1 euro
+250,1,1,0,Chequeo Cuentas no Existen en Balances
+250,1,2,0,Chequeo Cuentas no Existen en Balances
+251,1,1,0,Chequeo Cuentas Erróneas
+251,1,2,0,Chequeo Cuentas Erróneas
+252,1,1,0,Chequeo Contabilizado/Pendiente Contabilizar
+252,1,2,0,Chequeo Contabilizado/Pendiente Contabilizar
+253,1,1,0,Chequeo Cuentas IVA/IRPF
+253,1,2,0,Chequeo Cuentas IVA/IRPF
+254,1,1,0,Números no correlativos en Facturas Emitidas
+254,1,2,0,Números no correlativos en Facturas Emitidas
+255,1,1,0,Fechas no correlativas en Facturas Emitidas
+255,1,2,0,Fechas no correlativas en Facturas Emitidas
+256,1,1,0,Chequeo cuentas en Facturas Emitidas y Recibidas
+256,1,2,0,Chequeo cuentas en Facturas Emitidas y Recibidas
+257,1,1,0,Chequeo NIF y cuentas contables no coinciden entre factura y diario
+257,1,2,0,Chequeo NIF y cuentas contables no coinciden entre factura y diario
+258,1,1,0,Chequeo asientos que no tiene cubierta la contrapartida
+258,1,2,0,Chequeo asientos que no tiene cubierta la contrapartida
+259,1,1,0,Chequeo descuadres ente cuota iva y base imponible de facturas y diario
+259,1,2,0,Chequeo descuadres ente cuota iva y base imponible de facturas y diario
+260,1,1,0,Chequeo descuadres entre los totales de la factura emitida y los totales de los conceptos
+260,1,2,0,Chequeo descuadres entre los totales de la factura emitida y los totales de los conceptos
+268,1,1,0,Correos Automáticos
+268,1,2,0,Control de Recordatorios Automáticos
+272,1,1,0,Configuración
+272,1,2,0,Configuración de Cuentas
+273,1,1,0,SMS
+273,1,2,0,SMS
+274,1,1,0,Correo
+274,1,2,0,Correo
+283,1,1,0,Gestión de Acceso de Trabajadores
+283,1,2,0,Gestión de Acceso de Trabajadores
+284,1,1,0,Gestión de Acceso de Clientes
+284,1,2,0,Gestión de Acceso de Clientes
+285,1,1,0,Gestión de Boletines Informativos
+285,1,2,0,Gestión de Boletines Informativos
+286,1,1,0,Gestión de Documentos de Clientes
+286,1,2,0,Gestión de Documentos de Clientes
+288,1,1,0,Centros
+288,1,2,0,Centros
+289,1,1,0,Expedientes Predefinidos
+289,1,2,0,Expedientes Predefinidos
+292,1,1,0,Asuntos Predefinidos
+292,1,2,0,Asuntos Predefinidos
+293,1,1,0,Procedimientos Predefinidos
+293,1,2,0,Procedimientos Predefinidos
+294,1,1,0,Tratamientos Predefinidos
+294,1,2,0,Tratamientos Predefinidos
+295,1,1,0,Actuaciones Predefinidas
+295,1,2,0,Actuaciones Predefinidas
+297,1,1,0,Bonos Predefinidos
+297,1,2,0,Bonos Predefinidos
+299,1,1,0,Honorarios Predefinidos
+299,1,2,0,Honorarios Predefinidos
+300,1,1,0,Suplidos Predefinidos
+300,1,2,0,Suplidos Predefinidos
+303,1,1,0,Gastos Predefinidos
+303,1,2,0,Gastos Predefinidos
+304,1,1,0,CRM-Presupuestos Predefinidos
+304,1,2,0,Oportunidades Predefinidas
+313,1,1,0,Vencimientos Predefinidos
+313,1,2,0,Vencimientos Predefinidos
+314,1,1,0,Ramos Predefinidos
+314,1,2,0,Ramos Predefinidos
+315,1,1,0,Vacunas Predefinidas
+315,1,2,0,Vacunas Predefinidas
+319,1,1,0,Plantillas de Word
+319,1,2,0,Plantillas de Word
+320,1,1,0,Plantillas de Correo
+320,1,2,0,Plantillas de Correo
+321,1,1,0,Plantillas de Whatsapp / SMS
+321,1,2,0,Plantillas de Whatsapp / SMS
+322,1,1,0,Plantillas de Notas
+322,1,2,0,Plantillas de Notas
+323,1,1,0,Plantillas de Doc. MN
+323,1,2,0,Plantillas de Doc. MN
+324,1,1,0,Plantillas Predefinidas
+324,1,2,0,Plantillas Predefinidas
+325,1,1,0,Datos Usuario / Trabajador
+325,1,2,0,Datos Usuario / Trabajador
+326,1,1,0,Permisos  Usuarios / Trabajadores
+326,1,2,0,Permisos  Usuarios / Trabajadores
+327,1,1,0,Cambiar de Usuario / Trabajador Activo
+327,1,2,0,Cambiar de Usuario / Trabajador Activo
+328,1,1,0,Niveles de Seguridad
+328,1,2,0,Niveles Privacidad Fichas
+351,1,1,0,Facturación
+351,1,2,0,Facturación
+352,1,1,0,Tesorería
+352,1,2,0,Tesorería
+353,1,1,0,Time Report
+353,1,2,0,Time Report
+355,1,1,0,Informes
+355,1,2,0,Informes
+356,1,1,1,Agenda
+356,1,2,1,Agenda
+357,1,1,0,Control de Medicación
+357,1,2,0,Control de Medicación
+358,1,1,0,Backup Cloud
+358,1,2,0,Backup Cloud
+359,1,1,0,Escáner
+359,1,2,0,Escáner
+360,1,1,0,Calendario Web (Acceso Profesores)
+360,1,2,0,Calendario Web (Acceso Profesores)
+361,1,1,0,Enviar Enlace
+361,1,2,0,Enviar Enlace
+362,1,1,0,Correo
+362,1,2,0,Correo
+363,1,1,0,WhatsApp
+363,1,2,0,WhatsApp
+364,1,1,0,Cuentas
+364,1,2,0,Cuentas
+366,1,1,0,Balances P.G.C. Antiguo
+366,1,2,0,Balances P.G.C. Antiguo
+367,1,1,0,Cierre/Apertura Ejercicio
+367,1,2,0,Cierre/Apertura Ejercicio
+368,1,1,0,Asientos Predefinidos
+368,1,2,0,Asientos Predefinidos
+369,1,1,0,Utilidades
+369,1,2,0,Utilidades
+370,1,1,0,Conciliación
+370,1,2,0,Conciliación
+371,1,1,0,Norma 19
+371,1,2,0,Norma 19
+372,1,1,0,Norma 43
+372,1,2,0,Norma 43
+373,1,1,0,Formación Bonificada
+373,1,2,0,Formación Bonificada
+374,1,1,0,Recetas Médicas
+374,1,2,0,Recetas Médicas
+375,1,1,0,Cuentas
+375,1,2,0,Cuentas
+376,1,1,0,Estructura PGC
+376,1,2,0,Estructura PGC
+377,1,1,0,Config. Cuentas
+377,1,2,0,Config. Cuentas
+378,1,1,0,Tipos de Iva/Igic
+378,1,2,0,Tipos de Iva/Igic
+379,1,1,0,Tipos de I.R.P.F.
+379,1,2,0,Tipos de I.R.P.F.
+380,1,1,0,Equivalencias P.G.C. 2008
+380,1,2,0,Equivalencias P.G.C. 2008
+381,1,1,0,Traspaso Cuentas P.G.C. 2008
+381,1,2,0,Traspaso Cuentas P.G.C. 2008
+382,1,1,0,Balance de Situación
+382,1,2,0,Balance de Situación
+383,1,1,0,Balance Sumas y Saldos
+383,1,2,0,Balance Sumas y Saldos
+384,1,1,0,Pérdidas y Ganancias
+384,1,2,0,Pérdidas y Ganancias
+385,1,1,0,Cierre Ejercicio
+385,1,2,0,Cierre Ejercicio
+386,1,1,0,Invertir Cierre
+386,1,2,0,Invertir Cierre
+387,1,1,0,Generar Asiento Apertura
+387,1,2,0,Generar Asiento Apertura
+388,1,1,0,Invertir Apertura
+388,1,2,0,Invertir Apertura
+389,1,1,0,Importar Cuentas
+389,1,2,0,Importar Cuentas
+390,1,1,0,Gastos/Ingresos
+390,1,2,0,Gastos/Ingresos
+391,1,1,0,Nóminas
+391,1,2,0,Nóminas
+392,1,1,0,Pago Seguros Sociales
+392,1,2,0,Pago Seguros Sociales
+393,1,1,0,Devengo Seguros Sociales
+393,1,2,0,Devengo Seguros Sociales
+394,1,1,0,Importación Contaplus
+394,1,2,0,Importación Contaplus
+395,1,1,0,Actualizar %IVA
+395,1,2,0,Actualizar %IVA
+396,1,1,0,Actualizar %IRPF
+396,1,2,0,Actualizar %IRPF
+400,1,1,0,Actualizar Marca de Saldo
+400,1,2,0,Actualizar Marca de Saldo
+401,1,1,0,Eliminar Facturas Desvincular Cobros
+401,1,2,0,Eliminar Facturas Desvincular Cobros
+402,1,1,0,Eliminar duplicados de cobros de remesas
+402,1,2,0,Eliminar duplicados de cobros de remesas
+403,1,1,0,Expedientes Predefinidos
+403,1,2,0,Expedientes Predefinidos
+404,1,1,0,Generar XML
+404,1,2,0,Generar XML
+405,1,1,0,Acciones Formativas
+405,1,2,0,Acciones Formativas
+406,1,1,0,Inicio Curso
+406,1,2,0,Inicio Curso
+407,1,1,0,Fin Curso
+407,1,2,0,Fin Curso
+413,1,1,0,Odontograma
+413,1,2,0,Odontograma
+414,1,1,0,Control de Tratamientos
+414,1,2,0,Control de Tratamientos
+416,1,1,0,Control de Bonos
+416,1,2,0,Control de Bonos
+417,1,1,0,Remesas
+417,1,2,0,Remesas
+418,1,1,0,Utilidades
+418,1,2,0,Utilidades
+419,1,1,0,Arqueo de Caja
+419,1,2,0,Arqueo de Caja
+422,1,1,0,Plan Individual
+422,1,2,0,Plan Individual
+423,1,1,0,Control de Obligaciones
+423,1,2,0,Control de Obligaciones
+424,1,1,0,Calificaciones
+424,1,2,0,Calificaciones
+425,1,1,0,Cursos
+425,1,2,0,Cursos
+426,1,1,0,Alumnos
+426,1,2,0,Alumnos
+428,1,1,0,Libros
+428,1,2,0,Libros
+429,1,1,0,Enviar Enlace de Reserva
+429,1,2,0,Enviar Enlace de Reserva
+430,1,1,0,Correo
+430,1,2,0,Correo
+431,1,1,0,WhatsApp
+431,1,2,0,WhatsApp
+432,1,1,0,Lexnet
+432,1,2,0,Lexnet
+433,1,1,0,Historial de Fichajes
+433,1,2,0,Historial de Fichajes
+434,1,1,0,Libros/Modelos AEAT
+434,1,2,0,Libros/Modelos AEAT
+435,1,1,0,Cobros a Aseguradora
+435,1,2,0,Cobros a Aseguradora
+436,1,1,0,Bienes Inversión/Amortizaciones
+436,1,2,0,Bienes Inversión/Amortizaciones
+438,1,1,0,Libro de IVA por Tipo de Operación
+438,1,2,0,Libro de IVA por Tipo de Operación
+442,1,1,0,Nuevos Libros/Modelos AEAT
+442,1,2,0,Nuevos Libros/Modelos AEAT
+443,1,1,0,Modelos
+443,1,2,0,Modelos
+444,1,1,0,Libros
+444,1,2,0,Libros
+445,1,1,0,Libro de Provisiones y Suplidos
+445,1,2,0,Libro de Provisiones y Suplidos
+446,1,1,0,Depuración
+446,1,2,0,Depuración
+447,1,1,0,Fusionar Fichas Duplicadas
+447,1,2,0,Fusionar Fichas Duplicadas
+448,1,1,0,Libro de Ingresos/Facturas Emitidas
+448,1,2,0,Libro de Ingresos/Facturas Emitidas
+449,1,1,0,Declaración Mod. 347
+449,1,2,0,Declaración Mod. 347
+450,1,1,0,Control de Asistencia
+450,1,2,0,Control de Asistencia
+451,1,1,0,Reserva Online
+451,1,2,0,Reserva Online
+452,1,1,0,Calendario Web y Asistencia
+452,1,2,0,Calendario Web y Asistencia
+453,1,1,0,Seguimiento
+453,1,2,0,Seguimiento
+454,1,1,0,Nueva Firma
+454,1,2,0,Nueva Firma
+455,1,1,0,Control de Firmas Electrónicas
+455,1,2,0,Control de Firmas Electrónicas
+456,1,1,0,Certificado Digital
+456,1,2,0,Certificado Digital
+457,1,1,0,Firma Wacom
+457,1,2,0,Firma Wacom
+458,1,1,0,Tablet/Móvil
+458,1,2,0,Tablet/Móvil
+459,1,1,0,MN Accept
+459,1,2,0,MN Accept
+460,1,1,0,Accept Adjunto por Correo
+460,1,2,0,Accept Adjunto por Correo
+461,1,1,0,Accept Adjunto por Whatsapp
+461,1,2,0,Accept Adjunto por Whatsapp
+462,1,1,0,Accept de Correo
+462,1,2,0,Accept de Correo
+463,1,1,0,Accept de Whatsapp
+463,1,2,0,Accept de Whatsapp
+464,1,1,0,Nóminas
+464,1,2,0,Nóminas
+465,1,1,0,Alta Nómina
+465,1,2,0,Alta Nómina
+466,1,1,0,Devengo Seguros Sociales
+466,1,2,0,Devengo Seguros Sociales
+467,1,1,0,Pagos Seguros Sociales
+467,1,2,0,Pagos Seguros Sociales
+468,1,1,0,Atajos Envío Correo
+468,1,2,0,Atajos Envío Correo
+469,1,1,0,Pruebas Médicas Predefinidas
+469,1,2,0,Pruebas Médicas Predefinidas
+476,1,1,0,Todos los CMI
+476,1,2,0,Todos los CMI
+477,1,1,0,Generar Cobros (Servicios Contratados)
+477,1,2,0,Generar Cobros (Servicios Contratados)
+480,1,1,0,Reserva de Cita
+480,1,2,0,Reserva de Agenda
+481,1,1,0,Reserva de Clases
+481,1,2,0,Reserva de Clases
+482,1,1,0,Configurar Web
+482,1,2,0,Configurar Web
+483,1,1,0,Enviar Enlace
+483,1,2,0,Enviar Enlace
+484,1,1,0,Correo
+484,1,2,0,Correo
+485,1,1,0,WhatsApp
+485,1,2,0,WhatsApp
+486,1,1,0,Reserva de Cursos
+486,1,2,0,Reserva de Cursos
+487,1,1,0,Configurar Web
+487,1,2,0,Configurar Web
+488,1,1,0,Enviar Enlace
+488,1,2,0,Enviar Enlace
+489,1,1,0,Correo
+489,1,2,0,Correo
+490,1,1,0,WhatsApp
+490,1,2,0,WhatsApp
+491,1,1,0,Reserva de Materiales/Recursos
+491,1,2,0,Reserva de Tareas
+492,1,1,0,Configurar Web
+492,1,2,0,Configurar Web
+493,1,1,0,Enviar Enlace
+493,1,2,0,Enviar Enlace
+494,1,1,0,Correo
+494,1,2,0,Correo
+495,1,1,0,WhatsApp
+495,1,2,0,WhatsApp
+497,1,1,0,Enlaces Externos
+497,1,2,0,Enlaces Externos
+498,1,1,0,Configurar
+498,1,2,0,Configurar
+500,1,1,0,Configurar Niveles
+500,1,2,0,Configurar Niveles
+501,1,1,0,Desbloquear Niveles
+501,1,2,0,Desbloquear Niveles
+503,1,1,0,Tareas Predefinidas
+503,1,2,0,Tareas Predefinidas
+504,1,1,0,Pedidos Predefinidos
+504,1,2,0,Pedidos Predefinidos
+508,1,1,0,Enviar MN Accept
+508,1,2,0,Enviar MN Accept
+509,1,1,0,Control de MN Accept
+509,1,2,0,Control de MN Accept
+510,1,1,0,Permisos
+510,1,2,0,Permisos
+511,1,1,0,Niveles de Seguridad
+511,1,2,0,Niveles de Seguridad
+512,1,1,0,Configurar
+512,1,2,0,Configurar
+513,1,1,0,Modelo 347
+513,1,2,0,Modelo 347
+515,1,1,0,Modelo 696
+515,1,2,0,Modelo 696
+516,1,1,0,Modelo 111
+516,1,2,0,Modelo 111
+517,1,1,0,Modelo 115
+517,1,2,0,Modelo 115
+518,1,1,0,Atajos Envío Whatsapp
+518,1,2,0,Atajos Envío Whatsapp
+519,1,1,0,Atajos Imprimir Plantilla
+519,1,2,0,Atajos Imprimir Plantilla
+520,1,1,0,Gestión de Accesos
+520,1,2,0,Gestión de Accesos
+521,1,1,0,Operadores
+521,1,2,0,Usuarios
+525,1,1,0,Modelo 130
+525,1,2,0,Modelo 130
+526,1,1,0,Modelo 180
+526,1,2,0,Modelo 180
+527,1,1,0,Modelo 303
+527,1,2,0,Modelo 303
+528,1,1,0,Modelo 349
+528,1,2,0,Modelo 349
+529,1,1,0,Formularios de Registro
+529,1,2,0,Formularios de Registro
+530,1,1,0,Formularios de Solicitud de Información
+530,1,2,0,Formularios de Solicitud de Información
+531,1,1,0,Formularios de Venta
+531,1,2,0,Formularios de Venta
+532,1,1,0,Configurar
+532,1,2,0,Formularios de Solicitud de Información
+533,1,1,0,Enviar Enlace
+533,1,2,0,Enviar Enlace
+534,1,1,0,Correo
+534,1,2,0,Correo
+535,1,1,0,WhatsApp
+535,1,2,0,WhatsApp
+536,1,1,0,Configurar
+536,1,2,0,Formularios de Venta
+537,1,1,0,Enviar Enlace
+537,1,2,0,Enviar Enlace
+538,1,1,0,Correo
+538,1,2,0,Correo
+539,1,1,0,WhatsApp
+539,1,2,0,WhatsApp
+540,1,1,0,Atajos RPA
+540,1,2,0,Atajos RPA
+541,1,1,0,RPA Adjuntos
+541,1,2,0,RPA Adjuntos
+542,1,1,0,Capturar Adjuntos
+542,1,2,0,Capturar Adjuntos
+543,1,1,0,Configurar Envíos Correo
+543,1,2,0,Configuraciones
+544,1,1,0,Facturación Recibida BETA
+544,1,2,0,Facturación Recibida BETA
+545,1,1,0,Facturas Recibidas
+545,1,2,0,Facturas Recibidas
+546,1,1,0,Albaranes Recibidos
+546,1,2,0,Albaranes Recibidos
+547,1,1,0,Pagos
+547,1,2,0,Pagos
+548,1,1,0,Contabilidad BETA
+548,1,2,0,Contabilidad BETA
+549,1,1,0,Diario
+549,1,2,0,Diario
+550,1,1,0,Libro Mayor
+550,1,2,0,Libro Mayor
+551,1,1,0,Balances
+551,1,2,0,Balances
+552,1,1,0,Balance de Situación
+552,1,2,0,Balance de Situación
+553,1,1,0,Balance Sumas y Saldos
+553,1,2,0,Balance Sumas y Saldos
+554,1,1,0,Resumen Sumas y Saldos Anual
+554,1,2,0,Resumen Sumas y Saldos Anual
+555,1,1,0,Pérdidas y Ganancias
+555,1,2,0,Pérdidas y Ganancias
+556,1,1,0,Estado de Cambios En el Patrimonio Neto
+556,1,2,0,Estado de Cambios En el Patrimonio Neto
+557,1,1,0,Libros/ Modelos AEAT
+557,1,2,0,Libros/ Modelos AEAT
+558,1,1,0,Modelos
+558,1,2,0,Modelos
+559,1,1,0,Modelo 111
+559,1,2,0,Modelo 111
+560,1,1,0,Modelo 115
+560,1,2,0,Modelo 115
+561,1,1,0,Modelo 130
+561,1,2,0,Modelo 130
+562,1,1,0,Modelo 180
+562,1,2,0,Modelo 180
+563,1,1,0,Modelo 303
+563,1,2,0,Modelo 303
+564,1,1,0,Modelo 347
+564,1,2,0,Modelo 347
+565,1,1,0,Modelo 349
+565,1,2,0,Modelo 349
+566,1,1,0,Modelo 696
+566,1,2,0,Modelo 696
+567,1,1,0,Libros
+567,1,2,0,Libros
+568,1,1,0,Libro de Ingresos
+568,1,2,0,Libro de Ingresos
+569,1,1,0,Libro Provisiones/Suplidos
+569,1,2,0,Libro Provisiones/Suplidos
+570,1,1,0,Cuentas
+570,1,2,0,Cuentas
+571,1,1,0,Cuentas
+571,1,2,0,Cuentas
+572,1,1,0,Estructura PGC
+572,1,2,0,Estructura PGC
+573,1,1,0,Config. Cuentas
+573,1,2,0,Config. Cuentas
+574,1,1,0,Utilidades
+574,1,2,0,Utilidades
+575,1,1,0,Herramientas de Chequeo
+575,1,2,0,Herramientas de Chequeo
+577,1,1,0,Chequeo Asientos con Descuadres inferiores a 1 euro
+577,1,2,0,Chequeo Asientos con Descuadres inferiores a 1 euro
+579,1,1,0,Chequeo Cuentas erróneas
+579,1,2,0,Chequeo Cuentas erróneas
+581,1,1,0,Chequeo Contabilizado/Pendiente de Contabilizar
+581,1,2,0,Chequeo Contabilizado/Pendiente de Contabilizar
+582,1,1,0,Cursos
+582,1,2,0,Cursos
+583,1,1,0,Alumnos
+583,1,2,0,Alumnos
+584,1,1,0,Seleccionar Logo Empresa
+584,1,2,0,Seleccionar Logo Empresa
+585,1,1,0,Chequeo Cuentas IVA/IRPF
+585,1,2,0,Chequeo Cuentas IVA/IRPF
+586,1,1,0,Expedientes Predefinidos
+586,1,2,0,Expedientes
+587,1,1,0,Modelo 233
+587,1,2,0,Modelo 233
+588,1,1,0,Nóminas
+588,1,2,0,Nóminas
+589,1,1,0,Libros
+589,1,2,0,Libros
+591,1,1,0,Libro Bs. Inversión
+591,1,2,0,Libro Bs. Inversión
+593,1,1,0,Cuentas
+593,1,2,0,Cuentas
+594,1,1,0,Tipos de Iva/Igic
+594,1,2,0,Tipos de Iva/Igic
+595,1,1,0,Tipos de I.R.P.F.
+595,1,2,0,Tipos de I.R.P.F.
+596,1,1,0,Cambiar tu contraseña
+596,1,2,0,Cambiar tu contraseña
+597,1,1,0,Trabajos
+597,1,2,0,Trabajos
+598,1,1,0,Tareas-Plazos
+598,1,2,0,Tareas-Plazos
+599,1,1,0,Actualizar %IVA
+599,1,2,0,Actualizar %IVA
+600,1,1,0,Actualizar %IRPF
+600,1,2,0,Actualizar %IRPF
+601,1,1,0,Empresa Bonificada
+601,1,2,0,Empresa Bonificada
+602,1,1,0,Empresa Organizadora
+602,1,2,0,Empresa Organizadora
+603,1,1,0,Empresa Bonificada
+603,1,2,0,Empresa Bonificada
+604,1,1,0,Empresa Organizadora
+604,1,2,0,Empresa Organizadora
+605,1,1,0,Tarifas
+605,1,2,0,Tarifas
+606,1,1,0,Modelo 390
+606,1,2,0,Modelo 390
+607,1,1,0,Órdenes de Trabajo
+607,1,2,0,Órdenes de Trabajo
+608,1,1,0,Chequeo Cuentas Sin Facturar
+608,1,2,0,Chequeo Cuentas Sin Facturar
+609,1,1,0,Chequeo Actuaciones con precio que no están en cobros y/o facturas
+609,1,2,0,Chequeo Actuaciones con precio que no están en cobros y/o facturas
+610,1,1,0,Chequeo Cobros sin facturar
+610,1,2,0,Chequeo Cobros sin facturar
+611,1,1,0,Chequeo Remesas sin cobrar y/o sin enviar a diario
+611,1,2,0,Chequeo Remesas sin cobrar y/o sin enviar a diario
+612,1,1,0,Chequeo Pagos sin facturar
+612,1,2,0,Chequeo Pagos sin facturar
+613,1,1,0,Libro de Ingresos
+613,1,2,0,Libro de Ingresos
+614,1,1,0,Libro de Gastos
+614,1,2,0,Libro de Gastos
+615,1,1,0,Chequeo Facturas con Conceptos sin IVA
+615,1,2,0,Chequeo Facturas con Conceptos sin IVA
+616,1,1,0,Modelo 390
+616,1,2,0,Modelo 390
+617,1,1,0,Configuraciones
+617,1,2,0,Configuraciones
+619,1,1,0,Generales
+619,1,2,0,Generales
+620,1,1,0,Contadores
+620,1,2,0,Contadores
+621,1,1,0,Configuraciones
+621,1,2,0,Configuraciones
+623,1,1,0,Generales
+623,1,2,0,Generales
+624,1,1,0,Correo
+624,1,2,0,Correo
+625,1,1,0,Configuraciones
+625,1,2,0,Configuraciones
+627,1,1,0,Generales
+627,1,2,0,Generales
+628,1,1,0,Plantillas de Correo
+628,1,2,0,Plantillas de Correo
+629,1,1,0,Configuraciones
+629,1,2,0,Configuraciones
+630,1,1,0,Generales
+630,1,2,0,Generales
+631,1,1,0,Configuraciones
+631,1,2,0,Configuraciones
+633,1,1,0,Generales
+633,1,2,0,Generales
+634,1,1,0,Contadores
+634,1,2,0,Contadores
+635,1,1,0,Plantillas de Word
+635,1,2,0,Plantillas de Word
+636,1,1,0,Plantillas de Correo
+636,1,2,0,Plantillas de Correo
+637,1,1,0,Configuraciones
+637,1,2,0,Configuraciones
+639,1,1,0,Generales
+639,1,2,0,Generales
+640,1,1,0,Contadores
+640,1,2,0,Contadores
+641,1,1,0,Plantillas de Word
+641,1,2,0,Plantillas de Word
+642,1,1,0,Plantillas de Correo
+642,1,2,0,Plantillas de Correo
+643,1,1,0,Configuraciones
+643,1,2,0,Configuraciones
+645,1,1,0,Generales
+645,1,2,0,Generales
+646,1,1,0,Contadores
+646,1,2,0,Contadores
+648,1,1,0,Configuraciones
+648,1,2,0,Configuraciones
+650,1,1,0,Generales
+650,1,2,0,Generales
+651,1,1,0,Configuraciones
+651,1,2,0,Configuraciones
+654,1,1,0,Plantillas de Correo
+654,1,2,0,Plantillas de Correo
+655,1,1,0,Configuraciones
+655,1,2,0,Configuraciones
+657,1,1,0,Generales
+657,1,2,0,Generales
+658,1,1,0,Planificación
+658,1,2,0,Planificación
+659,1,1,0,Configuraciones
+659,1,2,0,Configuraciones
+661,1,1,0,Generales
+661,1,2,0,Generales
+662,1,1,0,Contadores
+662,1,2,0,Contadores
+663,1,1,0,Plantillas de Word
+663,1,2,0,Plantillas de Word
+664,1,1,0,Plantillas de Correo
+664,1,2,0,Plantillas de Correo
+665,1,1,0,Configuraciones
+665,1,2,0,Configuraciones
+667,1,1,0,Plantillas de Word
+667,1,2,0,Plantillas de Word
+668,1,1,0,Plantillas de Correo
+668,1,2,0,Plantillas de Correo
+671,1,1,0,Generales
+671,1,2,0,CRM-Presupuestos
+672,1,1,0,Contadores
+672,1,2,0,Contadores
+673,1,1,0,Plantillas de Word
+673,1,2,0,Plantillas de Word
+674,1,1,0,Plantillas de Correo
+674,1,2,0,Plantillas de Correo
+675,1,1,0,MN Sign
+675,1,2,0,MN Sign
+676,1,1,0,Configuraciones
+676,1,2,0,Configuraciones
+678,1,1,0,Generales
+678,1,2,0,Generales
+679,1,1,0,Plantillas de Word
+679,1,2,0,Plantillas de Word
+680,1,1,0,Plantillas de Correo
+680,1,2,0,Plantillas de Correo
+681,1,1,0,Configuraciones
+681,1,2,0,Configuraciones
+683,1,1,0,Plantillas de Word
+683,1,2,0,Plantillas de Word
+684,1,1,0,Plantillas de Correo
+684,1,2,0,Plantillas de Correo
+685,1,1,0,Emailer
+685,1,2,0,Emailer
+686,1,1,0,Configuraciones
+686,1,2,0,Configuraciones
+688,1,1,0,Generales
+688,1,2,0,Generales
+689,1,1,0,Plantillas de Correo
+689,1,2,0,Plantillas de Correo
+690,1,1,0,RPA
+690,1,2,0,RPA
+691,1,1,0,Configuraciones
+691,1,2,0,Configuraciones
+693,1,1,0,RPA Adjuntos
+693,1,2,0,RPA Adjuntos
+694,1,1,0,Generales
+694,1,2,0,Generales
+695,1,1,0,Plantillas de Word
+695,1,2,0,Plantillas de Word
+696,1,1,0,Plantillas de Correo
+696,1,2,0,Plantillas de Correo
+700,1,1,0,Configuraciones
+700,1,2,0,Configuraciones
+702,1,1,0,Formularios Web
+702,1,2,0,Formularios Web
+704,1,1,0,Tareas
+704,1,2,0,Tareas
+705,1,1,0,Compras
+705,1,2,0,Compras
+707,1,1,0,Configuraciones
+707,1,2,0,Configurar Web Reserva de Agenda
+709,1,1,0,Acceso Clientes
+709,1,2,0,Acceso Clientes
+710,1,1,0,Acceso Profesores
+710,1,2,0,Acceso Profesores
+715,1,1,0,Servicio
+715,1,2,0,Servicio
+716,1,1,0,WhatsApp
+716,1,2,0,WhatsApp
+717,1,1,0,Configuraciones
+717,1,2,0,Configuraciones
+719,1,1,0,Generales
+719,1,2,0,Generales
+720,1,1,0,Plantillas de WhatsApp
+720,1,2,0,Plantillas de WhatsApp
+721,1,1,0,Más Módulos
+721,1,2,0,Más Módulos
+722,1,1,0,Configuraciones
+722,1,2,0,Configuraciones
+724,1,1,0,Generales
+724,1,2,0,Generales
+725,1,1,0,Configuraciones
+725,1,2,0,Configuraciones
+727,1,1,0,Generales
+727,1,2,0,Generales
+728,1,1,0,Bonos
+728,1,2,0,Bonos
+729,1,1,0,Configuraciones
+729,1,2,0,Configuraciones
+731,1,1,0,Generales
+731,1,2,0,Generales
+732,1,1,0,Recetas Médicas
+732,1,2,0,Recetas Médicas
+733,1,1,0,Configuraciones
+733,1,2,0,Configuraciones
+734,1,1,0,Plantillas de Word
+734,1,2,0,Plantillas de Word
+735,1,1,0,Configuraciones
+735,1,2,0,Configuraciones
+737,1,1,0,Generales
+737,1,2,0,Generales
+738,1,1,0,Configuraciones
+738,1,2,0,Configuraciones
+739,1,1,0,Generales
+739,1,2,0,Generales
+740,1,1,0,Libro de IRPF por Tipo de Operación
+740,1,2,0,Libro de IRPF por Tipo de Operación
+741,1,1,0,Plantillas de Word
+741,1,2,0,Plantillas de Word
+742,1,1,0,Plantillas de Correo
+742,1,2,0,Plantillas de Correo
+743,1,1,0,Plantillas de WhatsApp
+743,1,2,0,Plantillas de WhatsApp
+744,1,1,0,Plantillas de Word
+744,1,2,0,Plantillas de Word
+745,1,1,0,Plantillas de Correo
+745,1,2,0,Plantillas de Correo
+746,1,1,0,Plantillas de WhatsApp
+746,1,2,0,Plantillas de WhatsApp
+748,1,1,0,Plantillas de WhatsApp
+748,1,2,0,Plantillas de WhatsApp
+750,1,1,0,Plantillas de WhatsApp
+750,1,2,0,Plantillas de WhatsApp
+755,1,1,0,Plantillas de WhatsApp
+755,1,2,0,Plantillas de WhatsApp
+760,1,1,0,Plantillas de WhatsApp
+760,1,2,0,Plantillas de WhatsApp
+762,1,1,0,Plantillas de WhatsApp
+762,1,2,0,Plantillas de WhatsApp
+763,1,1,0,Generales
+763,1,2,0,Valoraciones
+764,1,1,0,Plantillas de WhatsApp
+764,1,2,0,Plantillas de WhatsApp
+765,1,1,0,Generales
+765,1,2,0,Comisiones
+772,1,1,0,Configuraciones
+772,1,2,0,Configuraciones
+774,1,1,0,Generales
+774,1,2,0,Generales
+775,1,1,0,Libro de IVA por Tipo de Operación
+775,1,2,0,Libro de IVA por Tipo de Operación
+790,1,1,0,Libro de IRPF por Tipo de Operación
+790,1,2,0,Libro de IRPF por Tipo de Operación
+791,1,1,0,Sign Avanzado de Adjunto por Correo
+791,1,2,0,Sign Avanzado de Adjunto por Correo
+792,1,1,0,Sign Avanzado de Adjunto por Whatsapp
+792,1,2,0,Sign Avanzado de Adjunto por Whatsapp
+793,1,1,0,Plantillas de Correo
+793,1,2,0,Plantillas de Correo
+794,1,1,0,Plantillas de Word
+794,1,2,0,Plantillas de Word
+795,1,1,0,Plantillas de Word
+795,1,2,0,Plantillas de Word
+798,1,1,0,TicketBai
+798,1,2,0,TicketBai
+799,1,1,0,Facturas TicketBai
+799,1,2,0,Facturas TicketBai
+800,1,1,0,Configuraciones
+800,1,2,0,Configuraciones
+802,1,1,0,Generales
+802,1,2,0,Generales
+803,1,1,0,Contadores
+803,1,2,0,Contadores
+804,1,1,0,Plantillas de Word
+804,1,2,0,Plantillas de Word
+805,1,1,0,Liquidación Mod. 303
+805,1,2,0,Liquidación Mod. 303
+806,1,1,0,Firmas
+806,1,2,0,Firmas
+807,1,1,0,Expedientes
+807,1,2,0,Expedientes
+808,1,1,0,Historial y Agenda
+808,1,2,0,Historial y Agenda
+809,1,1,0,Historia Clínica
+809,1,2,0,Historia Clínica
+810,1,1,0,Odontograma
+810,1,2,0,Odontograma
+811,1,1,0,Facturación
+811,1,2,0,Facturación
+812,1,1,0,Planificación 
+812,1,2,0,Planificación 
+813,1,1,0,CRM-Presupuestos
+813,1,2,0,CRM-Presupuestos
+814,1,1,0,Pediatría
+814,1,2,0,Pediatría
+815,1,1,0,Bonos
+815,1,2,0,Bonos
+816,1,1,0,Vencimientos/Pólizas
+816,1,2,0,Vencimientos/Pólizas
+817,1,1,0,Predefinidos
+817,1,2,0,Predefinidos
+818,1,1,0,Centros Predefinidos
+818,1,2,0,Centros Predefinidos
+819,1,1,0,Expedientes
+819,1,2,0,Expedientes
+820,1,1,0,Tipo de Expediente
+820,1,2,0,Tipo de Expediente
+821,1,1,0,Asuntos Predefinidos
+821,1,2,0,Asuntos Predefinidos
+822,1,1,0,Procedimientos Predefinidos
+822,1,2,0,Procedimientos Predefinidos
+823,1,1,0,Predefinidos
+823,1,2,0,Predefinidos
+824,1,1,0,Actuaciones
+824,1,2,0,Servicios Predefinidos
+825,1,1,0,Predefinidos
+825,1,2,0,Predefinidos
+826,1,1,0,Prestaciones
+826,1,2,0,Servicios
+827,1,1,0,Gastos
+827,1,2,0,Gastos
+828,1,1,0,Suplidos
+828,1,2,0,Suplidos
+829,1,1,0,Predefinidos
+829,1,2,0,Predefinidos
+830,1,1,0,Prestaciones
+830,1,2,0,Servicios
+831,1,1,0,Predefinidos
+831,1,2,0,Predefinidos
+832,1,1,0,Actuaciones
+832,1,2,0,Servicios Predefinidos
+833,1,1,0,Predefinidos
+833,1,2,0,Predefinidos
+834,1,1,0,Trabajos
+834,1,2,0,Trabajos
+835,1,1,0,Tareas-Plazos
+835,1,2,0,Tareas-Plazos
+836,1,1,0,Compras
+836,1,2,0,Compras
+837,1,1,0,Predefinidos
+837,1,2,0,Predefinidos
+838,1,1,0,CRM-Presupuestos 
+838,1,2,0,CRM-Presupuestos 
+839,1,1,0,Predefinidos
+839,1,2,0,Predefinidos
+840,1,1,0,Tratamientos
+840,1,2,0,Tratamientos
+841,1,1,0,Vencimientos/Pólizas
+841,1,2,0,Vencimientos/Pólizas
+842,1,1,0,Configuraciones
+842,1,2,0,Configuraciones
+843,1,1,0,Predefinidos
+843,1,2,0,Predefinidos
+844,1,1,0,Vencimientos Predefinidos
+844,1,2,0,Vencimientos Predefinidos
+845,1,1,0,Predefinidos
+845,1,2,0,Predefinidos
+846,1,1,0,Bonos
+846,1,2,0,Bonos
+849,1,2,0,Almacenes
+850,1,1,0,Enviar RPA
+850,1,2,0,Enviar RPA
+851,1,1,0,Enviar Correo con RPA
+851,1,2,0,Enviar Correo con RPA
+852,1,1,0,Enviar WhatsApp con RPA
+852,1,2,0,Enviar WhatsApp con RPA
+853,1,1,0,Imprimir Plantilla con RPA
+853,1,2,0,Imprimir Plantilla con RPA
+854,1,1,0,Stock
+854,1,2,0,Stock
+855,1,1,0,Artículos
+855,1,2,0,Artículos
+856,1,1,0,Movimientos de Stock
+856,1,2,0,Movimientos de Stock
+857,1,1,0,Entradas/Salidas de Almacén
+857,1,2,0,Entradas/Salidas de Almacén
+858,1,1,0,Oficina Virtual
+858,1,2,0,Oficina Virtual
+859,1,1,0,Acceso Trabajadores
+859,1,2,0,MN program Web
+861,1,1,0,Plantillas Predeterminadas
+861,1,2,0,Plantillas Predeterminadas
+862,1,1,0,Plantillas Predeterminadas
+862,1,2,0,Plantillas Predeterminadas
+863,1,1,0,Plantillas Predeterminadas
+863,1,2,0,Plantillas Predeterminadas
+864,1,1,0,Plantillas Predeterminadas
+864,1,2,0,Plantillas Predeterminadas
+865,1,1,0,Plantillas Predeterminadas
+865,1,2,0,Plantillas Predeterminadas
+866,1,1,0,Plantillas Predeterminadas
+866,1,2,0,Plantillas Predeterminadas
+867,1,1,0,Plantillas Predeterminadas
+867,1,2,0,Plantillas Predeterminadas
+868,1,1,0,Plantillas Predeterminadas
+868,1,2,0,Plantillas Predeterminadas
+869,1,1,0,Plantillas Predeterminadas
+869,1,2,0,Plantillas Predeterminadas
+870,1,1,0,Plantillas Predeterminadas
+870,1,2,0,Plantillas Predeterminadas
+871,1,1,0,MN program Web
+871,1,2,0,MN program Web
+872,1,1,0,Módulos Premium
+872,1,2,0,Módulos Premium
+873,1,1,0,Servicios Contratados
+873,1,2,0,Servicios Contratados
+876,1,1,0,Emisores Facturas
+876,1,2,0,Emisores Facturas
+877,1,1,0,MN program Web
+877,1,2,0,MN program Web
+878,1,1,0,Recursos
+878,1,2,0,Recursos
+879,1,1,0,Recursos
+879,1,2,0,Recursos
+880,1,1,0,Control Movimientos Recursos
+880,1,2,0,Control Movimientos Recursos
+881,1,1,0,Control de Tesorería
+881,1,2,0,Control de Tesorería
+882,1,1,0,Verificación en dos pasos
+882,1,2,0,Verificación en dos pasos
+883,1,1,0,Mascotas
+883,1,2,0,Mascotas
+884,1,1,0,Cuentas
+884,1,2,0,Cuentas
+885,1,1,0,Firmas
+885,1,2,0,Firmas
+886,1,1,0,Informes
+886,1,2,0,Informes
+890,1,1,0,TPV
+890,1,2,0,TPV
+891,1,1,0,TPV
+891,1,2,0,TPV
+892,1,1,0,Configuraciones
+892,1,2,0,Configuraciones
+893,1,1,0,Generales
+893,1,2,0,Generales
+894,1,1,0,Escalas
+894,1,2,0,Cuestionarios
+895,1,1,0,Control de Respuestas Escalas
+895,1,2,0,Control de Respuestas de Cuestionarios
+896,1,1,0,Configuraciones
+896,1,2,0,Configuraciones
+897,1,1,0,Escalas Predefinidas
+897,1,2,0,Cuestionarios Predefinidos
+899,1,1,0,Formularios de Solicitud de Servicio
+899,1,2,0,Formularios de Solicitud de Servicio
+900,1,1,0,Formularios de Solicitud de Servicio
+900,1,2,0,Formularios de Solicitud de Servicio
+901,1,1,0,Enviar Enlace
+901,1,2,0,Enviar Enlace
+902,1,1,0,Correo
+902,1,2,0,Correo
+903,1,1,0,WhatsApp
+903,1,2,0,WhatsApp
+905,1,1,0,Lexnet
+905,1,2,0,Lexnet
+906,1,1,0,Escritos en Cola
+906,1,2,0,Escritos en Cola
+907,1,1,0,Plan Individual
+907,1,2,0,Plan Individual
+908,1,1,0,Control de PIA
+908,1,2,0,Control de PIA
+909,1,1,0,Configuración
+909,1,2,0,Configuración
+910,1,1,0,Plantillas de Word
+910,1,2,0,Plantillas de Word
+911,1,1,0,Predefinidos
+911,1,2,0,Predefinidos
+912,1,1,0,Objetivos
+912,1,2,0,Objetivos
+914,1,1,0,PIA
+914,1,2,0,PIA
+915,1,1,0,Objetivos
+915,1,2,0,Objetivos
+917,1,1,0,Control de Escalas
+917,1,2,0,Control de Cuestionarios
+919,1,1,0,Artículos
+919,1,2,0,Artículos
+923,1,1,0,Calendario de Obligaciones
+923,1,2,0,Calendario de Obligaciones
+924,1,2,0,Predefinidos
+926,1,1,0,Tareas-Plazos
+926,1,2,0,Tareas-Plazos
+927,1,1,0,Tareas-Plazos
+927,1,2,0,Tareas-Plazos
+928,1,1,0,Configuraciones
+928,1,2,0,Configuraciones
+929,1,1,0,Generales
+929,1,2,0,Generales
+930,1,1,0,Predefinidos
+930,1,2,0,Predefinidos
+931,1,1,0,Trabajos
+931,1,2,0,Trabajos
+932,1,1,0,Tareas-Plazos
+932,1,2,0,Tareas-Plazos
+935,1,1,0,Monitorización
+935,1,2,0,Monitorización
+936,1,1,0,Artículos
+936,1,2,0,Artículos
+937,1,1,0,Artículos
+937,1,2,0,Artículos
+938,1,1,0,Artículos
+938,1,2,0,Artículos
+939,1,2,0,Configuraciones
+940,1,1,0,Calendario de Obligaciones
+940,1,2,0,Calendario de Obligaciones
+941,1,1,0,Trabajos
+941,1,2,0,Trabajos
+942,1,1,0,Trabajos
+942,1,2,0,Trabajos
+943,1,2,0,Recall
+944,1,2,0,Más Módulos Premium
+945,1,2,0,Fichaje
+946,1,2,0,Monitorización
+947,1,2,0,Plantillas de Correo
+949,1,2,0,Configuraciones
+951,1,2,0,Tareas-Plazos
+952,1,2,0,Trabajos
+953,1,2,0,Tareas-Plazos
+954,1,2,0,Trabajos
+955,1,2,0,Whatsapp Business
+956,1,2,0,Recordatorios Automáticos
+957,1,2,0,Whatsapp Web
+958,1,2,0,Plantillas Whatsapp Business
+959,1,2,0,Plantillas Whatsapp Business
+960,1,2,0,Validación de Gastos
+1003,1,2,0,Modelo 190
+1004,1,2,0,Modelo 190
+1005,1,2,0,Reserva de Agenda
+1006,1,2,0,Reserva Online
+1007,1,2,0,Reserva de Agenda
+1008,1,2,0,Enviar Enlace
+1009,1,2,0,Correo
+1010,1,2,0,WhatsApp
+1011,1,2,0,Configuraciones
+1012,1,2,0,Configurar Web Reserva de Agenda
+1013,1,2,0,Configurar Web Reserva de Cursos
+1014,1,2,0,Enviar Enlace
+1015,1,2,0,Correo
+1016,1,2,0,WhatsApp
+1017,1,2,0,Configurar Web Reserva de Clases
+1018,1,2,0,Enviar Enlace
+1019,1,2,0,Correo
+1020,1,2,0,WhatsApp
+1021,1,2,0,Configurar Web Reserva de Tareas
+1022,1,2,0,Enviar Enlace
+1023,1,2,0,Correo
+1024,1,2,0,WhatsApp
+1025,1,2,0,Propiedades Inmobiliarias
+1026,1,2,0,Habitaciones y Camas
+1027,1,2,0,Sin Empresas Participantes
+1028,1,2,0,Con Empresas Participantes
+1029,1,2,0,Contadores
+1030,1,2,0,Grupos de Empresas
+1031,1,2,0,Grupos de Empresas
+1032,1,2,0,Chat
+1033,1,2,0,Comprobaciones Modelos
+1034,1,2,0,Modelos 303 y 390
+1035,1,2,0,Comprobaciones Modelos
+1036,1,2,0,Modelos 303 y 390
+1037,1,2,0,Enviar Enlace
+1038,1,2,0,Por Correo
+1039,1,2,0,Por Whatsapp
+1040,1,2,0,Cuestionarios Web
+1041,1,2,0,Cuestionarios Predefinidos
+1042,1,2,0,Enviar Enlace
+1043,1,2,0,Por Correo
+1044,1,2,0,Por Whatsapp
+1045,1,2,0,Modelo 347
+1046,1,2,0,Modelo 347
+1047,1,2,0,Modelo 349
+1048,1,2,0,Modelo 349
+1049,1,2,0,Modelos 111 y 190
+1050,1,2,0,Modelos 111 y 190
+1051,1,2,0,Modelo 130
+1052,1,2,0,Modelo 130
+1053,1,2,0,Generales
+1054,1,2,0,Plantillas Predeterminadas
+1055,1,2,0,Modelos 115 y 180
+1057,1,2,0,Modelos 115 y 180
+1058,1,2,0,Propiedades
+1059,1,2,0,Propiedades
+1060,1,2,0,Portales Inmobiliarios
+1061,1,2,0,Herramientas de Chequeo
+1062,1,2,0,Modelo 233
+1063,1,2,0,Propiedades Inmobiliarias
+1064,1,2,0,Propiedades Inmobiliarias
+1065,1,2,0,Configuraciones
+1066,1,2,0,Portales Inmobiliarios
+1067,1,2,0,Seleccionar Encabezado
+1068,1,2,0,Seleccionar Pie de Página
+1069,1,2,0,Controles Médicos
+1070,1,2,0,Controles Médicos
+1071,1,2,0,RRHH
+1072,1,2,0,Trabajadores
+1073,1,2,0,Turnos y Ausencias
+1074,1,2,0,Control Horario
+1075,1,2,0,Fichaje
+1076,1,2,0,Inicio Jornada
+1077,1,2,0,Fin Jornada
+1078,1,2,0,Inicio Descanso
+1079,1,2,0,Fin Descanso
+1080,1,2,0,Historial de Fichajes
+1081,1,2,0,Informes
+1082,1,2,0,Monitorización
+1083,1,2,0,CRM-Presupuestos
+1084,1,2,0,CRM-Presupuestos
+1085,1,2,0,Configuraciones
+1086,1,2,0,Generales
+1087,1,2,0,Predefinidos
+1088,1,2,0,CRM-Presupuestos
+1089,1,2,0,Configuraciones
+1090,1,2,0,Generales
+1091,1,2,0,Contadores
+1092,1,2,0,Predefinidos
+1093,1,2,0,Compras
+1094,1,2,0,Utilidades
+1095,1,2,0,Herramientas de Chequeo
+1096,1,2,0,Utilidades
+1097,1,2,0,Herramientas de Chequeo
+1098,1,2,0,PRESVET
+1099,1,2,0,Control de Turnos y Ausencias
+1100,1,2,0,Solicitar Vacaciones/Ausencia
+1101,1,2,0,Calendario
+1102,1,2,0,Buscar Ficha
+1103,1,2,0,Buscar Expediente
+1129,1,2,0,Potenciales
+1130,1,2,0,Mis Atajos
+1131,1,2,0,MN Sign
+1132,1,2,0,Configuraciones
+1133,1,2,0,Papelera de Reciclaje
+1134,1,2,0,Papelera de Reciclaje
+1136,1,2,0,Usuarios
+1137,1,2,0,Permisos
+1138,1,2,0,Expedientes
+1139,1,2,0,Alumnos
+1140,1,2,0,Alumnos
+1141,1,2,0,Buscar Ficha
+1142,1,2,0,Papelera de Reciclaje
+1144,1,2,0,Expedientes
+1145,1,2,0,Expedientes
+1146,1,2,0,Informes
+1147,1,2,0,Cuadros de Mando
+1158,1,2,0,Enviar MN Sign

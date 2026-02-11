@@ -1,0 +1,13 @@
+﻿Origen,inumDcto,Linea,iyear,origenrel,inumdctorel,iyearrel
+Exp       ,1,0,2005,Exp       ,2,2005
+Exp       ,1,1,2005,Exp       ,22,2006
+Exp       ,2,0,2005,Exp       ,1,2005
+Exp       ,2,0,2006,Exp       ,15,2007
+Exp       ,2,1,2005,Exp       ,48,2005
+Exp       ,5,0,2006,Exp       ,7,2007
+Exp       ,7,0,2007,Exp       ,5,2006
+Exp       ,15,0,2007,Exp       ,2,2006
+Exp       ,22,2,2006,Exp       ,1,2005
+Exp       ,48,0,2005,Exp       ,2,2005
+Exp       ,57,0,2005,Ext       ,1,2005
+Ext       ,1,0,2005,Exp       ,57,2005

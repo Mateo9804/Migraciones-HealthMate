@@ -1,0 +1,19 @@
+﻿id,clase,referencia,descripcion,tipo,eliminado,predeterminada,bloqueado
+2,1,,Visita,General,True,False,False
+3,1,,Medicación,General,True,False,
+100000001,1,,Examen Optométrico,Oftalmología,False,,
+100000005,1,,Anamnesis,Medicina General,False,False,False
+100000006,1,,Gafas,Oftalmología,False,,
+100000007,1,,Examen Oftalmológico,Oftalmología,False,,
+100000008,1,,Audiometría,Otorrinolaringología,False,,
+100000009,1,,Revisión Ginecológica,Ginecología,False,False,
+100000011,1,,Primera valoración - Primera consulta,Medicina General,False,False,False
+100000012,1,,Historia IVES GI,Ginecología,False,False,False
+100000014,1,,Medicina General,Medicina General,True,False,False
+100000015,1,,Receta,General,False,False,False
+100000016,1,,Evolución,General,False,False,False
+2000000001,1,,Fecha Probable de Parto,Ginecología,False,False,True
+2000000002,1,,Visita,General,False,True,True
+2000000003,1,,Revisión Ginecológica,Ginecología,False,False,True
+2000000004,1,,Control de Peso,Nutrición,False,False,True
+2000000005,1,,Embarazo,Ginecología,False,False,True

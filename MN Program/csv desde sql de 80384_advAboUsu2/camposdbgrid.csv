@@ -1,0 +1,6 @@
+﻿id,formname,dbgridname,camponame,bocultar,tablaetiexcel,bestaendiseno
+1,formclipral,dbgrid2,nomsubusu,0,expedien,1
+2,formclipotenpral,dbgrid2,nomsubusu,0,expedien,1
+3,formotros,dbgrid2,nomsubusu,0,expedien,1
+4,formtrabajadores,dbgrid2,nomsubusu,0,expedien,1
+5,FormAlumnos,dbgrid2,nomsubusu,0,expedien,1

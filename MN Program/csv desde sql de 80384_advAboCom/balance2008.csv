@@ -1,0 +1,490 @@
+﻿Nivel1,Nivel2,Nivel3,Nivel4,Nivel5,Nivel6,Cuenta,Descripcion,Importe,itiposaldo
+1,0,0,0,0,0,,ACTIVO,,0
+1,1,0,0,0,0,,A) ACTIVO NO CORRIENTE,,0
+1,1,1,0,0,0,,I. Inmovilizado intangible,,0
+1,1,1,1,0,0,,1. Investigación,,0
+1,1,1,1,1,0,200,Investigación,,0
+1,1,1,1,2,0,2800,Amortización acumulada de investigación,,0
+1,1,1,1,3,0,2900,Deterioro de valor de investigación,,0
+1,1,1,2,0,0,,2. Desarrollo,,0
+1,1,1,2,1,0,201,Desarrollo,,0
+1,1,1,2,2,0,2801,Amortización acumulada de desarrollo,,0
+1,1,1,2,3,0,2901,Deterioro del valor de desarrollo,,0
+1,1,1,3,0,0,,3. Concesiones,,0
+1,1,1,3,1,0,202,Concesiones administrativas,,0
+1,1,1,3,2,0,2802,Amortización acumulada de concesiones administrativas,,0
+1,1,1,3,3,0,2902,Deterioro de valor de concesiones administrativas,,0
+1,1,1,4,0,0,,"4. Patentes, licencias, marcas y similares",,0
+1,1,1,4,1,0,203,Propiedad industrial,,0
+1,1,1,4,2,0,2803,Amortización acumulada de propiedad industrial,,0
+1,1,1,4,3,0,2903,Deterioro de valor de propiedad industrial,,0
+1,1,1,5,0,0,,5. Fondo de comercio,,0
+1,1,1,5,1,0,204,Fondo de comercio,,0
+1,1,1,6,0,0,,6. Aplicaciones informáticas,,0
+1,1,1,6,1,0,206,Aplicaciones informáticas,,0
+1,1,1,6,2,0,2806,Amortización acumulada de aplicaciones informáticas,,0
+1,1,1,6,3,0,2906,Deterioro de valor de aplicaciones informáticas,,0
+1,1,1,7,0,0,,7. Otro inmovilizado intangible,,0
+1,1,1,7,1,0,205,Derechos de traspaso,,0
+1,1,1,7,2,0,209,Anticipos para inmovilizaciones intangibles,,0
+1,1,1,7,3,0,2805,Amortización acumulada de derechos de traspaso,,0
+1,1,1,7,4,0,2905,Deterioro de valor de derechos de traspaso,,0
+1,1,2,0,0,0,,II. Inmovilizado material,,0
+1,1,2,1,0,0,,1. Terrenos y construcciones,,0
+1,1,2,1,1,0,210,Terrenos y bienes naturales,,0
+1,1,2,1,2,0,211,Construcciones,,0
+1,1,2,1,3,0,2811,Amortización acumulada de construcciones,,0
+1,1,2,1,4,0,2910,Deterioro de valor de terrenos y bienes naturales,,0
+1,1,2,1,5,0,2911,Deterioro de valor de construcciones,,0
+1,1,2,2,0,0,,2. Instalaciones técnicas y otro inmovilizado material,,0
+1,1,2,2,1,0,212,Instalaciones técnicas,,0
+1,1,2,2,2,0,213,Maquinaria,,0
+1,1,2,2,3,0,214,Utillaje,,0
+1,1,2,2,4,0,215,Otras instalaciones,,0
+1,1,2,2,5,0,216,Mobiliario,,0
+1,1,2,2,6,0,217,Equipos para procesos de información,,0
+1,1,2,2,7,0,218,Elementos de transporte,,0
+1,1,2,2,8,0,219,Otro inmovilizado material,,0
+1,1,2,2,9,0,2812,Amortización acumulada de instalaciones técnicas,,0
+1,1,2,2,10,0,2813,Amortización acumulada de maquinaria,,0
+1,1,2,2,11,0,2814,Amortización acumulada de utillaje,,0
+1,1,2,2,12,0,2815,Amortización acumulada de otras instalaciones,,0
+1,1,2,2,13,0,2816,Amortización acumulada de mobiliario,,0
+1,1,2,2,14,0,2817,Amortización acumulada de equipos para procesos de información,,0
+1,1,2,2,15,0,2818,Amortización acumulada de elementos de transporte,,0
+1,1,2,2,16,0,2819,Amortización acumulada de otro inmovilizado material,,0
+1,1,2,2,17,0,2912,Deterioro de valor de instalaciones técnicas,,0
+1,1,2,2,18,0,2913,Deterioro de valor de maquinaria,,0
+1,1,2,2,19,0,2914,Deterioro de valor de utillaje,,0
+1,1,2,2,20,0,2915,Deterioro de valor de otras instalaciones,,0
+1,1,2,2,21,0,2916,Deterioro de valor de mobiliario,,0
+1,1,2,2,22,0,2917,Deterioro de valor de equipos para procesos de información,,0
+1,1,2,2,23,0,2918,Deterioro de valor de elementos de transporte,,0
+1,1,2,2,24,0,2919,Deterioro de valor de otro inmovilizado material,,0
+1,1,2,3,0,0,,3. Inmovilizado en curso y anticipos,,0
+1,1,2,3,1,0,230,Adaptación de terrenos y bienes naturales,,0
+1,1,2,3,2,0,231,Construcciones en curso,,0
+1,1,2,3,3,0,232,Instalaciones técnicas en montaje,,0
+1,1,2,3,4,0,233,Maquinaria en montaje,,0
+1,1,2,3,5,0,237,Equipos para procesos de información en montaje,,0
+1,1,2,3,6,0,239,Anticipos para inmovilizaciones materiales,,0
+1,1,3,0,0,0,,III. Inversiones inmobiliarias,,0
+1,1,3,2,0,0,,1. Terrenos,,0
+1,1,3,2,1,0,220,Inversiones en terrenos y bienes naturales,,0
+1,1,3,2,2,0,2920,Deterioro de valor de los terrenos y bienes naturales,,0
+1,1,3,3,0,0,,2. Construcciones,,0
+1,1,3,3,1,0,221,Inversiones en construcciones,,0
+1,1,3,3,2,0,282,Amortización acumulada de las inversiones inmobiliarias,,0
+1,1,3,3,3,0,2921,Deterioro de valor de construcciones,,0
+1,1,4,0,0,0,,IV. Inversiones en empresas del grupo y asociadas a largo plazo,,0
+1,1,4,2,0,0,,1. Instrumentos de patrimonio,,0
+1,1,4,2,1,0,2403,Participaciones a largo plazo en empresas del grupo,,0
+1,1,4,2,2,0,2404,Participaciones a largo plazo en empresas asociadas,,0
+1,1,4,2,3,0,2493,Desembolsos pendientes sobre participaciones a largo plazo en empresas del grupo,,0
+1,1,4,2,4,0,2494,Desembolsos pendientes sobre participaciones a largo plazo en empresas asociadas,,0
+1,1,4,2,5,0,2933,Deterioro de valor de participaciones a largo plazo en empresas del grupo,,0
+1,1,4,2,6,0,2934,Deterioro de valor de participaciones a largo plazo en empresas asociadas,,0
+1,1,4,3,0,0,,2. Créditos a empresas,,0
+1,1,4,3,1,0,2423,Créditos a largo plazo a empresas del grupo,,0
+1,1,4,3,2,0,2424,Créditos a largo plazo a empresas asociadas,,0
+1,1,4,3,3,0,2953,Deterioro de valor de créditos a largo plazo a empresas del grupo,,0
+1,1,4,3,4,0,2954,Deterioro de valor de créditos a largo plazo a empresas asociadas,,0
+1,1,4,4,0,0,,3. Valores representativos de deuda,,0
+1,1,4,4,1,0,2413,Valores representativos de deuda a largo plazo de empresas del grupo,,0
+1,1,4,4,2,0,2414,Valores representativos de deuda a largo plazo de empresas asociadas,,0
+1,1,4,4,3,0,2943,Deterioro de valor de valores representativos de deuda a largo plazo de empresas del grupo,,0
+1,1,4,4,4,0,2944,Deterioro de valor de valores representativos de deuda a largo plazo de empresas asociadas,,0
+1,1,4,5,0,0,,4. Derivados,,0
+1,1,4,6,0,0,,5. Otros activos financieros,,0
+1,1,5,0,0,0,,V. Inversiones financieras a largo plazo,,0
+1,1,5,2,0,0,,1. Instrumentos de patrimonio,,0
+1,1,5,2,1,0,2405,Participaciones a largo plazo en otras partes vinculadas,,0
+1,1,5,2,2,0,2495,Desembolsos pendientes sobre participaciones a largo plazo en otras partes vinculadas,,0
+1,1,5,2,3,0,250,Inversiones financieras a largo plazo en instrumentos de patrimonio,,0
+1,1,5,2,4,0,259,Desembolsos pendientes sobre participaciones en el patrimonio neto a largo plazo,,0
+1,1,5,3,0,0,,2. Créditos a terceros,,0
+1,1,5,3,1,0,2425,Créditos a largo plazo a otras partes vinculadas,,0
+1,1,5,3,2,0,252,Créditos a largo plazo,,0
+1,1,5,3,3,0,253,Créditos a largo plazo por enajenación de inmovilizado,,0
+1,1,5,3,4,0,254,Créditos a largo plazo al personal,,0
+1,1,5,3,5,0,2955,Deterioro de valor de créditos a largo plazo a otras partes vinculadas,,0
+1,1,5,3,6,0,298,Deterioro de valor de créditos a largo plazo,,0
+1,1,5,4,0,0,,3. Valores representativos de deuda,,0
+1,1,5,4,1,0,2415,Valores representativos de deuda a largo plazo de otras partes vinculadas,,0
+1,1,5,4,2,0,251,Valores representativos de deuda a largo plazo,,0
+1,1,5,4,3,0,2945,Deterioro de valor de valores representativos de deuda a largo plazo de otras partes vinculadas,,0
+1,1,5,4,4,0,297,Deterioro de valor de valores representativos de deuda a largo plazo,,0
+1,1,5,5,0,0,,4. Derivados,,0
+1,1,5,5,1,0,2550,"Activos por derivados financieros a largo plazo, cartera de negociación",,0
+1,1,5,5,2,0,2553,"Activos por derivados financieros a largo plazo, instrumentos de cobertura",,0
+1,1,5,6,0,0,,5. Otros activos financieros,,0
+1,1,5,6,1,0,258,Imposiciones a largo plazo,,0
+1,1,5,6,2,0,260,Fianzas constituidas a largo plazo,,0
+1,1,5,6,3,0,265,Depósitos constituidos a largo plazo,,0
+1,1,6,0,0,0,,VI. Activos por impuesto diferido,,0
+1,1,6,1,0,0,474,Activos por impuesto diferido,,0
+1,2,0,0,0,0,,B) ACTIVO CORRIENTE,,0
+1,2,2,0,0,0,,I. Activos no corrientes mantenidos para la venta,,0
+1,2,2,1,0,0,580,Inmovilizado,,0
+1,2,2,2,0,0,581,Inversiones con personas y entidades vinculadas,,0
+1,2,2,3,0,0,582,Inversiones financieras,,0
+1,2,2,4,0,0,583,"Existencias, deudores comerciales y otras cuentas a cobrar",,0
+1,2,2,5,0,0,584,Otros activos,,0
+1,2,2,6,0,0,5990,Deterioro de valor de inmovilizado no corriente mantenido para la venta,,0
+1,2,2,7,0,0,5991,Deterioro de valor de inversiones con personas y entid. vinculadas no corrientes mantenidas para vta,,0
+1,2,2,8,0,0,5992,Deterioro de valor de inversiones financieras no corrientes mantenidas para la venta,,0
+1,2,2,9,0,0,5993,"Deterioro de valor de exist, deudores comerc y ctas a cobrar integ en grupo enaj mantenido para venta",,0
+1,2,2,10,0,0,5994,Deterioro de valor de otros activos mantenidos para la venta,,0
+1,2,3,0,0,0,,II. Existencias,,0
+1,2,3,2,0,0,,1. Comerciales,,0
+1,2,3,2,1,0,300,Mercaderías A,,0
+1,2,3,2,2,0,301,Mercaderías B,,0
+1,2,3,2,3,0,390,Deterioro de valor de las mercaderías,,0
+1,2,3,3,0,0,,2. Materias primas y otros aprovisionamientos,,0
+1,2,3,3,1,0,310,Materias primas A,,0
+1,2,3,3,2,0,311,Materias primas B,,0
+1,2,3,3,3,0,320,Elementos y conjuntos incorporables,,0
+1,2,3,3,4,0,321,Combustibles,,0
+1,2,3,3,5,0,322,Repuestos,,0
+1,2,3,3,6,0,325,Materiales diversos,,0
+1,2,3,3,7,0,326,Embalajes,,0
+1,2,3,3,8,0,327,Envases,,0
+1,2,3,3,9,0,328,Material de oficina,,0
+1,2,3,3,10,0,391,Deterioro de valor de las materias primas,,0
+1,2,3,3,11,0,392,Deterioro de valor de otros aprovisionamientos,,0
+1,2,3,4,0,0,,3. Productos en curso,,0
+1,2,3,4,1,0,330,Productos en curso A,,0
+1,2,3,4,2,0,331,Productos en curso B,,0
+1,2,3,4,3,0,340,Productos semiterminados A,,0
+1,2,3,4,4,0,341,Productos semiterminados B,,0
+1,2,3,4,5,0,393,Deterioro de valor de los productos en curso,,0
+1,2,3,4,6,0,394,Deterioro de valor de los productos semiterminados,,0
+1,2,3,5,0,0,,4. Productos terminados,,0
+1,2,3,5,1,0,350,Productos terminados A,,0
+1,2,3,5,2,0,351,Productos terminados B,,0
+1,2,3,5,3,0,395,Deterioro de valor de los productos terminados,,0
+1,2,3,6,0,0,,"5. Subproductos, residuos y materiales recuperados",,0
+1,2,3,6,1,0,360,Subproductos A,,0
+1,2,3,6,2,0,361,Subproductos B,,0
+1,2,3,6,3,0,365,Residuos A,,0
+1,2,3,6,4,0,366,Residuos B,,0
+1,2,3,6,5,0,368,Materiales recuperados A,,0
+1,2,3,6,6,0,369,Materiales recuperados B,,0
+1,2,3,6,7,0,396,"Deterioro de valor de los subproductos, residuos y materiales recuperados",,0
+1,2,3,7,0,0,,6. Anticipos a proveedores,,0
+1,2,3,7,1,0,407,Anticipos a proveedores,,0
+1,2,4,0,0,0,,III. Deudores comerciales y otras cuentas a cobrar,,0
+1,2,4,2,0,0,,1. Clientes por ventas y prestaciones de servicios,,0
+1,2,4,2,1,0,430,Clientes,,0
+1,2,4,2,2,0,431,"Clientes, efectos comerciales a cobrar",,0
+1,2,4,2,3,0,432,"Clientes, operaciones de ""factoring""",,0
+1,2,4,2,4,0,435,"Clientes, otras partes vinculadas",,0
+1,2,4,2,5,0,436,Clientes de dudoso cobro,,0
+1,2,4,2,6,0,437,Envases y embalajes a devolver por clientes,,0
+1,2,4,2,7,0,490,Deterioro de valor de créditos por operaciones comerciales,,0
+1,2,4,2,8,0,4935,Deterioro de valor de créditos por operaciones comerciales con otras partes vinculadas,,0
+1,2,4,3,0,0,,2. Clientes empresas del grupo y asociadas,,0
+1,2,4,3,1,0,433,"Clientes, empresas del grupo",,0
+1,2,4,3,2,0,434,"Clientes, empresas asociadas",,0
+1,2,4,3,3,0,4933,Deterioro de valor de créditos por operaciones comerciales con empresas del grupo,,0
+1,2,4,3,4,0,4934,Deterioro de valor de créditos por operaciones comerciales con empresas asociadas,,0
+1,2,4,4,0,0,,3. Deudores varios,,0
+1,2,4,4,1,0,440,Deudores,,0
+1,2,4,4,2,0,441,"Deudores, efectos comerciales a cobrar",,0
+1,2,4,4,3,0,446,Deudores de dudoso cobro,,0
+1,2,4,4,4,0,449,Deudores por operaciones en común,,0
+1,2,4,4,5,0,5531,"Socios, cuenta de fusión",,0
+1,2,4,4,6,0,5533,"Socios, cuenta de escisión",,0
+1,2,4,5,0,0,,4. Personal,,0
+1,2,4,5,1,0,460,Anticipos de remuneraciones,,0
+1,2,4,5,2,0,544,Créditos a corto plazo al personal,,0
+1,2,4,6,0,0,,5. Activos por impuesto corriente,,0
+1,2,4,6,1,0,470,"Hacienda Pública, deudora por diversos conceptos",,0
+1,2,4,6,2,0,473,"Hacienda Pública, retenciones y pagos a cuenta",,0
+1,2,4,7,0,0,,6. Otros créditos con las Administraciones públicas,,0
+1,2,4,7,1,0,471,"Organismos de la Seguridad Social, deudores",,0
+1,2,4,7,2,0,472,"Hacienda pública, IVA Soportado",,0
+1,2,4,8,0,0,,7. Accionistas (socios) por desembolsos exigidos,,0
+1,2,4,8,1,0,5580,Socios por desembolsos exigidos sobre acciones o participaciones ordinarias,,0
+1,2,5,0,0,0,,IV. Inversiones en empresas del grupo y asociadas a corto plazo,,0
+1,2,5,2,0,0,,1. Instrumentos de patrimonio,,0
+1,2,5,2,1,0,5303,"Participaciones a corto plazo, en empresas del grupo",,0
+1,2,5,2,2,0,5304,"Participaciones a corto plazo, en empresas asociadas",,0
+1,2,5,2,3,0,5393,Desembolsos pendientes sobre participaciones a corto plazo en empresas del grupo,,0
+1,2,5,2,4,0,5394,Desembolsos pendientes sobre participaciones a corto plazo en empresas asociadas,,0
+1,2,5,2,5,0,5933,Deterioro de valor de participaciones a corto plazo en empresas del grupo,,0
+1,2,5,2,6,0,5934,Deterioro de valor de participaciones a corto plazo en empresas asociadas,,0
+1,2,5,3,0,0,,2. Créditos a empresas,,0
+1,2,5,3,1,0,5323,Créditos a corto plazo a empresas del grupo,,0
+1,2,5,3,2,0,5324,Créditos a corto plazo a empresas asociadas,,0
+1,2,5,3,3,0,5343,Intereses a corto plazo de créditos a empresas del grupo,,0
+1,2,5,3,4,0,5344,Intereses a corto plazo de créditos a empresas asociadas,,0
+1,2,5,3,5,0,5953,Deterioro de valor de créditos a corto plazo a empresas del grupo,,0
+1,2,5,3,6,0,5954,Deterioro de valor de créditos a corto plazo a empresas asociadas,,0
+1,2,5,4,0,0,,3. Valores representativos de deuda,,0
+1,2,5,4,1,0,5313,Valores representativos de deuda a corto plazo de empresas del grupo,,0
+1,2,5,4,2,0,5314,Valores representativos de deuda a corto plazo de empresas asociadas,,0
+1,2,5,4,3,0,5333,Intereses a corto plazo de valores representativos de deuda de empresas del grupo,,0
+1,2,5,4,4,0,5334,Intereses a corto plazo de valores representativos de deuda de empresas asociadas,,0
+1,2,5,4,5,0,5943,Deterioro de valor de valores representativos de deuda a corto plazo de empresas del grupo,,0
+1,2,5,4,6,0,5944,Deterioro de valor de valores representativos de deuda a corto plazo de empresas asociadas,,0
+1,2,5,5,0,0,,4. Derivados,,0
+1,2,5,6,0,0,,5. Otros activos financieros,,0
+1,2,5,6,1,0,5353,Dividendo a cobrar de empresas de grupo,,0
+1,2,5,6,2,0,5354,Dividendo a cobrar de empresas asociadas,,0
+1,2,5,6,3,0,5523,Cuenta corriente con empresas del grupo,,0
+1,2,5,6,4,0,5524,Cuenta corriente con empresas asociadas,,0
+1,2,6,0,0,0,,V. Inversiones financieras a corto plazo,,0
+1,2,6,2,0,0,,1. Instrumentos de patrimonio,,0
+1,2,6,2,1,0,5305,"Participaciones a corto plazo, en otras partes vinculadas",,0
+1,2,6,2,2,0,5395,Desembolsos pendientes sobre participaciones a corto plazo en otras partes vinculadas,,0
+1,2,6,2,3,0,540,Inversiones financieras a corto plazo en instrumentos de patrimonio,,0
+1,2,6,2,4,0,549,Desembolsos pendientes sobre participaciones en el patrimonio neto a corto plazo,,0
+1,2,6,3,0,0,,2. Créditos a empresas,,0
+1,2,6,3,1,0,5325,Créditos a corto plazo a otras partes vinculadas,,0
+1,2,6,3,2,0,5345,Intereses a corto plazo de créditos a otras partes vinculadas,,0
+1,2,6,3,3,0,542,Créditos a corto plazo,,0
+1,2,6,3,4,0,543,Créditos a corto plazo por enajenación de inmovilizado,,0
+1,2,6,3,5,0,547,Intereses a corto plazo de créditos,,0
+1,2,6,3,6,0,5955,Deterioro de valor de créditos a corto plazo a otras partes vinculadas,,0
+1,2,6,3,7,0,598,Deterioro de valor de créditos a corto plazo,,0
+1,2,6,4,0,0,,3. Valores representativos de deuda,,0
+1,2,6,4,1,0,5315,Valores representativos de deuda a corto plazo de otras partes vinculadas,,0
+1,2,6,4,2,0,5335,Intereses a corto plazo de valores representativos de deuda de otras partes vinculadas,,0
+1,2,6,4,3,0,541,Valores representativos de deuda a corto plazo,,0
+1,2,6,4,4,0,546,Intereses a corto plazo de valores representativos de deudas,,0
+1,2,6,4,5,0,5945,Deterioro de valor de valores representativos de deuda a corto plazo de otras partes vinculadas,,0
+1,2,6,4,6,0,597,Deterioro de valor de valores representativos de deuda a corto plazo,,0
+1,2,6,5,0,0,,4. Derivados,,0
+1,2,6,5,1,0,5590,"Activos por derivados financieros a corto plazo, cartera de negociación",,0
+1,2,6,5,2,0,5593,"Activos por derivados financieros a corto plazo, instrumentos de cobertura",,0
+1,2,6,6,0,0,,5. Otros activos financieros,,0
+1,2,6,6,1,0,257,Derechos de reembolso derivados de contratos de seguro relativos a retribuciones a largo plazo al pe,,0
+1,2,6,6,2,0,5355,Dividendo a cobrar de otras partes vinculadas,,0
+1,2,6,6,3,0,545,Dividendo a cobrar,,0
+1,2,6,6,4,0,548,Imposiciones a corto plazo,,0
+1,2,6,6,5,0,551,Cuenta corriente con socios y administradores,,0
+1,2,6,6,6,0,5525,Cuenta corriente con otras partes vinculadas,,1
+1,2,6,6,7,0,554,Cuenta corriente con uniones temporales de empresas y comunidades de bienes,,0
+1,2,6,6,8,0,565,Fianzas constituidas a corto plazo,,0
+1,2,6,6,9,0,566,Depósitos constituidos a corto plazo,,0
+1,2,7,0,0,0,,VI. Periodificaciones a corto plazo,,0
+1,2,7,1,0,0,480,Gastos anticipados,,0
+1,2,7,2,0,0,567,Intereses pagados por anticipado,,0
+1,2,8,0,0,0,,VII. Efectivo y otros activos líquidos equivalentes,,0
+1,2,8,2,0,0,,1. Tesorería,,0
+1,2,8,2,1,0,570,"Caja, euros",,0
+1,2,8,2,2,0,571,"Caja, moneda extranjera",,0
+1,2,8,2,3,0,572,"Bancos e instituciones de crédito c/c vista, euros",,0
+1,2,8,2,4,0,573,"Bancos e instituciones de crédito c/c vista, moneda extranjera",,0
+1,2,8,2,5,0,574,"Bancos e instituciones de crédito, cuentas de ahorro, euros",,0
+1,2,8,2,6,0,575,"Bancos e instituciones de crédito, cuentas de ahorro, moneda extranjera",,0
+1,2,8,3,0,0,,2. Otros activos líquidos equivalentes,,0
+1,2,8,3,1,0,576,Inversiones a corto plazo de gran liquidez,,0
+2,0,0,0,0,0,,PATRIMONIO NETO Y PASIVO,,0
+2,1,0,0,0,0,,A) PATRIMONIO NETO,,0
+2,1,1,0,0,0,,A-1) Fondos propios,,0
+2,1,1,1,0,0,,I. Capital,,0
+2,1,1,1,1,0,,1. Capital escriturado,,0
+2,1,1,1,1,1,100,Capital social,,0
+2,1,1,1,1,2,101,Fondo social,,0
+2,1,1,1,1,3,102,Capital,,0
+2,1,1,1,2,0,,2. (Capital no exigido),,0
+2,1,1,1,2,1,1030,"Socios por desembolsos no exigidos, capital social",,0
+2,1,1,1,2,2,1040,"Socios por aportaciones no dinerarias pendientes, capital social",,0
+2,1,1,2,0,0,,II. Prima de emisión,,0
+2,1,1,2,1,0,110,Prima de emisión o asunción,,0
+2,1,1,3,0,0,,III. Reservas,,0
+2,1,1,3,1,0,,1. Legal y estatutarias,,0
+2,1,1,3,1,1,112,Reserva legal,,0
+2,1,1,3,1,2,1141,Reservas estatutarias,,0
+2,1,1,3,2,0,,2. Otras reservas,,0
+2,1,1,3,2,1,113,Reservas voluntarias,,0
+2,1,1,3,2,2,1140,Reservas para acciones o participaciones de la sociedad dominante,,0
+2,1,1,3,2,3,1142,Reserva por capital amortizado,,0
+2,1,1,3,2,4,1143,Reserva por fondo de comercio,,0
+2,1,1,3,2,5,1144,Reservas por acciones propias aceptadas en garantía,,0
+2,1,1,3,2,6,115,Reservas por pérdidas y ganancias actuariales y otros ajustes,,0
+2,1,1,3,2,7,119,Diferencias por ajuste del capital a euros,,0
+2,1,1,4,0,0,,IV. (Acciones y participaciones en patrimonio propias),,0
+2,1,1,4,1,0,108,Acciones o participaciones propias en situaciones especiales,,0
+2,1,1,4,2,0,109,Acciones o participaciones propias para reducción de capital,,0
+2,1,1,5,0,0,,V. Resultados de ejercicios anteriores,,0
+2,1,1,5,1,0,,1. Remanente,,0
+2,1,1,5,1,1,120,Remanente,,0
+2,1,1,5,2,0,,2. (Resultados negativos de ejercicios anteriores),,0
+2,1,1,5,2,1,121,Resultados negativos de ejercicios anteriores,,0
+2,1,1,6,0,0,,VI. Otras aportaciones de socios,,0
+2,1,1,6,1,0,118,Aportaciones de socios o propietarios,,0
+2,1,1,7,0,0,,VII. Resultado del ejercicio,,0
+2,1,1,7,1,0,129,Resultado del ejercicio,,0
+2,1,1,8,0,0,,VIII. (Dividendo a cuenta),,0
+2,1,1,8,1,0,557,Dividendo activo a cuenta,,0
+2,1,1,9,0,0,,IX. Otros instrumentos de patrimonio,,0
+2,1,1,9,1,0,1110,Patrimonio neto por emisión de instrumentos financieros compuestos,,0
+2,1,1,9,2,0,1111,Resto de instrumentos de patrimonio neto,,0
+2,1,2,0,0,0,,A-2) Ajustes por cambios de valor,,0
+2,1,2,1,0,0,,I. Activos financieros disponibles para la venta,,0
+2,1,2,1,1,0,133,Ajustes por valoración en activos financieros disponibles para la venta,,0
+2,1,2,2,0,0,,II. Operaciones de cobertura,,0
+2,1,2,2,1,0,1340,Cobertura de flujos de efectivo,,0
+2,1,2,2,2,0,1341,Cobertura de una inversión neta en un negocio en el extranjero,,0
+2,1,2,3,0,0,,III. Otros,,0
+2,1,2,3,1,0,135,Diferencias de conversión,,0
+2,1,2,3,2,0,136,"Ajustes por valoración en activos no corrientes y grupos enajenables de elementos, mantenidos para l",,0
+2,1,2,3,3,0,1370,Ingresos fiscales por diferencias permanentes a distribuir en varios ejercicios,,0
+2,1,2,3,4,0,1371,Ingresos fiscales por deducciones y bonificaciones a distribuir en varios ejercicios,,0
+2,1,3,0,0,0,,"A-3) Subvenciones, donaciones y legados recibidos",,0
+2,1,3,1,0,0,130,Subvenciones oficiales de capital,,0
+2,1,3,2,0,0,131,Donaciones y legados de capital,,0
+2,1,3,3,0,0,132,"Otras subvenciones, donaciones y legados",,0
+2,2,0,0,0,0,,B) PASIVO NO CORRIENTE,,0
+2,2,1,0,0,0,,I. Provisiones a largo plazo,,0
+2,2,1,1,0,0,,1. Obligaciones por prestaciones a largo plazo al personal,,0
+2,2,1,1,1,0,140,Provisión por retribuciones a largo plazo al personal,,0
+2,2,1,2,0,0,,2. Actuaciones medioambientales,,0
+2,2,1,2,1,0,145,Provisión para actuaciones medioambientales,,0
+2,2,1,3,0,0,,3. Provisiones por reestructuración,,0
+2,2,1,3,1,0,146,Provisión para reestructuraciones,,0
+2,2,1,4,0,0,,4. Otras provisiones,,0
+2,2,1,4,1,0,141,Provisión para impuestos,,0
+2,2,1,4,2,0,142,Provisión para otras responsabilidades,,0
+2,2,1,4,3,0,143,"Provisión por desmantelamiento, retiro o rehabilitación del inmovilizado",,0
+2,2,1,4,4,0,147,Provisión por transacciones con pagos basados en instrumentos de patrimonio,,0
+2,2,2,0,0,0,,II. Deudas a largo plazo,,0
+2,2,2,1,0,0,,1. Obligaciones y otros valores negociables,,0
+2,2,2,1,1,0,177,Obligaciones y bonos,,0
+2,2,2,1,2,0,178,Obligaciones y bonos convertibles,,0
+2,2,2,1,3,0,179,Deudas representadas en otros valores negociables,,0
+2,2,2,2,0,0,,2. Deudas con entidades de crédito,,0
+2,2,2,2,1,0,1605,Deudas a largo plazo con otras entidades de crédito vinculadas,,0
+2,2,2,2,2,0,170,Deudas a largo plazo con entidades de crédito,,0
+2,2,2,3,0,0,,3. Acreedores por arrendamiento financiero,,0
+2,2,2,3,1,0,1625,"Acreedores por arrendamiento financiero a largo plazo, otras partes vinculadas",,0
+2,2,2,3,2,0,174,Acreedores por arrendamiento financiero a largo plazo,,0
+2,2,2,4,0,0,,4. Derivados,,0
+2,2,2,4,1,0,1765,"Pasivos por derivados financieros a largo plazo, cartera de negociación",,0
+2,2,2,4,2,0,1768,"Pasivos por derivados financieros a largo plazo, instrumentos de cobertura",,0
+2,2,2,5,0,0,,5. Otros pasivos financieros,,0
+2,2,2,5,1,0,1615,"Proveedores de inmovilizado a largo plazo, otras partes vinculadas",,0
+2,2,2,5,2,0,1635,"Otras deudas a largo plazo, con otras partes vinculadas",,0
+2,2,2,5,3,0,171,Deudas a largo plazo,,0
+2,2,2,5,4,0,172,"Deudas a largo plazo transformables en subvenciones, donaciones y legados",,0
+2,2,2,5,5,0,173,Proveedores de inmovilizado a largo plazo,,0
+2,2,2,5,6,0,175,Efectos a pagar a largo plazo,,0
+2,2,2,5,7,0,180,Fianzas recibidas a largo plazo,,0
+2,2,2,5,8,0,185,Depósitos recibidos a largo plazo,,0
+2,2,2,5,9,0,189,Garantías financieras a largo plazo,,0
+2,2,3,0,0,0,,III. Deudas con empresas del grupo y asociadas a largo plazo,,0
+2,2,3,1,0,0,1603,"Deudas a largo plazo con entidades de crédito, empresas del grupo",,0
+2,2,3,2,0,0,1604,"Deudas a largo plazo con entidades de crédito, empresas asociadas",,0
+2,2,3,3,0,0,1613,"Proveedores de inmovilizado a largo plazo, empresas del grupo",,0
+2,2,3,4,0,0,1614,"Proveedores de inmovilizado a largo plazo, empresas asociadas",,0
+2,2,3,5,0,0,1623,"Acreedores por arrendamiento financiero a largo plazo, empresas de grupo",,0
+2,2,3,6,0,0,1624,"Acreedores por arrendamiento financiero a largo plazo, empresas asociadas",,0
+2,2,3,7,0,0,1633,"Otras deudas a largo plazo, empresas del grupo",,0
+2,2,3,8,0,0,1634,"Otras deudas a largo plazo, empresas asociadas",,0
+2,2,4,0,0,0,,IV. Pasivos por impuesto diferido,,0
+2,2,4,1,0,0,479,Pasivos por diferencias temporarias imponibles,,0
+2,2,5,0,0,0,,V. Periodificaciones a largo plazo,,0
+2,2,5,1,0,0,181,Anticipos recibidos por ventas o prestaciones de servicios a largo plazo,,0
+2,3,0,0,0,0,,C) PASIVO CORRIENTE,,0
+2,3,1,0,0,0,,I. Pasivos vinculados con activos no corrientes mantenidos para la venta,,0
+2,3,1,1,0,0,585,Provisiones,,0
+2,3,1,2,0,0,586,Deudas con características especiales,,0
+2,3,1,3,0,0,587,Deudas con personas y entidades vinculadas,,0
+2,3,1,4,0,0,588,Acreedores comerciales y otras cuentas a pagar,,0
+2,3,1,5,0,0,589,Otros pasivos,,0
+2,3,2,0,0,0,,II. Provisiones a corto plazo,,0
+2,3,2,1,0,0,4994,Provisión por contratos onerosos,,0
+2,3,2,2,0,0,4999,Provisión para otras operaciones comerciales,,0
+2,3,2,3,0,0,5290,Provisión a corto plazo por retribuciones al personal,,0
+2,3,2,4,0,0,5291,Provisión a corto plazo para impuestos,,0
+2,3,2,5,0,0,5292,Provisión a corto plazo para otras responsabilidades,,0
+2,3,2,6,0,0,5293,"Provisión a corto plazo por desmantelamiento, retiro o rehabilitación del inmovilizado",,0
+2,3,2,7,0,0,5295,Provisión a corto plazo para actuaciones medioambientales,,0
+2,3,2,8,0,0,5296,Provisión a corto plazo para reestructuraciones,,0
+2,3,2,9,0,0,5297,Provisión a corto plazo por transacciones con pagos basados en instrumentos de patrimonio,,0
+2,3,3,0,0,0,,III. Deudas a corto plazo,,0
+2,3,3,1,0,0,,1. Obligaciones y otros valores negociables,,0
+2,3,3,1,1,0,500,Obligaciones y bonos a corto plazo,,0
+2,3,3,1,2,0,501,Obligaciones y bonos convertibles a corto plazo,,0
+2,3,3,1,3,0,505,Deudas representadas en otros valores negociables a corto plazo,,0
+2,3,3,1,4,0,506,Intereses a corto plazo de empréstitos y otras emisiones análogas,,0
+2,3,3,2,0,0,,2. Deudas con entidades de crédito,,0
+2,3,3,2,1,0,5105,Deudas a corto plazo con otras entidades de crédito vinculadas,,0
+2,3,3,2,2,0,520,Deudas a corto plazo con entidades de crédito,,0
+2,3,3,2,3,0,527,Intereses a corto plazo de deudas con entidades de crédito,,0
+2,3,3,3,0,0,,3. Acreedores por arrendamiento financiero,,0
+2,3,3,3,1,0,5125,"Acreedores por arrendamiento financiero a corto plazo, otras partes vinculadas",,0
+2,3,3,3,2,0,524,Acreedores por arrendamiento financiero a corto plazo,,0
+2,3,3,4,0,0,,4. Derivados,,0
+2,3,3,4,1,0,5595,"Pasivos por derivados financieros a corto plazo, cartera de negociación",,0
+2,3,3,4,2,0,5598,"Pasivos por derivados financieros a corto plazo, instrumentos de cobertura",,0
+2,3,3,5,0,0,,5. Otros pasivos financieros,,0
+2,3,3,5,1,0,1034,"Socios por desembolsos no exigidos, capital pendiente de inscripción",,0
+2,3,3,5,2,0,1044,"Socios por aportaciones no dinerarias pendientes, capital pendiente de inscripción",,0
+2,3,3,5,3,0,190,Acciones o participaciones emitidas,,0
+2,3,3,5,4,0,192,Suscriptores de acciones,,0
+2,3,3,5,5,0,194,Capital emitido pendiente de inscripción,,0
+2,3,3,5,6,0,5090,Obligaciones y bonos amortizados,,0
+2,3,3,5,7,0,5091,Obligaciones y bonos convertibles amortizados,,0
+2,3,3,5,8,0,5095,Otros valores negociables amortizados,,0
+2,3,3,5,9,0,5115,"Proveedores de inmovilizado a corto plazo, otras partes vinculadas",,0
+2,3,3,5,10,0,5135,Otras deudas a corto plazo con otras partes vinculadas,,0
+2,3,3,5,11,0,5145,"Intereses a corto plazo de deudas, otras partes vinculadas",,0
+2,3,3,5,12,0,521,Deudas a corto plazo,,0
+2,3,3,5,13,0,522,"Deudas a corto plazo transformables en subvenciones, donaciones y legados",,0
+2,3,3,5,14,0,523,Proveedores de inmovilizado a corto plazo,,0
+2,3,3,5,15,0,525,Efectos a pagar a corto plazo,,0
+2,3,3,5,16,0,526,Dividendo activo a pagar,,0
+2,3,3,5,17,0,528,Intereses a corto plazo de deudas,,0
+2,3,3,5,18,0,551,Cuenta corriente con socios y administradores,,0
+2,3,3,5,19,0,5525,Cuenta corriente con otras partes vinculadas,,2
+2,3,3,5,20,0,5530,Socios de sociedad disuelta,,0
+2,3,3,5,21,0,5532,Socios de sociedad escindida,,0
+2,3,3,5,22,0,555,Partidas pendientes de aplicación,,0
+2,3,3,5,23,0,5565,"Desembolsos exigidos sobre participaciones, otras partes vinculadas",,0
+2,3,3,5,24,0,5566,Desembolsos exigidos sobre participaciones de otras empresas,,0
+2,3,3,5,25,0,560,Fianzas recibidas a corto plazo,,0
+2,3,3,5,26,0,561,Depósitos recibidos a corto plazo,,0
+2,3,3,5,27,0,569,Garantías financieras a corto plazo,,0
+2,3,4,0,0,0,,IV. Deudas con empresas del grupo y asociadas a corto plazo,,0
+2,3,4,1,0,0,5103,"Deudas a corto plazo con entidades de crédito, empresas del grupo",,0
+2,3,4,2,0,0,5104,"Deudas a corto plazo con entidades de crédito, empresas asociadas",,0
+2,3,4,3,0,0,5113,"Proveedores de inmovilizado a corto plazo, empresas del grupo",,0
+2,3,4,4,0,0,5114,"Proveedores de inmovilizado a corto plazo, empresas asociadas",,0
+2,3,4,5,0,0,5123,"Acreedores por arrendamiento financiero a corto plazo, empresas del grupo",,0
+2,3,4,6,0,0,5124,"Acreedores por arrendamiento financiero a corto plazo, empresas asociadas",,0
+2,3,4,7,0,0,5133,Otras deudas a corto plazo con empresas del grupo,,0
+2,3,4,8,0,0,5134,Otras deudas a corto plazo con empresas asociadas,,0
+2,3,4,9,0,0,5143,"Intereses a corto plazo de deudas, empresas del grupo",,0
+2,3,4,10,0,0,5144,"Intereses a corto plazo de deudas, empresas asociadas",,0
+2,3,4,11,0,0,5563,"Desembolsos exigidos sobre participaciones, empresas del grupo",,0
+2,3,4,12,0,0,5564,"Desembolsos exigidos sobre participaciones, empresas asociadas",,0
+2,3,5,0,0,0,,V. Acreedores comerciales y otras cuentas a pagar,,0
+2,3,5,1,0,0,,1. Proveedores,,0
+2,3,5,1,1,0,400,Proveedores,,0
+2,3,5,1,2,0,401,"Proveedores, efectos comerciales a pagar",,0
+2,3,5,1,3,0,405,"Proveedores, otras partes vinculadas",,0
+2,3,5,1,4,0,406,Envases y embalajes a devolver a proveedores,,0
+2,3,5,2,0,0,,"2. Proveedores, empresas del grupo y asociadas",,0
+2,3,5,2,1,0,403,"Proveedores, empresas del grupo",,0
+2,3,5,2,2,0,404,"Proveedores, empresas asociadas",,0
+2,3,5,3,0,0,,3. Acreedores varios,,0
+2,3,5,3,1,0,410,Acreedores por prestaciones de servicios,,0
+2,3,5,3,2,0,411,"Acreedores, efectos comerciales a pagar",,0
+2,3,5,3,3,0,419,Acreedores por operaciones en común,,0
+2,3,5,4,0,0,,4. Personal (remuneraciones pendientes de pago),,0
+2,3,5,4,1,0,465,Remuneraciones pendientes de pago,,0
+2,3,5,4,2,0,466,Remuneraciones mediante sistemas de aportación definida pendientes de pago,,0
+2,3,5,5,0,0,,5. Pasivos por impuesto corriente,,0
+2,3,5,5,1,0,475,"Hacienda Pública, acreedora por conceptos fiscales",,0
+2,3,5,6,0,0,,6. Otras deudas con las Administraciones Públicas,,0
+2,3,5,6,1,0,476,"Organismos de la Seguridad Social, acreedores",,0
+2,3,5,6,2,0,477,"Hacienda pública, IVA Repercutido",,0
+2,3,5,7,0,0,,7. Anticipos de clientes,,0
+2,3,5,7,1,0,438,Anticipos de clientes,,0
+2,3,6,0,0,0,,VI. Periodificaciones,,0
+2,3,6,1,0,0,485,Ingresos anticipados,,0
+2,3,6,2,0,0,568,Intereses cobrados por anticipado,,0

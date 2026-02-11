@@ -1,0 +1,197 @@
+﻿id,frmname,dbfield,condicion,query,etiqueta
+41,FormCliPral,snombrecli,2,,
+42,FormCliPral,sdomiciliocli,0,,
+43,FormCliPral,snifcli,0,,
+44,FormCliPral,stelefonocli,0,,
+45,FormCliConPral,snombreclicon,2,,
+46,FormCliConPral,nifclicon,0,,
+47,FormCliConPral,telefono,0,,
+48,FormAboPral,snombreabo,2,,
+49,FormAboPral,snifabo,0,,
+50,FormAboPral,stelefonoabo,0,,
+51,FormProPral,snombrepro,2,,
+52,FormProPral,snifpro,0,,
+53,FormProPral,stelefonopro,0,,
+54,FormCorConPral,nombre,2,,
+55,FormCorConPral,nif,0,,
+56,FormCorConPral,telefono1,0,,
+57,FormColPral,snombrecol,2,,
+58,FormColPral,snifcol,0,,
+59,FormColPral,stelefonocol,0,,
+60,FormJuzPral,juzgado,2,,
+61,FormJuzPral,telefono,0,,
+62,FormJuzPral,poblacionjuz,2,,
+63,FormOrgPral,nombre,2,,
+64,FormOrgPral,cif,0,,
+65,FormOrgPral,telefono,0,,
+66,FormBan,banco,2,,
+67,FormBan,telefono1,0,,
+68,FormBan,cuenta,0,,
+69,FormPer1,Perso1,2,,
+70,FormPer1,Perso3,0,,
+71,FormPer2,Perso1,2,,
+72,FormPer2,Perso2,0,,
+73,FormPer2,Perso3,0,,
+74,FormPer3,Perso1,2,,
+75,FormPer3,Perso2,0,,
+76,FormPer3,Perso3,0,,
+77,FormPer5,Perso1,2,,
+78,FormPer5,Perso2,0,,
+79,FormPer5,Perso3,0,,
+80,FormPer4,Perso2,2,,
+81,FormPer4,Perso3,2,,
+83,FormPer4,Perso1,0,,
+84,FormPer7,Perso1,2,,
+85,FormPer7,Perso2,0,,
+86,FormPer7,Perso3,0,,
+87,FormPerPral,nombre,2,,
+88,FormPerPral,nif,0,,
+89,FormPerPral,telefono1,0,,
+90,FormTarPral,nombre,2,,
+91,FormTarPral,nif,0,,
+92,FormTarPral,telefono1,0,,
+96,FormExpPral,,2,inner join exclipro C on E.inumexp=C.inumexp and E.iyear=C.iyear inner join clientes L on C.icodcli=L.icodcli where (Upper(L.snombrecli) like :parametro)  and (L.tipobd=0),Cliente
+97,FormExpPral,,2,inner join exclicon C on E.inumexp=C.inumexp and E.iyear=C.iyear inner join cliecont L on C.icodclicon=L.icodclicon where (Upper(L.snombreclicon) like :parametro),Contrario
+98,FormExpPral,,2,inner join exabopro C on E.inumexp=C.inumexp and E.iyear=C.iyear inner join procurad L on C.icodabo=L.icodpro where (Upper(L.snombrepro) like :parametro),Procurador Propio
+99,FormExpPral,,2,inner join tipoexp C on E.itipoexp=C.codigo where (Upper(C.tipoexp) like :parametro),Tipo de Expediente
+100,FormExpPral,,2,where (upper(E.descripcion) like :parametro),Descripción Expediente
+101,FormExpPral,,3,where (upper(E.expediente) like :parametro),Núm. Expediente
+102,FormExpPral,,2,left join expjuzga j on E.inumexp=j.numexp and E.iyear=j.iyear where ((Upper(j.numasunto) like :parametro) or (Upper(E.snumasunto) like :parametro)) ,Núm. Autos
+103,FormExpPral,,2,where (upper(E.srefabogado) like :parametro),Ref. Propia
+104,FormExpPral,,2,where (upper(E.srefcliente) like :parametro),Ref. Expediente
+111,FormHoja_Exp,,2, where (Upper(c.snombrecli) like :parametro),Cliente
+112,FormHoja_Exp,,2, where (Upper(cliecont.snombreclicon) like :parametro),Contrario
+113,FormHoja_Exp,,2,left join procurad on e.codabopro=procurad.icodpro where (upper(procurad.snombrepro) like :parametro),Procurador Propio
+114,FormHoja_Exp,,2,where (upper(tipoexp.tipoexp) like :parametro),Tipo de Expediente
+115,FormHoja_Exp,,2,where (upper(e.descripcion) like :parametro),Descripción Expediente
+116,FormHoja_Exp,,2,where (upper(e.expediente) like :parametro),Núm. Expediente
+117,FormHoja_Exp,iyear,2,where (upper(e.iyear) like :parametro),Año
+118,FormHoja_Exp,,2,left join expjuzga j on E.inumexp=j.numexp and E.iyear=j.iyear where ((Upper(j.numasunto) like :parametro) or (Upper(e.snumasunto) like :parametro)) ,Núm. Autos
+119,FormHoja_Exp,,2,where (upper(e.srefabogado) like :parametro),Ref. Propia
+120,FormHoja_Exp,,2,where (upper(e.srefcliente) like :parametro),Ref. Expediente
+121,FormHoja_Cli,snombrecli,2,,Nombre
+122,FormHoja_Cli,snifcli,2,,NIF/CIF
+123,FormHoja_Cli,stelefonocli,2,,Teléfono 1
+124,FormHoja_Cli,smovilcli,2,,Móvil
+125,FormHoja_Cli,sfaxcli,2,,Fax
+126,FormHoja_Cli,email,2,,Email
+151,FormCliPotenPral,snombrecli,2,,
+152,FormCliPotenPral,sdomiciliocli,2,,
+153,FormCliPotenPral,snifcli,2,,
+154,FormCliPotenPral,stelefonocli,2,,
+155,FormPer1,Perso90,0,,
+156,FormPer1,Perso27,0,,
+159,FormProductPral,nombre,0,,
+160,FormProductPral,referencia,0,,
+184,FormConsultasGrupos,snombrecli,2,,
+185,FormConsultasGrupos,sdomiciliocli,0,,
+186,FormConsultasGrupos,snifcli,0,,
+187,FormConsultasGrupos,stelefonocli,0,,
+188,FormTrabajadores,snombrecli,2,,
+189,FormTrabajadores,snifcli,0,,
+190,FormTrabajadores,stelefonocli,0,,
+191,FormTrabajadores,sdomiciliocli,0,,
+192,FormOtros,snombrecli,2,,
+193,FormOtros,snifcli,0,,
+194,FormOtros,stelefonocli,0,,
+195,FormOtros,sdomiciliocli,0,,
+197,FormCliPral,tipofichero,2,,
+198,FormCliPral,snombreclicomercial,2,,
+199,formfac,inumfactura,3,where (upper(inumfactura) like :parametro),Núm. Factura
+200,formfac,nombrecli,2,where (upper(nombrecli) like :parametro),Nombre
+201,formfac,nifcli,2,where (upper(nifcli) like :parametro),N.I.F./C.I.F.
+202,formfac,totaleuro,3,where (upper(totaleuro) like :parametro),Total Factura
+203,formfac,serie,2,where (upper(serie) like :parametro),Serie
+204,formprof,inumfactura,3,where (upper(inumfactura) like :parametro),Número
+205,formprof,nombrecli,2,where (upper(nombrecli) like :parametro),Nombre
+206,formprof,nifcli,2,where (upper(nifcli) like :parametro),N.I.F./C.I.F.
+207,formprof,totaleuro,3,where (upper(totaleuro) like :parametro),Total
+208,formselecalumnos,snombrecli,2,,
+209,formselecalumnos,snifcli,0,,
+210,formselecalumnos,stelefonocli,0,,
+211,formselecalumnos,smovilcli,0,,
+212,formselecalumnos,sfaxcli,0,,
+213,formselecalumnos,email,0,,
+214,formrecib,nrecibo,2,where (upper(nrecibo) like :parametro),Núm. Recibo
+215,formrecib,nombre,2,where (upper(nombre) like :parametro),Cliente
+216,formrecib,importe,,,Importe
+217,formremesas,banco,2,where (upper(banco) like :parametro),Banco
+218,formremesas,cuentacorriente,2,where (upper(cuentacorriente) like :parametro),Cuenta Corriente
+219,formremesas,importe,,,Importe
+220,formlinereme,nrecibo,2,where (upper(l.nrecibo) like :parametro),Núm. Recibo
+221,formlinereme,nombre,2,where (upper(l.nombre) like :parametro),Cliente
+222,formlinereme,importe,,,Importe
+223,formlinereme,banco,2,where ((upper(remesas.banco) like :parametro)),Banco
+224,formremesas,comentario,2,where (comentario like :parametro),Comentario
+225,FormExpPral,,2,inner join tipoasun C on E.itipoasunto=C.codigo where (Upper(C.tipoasunto) like :parametro),Tipo Asunto
+226,FormExpPral,,2,inner join expjuzga C on E.inumexp=C.numexp and E.iyear=C.iyear  inner join juzgado L on C.codjuzga=L.codjuzga where (Upper(L.juzgado) like :parametro),Nombre Juzgado
+227,formfac,,2,inner join subusu C on codsubusu=C.icodsubusu and (Upper(C.nombre) like :parametro),Usuario
+228,formfac,formapago,2,where (upper(formapago) like :parametro),Forma de Pago
+229,formfac,tipologia1,2,where (upper(tipologia1) like :parametro),Tipologia 1
+230,formfac,tipologia2,2,where (upper(tipologia2) like :parametro),Tipologia 2
+231,formfac,tipologia3,2,where (upper(tipologia3) like :parametro),Tipologia 3
+232,FormPrePag,nombrecli,2,where (upper(nombrecli) like :parametro),Nombre
+233,FormPrePag,formapago,2,where (upper(formapago) like :parametro),Tipo Cobro
+234,FormPrePag,concepto,2,where (upper(concepto) like :parametro),Concepto
+235,FormPrePag,inumfactura,2,where (upper(inumfactura) like :parametro),Núm. Factura
+236,FormPrePag,serie,2,where (upper(serie) like :parametro),Serie
+237,formclipral,,2,((stelefonocli like :parametro) or (telefono2 like :parametro) or (telefono3 like :parametro) or (smovilcli like :parametro) or (sfaxcli like :parametro)),Todos los teléfonos
+238,formclipotenpral,,,((stelefonocli like :parametro) or (telefono2 like :parametro) or (telefono3 like :parametro) or (smovilcli like :parametro) or (sfaxcli like :parametro)),Todos los teléfonos
+239,formtrabajadores,,2,((stelefonocli like :parametro) or (telefono2 like :parametro) or (telefono3 like :parametro) or (smovilcli like :parametro) or (sfaxcli like :parametro)),Todos los teléfonos
+240,formotros,,2,((stelefonocli like :parametro) or (telefono2 like :parametro) or (telefono3 like :parametro) or (smovilcli like :parametro) or (sfaxcli like :parametro)),Todos los teléfonos
+241,formcliconpral,,,((telefono like :parametro) or (telefono2 like :parametro) or (telefono3 like :parametro) or (movil like :parametro) or (fax like :parametro)),Todos los teléfonos
+242,formabopral,,,((stelefonoabo like :parametro) or (telefono2 like :parametro) or (telefono3 like :parametro) or (smovilabo like :parametro) or (sfaxabo like :parametro)),Todos los teléfonos
+243,formpropral,,,((stelefonopro like :parametro) or (telefono2 like :parametro) or (telefono3 like :parametro) or (smovilpro like :parametro) or (sfaxpro like :parametro)),Todos los teléfonos
+244,formcorconpral,,,((telefono1 like :parametro) or (telefono2 like :parametro) or (telefono3 like :parametro) or (movil like :parametro) or (fax like :parametro)),Todos los teléfonos
+245,formcolpral,,,((stelefonocol like :parametro) or (telefono2 like :parametro) or (telefono3 like :parametro) or (smovilcol like :parametro) or (sfaxcol like :parametro)),Todos los teléfonos
+246,formjuzpral,,,((telefono like :parametro) or (telefono2 like :parametro) or (telefono3 like :parametro) or (fax like :parametro)),Todos los teléfonos
+247,formorgpral,,,((telefono like :parametro) or (telefono2 like :parametro) or (telefono3 like :parametro) or (fax like :parametro)),Todos los teléfonos
+248,formper1,,,((perso3 like :parametro) or (perso4 like :parametro) or (perso11 like :parametro) or (perso12 like :parametro) or (perso13 like :parametro) ),Todos los teléfonos
+249,formper2,,,((perso3 like :parametro) or (perso4 like :parametro) or (perso11 like :parametro) or (perso12 like :parametro) or (perso13 like :parametro) ),Todos los teléfonos
+250,formper3,,,((perso3 like :parametro) or (perso4 like :parametro) or (perso11 like :parametro) or (perso12 like :parametro) or (perso13 like :parametro) ),Todos los teléfonos
+251,formper5,,,((perso3 like :parametro) or (perso4 like :parametro) or (perso11 like :parametro) or (perso12 like :parametro) or (perso13 like :parametro) ),Todos los teléfonos
+252,formper6,,,((perso3 like :parametro) or (perso4 like :parametro) or (perso11 like :parametro) or (perso12 like :parametro) or (perso13 like :parametro) ),Todos los teléfonos
+253,formper7,,,((perso3 like :parametro) or (perso4 like :parametro) or (perso11 like :parametro) or (perso12 like :parametro) or (perso13 like :parametro) ),Todos los teléfonos
+254,formper8,,,((perso3 like :parametro) or (perso4 like :parametro) or (perso11 like :parametro) or (perso12 like :parametro) or (perso13 like :parametro) ),Todos los teléfonos
+255,formper9,,,((perso3 like :parametro) or (perso4 like :parametro) or (perso11 like :parametro) or (perso12 like :parametro) or (perso13 like :parametro) ),Todos los teléfonos
+256,formper10,,,((perso3 like :parametro) or (perso4 like :parametro) or (perso11 like :parametro) or (perso12 like :parametro) or (perso13 like :parametro) ),Todos los teléfonos
+257,formperpral,,,((telefono1 like :parametro) or (telefono2 like :parametro) or (telefono3 like :parametro) or (movil like :parametro) or (fax like :parametro)),Todos los teléfonos
+258,formtarpral,,,((telefono1 like :parametro) or (telefono2 like :parametro) or (telefono3 like :parametro) or (movil like :parametro) or (fax like :parametro)),Todos los teléfonos
+259,FormExpPral,,2,inner join subusu C on e.codsubusu=C.icodsubusu where (Upper(C.nombre) like :parametro),Usuario
+260,Formexppral,,2,where (upper(E.nig) like :parametro),N.I.G
+263,FormBusTot,Nombre,2,,Nombre
+264,FormBusTot,NIF,2,,NIF/CIF
+265,FormBusTot,Email,2,,Email
+266,FormBusTot,Telefono,2,,Teléfonos
+267,FormBusTot,Direccion,2,,Dirección
+268,FormBusTot,Poblacion,2,,Población
+269,FormBusTot,Provincia,2,,Provincia
+270,FormBusTot,Notas,2,,Notas
+272,formtipexp,tipoexp,2,,
+273,formtipexp,descripcionexp,2,,
+274,frmGrupos2,snombrecli,2,,Nombre
+275,frmGrupos2,snifcli,2,,NIF/CIF
+276,frmGrupos2,stelefonocli,0,,Teléfono 1
+277,frmGrupos2,smovilcli,0,,Móvil
+278,frmGrupos2,sfaxcli,0,,Fax
+279,frmGrupos2,email,2,,Correo Electrónico
+280,formselecalumnos,snombreclicomercial,2,,
+281,FormExpPral,,2,inner join exclipro C on E.inumexp = C.inumexp and E.iyear = C.iyear and E.codcliente = C.icodcli where Upper(C.numreferencia) like :parametro,Ref. Cliente
+282,FormProPral,spoblacionpro,2,,
+283,FormAboPral,spoblacionabo,2,,
+284,FormProPral,notas,2,,
+285,FormExpPral,,2,inner join expproveedor C on E.inumexp=C.inumexp and E.iyear=C.iyear inner join clientes L on C.icodcli=L.icodcli where (Upper(L.snombrecli) like :parametro)  and (L.tipobd=9),Proveedor
+286,FormListadoBonosPredef,Descripcion,2, descripcion like :parametro,Descripción
+287,FormListadoBonosPredef,Referencia,2, referencia like :parametro,Referencia
+288,Bonos,Descripcion,0,,
+289,Bonos,Referencia,0,,
+290,Bonos,TipoBono,0,,
+291,Bonos,NumBono,0,,
+292,FormProductPral,categoria,0,,
+293,FormProductPral,subcategoria,0,,
+294,formexppral,snombrecli,2,inner join exclipro C on E.inumexp=C.inumexp and E.iyear=C.iyear inner join clientes L on C.icodcli=L.icodcli where (Upper(L.snombrecli) like :parametro)  and (L.tipobd=3),Terceros
+295,formexppral,snifcli,2,inner join exclipro C on E.inumexp=C.inumexp and E.iyear=C.iyear inner join clientes L on C.icodcli=L.icodcli where (Upper(L.snifcli) like :parametro)  and (L.tipobd=3),NIF Terceros
+296,formexppral,stelefonocli,2,inner join exclipro C on E.inumexp=C.inumexp and E.iyear=C.iyear inner join clientes L on C.icodcli=L.icodcli where ((L.stelefonocli like :parametro) or (L.telefono2 like :parametro) or (L.telefono3 like :parametro) or (L.smovilcli like :parametro) or (L.sfaxcli like :parametro)) and (L.tipobd=3),Todos Tlf. Terceros
+297,formprof,sdescripcionorden,2,where (upper(sdescripcionorden) like :parametro),Descripción
+298,FormListadoAreaProfesional,codigo,0,,
+299,FormListadoAreaProfesional,areaprofesional,2,,

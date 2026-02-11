@@ -1,0 +1,7 @@
+﻿id,descripcion,referencia,horaini,tiempo,horafin,tipoturno,horaini2,horafin2,backcolor,diacompleto
+1,Día,D,1899-12-30 08:30:00,28800,1899-12-30 16:30:00,Día,,,,
+2,Libre,L,1899-12-30 10:00:00,21600,1899-12-30 16:00:00,Libre,,,,
+3,Mañana,M,1899-12-30 08:30:00,18000,1899-12-30 13:30:00,Mañana,,,,
+4,Tarde,T,1899-12-30 15:30:00,10800,1899-12-30 18:30:00,Tarde,,,,
+5,Noche,N,1899-12-30 22:00:00,28800,1899-12-31 06:00:00,Noche,,,,
+6,Guardia,G,1899-12-30 12:00:00,28800,1899-12-30 20:00:00,Guardia,,,,

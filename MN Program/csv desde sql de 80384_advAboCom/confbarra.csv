@@ -1,0 +1,14 @@
+﻿id,indice,indice_padre,descripcion,accion,iorden
+139,1,0,Pacientes,actpacientes,0
+140,3,0,Trabajadores,ActTrabajadores,4
+141,4,0,Co&ntrol de Previsión de Cobros,ActControlCobros,8
+142,5,0,Control de Historial,ActionControlActu,6
+143,6,0,Control Horario,,9
+144,7,6,Inicio Jornada,actRegIniJornada,9
+145,8,6,Fin Jornada,actRegFinJornada,9
+146,9,6,-,,9
+147,10,6,Inicio Descanso,actRegIniDescanso,9
+148,11,6,Fin Descanso,actRegFinDescanso,9
+149,12,6,-,,9
+150,13,6,Time Report-Control Horario,actControlHorarioTR,9
+151,14,6,Informes Time Report-Control Horario,ActInformesTR,9

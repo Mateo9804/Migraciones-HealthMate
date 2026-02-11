@@ -1,0 +1,10 @@
+﻿idAdjun,idAdjunOrigen,idTablaOrigen,fechaHora,seleccionado,color,enlace,publicarweb,creadoporicodcli,creadoporcodsubusu,guid,estadoFirma,fechaFirma,tipoRuta,created_on,pdteFirmarWeb,fechaModoCliente,tipoAdjun,version,guidVersion,tipoFirmaMN,destinatario,remitente,fechaCaducidad,estadoDoc,carpetaAccesoCliente,orden,idplantillaorig,marcadoPendienteFirmaWeb,numeroEnvios
+1,1,0,2021-05-07 11:04:37.887000,False,,,,,,5a81b225-dbc1-4bd6-855f-248e0eca7534,Enviado con Mail Accept,,0,2021-05-07 11:04:37.887000,,,,,,4,,,,,,,,,1
+2,13,0,2021-05-28 10:09:58.143000,False,,,,,,c453e56f-0cc2-4800-ae5a-7588c5206bd7,Enviado con Mail Accept,,0,2021-05-28 10:09:58.143000,,,,,,4,,,,,,,,,1
+3,14,0,2021-05-28 10:10:34.310000,False,,,,,,f5362236-1361-4837-a92d-7e57acda7651,Enviado con Mail Accept,,0,2021-05-28 10:10:34.310000,,,,,,4,,,,,,,,,1
+4,18,0,2021-05-28 10:27:13.457000,False,,,,,,c143dc92-2e11-4dd9-aea6-5b0b20bde572,Enviado con Mail Accept,,0,2021-05-28 10:27:13.457000,,,,,,4,,,,,,,,,1
+5,19,0,2021-05-28 10:41:51.457000,False,,,,,,f505e9b2-8eb5-4515-ad76-3fe09d88a1fb,Enviado con Mail Accept,,0,2021-05-28 10:41:51.457000,,,,,,4,,,,,,,,,1
+6,20,0,2021-05-28 10:42:45.093000,False,,,,,,25b7ef08-8cae-4bd2-b7ff-32ed573c34a1,Enviado con Mail Accept,,0,2021-05-28 10:42:45.093000,,,,,,4,,,,,,,,,1
+7,21,0,2021-05-28 10:50:51.980000,False,,,,,,d97f5dda-4758-4278-8a56-47cd04601d23,Enviado con Mail Accept,,0,2021-05-28 10:50:51.980000,,,,,,4,,,,,,,,,1
+8,38,0,2021-06-17 12:45:15.323000,False,,,,,,e66dfe07-a669-46fa-b350-975823cb8991,Enviado con Mail Accept,,0,2021-06-17 12:45:15.323000,,,,,,4,,,,,,,,,1
+9,39,0,2021-06-17 12:47:42.290000,False,,,,,,406f9a17-dd5f-42aa-a07e-cbd4a921a121,Enviado con Mail Accept,,0,2021-06-17 12:47:42.290000,,,,,,4,,,,,,,,,1

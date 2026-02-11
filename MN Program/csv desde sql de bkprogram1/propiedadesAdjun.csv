@@ -1,0 +1,10 @@
+﻿idAdjun,idAdjunOrigen,idTablaOrigen,fechaHora,seleccionado,color,enlace,publicarweb,creadoporcodsubusu,creadoporicodcli,guid,estadoFirma,fechaFirma,tipoRuta,created_on,pdteFirmarWeb,fechaModoCliente,tipoAdjun,version,guidVersion,tipoFirmaMN,destinatario,remitente,fechaCaducidad,estadoDoc,carpetaAccesoCliente,orden,idplantillaorig,marcadoPendienteFirmaWeb,numeroEnvios
+3,3,5,2024-07-09 00:00:00,False,,,False,,,,,,1,2024-07-09 18:12:32.807000,,,,,,0,,,,,,,,,1
+4,1,7,2024-09-16 00:00:00,False,,,False,-1,,,,,1,2024-09-16 10:01:25.293000,,,,,,0,,,,,,,,,1
+5,1,6,2024-09-16 00:00:00,False,,,False,-1,,,,,1,2024-09-16 10:01:44.330000,,,,,,0,,,,,,,,,1
+6,4,5,2024-11-26 00:00:00,False,,,False,,,,,,1,2024-11-26 20:07:59.087000,,,,,,0,,,,,,,,,1
+7,2,6,2024-11-26 00:00:00,False,,,False,0,,823f123e-7e5a-4df6-a025-0e994e6dd3d5,Enviado con Mail Sign,,1,2024-11-26 20:08:01.770000,,,,,,5,,,2024-11-27 20:08:01.967000,,,,,,1
+8,5,5,2024-11-29 00:00:00,False,,,False,,,,,,1,2024-11-29 17:01:56.977000,,,,,,0,,,,,,,,,1
+9,6,5,2025-02-11 00:00:00,False,,,False,,,,,,1,2025-02-11 19:06:24.737000,,,,,,0,,,,,,,,,1
+10,3,6,2025-02-11 00:00:00,False,,,False,0,,db030894-abe3-467b-9707-a261a1f7e633,Enviado con Mail Sign,,1,2025-02-11 19:06:27.353000,,,,,,5,,,2025-02-12 19:06:27.533000,,,,,,1
+11,7,5,2025-04-09 00:00:00,False,,,False,,,,,,1,2025-04-09 12:52:38.477000,,,,,,0,,,,,,,,,1

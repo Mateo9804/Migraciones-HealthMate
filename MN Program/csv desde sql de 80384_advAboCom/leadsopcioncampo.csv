@@ -1,0 +1,6 @@
+﻿idCampo,orden,texto,origen,visible
+1100000,5,Fecha por defecto,0,True
+1100003,1,Descripción por defecto,0,True
+1100005,2,Tipo por defecto,0,True
+1100006,4,Fuente por defecto,0,True
+1100016,3,Etapa por defecto,0,True

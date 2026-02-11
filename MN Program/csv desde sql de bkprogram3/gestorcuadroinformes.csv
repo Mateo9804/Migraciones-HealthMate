@@ -1,0 +1,3 @@
+﻿id,idgestorcuadro,icodopeMail,ilineaMail,destinatarioCorreo,asunto,esAdjunto,tipoDocumento,numEmpresa,tipoEnvio,medioEnvio,idcodopeMenInt
+1,100000021,,,Supervisor,CMI,False,0,2,0,1,1
+2,100000021,,,,,False,1,1,0,2,

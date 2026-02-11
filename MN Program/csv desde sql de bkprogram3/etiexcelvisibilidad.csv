@@ -1,0 +1,539 @@
+﻿tabla,campo,modulo,texto,verPlantilla
+alumexp,email,,Correo Electrónico,True
+alumexp,estadocli,,Estado,True
+alumexp,fechaalta,,Fecha Alta,True
+alumexp,fechabaja,,Fecha Baja,True
+alumexp,scodpostalcli,,Código Postal,True
+alumexp,sdomiciliocli,,Dirección,True
+alumexp,smovilcli,,Móvil,True
+alumexp,snifcli,,NIF/CIF,True
+alumexp,snombrecli,,Nombre,True
+alumexp,snombrepais,,País,True
+alumexp,spoblacioncli,,Población,True
+alumexp,sprovinciacli,,Provincia,True
+alumexp,stelefonocli,,Teléfono,True
+alumexp,tipofichero,,Tipo Cliente,True
+amortiza,concepto,,Concepto,True
+amortiza,fechaamor,,Fecha Amortización,True
+amortiza,importe,,Importe,True
+amortiza,numctaAmortiza,,Cuenta Amortización,True
+amortiza,numctaDotacion,,Cuenta Dotación,True
+cliadjun,descripcion,,Título,False
+cliadjun,fecha,,Fecha,False
+cliadjun,imagen,,Nombre Adjunto,False
+cliadjun,ubicacion,,Ubicación,False
+clialumnos,email,,Correo Electrónico,True
+clialumnos,estadocli,,Estado,True
+clialumnos,fechaalta,,Fecha Alta,True
+clialumnos,fechabaja,,Fecha Baja,True
+clialumnos,scodpostalcli,,Código Postal,True
+clialumnos,sdomiciliocli,,Dirección,True
+clialumnos,smovilcli,,Móvil,True
+clialumnos,snifcli,,NIF/CIF,True
+clialumnos,snombrecli,,Nombre,True
+clialumnos,snombrepais,,País,True
+clialumnos,spoblacioncli,,Población,True
+clialumnos,sprovinciacli,,Provincia,True
+clialumnos,stelefonocli,,Teléfono,True
+clialumnos,tipofichero,,Tipo Cliente,True
+cliecont,numreferencia,,Ref. Contrario,True
+clientes,,,Links,False
+clientes,1,,Fuente de contacto,False
+clientes,11,,Comunicaciones comerciales,False
+clientes,12,,Documento LOPD,False
+clientes,13,,Trato preferente,False
+clientes,14,,Servicios de interés,False
+clientes,2,,Fecha de primer contacto,False
+clientes,21,,Nivel de satisfacción,False
+clientes,22,,Recomendaciones,False
+clientes,23,,Reclamaciones,False
+clientes,3,,Código Postal,False
+clientes,3800025,,Fecha 1,False
+clientes,3800026,,Fecha 2,False
+clientes,3800027,,Fecha 3,False
+clientes,3800028,,Fecha 4,False
+clientes,3800029,,Fecha 5,False
+clientes,3800030,,Fecha 6,False
+clientes,3800162,,NOMBRE PADRE,False
+clientes,4,,Profesión,False
+clientes,5,,Peso,False
+clientes,6,,Altura,False
+clientes,7,,Práctica Deporte,False
+clientes,8,,Frecuencia,False
+clientes,BicSwift,,Código BIC/SWIFT,False
+clientes,campo1,,Mútua,False
+clientes,campo10,,campo10,False
+clientes,campo2,,Núm. Póliza,False
+clientes,campo22,,Altura,False
+clientes,campo23,,Peso (Kg),False
+clientes,campo3,,campo3,False
+clientes,campo4,,campo4,False
+clientes,campo5,,Núm. Afiliación Seguridad Social,False
+clientes,campo6,,Cobertura,False
+clientes,campo7,,campo7,False
+clientes,campo8,,campo8,False
+clientes,campo9,,campo9,False
+clientes,campofecha1,,campofecha1,False
+clientes,campofecha2,,campofecha2,False
+clientes,campofecha3,,campofecha3,False
+clientes,campofecha4,,campofecha4,False
+clientes,codcontacto,,Persona de Contacto Princial,False
+clientes,codigo,,Número,False
+clientes,CodSubUSu,,Código Usuario,False
+clientes,codsubusuultimaactuacion,,Usuario Última Actuación,False
+clientes,comunicaciones,,Comunicaciones,False
+clientes,creadoEl,,Fecha Creación,False
+clientes,ctairpf,,Cta. Contable IRPF,False
+clientes,ctaiva,,Cta. Contable IVA/IGIC,False
+clientes,cuencont,,Cuenta Contable,False
+clientes,cuentabanco,,CCC,False
+clientes,descripciondiascobro,,Descripción Días Cobro Predefinido,False
+clientes,descripcionplazo,,Descripción Plazo Predefinido,False
+clientes,descripcionproximaactu,,Descripción Próxima Act.,False
+clientes,descripcionultimaactu,,Descripción Última Act.,False
+clientes,diasactivo,,Antigüedad,False
+clientes,diasmorosidad,,Días de Morosidad,False
+clientes,diassinact,,Días sin Actuaciones,False
+clientes,diasultimocobro,,Días desde el último cobro,False
+clientes,dormidoeconomico,,Dormido Económico,False
+clientes,dormidohistorial,,Dormido Historial,False
+clientes,edad,,Edad,False
+clientes,email,,Correo Electrónico,True
+clientes,emailtutor1,,Correo Electrónico Madre,False
+clientes,emailtutor2,,Correo Electrónico Padre,False
+clientes,empresa,,Adjunta Informe Médico,False
+clientes,estadoAEAT,,Estado AEAT,False
+clientes,estadocli,,Estado,True
+clientes,facturartutor1,,Facturar Madre,False
+clientes,facturartutor2,,Facturar Padre,False
+clientes,fechaalta,,Fecha Alta,True
+clientes,fechaaltaano,,F. Alta Año,False
+clientes,fechaaltames,,F. Alta Mes,False
+clientes,fechabaja,,Fecha Baja,True
+clientes,fechabajaano,,F. Baja Año,False
+clientes,fechabajames,,F. Baja Mes,False
+clientes,fechanacimiento,,Fecha Nacimiento,False
+clientes,fechaproximaactuacion,,F. Próxima Actuación,False
+clientes,fechaproximocobro,,Fecha Próximo Cobro,False
+clientes,fechaultimaactuacion,,Fecha Última Actuación,False
+clientes,fmandato,,Fecha de Mandato,False
+clientes,formapago,,Forma de Cobro,False
+clientes,foto,,Foto,False
+clientes,ftotalcobro,,Total Cobro,False
+clientes,IBAN,,Código de Cuenta IBAN,False
+clientes,incidencias,,Incidencias,False
+clientes,informespendientes,,Informes Pendientes,False
+clientes,mascotasexo,,Sexo,False
+clientes,Nacionalidad,,Nacionalidad,False
+clientes,nmandato,,Número de Mandato,False
+clientes,notas,,Notas,False
+clientes,numactretrasadas,,Act. Atrasadas,False
+clientes,numactuaciones,,Actu. Realizadas,False
+clientes,numclientes,,Clientes Asociados,False
+clientes,numcolegiado,,Núm Colegiado,False
+clientes,numexpedientes,,Expedientes,False
+clientes,numTotalActuaciones,,Act. Totales,False
+clientes,oportunidadesabiertas,,CRM-Presupuestos Abiertos,False
+clientes,pagweb,,Página Web,False
+clientes,participacionencuestas,,Participación Encuestas,False
+clientes,pasaporte,,Índice de Masa Corporal,False
+clientes,plazo,,Plazo,False
+clientes,reclamacion,,Reclamaciones,False
+clientes,referencia,,Referencia,False
+clientes,saldopendiente,,Imp. Cobros Futuros,False
+clientes,saldoTratamientos,,Total Saldo Paciente,False
+clientes,saldovencidonocobrado,,Imp. Cobros Pdtes.,False
+clientes,satisfaccion,,Satisfacción,False
+clientes,scodpostalcli,,Código Postal,True
+clientes,sdomiciliocli,,Dirección,True
+clientes,sfaxcli,,Fax,False
+clientes,smovilcli,,Móvil,True
+clientes,snifcli,,NIF/CIF,True
+clientes,sniftutor1,,NIF Madre,False
+clientes,sniftutor2,,NIF Padre,False
+clientes,snombrecli,,Nombre,True
+clientes,snombreclicomercial,,Nombre Comercial,False
+clientes,snombremutua,,Aseguradora,False
+clientes,snombrepais,,País,True
+clientes,snombretutor1,,Nombre Madre,False
+clientes,snombretutor2,,Nombre Padre,False
+clientes,spoblacioncli,,Población,True
+clientes,sprovinciacli,,Provincia,True
+clientes,stelefonocli,,Teléfono,True
+clientes,stelefonotutor1,,Teléfono Madre,False
+clientes,stelefonotutor2,,Teléfono Padre,False
+clientes,susuario,,Usuario,False
+clientes,telefono2,,Teléfono 2,False
+clientes,telefono3,,Teléfono 3,False
+clientes,tiempoact,,Tiempo Actu. Realizadas,False
+clientes,tipofichero,,Tipo Cliente,True
+clientes,totalbaseimponible,,Total facturado(b.i),False
+clientes,totalcobradocli,,Total cobrado,False
+clientes,totalCobrosMutua,,Tot. Cobros Mutuas,False
+clientes,totalCobrosTratamientos,,Tot. Cobros Tratamientos,False
+clientes,totalfacturacion,,Total facturado,False
+clientes,totalpdtefacturar,,Total Pdte Facturar,False
+clientes,ultimavaloracion,,Última Valoración,False
+climascotas,email,,Correo Electrónico,True
+climascotas,estadocli,,Estado,True
+climascotas,fechaalta,,Fecha Alta,True
+climascotas,fechabaja,,Fecha Baja,True
+climascotas,scodpostalcli,,Código Postal,True
+climascotas,sdomiciliocli,,Dirección,True
+climascotas,smovilcli,,Móvil,True
+climascotas,snifcli,,NIF/CIF,True
+climascotas,snombrecli,,Nombre,True
+climascotas,snombrepais,,País,True
+climascotas,spoblacioncli,,Población,True
+climascotas,sprovinciacli,,Provincia,True
+climascotas,stelefonocli,,Teléfono,True
+climascotas,tipofichero,,Tipo Cliente,True
+clipacientes,email,,Correo Electrónico,True
+clipacientes,estadocli,,Estado,True
+clipacientes,fechaalta,,Fecha Alta,True
+clipacientes,fechabaja,,Fecha Baja,True
+clipacientes,scodpostalcli,,Código Postal,True
+clipacientes,sdomiciliocli,,Dirección,True
+clipacientes,smovilcli,,Móvil,True
+clipacientes,snifcli,,NIF/CIF,True
+clipacientes,snombrecli,,Nombre,True
+clipacientes,snombrepais,,País,True
+clipacientes,spoblacioncli,,Población,True
+clipacientes,sprovinciacli,,Provincia,True
+clipacientes,stelefonocli,,Teléfono,True
+clipacientes,tipofichero,,Tipo Cliente,True
+clipoten,email,,Correo Electrónico,True
+clipoten,estadocli,,Estado,True
+clipoten,fechaalta,,Fecha Alta,True
+clipoten,fechabaja,,Fecha Baja,True
+clipoten,scodpostalcli,,Código Postal,True
+clipoten,sdomiciliocli,,Dirección,True
+clipoten,smovilcli,,Móvil,True
+clipoten,snifcli,,NIF/CIF,True
+clipoten,snombrecli,,Nombre,True
+clipoten,snombrepais,,País,True
+clipoten,spoblacioncli,,Población,True
+clipoten,sprovinciacli,,Provincia,True
+clipoten,stelefonocli,,Teléfono,True
+clipoten,tipofichero,,Tipo Cliente,True
+clivoluntarios,email,,Correo Electrónico,True
+clivoluntarios,estadocli,,Estado,True
+clivoluntarios,fechaalta,,Fecha Alta,True
+clivoluntarios,fechabaja,,Fecha Baja,True
+clivoluntarios,scodpostalcli,,Código Postal,True
+clivoluntarios,sdomiciliocli,,Dirección,True
+clivoluntarios,smovilcli,,Móvil,True
+clivoluntarios,snifcli,,NIF/CIF,True
+clivoluntarios,snombrecli,,Nombre,True
+clivoluntarios,snombrepais,,País,True
+clivoluntarios,spoblacioncli,,Población,True
+clivoluntarios,sprovinciacli,,Provincia,True
+clivoluntarios,stelefonocli,,Teléfono,True
+clivoluntarios,tipofichero,,Tipo Cliente,True
+comisionista,importe,,% Comisión,False
+comisionista,snifcli,,NIF,False
+comisionista,snombrecli,,Nombre,False
+comisionista,tipocomision,,Tipo de Comisión,False
+compañías,email,,Correo Electrónico,True
+compañías,estadocli,,Estado,True
+compañías,fechaalta,,Fecha Alta,True
+compañías,fechabaja,,Fecha Baja,True
+compañías,scodpostalcli,,Código Postal,True
+compañías,sdomiciliocli,,Dirección,True
+compañías,smovilcli,,Móvil,True
+compañías,snifcli,,NIF/CIF,True
+compañías,snombrecli,,Nombre,True
+compañías,snombrepais,,País,True
+compañías,spoblacioncli,,Población,True
+compañías,sprovinciacli,,Provincia,True
+compañías,stelefonocli,,Teléfono,True
+compañías,tipofichero,,Tipo Cliente,True
+cuencli,capituloconcepto,,Capítulo,False
+cuencli,dctolinea,,%Descuento Línea,True
+cuencli,fpreciounitario,,Precio Unidad,True
+cuencli,importe,,Importe,True
+cuencli,sDescripcion,,Descripción,True
+cuencli,sTipo,,Tipo Cuenta,True
+cuencli,subcapitulo,,Subcapítulo,False
+cuencli,total,,Total,True
+director,codpostal,,Código Postal,False
+director,direccion,,Dirección,False
+director,email,,Correo Electrónico,False
+director,fechaimpresion,,Fecha Impresion,False
+director,fechaimpresionlarga,,Fecha Impresión Larga,False
+director,icodprocu,,Código,False
+director,nif,,NIF/CIF,False
+director,poblacion,,Población,False
+director,provincia,,Provincia,False
+director,snombreprocu,,Nombre,False
+director,telefono,,Teléfono,False
+director,V_IMAGEN1,,Logo de Empresa,False
+diremailcli,email,,Email,False
+escalas,descripcionPIA,,PIA,True
+escalas,fecha,,Fecha,True
+escalas,fechaPIA,,Fecha PIA,True
+escalas,nombre,,Cuestionario,True
+escalas,puntuacion,,Resultado,True
+escalas,resultado,,Valoración,True
+escalas,snombrecli,,Nombre,True
+escalas,susuario,,Usuario,True
+escalas,tipo,,Tipo,True
+escalasRespuestas,puntuacionRespuesta,,Puntuación Respuesta,True
+escalasRespuestas,tituloPregunta,,Pregunta,True
+escalasRespuestas,tituloRespuesta,,Respuesta,True
+expalumnos,email,,Correo Electrónico,True
+expalumnos,estadocli,,Estado,True
+expalumnos,fechaalta,,Fecha Alta,True
+expalumnos,fechabaja,,Fecha Baja,True
+expalumnos,scodpostalcli,,Código Postal,True
+expalumnos,sdomiciliocli,,Dirección,True
+expalumnos,smovilcli,,Móvil,True
+expalumnos,snifcli,,NIF/CIF,True
+expalumnos,snombrecli,,Nombre,True
+expalumnos,snombrepais,,País,True
+expalumnos,spoblacioncli,,Población,True
+expalumnos,sprovinciacli,,Provincia,True
+expalumnos,stelefonocli,,Teléfono,True
+expalumnos,tipofichero,,Tipo Cliente,True
+expedien,abopropio,,Abogado Propio,True
+expedien,codproce,,Tipo de Procedimiento,True
+expedien,contrario,,Contrario,True
+expedien,descripcion,,Descripción Expediente,True
+expedien,dfechaalta,,Fecha Alta,True
+expedien,expediente,,Núm. Exp,True
+expedien,itipoasunto,,Tipo de Asunto,True
+expedien,iyear,,Año,True
+expedien,juzgado,,Juzgado Principal,True
+expedien,procpropio,,Procurador Propio,True
+expedien,refcontrarioprin,,Ref. Contrario Principal,True
+expedien,snombrecli,,Cliente,True
+expedien,srefabogado,,Ref. Propia,True
+expedien,srefcliente,,Ref. Expediente,True
+expedien,tipoexp,,Tipo de Expediente,True
+expedien,usuario,,Usuario,True
+facturas,fecha,,Fecha Factura,True
+facturas,importecobrado,,Importe Cobrado,True
+facturas,inumfactura,,Núm. Factura,True
+facturas,nifcli,,NIF/CIF,True
+facturas,nombrecli,,Nombre,True
+facturas,nomsubusu,,Usuario,True
+facturas,sdescripcion,,Descripción Factura,True
+facturas,totaleuro,,Total Factura,True
+facturas,totalirpfeuro,,Total IRPF,True
+facturas,totalivaeuro,,Total IVA,True
+facturas,totalprovisioneseuro,,Total Provisiones,True
+facturas,totalsuplidoseuro,,Total Suplidos,True
+facturas,totanticipos,,Total Anticipos,True
+facturas,totpendiente,,Importe Pendiente,True
+facturas,totSoloDctoFact,,Descuento,True
+linecontagastos,ctaivarep,,C. IVA Repercutido,True
+linecontagastos,iprorrata,,Prorrata,True
+linecontagastos,lote,,Lote,True
+medicacion,notas,,Notas,False
+medicacion,perso1,,Tipo Medicación,False
+medicacion,perso10,,Cena,False
+medicacion,perso11,,perso11,False
+medicacion,perso12,,perso12,False
+medicacion,perso13,,perso13,False
+medicacion,perso14,,perso14,False
+medicacion,perso15,,perso15,False
+medicacion,perso2,,Medicación,False
+medicacion,perso21,,Tipo de Almacén,False
+medicacion,perso22,,Tipo de Envase,False
+medicacion,perso23,,Principio Activo,False
+medicacion,perso24,,Campo Libre 5,False
+medicacion,perso25,,Dosis,False
+medicacion,perso26,,Dónde comprarlo,False
+medicacion,perso3,,Motivo,False
+medicacion,perso4,,Estado,False
+medicacion,perso5,,Desayuno,False
+medicacion,perso6,,Merienda,False
+medicacion,perso7,,Noche,False
+medicacion,perso8,,Campo Libre (perso8),False
+medicacion,perso9,,Comida,False
+medicacion,persofecha1,,Fecha Alta,False
+medicacion,persofecha2,,Fecha Baja,False
+medicacion,persofecha4,,Fecha Visado,False
+medicacion,persofecha5,,Fecha Prescripción,False
+medicacion,persofecha6,,Fecha Caducidad,False
+medicacion,persologic7,,Visado,False
+objetivosoportunidad,cumplimiento,,Cumplimiento,True
+objetivosoportunidad,especialidad,,Especialidad,True
+objetivosoportunidad,sdescripcion,,Objetivo,True
+objetivosoportunidad,tipo,,Tipo,True
+oporcli,clase,AtencionCliente,Clase,True
+oporcli,climvl,AtencionCliente,CliMvl,True
+oporcli,climvl,Oportunidades,CliMvl,True
+oporcli,clitfo1,AtencionCliente,CliTfo1,True
+oporcli,clitfo1,Oportunidades,CliTfo1,True
+oporcli,dcto,Oportunidades,% Dcto,True
+oporcli,dfecha,AtencionCliente,Fecha Tarea,True
+oporcli,dfecha,Compras,Fecha,True
+oporcli,dfecha,Oportunidades,Fecha Oportunidad,True
+oporcli,email,Mutuas,Correo Electrónico,True
+oporcli,estado,AtencionCliente,Estado,True
+oporcli,estado,Compras,Estado,True
+oporcli,estado,Oportunidades,Estado,True
+oporcli,estadocli,Mutuas,Estado,True
+oporcli,etapa,AtencionCliente,Etapa,True
+oporcli,etapa,Compras,Etapa,True
+oporcli,etapa,Oportunidades,Etapa,True
+oporcli,fechaalta,Mutuas,Fecha Alta,True
+oporcli,fechabaja,Mutuas,Fecha Baja,True
+oporcli,fechacierre,AtencionCliente,Fecha Cierre,True
+oporcli,fechacierre,Compras,Fecha Recepción,True
+oporcli,fechacierre,Oportunidades,Fecha Cierre,True
+oporcli,fechafinprev,Compras,Fecha Prevista Recepción,True
+oporcli,ftotalventa,Oportunidades,Importe Total,True
+oporcli,fuente,Oportunidades,Fuente,True
+oporcli,hora,AtencionCliente,Hora Cierre,True
+oporcli,hora,Oportunidades,Hora Cierre,True
+oporcli,horaalta,AtencionCliente,Hora Tarea,True
+oporcli,horaalta,Oportunidades,Hora Oportunidad,True
+oporcli,importecierre,Compras,Importe,True
+oporcli,importecierre,Oportunidades,Importe Venta,True
+oporcli,nombreAsociado,Compras,Asociado a,True
+oporcli,nombreProveedor,Compras,Proveedor,True
+oporcli,nombreUsuario,Compras,Usuario,True
+oporcli,oportunidad,AtencionCliente,Descripción,True
+oporcli,oportunidad,Compras,Descripción,True
+oporcli,oportunidad,Oportunidades,Descripción,True
+oporcli,pordesviacion,AtencionCliente,% Desviación,True
+oporcli,poriva,Oportunidades,% IVA,True
+oporcli,porprogreso,AtencionCliente,% Progreso,True
+oporcli,prevision,Compras,Importe Tarifa,True
+oporcli,scodpostalcli,Mutuas,Código Postal,True
+oporcli,sdomiciliocli,Mutuas,Dirección,True
+oporcli,smovilcli,Mutuas,Móvil,True
+oporcli,snifcli,Mutuas,NIF/CIF,True
+oporcli,snombrecli,AtencionCliente,Cliente,True
+oporcli,snombrecli,Mutuas,Nombre,True
+oporcli,snombrecli,Oportunidades,Cliente,True
+oporcli,snombrepais,Mutuas,País,True
+oporcli,spoblacioncli,Mutuas,Población,True
+oporcli,sprovinciacli,Mutuas,Provincia,True
+oporcli,stelefonocli,Mutuas,Teléfono,True
+oporcli,subusuario,AtencionCliente,Usuario,True
+oporcli,subusuario,Oportunidades,Usuario (subusuario),True
+oporcli,tiempo,AtencionCliente,Tiempo Realizado,True
+oporcli,tiempopendiente,AtencionCliente,Tiempo Pendiente,True
+oporcli,tiempoprev,AtencionCliente,Tiempo Previsto,True
+oporcli,tipo,AtencionCliente,Tipo,True
+oporcli,tipo,Compras,Tipo,True
+oporcli,tipo,Oportunidades,Tipo,True
+oporcli,tipofichero,Mutuas,Tipo Cliente,True
+oporcli,unidades,Compras,Unidades,True
+oporcli,unidades,Oportunidades,Unidades,True
+oporcli,usuario,AtencionCliente,Usuario,True
+oporcli,usuario,Oportunidades,Usuario,True
+oporcli,usuarioapoyo,Oportunidades,Apoyo Responsable,True
+oporclipia,dfecha,,Fecha,True
+oporclipia,etapa,,Etapa,True
+oporclipia,fechaseguimiento,,Fecha Próxima Revisión,True
+oporclipia,oportunidad,,Descripción,True
+oporclipia,snombrecli,,Nombre,True
+prevcobros,concepto,,Concepto,True
+prevcobros,fecharealizada,,Fecha Cobro,True
+prevcobros,nombrecli,,Cliente,True
+prevcobros,nomsubusu,,Usuario,True
+prevcobros,realizada,,Realizado,True
+prevcobros,snifcli,,NIF Cliente,True
+prevcobros,total,,Total,True
+prevpain,concepto,,Concepto,True
+prevpain,contabilizado,,Diario,True
+prevpain,fecha,,F. Vencimiento,True
+prevpain,fecharealizada,,F. Pago,True
+prevpain,formapago,,Forma de Pago,True
+prevpain,realizada,,Pagado,True
+prevpain,total,,Total,True
+proforma,fecha,,Fecha Factura,True
+proforma,importecobrado,,Importe Cobrado,True
+proforma,inumfactura,,Núm. Factura,True
+proforma,nifcli,,NIF/CIF,True
+proforma,nombrecli,,Nombre,True
+proforma,nomsubusu,,Usuario,True
+proforma,totaleuro,,Total Factura,True
+proforma,totalirpfeuro,,Total IRPF,True
+proforma,totalivaeuro,,Total IVA,True
+proforma,totalprovisioneseuro,,Total Provisiones,True
+proforma,totalsuplidoseuro,,Total Suplidos,True
+proforma,totanticipos,,Total Anticipos,True
+proforma,totpendiente,,Importe Pendiente,True
+programas,especialidad,,Especialidad,True
+programas,fechafin,,Fecha Fin,True
+programas,fechaini,,Fecha Inicio,True
+programas,programa,,Programa,True
+segcli,acturealizada,,Actuación Realizada,False
+segcli,agenda,,Agenda,False
+segcli,alertas,,Prioritaria,False
+segcli,aula,,Aula,False
+segcli,cancelada,,Cancelada,False
+segcli,dfechaact,,F. Actuación,True
+segcli,dfechaavi,,Fecha Aviso,False
+segcli,dfechanotificacion,,Fecha Alta,False
+segcli,dfecharesolucion,,Fecha Resolución,False
+segcli,facturable,,Cobrar,False
+segcli,fase,,Fase,False
+segcli,fcostetotalcoste,,T  Costes,False
+segcli,fecharealizacion,,Fecha Realización,False
+segcli,horafinact,,Hora Final,True
+segcli,horainiact,,Hora Inicio,True
+segcli,motivocancelacion,,Tipo Cancelación,False
+segcli,nomsubusu,,Usuario,True
+segcli,notas,,Notas,False
+segcli,notas2,,Notas2,False
+segcli,notas3,,Notas3,False
+segcli,numfactura,,Núm Factura,False
+segcli,precio,,Precio,False
+segcli,preciocoste,,Coste Bruto,False
+segcli,publicar,,Acc. Cli,False
+segcli,sactuacion,,Descripción,True
+segcli,snombrecli,,Nombre,True
+segcli,subusu,,Código Usuario,False
+segcli,tiempo,,Tiempo,False
+segcli,tiempoprevisto,,Tiempo Previsto,False
+segcli,tipo,,Tipo Actuación,True
+segcli,tipoactu,,Tipo Plazo,False
+segcli,tipohistotr,,Time Report,False
+segcli,yearfact,,Año Factura,False
+segclider,bhonoarticulo,,Concepto,True
+segclider,dcto,,% descuento,True
+segclider,descripcion,,Descripcion,True
+segclider,facturar,,Cobrar,True
+segclider,inumfactura,,Factura,True
+segclider,preciounidad,,Precio uds,True
+segclider,referencia,,Referencia,True
+segclider,unidades,,Uds,True
+segclider,yearfact,,Año factura,True
+serviciosCli,tipo,,Tipo,True
+subusu,costehora,,Coste Hora,False
+subusu,honohora,,Honorarios Hora,False
+subusu,nombre,,Nombre,False
+terceros,email,,Correo Electrónico,True
+terceros,estadocli,,Estado,True
+terceros,fechaalta,,Fecha Alta,True
+terceros,fechabaja,,Fecha Baja,True
+terceros,scodpostalcli,,Código Postal,True
+terceros,sdomiciliocli,,Dirección,True
+terceros,smovilcli,,Móvil,True
+terceros,snifcli,,NIF/CIF,True
+terceros,snombrecli,,Nombre,True
+terceros,snombrepais,,País,True
+terceros,spoblacioncli,,Población,True
+terceros,sprovinciacli,,Provincia,True
+terceros,stelefonocli,,Teléfono,True
+terceros,tipofichero,,Tipo Cliente,True
+terceroscli,email,,Correo Electrónico,True
+terceroscli,estadocli,,Estado,True
+terceroscli,fechaalta,,Fecha Alta,True
+terceroscli,fechabaja,,Fecha Baja,True
+terceroscli,scodpostalcli,,Código Postal,True
+terceroscli,sdomiciliocli,,Dirección,True
+terceroscli,smovilcli,,Móvil,True
+terceroscli,snifcli,,NIF/CIF,True
+terceroscli,snombrecli,,Nombre,True
+terceroscli,snombrepais,,País,True
+terceroscli,spoblacioncli,,Población,True
+terceroscli,sprovinciacli,,Provincia,True
+terceroscli,stelefonocli,,Teléfono,True
+terceroscli,tipofichero,,Tipo Cliente,True

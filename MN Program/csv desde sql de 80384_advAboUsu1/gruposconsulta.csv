@@ -1,0 +1,26 @@
+﻿id,nodo,descripcion,consultasql,notas,referencia,falta,sdescripcion,nodoarbol,fechainicio,actuacion,tipoactu,icodsubusu,actuacion1,actuacion2,actuacion3,fechacreacion,numregistros
+2,Clientes,Clientes de Pontevedra,"select distinct 1 as selec,c.icodcli,c.snombrecli,c.stelefonocli,c.sfaxcli,c.snifcli,c.sdomiciliocli,c.spoblacioncli,c.sprovinciacli,c.scodpostalcli,c.smovilcli,c.email,c.pagweb,c.telefono2,c.telefono3,c.nacionalidad,c.cuentabanco,c.codigo,c.codsubusu from clientes c 
+ where tipobd=0
+
+
+ and Lower(C.sprovinciacli) like '%ponteve%'",,CLIPON,2009-05-07 00:00:00,,,,,,-1,,,,,
+3,Clientes,Clientes de A Coruña,"select distinct 1 as selec,c.icodcli,c.snombrecli,c.stelefonocli,c.sfaxcli,c.snifcli,c.sdomiciliocli,c.spoblacioncli,c.sprovinciacli,c.scodpostalcli,c.smovilcli,c.email,c.pagweb,c.telefono2,c.telefono3,c.nacionalidad,c.cuentabanco,c.codigo,c.codsubusu from clientes c 
+ where tipobd=0
+
+
+ and Lower(C.sprovinciacli) like '%coruña%'",,CLICOR,2009-01-15 00:00:00,,,,,,-1,,,,,
+4,Clientes,Clientes de Madrid,"select distinct 1 as selec,c.icodcli,c.snombrecli,c.stelefonocli,c.sfaxcli,c.snifcli,c.sdomiciliocli,c.spoblacioncli,c.sprovinciacli,c.scodpostalcli,c.smovilcli,c.email,c.pagweb,c.telefono2,c.telefono3,c.nacionalidad,c.cuentabanco,c.codigo,c.codsubusu from clientes c 
+ where tipobd=0
+
+
+ and Lower(C.sprovinciacli) like '%madrid%'",,CLIMAD,2009-09-02 00:00:00,,,,,,-1,,,,,
+5,Clientes Potenciales,Clientes Potenciales de A Coruña,"select distinct 1 as selec,c.icodcli,c.snombrecli,c.stelefonocli,c.sfaxcli,c.snifcli,c.sdomiciliocli,c.spoblacioncli,c.sprovinciacli,c.scodpostalcli,c.smovilcli,c.email,c.pagweb,c.telefono2,c.telefono3,c.nacionalidad,c.cuentabanco,c.codigo,c.codsubusu from clientes c 
+ where tipobd=2
+
+
+ and Lower(C.sprovinciacli) like '%coruña%'",,,,,,,,,-1,,,,,
+6,Clientes Potenciales,Clientes Potenciales de Madrid,"select distinct 1 as selec,c.icodcli,c.snombrecli,c.stelefonocli,c.sfaxcli,c.snifcli,c.sdomiciliocli,c.spoblacioncli,c.sprovinciacli,c.scodpostalcli,c.smovilcli,c.email,c.pagweb,c.telefono2,c.telefono3,c.nacionalidad,c.cuentabanco,c.codigo,c.codsubusu from clientes c 
+ where tipobd=2
+
+
+ and Lower(C.sprovinciacli) like '%madrid%'",,,,,,,,,-1,,,,,

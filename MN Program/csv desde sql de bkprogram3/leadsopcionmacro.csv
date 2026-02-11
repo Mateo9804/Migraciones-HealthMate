@@ -1,0 +1,13 @@
+﻿idCampo,tipo,orden,texto,descripcion,opciones,visible,origen
+200001,0,1,Nombre,Establece el texto del cuerpo del correo después del cual se buscará el Nombre,,True,1
+200002,0,3,NIF/CIF,Establece el texto del cuerpo del correo después del cual se buscará el NIF/CIF,,True,1
+200003,0,4,Correo Electrónico,Establece el texto del cuerpo del correo después del cual se buscará el Correo Electrónico,,True,1
+200004,0,5,Teléfono,Establece el texto del cuerpo del correo después del cual se buscará el Teléfono,,True,1
+200008,0,6,Móvil,Establece el texto del cuerpo del correo después del cual se buscará el Móvil,,True,1
+200009,0,7,Dirección,Establece el texto del cuerpo del correo después del cual se buscará la Dirección,,True,1
+200010,0,8,Población,Establece el texto del cuerpo del correo después del cual se buscará el Población,,True,1
+200011,0,9,Código Postal,Establece el texto del cuerpo del correo después del cual se buscará el Código Postal,,True,1
+200019,0,2,Nombre Comercial,Establece el texto del cuerpo del correo después del cual se buscará el Nombre Comercial,,True,1
+200023,0,11,Página Web,Establece el texto del cuerpo del correo después del cual se buscará la Página Web,,True,1
+200043,1,10,Comunicaciones Comerciales,Establece el texto del cuerpo del correo después del cual se buscará si consiente las Comunicaciones Comerciales,1::Establece el texto del cuerpo del Correo que debe figurar para considerar que se consienten las Comunicaciones Comerciales,True,1
+900001,0,12,Notas,Establece el texto del cuerpo del correo después del cual se buscarán las Notas,,True,1

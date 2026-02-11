@@ -1,0 +1,8 @@
+﻿id,codOpe,latitud,longitud,fecha,automatico,dispositivo,direccion,poblacion,provincia,codpostal,pais
+1,2,43.36722,-8.410781,2013-04-09 16:21:18.327000,,,"Calle Comandante Barja, 8",A Coruña,A Coruña,15004,Spain
+2,2,40.41678,-3.70379,2013-04-26 17:21:18.327000,,,Puerta del Sol,Madrid,Madrid,28013,Spain
+3,3,43.36096,-8.40695,2013-05-09 17:21:18.327000,,,Juan Flórez,A Coruña,A Coruña,15001,Spain
+4,3,43.36722,-8.410781,2013-04-09 16:21:18.327000,,,"Calle Comandante Barja, 8",A Coruña,A Coruña,15004,Spain
+5,4,43.35976,-8.40394,2013-04-09 16:15:18.327000,,,Plaza de Orense,A Coruña,A Coruña,15004,Spain
+6,4,42.89002,-8.5351,2013-04-11 16:15:18.327000,,,San Caetano,Santiago de Compostela,A Coruña,15704,Spain
+7,4,42.2309,-8.7188,2013-04-20 15:15:18.327000,,,"Gran Vía, 50",Vigo,Pontevedra,36211,Spain

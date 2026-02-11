@@ -1,0 +1,17 @@
+﻿id,nombre,valor
+1,inumcierre                                        ,1
+2,inumtraspaso                                      ,1
+3,icodalmacen                                       ,1
+4,tickets                                           ,1
+5,NumBono                                           ,18
+6,inumcobro                                         ,1
+7,inumordenseg                                      ,1
+8,numopor                                           ,43
+9,numtarea                                          ,1
+10,numPedido                                         ,16
+11,inumexpLOPD                                       ,2
+12,iyearLOPD                                         ,2021
+13,inumexpCM                                         ,1
+14,iyearCM                                           ,2021
+15,numDiploma                                        ,1
+16,activarEstadosAlta                                ,1

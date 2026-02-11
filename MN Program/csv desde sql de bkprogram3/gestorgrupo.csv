@@ -1,0 +1,191 @@
+﻿idgrupo,idtipogestor,nombre,consultasql,controleditar,controlresumen,consulta2sql,tipoConsulta,resumenExp,resumenFichero,resumenTodo,llaveExp,llaveFichero,detalleExp,detalleFichero,campoVisualizacion,campoOrdenacion,orden,columnasDashboardPorDefecto,indicadoresDashboardPorDefecto,visible
+1,1,Historial General,,GestorConsultas.Forms.frmEditarActuacion,,"Select distinct tipofichero=CASE WHEN clitrabajador=1 THEN 'Trabajador' WHEN clipoten=1 THEN 'Cliente Potencial' WHEN cliotro=1 THEN '' ELSE 'Cliente' END,
+
+			2 as origen,
+            
+            (CAST(act.icodcli as varchar) + '-' + CAST(act.dfechaact as varchar) + '-' + CAST(act.linea as varchar)) as idAct,
+            
+            segcli.icodcli as Numero,Null as codigo,null as inumexp,segcli.icodcli as icodcli,segcli.dfechaact as dfechaact,null as iYear,Cast(null as varchar) as tipoexp,segcli.subusu,segcli.dfechaact as Fecha_Act,segcli.linea,
+
+            segcli.sactuacion,segcli.sdescripcion2,segcli.tiempo,segcli.acturealizada,segcli.tipo,
+
+            segcli.precio,segcli.facturado,segcli.dfechaven,segcli.dfechaavi,segcli.dfecharec,segcli.dfechase,segcli.fecharealizacion,segcli.numfactura,segcli.yearfact,C.snombrecli,C.email,segcli.facturable,c.perso88,c.stelefonocli,
+
+            S.nombre as nomsubusu,segcli.tipoactu,segcli.horainiact,segcli.horafinact,segcli.preciocoste,segcli.alertas,cast(null as varchar) as descripcion,segcli.tipohisto,cast(null as varchar) as refpropia,segcli.campo1,segcli.campo2,segcli.campo3, 
+
+            segcli.fase,segcli.campo4,segcli.campo5,segcli.campo7,segcli.campo8,segcli.campo9,segcli.campo10,segcli.campo11,segcli.campo12,segcli.campo13,segcli.campo14,segcli.campo15,segcli.campo16,segcli.dfechanotificacion, 
+
+            cast(0 as integer) as tiempoprevisto, C.nacionalidad, c.sprovinciacli , c.sdomiciliocli, c.spoblacioncli, c.scodpostalcli , NULL as expusu, NULL as itipoexp
+from segcli 
+
+            left join clientes C on segcli.icodcli=C.icodcli left join subusu S on segcli.subusu=S.icodsubusu
+
+			where tipoactu not like 'Plan de trabajo'",0,"Select  Count(*)as cantidad, 
+			(( CONVERT(VARCHAR,(Sum(act.tiempo) / 3600) ))
+			 + ':' + 
+			( CONVERT(VARCHAR,((Sum(act.tiempo) % 3600) / 60) ))
+			 + ':' + 
+			( CONVERT(VARCHAR,((Sum(act.tiempo) % 3600) %60) ))) as TotTiempo,
+			Sum(act.precio) as TotPrecio,Sum(act.preciocoste) as TotCoste, 
+			(( CONVERT(VARCHAR,(Sum(act.tiempoprevisto) / 3600) ))
+			 + ':' + 
+			( CONVERT(VARCHAR,((Sum(act.tiempoprevisto) % 3600) / 60) ))
+			 + ':' + 
+			( CONVERT(VARCHAR,((Sum(act.tiempoprevisto) % 3600) %60) ))) as TotTiempoPrevisto","Select  Count(*) as cantidad, 
+			(( CONVERT(VARCHAR,(Sum(act.tiempo) / 3600) ))
+			 + ':' + 
+			( CONVERT(VARCHAR,((Sum(act.tiempo) % 3600) / 60) ))
+			 + ':' + 
+			( CONVERT(VARCHAR,((Sum(act.tiempo) % 3600) %60) ))) as TotTiempo,
+			Sum(act.precio) as TotPrecio,Sum(act.preciocoste) as TotCoste, 
+			(( CONVERT(VARCHAR,(Sum(act.tiempoprevisto) / 3600) ))
+			 + ':' + 
+			( CONVERT(VARCHAR,((Sum(act.tiempoprevisto) % 3600) / 60) ))
+			 + ':' + 
+			( CONVERT(VARCHAR,((Sum(act.tiempoprevisto) % 3600) %60) ))) as TotTiempoPrevisto","Select  Count(*) as cantidad, 
+			(( CONVERT(VARCHAR,(Sum(act.tiempo) / 3600) ))
+			 + ':' + 
+			( CONVERT(VARCHAR,((Sum(act.tiempo) % 3600) / 60) ))
+			 + ':' + 
+			( CONVERT(VARCHAR,((Sum(act.tiempo) % 3600) %60) ))) as TotTiempo,
+			Sum(act.precio) as TotPrecio,Sum(act.preciocoste) as TotCoste, 
+			(( CONVERT(VARCHAR,(Sum(act.tiempoprevisto) / 3600) ))
+			 + ':' + 
+			( CONVERT(VARCHAR,((Sum(act.tiempoprevisto) % 3600) / 60) ))
+			 + ':' + 
+			( CONVERT(VARCHAR,((Sum(act.tiempoprevisto) % 3600) %60) ))) as TotTiempoPrevisto",linea:INT|dfechaact:DATETIME|iyear:INT|inumexp:INT,linea:INT|icodcli:INT|dfechaact:DATETIME,"select notas, notas2, notas3, notas4, notas5, notas6
+from segcli","select notas, notas2, notas3, notas4, notas5, notas6
+from segcli",,Actuacion,,,,True
+4,2,Oportunidades,,GestorConsultas.frmEditarOportunidad,,"select distinct tipofichero=CASE WHEN clitrabajador=1 THEN 'Trabajador'WHEN clipoten=1 THEN 'Cliente Potencial' WHEN cliotro=1 THEN 'formmain.sotros' ELSE 'Cliente' END,
+oporcli.icodcli, oporcli.dfecha, oporcli.linea, oporcli.icodopor, oporcli.icodusu,
+oporcli.icodpro, oporcli.estado,oporcli.etapa, oporcli.tipo, oporcli.codigo, oporcli.fuente, oporcli.unidades,
+oporcli.precio,oporcli.probabilidad,oporcli.prevision,oporcli.fechacierre,oporcli.importecierre,oporcli.oferta,
+oporcli.referencia,oporcli.oportunidad,subusu.nombre as subusuario, clientes.snombrecli as cliente, 
+clientes.stelefonocli as CliTfo1,clientes.telefono2 as CliTfo2,clientes.telefono3 as CliTfo3, 
+clientes.smovilcli as CliMvl,clientes.email as CliMail, 
+oporcli.CampoNum1,oporcli.CampoNum2,oporcli.CampoNum3,oporcli.CampoNum4,oporcli.CampoNum5,oporcli.Campo1,oporcli.Campo2,oporcli.Campo3,oporcli.Campo4,oporcli.Campo5,oporcli.Campo6,oporcli.Campo7,oporcli.Campo8,oporcli.Campo9,oporcli.Campo10,
+oporcli.Campo11,oporcli.Campo12,oporcli.Campo13,oporcli.Campo14,oporcli.Campo15,oporcli.Campo16,oporcli.Campo17,oporcli.Campo18,oporcli.Campo19,oporcli.Campo20,oporcli.Campo21,oporcli.CampoFecha1,oporcli.CampoFecha2,oporcli.CampoFecha3,
+oporcli.CampoFecha4,oporcli.CampoFecha5,oporcli.CampoFecha6,oporcli.CampoFecha7,oporcli.CampoFecha8,clientes.nacionalidad 
+from oporcli 
+left join subusu on subusu.icodsubusu = oporcli.icodusu 
+left join clientes on clientes.icodcli = oporcli.icodcli",0,,,"select 
+count(*) as cantidad ,
+sum(precio) as PrecioTotal,
+sum(unidades) as Unidades,
+sum(importecierre) as ImporteCierre,
+sum(prevision) as PrevisionTotal",icodcli:INT|icodopor:INT|linea:INT|dfecha:DATETIME,,,"select notas, notas2, notas3, notas4, notas5, notas6
+from oporcli",,snombrecli,0,,,True
+6,3,Cuentas,,,,,0,,,,,,,,,cliente,1,,,True
+11,5,Vencimiento,,GestorConsultas.frmEditarVencimiento,,,0,,,,,,,,,cliente,0,,,True
+12,4,Obligaciones,,"Comun.frmEditarObligacion,Comun",,,0,,,,,,,,,cliente,0,,,True
+13,6,Cobros,,,,,0,,,,,,,,,cliente,,,,True
+19,7,PIAs,,GestorConsultas.Forms.frmEditarActuacion,,,0,,,,,,"select notas, notas2, notas3, notas4, notas5, notas6
+from segcli",,,Actuacion,0,,,True
+20,8,Cobros,,,,,0,,,,,,,,,paciente,0,,,True
+24,12,Medicación,,GestorConsultas.frmEditarMedicacion,,,0,,,,,,,,,Nombre,0,,,True
+34,6,Conceptos,,,,,0,,,,,,,,,,0,,,True
+36,15,Camas,,,,,0,,,,id:INT|icodcli:INT,,,,,,0,,,True
+37,16,Soportes,,,,,0,,,,,,,,,,0,,,True
+38,17,Tratamientos,,,,,0,,,,,,,,,,0,,,True
+39,18,Peticiones,,,,,0,,,,,,,,,,0,,,True
+40,18,Gastos,,,,,0,,,,,,,,,,0,,,True
+41,17,Odontogramas,,,,,0,,,,,,,,,,0,,,False
+42,19,Controles Médicos,,,,,0,,,,,,,,,,0,,,True
+44,20,Control Stock,,,,,0,,,,,,,,,,0,,,True
+45,13,Lotes,,,,,0,,,,,,,,,,0,,,True
+46,15,Sofás,,,,,0,,,,id:INT|icodcli:INT,,,,bversofas,,0,,,True
+47,21,Ventas,,GestorConsultas.frmEditarOportunidad,,,0,,,,icodcli:INT|icodopor:INT|linea:INT|dfecha:DATETIME,,,,,,0,,,True
+48,22,Facturas,,,,,0,,,,,,,,,,0,,,True
+57,25,Proformas,,,,,0,,,,,,,,,,0,,,True
+58,26,Albaranes,,,,,0,,,,,,,,,,0,,,True
+59,27,Pedidos,,,,,0,,,,,,,,,,0,,,True
+60,28,Presupuestos,,,,,0,,,,,,,,,,0,,,True
+61,29,Órdenes de Trabajo,,,,,0,,,,,,,,,,0,,,True
+62,31,Clientes,,,,,0,,,,,,,,,,0,,,True
+63,30,Potenciales,,,,,0,,,,,,,,,,0,,,True
+64,32,Expedientes,,,,,0,,,,,,,,,,0,,,True
+66,34,Bonos,,,,,0,,,,id:INT,,,,,,0,,,True
+68,35,Proveedores,,,,,0,,,,,,,,,,0,,,True
+71,38,Pacientes,,,,,0,,,,,,,,,,0,,,True
+72,39,Alumnos,,,,,0,,,,,,,,,,0,,,True
+73,40,Imputaciones de Tiempo,,,,,0,,,,,,,,,,1,,,True
+76,40,Imputaciones de Gastos,,,,,0,,,,,,,,bVerPestanaGastos,,2,,,True
+77,41,Trabajadores,,,,,0,,,,,,,,,,0,,,True
+78,42,Terceros,,,,,0,,,,,,,,,,0,,,True
+79,43,Aseguradoras,,,,,0,,,,,,,,,,0,,,True
+80,44,Compañías,,,,,0,,,,,,,,,,0,,,True
+81,45,Voluntarios,,,,,0,,,,,,,,,,0,,,True
+82,46,Financiadores,,,,,0,,,,,,,,,,0,,,True
+83,47,Tutores,,,,,0,,,,,,,,,,0,,,True
+84,48,Valoraciones,,,,,0,,,,,,,,bVerModuloValoracionesServicio,fecha,0,,,True
+85,49,Facturas Recibidas,,,,,0,,,,,,,,,,0,,,True
+86,50,Control de Tareas,,GestorConsultas.frmEditarOportunidad,,"select distinct tipofichero = 
+	case when clitrabajador=1 then 'Trabajador' 
+	when clipoten=1 then 'Cliente Potencial' 
+	when cliotro=1 then 'formmain.sotros' 
+	else 'Cliente' end,
+oporcli.icodcli,oporcli.dfecha,oporcli.linea,oporcli.icodopor,oporcli.icodusu,
+oporcli.icodpro,oporcli.estado,oporcli.etapa,oporcli.tipo,oporcli.codigo,oporcli.fuente,oporcli.unidades,
+oporcli.precio,oporcli.probabilidad,oporcli.prevision,oporcli.fechacierre,oporcli.importecierre,oporcli.oferta,
+oporcli.referencia,oporcli.oportunidad,subusu.nombre as subusuario, clientes.snombrecli as cliente, 
+clientes.stelefonocli as CliTfo1,clientes.telefono2 as CliTfo2,clientes.telefono3 as CliTfo3, 
+clientes.smovilcli as CliMvl,clientes.email as CliMail, 
+oporcli.CampoNum1,oporcli.CampoNum2,oporcli.CampoNum3,oporcli.CampoNum4,oporcli.CampoNum5,oporcli.Campo1,oporcli.Campo2,oporcli.Campo3,oporcli.Campo4,oporcli.Campo5,oporcli.Campo6,oporcli.Campo7,oporcli.Campo8,oporcli.Campo9,oporcli.Campo10,
+oporcli.Campo11,oporcli.Campo12,oporcli.Campo13,oporcli.Campo14,oporcli.Campo15,oporcli.Campo16,oporcli.Campo17,oporcli.Campo18,oporcli.Campo19,oporcli.Campo20,oporcli.Campo21,oporcli.CampoFecha1,oporcli.CampoFecha2,oporcli.CampoFecha3,
+oporcli.CampoFecha4,oporcli.CampoFecha5,oporcli.CampoFecha6,oporcli.CampoFecha7,oporcli.CampoFecha8,clientes.nacionalidad 
+from oporcli 
+left join subusu on subusu.icodsubusu = oporcli.icodusu 
+left join clientes on clientes.icodcli = oporcli.icodcli",0,,,"select count(*) as cantidad , sum(precio) as PrecioTotal, sum(unidades) as Unidades, sum(importecierre) as ImporteCierre, sum(prevision) as PrevisionTotal",icodcli:INT|icodopor:INT|linea:INT|dfecha:DATETIME,,,"select notas, notas2, notas3, notas4, notas5, notas6 from oporcli",,snombrecli,0,,,True
+87,40,Control de Fichajes,,,,,0,,,,,,,,bWorkControlHorario,,0,,,True
+88,40,Control de Fichajes,,,,,0,,,,,,,,bWorkControlHorario,,3,6452,1099|984|631|1233|632|1100,True
+89,40,Tareas en Curso,,,,,0,,,,,,,,bWorkControlInactividad,,9,6453|6454,633|775|736|634|635|723,True
+90,40,Tareas Cerradas,,,,,0,,,,,,,,bWorkControlInactividad,,10,6457|6458,636|777|755|637|638|742,True
+91,40,Imputaciones de Tiempo,,,,,0,,,,,,,,,,5,6715,762,True
+92,40,Horas de Tareas,,,,,0,,,,,,,,,,11,,,True
+93,40,Mis Tareas,,,,,0,,,,,,,,bVerPestanaMisTareas,,6,,,True
+94,52,Compras,,,,,0,,,,,,,,,,0,,,True
+95,51,Comisiones,,,,,0,,,,,,,,,,0,,,True
+96,40,Control de Inactividad,,,,,0,,,,,,,,bWorkControlInactividad,,6,,,True
+97,40,Control de Inactividad,,,,,0,,,,,,,,bWorkControlInactividad,,12,7356,857,True
+98,40,Detalle Control de Fichajes,,,,,0,,,,,,,,bWorkControlHorario,,4,7379|7380|7383|7384|7381,1101|985|858|859|1102,True
+99,40,Detalle Control de Tiempos,,,,,0,,,,,,,,,,6,7398|7389,864,True
+100,40,Control de Tiempos por Tipo,,,,,0,,,,,,,,,,7,7434|7430,866,True
+101,40,Control de Tiempos por Tarea,,,,,0,,,,,,,,,,8,7462|7494,868,False
+102,40,Detalle Control de Inactividad,,,,,0,,,,,,,,bWorkControlInactividad,,13,7485|7489|7490,870,True
+103,40,Trabajadores Activos,,,,,0,,,,,,,,,,6,,,False
+104,53,Historial Clases,,GestorConsultas.Forms.frmEditarActuacion,,,0,,,,,,"select notas, notas2, notas3, notas4, notas5, notas6
+from segexp",,,Actuacion,0,,,True
+105,54,Recobros,,,,,0,,,,,,,,,,0,,,True
+106,55,Artículos,,,,,0,,,,,,,,,,0,,,True
+107,56,Recursos,,,,,0,,,,,,,,,,0,,,True
+111,57,Control de Adjuntos,,,,,0,,,,,,,,,,0,,,True
+113,59,Diario,,,,,0,,,,,,,,,,0,,,True
+114,60,Albaranes Recibidos,,,,,0,,,,,,,,,,0,,,True
+115,61,Control de Pagos,,,,,0,,,,,,,,,,0,,,True
+116,62,Control de Cobros a Aseguradoras,,,,,0,,,,,,,,,,0,,,True
+117,63,Control de Tesorería,,,,,0,,,,,,,,,,0,,,True
+118,64,Mascotas,,,,,0,,,,,,,,,,0,,,True
+119,65,Control de Movimiento Recursos,,GestorConsultas.frmEditarOportunidad,,"select distinct tipofichero = 
+	case when clitrabajador=1 then 'Trabajador' 
+	when clipoten=1 then 'Cliente Potencial' 
+	when cliotro=1 then 'formmain.sotros' 
+	else 'Cliente' end,
+oporcli.icodcli,oporcli.dfecha,oporcli.linea,oporcli.icodopor,oporcli.icodusu,
+oporcli.icodpro,oporcli.estado,oporcli.etapa,oporcli.tipo,oporcli.codigo,oporcli.fuente,oporcli.unidades,
+oporcli.precio,oporcli.probabilidad,oporcli.prevision,oporcli.fechacierre,oporcli.importecierre,oporcli.oferta,
+oporcli.referencia,oporcli.oportunidad,subusu.nombre as subusuario, clientes.snombrecli as cliente, 
+clientes.stelefonocli as CliTfo1,clientes.telefono2 as CliTfo2,clientes.telefono3 as CliTfo3, 
+clientes.smovilcli as CliMvl,clientes.email as CliMail, 
+oporcli.CampoNum1,oporcli.CampoNum2,oporcli.CampoNum3,oporcli.CampoNum4,oporcli.CampoNum5,oporcli.Campo1,oporcli.Campo2,oporcli.Campo3,oporcli.Campo4,oporcli.Campo5,oporcli.Campo6,oporcli.Campo7,oporcli.Campo8,oporcli.Campo9,oporcli.Campo10,
+oporcli.Campo11,oporcli.Campo12,oporcli.Campo13,oporcli.Campo14,oporcli.Campo15,oporcli.Campo16,oporcli.Campo17,oporcli.Campo18,oporcli.Campo19,oporcli.Campo20,oporcli.Campo21,oporcli.CampoFecha1,oporcli.CampoFecha2,oporcli.CampoFecha3,
+oporcli.CampoFecha4,oporcli.CampoFecha5,oporcli.CampoFecha6,oporcli.CampoFecha7,oporcli.CampoFecha8,clientes.nacionalidad 
+from oporcli 
+left join subusu on subusu.icodsubusu = oporcli.icodusu 
+left join clientes on clientes.icodcli = oporcli.icodcli",0,,,"select count(*) as cantidad , sum(precio) as PrecioTotal, sum(unidades) as Unidades, sum(importecierre) as ImporteCierre, sum(prevision) as PrevisionTotal",icodcli:INT|icodopor:INT|linea:INT|dfecha:DATETIME,,,"select notas, notas2, notas3, notas4, notas5, notas6 from oporcli",,snombrecli,0,,,True
+120,69,Monitorización,,,,,0,,,,,,,,bActivarTiemposEnAutomatico,,1,,,True
+121,67,Control de PIA,,,,,0,,,,,,,,,,0,,,True
+122,66,Escalas,,,,,0,,,,,,,,,,0,,,True
+123,68,Escalas,,,,,0,,,,,,,,,,0,,,True
+126,70,Inmuebles,,,,,0,,,,,,,,,,0,,,True
+127,71,Trabajos,,,,,0,,,,,,,,,,0,,,True
+131,74,Control de WhatsApp,,,,,0,,,,,,,,,,0,,,True

@@ -1,0 +1,875 @@
+﻿id,tabla,campo,valor,color,selec,selec2,tipo,estado,pestañaDinamica,midetiempo,orden
+12153,clientespotenciales,TipoFichero,Grandes Cuentas,,,,,,0,,12153
+12154,clientespotenciales,TipoFichero,Normal,,,,,,0,,12154
+12155,clientespotenciales,TipoFichero,Agrupación,,,,,,0,,12155
+12156,clientespotenciales,TipoFichero,Colegio Profesional,,,,,,0,,12156
+12157,clientes,TipoFichero,Preferente,,,,,,0,,12157
+12158,clientes,TipoFichero,Colaborador,,,,,,0,,12158
+12159,clientes,TipoFichero,Normal,,,,,,0,,12159
+12160,clientes,TipoFichero,Agrupación,,,,,,0,,12160
+12161,clientes,TipoFichero,Colegio Profesional,,,,,,0,,12161
+12162,trabajadores,TipoFichero,Contrato Fijo,,,,,,0,,12162
+12163,trabajadores,TipoFichero,Colaborador Externo,,,,,,0,,12163
+12164,otros,TipoFichero,Colaborador,,,,,,0,,12164
+12165,otros,TipoFichero,Proveedor,,,,,,0,,12165
+12166,otros,TipoFichero,Partner,,,,,,0,,12166
+12167,otros,TipoFichero,Agente Comercial,,,,,,0,,12167
+12168,otros,TipoFichero,Franquicia,,,,,,0,,12168
+12169,clientespotenciales,TipoFichero,Preferente,,,,,,0,,12169
+12170,clientespotenciales,TipoFichero,Colaborador,,,,,,0,,12170
+12171,clientes,TipoFichero,Grandes Cuentas,,,,,,0,,12171
+12172,trabajadores,TipoFichero,Contrato Temporal,,,,,,0,,12172
+12173,productos,tipo,Campaña,,,,,,0,,12173
+12174,productos,fuente,Base de Datos,,,,,,0,,12174
+12175,productos,fuente,Distribuidor,,,,,,0,,12175
+12176,productos,fuente,Referencia Anuncio,,,,,,0,,12176
+12177,productos,fuente,Referencia Cliente,,,,,,0,,12177
+12178,productos,fuente,Referencia Compañero,,,,,,0,,12178
+12179,productos,fuente,Reseña,,,,,,0,,12179
+12180,productos,codigo,ACTL (Actualización de Licencia),,,,,,0,,12180
+12181,productos,codigo,ACTP (Actualización de Programa),,,,,,0,,12181
+12182,productos,codigo,PD (Pedido de Distribución),,,,,,0,,12182
+12183,productos,codigo,PU (Pedido de Usuario),,,,,,0,,12183
+12184,clientes,NaturJuridica,Persona Física,,,,,,0,,12184
+12185,clien	tes,NaturJuridica,Persona Jurídica,,,,,,0,,12185
+12186,trabajadores,NaturJuridica,Persona Física,,,,,,0,,12186
+12187,trabajadores,NaturJuridica,Persona Jurídica,,,,,,0,,12187
+12188,otros,NaturJuridica,Persona Física,,,,,,0,,12188
+12189,otros,NaturJuridica,Persona Jurídica,,,,,,0,,12189
+12190,clientespotenciales,NaturJuridica,Persona Física,,,,,,0,,12190
+12191,clientespotenciales,NaturJuridica,Persona Jurídica,,,,,,0,,12191
+12192,clientes,departamento,Hombre,,,,,,0,,12192
+12193,clientes,departamento,Mujer,,,,,,0,,12193
+12194,clientes,cargo,No,,,,,,0,,12194
+12195,clientes,cargo,Si,,,,,,0,,12195
+12196,clientes,origen,Clinica,,,,,,0,,12196
+12197,clientes,origen,Domicilio,,,,,,0,,12197
+12198,clientes,origen,Mixto,,,,,,0,,12198
+12199,clientes,zona,Seguro,,,,,,0,,12199
+12200,clientes,zona,Particular,,,,,,0,,12200
+12201,clientes,zona,Convenio,,,,,,0,,12201
+12202,clientes,zona,Mixto,,,,,,0,,12202
+12203,clientes,NaturJuridica,Persona Jurídica,,,,,,0,,12203
+12204,clientes,TipoFichero,Paciente,,,,,,0,,12204
+12205,clientes,TipoFichero,Mutua,,,,,,0,,12205
+12206,clientes,empresa,Si,,,,,,0,,12206
+12207,clientes,empresa,No,,,,,,0,,12207
+12208,clientes,origen,caneiro,,,,,,0,,12208
+12209,clientes,origen,poligono,,,,,,0,,12209
+12210,clientes,zona,CYCLOPS,,,,,,0,,12210
+12211,clientes,zona,UMI,,,,,,0,,12211
+12212,clientes,zona,IIP,,,,,,0,,12212
+12213,clientes,zona,MULTIASISTENCIA,,,,,,0,,12213
+12214,clientes,sector,DIOESIS,,,,,,0,,12214
+12215,clientes,sector,PRUEBA,,,,,,0,,12215
+12216,clientes,zona,DIOCESIS,,,,,,0,,12216
+12217,clientes,origen,DIOCESIS,,,,,,0,,12217
+12218,clientes,zona,ADESLAS,,,,,,0,,12218
+12219,clientes,zona,ADESLAS,,,,,,0,,12219
+12220,cbestadoseg,0,Rojo,,,,,,0,,12220
+12221,cbestadoseg,1,Amarillo,,,,,,0,,12221
+12222,cbestadoseg,2,Azul,,,,,,0,,12222
+12223,cbestadoseg,3,Verde,,,,,,0,,12223
+12224,clipers3,perso4,Alta,,,,,,0,,12224
+12225,clipers3,perso4,Baja,,,,,,0,,12225
+12226,gastospred,tipo,Sueldos y Salarios (640),,,,,,0,,12226
+12227,gastospred,tipo,Sueldos y Salarios (642),,,,,,0,,12227
+12228,gastospred,tipo,Otros Gastos de Personal (649),,,,,,0,,12228
+12229,gastospred,tipo,Compras y Servicios (600),,,,,,0,,12229
+12230,gastospred,tipo,Suministros (628),,,,,,0,,12230
+12231,gastospred,tipo,Alquileres (621),,,,,,0,,12231
+12232,gastospred,tipo,Primas de Riesgo (625),,,,,,0,,12232
+12233,gastospred,tipo,Intereses y Gastos Financieros (669),,,,,,0,,12233
+12234,gastospred,tipo,Reparación y Conservación (622),,,,,,0,,12234
+12235,gastospred,tipo,Servicios Profesionales Independientes (623),,,,,,0,,12235
+12236,gastospred,tipo,Otros Servicios Externos (629),,,,,,0,,12236
+12237,gastospred,tipo,Tributos Fiscalmente Deducibles (631),,,,,,0,,12237
+12238,formgastospred,0,General,,,,,,0,,12238
+12239,formgastospred,1,Grupo2,,,,,,0,,12239
+12240,formgastospred,2,Grupo3,,,,,,0,,12240
+12241,formgastospred,3,Grupo4,,,,,,0,,12241
+12242,formgastospred,4,Grupo5,,,,,,0,,12242
+12243,formgastospred,5,Grupo6,,,,,,0,,12243
+12244,formgastospred,6,Grupo7,,,,,,0,,12244
+12245,formgastospred,7,Grupo8,,,,,,0,,12245
+12246,formgastospred,8,Grupo9,,,,,,0,,12246
+12247,formgastospred,9,Grupo10,,,,,,0,,12247
+12248,formgastospred,10,Grupo11,,,,,,0,,12248
+12249,formgastospred,11,Grupo12,,,,,,0,,12249
+12250,formgastospred,12,Grupo13,,,,,,0,,12250
+12251,formgastospred,13,Grupo14,,,,,,0,,12251
+12252,formgastospred,14,Grupo15,,,,,,0,,12252
+12253,presupuestos,estado,Pendiente,$008000FF,,,,,0,,12253
+12254,presupuestos,estado,Realizado,,,,,,0,,12254
+12255,presupuestos,estado,Enviado,$00FF8000,,,,,0,,12255
+12256,presupuestos,estado,Aceptado,$0000FF80,,,,,0,,12256
+12257,presupuestos,estado,Rechazado,clRed,,,,,0,,12257
+12258,pedidos,estado,Enviado,,,,,,0,,12258
+12259,pedidos,estado,Pendiente de Enviar,,,,,,0,,12259
+12260,pedidos,estado,Envío Parcial,,,,,,0,,12260
+12261,albaranes,estado,Enviado,,,,,,0,,12261
+12262,albaranes,estado,Pendiente de Enviar,,,,,,0,,12262
+12263,albaranes,estado,Pendiente mercancía,,,,,,0,,12263
+12264,albaranes,estado,Bloqueado,,,,,,0,,12264
+12265,partes,estado,Pendiente,,,,,,0,,12265
+12266,partes,estado,En progreso,,,,,,0,,12266
+12267,partes,estado,Realizado,,,,,,0,,12267
+12268,articulos,tipounidad,Ud,,,,,,0,,12268
+12269,articulos,tipounidad,m,,,,,,0,,12269
+12270,articulos,tipounidad,m2,,,,,,0,,12270
+12271,articulos,tipounidad,kg,,,,,,0,,12271
+12272,formacobro,formacobro,Cheque,,,,,,0,,12272
+12273,formacobro,formacobro,Efectivo,,,,,,0,,12273
+12274,formacobro,formacobro,Pagaré,,,,,,0,,12274
+12275,formacobro,formacobro,Recibo,,,,,,0,,12275
+12276,formacobro,formacobro,Tarjeta,,,,,,0,,12276
+12277,formacobro,formacobro,Transferencia,,,,,,0,,12277
+12278,formapago,formapago,Cheque,,,,,,0,,12278
+12279,formapago,formapago,Contado,,,,,,0,,12279
+12280,formapago,formapago,Pagaré,,,,,,0,,12280
+12281,formapago,formapago,Recibo,,,,,,0,,12281
+12282,formapago,formapago,Tarjeta,,,,,,0,,12282
+12283,formapago,formapago,Transferencia,,,,,,0,,12283
+12284,perso1,perso30,Licencia1,,,,,,0,,12284
+12285,perso1,perso30,Licencia2,,,,,,0,,12285
+12286,perso1,perso31,Garantía 1,,,,,,0,,12286
+12287,perso1,perso31,Garantía 2,,,,,,0,,12287
+12288,perso1,perso32,Licencia 1,,,,,,0,,12288
+12289,perso1,perso32,Licencia 2,,,,,,0,,12289
+12290,perso1,perso33,Garantía 1,,,,,,0,,12290
+12291,perso1,perso33,Garantía 2,,,,,,0,,12291
+12292,perso1,perso34,Estado 1,,,,,,0,,12292
+12293,perso1,perso34,Estado 2,,,,,,0,,12293
+12294,perso1,perso34,Estado 3,,,,,,0,,12294
+12295,perso1,perso35,Licencia 1,,,,,,0,,12295
+12296,perso1,perso36,Cédula 1,,,,,,0,,12296
+12297,perso1,perso36,Cédula 2,,,,,,0,,12297
+12298,perso1,perso36,Cédula 3,,,,,,0,,12298
+12299,perso1,perso36,Cédula 4,,,,,,0,,12299
+12300,perso1,perso36,Cédula 5,,,,,,0,,12300
+12301,perso1,perso36,Cédula 6,,,,,,0,,12301
+12302,perso1,perso36,Cédula 7,,,,,,0,,12302
+12303,perso1,perso36,Cédula 8,,,,,,0,,12303
+12304,perso1,perso36,Cédula 9,,,,,,0,,12304
+12305,perso1,perso36,Cédula 10,,,,,,0,,12305
+12306,perso1,perso36,Cédula 11,,,,,,0,,12306
+12307,perso1,perso36,Cédula 12,,,,,,0,,12307
+12308,perso1,perso36,Cédula 13,,,,,,0,,12308
+12309,perso1,perso36,Cédula 14,,,,,,0,,12309
+12310,perso1,perso36,Cédula 15,,,,,,0,,12310
+12311,perso1,perso37,a,,,,,,0,,12311
+12312,perso1,perso37,b,,,,,,0,,12312
+12313,perso1,perso16,R1,,,,,,0,,12313
+12314,perso1,perso16,R2,,,,,,0,,12314
+12315,perso1,perso16,R3,,,,,,0,,12315
+12316,perso1,perso16,R4,,,,,,0,,12316
+12317,perso1,perso16,R5,,,,,,0,,12317
+12318,perso1,perso16,R6,,,,,,0,,12318
+12319,perso1,perso16,R7,,,,,,0,,12319
+12320,perso1,perso27,Rústica,,,,,,0,,12320
+12321,perso1,perso27,Urbana,,,,,,0,,12321
+12322,perso1,perso28,No,,,,,,0,,12322
+12323,perso1,perso28,Si,,,,,,0,,12323
+12324,articulos,Notas,Notas,,,,,,0,,12324
+12325,articulos,Notas2,Notas2,,,,,,0,,12325
+12326,articulos,Notas3,Notas4,,,,,,0,,12326
+12327,articulos,Notas4,Notas4,,,,,,0,,12327
+12328,articulos,Notas5,Notas5,,,,,,0,,12328
+12329,articulos,Notas6,Notas6,,,,,,0,,12329
+12330,diagnostico,valores,Color,,,,,,0,,12330
+12331,diagnostico,valores,Textura,,,,,,0,,12331
+12332,diagnostico,valores,Márgenes,,,,,,0,,12332
+12333,diagnostico,valores,Inserción,,,,,,0,,12333
+12334,diagnostico,valores,Papila,,,,,,0,,12334
+12335,diagnostico,valores,Surco,,,,,,0,,12335
+12336,diagnostico,valores,Contorno,,,,,,0,,12336
+12337,diagnostico,valores,Sangrado,,,,,,0,,12337
+12338,diagnostico,valores,Supurado,,,,,,0,,12338
+12339,diagnostico,valores,Placa,,,,,,0,,12339
+12340,diagnostico,valores,Cálculo,,,,,,0,,12340
+12341,diagnostico,valores,Manchas,,,,,,0,,12341
+12342,diagnostico,valores,Pérdida Ósea,,,,,,0,,12342
+12343,diagnostico,valores,Defectos Óseos,,,,,,0,,12343
+12344,diagnostico,valores,Gingivitis,,,,,,0,,12344
+12345,diagnostico,valores,Periodontitis,,,,,,0,,12345
+12346,anamnesis,valores,General,,,,,,0,,12346
+12347,anamnesis,valores,Medicamentos,,,,,,0,,12347
+12348,anamnesis,valores,Higiene Oral,,,,,,0,,12348
+12349,anamnesis,valores,Mujer,,,,,,0,,12349
+12350,diagnostico,Color,Rosa Coral,,,,,,0,,12350
+12351,diagnostico,Color,Rosa,,,,,,0,,12351
+12352,diagnostico,Color,Rojo,,,,,,0,,12352
+12353,diagnostico,Color,Magenta,,,,,,0,,12353
+12354,diagnostico,Color,Rosa con áreas de magenta,,,,,,0,,12354
+12355,diagnostico,Textura,Punteada,,,,,,0,,12355
+12356,diagnostico,Textura,Brillante,,,,,,0,,12356
+12357,diagnostico,Textura,Rugosa,,,,,,0,,12357
+12358,diagnostico,Márgenes,Bordes Afilados,,,,,,0,,12358
+12359,diagnostico,Márgenes,Hendidos,,,,,,0,,12359
+12360,diagnostico,Márgenes,Pegados,,,,,,0,,12360
+12361,diagnostico,Inserción,Normal,,,,,,0,,12361
+12362,diagnostico,Inserción,Recesión,,,,,,0,,12362
+12363,diagnostico,Inserción,Tejido Hipertrofiado,,,,,,0,,12363
+12364,diagnostico,Papila,Ondulada,,,,,,0,,12364
+12365,diagnostico,Papila,Insensible,,,,,,0,,12365
+12366,diagnostico,Papila,Hipertrofiada,,,,,,0,,12366
+12367,diagnostico,Papila,Perforada,,,,,,0,,12367
+12368,diagnostico,Papila,Con Cráteres,,,,,,0,,12368
+12369,diagnostico,Surco,Ninguno,,,,,,0,,12369
+12370,diagnostico,Surco,Con sangre,,,,,,0,,12370
+12371,diagnostico,Surco,Exudado,,,,,,0,,12371
+12372,diagnostico,Contorno,Normal,,,,,,0,,12372
+12373,diagnostico,Contorno,Irregular,,,,,,0,,12373
+12374,diagnostico,Contorno,Recesiones,,,,,,0,,12374
+12375,diagnostico,Sangrado,Ninguno,,,,,,0,,12375
+12376,diagnostico,Sangrado,Ligero,,,,,,0,,12376
+12377,diagnostico,Sangrado,Moderado,,,,,,0,,12377
+12378,diagnostico,Sangrado,Severo,,,,,,0,,12378
+12379,diagnostico,Supurado,Ninguno,,,,,,0,,12379
+12380,diagnostico,Supurado,Ligero,,,,,,0,,12380
+12381,diagnostico,Supurado,Moderado,,,,,,0,,12381
+12382,diagnostico,Supurado,Severo,,,,,,0,,12382
+12383,diagnostico,Placa,Ninguna,,,,,,0,,12383
+12384,diagnostico,Placa,Ligera,,,,,,0,,12384
+12385,diagnostico,Placa,Moderada,,,,,,0,,12385
+12386,diagnostico,Placa,Alta,,,,,,0,,12386
+12387,diagnostico,Cálculo,Ninguno,,,,,,0,,12387
+12388,diagnostico,Cálculo,Ligero,,,,,,0,,12388
+12389,diagnostico,Cálculo,Moderado,,,,,,0,,12389
+12390,diagnostico,Cálculo,Alto,,,,,,0,,12390
+12391,diagnostico,Manchas,Ninguna,,,,,,0,,12391
+12392,diagnostico,Manchas,Ligeras,,,,,,0,,12392
+12393,diagnostico,Manchas,Moderadas,,,,,,0,,12393
+12394,diagnostico,Manchas,Alta,,,,,,0,,12394
+12395,diagnostico,Pérdida Ósea,Ninguna,,,,,,0,,12395
+12396,diagnostico,Pérdida Ósea,Ligera,,,,,,0,,12396
+12397,diagnostico,Pérdida Ósea,Moderada,,,,,,0,,12397
+12398,diagnostico,Pérdida Ósea,Severa,,,,,,0,,12398
+12399,diagnostico,Defectos Óseos,Ninguno,,,,,,0,,12399
+12400,diagnostico,Defectos Óseos,Cráteres,,,,,,0,,12400
+12401,diagnostico,Defectos Óseos,Defectos angulares,,,,,,0,,12401
+12402,diagnostico,Defectos Óseos,Afectación furcal,,,,,,0,,12402
+12403,diagnostico,Defectos Óseos,Bolsas infraoseas,,,,,,0,,12403
+12404,diagnostico,Defectos Óseos,Furcas,,,,,,0,,12404
+12405,diagnostico,Gingivitis,Asociada a placa,,,,,,0,,12405
+12406,diagnostico,Gingivitis,Asociada a sida,,,,,,0,,12406
+12407,diagnostico,Gingivitis,Asociada a hormonas esteroideas,,,,,,0,,12407
+12408,diagnostico,Gingivitis,Ulceronecrotizante(GUNA),,,,,,0,,12408
+12409,diagnostico,Gingivitis,Medicamentosas(Hiperplasias) o familiar,,,,,,0,,12409
+12410,diagnostico,Gingivitis,Descamativa,,,,,,0,,12410
+12411,diagnostico,Gingivitis,Alergicas,,,,,,0,,12411
+12412,diagnostico,Gingivitis,Mucositis perimplantarias,,,,,,0,,12412
+12413,diagnostico,Gingivitis,Otras,,,,,,0,,12413
+12414,diagnostico,Periodontitis,Crónica del adulto incipiente,,,,,,0,,12414
+12415,diagnostico,Periodontitis,Crónica del adulto moderada,,,,,,0,,12415
+12416,diagnostico,Periodontitis,Crónica del adulto avanzada,,,,,,0,,12416
+12417,diagnostico,Periodontitis,Crónica del adulto recurrente,,,,,,0,,12417
+12418,diagnostico,Periodontitis,Crónica del adulto tratada,,,,,,0,,12418
+12419,diagnostico,Periodontitis,Prepuberal localizada,,,,,,0,,12419
+12420,diagnostico,Periodontitis,Prepuberal generalizada,,,,,,0,,12420
+12421,diagnostico,Periodontitis,Juvenil localizada,,,,,,0,,12421
+12422,diagnostico,Periodontitis,Juvenil generalizada,,,,,,0,,12422
+12423,diagnostico,Periodontitis,Rapidamente progresiva,,,,,,0,,12423
+12424,diagnostico,Periodontitis,Refractaria,,,,,,0,,12424
+12425,diagnostico,Periodontitis,Asociada a diabetes,,,,,,0,,12425
+12426,diagnostico,Periodontitis,Asociada a sida,,,,,,0,,12426
+12427,diagnostico,Periodontitis,Asociada a leucemias,,,,,,0,,12427
+12428,diagnostico,Periodontitis,Otras,,,,,,0,,12428
+12429,anamnesis,General,Problemas hepáticos,,,,,,0,,12429
+12430,anamnesis,General,Hemorragias,,,,,,0,,12430
+12431,anamnesis,General,Fiebre reumática,,,,,,0,,12431
+12432,anamnesis,General,Problemas cardiacos,,,,,,0,,12432
+12433,anamnesis,General,Presión alta,,,,,,0,,12433
+12434,anamnesis,General,Presión baja,,,,,,0,,12434
+12435,anamnesis,General,Dolor de espalda,,,,,,0,,12435
+12436,anamnesis,General,Glaucoma,,,,,,0,,12436
+12437,anamnesis,General,Usa Lentillas,,,,,,0,,12437
+12438,anamnesis,General,Problemas renales,,,,,,0,,12438
+12439,anamnesis,General,Diabetis,,,,,,0,,12439
+12440,anamnesis,General,Tuberculosis,,,,,,0,,12440
+12441,anamnesis,General,Asma,,,,,,0,,12441
+12442,anamnesis,General,Úlcera,,,,,,0,,12442
+12443,anamnesis,General,Cáncer,,,,,,0,,12443
+12444,anamnesis,General,Epilepsia,,,,,,0,,12444
+12445,anamnesis,General,Enf. de Transmisión Sexual,,,,,,0,,12445
+12446,anamnesis,General,Anemia,,,,,,0,,12446
+12447,anamnesis,General,Úlceras en la boca,,,,,,0,,12447
+12448,anamnesis,Medicamentos,Antibióticos,,,,,,0,,12448
+12449,anamnesis,Medicamentos,Aspirina,,,,,,0,,12449
+12450,anamnesis,Medicamentos,Anticoagulantes,,,,,,0,,12450
+12451,anamnesis,Medicamentos,Cortizona,,,,,,0,,12451
+12452,anamnesis,Medicamentos,Tranquilizantes,,,,,,0,,12452
+12453,anamnesis,Medicamentos,Hipotensores,,,,,,0,,12453
+12454,anamnesis,Higiene Oral,Cepillado habitual,,,,,,0,,12454
+12455,anamnesis,Higiene Oral,Usa de hilo dental,,,,,,0,,12455
+12456,anamnesis,Higiene Oral,Usa Water Pick,,,,,,0,,12456
+12457,anamnesis,Higiene Oral,Sangrado de encías,,,,,,0,,12457
+12458,anamnesis,Higiene Oral,Aprieta los dientes,,,,,,0,,12458
+12459,anamnesis,Higiene Oral,Mal aliento,,,,,,0,,12459
+12460,anamnesis,Higiene Oral,Dolor de boca,,,,,,0,,12460
+12461,anamnesis,Mujer,Embarazada,,,,,,0,,12461
+12462,anamnesis,Mujer,Toma anticonceptivos,,,,,,0,,12462
+12463,anamnesis,Mujer,Medicamentos hormonales,,,,,,0,,12463
+12464,anamnesis,Mujer,Menopausia,,,,,,0,,12464
+12465,vacunas,pestañas,General,,,,,,0,,12465
+12466,tipofact,tipofact,Oficial,,,,,,0,,12466
+12467,tipofact,tipofact,Proforma,,,,,,0,,12467
+12468,tipofact,tipofact,Albarán,,,,,,0,,12468
+12469,tipofact,tipofact,Sin Facturar,,,,,,0,,12469
+12470,estadocobro,estadocobro,Cobrado,,,,,,0,,12470
+12471,estadocobro,estadocobro,No Cobrado,,,,,,0,,12471
+12472,estadocobro,estadocobro,Impagado,,,,,,0,,12472
+12473,estadocobro,estadocobro,No Impagado,,,,,,0,,12473
+12474,estadocobro,estadocobro,Cobrado o Impagado,,,,,,0,,12474
+12475,estadopago,estadopago,Pagado,,,,,,0,,12475
+12476,estadopago,estadopago,No Pagado,,,,,,0,,12476
+12477,cliiae,estado,Alta,,,,,,0,,12477
+12478,cliiae,estado,Baja,,,,,,0,,12478
+12479,plazosc,stipoplazo,A Plazos,,,,,,0,,12479
+12480,plazosc,stipoplazo,Importe Porcentual,,,,,,0,,12480
+12481,plazosc,stipoplazo,Importe Fijo,,,,,,0,,12481
+12482,segexp,aula,Sala 1,,,,,,0,,12482
+12483,segexp,aula,Sala 2,,,,,,0,,12483
+12484,segexp,aula,Sala 3,,,,,,0,,12484
+12485,segexp,aula,Sala de Curas,,,,,,0,,12485
+12486,estadoemail,estado,Anulada,,,,,,0,,12486
+12487,estadoemail,estado,En vigor,,,,,,0,,12487
+12488,clipers3,perso1,Antiinflamatorio,,,,,,0,,12488
+12489,pacientes,Nacionalidad,ESPAÑOLA,,,,,,0,,12489
+12490,clipers3,perso1,Antidepresivos,,,,,,0,,12490
+12491,PlantillasRtf,Modelo.Plantillas.actu_tablas.sql,2,,,,,,0,,12491
+12492,articulos,NotasMed,Notas,,,,,,0,,12492
+12493,articulos,NotasMed2,Notas2,,,,,,0,,12493
+12494,articulos,NotasMed3,Notas3,,,,,,0,,12494
+12495,articulos,NotasMed4,Notas4,,,,,,0,,12495
+12496,articulos,NotasMed5,Notas5,,,,,,0,,12496
+12497,articulos,NotasMed6,Notas6,,,,,,0,,12497
+12498,turnospredef,tipoturno,Mañana,,,,Disponible,,0,,12498
+12499,turnospredef,tipoturno,Tarde,,,,Disponible,,0,,12499
+12500,turnospredef,tipoturno,Noche,,,,Disponible,,0,,12500
+12501,turnospredef,tipoturno,Horas Extra,,,,Disponible,,0,,12501
+12502,turnospredef,tipoturno,Intensivo,,,,Disponible,,0,,12502
+12503,diagnosticos,tipo,Fisioterapia,,,,,,0,,12503
+12504,diagnosticos,tipo,Podología,,,,,,0,,12504
+12505,diagnosticos,tipo,Nutricionistas,,,,,,0,,12505
+12506,diagnosticos,tipo,Estética,,,,,,0,,12506
+12507,diagnosticos,tipo,Psicología,,,,,,0,,12507
+12508,diagnosticos,tipo,Medicina General,,,,,,0,,12508
+12509,diagnosticos,tipo,Osteopatía,,,,,,0,,12509
+12510,articulos,tipoenvase,comprimidos,,,,,,0,,12510
+12511,articulos,tipoenvase,cápsulas,,,,,,0,,12511
+12512,articulos,tipoenvase,jarabe,,,,,,0,,12512
+12513,articulos,tipoenvase,supositorios,,,,,,0,,12513
+12514,articulos,tipoenvase,crema,,,,,,0,,12514
+12515,expalumnos,estadocurso,Matriculado,,,,,,0,,12515
+12516,expalumnos,estadocurso,Interesado,,,,,,0,,12516
+12517,expalumnos,estadocurso,Reservado,,,,,,0,,12517
+12518,expalumnos,estadocurso,Pendiente Cambio,,,,,,0,,12518
+12519,icbLabel,0,SESION MUTUA,536870912,,,,,0,,12519
+12520,icbLabel,1,PODOLOGIA,8689404,,,,,0,,12520
+12521,icbLabel,2,DP,14982788,,,,,0,,12521
+12522,icbLabel,3,GROUPON,6610596,,,,,0,,12522
+12523,icbLabel,4,Vacaciones,13952740,,,,,0,,12523
+12524,icbLabel,5,Debe asistir a,7649020,,,,,0,,12524
+12525,icbLabel,6,RACING ,16051844,,,,,0,,12525
+12526,icbLabel,7,TRATAMIENTOS ,8703700,,,,,0,,12526
+12527,icbLabel,8,Cumpleaños,16033476,,,,,0,,12527
+12528,icbLabel,9,Aniversario,12897956,,,,,0,,12528
+12529,icbLabel,10,SESION NORMAL,7661308,,,,,0,,12529
+12530,expalumnos,estadocurso,Baja,,,,,,0,,12530
+12531,expalumnos,estadocurso,Asistencia Ocasional,,,,,,0,,12531
+12532,icbLabelBD,0,General,536870912,,,,,0,,12532
+12533,icbLabelBD,1,doble clic para personalizar etiqueta   ,8689404,,,,,0,,12533
+12534,icbLabelBD,2,NACHO SENABRE,14982788,,,,,0,,12534
+12535,icbLabelBD,3,doble clic para personalizar etiqueta,6610596,,,,,0,,12535
+12536,icbLabelBD,4,doble clic para personalizar etiqueta,13952740,,,,,0,,12536
+12537,icbLabelBD,5,doble clic para personalizar etiqueta,7649020,,,,,0,,12537
+12538,icbLabelBD,6,JOSÉ,16051844,,,,,0,,12538
+12539,icbLabelBD,7,doble clic para personalizar etiqueta  ,8703700,,,,,0,,12539
+12540,icbLabelBD,8,PIEDAD ,16033476,,,,,0,,12540
+12541,icbLabelBD,9,doble clic para personalizar etiqueta,12897956,,,,,0,,12541
+12542,icbLabelBD,10,doble clic para personalizar etiqueta    ,7661308,,,,,0,,12542
+12543,pedidos,estadoPedido,Enviado,,,,,,0,,12543
+12544,pedidos,estadoPedido,Env?o Parcial,,,,,,0,,12544
+12545,pedidos,estadoPedido,Pendiente de Enviar,,,,,,0,,12545
+12546,pedido,estadoPedido,Recibido completo,,,,,,0,,12546
+12547,pedido,estadoPedido,Recibido incompleto,,,,,,0,,12547
+12548,pedido,estadoPedido,Recibido err?neo,,,,,,0,,12548
+12549,pedido,estadoPedido,No recibido,,,,,,0,,12549
+12550,exppacientes,estadocurso,Matriculado,,,,,,0,,12550
+12551,exppacientes,estadocurso,Reservado,,,,,,0,,12551
+12552,exppacientes,estadocurso,Baja,,,,,,0,,12552
+12553,exppacientes,estadocurso,Interesado,,,,,,0,,12553
+12554,exppacientes,estadocurso,Pendiente Cambio,,,,,,0,,12554
+12555,exppacientes,estadocurso,Asistencia Ocasional,,,,,,0,,12555
+12556,historial,motivocancelacion,Con aviso,,,,,,0,,12556
+12557,historial,motivocancelacion,Sin aviso,,,,,,0,,12557
+12558,historial,motivocancelacion,Aplazada,,,,,,0,,12558
+12559,configplantillas,cobros,Plantilla Word,,,,,,0,,12559
+12560,configplantillas,cobros,Ticket,,,,,,0,,12560
+12561,segexp,aula,nuevo recurso,,,,,,0,,12561
+12562,segodont,tipoOdontograma,General,,,,,,0,,12562
+12563,segodont,tipoOdontograma,Implantología,,,,,,0,,12563
+12564,segodont,tipoOdontograma,Ortodoncia,,,,,,0,,12564
+12565,pedido,estadoPedido,Recibido erróneo,,,,,,0,,12565
+12566,exclipro,tipoimparticionbonif,Tutoría Teleformación,,,,,,0,,12566
+12567,exclipro,tipoimparticionbonif,Tutoría Presencial,,,,,,0,,12567
+12568,exclipro,tipoimparticionbonif,Tutoría Mixta,,,,,,0,,12568
+12569,exclipro,tipoactividadbonif,Formador,,,,,,0,,12569
+12570,exclipro,tipoactividadbonif,Formador y Dinamizador,,,,,,0,,12570
+12571,datosSociales,estadocivil,Soltero,,,,,,0,,12571
+12572,datosSociales,estadocivil,Casado,,,,,,0,,12572
+12573,datosSociales,estadocivil,Viudo,,,,,,0,,12573
+12574,datosSociales,estadocivil,Divorciado,,,,,,0,,12574
+12575,obligaciones,pago,Domiciliación,,,,,,0,,12575
+12576,obligaciones,pago,NRC,,,,,,0,,12576
+12577,datosSociales,tipoLibroCont,Mayor,,,,,,0,,12577
+12578,datosSociales,tipoLibroCont,Diario,,,,,,0,,12578
+12579,datosSociales,tipoLibroCont,IVA,,,,,,0,,12579
+12580,datosSociales,tipoLibroCont,Balances,,,,,,0,,12580
+12581,datosSociales,naturalezaPoder,General,,,,,,0,,12581
+12582,datosSociales,naturalezaPoder,Especial,,,,,,0,,12582
+12583,icbSeleccionGrid,1,Verde MN,3986065,,,,,0,,12583
+12584,icbSeleccionGrid,2,Azul W,16774117,,,,,0,,12584
+12585,icbSeleccionGrid,3,Blanco,536870912,,,,,0,,12585
+12586,icbSeleccionGrid,4,Rojo,8689404,,,,,0,,12586
+12587,icbSeleccionGrid,5,Azul,14982788,,,,,0,,12587
+12588,icbSeleccionGrid,6,Verde,6610596,,,,,0,,12588
+12589,icbSeleccionGrid,7,Crema,13952740,,,,,0,,12589
+12590,icbSeleccionGrid,8,Naranja,7649020,,,,,0,,12590
+12591,icbSeleccionGrid,9,Cian,16051844,,,,,0,,12591
+12592,icbSeleccionGrid,10,Mostaza,8703700,,,,,0,,12592
+12593,icbSeleccionGrid,11,Morado,16033476,,,,,0,,12593
+12594,icbSeleccionGrid,12,Verde agua,12897956,,,,,0,,12594
+12595,icbSeleccionGrid,13,Amarillo,7661308,,,,,0,,12595
+12596,clipers6,perso7,Alta,,,,,,0,,12596
+12597,clipers6,perso7,Baja,,,,,,0,,12597
+12598,Asegurados,tipo,Persona Física,,,,,,0,,12598
+12599,Asegurados,tipo,Persona Jurídica,,,,,,0,,12599
+12600,clivencimientos,formaCobro,Mensual,,,,,,0,,12600
+12601,clivencimientos,formaCobro,Bimensual,,,,,,0,,12601
+12602,clivencimientos,formaCobro,Cuatrimestral,,,,,,0,,12602
+12603,clivencimientos,formaCobro,Semestral,,,,,,0,,12603
+12604,clivencimientos,formaCobro,Anual,,,,,,0,,12604
+12605,clivencimientos,formaCobro,Único,,,,,,0,,12605
+12606,clivencimientos,tipopoliza,Nueva,,,,,,0,,12606
+12607,clivencimientos,tipopoliza,Reemplazo,,,,,,0,,12607
+12608,clivencimientos,tipopoliza,Traspaso,,,,,,0,,12608
+12609,clivencimientos,situacionpoliza,Anulada,,,,,,0,,12609
+12610,clivencimientos,situacionpoliza,En vigor,,,,,,0,,12610
+12611,clivencimientos,situacionpoliza,Solicitada,,,,,,0,,12611
+12612,clivencimientos,situacionpoliza,Suspensión,,,,,,0,,12612
+12613,datosSociales,estadoAdmin,Vigente,,,,,,0,,12613
+12614,datosSociales,estadoAdmin,Cesado,,,,,,0,,12614
+12615,datosSociales,estadoAdmin,Dimitido,,,,,,0,,12615
+12616,datosSociales,estadoAdmin,Revocado,,,,,,0,,12616
+12617,poderes,tipoPoder,General,,,,,,0,,12617
+12618,poderes,tipoPoder,Especial,,,,,,0,,12618
+12619,exclipro,estadocurso,Matriculado,,,,,,0,,12619
+12620,exclipro,estadocurso,Interesado,,,,,,0,,12620
+12621,exclipro,estadocurso,Baja,,,,,,0,,12621
+12622,controlcobros,estadocobro,Cobrado,,,,,,0,,12622
+12623,controlcobros,estadocobro,No Cobrado,,,,,,0,,12623
+12624,controlcobros,estadocobro,Impagado. Vuelto a Cobrar,,,,,,0,,12624
+12625,controlcobros,estadocobro,Impagado. Definitivo,,,,,,0,,12625
+12626,diagnosticos,estado,Activo,,,,,,0,,12626
+12627,diagnosticos,estado,Resuelto,,,,,,0,,12627
+12628,articulos,tipomedicacion,Crónica,,,,,,0,,12628
+12629,articulos,tipomedicacion,Puntual,,,,,,0,,12629
+12630,controlcobros,estadocobro,Impagado,,,,,,0,,12630
+12631,estadoemail,estado,Suscrito con Actividad,,,,,,0,,12631
+12632,estadoemail,estado,Suscrito sin Actividad,,,,,,0,,12632
+12633,estadoemail,estado,Baja Comunicaciones Comerciales,,,,,,0,,12633
+12634,estadoemail,estado,Rechazado,,,,,,0,,12634
+12635,estadomovil,estado,Suscrito con Actividad,,,,,,0,,12635
+12636,estadomovil,estado,Suscrito sin Actividad,,,,,,0,,12636
+12637,estadomovil,estado,Baja Comunicaciones Comerciales,,,,,,0,,12637
+12638,estadomovil,estado,Rechazado,,,,,,0,,12638
+12639,oporcliserv,fuente,Teléfono,,,,,,0,,12639
+12640,oporcliserv,fuente,Correo,,,,,,0,,12640
+12641,oporcliserv,fuente,Chat,,,,,,0,,12641
+12642,oporcliserv,estadoopor,Abierta,,,,,,0,,12642
+12643,oporcliserv,estadoopor,Cerrada,,,,,,0,,12643
+12644,diagnosticos,tipo,Oftalmología,,,,,,0,,12644
+12645,icbOportunidad,0,Ninguno,536870912,,,,,0,,12645
+12646,icbOportunidad,1,Añadir descripción,8689404,,,,,0,,12646
+12647,icbOportunidad,2,Añadir descripción,14982788,,,,,0,,12647
+12648,icbOportunidad,3,Añadir descripción,6610596,,,,,0,,12648
+12649,icbOportunidad,4,Añadir descripción,13952740,,,,,0,,12649
+12650,icbOportunidad,5,Añadir descripción,7649020,,,,,0,,12650
+12651,icbOportunidad,6,Añadir descripción,16051844,,,,,0,,12651
+12652,icbOportunidad,7,Añadir descripción,8703700,,,,,0,,12652
+12653,icbOportunidad,8,Añadir descripción,16033476,,,,,0,,12653
+12654,icbOportunidad,9,Añadir descripción,12897956,,,,,0,,12654
+12655,icbOportunidad,10,Añadir descripción,7661308,,,,,0,,12655
+12656,icbTarea,0,Ninguno,536870912,,,,,0,,12656
+12657,icbTarea,1,Añadir descripción,8689404,,,,,0,,12657
+12658,icbTarea,2,Añadir descripción,14982788,,,,,0,,12658
+12659,icbTarea,3,Añadir descripción,6610596,,,,,0,,12659
+12660,icbTarea,4,Añadir descripción,13952740,,,,,0,,12660
+12661,icbTarea,5,Añadir descripción,7649020,,,,,0,,12661
+12662,icbTarea,6,Añadir descripción,16051844,,,,,0,,12662
+12663,icbTarea,7,Añadir descripción,8703700,,,,,0,,12663
+12664,icbTarea,8,Añadir descripción,16033476,,,,,0,,12664
+12665,icbTarea,9,Añadir descripción,12897956,,,,,0,,12665
+12666,icbTarea,10,Añadir descripción,7661308,,,,,0,,12666
+12667,icbDocManager,1,Verde MN,3986065,,,,,0,,12667
+12668,icbDocManager,2,Verde,6610596,,,,,0,,12668
+12669,icbDocManager,3,Naranja,7649020,,,,,0,,12669
+12670,icbDocManager,4,Amarillo,7661308,,,,,0,,12670
+12671,icbDocManager,5,Rojo,8689404,,,,,0,,12671
+12672,icbDocManager,6,Mostaza,8703700,,,,,0,,12672
+12673,icbDocManager,7,Verde Agua,12897956,,,,,0,,12673
+12674,icbDocManager,8,Crema,13952740,,,,,0,,12674
+12675,icbDocManager,9,Azul,14982788,,,,,0,,12675
+12676,icbDocManager,10,Morado,16033476,,,,,0,,12676
+12677,icbDocManager,11,Cian,16051844,,,,,0,,12677
+12678,icbDocManager,12,Azul W,16774117,,,,,0,,12678
+12679,icbDocManager,13,Blanco,536870912,,,,,0,,12679
+12680,oporcliserv,tipo,Envíos a Laboratorio,,,,,,0,,12680
+12681,oporcliserv,tipo,Proyecto,,,,,,0,,12681
+12682,oporcliserv,tipo,Encargo,,,,,,0,,12682
+12683,oporcliserv,tipo,Otros,,,,,,0,,12683
+12684,oporcliserv,etapa,Sin Iniciar,,,,Todos,Abierta,0,,12684
+12685,oporcliserv,etapa,En Curso,,,,Todos,Abierta,0,,12685
+12686,oporcliserv,etapa,Realizada,,,,Todos,Cerrada,0,,12686
+12689,oporcli,codigo,PD (Pedido de Distribución),,,,,,0,,12689
+12690,oporcli,codigo,PU (Pedido de Usuario),,,,,,0,,12690
+12691,oporcli,tipobono,Monetario,,,,,,0,,12691
+12692,oporcli,tipobono,Servicio,,,,,,0,,12692
+12693,oporcli,tipobono,Tiempo,,,,,,0,,12693
+12694,oporcli,tipobono,Sesiones Autorizadas,,,,,,0,,12694
+12695,oporcli,estadobono,Abierto,,,,,,0,,12695
+12696,oporcli,estadobono,Consumido,,,,,,0,,12696
+12697,oporcli,estadobono,Caducado,,,,,,0,,12697
+12698,oporcli,fuente,Teléfono,,,,Todos,,0,,12698
+12699,oporcli,fuente,Email,,,,Todos,,0,,12699
+12700,oporcli,fuente,SMS,,,,Todos,,0,,12700
+12701,oporcli,fuente,Web,,,,Todos,,0,,12701
+12702,oporcli,fuente,Base de Datos,,,,Todos,,0,,12702
+12703,oporcli,fuente,Referencia,,,,Todos,,0,,12703
+12704,oporcli,fuente,Partner,,,,Todos,,0,,12704
+12705,oporcli,estadoopor,Abierta,,,,,,0,,12705
+12706,oporcli,estadoopor,Cerrada,,,,,,0,,12706
+12707,oporcli,tipo,Comercial,,,,,,0,,12707
+12708,oporcli,tipo,Renovación,,,,,,0,,12708
+12709,oporclipedido,etapa,Solicitada,,,,Todos,Abierta,0,,12709
+12710,oporclipedido,etapa,Recibida,,,,Todos,Cerrada,0,,12710
+12711,oporclipedido,etapa,Cancelada,,,,Todos,Cerrada,0,,12711
+12712,oporclipedido,estadoopor,Abierta,,,,,,0,,12712
+12713,oporclipedido,estadoopor,Cerrada,,,,,,0,,12713
+12714,oporcliserv,tipo,Control Presupuestario,,,,,,0,,12714
+12715,oporclipedido,tipo,Compras,,,,,,0,,12715
+12716,Parameter,CboTipoActu.dat,WhatsApp,,,,,,0,,12716
+12717,icbExpediente,0,General,536870912,,,,,0,,12717
+12718,icbExpediente,1,Deuda Mayor,8689404,,,,,0,,12718
+12719,icbExpediente,2,doble clic para personalizar etiqueta,14982788,,,,,0,,12719
+12720,icbExpediente,3,doble clic para personalizar etiqueta,6610596,,,,,0,,12720
+12721,icbExpediente,4,doble clic para personalizar etiqueta,13952740,,,,,0,,12721
+12722,icbExpediente,5,doble clic para personalizar etiqueta,7649020,,,,,0,,12722
+12723,icbExpediente,6,doble clic para personalizar etiqueta,16051844,,,,,0,,12723
+12724,icbExpediente,7,Preparaci?n de Necesidades,8703700,,,,,0,,12724
+12725,icbExpediente,8,Cumplea?os,16033476,,,,,0,,12725
+12726,icbExpediente,9,doble clic para personalizar etiqueta,12897956,,,,,0,,12726
+12727,icbExpediente,10,Llamada Telef?nica,7661308,,,,,0,,12727
+12728,segexp,tipoClase,Curso,,,,,,0,,12728
+12729,segexp,tipoClase,Clase,,,,,,0,,12729
+12730,segexp,tipoClase,Evento,,,,,,0,,12730
+12731,segexp,tipoClase,Taller,,,,,,0,,12731
+12732,oporclirecobro,estadoopor,Abierto,,,,,,0,,12732
+12733,oporclirecobro,estadoopor,Cerrado,,,,,,0,,12733
+12734,oporclirecobro,etapa,Sin Iniciar,,,,,Abierto,0,,12734
+12735,oporclirecobro,etapa,Asignado,,,,,Abierto,0,,12735
+12736,oporclirecobro,etapa,En Curso,,,,,Abierto,0,,12736
+12737,oporclirecobro,etapa,Realizado,,,,,Cerrado,0,,12737
+12738,oporclirecobro,etapa,Cancelado,,,,,Cerrado,0,,12738
+12739,oporclirecobro,tipo,Recobro,,,,,,0,,12739
+12740,segexp,diasemana,Lunes,,,,,,0,,12740
+12741,segexp,diasemana,Martes,,,,,,0,,12741
+12742,segexp,diasemana,Miércoles,,,,,,0,,12742
+12743,segexp,diasemana,Jueves,,,,,,0,,12743
+12744,segexp,diasemana,Viernes,,,,,,0,,12744
+12745,segexp,diasemana,Sábado,,,,,,0,,12745
+12746,segexp,diasemana,Domingo,,,,,,0,,12746
+12747,icbPedido,1,Verde MN,3986065,,,,,0,,12747
+12748,icbPedido,2,Verde,6610596,,,,,0,,12748
+12749,icbPedido,3,Naranja,7649020,,,,,0,,12749
+12750,icbPedido,4,Amarillo,7661308,,,,,0,,12750
+12751,icbPedido,5,Rojo,8689404,,,,,0,,12751
+12752,icbPedido,6,Mostaza,8703700,,,,,0,,12752
+12753,icbPedido,7,Verde Agua,12897956,,,,,0,,12753
+12754,icbPedido,8,Crema,13952740,,,,,0,,12754
+12755,icbPedido,9,Azul,14982788,,,,,0,,12755
+12756,icbPedido,10,Morado,16033476,,,,,0,,12756
+12757,icbPedido,11,Cian,16051844,,,,,0,,12757
+12758,icbPedido,12,Azul W,16774117,,,,,0,,12758
+12759,icbPedido,13,Blanco,536870912,,,,,0,,12759
+12760,Parametr,tabarticulos.dat,Fisioterapia,,,,,,0,,12760
+12761,Parametr,tabarticulos.dat,Podología,,,,,,0,,12761
+12762,Parametr,tabarticulos.dat,Nutrición y Dietética,,,,,,0,,12762
+12763,Parametr,tabarticulos.dat,Estética,,,,,,0,,12763
+12764,Parametr,tabarticulos.dat,Aparatología,,,,,,0,,12764
+12765,Parametr,tabarticulos.dat,Medicamentos,,,,,,0,,12765
+12766,Parametr,Oportunidades.dat,Grupo1,,,,,,0,,12766
+12767,Parametr,Oportunidades.dat,Grupo2,,,,,,0,,12767
+12768,Parametr,Oportunidades.dat,Grupo3,,,,,,0,,12768
+12769,Parametr,Oportunidades.dat,Grupo4,,,,,,0,,12769
+12770,Parametr,Oportunidades.dat,Grupo5,,,,,,0,,12770
+12771,Parametr,Oportunidades.dat,Grupo6,,,,,,0,,12771
+12772,Parametr,Oportunidades.dat,Grupo7,,,,,,0,,12772
+12773,Parametr,Oportunidades.dat,Grupo8,,,,,,0,,12773
+12774,Parametr,Oportunidades.dat,Grupo9,,,,,,0,,12774
+12775,Parametr,Oportunidades.dat,Grupo10,,,,,,0,,12775
+12776,Parametr,Oportunidades.dat,Grupo11,,,,,,0,,12776
+12777,Parametr,Oportunidades.dat,Grupo12,,,,,,0,,12777
+12778,Parametr,Oportunidades.dat,Grupo13,,,,,,0,,12778
+12779,Parametr,Oportunidades.dat,Grupo14,,,,,,0,,12779
+12780,Parametr,Oportunidades.dat,Grupo15,,,,,,0,,12780
+12781,Parametr,OportunidadesServicio.dat,Protésico,,,,,,0,,12781
+12782,Parametr,OportunidadesServicio.dat,Grupo2,,,,,,0,,12782
+12783,Parametr,OportunidadesServicio.dat,Grupo3,,,,,,0,,12783
+12784,Parametr,OportunidadesServicio.dat,Grupo4,,,,,,0,,12784
+12785,Parametr,OportunidadesServicio.dat,Grupo5,,,,,,0,,12785
+12786,Parametr,OportunidadesServicio.dat,Grupo6,,,,,,0,,12786
+12787,Parametr,OportunidadesServicio.dat,Grupo7,,,,,,0,,12787
+12788,Parametr,OportunidadesServicio.dat,Grupo8,,,,,,0,,12788
+12789,Parametr,OportunidadesServicio.dat,Grupo9,,,,,,0,,12789
+12790,Parametr,OportunidadesServicio.dat,Grupo10,,,,,,0,,12790
+12791,Parametr,OportunidadesServicio.dat,Grupo11,,,,,,0,,12791
+12792,Parametr,OportunidadesServicio.dat,Grupo12,,,,,,0,,12792
+12793,Parametr,OportunidadesServicio.dat,Grupo13,,,,,,0,,12793
+12794,Parametr,OportunidadesServicio.dat,Grupo14,,,,,,0,,12794
+12795,Parametr,OportunidadesServicio.dat,Grupo15,,,,,,0,,12795
+12796,oporcli,etapa,Sin iniciar,,,,Todos,Abierta,0,,12796
+12797,oporcli,etapa,Presupuesto,,,,Todos,Abierta,0,,12797
+12798,oporcli,etapa,Perdida,,,,Todos,Cerrada,0,,12798
+12799,RpaCorreo,carpeta,LOPD,,,,,,0,,12799
+12800,RpaCorreo,carpeta,Consentimientos,,,,,,0,,12800
+12801,ficheros,estado,Alta,,,,,,0,,12801
+12802,ficheros,estado,Baja,,,,,,0,,12802
+12803,Parametr,Pedidos.dat,Grupo1,,,,,,0,,12803
+12804,RpaCorreo,carpeta,Domiciliación Bancaria,,,,,,0,,12804
+12805,oporcliserv,etapa,Cancelada,,,,,,0,,12805
+12806,oporcli,fuente,Campaña Comercial,,,,Comercial,,0,,12806
+12807,oporcli,fuente,Comercial,,,,,,0,,12807
+12808,oporcli,fuente,Telemarketing,,,,,,0,,12808
+12809,oporcli,fuente,Formularios Webs,,,,,,0,,12809
+12810,oporcli,etapa,Solicita Presupuesto,,,,Todos,Abierta,0,,12810
+12811,oporcli,etapa,Ganada,,,,Todos,Cerrada,0,,12811
+12812,oporcli,etapa,No Conforme,,,,Todos,Abierta,0,,12812
+12813,oporcli,etapa,Impagado,,,,Todos,Abierta,0,,12813
+12814,oporcli,etapa,Cancelación,,,,Todos,Cerrada,0,,12814
+12815,oporcli,etapa,Oportunidad,,,,,Abierta,0,,12815
+12816,registroFiscal,registroFiscal,Estimación Directa Normal,,,,,,0,,12816
+12817,registroFiscal,registroFiscal,Estimación Directa Simplificada,,,,,,0,,12817
+12818,registroFiscal,registroFiscal,Estimación Objetiva (Módulos),,,,,,0,,12818
+12819,IAE_VALORES,IAE_VALORES,Cese de actividad,,,,,,0,,12819
+12820,IAE_VALORES,IAE_VALORES,Renuncia,,,,,,0,,12820
+12821,IAE_VALORES,IAE_VALORES,Exclusión,,,,,,0,,12821
+12822,icbOdontograma,0,Ninguno,536870912,,,,,0,,12822
+12823,oporclirecurso,etapa,Sin Iniciar,,,,,Abierto,0,,12823
+12824,oporclirecurso,etapa,En Curso,,,,,Abierto,0,,12824
+12825,oporclirecurso,etapa,Realizado,,,,,Cerrado,0,,12825
+12826,oporclirecurso,etapa,Cancelado,,,,,Cerrado,0,,12826
+12827,clientespotenciales,mascotasexo,Hombre,,,,,,0,,12827
+12828,clientespotenciales,mascotasexo,Mujer,,,,,,0,,12828
+12829,clientes,mascotasexo,Hombre,,,,,,0,,12829
+12830,clientes,mascotasexo,Mujer,,,,,,0,,12830
+12831,proveedores,mascotasexo,Hombre,,,,,,0,,12831
+12832,proveedores,mascotasexo,Mujer,,,,,,0,,12832
+12833,pacientes,mascotasexo,Hombre,,,,,,0,,12833
+12834,pacientes,mascotasexo,Mujer,,,,,,0,,12834
+12835,alumnos,mascotasexo,Hombre,,,,,,0,,12835
+12836,alumnos,mascotasexo,Mujer,,,,,,0,,12836
+12837,trabajadores,mascotasexo,Hombre,,,,,,0,,12837
+12838,trabajadores,mascotasexo,Mujer,,,,,,0,,12838
+12839,otros,mascotasexo,Hombre,,,,,,0,,12839
+12840,otros,mascotasexo,Mujer,,,,,,0,,12840
+12841,voluntarios,mascotasexo,Hombre,,,,,,0,,12841
+12842,voluntarios,mascotasexo,Mujer,,,,,,0,,12842
+12843,tareas,etapa,Sin Iniciar,,,,,Abierto,0,,12843
+12844,tareas,etapa,En Curso,,,,,Abierto,0,,12844
+12845,tareas,etapa,Realizada,,,,,Cerrado,0,,12845
+12846,tareas,etapa,Cancelada,,,,,Cerrado,0,,12846
+12847,oporclipia,etapa,Sin Iniciar,,,,Todos,Abierto,0,,12847
+12848,oporclipia,etapa,En Curso,,,,Todos,Abierto,0,,12848
+12849,oporclipia,etapa,Realizado,,,,Todos,Cerrado,0,,12849
+12850,oporclipia,etapa,Cancelado,,,,Todos,Cerrado,0,,12850
+12873,diremail,tipoEnvio,General,,,,,,0,,12873
+12874,diremail,grupoEmailer,Trato preferente,,,,,,0,,12874
+12875,RpaCorreo,carpeta,Justificante Asistencia,,,,,,0,,12875
+12876,RpaCorreo,carpeta,Recordatorio / Confirmación Cita,,,,,,0,,12876
+12877,RpaCorreo,carpeta,Ticket Cita,,,,,,0,,12877
+12878,RpaCorreo,carpeta,Informes,,,,,,0,,12878
+12879,icbArticulo,1,Verde MN,3986065,,,,,0,,12879
+12880,icbArticulo,2,Verde,6610596,,,,,0,,12880
+12881,icbArticulo,3,Naranja,7649020,,,,,0,,12881
+12882,icbArticulo,4,Amarillo,7661308,,,,,0,,12882
+12883,icbArticulo,5,Rojo,8689404,,,,,0,,12883
+12884,icbArticulo,6,Mostaza,8703700,,,,,0,,12884
+12885,icbArticulo,7,Verde Agua,12897956,,,,,0,,12885
+12886,icbArticulo,8,Crema,13952740,,,,,0,,12886
+12887,icbArticulo,9,Azul,14982788,,,,,0,,12887
+12888,icbArticulo,10,Morado,16033476,,,,,0,,12888
+12889,icbArticulo,11,Cian,16051844,,,,,0,,12889
+12890,icbArticulo,12,Azul W,16774117,,,,,0,,12890
+12891,icbArticulo,13,Blanco,536870912,,,,,0,,12891
+12892,exclipro,informarlt,No aporta información,,,,,,0,,12892
+12893,exclipro,informarlt,No,,,,,,0,,12893
+12894,exclipro,informarlt,Si,,,,,,0,,12894
+12895,exclipro,resuelto15,No aporta información,,,,,,0,,12895
+12896,exclipro,resuelto15,No,,,,,,0,,12896
+12897,exclipro,resuelto15,Si,,,,,,0,,12897
+12898,exclipro,valorinf,No aporta información,,,,,,0,,12898
+12899,exclipro,valorinf,No informa,,,,,,0,,12899
+12900,exclipro,valorinf,Favorable,,,,,,0,,12900
+12901,exclipro,valorinf,Discrepancia,,,,,,0,,12901
+12902,icbSeleccionGrid,14,Azul MN,12609280,,,,,0,,12902
+12903,clientes,TipoInmueble,Trastero,,,,,,0,,12903
+12904,icbLabel,11,1 VISITA ,255,,,,,0,,12904
+12905,icbLabel,12,NO DAR CITAS,16512,,,,,0,,12905
+12910,oporcli,etapa,Venta,,,,,Cerrada,0,,12910
+12911,BienesInversion,Estado,Nuevo,,,,,,0,,1
+12912,BienesInversion,Estado,Usado,,,,,,0,,2
+12913,BienesInversion,Naturaleza,Material,,,,,,0,,3
+12914,BienesInversion,Naturaleza,Inmaterial,,,,,,0,,4
+12915,BienesInversion,Naturaleza,Inmobiliario,,,,,,0,,5
+12916,BienesInversion,Naturaleza,En Curso,,,,,,0,,6
+12917,BienesInversion,Desglose,Terrenos y bienes naturales,,,,Material,,0,,1
+12918,BienesInversion,Desglose,Construcciones,,,,Material,,0,,2
+12919,BienesInversion,Desglose,Instalaciones técnicas,,,,Material,,0,,3
+12920,BienesInversion,Desglose,Maquinaria,,,,Material,,0,,4
+12921,BienesInversion,Desglose,Utillaje,,,,Material,,0,,5
+12922,BienesInversion,Desglose,Otras instalaciones,,,,Material,,0,,6
+12923,BienesInversion,Desglose,Mobiliario,,,,Material,,0,,7
+12924,BienesInversion,Desglose,Equipos para procesos de información,,,,Material,,0,,8
+12925,BienesInversion,Desglose,Elementos de transporte,,,,Material,,0,,9
+12926,BienesInversion,Desglose,Otro inmovilizado material,,,,Material,,0,,10
+12927,BienesInversion,Desglose,Inversiones en terrenos y bienes naturales,,,,Inmobiliario,,0,,1
+12928,BienesInversion,Desglose,Inversiones en construcciones,,,,Inmobiliario,,0,,2
+12929,BienesInversion,Desglose,Adaptación de terrenos y bienes naturales,,,,En Curso,,0,,1
+12930,BienesInversion,Desglose,Construcciones en curso,,,,En Curso,,0,,2
+12931,BienesInversion,Desglose,Instalaciones técnicas en montaje,,,,En Curso,,0,,3
+12932,BienesInversion,Desglose,Maquinaria en montaje,,,,En Curso,,0,,4
+12933,BienesInversion,Desglose,Equipos para procesos de información en montaje,,,,En Curso,,0,,5
+12934,BienesInversion,Desglose,Anticipos para inmovilizaciones materiales,,,,En Curso,,0,,6
+12935,poderes,ubicacion,En el Abogado,,,,,,0,,12935
+12936,poderes,ubicacion,En el Juzgado,,,,,,0,,12936
+12937,poderes,ubicacion,En el Procurador,,,,,,0,,12937
+12938,recall,resultado,Cita Fijada,,,1,,,0,,1
+12939,recall,resultado,Llamada No Contesta,,,0,,,0,,2
+12940,recall,resultado,Whatsapp Enviado,,,0,,,0,,3
+12941,recall,resultado,Correo Enviado,,,0,,,0,,4
+12942,recall,resultado,Cancelado,,,1,,,0,,5
+12943,icbMail,0,Ninguno,536870912,,,,,0,,1
+12944,icbMail,1,Importante,8689404,,,,,0,,2
+12945,icbMail,2,Negocios,14982788,,,,,0,,3
+12946,icbMail,3,Personal,6610596,,,,,0,,4
+12947,inmueblesext,tipo,Piso,,,,,,0,,1
+12948,inmueblesext,tipo,Casa,,,,,,0,,2
+12949,inmueblesext,tipo,Suelo,,,,,,0,,3
+12950,inmueblesext,tipo,Parking,,,,,,0,,4
+12951,inmueblesext,tipo,Edificio,,,,,,0,,5
+12952,inmueblesext,tipo,Comercial-Industrial,,,,,,0,,6
+12953,inmueblesext,tipo,Otros,,,,,,0,,7
+12954,inmueblesext,categoria,Piso,,,,Piso,,0,,1
+12955,inmueblesext,categoria,Estudio,,,,Piso,,0,,2
+12956,inmueblesext,categoria,Apartamento,,,,Piso,,0,,3
+12957,inmueblesext,categoria,Ático,,,,Piso,,0,,4
+12958,inmueblesext,categoria,Loft,,,,Piso,,0,,5
+12959,inmueblesext,categoria,Dúplex,,,,Piso,,0,,6
+12960,inmueblesext,categoria,Triplex,,,,Piso,,0,,7
+12961,inmueblesext,categoria,Casa-Chalet,,,,Casa,,0,,8
+12962,inmueblesext,categoria,Villa,,,,Casa,,0,,9
+12963,inmueblesext,categoria,Adosada,,,,Casa,,0,,10
+12964,inmueblesext,categoria,Pareada,,,,Casa,,0,,11
+12965,inmueblesext,categoria,Mansión,,,,Casa,,0,,12
+12966,inmueblesext,categoria,Casa de campo,,,,Casa,,0,,13
+12967,inmueblesext,categoria,Suelo rústico,,,,Suelo,,0,,14
+12968,inmueblesext,categoria,Suelo urbanizable,,,,Suelo,,0,,15
+12969,inmueblesext,categoria,Suelo urbano,,,,Suelo,,0,,16
+12970,inmueblesext,categoria,Suelo residencial,,,,Suelo,,0,,17
+12971,inmueblesext,categoria,Suelo industrial,,,,Suelo,,0,,18
+12972,inmueblesext,categoria,Parcela,,,,Suelo,,0,,19
+12973,inmueblesext,categoria,Suelo municipal,,,,Suelo,,0,,20
+12974,inmueblesext,categoria,Local comercial,,,,Comercial-Industrial,,0,,21
+12975,inmueblesext,categoria,Oficina,,,,Comercial-Industrial,,0,,22
+12976,inmueblesext,categoria,Nave industrial,,,,Comercial-Industrial,,0,,23
+12977,inmueblesext,categoria,Nave comercial,,,,Comercial-Industrial,,0,,24
+12978,inmueblesext,categoria,Almacén,,,,Comercial-Industrial,,0,,25
+12979,inmueblesext,categoria,Parking coche,,,,Parking,,0,,26
+12980,inmueblesext,categoria,Parking moto,,,,Parking,,0,,27
+12981,inmueblesext,categoria,Parking doble,,,,Parking,,0,,28
+12982,inmueblesext,categoria,Edificio de viviendas,,,,Edificio,,0,,26
+12983,inmueblesext,categoria,Edificio de oficinas,,,,Edificio,,0,,27
+12984,inmueblesext,categoria,Hotel,,,,Edificio,,0,,28
+12985,inmueblesext,operacion,Venta,,,,,,0,,1
+12986,inmueblesext,operacion,Alquiler,,,,,,0,,2
+12987,inmueblesext,operacion,Alquiler Vacacional,,,,,,0,,3
+12988,inmueblesext,operacion,Compartir,,,,,,0,,4
+12989,inmueblesext,operacion,Traspaso,,,,,,0,,5
+12990,inmueblesext,estadoInmueble,Disponible,,,,,,0,,1
+12991,inmueblesext,estadoInmueble,Reservado,,,,,,0,,2
+12992,inmueblesext,estadoInmueble,Vendido,,,,,,0,,3
+12993,inmueblesext,estadoInmueble,Alquilado,,,,,,0,,4
+12994,inmueblesext,certEnergia,En Trámite,,,,,,0,,1
+12995,inmueblesext,certEnergia,A,,,,,,0,,2
+12996,inmueblesext,certEnergia,B,,,,,,0,,3
+12997,inmueblesext,certEnergia,C,,,,,,0,,4
+12998,inmueblesext,certEnergia,D,,,,,,0,,5
+12999,inmueblesext,certEnergia,E,,,,,,0,,6
+13000,inmueblesext,certEnergia,F,,,,,,0,,7
+13001,inmueblesext,certEnergia,G,,,,,,0,,8
+13002,inmueblesext,certEnergia,No Aplicable,,,,,,0,,9
+13003,inmueblesext,categoria,Trastero,,,,Otros,,0,,1
+13004,inmueblesext,categoria,Edificio Singular,,,,Otros,,0,,2
+13005,inmueblesext,categoria,Cueva,,,,Otros,,0,,3
+13006,inmueblesext,categoria,Palacio,,,,Otros,,0,,4
+13007,inmueblesext,certEmisiones,A,,,,,,0,,2
+13008,inmueblesext,certEmisiones,B,,,,,,0,,3
+13009,inmueblesext,certEmisiones,C,,,,,,0,,4
+13010,inmueblesext,certEmisiones,D,,,,,,0,,5
+13011,inmueblesext,certEmisiones,E,,,,,,0,,6
+13012,inmueblesext,certEmisiones,F,,,,,,0,,7
+13013,inmueblesext,certEmisiones,G,,,,,,0,,8
+13014,turnospredef,tipoturno,Vacaciones,,,0,No Disponible,,0,,13014
+13015,oporcliserv,fuente,TelÃ©fono,,,,,,0,,13015
+13018,oporcli,codigo,PD (Pedido de DistribuciÃ³n),,,,,,0,,13018
+13019,oporcli,fuente,TelÃ©fono,,,,Todos,,0,,13019
+13020,oporcli,fuente,CampaÃ±a Comercial,,,,Comercial,,0,,13020
+13021,oporcli,tipo,RenovaciÃ³n,,,,,,0,,13021
+13022,oporcli,etapa,CancelaciÃ³n,,,,Todos,Cerrada,0,,13022
+13023,oporclipedido,tipo,Pedidos a Laboratorio,,,,,,1,,13023
+13024,segexp,diasemana,MiÃ©rcoles,,,,,,0,,13024
+13025,segexp,diasemana,SÃ¡bado,,,,,,0,,13025
+13026,icbLabel,13,FISIOTERPIA BONO 45 MIN,16711680,,,,,0,,13026
+13027,icbLabel,14,FISIOTERAPIA BONO NORMAL,65280,,,,,0,,13027
+13028,icbLabelBD,11,TALIA LASRY,12615935,,,,,0,,13028
+13029,icbLabel,15,REHABILITACION MUTUA,16777215,,,,,0,,13029
+13030,icbLabel,16,PILATES,4194368,,,,,0,,13030
+13036,Parametr,CboTipoActu.dat,Fisioterapia,,,,,,0,,13036
+13037,Parametr,CboTipoActu.dat,Podología,,,,,,0,,13037
+13038,Parametr,CboTipoActu.dat,Rehabilitacion,,,0,,,0,,13038
+13039,Parametr,CboTipoActu.dat,Tratameintos,,,,,,0,,13039
+13040,Parametr,CboTipoActu.dat,Pilates ,,,,,,0,,13040
+13041,turnospredef,tipoturno,PODOLOGIA,,,0,Disponible,,0,,13041
+13042,Parametr,CboTipoActu.dat,Proyecto,,,,,,0,,13042
+13043,Parametr,CboTipoActu.dat,Otros,,,,,,0,,13043
+13044,Parametr,CboTipoActu.dat,Gasto,,,,,,0,,13044
+13045,icbLabel,17,INDIBA-ONDAS-MAGNETO,16744703,,,,,0,,13045
+13046,tesoreria,tipocuenta,Provisión,,,,,,0,,13046
+13047,tesoreria,tipocuenta,Suplido,,,,,,0,,13047
+13048,tesoreria,tipocuenta,Cobro,,,,,,0,,13048
+13049,tesoreria,tipocuenta,Pago,,,,,,0,,13049
+13050,tesoreria,tipocuenta,Servicio Contratado,,,,,,0,,13050
+13051,tesoreria,tipocuenta,Todos,,,,,,0,,13051
+13052,facturacionRecibida,TipoGasto,Dietas,,,,,,0,,13052
+13053,facturacionRecibida,TipoGasto,Alojamiento,,,,,,0,,13053
+13054,facturacionRecibida,TipoGasto,Transporte,,,,,,0,,13054
+13055,facturacionRecibida,TipoGasto,Combustible,,,,,,0,,13055
+13056,facturacionRecibida,TipoGasto,Kilometraje,,,,,,0,,13056
+13057,facturacionRecibida,TipoGasto,Otros,,,,,,0,,13057
+13058,turnospredef,tipoturno,Ausencia,,,,No Disponible,,0,,13058
+13059,turnospredef,tipoturno,Baja,,,,No Disponible,,0,,13059
+13060,turnospredef,tipoturno,Permiso,,,,No Disponible,,0,,13060
+13061,Parametr,CboTipoActu.dat,Lexnet,,,,,,0,,20000

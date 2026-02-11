@@ -1,0 +1,175 @@
+﻿id,nombre,modulo,idPlantillaCorreo,rutaPlantillaWord,orden,carpeta,tipo,tipoFormato,idPlantillaOtros,carpetaDoc,insertarCapturadoEnCorreo,previsualizarCorreo,enviarCorreoUnico,casosEnvioCorreo,iCodOpeCuencorreo,iLineaCuencorreo,tiposEnvio,numempresa,idFormulario,idEscala,tipoAccion,deshabilitado,ocultarRapido,idMN,recomendadoMN,oculto
+2,Formulario Registro + Firma LOPD Correo,37,2,,20,LOPD,0,0,,,,,,,,,,,,,,,,,,True
+4,Firma Consentimiento Informado Correo,37,,Pacientes\1.3 consentimiento informado.doc,0,Consentimientos,0,0,,,False,False,False,,,,,,,,,,,,,True
+5,Firma LOPD WhatsApp,37,,Pacientes\1.1 documento lopd.doc,9,LOPD,1,0,10,,False,False,False,,,,,2,,,,,,,,True
+6,Firma Consentimiento Informado Whatsapp,37,,Pacientes\1.3 consentimiento informado.doc,7,Consentimientos,1,0,4,,False,False,False,,,,,2,,,,,,,,True
+8,Imprimir LOPD,37,,Pacientes\1.1 documento lopd.doc,13,LOPD,2,1,,,False,False,False,,,,,,,,,,,,,True
+9,Imprimir Consentimiento Informado,37,,Pacientes\1.3 consentimiento informado.doc,9,Consentimientos,2,1,,,False,False,False,,,,,,,,,,,,,True
+11,Valoración,0,,,3,General,0,0,,,,,,,,,,,,,,,,,,True
+13,Formulario Registro + Firma LOPD WhatsApp,37,,,10,LOPD,1,0,14,,False,False,False,,,,,2,,,,,,,,True
+14,Recordatorio Cita Whatsapp,0,,,2,Recordatorio / Confirmación Cita,1,0,16,,False,False,False,,,,,2,,,,,,,,True
+15,Confirmación Cita Whatsapp,0,,,0,Recordatorio / Confirmación Cita,1,0,10,,False,False,False,,,,,2,,,,,,,,True
+16,Enviar Justificante Asistencia Correo,0,3,Pacientes\3.1 justificante de asistencia médica.doc,0,Justificante Asistencia,0,1,,,False,False,False,,,,,,,,,,,,,True
+17,Informe Correo,37,5,Pacientes\2.2 informe paciente detallado.doc,1,Informes,0,0,,,False,False,False,,,,,,,,,,,,,True
+19,Ticket Cita Correo,0,,Pacientes\4.1 ticket cita.doc,0,Ticket Cita,0,1,,,False,False,False,,,,,,,,,,,,,True
+20,Imprimir Justificante Asistencia,0,,Pacientes\3.1 justificante de asistencia médica.doc,0,Justificante Asistencia,2,1,,,False,False,False,,,,,,,,,,,,,True
+21,Imprimir Ticket de Cita,0,,Pacientes\4.1 ticket cita.doc,0,Ticket Cita,2,1,,,False,False,False,,,,,,,,,,,,,True
+22,Imprimir Presupuesto,1,,Clientes\Oportunidades\1.1 presupuesto.doc,2,General,2,1,,,False,False,False,,,,,,,,,,,,,True
+23,Aceptar Presupuesto Correo,1,,Clientes\Oportunidades\1.1 presupuesto.doc,4,General,0,1,,,False,False,False,,,,,,,,,,,,,True
+24,Aceptar Presupuesto Whatsapp,1,,Clientes\Oportunidades\1.1 presupuesto.doc,4,General,1,0,6,,False,False,False,,,,,2,,,,,,,,True
+25,Imprimir Cobro,5,,Gestión de Cobros\recibí (formato a4).doc,3,General,2,1,,,False,False,False,,,,,,,,,,,,,True
+26,Imprimir Factura,21,,facturas\oficiales\clientes\1.1 factura oficial.doc,5,General,2,1,,,False,False,False,,,,,,,,,,,,,True
+27,Imprimir Informe,37,,Pacientes\2.2 informe paciente detallado.doc,12,Informes,2,1,,,False,False,False,,,,,,,,,,,,,True
+28,Formulario Registro + Firma LOPD Correo,30,2,,15,LOPD,0,0,,,,,,,,,,,,,,,,,,True
+29,Enviar Compra Correo,51,6,Clientes\Compras\1.1 pedido proveedor.doc,25,General,0,0,,,False,False,False,,,,,,,,,,,,,True
+30,Imprimir Compra,51,,Clientes\Compras\1.1 pedido proveedor.doc,14,General,2,1,,,False,False,False,,,,,,,,,,,,,True
+31,Firma LOPD WhatsApp,30,,Clientes\1.1 documento lopd.doc,1,LOPD,1,0,10,,False,False,False,,,,,2,,,,,,,,True
+32,Imprimir LOPD,30,,Clientes\1.1 documento lopd.doc,7,LOPD,2,1,,,False,False,False,,,,,,,,,,,,,True
+33,Aceptar Domiciliación Bancaria Correo,37,,Pacientes\1.5 autorización de domiciliación (para particular).doc,17,Domiciliación Bancaria,0,1,,,False,False,False,,,,,,,,,,,,,True
+35,Imprimir Autorización Domiciliación Bancaria,37,,Pacientes\1.5 autorización de domiciliación (para particular).doc,8,Domiciliación Bancaria,2,1,,,False,False,False,,,,,,,,,,,,,True
+36,Imprimir Autorización Domiciliación Bancaria,30,,Clientes\1.3 autorización de domiciliación (para particular) (vs20.12).doc,6,Domiciliación Bancaria,2,1,,,False,False,False,,,,,,,,,,,,,True
+37,Firma Consentimiento Grabación Imagen WhatsApp,37,,Pacientes\1.2 autorización grabación imágenes (videoconsultas).doc,6,Consentimientos,1,0,4,,False,False,False,,,,,2,,,,,,,,True
+40,Firma LOPD Correo,29,,,11,LOPD,0,0,,,False,False,False,,,,,,,,,,,,,True
+41,Formulario Registro + Firma LOPD Correo,29,2,,12,LOPD,0,0,,,False,False,False,,,,,,,,,,,,,True
+42,Valoración,37,,,22,General,0,0,,,False,False,False,,,,,,,,,,,,,True
+48,Formulario Registro + Firma LOPD WhatsApp,30,,,3,LOPD,1,0,14,,False,False,False,,,,,2,,,,,,,,True
+49,Aceptar Domiciliación Bancaria WhatsApp,37,,Pacientes\1.5 autorización de domiciliación (para particular).doc,11,Domiciliación Bancaria,1,0,4,,False,False,False,,,,,2,,,,,,,,True
+50,Aceptar Domiciliación Bancaria WhatsApp,30,,Clientes\1.3 autorización de domiciliación (para particular).doc,8,Domiciliación Bancaria,1,0,4,,False,False,False,,,,,2,,,,,,,,True
+52,Imprimir Ticket de Cobro,5,,Gestión de Cobros\ticket cobro.doc,1,General,2,1,,,False,False,False,,,,,,,,,,,,,True
+53,Imprimir Consentimiento Uso Imagen,37,,Pacientes\1.2 autorización grabación imágenes (videoconsultas).doc,10,Consentimientos,2,1,,,False,False,False,,,,,,,,,,,,,True
+54,Imprimir Historia Clínica,37,,Pacientes\1.6 Informe Historia Clínica.doc,11,Informes,2,1,,,False,False,False,,,,,,,,,,,,,True
+55,Cobro con Tarjeta,5,,,5,General,1,0,9,,False,False,False,,,,,2,,,,,,,,True
+56,Aceptar Domiciliación Bancaria Correo,30,,Clientes\1.3 autorización de domiciliación (para particular).doc,13,Domiciliación Bancaria,0,1,,,False,False,False,,,,,,,,,,,,,True
+57,Cobro con Tarjeta,5,,,8,General,0,0,,,False,False,False,,,,,,,,,,,,,True
+58,Actualización Datos,37,,,12,General,1,0,8,,False,False,False,,,,,2,,,,,,,,True
+59,Confirmación Cita Whatsapp,0,,,0,Recordatorio / Confirmación Cita,1,0,100000017,,False,False,False,,,,,1,,,,,,,,True
+60,Firma LOPD WhatsApp,30,,,1,LOPD,1,0,100000017,,False,False,False,,,,,1,,,,,,,,True
+61,Recordatorio Cita Whatsapp,0,,,2,Recordatorio / Confirmación Cita,1,0,100000016,,False,False,False,,,,,1,,,,,,,,True
+62,Formulario Registro + Firma LOPD WhatsApp,30,,,3,LOPD,1,0,3,,False,False,False,,,,,1,,,,,,,,True
+63,Aceptar Presupuesto Whatsapp,1,,Clientes\Oportunidades\1.1 presupuesto.doc,4,General,1,0,11,,False,False,False,,,,,1,,,,,,,,True
+64,Cobro con Tarjeta,5,,,5,General,1,0,100000021,,False,False,False,,,,,1,,,,,,,,True
+65,Firma Consentimiento Grabación Imagen WhatsApp,37,,Pacientes\1.2 autorización grabación imágenes (videoconsultas).doc,6,Consentimientos,1,0,100000018,,False,False,False,,,,,1,,,,,,,,True
+66,Firma Consentimiento Informado Whatsapp,37,,Pacientes\1.3 consentimiento informado.doc,7,Consentimientos,1,0,100000018,,False,False,False,,,,,1,,,,,,,,True
+67,Aceptar Domiciliación Bancaria WhatsApp,30,,Clientes\1.3 autorización de domiciliación (para particular).doc,8,Domiciliación Bancaria,1,0,100000018,,False,False,False,,,,,1,,,,,,,,True
+68,Firma LOPD WhatsApp,37,,,9,LOPD,1,0,100000017,,False,False,False,,,,,1,,,,,,,,True
+69,Formulario Registro + Firma LOPD WhatsApp,37,,,10,LOPD,1,0,3,,False,False,False,,,,,1,,,,,,,,True
+70,Aceptar Domiciliación Bancaria WhatsApp,37,,Pacientes\1.5 autorización de domiciliación (para particular).doc,11,Domiciliación Bancaria,1,0,100000018,,False,False,False,,,,,1,,,,,,,,True
+71,Actualización Datos,37,,,12,General,1,0,12,,False,False,False,,,,,1,,,,,,,,True
+73,Imprimir LOPD,30,,clientes\Documento LOPD.docx,1,General,2,1,,,False,False,False,,,,,,,,7,,False,D20E4FE5-3595-47E0-9EA7-E1495895AA4F,True,
+74,Firma LOPD,30,,clientes\Documento LOPD.docx,2,General,1,1,23,,False,False,False,,,,,2,,,1,,,F502ABEB-EC1B-4D1B-8B9B-72F6FA8F536F,True,
+75,Firma LOPD,40,60,Trabajadores\1.1 Lopd básico.doc,3,General,0,1,,,False,False,False,,,,,,,,1,,,F4F2F591-3CB5-47EE-942C-8D0494EEF959,True,
+76,Recordatorio Acceso Web,40,8,,4,General,0,0,,,False,False,False,,,,,,,,5,,,B6A04E66-3795-40AE-8338-752C934F423C,True,
+77,Formulario Registro + LOPD,30,,,5,General,1,0,36,,False,False,False,,,,,2,8,,2,,,262E28A2-0F5B-425D-8A95-7F4482020ECA,True,
+78,Formulario Registro + LOPD,30,16,,6,General,0,0,,,False,False,False,,,,,2,8,,2,,True,D6E99BFB-795D-4530-9FFA-CD6F2D731C8A,True,
+79,Registro+LOPD+Cuestionario Salud,37,66,,7,General,0,0,,,False,False,False,,,,,2,9,,2,False,True,29C24D0F-A7EA-44BC-9BE0-CF19409E91B9,True,
+80,Registro + LOPD ,37,51,,8,General,0,0,,,False,False,False,,,,,2,10,,2,False,True,FDD16C23-0BD6-4C8F-874C-344CF5C7E86F,True,
+81,Firma LOPD,37,60,pacientes\Documento LOPD.docx,9,General,0,1,,,False,False,False,,,,,,,,1,False,False,DCA8900F-D7E2-4C83-BCBB-23699F3BCDD9,True,
+82,Firma LOPD ,37,,,10,General,1,0,23,,False,False,False,,,,,2,,,1,,,3793B685-5500-4F34-9A27-8EA67F381C46,True,
+83,Imprimir LOPD ,37,,pacientes\Documento LOPD.docx,11,General,2,1,,,False,False,False,,,,,,,,7,,,18130FBA-DA62-4731-B1FF-65D8F7FF4F61,True,
+84,Firma Consentimiento Informado,37,,pacientes\Consentimiento Informado.docx,12,General,1,1,24,,False,False,False,,,,,2,,,1,,,7FA567A4-0215-40C3-93CE-86C26A6E553F,True,
+85,Imprimir Consentimiento Informado,37,,pacientes\Consentimiento Informado.docx,13,General,2,1,,,False,False,False,,,,,,,,7,,,68648759-A488-4450-B4DD-CFF2BCD20C15,True,
+86,Informe Historia Clínica,37,,pacientes\Informe Historia Clínica.docx,14,General,1,1,26,,False,False,False,,,,,2,,,4,,False,3D29867D-4788-41AA-9859-660EA26ACC96,True,
+87,Informe Historia Clínica ,37,67,pacientes\Informe Historia Clínica.docx,15,General,0,1,,,False,False,False,,,,,,,,4,False,True,92299C97-83DF-4408-ADDE-43D0C66D72B2,True,
+88,Consentimiento Grabación Imágenes,37,41,pacientes\Consentimiento Grabación Imágenes.doc,16,General,0,1,,,False,False,False,,,,,,,,1,True,True,5D1DBCAD-DE24-436D-966C-D9D0AF26ED19,True,
+89,Consentimiento Grabación Imágenes ,37,,pacientes\Consentimiento Grabación Imágenes.doc,17,General,1,1,24,,False,False,False,,,,,2,,,1,,True,682F5F68-528C-4DC4-8127-D7523555442D,True,
+90,Solicitar Valoración ,37,62,,18,General,0,0,,,False,False,False,,,,,,,,5,True,True,B46DEECA-2464-4DDA-B4C8-5ED040DF7FD3,True,
+91,Recordatorio Cita,0,,,19,General,1,0,48,,False,False,False,,,,,2,,,6,,True,BCD26EEF-1282-4910-BBB7-87BB744BA4D5,True,
+92,Recordatorio Cita ,0,64,,20,General,0,0,,,False,False,False,,,,,,,,5,False,True,EA3EA19A-94FC-4C2D-8AEC-E723719A7068,True,
+93,Recordatorio Cita con solicitud de confirmación,0,,,21,General,1,0,30,,False,False,False,,,,,2,,,6,,True,A31333E4-76FD-4C32-8C68-B3CC6C3F176A,True,
+94,Recordatorio Cita con solicitud de confirmación ,0,40,,22,General,0,0,,,False,False,False,,,,,,,,5,False,True,297A0B44-E89E-4200-96D9-CF814101D38E,True,
+95,Registro+LOPD+Cuestionario Salud,0,66,,23,General,0,0,,,False,False,False,,,,,2,9,,2,True,True,AFB79D54-B463-4801-B2A2-8F74C538224D,True,
+96,Firma LOPD ,0,60,pacientes\Documento LOPD.docx,24,General,0,1,,,False,False,False,,,,,,,,1,True,True,E5B6A9B6-A603-4787-8E61-85A07CD282F2,True,
+97,Firma LOPD ,0,,pacientes\Documento LOPD.docx,25,General,1,1,23,,False,False,False,,,,,2,,,1,,,A750615C-1984-4D43-BEF7-FF0CF3D761D3,True,
+98,Firma Consentimiento Informado ,0,,pacientes\Consentimiento Informado.docx,26,General,1,1,24,,False,False,False,,,,,2,,,1,,,72A2191D-8083-4D1F-B7C2-04B5EE7827B2,True,
+99,Enviar Justificante Asistencia,0,,Pacientes\Justificante de Asistencia Médica.doc,27,General,1,1,27,,False,False,False,,,,,2,,,4,,True,4841D682-6FBA-49F1-982E-EF0DB5729E7E,True,
+100,Enviar Justificante Asistencia ,0,54,Pacientes\Justificante de Asistencia Médica.doc,28,General,0,1,,,False,False,False,,,,,,,,4,False,False,46355E7C-D696-488A-8749-24ED25D2D551,True,
+101,Solicitar Valoración ,0,62,,29,General,0,0,,,False,False,False,,,,,,,,5,,True,4E28C709-02D0-4861-9E1B-A0F750C24829,True,
+102,Imprimir y Enviar Recibí,5,,gestión de cobros\Recibí.doc,30,General,1,1,32,,False,False,False,,,,,2,,,4,,,59F32B85-7FCE-410B-88CE-EBD49BC528E4,True,
+103,Imprimir y Enviar Recibí,5,65,gestión de cobros\Recibí.doc,31,General,0,1,,,False,False,False,,,,,,,,4,False,False,1568ADE6-7107-4D9C-B46F-771B165684A2,True,
+104,Imprimir Recibí de Cobro,5,,gestión de cobros\Recibí.doc,32,General,2,1,,,False,False,False,,,,,,,,7,,,8B902CCD-D38D-4AEF-AF8C-0F5BD429CE81,True,
+105,Solicitar Cobro con Tarjeta,5,,,33,General,1,0,47,,False,False,False,,,,,2,,,6,,,488BD0F9-3194-436E-9984-C2A6C5864D75,True,
+106,Aviso de Impago,5,,,35,General,1,0,33,,False,False,False,,,,,2,,,6,False,,1777F089-C3C2-43AE-B420-6F492B51B0EA,True,
+107,Imprimir y Enviar Factura,21,,facturas\oficiales\clientes\Factura Oficial.docx,36,General,1,1,22,,False,False,False,,,,,2,,,4,,,0034359E-2151-455F-ACBD-85124FDB64E1,True,
+108,Imprimir y Enviar Factura ,21,58,facturas\oficiales\clientes\Factura Oficial.docx,37,General,0,1,,,False,False,False,,,,,,,,4,False,False,1CA3AFD2-90A0-49B1-AB06-6FBB4D569753,True,
+109,Imprimir Factura,21,,facturas\oficiales\clientes\Factura Oficial.docx,38,General,2,0,,,False,False,False,,,,,,,,7,False,,B75FC8F5-7CAB-4B95-BAD2-1709D4ED2626,True,
+110,Registro+LOPD+Cuestionario Salud,37,,,39,General,1,0,39,,False,False,False,,,,,2,9,,2,,,2D154B9D-0338-4E1B-8B97-34B76B373E3D,True,
+111,Registro + LOPD,37,,,40,General,1,0,21,,False,False,False,,,,,2,10,,2,,,84CBAE90-29D6-422F-9319-B503CE1215C0,True,
+112,Registro+LOPD+Cuestionario Salud,0,,,41,General,1,0,39,,False,False,False,,,,,2,9,,2,False,False,BDCEDAE1-17A0-457E-81D3-48C8E34991CF,True,
+113,Aviso de Cobro,5,56,,42,General,0,0,,,False,False,False,,,,,,,,5,,True,C69F8E5E-0072-46AA-A2FE-9FFD4DF24427,True,
+114,Aviso de Cobro,5,,,43,General,1,0,40,,False,False,False,,,,,2,,,6,,False,0E69C6BA-0B98-46DF-BBE1-73E16CC3C719,True,
+115,Aviso de Impago,5,68,,44,General,0,0,,,False,False,False,,,,,,,,5,,True,CF75392A-F9AD-4273-9F75-158CA84501F7,True,
+116,Registro en Acceso Pacientes,37,69,,45,General,0,0,,,False,False,False,,,,,,,,5,,True,95588EBC-A8A2-44DF-B1B2-1C2862EED72C,True,
+117,Actualización Datos,37,70,,46,General,0,0,,,False,False,False,,,,,2,11,,2,,True,8A1D966D-6DAB-4BC3-8D61-31AB59C7AC58,True,
+118,Actualización Datos,37,,,47,General,1,0,37,,False,False,False,,,,,2,11,,2,,True,16FFE20A-F620-4A87-89A3-2C4957E65C5A,True,
+119,Formulario Registro,37,43,,48,General,0,0,,,False,False,False,,,,,2,12,,2,,True,7B779BD6-BF21-4A16-9548-B7B52CBFE55D,True,
+120,Formulario Registro,37,,,49,General,1,0,41,,False,False,False,,,,,2,12,,2,,True,F7AB12B7-9622-452E-B08F-B68709335716,True,
+121,Registro Menor de Edad + LOPD,37,44,,50,General,0,0,,,False,False,False,,,,,2,13,,2,,True,3AB2E2C5-611B-4BFE-9173-3D05256FE0E4,True,
+122,Registro Menor de Edad + LOPD,37,,,51,General,1,0,42,,False,False,False,,,,,2,13,,2,,True,C4EE32EA-526A-41C7-B90F-F4D0CC5FEA96,True,
+123,Registro en Acceso Clientes,30,69,,52,General,0,0,,,False,False,False,,,,,,,,5,,True,DBC71A51-BED1-4C88-A9A1-F1435BBEB43E,True,
+124,Imprimir LOPD,40,,trabajadores\Documento LOPD.docx,53,General,2,0,,,False,False,False,,,,,,,,7,,,3B59CA23-5E47-4543-BD05-9F146C72A146,True,
+125,Formulario Registro + LOPD,40,53,,54,General,0,0,,,False,False,False,,,,,2,14,,2,,,CCE23D56-E246-46F1-976A-0952E5082531,True,
+126,Formulario Registro + LOPD,40,,,55,General,1,0,43,,False,False,False,,,,,2,14,,2,,True,025A02C4-8E65-4D9D-96FC-67259A1B2161,True,
+127,Formulario de Contacto,29,71,,56,General,0,0,,,False,False,False,,,,,2,15,,2,,,EE0FC170-8957-45AD-B1A6-CA1BB31F08D5,True,
+128,Formulario de Contacto,29,,,57,General,1,0,44,,False,False,False,,,,,2,15,,2,,,D8180560-8B37-44D9-98E4-10E64387C303,True,
+129,Informe Historia Clínica,0,,pacientes\Informe Historia Clínica.docx,58,General,2,0,,,False,False,False,,,,,,,,7,,True,59F4E86F-F101-4D6D-92C2-E750A17C084A,True,
+130,Imprimir Justificante Asistencia,0,,Pacientes\Justificante de Asistencia Médica.doc,59,General,2,0,,,False,False,False,,,,,,,,7,,True,CC19BB31-C782-4545-BCF1-8901CFC7FFDB,True,
+131,Enviar Informe Historia Clínica,0,67,pacientes\Informe Historia Clínica.docx,60,General,0,1,,,False,False,False,,,,,,,,4,False,True,0BC34663-3EF9-4BA0-9E42-786C86003428,True,
+132,Enviar Informe Historia Clínica,0,,pacientes\Informe Historia Clínica.docx,61,General,1,1,38,,False,False,False,,,,,2,,,4,,False,674131AB-2180-430E-BECC-3100CA4D265E,True,
+133,Imprimir LOPD,0,,pacientes\Documento LOPD.docx,62,General,2,0,,,False,False,False,,,,,,,,7,,,C8274D21-F5F2-4194-9483-4BFB1CF76773,True,
+134,Imprimir Consentimiento Informado,0,,pacientes\Consentimiento Informado.docx,63,General,2,0,,,False,False,False,,,,,,,,7,,,F3C1758D-A230-4C71-971D-509054102562,True,
+135,Firma Consentimiento Informado,0,59,pacientes\Consentimiento Informado.docx,64,General,0,1,,,False,False,False,,,,,,,,1,False,True,2EEEE736-A24F-48A6-A4EA-41B94320713E,True,
+136,Registro + LOPD,0,,,65,General,1,0,21,,False,False,False,,,,,2,10,,2,,False,82B29378-7AD2-4439-9943-BF08CD3B8DE2,True,
+137,Registro Paciente,0,,,66,General,1,0,41,,False,False,False,,,,,2,12,,2,,True,8C3EEFCE-3895-41D8-B0C5-1708B62F9528,True,
+138,Registro + LOPD,0,51,,67,General,0,0,,,False,False,False,,,,,2,10,,2,True,True,3A887801-6F8B-438C-9DFB-04836ED902FE,True,
+139,Registro Paciente,0,43,,68,General,0,0,,,False,False,False,,,,,2,12,,2,True,True,D1CA0B05-9FF1-4B86-9B8F-CC376CC60AEC,True,
+140,Solicitar Aceptación Presupuesto,27,55,facturas\presupuestos\clientes\Presupuesto.doc,69,General,0,1,,,False,False,False,,,,,,,,1,,,8C230FE4-22D0-49DA-B658-342BDD15C5E9,True,
+141,Solicitar Aceptación Presupuesto,27,,facturas\presupuestos\clientes\Presupuesto.doc,70,General,1,1,49,,False,False,False,,,,,2,,,1,,,3EA35516-0C3A-4FDE-ADCD-C31DAF958734,True,
+142,Imprimir Presupuesto,27,,facturas\presupuestos\clientes\Presupuesto.doc,71,General,2,0,,,False,False,False,,,,,,,,7,,,EB9B1262-01A2-4419-A615-17977C6CD53B,True,
+143,Firma Consentimiento Informado,37,59,pacientes\Consentimiento Informado.docx,72,General,0,1,,,False,False,False,,,,,,,,1,False,True,E0CFFF31-5D3E-4125-99B1-7DE757B39B2C,True,
+144,Firma LOPD,30,60,clientes\Documento LOPD.docx,73,General,0,1,,,False,False,False,,,,,,,,1,,False,9B1FD230-FFFF-4BEE-9F84-9DB3EE7D2B6D,True,
+100000002,Formulario Registro + Firma LOPD Correo,37,100000002,,15,LOPD,0,0,,,,,,,,,,,,,,,,,,True
+100000004,Firma Consentimiento Informado Correo,37,200000006,Pacientes\1.3 consentimiento informado (vs20.12).doc,17,Consentimientos,0,0,,,False,False,False,,,,,,,,,,,,,True
+100000005,Firma LOPD Whatsapp,37,,Pacientes\1.1 documento lopd (vs20.12).doc,5,LOPD,1,0,200000018,,,,,,,,,,,,,,,,,True
+100000006,Firma Consentimiento Informado Whatsapp,37,,Pacientes\1.3 consentimiento informado (vs20.12).doc,6,Consentimientos,1,0,200000018,,,,,,,,,,,,,,,,,True
+100000008,Imprimir LOPD,37,,Pacientes\1.1 documento lopd (vs20.12).doc,7,LOPD,2,0,,,,,,,,,,,,,,,,,,True
+100000009,Imprimir Consentimiento Informado,37,,Pacientes\1.3 consentimiento informado (vs20.12).doc,8,Consentimientos,2,0,,,,,,,,,,,,,,,,,,True
+100000011,Valoración,0,200000012,,3,General,0,0,,,,,,,,,,,,,,,,,,True
+100000013,Formulario Registro + Firma LOPD Whatsapp,37,,,4,LOPD,1,0,100000003,,,,,,,,,,,,,,,,,True
+100000014,Recordatorio Cita Whatsapp,0,,,0,General,1,0,200000016,,,,,,,,,,,,,,,,,True
+100000015,Confirmación Cita Whatsapp,0,,,1,General,1,0,200000017,,,,,,,,,,,,,,,,,True
+100000016,Enviar Justificante Asistencia Correo,0,100000003,Pacientes\3.1 justificante de asistencia médica (vs20.12).doc,2,Justificantes Asistencia,0,0,,,,,,,,,,,,,,,,,,True
+100000017,Informe Correo,37,100000005,Pacientes\2.2 informe paciente detallado (vs20.12).doc,18,Informes,0,0,,,,,,,,,,,,,,,,,,True
+100000018,Formulario COVID,37,,,8,General,1,0,100000004,,,,,,,,,,,,,,,,,True
+100000019,Ticket Cita Correo,0,200000014,Pacientes\4.1 ticket cita (vs20.12).doc,1,Ticket Cita,0,0,,,,,,,,,,,,,,,,,,True
+100000020,Imprimir Justificante Asistencia,0,,Pacientes\3.1 justificante de asistencia médica (vs20.12).doc,0,Justificantes Asistencia,2,0,,,,,,,,,,,,,,,,,,True
+100000021,Imprimir Ticket de Cita,0,,Pacientes\4.1 ticket cita (vs20.12).doc,1,Ticket Cita,2,0,,,,,,,,,,,,,,,,,,True
+100000022,Imprimir Presupuesto,1,,Clientes\Oportunidades\1.1 presupuesto (vs20.12).doc,2,General,2,0,,,False,False,False,,,,,,,,,,,,,True
+100000023,Aceptar Presupuesto Correo,1,200000008,Clientes\Oportunidades\1.1 presupuesto (vs20.12).doc,5,General,0,0,,,False,False,False,,,,,,,,,,,,,True
+100000024,Aceptar Presupuesto Whatsapp,1,,Clientes\Oportunidades\1.1 presupuesto (vs20.12).doc,2,General,1,0,200000018,,False,False,False,,,,,,,,,,,,,True
+100000025,Imprimir Cobro,5,,Gestión de Cobros\recibí (formato a4) (vs20.12).doc,3,General,2,0,,,,,,,,,,,,,,,,,,True
+100000026,Imprimir Factura,21,,Facturas\Oficiales\Clientes\1.1 factura oficial (vs20.12).doc,4,General,2,0,,,,,,,,,,,,,,,,,,True
+100000027,Imprimir Informe,37,,Pacientes\2.2 informe paciente detallado (vs20.12).doc,9,Informes,2,0,,,,,,,,,,,,,,,,,,True
+100000028,Formulario Registro + Firma LOPD Correo,30,100000002,,13,LOPD,0,0,,,,,,,,,,,,,,,,,,True
+100000029,Enviar Compra Correo,51,100000006,Clientes\Compras\1.1 pedido proveedor.doc,23,General,0,0,,,False,False,False,,,,,,,,,,,,,True
+100000030,Imprimir Compra,51,,Clientes\Compras\1.1 pedido proveedor.doc,11,General,2,0,,,False,False,False,,,,,,,,,,,,,True
+100000031,Firma LOPD Whatsapp,30,,Clientes\1.1 documento lopd (vs20.12).doc,3,LOPD,1,0,200000018,,,,,,,,,,,,,,,,,True
+100000032,Imprimir LOPD,30,,Clientes\1.1 documento lopd (vs20.12).doc,5,LOPD,2,0,,,,,,,,,,,,,,,,,,True
+100000033,Aceptar Domiciliación Bancaria Correo,37,200000006,Pacientes\1.5 autorización de domiciliación (para particular).doc,19,Domiciliación Bancaria,0,0,,,False,False,False,,,,,,,,,,,,,True
+100000034,Aceptar Domiciliación Bancaria Whatsapp,37,,Pacientes\1.5 autorización de domiciliación (para particular).doc,9,Domiciliación Bancaria,1,0,200000018,,False,False,False,,,,,,,,,,,,,True
+100000035,Imprimir Autorización Domiciliación Bancaria,37,,Pacientes\1.5 autorización de domiciliación (para particular).doc,10,Domiciliación Bancaria,2,0,,,False,False,False,,,,,,,,,,,,,True
+100000036,Imprimir Autorización Domiciliación Bancaria,30,,Clientes\1.3 autorización de domiciliación (para particular) (vs20.12).doc,6,Domiciliación Bancaria,2,0,,,,,,,,,,,,,,,,,,True
+100000037,Firma Consentimiento Uso Imagen Whatsapp,37,,Pacientes\1.2 autorización grabación imágenes (videoconsultas) (vs20.12).doc,7,Consentimientos,1,0,200000018,,False,False,False,,,,,,,,,,,,,True
+100000040,Firma LOPD Correo,29,200000010,,10,LOPD,0,0,,,False,False,False,,,,,,,,,,,,,True
+100000041,Formulario Registro + Firma LOPD Correo,29,100000002,,11,LOPD,0,0,,,False,False,False,,,,,,,,,,,,,True
+100000042,Valoración,37,200000012,,20,General,0,0,,,False,False,False,,,,,,,,,,,,,True
+200000007,Firma LOPD Correo,30,200000007,Clientes\1.1 documento lopd (vs20.12).doc,12,LOPD,0,0,,,,,,,,,,,,,,,,,,True
+200000008,Firma LOPD,41,200000010,,22,General,0,0,,,,,,,,,,,,,,,,,,True
+200000009,Firma LOPD Correo,37,200000007,Pacientes\1.1 documento lopd (vs20.12).doc,16,LOPD,0,0,,,,,,,,,,,,,,,,,,True
+200000010,Firma LOPD,34,200000010,,14,General,0,0,,,,,,,,,,,,,,,,,,True
+200000011,Firma LOPD Correo,40,200000010,,21,General,0,0,,,,,,,,,,,,,,,,,,True
+200000012,Enviar Presupuesto,1,200000008,Clientes\Oportunidades\1.1 presupuesto (vs20.12).doc,4,General,0,0,,,False,False,False,,,,,,,,,,,,,True
+200000013,Enviar Factura Correo,21,200000005,Facturas\Oficiales\Clientes\1.1 factura oficial (vs20.12).doc,9,General,0,1,,,False,False,False,,,,,,,,,,,,,True
+200000014,Aviso de Cobro,5,200000001,,6,General,0,0,,,,,,,,,,,,,,,,,,True
+200000015,Aviso de Impago,5,200000002,,7,General,0,0,,,,,,,,,,,,,,,,,,True
+200000016,Cobro Realizado,5,200000020,gestión de cobros\recibí (formato a4) (vs20.12).doc,8,General,0,0,,,,,,,,,,,,,,,,,,True
+200000017,Recordatorio Cita,0,200000014,,0,General,0,0,,,,,,,,,,,,,,,,,,True

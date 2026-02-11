@@ -1,0 +1,208 @@
+﻿id,icodcli,descripcion,meses,dosis,notas,fechaVacuna,realizada,fechaRealizacion,icodsubusu
+53,1,Hepatitis,0,,"{\rtf1\ansi\ansicpg1252\deff0\deflang3082{\fonttbl{\f0\fnil\fcharset0 Microsoft Sans Serif;}}
+\viewkind4\uc1\pard\f0\fs20\par
+}
+",2009-04-21 00:00:00,True,2009-04-21 00:00:00,0
+54,1,Hepatitis,2,,"{\rtf1\ansi\ansicpg1252\deff0\deflang3082{\fonttbl{\f0\fnil\fcharset0 Microsoft Sans Serif;}}
+\viewkind4\uc1\pard\f0\fs20\par
+}
+",2009-06-21 00:00:00,True,2009-06-21 00:00:00,0
+55,1,"Disferia, tétanos y tosferina",2,,"{\rtf1\ansi\ansicpg1252\deff0\deflang3082{\fonttbl{\f0\fnil\fcharset0 Microsoft Sans Serif;}}
+\viewkind4\uc1\pard\f0\fs20\par
+}
+",2009-06-21 00:00:00,True,2009-06-21 00:00:00,0
+56,1,Haemophilus influenzae tipo b,2,,"{\rtf1\ansi\ansicpg1252\deff0\deflang3082{\fonttbl{\f0\fnil\fcharset0 Microsoft Sans Serif;}}
+\viewkind4\uc1\pard\f0\fs20\par
+}
+",2009-06-21 00:00:00,True,2009-06-21 00:00:00,0
+57,1,Poliomielitis,2,,"{\rtf1\ansi\ansicpg1252\deff0\deflang3082{\fonttbl{\f0\fnil\fcharset0 Microsoft Sans Serif;}}
+\viewkind4\uc1\pard\f0\fs20\par
+}
+",2009-06-21 00:00:00,True,2009-06-21 00:00:00,0
+58,1,Meningococo C,2,,"{\rtf1\ansi\ansicpg1252\deff0\deflang3082{\fonttbl{\f0\fnil\fcharset0 Microsoft Sans Serif;}}
+\viewkind4\uc1\pard\f0\fs20\par
+}
+",2009-06-21 00:00:00,True,2009-06-21 00:00:00,0
+59,1,Neumococo,2,,"{\rtf1\ansi\ansicpg1252\deff0\deflang3082{\fonttbl{\f0\fnil\fcharset0 Microsoft Sans Serif;}}
+\viewkind4\uc1\pard\f0\fs20\par
+}
+",2009-06-21 00:00:00,True,2009-06-21 00:00:00,0
+60,1,Neumococo,4,,"{\rtf1\ansi\ansicpg1252\deff0\deflang3082{\fonttbl{\f0\fnil\fcharset0 Microsoft Sans Serif;}}
+\viewkind4\uc1\pard\f0\fs20\par
+}
+",2009-08-21 00:00:00,True,2009-08-21 00:00:00,0
+61,1,Meningococo C,4,,"{\rtf1\ansi\ansicpg1252\deff0\deflang3082{\fonttbl{\f0\fnil\fcharset0 Microsoft Sans Serif;}}
+\viewkind4\uc1\pard\f0\fs20\par
+}
+",2009-08-21 00:00:00,True,2009-08-21 00:00:00,0
+62,1,Poliomielitis,4,,"{\rtf1\ansi\ansicpg1252\deff0\deflang3082{\fonttbl{\f0\fnil\fcharset0 Microsoft Sans Serif;}}
+\viewkind4\uc1\pard\f0\fs20\par
+}
+",2009-08-21 00:00:00,True,2009-08-21 00:00:00,0
+63,1,Haemophilus influenzae tipo b,4,,"{\rtf1\ansi\ansicpg1252\deff0\deflang3082{\fonttbl{\f0\fnil\fcharset0 Microsoft Sans Serif;}}
+\viewkind4\uc1\pard\f0\fs20\par
+}
+",2009-08-21 00:00:00,True,2009-08-21 00:00:00,0
+64,1,"Disferia, tétanos y tosferina",4,,"{\rtf1\ansi\ansicpg1252\deff0\deflang3082{\fonttbl{\f0\fnil\fcharset0 Microsoft Sans Serif;}}
+\viewkind4\uc1\pard\f0\fs20\par
+}
+",2009-08-21 00:00:00,True,2009-08-21 00:00:00,0
+65,1,Hepatitis,4,,"{\rtf1\ansi\ansicpg1252\deff0\deflang3082{\fonttbl{\f0\fnil\fcharset0 Microsoft Sans Serif;}}
+\viewkind4\uc1\pard\f0\fs20\par
+}
+",2009-08-21 00:00:00,True,2009-08-21 00:00:00,0
+66,1,Hepatitis,6,,"{\rtf1\ansi\ansicpg1252\deff0\deflang3082{\fonttbl{\f0\fnil\fcharset0 Microsoft Sans Serif;}}
+\viewkind4\uc1\pard\f0\fs20\par
+}
+",2009-10-21 00:00:00,True,2009-10-21 00:00:00,0
+67,1,"Disferia, tétanos y tosferina",6,,"{\rtf1\ansi\ansicpg1252\deff0\deflang3082{\fonttbl{\f0\fnil\fcharset0 Microsoft Sans Serif;}}
+\viewkind4\uc1\pard\f0\fs20\par
+}
+",2009-10-21 00:00:00,True,2009-10-21 00:00:00,0
+68,1,Haemophilus influenzae tipo b,6,,"{\rtf1\ansi\ansicpg1252\deff0\deflang3082{\fonttbl{\f0\fnil\fcharset0 Microsoft Sans Serif;}}
+\viewkind4\uc1\pard\f0\fs20\par
+}
+",2009-10-21 00:00:00,True,2009-10-21 00:00:00,0
+69,1,Poliomielitis,6,,"{\rtf1\ansi\ansicpg1252\deff0\deflang3082{\fonttbl{\f0\fnil\fcharset0 Microsoft Sans Serif;}}
+\viewkind4\uc1\pard\f0\fs20\par
+}
+",2009-10-21 00:00:00,True,2009-10-21 00:00:00,0
+70,1,Neumococo,6,,"{\rtf1\ansi\ansicpg1252\deff0\deflang3082{\fonttbl{\f0\fnil\fcharset0 Microsoft Sans Serif;}}
+\viewkind4\uc1\pard\f0\fs20\par
+}
+",2009-10-21 00:00:00,True,2009-10-21 00:00:00,0
+71,1,Neumococo,12,,"{\rtf1\ansi\ansicpg1252\deff0\deflang3082{\fonttbl{\f0\fnil\fcharset0 Microsoft Sans Serif;}}
+\viewkind4\uc1\pard\f0\fs20\par
+}
+",2010-04-21 00:00:00,True,2010-04-21 00:00:00,0
+72,1,"Sarampión, rubeola y parotiditis",12,,"{\rtf1\ansi\ansicpg1252\deff0\deflang3082{\fonttbl{\f0\fnil\fcharset0 Microsoft Sans Serif;}}
+\viewkind4\uc1\pard\f0\fs20\par
+}
+",2010-04-21 00:00:00,True,2010-04-21 00:00:00,0
+73,1,Meningococo C,12,,"{\rtf1\ansi\ansicpg1252\deff0\deflang3082{\fonttbl{\f0\fnil\fcharset0 Microsoft Sans Serif;}}
+\viewkind4\uc1\pard\f0\fs20\par
+}
+",2010-04-21 00:00:00,True,2010-04-21 00:00:00,0
+77,1,"Sarampión, rubeola y parotiditis",84,,"{\rtf1\ansi\ansicpg1252\deff0\deflang3082{\fonttbl{\f0\fnil\fcharset0 Microsoft Sans Serif;}}
+\viewkind4\uc1\pard\f0\fs20\par
+}
+",2011-04-21 00:00:00,True,2011-04-21 00:00:00,0
+79,1,"Disferia, tétanos y tosferina",0,,"{\rtf1\ansi\ansicpg1252\deff0\deflang3082{\fonttbl{\f0\fnil\fcharset0 Microsoft Sans Serif;}}
+\viewkind4\uc1\pard\f0\fs20\par
+}
+",2013-04-21 00:00:00,True,2013-04-21 00:00:00,0
+80,1,"Disferia, tétanos y tosferina",132,,,2020-04-21 00:00:00,False,,0
+81,1,Meningococo C,132,,,2020-04-21 00:00:00,False,,0
+82,1,Virus del papiloma humano,132,,,2020-04-21 00:00:00,False,,0
+83,13,Hepatitis,0,,"{\rtf1\ansi\ansicpg1252\deff0\deflang3082{\fonttbl{\f0\fnil\fcharset0 Microsoft Sans Serif;}}
+\viewkind4\uc1\pard\f0\fs20\par
+}
+",2011-02-19 00:00:00,True,2011-02-19 00:00:00,0
+84,13,Hepatitis,2,,"{\rtf1\ansi\ansicpg1252\deff0\deflang3082{\fonttbl{\f0\fnil\fcharset0 Microsoft Sans Serif;}}
+\viewkind4\uc1\pard\f0\fs20\par
+}
+",2011-04-19 00:00:00,True,2011-04-19 00:00:00,0
+85,13,"Disferia, tétanos y tosferina",2,,"{\rtf1\ansi\ansicpg1252\deff0\deflang3082{\fonttbl{\f0\fnil\fcharset0 Microsoft Sans Serif;}}
+\viewkind4\uc1\pard\f0\fs20\par
+}
+",2011-04-19 00:00:00,True,2011-04-19 00:00:00,0
+86,13,Haemophilus influenzae tipo b,2,,"{\rtf1\ansi\ansicpg1252\deff0\deflang3082{\fonttbl{\f0\fnil\fcharset0 Microsoft Sans Serif;}}
+\viewkind4\uc1\pard\f0\fs20\par
+}
+",2011-04-19 00:00:00,True,2011-04-19 00:00:00,0
+87,13,Poliomielitis,2,,"{\rtf1\ansi\ansicpg1252\deff0\deflang3082{\fonttbl{\f0\fnil\fcharset0 Microsoft Sans Serif;}}
+\viewkind4\uc1\pard\f0\fs20\par
+}
+",2011-04-19 00:00:00,True,2011-04-19 00:00:00,0
+88,13,Meningococo C,2,,"{\rtf1\ansi\ansicpg1252\deff0\deflang3082{\fonttbl{\f0\fnil\fcharset0 Microsoft Sans Serif;}}
+\viewkind4\uc1\pard\f0\fs20\par
+}
+",2011-04-19 00:00:00,True,2011-04-19 00:00:00,0
+89,13,Neumococo,4,,"{\rtf1\ansi\ansicpg1252\deff0\deflang3082{\fonttbl{\f0\fnil\fcharset0 Microsoft Sans Serif;}}
+\viewkind4\uc1\pard\f0\fs20\par
+}
+",2011-06-19 00:00:00,True,2011-06-19 00:00:00,0
+90,13,Meningococo C,4,,"{\rtf1\ansi\ansicpg1252\deff0\deflang3082{\fonttbl{\f0\fnil\fcharset0 Microsoft Sans Serif;}}
+\viewkind4\uc1\pard\f0\fs20\par
+}
+",2011-06-19 00:00:00,True,2011-06-19 00:00:00,0
+91,13,Poliomielitis,4,,"{\rtf1\ansi\ansicpg1252\deff0\deflang3082{\fonttbl{\f0\fnil\fcharset0 Microsoft Sans Serif;}}
+\viewkind4\uc1\pard\f0\fs20\par
+}
+",2011-06-19 00:00:00,True,2011-06-19 00:00:00,0
+92,13,Haemophilus influenzae tipo b,4,,"{\rtf1\ansi\ansicpg1252\deff0\deflang3082{\fonttbl{\f0\fnil\fcharset0 Microsoft Sans Serif;}}
+\viewkind4\uc1\pard\f0\fs20\par
+}
+",2011-06-19 00:00:00,True,2011-06-19 00:00:00,0
+93,13,"Disferia, tétanos y tosferina",4,,"{\rtf1\ansi\ansicpg1252\deff0\deflang3082{\fonttbl{\f0\fnil\fcharset0 Microsoft Sans Serif;}}
+\viewkind4\uc1\pard\f0\fs20\par
+}
+",2011-06-19 00:00:00,True,2011-06-19 00:00:00,0
+94,13,Hepatitis,4,,"{\rtf1\ansi\ansicpg1252\deff0\deflang3082{\fonttbl{\f0\fnil\fcharset0 Microsoft Sans Serif;}}
+\viewkind4\uc1\pard\f0\fs20\par
+}
+",2011-06-19 00:00:00,True,2011-06-19 00:00:00,0
+95,13,Neumococo,4,,"{\rtf1\ansi\ansicpg1252\deff0\deflang3082{\fonttbl{\f0\fnil\fcharset0 Microsoft Sans Serif;}}
+\viewkind4\uc1\pard\f0\fs20\par
+}
+",2011-06-19 00:00:00,True,2011-06-19 00:00:00,0
+96,13,Meningococo C,4,,"{\rtf1\ansi\ansicpg1252\deff0\deflang3082{\fonttbl{\f0\fnil\fcharset0 Microsoft Sans Serif;}}
+\viewkind4\uc1\pard\f0\fs20\par
+}
+",2011-06-19 00:00:00,True,2011-06-19 00:00:00,0
+97,13,Poliomielitis,4,,"{\rtf1\ansi\ansicpg1252\deff0\deflang3082{\fonttbl{\f0\fnil\fcharset0 Microsoft Sans Serif;}}
+\viewkind4\uc1\pard\f0\fs20\par
+}
+",2011-06-19 00:00:00,True,2011-06-19 00:00:00,0
+98,13,Haemophilus influenzae tipo b,4,,"{\rtf1\ansi\ansicpg1252\deff0\deflang3082{\fonttbl{\f0\fnil\fcharset0 Microsoft Sans Serif;}}
+\viewkind4\uc1\pard\f0\fs20\par
+}
+",2011-06-19 00:00:00,True,2011-06-19 00:00:00,0
+99,13,"Disferia, tétanos y tosferina",4,,"{\rtf1\ansi\ansicpg1252\deff0\deflang3082{\fonttbl{\f0\fnil\fcharset0 Microsoft Sans Serif;}}
+\viewkind4\uc1\pard\f0\fs20\par
+}
+",2011-06-19 00:00:00,True,2011-06-19 00:00:00,0
+100,13,Hepatitis,4,,"{\rtf1\ansi\ansicpg1252\deff0\deflang3082{\fonttbl{\f0\fnil\fcharset0 Microsoft Sans Serif;}}
+\viewkind4\uc1\pard\f0\fs20\par
+}
+",2011-06-19 00:00:00,True,2011-06-19 00:00:00,0
+101,13,Hepatitis,6,,"{\rtf1\ansi\ansicpg1252\deff0\deflang3082{\fonttbl{\f0\fnil\fcharset0 Microsoft Sans Serif;}}
+\viewkind4\uc1\pard\f0\fs20\par
+}
+",2011-08-19 00:00:00,True,2011-08-19 00:00:00,0
+102,13,"Disferia, tétanos y tosferina",6,,"{\rtf1\ansi\ansicpg1252\deff0\deflang3082{\fonttbl{\f0\fnil\fcharset0 Microsoft Sans Serif;}}
+\viewkind4\uc1\pard\f0\fs20\par
+}
+",2011-08-19 00:00:00,True,2011-08-19 00:00:00,0
+103,13,Haemophilus influenzae tipo b,6,,"{\rtf1\ansi\ansicpg1252\deff0\deflang3082{\fonttbl{\f0\fnil\fcharset0 Microsoft Sans Serif;}}
+\viewkind4\uc1\pard\f0\fs20\par
+}
+",2011-08-19 00:00:00,True,2011-08-19 00:00:00,0
+104,13,Poliomielitis,6,,"{\rtf1\ansi\ansicpg1252\deff0\deflang3082{\fonttbl{\f0\fnil\fcharset0 Microsoft Sans Serif;}}
+\viewkind4\uc1\pard\f0\fs20\par
+}
+",2011-08-19 00:00:00,True,2011-08-19 00:00:00,0
+105,13,Neumococo,6,,"{\rtf1\ansi\ansicpg1252\deff0\deflang3082{\fonttbl{\f0\fnil\fcharset0 Microsoft Sans Serif;}}
+\viewkind4\uc1\pard\f0\fs20\par
+}
+",2011-08-19 00:00:00,True,2011-08-19 00:00:00,0
+106,13,Neumococo,12,,"{\rtf1\ansi\ansicpg1252\deff0\deflang3082{\fonttbl{\f0\fnil\fcharset0 Microsoft Sans Serif;}}
+\viewkind4\uc1\pard\f0\fs20\par
+}
+",2012-02-19 00:00:00,True,2012-02-19 00:00:00,0
+107,13,"Sarampión, rubeola y parotiditis",12,,"{\rtf1\ansi\ansicpg1252\deff0\deflang3082{\fonttbl{\f0\fnil\fcharset0 Microsoft Sans Serif;}}
+\viewkind4\uc1\pard\f0\fs20\par
+}
+",2012-02-19 00:00:00,True,2012-02-19 00:00:00,0
+108,13,Meningococo C,12,,"{\rtf1\ansi\ansicpg1252\deff0\deflang3082{\fonttbl{\f0\fnil\fcharset0 Microsoft Sans Serif;}}
+\viewkind4\uc1\pard\f0\fs20\par
+}
+",2012-02-19 00:00:00,True,2012-02-19 00:00:00,0
+109,13,"Sarampión, rubeola y parotiditis",24,,"{\rtf1\ansi\ansicpg1252\deff0\deflang3082{\fonttbl{\f0\fnil\fcharset0 Microsoft Sans Serif;}}
+\viewkind4\uc1\pard\f0\fs20\par
+}
+",2013-02-19 00:00:00,True,2013-02-19 00:00:00,0
+110,13,"Disferia, tétanos y tosferina",48,,,2015-02-19 00:00:00,False,,0
+111,13,"Disferia, tétanos y tosferina",132,,,2022-02-19 00:00:00,False,,0
+112,13,Meningococo C,132,,,2022-02-19 00:00:00,False,,0
+113,13,Virus del papiloma humano,132,,,2022-02-19 00:00:00,False,,0

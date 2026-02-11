@@ -1,0 +1,25 @@
+﻿icodcli,fecha,linea,concepto,importe,grupo,facturar,subgrupo,formapago,facturado,inumfactura,yearfact,codsubusu,unidades,precioUni,fechavencimiento,serie,linealinefact,ctaiva,ctairpf,ctahono,tipoprof,tipounidad
+1,2009-01-15 00:00:00,0,Servicios de Medicina General + Especialistas,45.0000,1,1,1,Recibo,0,,,2,1,0.0,,,,,,,,Ud
+1,2009-02-15 00:00:00,0,Servicios de Medicina General + Especialistas,45.0000,1,1,1,Recibo,0,,,2,1,0.0,,,,,,,,Ud
+1,2009-03-15 00:00:00,0,Servicios de Medicina General + Especialistas,45.0000,1,1,1,Recibo,0,,,2,1,0.0,,,,,,,,Ud
+1,2009-04-15 00:00:00,0,Servicios de Medicina General + Especialistas,45.0000,1,1,1,Recibo,0,,,2,1,0.0,,,,,,,,Ud
+1,2009-05-15 00:00:00,0,Servicios de Medicina General + Especialistas,45.0000,1,1,1,Recibo,0,,,2,1,0.0,,,,,,,,Ud
+1,2009-06-15 00:00:00,0,Servicios de Medicina General + Especialistas,45.0000,1,1,1,Recibo,0,,,2,1,0.0,,,,,,,,Ud
+1,2009-07-15 00:00:00,0,Servicios de Medicina General + Especialistas,45.0000,1,1,1,Recibo,0,,,,1,0.0,,,,,,,,Ud
+1,2009-08-15 00:00:00,0,Servicios de Medicina General + Especialistas,45.0000,1,1,1,Recibo,0,,,,1,0.0,,,,,,,,Ud
+1,2009-09-15 00:00:00,0,Servicios de Medicina General + Especialistas,45.0000,1,1,1,Recibo,0,,,,1,0.0,,,,,,,,Ud
+1,2009-10-15 00:00:00,0,Servicios de Medicina General + Especialistas,45.0000,1,1,1,Recibo,0,,,,1,0.0,,,,,,,,Ud
+1,2009-11-15 00:00:00,0,Servicios de Medicina General + Especialistas,45.0000,1,1,1,Recibo,0,,,,1,0.0,,,,,,,,Ud
+1,2009-12-15 00:00:00,0,Servicios de Medicina General + Especialistas,45.0000,1,1,1,Recibo,0,,,,1,0.0,,,,,,,,Ud
+10,2009-01-15 00:00:00,0,Servicios de Medicina General,35.0000,1,1,1,Recibo,0,,,3,1,0.0,,,,,,,,Ud
+10,2009-02-15 00:00:00,0,Servicios de Medicina General,35.0000,1,1,1,Recibo,0,,,3,1,0.0,,,,,,,,Ud
+10,2009-03-15 00:00:00,0,Servicios de Medicina General,35.0000,1,1,1,Recibo,0,,,3,1,0.0,,,,,,,,Ud
+10,2009-04-15 00:00:00,0,Servicios de Medicina General,35.0000,1,1,1,Recibo,0,,,3,1,0.0,,,,,,,,Ud
+10,2009-05-15 00:00:00,0,Servicios de Medicina General,35.0000,1,1,1,Recibo,0,,,3,1,0.0,,,,,,,,Ud
+10,2009-06-15 00:00:00,0,Servicios de Medicina General,35.0000,1,1,1,Recibo,0,,,3,1,0.0,,,,,,,,Ud
+10,2009-07-15 00:00:00,0,Servicios de Medicina General,35.0000,1,1,1,Recibo,0,,,,1,0.0,,,,,,,,Ud
+10,2009-08-15 00:00:00,0,Servicios de Medicina General,35.0000,1,1,1,Recibo,0,,,,1,0.0,,,,,,,,Ud
+10,2009-09-15 00:00:00,0,Servicios de Medicina General,35.0000,1,1,1,Recibo,0,,,,1,0.0,,,,,,,,Ud
+10,2009-10-15 00:00:00,0,Servicios de Medicina General,35.0000,1,1,1,Recibo,0,,,,1,0.0,,,,,,,,Ud
+10,2009-11-15 00:00:00,0,Servicios de Medicina General,35.0000,1,1,1,Recibo,0,,,,1,0.0,,,,,,,,Ud
+10,2009-12-15 00:00:00,0,Servicios de Medicina General,35.0000,1,1,1,Recibo,0,,,,1,0.0,,,,,,,,Ud

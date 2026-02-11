@@ -1,0 +1,51 @@
+﻿idCarpeta,idCarpetaPadre,nombre,titulo,idOrigen,permiso,origentitulo,tablatitulo,tipo,subtipo,rtf,predefinida
+1,,Plantillas,Plantillas,0,,0,,,,,True
+2,1,Alumnos,Alumnos,0,bveralumno,,,Alumnos,,,True
+3,1,Clientes,Clientes,0,,,,Clientes,,,True
+4,1,Contactos,TituloFormCorConPral,0,,1,,Contactos,,,True
+5,1,Expedientes,Expedientes,0,,,,Expedientes,,,True
+6,1,Facturas,Facturas,0,,,,,Facturas,,True
+7,6,Albaranes,Albaranes,0,,,,,Facturas|Albaranes,,True
+8,7,Clientes,Clientes,0,,,,AlbaranClientes,Facturas|Albaranes,,True
+9,7,Expedientes,Expedientes,0,,,,AlbaranExpedientes,Facturas|Albaranes,,True
+11,6,Oficiales,Oficiales,0,,,,,Facturas|Oficiales,,True
+14,11,Clientes,Clientes,0,,,,OficialClientes,Facturas|Oficiales,,True
+15,11,Expedientes,Expedientes,0,,,,OficialExpedientes,Facturas|Oficiales,,True
+16,6,Órdenes de Trabajo,Órdenes de Trabajo,0,,,,,Facturas|OrdenTrabajo,,True
+17,16,Clientes,Clientes,0,,,,OrdenTrabajoClientes,Facturas|OrdenTrabajo,,True
+18,6,Pedidos,Pedidos,0,,,,,Facturas|Pedidos,,True
+20,18,Clientes,Clientes,0,,,,PedidosClientes,Facturas|Pedidos,,True
+21,6,Presupuestos,Presupuestos,0,,,,,Facturas|Presupuestos,,True
+22,21,Clientes,Clientes,0,,,,PresupuestosClientes,Facturas|Presupuestos,,True
+23,21,Expedientes,Expedientes,0,,,,PresupuestosExpedientes,Facturas|Presupuestos,,True
+24,6,Proformas,Proformas,0,,,,,Facturas|Proformas,,True
+26,24,Clientes,Clientes,0,,,,ProformasClientes,Facturas|Proformas,,True
+27,24,Expedientes,Expedientes,0,,,,ProformasExpedientes,Facturas|Proformas,,True
+90,1,Fichero Libre 1,Fichero Libre 1,0,1234,,,FicheroLibre1,,,True
+91,1,Fichero Libre 2,Fichero Libre 2,0,1234,,,FicheroLibre2,,,True
+92,1,Fichero Libre 3,Fichero Libre 3,0,1234,,,FicheroLibre3,,,True
+93,1,Formularios,Formularios,0,1234,,,Formularios,,,True
+94,1,Gestión de Cobros,Gestión de Cobros,0,1234,,,Cobros,,,True
+95,1,Plantillas Empresa,Plantillas Empresa,0,1234,,,Empresa,,,True
+96,1,Recetas Médicas,Recetas Médicas,0,1234,,,Recetas,,,True
+97,1,Recibos,Recibos,0,1234,,,Recibos,,,True
+98,1,Remesas,Remesas,0,1234,,,Remesas,,,True
+99,1,Pacientes,Pacientes,0,bverpaciente,,,Pacientes,,,True
+100,1,Bancos,Bancos,0,,,,Bancos,,,True
+118,1,TituloFormPerX|0,TituloFormPerX|0,0,1234,1,,Perso1,,,True
+123,1,Control de Historial,Control de Historial,0,1234,,,ControlHistorial,,,True
+127,1,Contrarios,ContrarioTituloPlural,0,bverficcont,1,,Contrarios,,,True
+141,1,Abogados,Abogados,0,bverficabog,,,Abogados,,,True
+142,1,Procuradores,Procuradores,0,bverficproc,,,Procuradores,,,True
+143,1,Colaboradores,Colaboradores,0,bverficcolab,,,Colaboradores,,,True
+144,1,Organismos,Organismos,0,bverficorg1234,,,Organismos,,,True
+145,1,Juzgados,Juzgados,0,bverficjuzga1234,,,Juzgados,,,True
+146,1,Poderes,Poderes,0,bverficpode,,,Poderes,,,True
+150,1,Formularios,Formularios,0,,,,Formularios,,,True
+151,1,Odontogramas,Odontogramas,0,,,,,,,True
+152,151,Odontogramas,Odontogramas,0,,,,Odontogramas,,,True
+153,151,Presupuestos Odontograma,Presupuestos Odontograma,0,,,,OdontogramaPresupuestos,,,True
+156,1,Oportunidades,Oportunidades,0,,0,,OportunidadesGeneral,,,True
+157,1,FacturasRecibidas,Facturas Recibidas,0,,,,,FacturasRecibidas,,True
+158,157,Pedidos Recibidos,Pedidos Recibidos,0,,,,PedidosRecibidos,FacturasRecibidas|Pedidos,,True
+159,1,Gestión de Cobros,Gestión de Cobros,0,,0,,CobrosGeneral,,,True

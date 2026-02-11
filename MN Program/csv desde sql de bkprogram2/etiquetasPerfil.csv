@@ -1,0 +1,46 @@
+﻿id,columna,tipoCampo,nombre,etiqueta,visualizar,usarEnCalculo,fila
+1,1,Campo desplegable,Campo0101,Fuente de Contacto,1,1,0
+2,1,Campo de fecha,Campo0102,Fecha de Primer Contacto,1,1,1
+3,0,Campo de texto,Campo0103,Código Postal,0,0,0
+4,0,Campo de texto,Campo0104,Profesión,1,1,0
+5,0,Campo de texto,Campo0105,Peso,1,1,1
+6,0,Campo de texto,Campo0106,Altura,1,1,2
+7,0,Campo desplegable,Campo0107,Práctica Deporte,1,1,3
+8,0,Campo desplegable,Campo0108,Frecuencia,1,1,4
+9,0,Campo desplegable,Campo0109,,0,0,0
+10,0,Campo de texto,Campo0110,,0,0,0
+11,1,Campo desplegable,Campo0201,Comunicaciones Comerciales,1,1,2
+12,1,Campo desplegable,Campo0202,Documento LOPD,1,1,3
+13,2,Campo desplegable,Campo0203,Trato Preferente,1,1,3
+14,1,Campo sel. múltiple,Campo0204,Servicios de Interés,1,1,4
+15,1,Campo de texto,Campo0205,,0,0,0
+16,1,Campo de texto,Campo0206,,0,0,0
+17,1,Campo de texto,Campo0207,,0,0,0
+18,1,Campo de texto,Campo0208,,0,0,0
+19,1,Campo de texto,Campo0209,,0,0,0
+20,1,Campo de texto,Campo0210,,0,0,0
+21,2,Campo desplegable,Campo0301,Nivel de Satisfacción,1,1,0
+22,2,Campo desplegable,Campo0302,Recomendaciones,1,1,1
+23,2,Campo desplegable,Campo0303,Reclamaciones,1,1,2
+24,2,Campo de texto,Campo0304,,0,0,0
+25,2,Campo de texto,Campo0305,,0,0,0
+26,2,Campo de texto,Campo0306,,0,0,0
+27,2,Campo de texto,Campo0307,,0,0,0
+28,2,Campo de texto,Campo0308,,0,0,0
+29,2,Campo de texto,Campo0309,,0,0,0
+30,2,Campo de texto,Campo0310,,0,0,0
+31,0,Campo de texto,Campo0111,Etiqueta 0111,0,0,0
+32,0,Campo de texto,Campo0112,Etiqueta 0112,0,0,0
+33,0,Campo de texto,Campo0113,Etiqueta 0113,0,0,0
+34,0,Campo de texto,Campo0114,Etiqueta 0114,0,0,0
+35,0,Campo de texto,Campo0115,Etiqueta 0115,0,0,0
+36,1,Campo de texto,Campo0211,Etiqueta 0211,0,0,0
+37,1,Campo de texto,Campo0212,Etiqueta 0212,0,0,0
+38,1,Campo de texto,Campo0213,Etiqueta 0213,0,0,0
+39,1,Campo de texto,Campo0214,Etiqueta 0214,0,0,0
+40,1,Campo de texto,Campo0215,Etiqueta 0215,0,0,0
+41,2,Campo de texto,Campo0311,Etiqueta 0311,0,0,0
+42,2,Campo de texto,Campo0312,Etiqueta 0312,0,0,0
+43,2,Campo de texto,Campo0313,Etiqueta 0313,0,0,0
+44,2,Campo de texto,Campo0314,Etiqueta 0314,0,0,0
+45,2,Campo de texto,Campo0315,Etiqueta 0315,0,0,0

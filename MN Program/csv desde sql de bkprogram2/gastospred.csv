@@ -1,0 +1,8 @@
+﻿id,indice,orden,descripcion,importe,notas,ctagasto,ctaiva,ctairpf,fecha,referencia,tipo,iprorrata,iOpIntra,ctaivarep,area,ivarepercutido,tipooperacionIva,detalleoperacionIva,tipooperacionIrpf,tipoExencionIVA,motivoExencionIVA,modelosIVA,modelosIRPF,AplicarRecEq,clavemod349,iva,poriva,porrecargo,irpf,total,esGastoRecibido,reMinorista,codigoIAETicketBai,clavemod190,subclavemod190
+1,0,1,Teléfono fijo,0.0000,,6280000001,4720000021,          ,2013-04-11 00:00:00,,Suministros (628),0,,,,,,,,,,,,,,,,,,,1,,,,
+2,0,2,Alquiler local,500.0000,,6210000001,4720000021,4750000021,2013-04-11 00:00:00,,Alquileres (621),0,,,,,,,,,,,,,,,,,,,1,,,,
+3,0,3,Servicio técnico informático,50.0000,,6230000000,4720000021,          ,2013-04-11 00:00:00,,Servicios Profesionales Independientes (623),0,,,,,,,,,,,,,,,,,,,1,,,,
+4,0,4,Electricidad,0.0000,,6280000003,4720000021,,2022-09-29 00:00:00,,,0,,,,,1,0,,-1,1,24,64,False,,21.0000,21.0000,0.0000,0.0000,0.0000,1,,,,
+5,0,5,Agua,0.0000,,6280000004,4720000021,,2022-09-29 00:00:00,,,0,,,,,1,0,,-1,1,24,64,False,,21.0000,21.0000,0.0000,0.0000,0.0000,1,,,,
+6,0,6,Material Clínica,0.0000,,6280000000,4720000021,,2022-09-29 00:00:00,,,0,,,,,1,0,,-1,1,24,64,False,,21.0000,21.0000,0.0000,0.0000,0.0000,1,,,,
+7,0,7,Papelería,0.0000,,6280000005,4720000021,,2022-09-30 00:00:00,,,0,,,,,1,0,,-1,,24,64,False,,21.0000,21.0000,0.0000,0.0000,0.0000,1,,,,

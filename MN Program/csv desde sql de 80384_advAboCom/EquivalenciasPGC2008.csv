@@ -1,0 +1,434 @@
+﻿id,numctaant,descripcionant,numctaact,descripcionact,revisar
+1,1000,Capital ordinario,100,Capital social,0
+2,1001,Capital privilegiado,100,Capital social,0
+3,1002,Capital sin derecho a voto,100,Capital social,0
+4,1003,Capital con derechos restringidos,100,Capital social,0
+5,110,Prima de emisión de acciones,110,Prima de emisión o asunción,0
+6,111,Reservas de revalorización,113,Reservas voluntarias,1
+7,113,Reservas especiales,114,Reservas especiales,0
+8,114,Reservas para acciones de la sociedad dominante,1140,Reservas para acciones o participaciones de la sociedad dominante,0
+9,115,Reservas para acciones propias,1144,Reservas por acciones propias aceptadas en garantía,0
+10,116,Reservas estatutarias,1141,Reservas estatutarias,0
+11,117,Reservas voluntarias,113,Reservas voluntarias,0
+12,118,Reserva por capital amortizado,1142,Reserva por capital amortizado,0
+13,119,Diferencias por redenominación del capital en euros.,119,Diferencias por ajuste del capital a euros.,0
+14,122,Aportaciones de socios por compensación de pérdidas,118,Aportaciones de socios o propietarios,0
+15,129,Pérdidas y ganancias,129,Resultado del ejercicio,0
+16,1300,Subvenciones del Estado,130,Subvenciones oficiales de capital,0
+17,1301,Subvenciones de otras Administraciones Públicas,130,Subvenciones oficiales de capital,0
+18,131,Subvenciones de capital,131,Donaciones y legados de capital,0
+19,135,Ingresos por intereses diferidos,113,Reservas voluntarias,1
+20,136,Diferencias positivas en moneda extranjera,135,Diferencias de conversión,0
+21,137,Ingresos fiscales por diferencias permanentes a distribuir en varios ejercicios,1370,Ingresos fiscales por diferencias permanentes a distribuir en varios ejercicios,0
+22,138,Ingresos fiscales por deducciones y bonificaciones fiscales a distribuir en varios ejercicios,1371,Ingresos fiscales por deducciones y bonificaciones a distribuir en varios ejercicios,0
+23,140,Provisión para pensiones y obligaciones similares,140,Provisión por retribuciones a largo plazo al personal,0
+24,142,Provisión para responsabilidades,142,Provisión para otras responsabilidades,0
+25,143,Provisión para grandes reparaciones,143,"Provisión por desmantelamiento, retiro o rehabilitación del inmovilizado",0
+26,144,Fondo de reversión,142,Provisión para otras responsabilidades,0
+27,150,Obligaciones y bonos,177,Obligaciones y bonos,0
+28,1500,Obligaciones y bonos simples,177,Obligaciones y bonos,0
+29,1501,Obligaciones y bonos garantizados,177,Obligaciones y bonos,0
+30,1502,Obligaciones y bonos subordinados,177,Obligaciones y bonos,0
+31,1503,Obligaciones y bonos cupón cero,177,Obligaciones y bonos,0
+32,1504,Obligaciones y bonos con opción de adquisición de acciones,177,Obligaciones y bonos,0
+33,1505,Obligaciones y bonos con participación en beneficios,177,Obligaciones y bonos,0
+34,151,Obligaciones y bonos convertibles,178,Obligaciones y bonos convertibles,0
+35,155,Deudas representadas en otros valores negociables,179,Deudas representadas en otros valores negociables,0
+36,160,Deudas a largo plazo con empresas del grupo,1633,"Otras deudas a largo plazo, empresas del grupo",0
+37,1600,Préstamos a largo plazo de empresas del grupo,1633,"Otras deudas a largo plazo, empresas del grupo",0
+38,1608,Deudas a largo plazo con empresas del grupo por efecto impositivo,1633,"Otras deudas a largo plazo, empresas del grupo",0
+39,1609,Otras deudas a largo plazo con empresas del grupo,1633,"Otras deudas a largo plazo, empresas del grupo",0
+40,161,Deudas a largo plazo con empresas asociadas,1634,"Otras deudas a largo plazo, empresas  asociadas",0
+41,162,Deudas a largo plazo con entidades de crédito del grupo,1603,"Deudas a largo plazo con entidades de crédito, empresas del grupo",0
+42,163,Deudas a largo plazo con entidades de crédito asociadas,1604,"Deudas a largo plazo con entidades de crédito, empresas asociadas",0
+43,164,"Proveedores de inmovilizado a largo plazo, empresas del grupo",1613,"Proveedores de inmovilizado a largo plazo, empresas del grupo",0
+44,165,"Proveedores de inmovilizado a largo plazo, empresas asociadas",1614,"Proveedores de inmovilizado a largo plazo, empresas  asociadas",0
+45,1700,Préstamos a largo plazo de entidades de crédito,170,Deudas a largo plazo con entidades de crédito,0
+46,1709,Otras deudas a largo plazo de entidades de crédito,170,Deudas a largo plazo con entidades de crédito,0
+47,172,Deudas a largo plazo transformables en subvenciones,172,"Deudas a largo plazo transformables en subvenciones, donaciones  y legados",0
+48,174,Efectos a pagar a largo plazo,175,Efectos a pagar a largo plazo,0
+49,190,Accionistas por desembolsos no exigidos,103,Socios por desembolsos no exigidos,0
+50,191,"Accionistas por desembolsos no exigidos, empresas del grupo",103,Socios por desembolsos no exigidos,0
+51,192,"Accionistas por desembolsos no exigidos, empresas asociadas",103,Socios por desembolsos no exigidos,0
+52,193,Accionistas por aportaciones no dinerarias pendientes,104,Socios por aportaciones no dinerarias pendientes,0
+53,194,"Accionistas por aportaciones no dinerarias pendientes, empresas del grupo",104,Socios por aportaciones no dinerarias pendientes,0
+54,195,"Accionistas por aportaciones no dinerarias pendientes, empresas asociadas",104,Socios por aportaciones no dinerarias pendientes,0
+55,196,"Socios, parte no desembolsada",103,Socios por desembolsos no exigidos,0
+56,198,Acciones propias en situaciones especiales,108,Acciones o participaciones propias en situaciones especiales,0
+57,199,Acciones propias para reducción de capital,109,Acciones o participaciones propias para reducción de capital,0
+58,200,Gastos de constitución,113,Reservas voluntarias,1
+59,201,Gastos de primer establecimiento,113,Reservas voluntarias,1
+60,202,Gastos de ampliación de capital,113,Reservas voluntarias,1
+61,210,Gastos de investigación y desarrollo,200,Investigación,1
+62,2100,Gastos de investigación y desarrollo en proyectos no terminados,200,Investigación,1
+63,2101,Gastos de investigación y desarrollo en proyectos terminados,200,Investigación,1
+64,211,Concesiones administrativas,202,Concesiones administrativas,0
+65,212,Propiedad industrial,203,Propiedad industrial,0
+66,213,Fondo de comercio,204,Fondo de comercio,0
+67,214,Derechos de traspaso,205,Derechos de traspaso,0
+68,215,Aplicaciones informáticas,206,Aplicaciones informáticas,0
+69,217,Derechos sobre bienes en régimen de arrendamiento financiero.,200,Investigación,1
+70,219,Anticipos para inmovilizaciones inmateriales,209,Anticipos para inmovilizaciones intangibles,0
+71,220,Terrenos y bienes naturales,210,Terrenos y bienes naturales,0
+72,221,Construcciones,211,Construcciones,0
+73,222,Instalaciones técnicas,212,Instalaciones técnicas,0
+74,223,Maquinaria,213,Maquinaria,0
+75,224,Utillaje,214,Utillaje,0
+76,225,Otras instalaciones,215,Otras instalaciones,0
+77,226,Mobiliario,216,Mobiliario,0
+78,227,Equipos para proceso de información,217,Equipos para proceso de información,0
+79,228,Elementos de transporte,218,Elementos de transporte,0
+80,229,Otro inmovilizado material,219,Otro inmovilizado material,0
+81,230,Adaptación de terrenos y de bienes naturales,230,Adaptación de terrenos y bienes naturales,0
+82,239,Anticipos de inmovilizaciones materiales,239,Anticipos para  inmovilizaciones materiales,0
+83,240,Participaciones en empresas del grupo,2403,Participaciones a largo plazo en empresas del grupo,0
+84,241,Participaciones en empresas asociadas,2404,Participaciones a largo plazo en empresas asociadas,0
+85,242,Valores de renta fija de empresas del grupo,2413,Valores representativos de deuda a largo plazo de empresas del grupo,0
+86,243,Valores de renta fija de empresas asociadas,2414,Valores representativos de deuda a largo plazo de empresas asociadas,0
+87,244,Créditos a largo plazo a empresas del grupo,2423,Créditos a largo plazo a  empresas del grupo,0
+88,2448,Crédito a largo plazo con empresas del grupo por efecto impositivo,2423,Créditos a largo plazo a  empresas del grupo,0
+89,245,Créditos a largo plazo a empresas asociadas,2424,Créditos a largo plazo a  empresas asociadas,0
+90,246,Intereses a largo plazo de inversiones financieras en empresas del grupo,2423,Créditos a largo plazo a  empresas del grupo,0
+91,247,Intereses a largo plazo de inversiones financieras en empresas asociadas,2424,Créditos a largo plazo a  empresas asociadas,0
+92,248,Desembolsos pendientes sobre acciones de empresas del grupo,2493,Desembolsos pendientes sobre participaciones a largo plazo en empresas del grupo,0
+93,249,Desembolsos pendientes sobre acciones de empresas asociadas,2494,Desembolsos pendientes sobre participaciones a largo plazo en empresas asociadas,0
+94,250,Inversiones financieras permanentes en capital,250,Inversiones financieras a largo plazo en instrumentos de patrimonio,0
+95,2500,Inversiones financieras permanentes en acciones con cotización oficial,250,Inversiones financieras a largo plazo en instrumentos de patrimonio,0
+96,2501,Inversiones financieras permanentes en acciones sin cotización oficial,250,Inversiones financieras a largo plazo en instrumentos de patrimonio,0
+97,2502,Otras inversiones financieras en capital,250,Inversiones financieras a largo plazo en instrumentos de patrimonio,0
+98,251,Valores de renta fija,251,Valores representativos de deuda a largo plazo,0
+99,2518,Participaciones en Fondos de Inversión en Activos del Mercado Monetario a largo plazo,251,Valores representativos de deuda a largo plazo,0
+100,256,Intereses a largo plazo de valores de renta fija,252,Créditos a largo plazo,0
+101,257,Intereses a largo plazo de créditos,252,Créditos a largo plazo,0
+102,259,Desembolsos pendientes sobre acciones,259,Desembolsos pendientes sobre participaciones en el patrimonio neto a largo plazo,0
+103,270,Gastos de formalización de deudas,113,Reservas voluntarias,1
+104,271,Gastos por intereses diferidos de valores negociables,113,Reservas voluntarias,1
+105,272,Gastos por intereses diferidos,113,Reservas voluntarias,1
+106,281,Amortización acumulada del inmovilizado inmaterial,280,Amortización acumulada del inmovilizado intangible,0
+107,2810,Amortización acumulada de gastos  de investigación y desarrollo,2800,Amortización acumulada de investigación,1
+108,2811,Amortización acumulada de concesiones administrativas,2802,Amortización acumulada de concesiones administrativas,0
+109,2812,Amortización acumulada de propiedad industrial,2803,Amortización acumulada de propiedad industrial,0
+110,2813,Amortización acumulada de fondo de comercio,204,Fondo de comercio,0
+111,2814,Amortización acumulada de derechos de traspaso,2805,Amortización acumulada de derechos de traspaso,0
+112,2815,Amortización acumulada de aplicaciones informáticas.,2806,Amortización acumulada de aplicaciones informáticas,0
+113,2817,Amortización acumulada de derechos sobre bienes en régimen de arrendamiento financiero.,280,Amortización acumulada del inmovilizado intangible,1
+114,282,Amortización acumulada del inmovilizado material,281,Amortización acumulada del inmovilizado material,0
+115,2820,Amortización acumulada del inmovilizado material,2819,Amortización acumulada de otro inmovilizado material,1
+116,2821,Amortización acumulada de construcciones.,2811,Amortización acumulada de construcciones,0
+117,2822,Amortización acumulada de instalaciones técnicas,2812,Amortización acumulada de instalaciones técnicas,0
+118,2823,Amortización acumulada de maquinaria,2813,Amortización acumulada de maquinaria,0
+119,2824,Amortización acumulada de utillaje,2814,Amortización acumulada de utillaje,0
+120,2825,Amortización acumulada de otras instalaciones,2815,Amortización acumulada de otras instalaciones,0
+121,2826,Amortización acumulada de mobiliario,2816,Amortización acumulada de mobiliario,0
+122,2827,Amortización acumulada de equipos para proceso de información,2817,Amortización acumulada de equipos para procesos de información,0
+123,2828,Amortización acumulada de elementos de transporte,2818,Amortización acumulada de elementos de transporte,0
+124,2829,Amortización acumulada de otro inmovilizado material,2819,Amortización acumulada de otro inmovilizado material,0
+125,291,Provisiones por depreciación del inmovilizado inmaterial,290,Deterioro de valor del inmovilizado intangible,0
+126,292,Provisiones por depreciación del inmovilizado material,291,Deterioro de valor del inmovilizado material,0
+127,293,Provisión por depreciación de valores negociables a largo plazo de empresas del grupo,2933,Deterioro de valor de participaciones a largo plazo en empresas del grupo,1
+128,2930,Provisión por depreciación de participaciones en capital a lago plazo en empresas del grupo,2933,Deterioro de valor de participaciones a largo plazo en empresas del grupo,0
+129,2935,Provisión por depreciación de valores negociables a largo plazo en empresas del grupo,2943,Deterioro de valor de valores representativos de deuda a largo plazo de empresas del grupo,0
+130,294,Provisión por depreciación de valores  negociables a largo plazo de empresas asociadas,2934,Deterioro de valor de participaciones a largo plazo en empresas asociadas,1
+131,2941,Provisión por depreciación de participaciones en capital a largo plazo en empresas asociadas,2934,Deterioro de valor de participaciones a largo plazo en empresas asociadas,0
+132,2946,Provisión por depreciación de valores negociables a largo plazo en empresas asociadas,2944,Deterioro de valor de valores representativos de deuda a largo plazo de empresas asociadas,0
+133,295,Provisión para insolvencias de créditos a largo plazo a empresas del grupo,2953,Deterioro de valor de créditos a largo plazo a empresas del grupo,0
+134,296,Provisión para insolvencias de créditos a largo plazo a empresas asociadas,2954,Deterioro de valor de créditos a largo plazo a empresas asociadas,0
+135,297,Provisión por depreciación de valores  negociables a largo plazo,297,Deterioro de valor de valores representativos de deuda a largo plazo,0
+136,298,Provisión para insolvencias de créditos a largo plazo,298,Deterioro de valor de créditos a largo plazo,0
+137,390,Provisión por depreciación de mercaderías,390,Deterioro de valor de las mercaderías,0
+138,391,Provisión por depreciación de materias primas,391,Deterioro  de valor de las materias primas,0
+139,392,Provisión por depreciación de otros aprovisionamientos,392,Deterioro  de valor de otros aprovisionamientos,0
+140,393,Provisión por depreciación de productos en curso,393,Deterioro  de valor de los productos en curso,0
+141,394,Provisión por depreciación de productos semiterminados,394,Deterioro  de valor de los productos semiterminados,0
+142,395,Provisión por depreciación de productos terminados,395,Deterioro  de valor de los productos terminados,0
+143,396,"Provisión por depreciación de subproductos, residuos y materiales recuperados",396,"Deterioro  de valor de los subproductos, residuos y materiales recuperados",0
+144,4000,Proveedores (pesetas),4000,Proveedores (euros),0
+145,402,"Proveedores, empresas del grupo",403,"Proveedores, empresas del grupo",0
+146,4020,"Proveedores, empresas del grupo (pesetas).",4030,"Proveedores, empresas del grupo (euros)",0
+147,4021,"Efectos comerciales a pagar, empresas del grupo.",4031,"Efectos comerciales a pagar, empresas del grupo",0
+148,4024,"Proveedores, empresas del grupo (moneda extranjera).",4034,"Proveedores, empresas del grupo (moneda extranjera)",0
+149,4026,"Envases y embalajes a devolver a proveedores, empresas del grupo.",4036,"Envases y embalajes a devolver a proveedores, empresas del grupo",0
+150,4029,"Proveedores, empresas del grupo, facturas pendientes de recibir o formalizar",4039,"Proveedores, empresas del grupo, facturas pendientes de recibir o de formalizar",0
+151,403,"Proveedores, empresas asociadas",404,"Proveedores, empresas asociadas",0
+152,4100,Acreedores por prestación de servicios (pesetas),4100,Acreedores por prestación de servicios (euros),0
+153,4300,Clientes (pesetas),4300,Clientes (euros),0
+154,4301,Clientes (moneda extranjera),4304,Clientes (moneda extranjera),0
+155,432,"Clientes, empresas del grupo",433,"Clientes, empresas del grupo",0
+156,4320,"Clientes, empresas del grupo (pesetas)",4330,"Clientes, empresas del grupo (euros)",0
+157,4321,"Efectos comerciales a cobrar, empresas del grupo",4331,"Clientes, efectos comerciales a cobrar, empresas del grupo",0
+158,4324,"Clientes, empresas del grupo (moneda extranjera)",4334,"Clientes empresas del grupo, (moneda extranjera)",0
+159,4326,"Envases y embalajes a devolver a clientes, empresas del grupo",4337,"Envases y embalajes a devolver a clientes, empresas del grupo",0
+160,4329,"Clientes, empresas del grupo, facturas pendientes de formalizar.",4339,"Clientes empresas del grupo, facturas pendientes de formalizar",0
+161,433,"Clientes, empresas asociadas.",434,"Clientes,  empresas asociadas",0
+162,435,Clientes de dudoso cobro,436,Clientes de dudoso cobro,0
+163,436,Envases y embalajes a devolver por clientes,437,Envases y embalajes a devolver por clientes,0
+164,437,Anticipos de clientes,438,Anticipos de clientes,0
+165,4400,Deudores (pesetas),4400,Deudores (euros),0
+166,445,Deudores de dudoso cobro,446,Deudores de dudoso cobro,0
+167,470,"Hacienda Pública, deudor por diversos conceptos",470,"Hacienda Pública, deudora por diversos conceptos",0
+168,4700,"Hacienda Pública, deudor por IVA",4700,"Hacienda Pública, deudora por IVA",0
+169,4707,"Hacienda Pública, deudor por IGIC (Impuesto General Indirecto Canario)",470,"Hacienda Pública, deudora por diversos conceptos",0
+170,4708,"Hacienda Pública, deudor por subvenciones concedidas",4708,"Hacienda Pública, deudora por subvenciones concedidas",0
+171,4709,"Hacienda Pública, deudor por devolución de impuestos",4709,"Hacienda Pública, deudora por devolución de impuestos",0
+172,4727,IGIC soportado (Impuesto General Indirecto Canario),472,"Hacienda Pública, IVA soportado",0
+173,4732,"Hacienda Pública, deudora con entidades transparentes",473,"Hacienda Pública, retenciones y pagos a cuenta",0
+174,474,Impuesto sobre beneficios anticipado y compensación de pérdidas,474,Activos por impuesto diferido,0
+175,4740,Impuesto sobre beneficios anticipado,4740,Activos por diferencias temporarias  deducibles,0
+176,4741,Impuesto sobre beneficios anticipado a largo plazo,4740,Activos por diferencias temporarias  deducibles,0
+177,4742,Derechos por deducciones y bonificaciones pendientes de aplicación a corto plazo,4742,Derechos por deducciones y bonificaciones pendientes de aplicar,0
+178,4744,Derechos por deducciones y bonificaciones pendientes de aplicación a largo plazo,4742,Derechos por deducciones y bonificaciones pendientes de aplicar,0
+179,4745,Crédito por pérdidas a compensar del ejercicio...,4745,Crédito por pérdidas a compensar del ejercicio,0
+180,4746,Crédito por pérdidas a compensar del ejercicio ... a largo plazo,4745,Crédito por pérdidas a compensar del ejercicio,0
+181,4748,Impuesto sobre beneficios anticipados por operaciones intra-grupo,4740,Activos por diferencias temporarias  deducibles,0
+182,4749,Crédito por pérdidas a compensar en régimen de declaración consolidada del ejercicio...,4745,Crédito por pérdidas a compensar del ejercicio,0
+183,475,"Hacienda Pública, acreedor por conceptos fiscales",475,"Hacienda Pública, acreedora  por conceptos fiscales",0
+184,4750,"Hacienda Pública, acreedor por IVA",4750,"Hacienda Pública, acreedora por IVA",0
+185,4751,"Hacienda Pública, acreedor por retenciones practicadas",4751,"Hacienda Pública, acreedora por retenciones practicadas",0
+186,4752,"Hacienda Pública, acreedor por impuesto sobre sociedades",4752,"Hacienda Pública, acreedora por impuesto sobre sociedades",0
+187,4757,"Hacienda Pública, acreedor por IGIC (Impuesto General Indirecto Canario)",475,"Hacienda Pública, acreedora  por conceptos fiscales",0
+188,4758,"Hacienda Pública, acreedor por subvenciones a reintegrar",4758,"Hacienda Pública, acreedora por subvenciones a reintegrar",0
+189,4777,IGIC Repercutido (Impuesto General Indirecto Canario),477,"Hacienda Pública, IVA repercutido",0
+190,479,Impuesto sobre beneficios diferido,479,Pasivos por diferencias temporarias imponibles,0
+191,4791,Impuesto sobre beneficios diferidos a largo plazo,479,Pasivos por diferencias temporarias imponibles,0
+192,4798,Impuesto sobre beneficios diferido por operaciones intra-grupo,479,Pasivos por diferencias temporarias imponibles,0
+193,490,Provisión para insolvencias de tráfico,490,Deterioro de valor de créditos por operaciones comerciales,0
+194,493,Provisión para insolvencias de tráfico de empresas del grupo,4933,Deterioro de valor de créditos por operaciones comerciales con empresas del grupo,0
+195,494,Provisión para insolvencias de tráfico de empresas asociadas,4934,Deterioro de valor de créditos por operaciones comerciales con empresas asociadas,0
+196,499,Provisión para otras operaciones de tráfico,4999,Provisión para otras operaciones comerciales,0
+197,506,Intereses de empréstitos y otras emisiones análogas,506,Intereses a corto plazo de empréstitos y otras emisiones análogas,0
+198,510,Deudas a corto plazo con empresas del grupo,5133,Otras deudas a corto plazo con empresas del grupo,0
+199,5100,Préstamos a corto plazo de empresas del grupo,5133,Otras deudas a corto plazo con empresas del grupo,0
+200,5108,Deudas a corto plazo con empresas del grupo por efecto impositivo,5133,Otras deudas a corto plazo con empresas del grupo,0
+201,5109,Otras deudas a corto plazo con empresas del grupo,5133,Otras deudas a corto plazo con empresas del grupo,0
+202,511,Deudas a corto plazo con empresas asociadas,5134,Otras deudas a corto plazo con empresas asociadas,0
+203,512,Deudas a corto plazo con entidades de crédito del grupo,5103,"Deudas a corto plazo con entidades de crédito, empresas del grupo",0
+204,5120,Préstamos a corto plazo de entidades de crédito del grupo,5103,"Deudas a corto plazo con entidades de crédito, empresas del grupo",0
+205,5128,Deudas por efectos descontados en entidades de crédito del grupo,5103,"Deudas a corto plazo con entidades de crédito, empresas del grupo",0
+206,5129,Otras deudas a corto plazo con entidades de crédito del grupo,5103,"Deudas a corto plazo con entidades de crédito, empresas del grupo",0
+207,513,Deudas a corto plazo con entidades de crédito asociadas,5104,"Deudas a corto plazo con entidades de crédito, empresas asociadas",0
+208,514,"Proveedores de inmovilizado a corto plazo, empresas del grupo",5113,"Proveedores de inmovilizado a corto plazo, empresas del grupo",0
+209,515,"Proveedores de inmovilizado a corto plazo, empresas asociadas",5114,"Proveedores de inmovilizado a corto plazo, empresas asociadas",0
+210,516,Intereses a corto plazo de deudas con empresas del grupo,5143,"Intereses a corto plazo de deudas, empresas del grupo",0
+211,517,Intereses a corto plazo de deudas con empresas asociadas,5144,"Intereses a corto plazo de deudas, empresas asociadas",0
+212,524,Efectos a pagar a corto plazo,525,Efectos a pagar a corto plazo,0
+213,525,Dividendo activo a pagar,526,Dividendo activo a pagar,0
+214,526,Intereses a corto plazo de deudas con entidades de crédito,527,Intereses a corto plazo de deudas con entidades de crédito,0
+215,527,Intereses a corto plazo de deudas,528,Intereses a corto plazo de deudas,0
+216,530,Participaciones a corto plazo en empresas del grupo,5303,"Participaciones a corto plazo, en empresas del grupo",0
+217,531,Participaciones a corto plazo en empresas asociadas,5304,"Participaciones a corto plazo, en empresas asociadas",0
+218,532,Valores de renta fija a corto plazo de empresas del grupo,5313,Valores representativos de deuda a corto plazo de empresas del grupo,0
+219,533,Valores de renta fija a corto plazo de empresas asociadas,5314,Valores representativos de deuda a corto plazo de empresas asociadas,0
+220,534,Créditos a corto plazo a empresas del grupo,5323,Créditos a corto plazo a empresas del grupo,0
+221,5348,Crédito a corto plazo con empresas del grupo por efecto impositivo,5323,Créditos a corto plazo a empresas del grupo,0
+222,535,Créditos a corto plazo a empresas asociadas,5324,Créditos a corto plazo a empresas asociadas,0
+223,536,Intereses a corto plazo de inversiones financieras en empresas del grupo,5333,Intereses  a corto plazo de valores representativos de deuda de empresas del grupo,0
+224,5360,Intereses a corto plazo de valores de renta fija de empresas del grupo,5333,Intereses  a corto plazo de valores representativos de deuda de empresas del grupo,0
+225,5361,Intereses a corto plazo de créditos a empresas del grupo,5343,Intereses  a corto plazo de créditos a empresas del grupo,0
+226,537,Intereses a corto plazo de inversiones financieras en empresas asociadas,5334,Intereses  a corto plazo de valores representativos de deuda de empresas asociadas,0
+227,538,Desembolsos pendientes sobre acciones a corto plazo de empresas del grupo,5393,Desembolsos pendientes sobre participaciones  a corto plazo en empresas del grupo,0
+228,539,Desembolsos pendientes sobre acciones a corto plazo de empresas asociadas,5394,Desembolsos pendientes sobre participaciones  a corto plazo en empresas asociadas,0
+229,540,Inversiones financieras temporales en capital,540,Inversiones financieras a corto plazo en instrumentos de patrimonio,0
+230,5400,Inversiones financieras temporales en acciones con cotización oficial,540,Inversiones financieras a corto plazo en instrumentos de patrimonio,0
+231,5401,Inversiones financieras temporales en acciones sin cotización oficial,540,Inversiones financieras a corto plazo en instrumentos de patrimonio,0
+232,5409,Otras inversiones financieras temporales en capital,540,Inversiones financieras a corto plazo en instrumentos de patrimonio,0
+233,541,Valores de renta fija a corto plazo,541,Valores representativos de deuda a corto plazo,0
+234,5418,Participaciones en Fondos de Inversión en Activos del Mercado Monetario a corto plazo.,541,Valores representativos de deuda a corto plazo,0
+235,543,Créditos a corto plazo por enajenación del inmovilizado,543,Créditos a corto plazo por enajenación de inmovilizado,0
+236,546,Intereses a corto plazo de valores de renta fija,546,Intereses a corto plazo de valores representativos de deudas,0
+237,549,Desembolsos pendientes sobre acciones a corto plazo,549,Desembolsos pendientes sobre participaciones en el patrimonio neto a corto plazo,0
+238,551,Cuenta corriente con empresas del grupo,5523,Cuenta corriente con empresas del grupo,0
+239,552,Cuenta corriente con empresas asociadas,5524,Cuenta corriente con empresas asociadas,0
+240,553,Cuenta corriente con socios y administradores,551,Cuenta corriente con socios y administradores,0
+241,556,Desembolsos exigidos sobre acciones,556,Desembolsos exigidos sobre participaciones en el patrimonio neto,0
+242,5560,Desembolsos exigidos sobre acciones de empresas del grupo,5563,"Desembolsos exigidos sobre participaciones, empresas del grupo",0
+243,5561,Desembolsos exigidos sobre acciones de empresas asociadas,5564,"Desembolsos exigidos sobre participaciones, empresas asociadas",0
+244,5562,Desembolsos exigidos sobre acciones de otras empresas,5566,Desembolsos exigidos sobre participaciones de otras empresas,0
+245,558,Accionistas por desembolsos exigidos,558,Socios por desembolsos exigidos,0
+246,570,"Caja, pesetas",570,"Caja,euros",0
+247,572,"Bancos e instituciones de crédito c/c vista, pesetas",572,"Bancos e instituciones de crédito c/c vista, euros",0
+248,574,"Bancos e instituciones de crédito, cuentas de ahorro, pesetas",574,"Bancos e instituciones de crédito, cuentas de ahorro, euros",0
+249,580,Intereses pagados por anticipado,567,Intereses pagados por anticipado,0
+250,585,Intereses cobrados por anticipado,568,Intereses cobrados por anticipado,0
+251,593,Provisión por depreciación de valores  negociables a corto plazo de empresas del grupo,5933,Deterioro de valor de participaciones a corto plazo en empresas del grupo,1
+252,594,Provisión por depreciación de valores  negociables a corto plazo de empresas asociadas,5934,Deterioro de valor de participaciones a corto plazo en empresas asociadas,1
+253,595,Provisión para insolvencias de créditos a corto plazo de empresas del grupo,5953,Deterioro de valor de créditos a corto plazo a empresas del grupo,0
+254,596,Provisión para insolvencias de créditos a corto plazo a empresas asociadas,5954,Deterioro de valor de créditos a corto plazo a empresas asociadas,0
+255,597,Provisión por depreciación de valores  negociables a corto plazo,597,Deterioro de valor de valores representativos de deuda a corto plazo,0
+256,598,Provisión para insolvencias de créditos a corto plazo,598,Deterioro de valor de créditos a corto plazo,0
+257,6210,Arrendamientos y cánones.,621,Arrendamientos y cánones,0
+258,6211,Arrendamientos financieros y otros,621,Arrendamientos y cánones,0
+259,6220,Reparaciones y conservación en general,622,Reparaciones y conservación,0
+260,6223,Reparaciones y conservación del medio ambiente,622,Reparaciones y conservación,0
+261,6230,Servicios profesionales independientes,623,Servicios de profesionales independientes,0
+262,6233,Servicios medioambientales,623,Servicios de profesionales independientes,0
+263,625,Primas y seguros,625,Primas de seguros,0
+264,6300,Impuesto sobre beneficios,630,Impuesto sobre beneficios,0
+265,6301,Impuesto sobre beneficios (régimen simplificado),630,Impuesto sobre beneficios,0
+266,632,"Entidades transparentes, efecto impositivo",631,Otros tributos,0
+267,6320,Importe a cuenta no recuperables por entidades transparentes,631,Otros tributos,0
+268,6321,Importes a cuenta no recuperables por agrupación de interés económico,631,Otros tributos,0
+269,6323,Ajustes negativos en la imposición en entidades transparentes,633,Ajustes negativos en la imposición sobre beneficios,0
+270,6328,Ajustes positivos en la imposición en entidades transparentes,638,Ajustes positivos en la imposición sobre beneficios,0
+271,6341,Ajustes negativos en IVA de circulante,6341,Ajustes negativos en IVA de activo corriente,0
+272,6343,"Ajustes negativos en IGIC, de circulante (Impuesto General Indirecto Canario)",6341,Ajustes negativos en IVA de activo corriente,0
+273,6344,"Ajustes negativos en IGIC, de inversión (Impuesto General Indirecto Canario)",6342,Ajustes negativos en IVA de inversiones,0
+274,635,Impuesto sobre beneficios extranjero,630,Impuesto sobre beneficios,0
+275,637,"Imposición Indirecta, regímenes especiales",631,Otros tributos,0
+276,6371,"Régimen simplificado, IVA.",631,Otros tributos,0
+277,6372,"Régimen simplificado, IGIC. (Impuesto General Indirecto Canario)",631,Otros tributos,0
+278,6373,"Régimen de la agricultura, ganadería y pesca, IVA",631,Otros tributos,0
+279,6374,"Régimen de la agricultura y ganadería, IGIC. (Impuesto General Indirecto Canario)",631,Otros tributos,0
+280,6391,Ajustes positivos en IVA de circulante,6391,Ajustes positivos en IVA de activo corriente,0
+281,6393,"Ajustes positivos en IGIC, de circulante (Impuesto General Indirecto Canario)",6391,Ajustes positivos en IVA de activo corriente,0
+282,6394,"Ajustes positivos en IGIC, de inversión (Impuesto General Indirecto Canario)",6392,Ajustes positivos en IVA de inversiones,0
+283,643,Aportaciones a sistemas complementarios de pensiones,643,Retribuciones a largo plazo mediante sistemas de aportación definida,1
+284,6610,Intereses de obligaciones y bonos a largo plazo en empresas del grupo,6610,"Intereses de obligaciones y bonos a largo plazo, empresas del grupo",0
+285,6611,Intereses de obligaciones y bonos a largo plazo en empresas asociadas,6611,"Intereses de obligaciones y bonos a largo plazo, empresas asociadas",0
+286,6613,Intereses de obligaciones y bonos a largo plazo en otras empresas,6613,"Intereses de obligaciones y bonos a largo plazo,  otras empresas",0
+287,6615,Intereses de obligaciones y bonos a corto plazo en empresas del grupo,6615,"Intereses de obligaciones y bonos a corto plazo, empresas del grupo",0
+288,6616,Intereses de obligaciones y bonos a corto plazo en empresas asociadas,6616,"Intereses de obligaciones y bonos a corto plazo,  empresas asociadas",0
+289,6618,Intereses de obligaciones y bonos a corto plazo en otras empresas,6618,"Intereses de obligaciones y bonos a corto plazo, otras empresas",0
+290,662,Intereses de deudas a largo plazo,662,Intereses de deudas,0
+291,6620,Intereses de deudas a largo plazo con empresas del grupo,6620,"Intereses de deudas , empresas del grupo",0
+292,6621,Intereses de deudas a largo plazo con empresas asociadas,6621,"Intereses de deudas, empresas asociadas",0
+293,6622,Intereses de deudas a largo plazo con entidades de crédito,6623,Intereses de deudas con entidades de crédito,0
+294,6623,Intereses de deudas a largo plazo con otras empresas,6624,"Intereses de deudas, otras empresas",0
+295,663,Intereses de deudas a corto plazo,662,Intereses de deudas,0
+296,6630,Intereses de deudas a corto plazo con empresas del grupo,6620,"Intereses de deudas , empresas del grupo",0
+297,6631,Intereses de deudas a corto plazo con empresas asociadas,6621,"Intereses de deudas, empresas asociadas",0
+298,6632,Intereses de deudas a corto plazo con entidades de crédito,6623,Intereses de deudas con entidades de crédito,0
+299,6633,Intereses de deudas a corto plazo con otras empresas,6624,"Intereses de deudas, otras empresas",0
+300,664,Intereses por descuento de efectos,665,"Intereses por descuento de efectos y operaciones de ""factoring""",0
+301,6640,Intereses por descuento de efectos en entidades de crédito del grupo,6650,Intereses por descuento de efectos en entidades de crédito del grupo,0
+302,6641,Intereses por descuento de efectos en entidades de crédito asociadas,6651,Intereses por descuento de efectos en entidades de crédito asociadas,0
+303,6643,Intereses por descuento de efectos en otras entidades de crédito,6653,Intereses por descuento de efectos en otras entidades de crédito,0
+304,665,Descuentos sobre ventas por pronto pago,706,Descuentos sobre ventas por pronto pago,0
+305,6650,Descuentos sobre ventas por pronto pago a empresas del grupo,706,Descuentos sobre ventas por pronto pago,0
+306,6651,Descuentos sobre ventas por pronto pago a empresas asociadas,706,Descuentos sobre ventas por pronto pago,0
+307,6653,Descuentos sobre ventas por pronto pago a otras empresas,706,Descuentos sobre ventas por pronto pago,0
+308,666,Pérdidas en valores  negociables,666,Pérdidas en participaciones y  valores representativos de deuda,0
+309,6660,Pérdidas en valores negociables a largo plazo de empresas del grupo,6660,"Pérdidas en participaciones y valores representativos de deuda a largo plazo, empresas del grupo",0
+310,6661,Pérdidas en valores negociables a largo plazo de empresas asociadas,6661,"Pérdidas en participaciones y valores representativos de deuda a largo plazo, empresas asociadas.",0
+311,6663,Pérdidas en valores negociables a largo plazo de otras empresas,6663,"Pérdidas en participaciones y valores representativos de deuda a largo plazo, otras empresas",0
+312,6665,Pérdidas en valores  negociables a corto plazo de empresas del grupo,6665,"Pérdidas en participaciones y valores representativos de deuda a corto plazo, empresas del grupo",0
+313,6666,Pérdidas en valores  negociables a corto plazo de empresas asociadas,6666,"Pérdidas en participaciones y valores representativos de deuda a corto plazo, empresas asociadas",0
+314,6668,Pérdidas en valores  negociables a corto plazo de otras empresas,6668,"Pérdidas en participaciones y valores representativos de deuda a corto plazo,  otras empresas",0
+315,667,Pérdidas de créditos,667,Pérdidas de créditos no comerciales,0
+316,6670,Pérdidas de créditos a largo plazo a empresas del grupo,6670,"Pérdidas de créditos a largo plazo, empresas del grupo",0
+317,6671,Pérdidas de créditos a largo plazo a empresas asociadas,6671,"Pérdidas de créditos a largo plazo, empresas asociadas",0
+318,6673,Pérdidas de créditos a largo plazo a otras empresas,6673,"Pérdidas de créditos a largo plazo,  otras empresas",0
+319,6675,Pérdidas de créditos a corto plazo a empresas del grupo,6675,"Pérdidas de créditos a corto plazo, empresas del grupo",0
+320,6676,Pérdidas de créditos a corto plazo a empresas asociadas,6676,"Pérdidas de créditos a corto plazo, empresas asociadas",0
+321,6678,Pérdidas de créditos a corto plazo a otras empresas,6678,"Pérdidas de créditos a corto plazo,  otras empresas",0
+322,6680,Diferencias negativas de cambio por la introducción del euro,668,Diferencias negativas de cambio,0
+323,6681,Otras diferencias negativas de cambio,668,Diferencias negativas de cambio,0
+324,6690,Gastos por diferencias derivadas del redondeo euro.,669,Otros gastos financieros,0
+325,6691,Otros gastos financieros.,669,Otros gastos financieros,0
+326,670,Pérdidas procedentes del inmovilizado inmaterial,670,Pérdidas procedentes del inmovilizado intangible,0
+327,672,Pérdidas procedentes de participaciones en capital a largo plazo de empresas del grupo,6733,"Pérdidas procedentes de participaciones a largo plazo, empresas del grupo",0
+328,673,Pérdidas procedentes de participaciones en capital a largo plazo de empresas asociadas,6734,"Pérdidas procedentes de participaciones a largo plazo, empresas asociadas",0
+329,674,Pérdidas por operaciones con acciones y obligaciones propias,675,Pérdidas por operaciones con obligaciones propias,0
+330,676,Donaciones del inmovilizado material,671,Pérdidas procedentes del inmovilizado material,0
+331,678,Gastos extraordinarios,678,Gastos excepcionales,0
+332,6780,Gastos producidos por la introducción del euro.,678,Gastos excepcionales,0
+333,6781,Otros gastos extraordinarios.,678,Gastos excepcionales,0
+334,679,Gastos y pérdidas de ejercicios anteriores,678,Gastos excepcionales,0
+335,680,Amortización de gastos de establecimiento,678,Gastos excepcionales,1
+336,681,Amortización del inmovilizado inmaterial,680,Amortización del inmovilizado intangible,0
+337,682,Amortización del inmovilizado material,681,Amortización del inmovilizado material,0
+338,690,Dotación del fondo de reversión.,669,Otros gastos financieros,0
+339,691,Dotación  a la provisión del inmovilizado inmaterial,690,Pérdidas por deterioro del inmovilizado intangible,0
+340,692,Dotación a la provisión del inmovilizado material,691,Pérdidas por deterioro del inmovilizado material,0
+341,693,Dotación a la provisión de existencias,693,Pérdidas por deterioro de existencias,0
+342,694,Dotación a la provisión para insolvencias de tráfico,694,Pérdidas por deterioro de créditos por operaciones comerciales,0
+343,695,Dotación a la provisión para otras operaciones de tráfico,695,Dotación a la provisión por operaciones comerciales,0
+344,6950,"Dotación a la provisión para devoluciones y “rappels"" sobre ventas",6959,Dotación a la provisión para otras operaciones comerciales,0
+345,6951,Dotación a la provisión para otras operaciones de tráfico,6954,Dotación a la provisión por contratos onerosos,0
+346,696,Dotación a la provisión para valores negociables a largo plazo,696,Pérdidas por deterioro de participaciones y valores representativos de deuda a largo plazo,0
+347,6960,Dotación a la provisión para participaciones en capital a largo plazo de  empresas del grupo,6960,"Pérdidas por deterioro de participaciones en instrumentos de patrimonio neto a largo plazo, empresas del grupo",0
+348,6961,Dotación a la provisión para participaciones en capital a largo plazo de empresas asociadas,6961,"Pérdidas por deterioro de participaciones en instrumentos de patrimonio neto a largo plazo, empresas asociadas",0
+349,6963,Dotación a la provisión para valores negociables a largo plazo de otras empresas,6963,"Pérdidas por deterioro de participaciones en instrumentos de patrimonio neto a largo plazo, otras empresas",1
+350,6965,Dotación a la provisión para valores de renta fija a largo plazo en empresas del grupo,6965,"Pérdidas por deterioro en valores representativos de deuda a largo plazo, empresas del grupo",0
+351,6966,Dotación a la provisión para valores de renta fija a largo plazo de empresas asociadas,6966,"Pérdidas por deterioro en valores representativos de deuda a largo plazo, empresas asociadas",0
+352,697,Dotación a la provisión para insolvencias de créditos a largo plazo,697,Pérdidas por deterioro de créditos a largo plazo,0
+353,6970,Dotación a la provisión para insolvencias de créditos  a largo plazo a empresas del grupo,6970,"Pérdidas por deterioro de créditos a largo plazo, empresas del grupo",0
+354,6971,Dotación a la provisión para insolvencias de créditos a largo plazo a empresas asociadas,6971,"Pérdidas por deterioro de créditos a largo plazo, empresas asociadas",0
+355,6973,Dotación a la provisión para insolvencias de créditos a largo plazo a otras empresas,6973,"Pérdidas por deterioro de créditos a largo plazo, otras empresas",0
+356,698,Dotación a la provisión para valores negociables a corto plazo,698,Pérdidas por deterioro de participaciones y valores representativos de deuda a corto plazo,0
+357,6980,Dotación a la provisión para valores  negociables a corto plazo de empresas del grupo,6980,"Pérdidas por deterioro de participaciones en instrumentos de patrimonio neto a corto plazo, empresas del grupo",1
+358,6981,Dotación a la provisión para valores  negociables a corto plazo de empresas asociadas,6981,"Pérdidas por deterioro de participaciones en instrumentos de patrimonio neto a corto plazo, empresas asociadas",1
+359,6983,Dotación a la provisión para valores  negociables a corto plazo de otras empresas,6988,"Pérdidas por deterioro en valores representativos de deuda a corto plazo, de otras empresas",0
+360,699,Dotación a la provisión para insolvencias de créditos a corto plazo,699,Pérdidas por deterioro de créditos a corto plazo,0
+361,6990,Dotación a la provisión para insolvencias de créditos a corto plazo a empresas del grupo,6990,"Pérdidas por deterioro de créditos a corto plazo, empresas del grupo",0
+362,6991,Dotación a la provisión para insolvencias de créditos a corto plazo a empresas asociadas,6991,"Pérdidas por deterioro de créditos a corto plazo, empresas asociadas",0
+363,6993,Dotación a la provisión para insolvencias de créditos a corto plazo a otras empresas,6993,"Pérdidas por deterioro de créditos a  corto plazo, otras empresas",0
+364,730,Incorporación al activo de gastos de establecimiento,778,Ingresos Excepcionales,1
+365,731,Trabajos realizados para el inmovilizado inmaterial,730,Trabajos realizados para el inmovilizado intangible,0
+366,732,Trabajos realizados para el inmovilizado material,731,Trabajos realizados para el inmovilizado material,0
+367,737,Incorporación al activo de gastos de formalización de deudas,778,Ingresos Excepcionales,1
+368,740,Subvenciones oficiales a la explotación,740,"Subvenciones, donaciones y legados a la explotación",0
+369,741,Otras subvenciones a la explotación,747,"Otras subvenciones, donaciones y legados transferidos al resultado del ejercicio",0
+370,760,Ingresos de participaciones en capital,760,Ingresos de participaciones en instrumentos de patrimonio,0
+371,7600,Ingresos de participaciones en capital de empresas del grupo,7600,"Ingresos de participaciones en instrumentos de patrimonio, empresas del grupo",0
+372,7601,Ingresos de participaciones en capital de empresas asociadas,7601,"Ingresos de participaciones en instrumentos de patrimonio, empresas asociadas",0
+373,7603,Ingresos de participaciones en capital de otras empresas,7603,"Ingresos de participaciones en instrumentos de patrimonio, otras empresas",0
+374,761,Ingresos de valores de renta fija,761,Ingresos de valores representativos de deuda,0
+375,7610,Ingresos de valores de renta fija de empresas del grupo,7610,"Ingresos de valores representativos de deuda, empresas del grupo",0
+376,7611,Ingresos de valores de renta fija de empresas asociadas,7611,"Ingresos de valores representativos de deuda, empresas asociadas",0
+377,7613,Ingresos de valores de renta fija de otras empresas,7613,"Ingresos de valores representativos de deuda, otras empresas",0
+378,7618,Ingresos devengados por las participaciones en Fondos de Inversión en activos del Mercado Monetario,761,Ingresos de valores representativos de deuda,0
+379,762,Ingresos de créditos a largo plazo,7620,Ingresos de créditos a largo plazo,0
+380,7620,Ingresos de créditos a largo plazo a empresas del grupo,76200,"Ingresos de créditos a largo plazo, empresas del grupo",0
+381,7621,Ingresos de créditos a largo plazo a empresas asociadas,76201,"Ingresos de créditos a largo plazo, empresas asociadas",0
+382,7623,Ingresos de créditos a largo plazo a otras empresas,76203,"Ingresos de créditos a largo plazo, otras empresas",0
+383,763,Ingresos de créditos a corto plazo,7621,Ingresos de créditos a corto plazo,0
+384,7630,Ingresos de créditos a corto plazo a empresas del grupo,76210,"Ingresos de créditos a corto plazo, empresas del grupo",0
+385,7631,Ingresos de créditos a corto plazo a empresas asociadas,76211,"Ingresos de créditos a corto plazo, empresas asociadas",0
+386,7633,Ingresos de créditos a corto plazo a  otras empresas,76213,"Ingresos de créditos a corto plazo, otras empresas",0
+387,765,Descuentos sobre compras por pronto pago,606,Descuentos sobre compras por pronto pago,0
+388,7650,Descuentos sobre compras por pronto pago de empresas del grupo,606,Descuentos sobre compras por pronto pago,0
+389,7651,Descuentos sobre compras por pronto pago de empresas asociadas,606,Descuentos sobre compras por pronto pago,0
+390,7653,Descuentos sobre compras por pronto pago de otras empresas,606,Descuentos sobre compras por pronto pago,0
+391,766,Beneficios en valores  negociables,766,Beneficios en participaciones y valores representativos de deuda,0
+392,7660,Beneficios en valores  negociables a largo plazo de empresas del grupo,7660,"Beneficios en valores representativos de deuda a largo plazo, empresas del grupo",0
+393,7661,Beneficios en valores  negociables a largo plazo de empresas asociadas,7661,"Beneficios en valores representativos de deuda a largo plazo, empresas asociadas",0
+394,7663,Beneficios en valores  negociables a largo plazo de otras empresas,7663,"Beneficios en participaciones y valores representativos de deuda a largo plazo, otras empresas",0
+395,7665,Beneficios en valores  negociables a corto plazo de empresas del grupo,7665,"Beneficios en participaciones y valores representativos de deuda a corto plazo, empresas del grupo",0
+396,7666,Beneficios en valores  negociables a corto  plazo de empresas asociadas,7666,"Beneficios en  participaciones y valores representativos de deuda a corto plazo, empresas asociadas",0
+397,7668,Beneficios en valores  negociables a corto plazo de otras empresas,7668,"Beneficios en valores  representativos de deuda a corto plazo, otras empresas",0
+398,7680,Otras diferencias positivas de cambio por la introducción del euro.,768,Diferencias positivas de cambio,0
+399,7681,Diferencias positivas de cambio.,768,Diferencias positivas de cambio,0
+400,7690,Ingresos por diferencias derivadas del redondeo euro.,769,Otros ingresos financieros,0
+401,7691,Otros ingresos financieros,769,Otros ingresos financieros,0
+402,770,Beneficios procedentes del inmovilizado inmaterial,770,Beneficios procedentes del inmovilizado intangible,0
+403,772,Beneficios procedentes de participaciones en capital a largo plazo en empresas del grupo,7733,"Beneficios procedentes de participaciones a largo plazo, empresas del grupo",0
+404,773,Beneficios procedentes de participaciones en capital a largo plazo en empresas asociadas,7734,"Beneficios procedentes de participaciones a largo plazo, empresas asociadas",0
+405,774,Beneficios por operaciones con acciones y obligaciones propias,775,Beneficios por operaciones con obligaciones propias,0
+406,775,Subvenciones de capital traspasadas al resultado del ejercicio,746,"Subvenciones, donaciones y legados de capital transferidas al resultado del ejercicio",0
+407,776,Donaciones de inmovilizado material traspasadas al resultado del ejercicio,747,"Otras subvenciones, donaciones y legados transferidos al resultado del ejercicio",0
+408,778,Ingresos extraordinarios,778,Ingresos excepcionales,0
+409,779,Ingresos y beneficios de ejercicios anteriores,778,Ingresos excepcionales,0
+410,790,Exceso de provisión para riesgos y gastos,795,Exceso de provisiones,0
+411,791,Exceso de provisión del inmovilizado inmaterial,790,Reversión del deterioro del inmovilizado intangible,0
+412,792,Exceso de provisión del inmovilizado material,791,Reversión del deterioro del inmovilizado material,0
+413,793,Provisión de existencias aplicada,793,Reversión del deterioro de existencias,0
+414,794,Provisión para insolvencias de tráfico aplicada,794,Reversión del deterioro de créditos por operaciones comerciales,0
+415,795,Provisión para otras operaciones de tráfico aplicada,794,Reversión del deterioro de créditos por operaciones comerciales,0
+416,796,Exceso de provisión para valores negociables a largo plazo,796,Reversión del deterioro de participaciones y valores representativos de deuda a largo plazo,0
+417,7960,Exceso de provisión para participaciones en capital a largo plazo en empresas del grupo,7960,"Reversión del deterioro de participaciones en instrumentos de patrimonio neto a largo plazo, empresas del grupo",0
+418,7961,Exceso de provisión para  participaciones en capital a largo plazo en empresas asociadas,7961,"Reversión del deterioro de participaciones en instrumentos de patrimonio neto a largo plazo, empresas asociadas",0
+419,7963,Exceso de provisión para valores negociables a largo plazo en  otras empresas,7968,"Reversión del deterioro de valores representativos de deuda a largo plazo, de otras empresas",0
+420,7965,Exceso de provisión para valores de renta fija a largo plazo en empresas del grupo,7965,"Reversión del deterioro de valores representativos de deuda a largo plazo, empresas del grupo",0
+421,7966,Exceso de provisión para valores de renta fija a largo plazo en empresas asociadas,7966,"Reversión del deterioro de valores representativos de deuda a largo plazo, empresas asociadas",0
+422,797,Exceso de provisión para insolvencias de créditos a largo plazo,797,Reversión del deterioro de créditos a largo plazo,0
+423,7970,Exceso de provisión para insolvencias de créditos a largo plazo de empresas del grupo,7970,"Reversión del deterioro de créditos a largo plazo, empresas del grupo",0
+424,7971,Exceso de provisión para insolvencias de créditos a largo plazo de empresas asociadas,7971,"Reversión del deterioro de créditos a largo plazo, empresas asociadas",0
+425,7973,Exceso de provisión para insolvencias de créditos a largo plazo de otras empresas,7973,"Reversión del deterioro de créditos a largo plazo, otras empresas",0
+426,798,Exceso de provisión para valores negociables a corto plazo,798,Reversión del deterioro de participaciones y valores representativos de deuda a corto plazo,0
+427,7980,Exceso de provisión para valores negociables a corto plazo de empresas del grupo,7980,"Reversión del deterioro de participaciones en instrumentos de patrimonio neto a corto plazo, empresas del grupo",1
+428,7981,Exceso de provisión para valores  negociables a corto plazo de empresas asociadas,7981,"Reversión del deterioro de participaciones en instrumentos de patrimonio neto a corto plazo, empresas asociadas",1
+429,7983,Exceso de provisión para valores  negociables a corto plazo de otras empresas,7988,"Reversión del deterioro en valores representativos de deuda a corto plazo, otras empresas",0
+430,799,Exceso de provisión para insolvencias de créditos a corto plazo,799,Reversión del deterioro de créditos a corto plazo,0
+431,7990,Exceso de provisión para insolvencias de créditos a corto plazo de empresas del grupo,7990,"Reversión del deterioro de créditos a corto plazo, empresas del grupo",0
+432,7991,Exceso de provisión para insolvencias de créditos a corto plazo de empresas asociadas,7991,"Reversión del deterioro de créditos a corto plazo, empresas asociadas",0
+433,7993,Exceso de provisión para insolvencias de créditos a corto plazo de otras empresas,7993,"Reversión del deterioro de créditos a corto plazo, otras empresas",0

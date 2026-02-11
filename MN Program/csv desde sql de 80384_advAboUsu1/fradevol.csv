@@ -1,0 +1,3 @@
+﻿yearfact,inumfactura,codsubusu,fecha,asientodev,importe,alcobro,impagado,asientocobimp,fechacobimp,ctacajban,ctacontra,concepto,observaciones,lineacobro,diario,linea,conceptocobimp,observacionescobimp,importecobimp,fechacobro,serie,ctacobrardenuevo,tipoimpago,lineacobimp,bproformarel,inumproformarel,yearproformarel,codsubusuproformarel,tipoproformarel
+2012,4,1,2012-12-12 00:00:00,35,50.0,1,0,36,2012-12-15 00:00:00,5720000003,4360000000,Impagado Recibo: 12/4/1,,0,S,0,Volver a pasar al Cobro Fra:4/2012,,50.0,2012-12-10 00:00:00,,5700000000,Vuelto a cobrar,1,0,,,,
+2021,23,0,2012-12-13 00:00:00,37,250.0,0,0,,,5720000003,4360000000,Consulta,,1,S,1,,,,2012-12-10 00:00:00,,,Impagado,,,,,,

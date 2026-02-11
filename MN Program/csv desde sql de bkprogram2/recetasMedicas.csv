@@ -1,0 +1,11 @@
+﻿id,id_recetaXML,icodcli,numero,fechaprescripcion,denominacion,dosificacion,via,formato,duracion,diagnostico,instrucciones,notas,icodusu,unidades,idPActivo,periodoVal,prescripExtra,piensoMedic,codExplotaREGA,idEspecieREGA,numEnvases,piensoEnKg,piensoDosif,udDosificacion,idTrabajoPresVet,codigoPresVet,estadoPresVet
+2,101,4,1,2013-04-23 00:00:00,NOLOTIL,,ORAL,TABLETA,8 DÍAS,,1 CADA 8 HORAS,,5,24,,,,,,,,,,,,,
+3,102,10,1,2013-04-23 00:00:00,PARACETAMOL,,ORAL,SOBRE,3 DÍAS,,1 CADA 8 HORAS,,5,24,,,,,,,,,,,,,
+4,,62,2,2022-10-24 00:00:00,1,6,2,3,4,8,7,"{\rtf1\ansi\ansicpg1252\deff0\deflang3082{\fonttbl{\f0\fnil\fcharset0 Microsoft Sans Serif;}}
+\viewkind4\uc1\pard\f0\fs20\par
+}
+",0,5,,,,,,,,,,,,,
+5,,62,3,2022-10-26 00:00:00,IBUPROFENO,,Oral,,2 semanas,,,"{\rtf1\ansi\ansicpg1252\deff0\deflang3082{\fonttbl{\f0\fnil\fcharset0 Microsoft Sans Serif;}}
+\viewkind4\uc1\pard\f0\fs20\par
+}
+",0,5,,,,,,,,,,,,,

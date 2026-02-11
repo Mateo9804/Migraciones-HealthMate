@@ -1,0 +1,9 @@
+﻿id,icodopor,sdescripcion,unidades,fpreciounitario,total,tipocuenta,idarticulo,indicehono,ordenhono,descriphono,dcto,previsto,capituloconcepto,subcapitulo,tipoOperacionIVA,detalleOperacionIVA,tipoExencionIVA,motivoExencionIVA,tipoOperacionIRPF,modelosIVA,modelosIRPF,aplicarRecEq,poriva,porrecargo,ctaiva,ctairpf,iva,irpf,CtaServArt,clavemod349,notas,referencia,codigoIAETicketBai
+1,4,Papelería,1.0000,0.0000,0.0000,HONORARIO,,,,,0.0000,0.0000,,,1,0,-1,1,,24,64,,0.00,0.00,4720000021,,0.00,0.00,6280000000,,"{\rtf1\ansi\ansicpg1252\deff0\deflang3082{\fonttbl{\f0\fnil\fcharset0 Microsoft Sans Serif;}}
+\viewkind4\uc1\pard\f0\fs20\par
+}
+",,
+2,5,Papelería,1.0000,0.0000,0.0000,HONORARIO,,,,,0.0000,0.0000,,,1,0,-1,1,,24,64,,0.00,0.00,4720000021,,0.00,0.00,6280000000,,"{\rtf1\ansi\ansicpg1252\deff0\deflang3082{\fonttbl{\f0\fnil\fcharset0 Microsoft Sans Serif;}}
+\viewkind4\uc1\pard\f0\fs20\par
+}
+",,

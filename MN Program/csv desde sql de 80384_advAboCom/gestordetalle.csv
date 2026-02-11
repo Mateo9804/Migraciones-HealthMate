@@ -1,0 +1,109 @@
+﻿id,idgrupo,nombre,texto,campo,campoVisualizacion
+1,1,Notas,Notas,notas,
+2,1,Notas2,Notas 2,notas2,vernotas2hist
+3,1,Notas3,Notas 3,notas3,vernotas3hist
+7,1,Notas4,Notas 4,notas4,vernotas4hist
+8,1,Notas5,Notas 5,notas5,vernotas5hist
+9,1,Notas6,Notas 6,notas6,vernotas6hist
+10,4,notas,Notas,notas1,bvernotaopor
+12,4,notas2,Notas 2,notas2,bvernotaopor
+13,4,notas3,Notas 3,notas3,bvernotaopor
+14,4,notas4,Notas 4,notas4,bvernotaopor
+15,4,notas5,Notas 5,notas5,bvernotaopor
+16,4,notas6,Notas 6,notas6,bvernotaopor
+17,13,Notas,Notas,notas,
+18,19,Notas,Notas,notas,
+19,19,Notas2,Notas 2,notas2,vernotas2hist
+20,19,Notas3,Notas 3,notas3,vernotas3hist
+21,19,Notas4,Notas 4,notas4,vernotas4hist
+22,19,Notas5,Notas 5,notas5,vernotas5hist
+23,19,Notas6,Notas 6,notas6,vernotas6hist
+24,24,Notas,Notas,notas,
+25,11,Notas,Notas,notas,
+27,38,Notas,Notas,notas,
+28,39,Notas,Notas,notas,
+29,42,Notas,Notas,notas,
+30,47,Notas 1,notas,notas1,bvernotaopor
+31,47,Notas 2,notas2,notas2,bvernotaopor
+32,47,Notas 3,notas3,notas3,bvernotaopor
+33,47,Notas 4,notas4,notas4,bvernotaopor
+34,47,Notas 5,notas5,notas5,bvernotaopor
+35,48,Notas,Notas,notas,
+36,48,Notas1,Notas1,notas2,bverfactnotas2
+37,48,Notas2,Notas2,notas3,bverfactnotas3
+38,48,Notas3,Notas3,notas4,bverfactnotas4
+39,48,Notas4,Notas4,notas5,bverfactnotas5
+40,48,Notas5,Notas5,notas6,bverfactnotas6
+77,57,Notas,Notas,notas,
+78,57,Notas1,Notas1,notas2,bverfactnotas2
+79,57,Notas2,Notas2,notas3,bverfactnotas3
+80,57,Notas3,Notas3,notas4,bverfactnotas4
+81,57,Notas4,Notas4,notas5,bverfactnotas5
+82,57,Notas5,Notas5,notas6,bverfactnotas6
+83,58,Notas,Notas,notas,
+84,58,Notas1,Notas1,notas2,bverfactnotas2
+85,58,Notas2,Notas2,notas3,bverfactnotas3
+86,58,Notas3,Notas3,notas4,bverfactnotas4
+87,58,Notas4,Notas4,notas5,bverfactnotas5
+88,58,Notas5,Notas5,notas6,bverfactnotas6
+89,59,Notas,Notas,notas,
+90,59,Notas1,Notas1,notas2,bverfactnotas2
+91,59,Notas2,Notas2,notas3,bverfactnotas3
+92,59,Notas3,Notas3,notas4,bverfactnotas4
+93,59,Notas4,Notas4,notas5,bverfactnotas5
+94,59,Notas5,Notas5,notas6,bverfactnotas6
+95,60,Notas,Notas,notas,
+96,60,Notas1,Notas1,notas2,bverfactnotas2
+97,60,Notas2,Notas2,notas3,bverfactnotas3
+98,60,Notas3,Notas3,notas4,bverfactnotas4
+99,60,Notas4,Notas4,notas5,bverfactnotas5
+100,60,Notas5,Notas5,notas6,bverfactnotas6
+101,61,Notas,Notas,notas,
+102,61,Notas1,Notas1,notas2,bverfactnotas2
+103,61,Notas2,Notas2,notas3,bverfactnotas3
+104,61,Notas3,Notas3,notas4,bverfactnotas4
+105,61,Notas4,Notas4,notas5,bverfactnotas5
+106,61,Notas5,Notas5,notas6,bverfactnotas6
+107,62,Notas,Notas,notas,
+108,62,Notas 2,Notas 2,notas2,
+109,62,Notas 3,Notas 3,notas3,
+110,62,Notas 4,Notas 4,notas4,
+111,62,Notas 5,Notas 5,notas5,
+112,62,Notas 6,Notas 6,notas6,
+113,63,Notas,Notas,notas,
+114,63,Notas 2,Notas 2,notas2,
+115,63,Notas 3,Notas 3,notas3,
+116,63,Notas 4,Notas 4,notas4,
+117,63,Notas 5,Notas 5,notas5,
+118,63,Notas 6,Notas 6,notas6,
+119,64,Notas,Notas,notas,
+120,64,Notas 2,Notas 2,notas2,
+121,64,Notas 3,Notas 3,notas3,
+122,64,Notas 4,Notas 4,notas4,
+123,64,Notas 5,Notas 5,notas5,
+124,64,Notas 6,Notas 6,notas6,
+126,66,Notas,Notas,notas,
+127,66,Notas 2,Notas 2,notas2,
+128,66,Notas 3,Notas 3,notas3,
+129,66,Notas 4,Notas 4,notas4,
+130,66,Notas 5,Notas 5,notas5,
+131,66,Notas 6,Notas 6,notas6,
+476,82,Notas,Notas,notas,
+477,82,Notas 2,Notas 2,notas2,
+478,82,Notas 3,Notas 3,notas3,
+479,82,Notas 4,Notas 4,notas4,
+480,82,Notas 5,Notas 5,notas5,
+481,82,Notas 6,Notas 6,notas6,
+482,86,notas,Notas,notas1,bvernotaopor
+483,86,notas2,Notas 2,notas2,bvernotaopor
+484,86,notas3,Notas 3,notas3,bvernotaopor
+485,86,notas4,Notas 4,notas4,bvernotaopor
+486,86,notas5,Notas 5,notas5,bvernotaopor
+487,86,notas6,Notas 6,notas6,bvernotaopor
+488,104,Notas,Notas,notas,
+489,104,Notas2,Notas 2,notas2,vernotas2hist
+490,104,Notas3,Notas 3,notas3,vernotas3hist
+491,104,Notas4,Notas 4,notas4,vernotas4hist
+492,104,Notas5,Notas 5,notas5,vernotas5hist
+493,104,Notas6,Notas 6,notas6,vernotas6hist
+494,115,Notas,Notas,notas,

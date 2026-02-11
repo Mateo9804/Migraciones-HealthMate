@@ -1,0 +1,23 @@
+﻿id,codigo,descripcion
+1,01,"Operación de régimen general y cualquier otro supuesto que no esté recogido en los siguientes
+valores."
+2,02,Exportación
+3,03,"Operaciones a las que se aplique el régimen especial de bienes usados, objetos de arte,
+antigüedades y objetos de colección."
+4,04,Régimen especial del oro de inversión.
+5,05,Régimen especial de las agencias de viajes.
+6,06,Régimen especial grupo de entidades en IVA (Nivel Avanzado).
+7,07,Régimen especial del criterio de caja.
+8,08,Operaciones sujetas al IPSI/IGIC
+9,09,"Facturación de las prestaciones de servicios de agencias de viaje que actúan como mediadoras
+en nombre y por cuenta ajena"
+10,10,Cobros por cuenta de terceros. 
+11,11,Operaciones de arrendamiento de local de negocio sujetas a retención.
+12,12,Operaciones de arrendamiento de local de negocio no sujetas a retención
+13,13,Operaciones de arrendamiento de local de negocio sujetas y no sujetas a retención.
+14,14,"Factura con IVA pendiente de devengo en certificaciones de obra cuyo destinatario sea una
+Administración Pública."
+15,15,Factura con IVA pendiente de devengo en operaciones de tracto sucesivo.
+16,51,Operaciones en recargo de equivalencia.
+17,52,Operaciones en régimen simplificado.
+18,53,Operaciones realizadas por personas o entidades que no

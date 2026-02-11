@@ -1,0 +1,11 @@
+﻿id,padre,snombre,imagen
+1,0,Llamadas,
+2,1,s,
+3,2,General,
+4,2,Llamadas,
+5,2,Consentimientos,
+7,2,Calidad de Servicio,
+12,2,Informes,
+13,2,Comercial,
+14,2,LOPD,
+15,2,Laboral,

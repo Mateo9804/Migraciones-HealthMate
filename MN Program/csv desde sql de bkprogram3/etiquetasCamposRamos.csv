@@ -1,0 +1,901 @@
+﻿id,idramo,ipestana,scampo,setiqueta,bvisible,bdesplegable
+1,1,0,campo1inf,Matrícula,1,0
+2,1,1,campo1gar,R. C. Subscripción Obligatoria,1,1
+3,1,0,campo2inf,Nº Bastidor,1,0
+4,1,1,campo2gar,R. C. Subscripcion Voluntaria,1,0
+5,1,0,campo3inf,Marca,1,1
+6,1,1,campo3gar,Asistencia Jurídica,1,1
+7,1,0,campo4inf,Modelo,1,0
+8,1,1,campo4gar,Daños Propios,1,1
+9,1,0,campo5inf,Puertas,1,1
+10,1,1,campo5gar,Defensa Jurídica,1,1
+11,1,0,campo6inf,Combustible,1,0
+12,1,1,campo6gar,Reclamación de Daños,1,1
+13,1,0,campo7inf,Versión,1,1
+14,1,1,campo7gar,Asistencia en Viaje,1,1
+15,1,0,campo8inf,¿Ha comprado el coche ahora?,1,1
+16,1,1,campo8gar,R. C. de la Carga,1,1
+17,1,0,campo9inf,¿Dónde aparca?,1,1
+18,1,1,campo9gar,Lunas,1,1
+19,1,0,campo10inf,Uso del coche,1,1
+20,1,1,campo10gar,Robo,1,1
+21,1,0,campo11inf,Remolque,1,1
+22,1,1,campo11gar,Incendio,1,1
+23,1,0,campo12inf,Kilómetros Año,1,0
+24,1,1,campo12gar,Vehículo de Sustitución,1,1
+25,1,0,campo13inf,Fecha Matriculación,1,0
+26,1,1,campo13gar,Campo Libre13,0,0
+27,1,0,campo14inf,Año Matriculación,1,0
+28,1,1,campo14gar,Campo Libre14,0,0
+29,1,0,campo15inf,Fecha Compra,1,0
+30,1,1,campo15gar,Campo Libre15,0,0
+31,1,0,campo16inf,Nº de Coches en Hogar,1,0
+32,1,1,campo16gar,Campo Libre16,0,0
+33,1,0,campo17inf,Conduce otro vehículo,1,1
+34,1,1,campo17gar,Campo Libre17,0,0
+35,1,0,campo18inf,Conductor Único,1,1
+36,1,1,campo18gar,Campo Libre18,0,0
+37,1,0,campo19inf,Partes anteriores a 24 meses,1,1
+38,1,1,campo19gar,Campo Libre19,0,0
+39,1,0,campo20inf,Multas último año,1,1
+40,1,1,campo20gar,Campo Libre20,0,0
+41,1,0,campo21inf,Campo Libre21,0,0
+42,1,1,campo21gar,Campo Libre21,0,0
+43,1,0,campo22inf,Campo Libre22,0,0
+44,1,1,campo22gar,Campo Libre22,0,0
+45,1,0,campo23inf,Campo Libre23,0,0
+46,1,1,campo23gar,Campo Libre23,0,0
+47,1,0,campo24inf,Campo Libre24,0,0
+48,1,1,campo24gar,Campo Libre24,0,0
+49,1,0,campo25inf,Campo Libre25,0,0
+50,1,1,campo25gar,Campo Libre25,0,0
+51,1,0,campo26inf,Campo Libre26,0,0
+52,1,1,campo26gar,Campo Libre26,0,0
+53,1,0,campo27inf,Campo Libre27,0,0
+54,1,1,campo27gar,Campo Libre27,0,0
+55,1,0,campo28inf,Campo Libre28,0,0
+56,1,1,campo28gar,Campo Libre28,0,0
+57,1,0,campo29inf,Campo Libre29,0,0
+58,1,1,campo29gar,Campo Libre29,0,0
+59,1,0,campo30inf,Campo Libre30,0,0
+60,1,1,campo30gar,Campo Libre30,0,0
+61,2,0,campo1inf,Tipo de Vivienda,1,1
+62,2,1,campo1gar,Continente,1,0
+63,2,0,campo2inf,Es el propietario de vivienda,1,1
+64,2,1,campo2gar,Contenido,1,0
+65,2,0,campo3inf,Superficie,1,0
+66,2,1,campo3gar,Daños Materiales,1,1
+67,2,0,campo4inf,Año de construcción,1,0
+68,2,1,campo4gar,Robo/Hurto,1,1
+69,2,0,campo5inf,¿Se ha rehabilitado la vivienda?,1,1
+70,2,1,campo5gar,Daños Estéticos,1,1
+71,2,0,campo6inf,Localidad,1,0
+72,2,1,campo6gar,Garantías Complementarias,1,1
+73,2,0,campo7inf,Situación,1,1
+74,2,1,campo7gar,R.C,1,1
+75,2,0,campo8inf,Puerta blindada,1,1
+76,2,1,campo8gar,Asistencia en el Hogar,1,1
+77,2,0,campo9inf,Cristales blindados,1,1
+78,2,1,campo9gar,Asistencia Jurídica,1,1
+79,2,0,campo10inf,Rejas,1,1
+80,2,1,campo10gar,Asistencia en Viaje,1,1
+81,2,0,campo11inf,Alarma,1,1
+82,2,1,campo11gar,Campo Libre11,0,0
+83,2,0,campo12inf,Vigilancia 24 horas,1,1
+84,2,1,campo12gar,Campo Libre12,0,0
+85,2,0,campo13inf,Continente,1,0
+86,2,1,campo13gar,Campo Libre13,0,0
+87,2,0,campo14inf,Contenido,1,0
+88,2,1,campo14gar,Campo Libre14,0,0
+89,2,0,campo15inf,Campo Libre15,0,0
+90,2,1,campo15gar,Campo Libre15,0,0
+91,2,0,campo16inf,Campo Libre16,0,0
+92,2,1,campo16gar,Campo Libre16,0,0
+93,2,0,campo17inf,Campo Libre17,0,0
+94,2,1,campo17gar,Campo Libre17,0,0
+95,2,0,campo18inf,Campo Libre18,0,0
+96,2,1,campo18gar,Campo Libre18,0,0
+97,2,0,campo19inf,Campo Libre19,0,0
+98,2,1,campo19gar,Campo Libre19,0,0
+99,2,0,campo20inf,Campo Libre20,0,0
+100,2,1,campo20gar,Campo Libre20,0,0
+101,2,0,campo21inf,Campo Libre21,0,0
+102,2,1,campo21gar,Campo Libre21,0,0
+103,2,0,campo22inf,Campo Libre22,0,0
+104,2,1,campo22gar,Campo Libre22,0,0
+105,2,0,campo23inf,Campo Libre23,0,0
+106,2,1,campo23gar,Campo Libre23,0,0
+107,2,0,campo24inf,Campo Libre24,0,0
+108,2,1,campo24gar,Campo Libre24,0,0
+109,2,0,campo25inf,Campo Libre25,0,0
+110,2,1,campo25gar,Campo Libre25,0,0
+111,2,0,campo26inf,Campo Libre26,0,0
+112,2,1,campo26gar,Campo Libre26,0,0
+113,2,0,campo27inf,Campo Libre27,0,0
+114,2,1,campo27gar,Campo Libre27,0,0
+115,2,0,campo28inf,Campo Libre28,0,0
+116,2,1,campo28gar,Campo Libre28,0,0
+117,2,0,campo29inf,Campo Libre29,0,0
+118,2,1,campo29gar,Campo Libre29,0,0
+119,2,0,campo30inf,Campo Libre30,0,0
+120,2,1,campo30gar,Campo Libre30,0,0
+121,3,0,campo1inf,Importe a asegurar,1,0
+122,3,1,campo1gar,F. por cualquier causa,1,0
+123,3,0,campo2inf,Estatura,1,0
+124,3,1,campo2gar,F. accidente,1,0
+125,3,0,campo3inf,Peso,1,0
+126,3,1,campo3gar,Invalidez por cualquier causa,1,0
+127,3,0,campo4inf,Tensión Arterial,1,0
+128,3,1,campo4gar,Invalidez por accidente,1,0
+129,3,0,campo5inf,Fuma,1,0
+130,3,1,campo5gar,Segunda opinión,1,1
+131,3,0,campo6inf,Consume bebidas alcohólicas,1,0
+132,3,1,campo6gar,Gestión Médica,1,1
+133,3,0,campo7inf,Consume estupefacientes,1,0
+134,3,1,campo7gar,Anticipos para gastos de sepelio,1,1
+135,3,0,campo8inf,He recibido medicación últimamente,1,0
+136,3,1,campo8gar,Campo Libre8,0,0
+137,3,0,campo9inf,Cuando,1,0
+138,3,1,campo9gar,Campo Libre9,0,0
+139,3,0,campo10inf,Causa,1,0
+140,3,1,campo10gar,Campo Libre10,0,0
+141,3,0,campo11inf,Está de baja,1,0
+142,3,1,campo11gar,Campo Libre11,0,0
+143,3,0,campo12inf,Enfermedad Grave/Trastorno,1,0
+144,3,1,campo12gar,Campo Libre12,0,0
+145,3,0,campo13inf,Cuál,1,0
+146,3,1,campo13gar,Campo Libre13,0,0
+147,3,0,campo14inf,Hospitalización/Interv. Quirúrjica,1,0
+148,3,1,campo14gar,Campo Libre14,0,0
+149,3,0,campo15inf,Cuando,1,0
+150,3,1,campo15gar,Campo Libre15,0,0
+151,3,0,campo16inf,Causa,1,0
+152,3,1,campo16gar,Campo Libre16,0,0
+153,3,0,campo17inf,Accidente con Secuelas,1,0
+154,3,1,campo17gar,Campo Libre17,0,0
+155,3,0,campo18inf,Cuando,1,0
+156,3,1,campo18gar,Campo Libre18,0,0
+157,3,0,campo19inf,Causa,1,0
+158,3,1,campo19gar,Campo Libre19,0,0
+159,3,0,campo20inf,Tratamiento Médico,1,0
+160,3,1,campo20gar,Campo Libre20,0,0
+161,3,0,campo21inf,Cual,1,0
+162,3,1,campo21gar,Campo Libre21,0,0
+163,3,0,campo22inf,Deporte,1,0
+164,3,1,campo22gar,Campo Libre22,0,0
+165,3,0,campo23inf,Cual,1,0
+166,3,1,campo23gar,Campo Libre23,0,0
+167,3,0,campo24inf,Campo Libre24,0,0
+168,3,1,campo24gar,Campo Libre24,0,0
+169,3,0,campo25inf,Campo Libre25,0,0
+170,3,1,campo25gar,Campo Libre25,0,0
+171,3,0,campo26inf,Campo Libre26,0,0
+172,3,1,campo26gar,Campo Libre26,0,0
+173,3,0,campo27inf,Campo Libre27,0,0
+174,3,1,campo27gar,Campo Libre27,0,0
+175,3,0,campo28inf,Campo Libre28,0,0
+176,3,1,campo28gar,Campo Libre28,0,0
+177,3,0,campo29inf,Campo Libre29,0,0
+178,3,1,campo29gar,Campo Libre29,0,0
+179,3,0,campo30inf,Campo Libre30,0,0
+180,3,1,campo30gar,Campo Libre30,0,0
+181,4,0,campo1inf,Marca,1,1
+182,4,1,campo1gar,R. C. Obligatoria,1,1
+183,4,0,campo2inf,Cilindrada,1,1
+184,4,1,campo2gar,R. C. Voluntaria,1,0
+185,4,0,campo3inf,Modelo,1,0
+186,4,1,campo3gar,Defensa Jurídica,1,1
+187,4,0,campo4inf,Versión,1,0
+188,4,1,campo4gar,Reclamación Daños,1,1
+189,4,0,campo5inf,¿Ha comprado la moto ahora?,1,1
+190,4,1,campo5gar,Seguro Conductor,1,1
+191,4,0,campo6inf,¿Dónde aparca la moto?,1,1
+192,4,1,campo6gar,Asistencia en Viaje,1,1
+193,4,0,campo7inf,Uso de la moto,1,1
+194,4,1,campo7gar,Campo Libre7,0,0
+195,4,0,campo8inf,Kilómetros año,1,0
+196,4,1,campo8gar,Campo Libre8,0,0
+197,4,0,campo9inf,Tipo de carné de conducir,1,1
+198,4,1,campo9gar,Campo Libre9,0,0
+199,4,0,campo10inf,Años sin incidentes,1,0
+200,4,1,campo10gar,Campo Libre10,0,0
+201,4,0,campo11inf,Campo Libre11,0,0
+202,4,1,campo11gar,Campo Libre11,0,0
+203,4,0,campo12inf,Campo Libre12,0,0
+204,4,1,campo12gar,Campo Libre12,0,0
+205,4,0,campo13inf,Campo Libre13,0,0
+206,4,1,campo13gar,Campo Libre13,0,0
+207,4,0,campo14inf,Campo Libre14,0,0
+208,4,1,campo14gar,Campo Libre14,0,0
+209,4,0,campo15inf,Campo Libre15,0,0
+210,4,1,campo15gar,Campo Libre15,0,0
+211,4,0,campo16inf,Campo Libre16,0,0
+212,4,1,campo16gar,Campo Libre16,0,0
+213,4,0,campo17inf,Campo Libre17,0,0
+214,4,1,campo17gar,Campo Libre17,0,0
+215,4,0,campo18inf,Campo Libre18,0,0
+216,4,1,campo18gar,Campo Libre18,0,0
+217,4,0,campo19inf,Campo Libre19,0,0
+218,4,1,campo19gar,Campo Libre19,0,0
+219,4,0,campo20inf,Campo Libre20,0,0
+220,4,1,campo20gar,Campo Libre20,0,0
+221,4,0,campo21inf,Campo Libre21,0,0
+222,4,1,campo21gar,Campo Libre21,0,0
+223,4,0,campo22inf,Campo Libre22,0,0
+224,4,1,campo22gar,Campo Libre22,0,0
+225,4,0,campo23inf,Campo Libre23,0,0
+226,4,1,campo23gar,Campo Libre23,0,0
+227,4,0,campo24inf,Campo Libre24,0,0
+228,4,1,campo24gar,Campo Libre24,0,0
+229,4,0,campo25inf,Campo Libre25,0,0
+230,4,1,campo25gar,Campo Libre25,0,0
+231,4,0,campo26inf,Campo Libre26,0,0
+232,4,1,campo26gar,Campo Libre26,0,0
+233,4,0,campo27inf,Campo Libre27,0,0
+234,4,1,campo27gar,Campo Libre27,0,0
+235,4,0,campo28inf,Campo Libre28,0,0
+236,4,1,campo28gar,Campo Libre28,0,0
+237,4,0,campo29inf,Campo Libre29,0,0
+238,4,1,campo29gar,Campo Libre29,0,0
+239,4,0,campo30inf,Campo Libre30,0,0
+240,4,1,campo30gar,Campo Libre30,0,0
+241,5,0,campo1inf,Importe a asegurar,1,0
+242,5,1,campo1gar,Asistencia Primaria,1,1
+243,5,0,campo2inf,Estatura,1,0
+244,5,1,campo2gar,Asistencia Especializada,1,1
+245,5,0,campo3inf,Peso,1,0
+246,5,1,campo3gar,Tratamientos y Serv. Esp.,1,1
+247,5,0,campo4inf,Tensión Arterial,1,0
+248,5,1,campo4gar,Hospitalización,1,1
+249,5,0,campo5inf,Fuma,1,0
+250,5,1,campo5gar,Prótesis e Implantes,1,1
+251,5,0,campo6inf,Consume bebidas alcohólicas,1,0
+252,5,1,campo6gar,Garantía Bucodental,1,1
+253,5,0,campo7inf,Consume estupefacientes,1,0
+254,5,1,campo7gar,Asistencia Extranjero,1,1
+255,5,0,campo8inf,He recibido medicación últimamente,1,0
+256,5,1,campo8gar,Seguro de Accidentes Personales,1,1
+257,5,0,campo9inf,Cuando,1,0
+258,5,1,campo9gar,Campo Libre9,0,0
+259,5,0,campo10inf,Causa,1,0
+260,5,1,campo10gar,Campo Libre10,0,0
+261,5,0,campo11inf,Está de baja,1,0
+262,5,1,campo11gar,Campo Libre11,0,0
+263,5,0,campo12inf,Enfermedad Grave/Trastorno,1,0
+264,5,1,campo12gar,Campo Libre12,0,0
+265,5,0,campo13inf,Cual,1,0
+266,5,1,campo13gar,Campo Libre13,0,0
+267,5,0,campo14inf,Hospitalización/Interv. Quirúrgica,1,0
+268,5,1,campo14gar,Campo Libre14,0,0
+269,5,0,campo15inf,Cuando,1,0
+270,5,1,campo15gar,Campo Libre15,0,0
+271,5,0,campo16inf,Causa,1,0
+272,5,1,campo16gar,Campo Libre16,0,0
+273,5,0,campo17inf,Accidente con Secuelas,1,0
+274,5,1,campo17gar,Campo Libre17,0,0
+275,5,0,campo18inf,Cuando,1,0
+276,5,1,campo18gar,Campo Libre18,0,0
+277,5,0,campo19inf,Causa,1,0
+278,5,1,campo19gar,Campo Libre19,0,0
+279,5,0,campo20inf,Tratamiento Médico,1,0
+280,5,1,campo20gar,Campo Libre20,0,0
+281,5,0,campo21inf,Cual,1,0
+282,5,1,campo21gar,Campo Libre21,0,0
+283,5,0,campo22inf,Deporte,1,0
+284,5,1,campo22gar,Campo Libre22,0,0
+285,5,0,campo23inf,Cual,1,0
+286,5,1,campo23gar,Campo Libre23,0,0
+287,5,0,campo24inf,Campo Libre24,0,0
+288,5,1,campo24gar,Campo Libre24,0,0
+289,5,0,campo25inf,Campo Libre25,0,0
+290,5,1,campo25gar,Campo Libre25,0,0
+291,5,0,campo26inf,Campo Libre26,0,0
+292,5,1,campo26gar,Campo Libre26,0,0
+293,5,0,campo27inf,Campo Libre27,0,0
+294,5,1,campo27gar,Campo Libre27,0,0
+295,5,0,campo28inf,Campo Libre28,0,0
+296,5,1,campo28gar,Campo Libre28,0,0
+297,5,0,campo29inf,Campo Libre29,0,0
+298,5,1,campo29gar,Campo Libre29,0,0
+299,5,0,campo30inf,Campo Libre30,0,0
+300,5,1,campo30gar,Campo Libre30,0,0
+301,6,0,campo1inf,Campo Libre1,0,0
+302,6,1,campo1gar,Tanatorio,1,1
+303,6,0,campo2inf,Campo Libre2,0,0
+304,6,1,campo2gar,Gastos Extraordinarios,1,1
+305,6,0,campo3inf,Campo Libre3,0,0
+306,6,1,campo3gar,Orientación Jurídica,1,1
+307,6,0,campo4inf,Campo Libre4,0,0
+308,6,1,campo4gar,Tramitación Documentos,1,1
+309,6,0,campo5inf,Campo Libre5,0,0
+310,6,1,campo5gar,Atención Psicológica,1,1
+311,6,0,campo6inf,Campo Libre6,0,0
+312,6,1,campo6gar,Asistencia en Viaje,1,1
+313,6,0,campo7inf,Campo Libre7,0,0
+314,6,1,campo7gar,Repatriación/Traslado,1,1
+315,6,0,campo8inf,Campo Libre8,0,0
+316,6,1,campo8gar,Campo Libre8,0,0
+317,6,0,campo9inf,Campo Libre9,0,0
+318,6,1,campo9gar,Campo Libre9,0,0
+319,6,0,campo10inf,Campo Libre10,0,0
+320,6,1,campo10gar,Campo Libre10,0,0
+321,6,0,campo11inf,Campo Libre11,0,0
+322,6,1,campo11gar,Campo Libre11,0,0
+323,6,0,campo12inf,Campo Libre12,0,0
+324,6,1,campo12gar,Campo Libre12,0,0
+325,6,0,campo13inf,Campo Libre13,0,0
+326,6,1,campo13gar,Campo Libre13,0,0
+327,6,0,campo14inf,Campo Libre14,0,0
+328,6,1,campo14gar,Campo Libre14,0,0
+329,6,0,campo15inf,Campo Libre15,0,0
+330,6,1,campo15gar,Campo Libre15,0,0
+331,6,0,campo16inf,Campo Libre16,0,0
+332,6,1,campo16gar,Campo Libre16,0,0
+333,6,0,campo17inf,Campo Libre17,0,0
+334,6,1,campo17gar,Campo Libre17,0,0
+335,6,0,campo18inf,Campo Libre18,0,0
+336,6,1,campo18gar,Campo Libre18,0,0
+337,6,0,campo19inf,Campo Libre19,0,0
+338,6,1,campo19gar,Campo Libre19,0,0
+339,6,0,campo20inf,Campo Libre20,0,0
+340,6,1,campo20gar,Campo Libre20,0,0
+341,6,0,campo21inf,Campo Libre21,0,0
+342,6,1,campo21gar,Campo Libre21,0,0
+343,6,0,campo22inf,Campo Libre22,0,0
+344,6,1,campo22gar,Campo Libre22,0,0
+345,6,0,campo23inf,Campo Libre23,0,0
+346,6,1,campo23gar,Campo Libre23,0,0
+347,6,0,campo24inf,Campo Libre24,0,0
+348,6,1,campo24gar,Campo Libre24,0,0
+349,6,0,campo25inf,Campo Libre25,0,0
+350,6,1,campo25gar,Campo Libre25,0,0
+351,6,0,campo26inf,Campo Libre26,0,0
+352,6,1,campo26gar,Campo Libre26,0,0
+353,6,0,campo27inf,Campo Libre27,0,0
+354,6,1,campo27gar,Campo Libre27,0,0
+355,6,0,campo28inf,Campo Libre28,0,0
+356,6,1,campo28gar,Campo Libre28,0,0
+357,6,0,campo29inf,Campo Libre29,0,0
+358,6,1,campo29gar,Campo Libre29,0,0
+359,6,0,campo30inf,Campo Libre30,0,0
+360,6,1,campo30gar,Campo Libre30,0,0
+361,7,0,campo1inf,Campo Libre1,0,0
+362,7,1,campo1gar,Daños Materiales,1,1
+363,7,0,campo2inf,Campo Libre2,0,0
+364,7,1,campo2gar,Interrupción del Negocio,1,1
+365,7,0,campo3inf,Campo Libre3,0,0
+366,7,1,campo3gar,Avería Interna,1,1
+367,7,0,campo4inf,Campo Libre4,0,0
+368,7,1,campo4gar,R. C.,1,1
+369,7,0,campo5inf,Campo Libre5,0,0
+370,7,1,campo5gar,Transportes,1,1
+371,7,0,campo6inf,Campo Libre6,0,0
+372,7,1,campo6gar,Riesgos Extraordinarios,1,1
+373,7,0,campo7inf,Campo Libre7,0,0
+374,7,1,campo7gar,Robo,1,1
+375,7,0,campo8inf,Campo Libre8,0,0
+376,7,1,campo8gar,Rotura Lunas y Cristales,1,1
+377,7,0,campo9inf,Campo Libre9,0,0
+378,7,1,campo9gar,Asistencia/Defensa Jurídica,1,1
+379,7,0,campo10inf,Campo Libre10,0,0
+380,7,1,campo10gar,Campo Libre10,0,0
+381,7,0,campo11inf,Campo Libre11,0,0
+382,7,1,campo11gar,Campo Libre11,0,0
+383,7,0,campo12inf,Campo Libre12,0,0
+384,7,1,campo12gar,Campo Libre12,0,0
+385,7,0,campo13inf,Campo Libre13,0,0
+386,7,1,campo13gar,Campo Libre13,0,0
+387,7,0,campo14inf,Campo Libre14,0,0
+388,7,1,campo14gar,Campo Libre14,0,0
+389,7,0,campo15inf,Campo Libre15,0,0
+390,7,1,campo15gar,Campo Libre15,0,0
+391,7,0,campo16inf,Campo Libre16,0,0
+392,7,1,campo16gar,Campo Libre16,0,0
+393,7,0,campo17inf,Campo Libre17,0,0
+394,7,1,campo17gar,Campo Libre17,0,0
+395,7,0,campo18inf,Campo Libre18,0,0
+396,7,1,campo18gar,Campo Libre18,0,0
+397,7,0,campo19inf,Campo Libre19,0,0
+398,7,1,campo19gar,Campo Libre19,0,0
+399,7,0,campo20inf,Campo Libre20,0,0
+400,7,1,campo20gar,Campo Libre20,0,0
+401,7,0,campo21inf,Campo Libre21,0,0
+402,7,1,campo21gar,Campo Libre21,0,0
+403,7,0,campo22inf,Campo Libre22,0,0
+404,7,1,campo22gar,Campo Libre22,0,0
+405,7,0,campo23inf,Campo Libre23,0,0
+406,7,1,campo23gar,Campo Libre23,0,0
+407,7,0,campo24inf,Campo Libre24,0,0
+408,7,1,campo24gar,Campo Libre24,0,0
+409,7,0,campo25inf,Campo Libre25,0,0
+410,7,1,campo25gar,Campo Libre25,0,0
+411,7,0,campo26inf,Campo Libre26,0,0
+412,7,1,campo26gar,Campo Libre26,0,0
+413,7,0,campo27inf,Campo Libre27,0,0
+414,7,1,campo27gar,Campo Libre27,0,0
+415,7,0,campo28inf,Campo Libre28,0,0
+416,7,1,campo28gar,Campo Libre28,0,0
+417,7,0,campo29inf,Campo Libre29,0,0
+418,7,1,campo29gar,Campo Libre29,0,0
+419,7,0,campo30inf,Campo Libre30,0,0
+420,7,1,campo30gar,Campo Libre30,0,0
+421,8,0,campo1inf,Campo Libre1,0,0
+422,8,1,campo1gar,Campo Libre1,0,0
+423,8,0,campo2inf,Campo Libre2,0,0
+424,8,1,campo2gar,Campo Libre2,0,0
+425,8,0,campo3inf,Campo Libre3,0,0
+426,8,1,campo3gar,Campo Libre3,0,0
+427,8,0,campo4inf,Campo Libre4,0,0
+428,8,1,campo4gar,Campo Libre4,0,0
+429,8,0,campo5inf,Campo Libre5,0,0
+430,8,1,campo5gar,Campo Libre5,0,0
+431,8,0,campo6inf,Campo Libre6,0,0
+432,8,1,campo6gar,Campo Libre6,0,0
+433,8,0,campo7inf,Campo Libre7,0,0
+434,8,1,campo7gar,Campo Libre7,0,0
+435,8,0,campo8inf,Campo Libre8,0,0
+436,8,1,campo8gar,Campo Libre8,0,0
+437,8,0,campo9inf,Campo Libre9,0,0
+438,8,1,campo9gar,Campo Libre9,0,0
+439,8,0,campo10inf,Campo Libre10,0,0
+440,8,1,campo10gar,Campo Libre10,0,0
+441,8,0,campo11inf,Campo Libre11,0,0
+442,8,1,campo11gar,Campo Libre11,0,0
+443,8,0,campo12inf,Campo Libre12,0,0
+444,8,1,campo12gar,Campo Libre12,0,0
+445,8,0,campo13inf,Campo Libre13,0,0
+446,8,1,campo13gar,Campo Libre13,0,0
+447,8,0,campo14inf,Campo Libre14,0,0
+448,8,1,campo14gar,Campo Libre14,0,0
+449,8,0,campo15inf,Campo Libre15,0,0
+450,8,1,campo15gar,Campo Libre15,0,0
+451,8,0,campo16inf,Campo Libre16,0,0
+452,8,1,campo16gar,Campo Libre16,0,0
+453,8,0,campo17inf,Campo Libre17,0,0
+454,8,1,campo17gar,Campo Libre17,0,0
+455,8,0,campo18inf,Campo Libre18,0,0
+456,8,1,campo18gar,Campo Libre18,0,0
+457,8,0,campo19inf,Campo Libre19,0,0
+458,8,1,campo19gar,Campo Libre19,0,0
+459,8,0,campo20inf,Campo Libre20,0,0
+460,8,1,campo20gar,Campo Libre20,0,0
+461,8,0,campo21inf,Campo Libre21,0,0
+462,8,1,campo21gar,Campo Libre21,0,0
+463,8,0,campo22inf,Campo Libre22,0,0
+464,8,1,campo22gar,Campo Libre22,0,0
+465,8,0,campo23inf,Campo Libre23,0,0
+466,8,1,campo23gar,Campo Libre23,0,0
+467,8,0,campo24inf,Campo Libre24,0,0
+468,8,1,campo24gar,Campo Libre24,0,0
+469,8,0,campo25inf,Campo Libre25,0,0
+470,8,1,campo25gar,Campo Libre25,0,0
+471,8,0,campo26inf,Campo Libre26,0,0
+472,8,1,campo26gar,Campo Libre26,0,0
+473,8,0,campo27inf,Campo Libre27,0,0
+474,8,1,campo27gar,Campo Libre27,0,0
+475,8,0,campo28inf,Campo Libre28,0,0
+476,8,1,campo28gar,Campo Libre28,0,0
+477,8,0,campo29inf,Campo Libre29,0,0
+478,8,1,campo29gar,Campo Libre29,0,0
+479,8,0,campo30inf,Campo Libre30,0,0
+480,8,1,campo30gar,Campo Libre30,0,0
+481,9,0,campo1inf,Campo Libre1,0,0
+482,9,1,campo1gar,R. C. General,1,1
+483,9,0,campo2inf,Campo Libre2,0,0
+484,9,1,campo2gar,R. C. Cruzada,1,1
+485,9,0,campo3inf,Campo Libre3,0,0
+486,9,1,campo3gar,R. C. Privada,1,1
+487,9,0,campo4inf,Campo Libre4,0,0
+488,9,1,campo4gar,Defensa Jurídica,1,1
+489,9,0,campo5inf,Campo Libre5,0,0
+490,9,1,campo5gar,Accidentes Personales,1,1
+491,9,0,campo6inf,Campo Libre6,0,0
+492,9,1,campo6gar,R. C. Productos Terminados,1,1
+493,9,0,campo7inf,Campo Libre7,0,0
+494,9,1,campo7gar,Riesgos Extraordinarios,1,1
+495,9,0,campo8inf,Campo Libre8,0,0
+496,9,1,campo8gar,Avería Maquinaria,1,1
+497,9,0,campo9inf,Campo Libre9,0,0
+498,9,1,campo9gar,Transporte,1,1
+499,9,0,campo10inf,Campo Libre10,0,0
+500,9,1,campo10gar,Daños Materiales,1,1
+501,9,0,campo11inf,Campo Libre11,0,0
+502,9,1,campo11gar,Robo,1,1
+503,9,0,campo12inf,Campo Libre12,0,0
+504,9,1,campo12gar,Campo Libre12,0,0
+505,9,0,campo13inf,Campo Libre13,0,0
+506,9,1,campo13gar,Campo Libre13,0,0
+507,9,0,campo14inf,Campo Libre14,0,0
+508,9,1,campo14gar,Campo Libre14,0,0
+509,9,0,campo15inf,Campo Libre15,0,0
+510,9,1,campo15gar,Campo Libre15,0,0
+511,9,0,campo16inf,Campo Libre16,0,0
+512,9,1,campo16gar,Campo Libre16,0,0
+513,9,0,campo17inf,Campo Libre17,0,0
+514,9,1,campo17gar,Campo Libre17,0,0
+515,9,0,campo18inf,Campo Libre18,0,0
+516,9,1,campo18gar,Campo Libre18,0,0
+517,9,0,campo19inf,Campo Libre19,0,0
+518,9,1,campo19gar,Campo Libre19,0,0
+519,9,0,campo20inf,Campo Libre20,0,0
+520,9,1,campo20gar,Campo Libre20,0,0
+521,9,0,campo21inf,Campo Libre21,0,0
+522,9,1,campo21gar,Campo Libre21,0,0
+523,9,0,campo22inf,Campo Libre22,0,0
+524,9,1,campo22gar,Campo Libre22,0,0
+525,9,0,campo23inf,Campo Libre23,0,0
+526,9,1,campo23gar,Campo Libre23,0,0
+527,9,0,campo24inf,Campo Libre24,0,0
+528,9,1,campo24gar,Campo Libre24,0,0
+529,9,0,campo25inf,Campo Libre25,0,0
+530,9,1,campo25gar,Campo Libre25,0,0
+531,9,0,campo26inf,Campo Libre26,0,0
+532,9,1,campo26gar,Campo Libre26,0,0
+533,9,0,campo27inf,Campo Libre27,0,0
+534,9,1,campo27gar,Campo Libre27,0,0
+535,9,0,campo28inf,Campo Libre28,0,0
+536,9,1,campo28gar,Campo Libre28,0,0
+537,9,0,campo29inf,Campo Libre29,0,0
+538,9,1,campo29gar,Campo Libre29,0,0
+539,9,0,campo30inf,Campo Libre30,0,0
+540,9,1,campo30gar,Campo Libre30,0,0
+541,10,0,campo1inf,Campo Libre1,0,0
+542,10,1,campo1gar,Servicios Odontoestomatológicos,1,1
+543,10,0,campo2inf,Campo Libre2,0,0
+544,10,1,campo2gar,Libre Elección,1,1
+545,10,0,campo3inf,Campo Libre3,0,0
+546,10,1,campo3gar,Garantía Materiales,1,1
+547,10,0,campo4inf,Campo Libre4,0,0
+548,10,1,campo4gar,Teléfono de Asistencia,1,1
+549,10,0,campo5inf,Campo Libre5,0,0
+550,10,1,campo5gar,Campo Libre5,0,0
+551,10,0,campo6inf,Campo Libre6,0,0
+552,10,1,campo6gar,Campo Libre6,0,0
+553,10,0,campo7inf,Campo Libre7,0,0
+554,10,1,campo7gar,Campo Libre7,0,0
+555,10,0,campo8inf,Campo Libre8,0,0
+556,10,1,campo8gar,Campo Libre8,0,0
+557,10,0,campo9inf,Campo Libre9,0,0
+558,10,1,campo9gar,Campo Libre9,0,0
+559,10,0,campo10inf,Campo Libre10,0,0
+560,10,1,campo10gar,Campo Libre10,0,0
+561,10,0,campo11inf,Campo Libre11,0,0
+562,10,1,campo11gar,Campo Libre11,0,0
+563,10,0,campo12inf,Campo Libre12,0,0
+564,10,1,campo12gar,Campo Libre12,0,0
+565,10,0,campo13inf,Campo Libre13,0,0
+566,10,1,campo13gar,Campo Libre13,0,0
+567,10,0,campo14inf,Campo Libre14,0,0
+568,10,1,campo14gar,Campo Libre14,0,0
+569,10,0,campo15inf,Campo Libre15,0,0
+570,10,1,campo15gar,Campo Libre15,0,0
+571,10,0,campo16inf,Campo Libre16,0,0
+572,10,1,campo16gar,Campo Libre16,0,0
+573,10,0,campo17inf,Campo Libre17,0,0
+574,10,1,campo17gar,Campo Libre17,0,0
+575,10,0,campo18inf,Campo Libre18,0,0
+576,10,1,campo18gar,Campo Libre18,0,0
+577,10,0,campo19inf,Campo Libre19,0,0
+578,10,1,campo19gar,Campo Libre19,0,0
+579,10,0,campo20inf,Campo Libre20,0,0
+580,10,1,campo20gar,Campo Libre20,0,0
+581,10,0,campo21inf,Campo Libre21,0,0
+582,10,1,campo21gar,Campo Libre21,0,0
+583,10,0,campo22inf,Campo Libre22,0,0
+584,10,1,campo22gar,Campo Libre22,0,0
+585,10,0,campo23inf,Campo Libre23,0,0
+586,10,1,campo23gar,Campo Libre23,0,0
+587,10,0,campo24inf,Campo Libre24,0,0
+588,10,1,campo24gar,Campo Libre24,0,0
+589,10,0,campo25inf,Campo Libre25,0,0
+590,10,1,campo25gar,Campo Libre25,0,0
+591,10,0,campo26inf,Campo Libre26,0,0
+592,10,1,campo26gar,Campo Libre26,0,0
+593,10,0,campo27inf,Campo Libre27,0,0
+594,10,1,campo27gar,Campo Libre27,0,0
+595,10,0,campo28inf,Campo Libre28,0,0
+596,10,1,campo28gar,Campo Libre28,0,0
+597,10,0,campo29inf,Campo Libre29,0,0
+598,10,1,campo29gar,Campo Libre29,0,0
+599,10,0,campo30inf,Campo Libre30,0,0
+600,10,1,campo30gar,Campo Libre30,0,0
+601,11,0,campo1inf,Naturaliza del Riesgo,1,1
+602,11,1,campo1gar,Incendio,1,1
+603,11,0,campo2inf,Tipo de Construcción,1,1
+604,11,1,campo2gar,Agua,1,1
+605,11,0,campo3inf,Año de Construcción,1,0
+606,11,1,campo3gar,Robo,1,1
+607,11,0,campo4inf,Año Remodelación Tuberías,1,0
+608,11,1,campo4gar,Daños Estéticos,1,1
+609,11,0,campo5inf,Calidad de Construcción,1,1
+610,11,1,campo5gar,Atascos,1,1
+611,11,0,campo6inf,Nº de Edificios,1,0
+612,11,1,campo6gar,Roturas,1,1
+613,11,0,campo7inf,Nº de Plantas sobre alzada,1,0
+614,11,1,campo7gar,Prestaciones Especiales,1,1
+615,11,0,campo8inf,Nº de Viviendas/Oficinas,1,0
+616,11,1,campo8gar,R. C.,1,1
+617,11,0,campo9inf,M² de Viviendas/Oficinas,1,0
+618,11,1,campo9gar,R. C. Copropietarios,1,1
+619,11,0,campo10inf,Nº de Sótanos,1,0
+620,11,1,campo10gar,Nº de Copropietarios,1,0
+621,11,0,campo11inf,Nº de Plazas de Garaje,1,0
+622,11,1,campo11gar,Defensa Jurídica,1,1
+623,11,0,campo12inf,M² Plazas Garaje,1,0
+624,11,1,campo12gar,Asistencia en Edificio,1,1
+625,11,0,campo13inf,Nº de Locales Comerciales,1,0
+626,11,1,campo13gar,Avería de Maquinaria,1,1
+627,11,0,campo14inf,M² de Locales Comerciales,1,0
+628,11,1,campo14gar,Reconstrucción de Jardines,1,1
+629,11,0,campo15inf,Protecciones,1,1
+630,11,1,campo15gar,Accidente de los Empleados,1,1
+631,11,0,campo16inf,Campo Libre16,0,0
+632,11,1,campo16gar,Coberturas Especiales,1,1
+633,11,0,campo17inf,Campo Libre17,0,0
+634,11,1,campo17gar,Prestación de Servicios,1,1
+635,11,0,campo18inf,Campo Libre18,0,0
+636,11,1,campo18gar,Campo Libre18,0,0
+637,11,0,campo19inf,Campo Libre19,0,0
+638,11,1,campo19gar,Campo Libre19,0,0
+639,11,0,campo20inf,Campo Libre20,0,0
+640,11,1,campo20gar,Campo Libre20,0,0
+641,11,0,campo21inf,Campo Libre21,0,0
+642,11,1,campo21gar,Campo Libre21,0,0
+643,11,0,campo22inf,Campo Libre22,0,0
+644,11,1,campo22gar,Campo Libre22,0,0
+645,11,0,campo23inf,Campo Libre23,0,0
+646,11,1,campo23gar,Campo Libre23,0,0
+647,11,0,campo24inf,Campo Libre24,0,0
+648,11,1,campo24gar,Campo Libre24,0,0
+649,11,0,campo25inf,Campo Libre25,0,0
+650,11,1,campo25gar,Campo Libre25,0,0
+651,11,0,campo26inf,Campo Libre26,0,0
+652,11,1,campo26gar,Campo Libre26,0,0
+653,11,0,campo27inf,Campo Libre27,0,0
+654,11,1,campo27gar,Campo Libre27,0,0
+655,11,0,campo28inf,Campo Libre28,0,0
+656,11,1,campo28gar,Campo Libre28,0,0
+657,11,0,campo29inf,Campo Libre29,0,0
+658,11,1,campo29gar,Campo Libre29,0,0
+659,11,0,campo30inf,Campo Libre30,0,0
+660,11,1,campo30gar,Campo Libre30,0,0
+661,12,0,campo1inf,Lugar de Residencia,1,0
+662,12,1,campo1gar,Seguro Obligatorio,1,1
+663,12,0,campo2inf,Campo Libre2,0,0
+664,12,1,campo2gar,R. C. Suplementaria del Cazador,1,1
+665,12,0,campo3inf,Campo Libre3,0,0
+666,12,1,campo3gar,Accidentes Personales del Cazador,1,1
+667,12,0,campo4inf,Campo Libre4,0,0
+668,12,1,campo4gar,Asistencia a Personas,1,1
+669,12,0,campo5inf,Campo Libre5,0,0
+670,12,1,campo5gar,Defensa Jurídica,1,1
+671,12,0,campo6inf,Campo Libre6,0,0
+672,12,1,campo6gar,Pérdida del Arma,1,1
+673,12,0,campo7inf,Campo Libre7,0,0
+674,12,1,campo7gar,Caza en el Extranjero,1,1
+675,12,0,campo8inf,Campo Libre8,0,0
+676,12,1,campo8gar,R. C. del Pescador,1,1
+677,12,0,campo9inf,Campo Libre9,0,0
+678,12,1,campo9gar,Accidentes Personales del Pescador,1,1
+679,12,0,campo10inf,Campo Libre10,0,0
+680,12,1,campo10gar,Campo Libre10,0,0
+681,12,0,campo11inf,Campo Libre11,0,0
+682,12,1,campo11gar,Campo Libre11,0,0
+683,12,0,campo12inf,Campo Libre12,0,0
+684,12,1,campo12gar,Campo Libre12,0,0
+685,12,0,campo13inf,Campo Libre13,0,0
+686,12,1,campo13gar,Campo Libre13,0,0
+687,12,0,campo14inf,Campo Libre14,0,0
+688,12,1,campo14gar,Campo Libre14,0,0
+689,12,0,campo15inf,Campo Libre15,0,0
+690,12,1,campo15gar,Campo Libre15,0,0
+691,12,0,campo16inf,Campo Libre16,0,0
+692,12,1,campo16gar,Campo Libre16,0,0
+693,12,0,campo17inf,Campo Libre17,0,0
+694,12,1,campo17gar,Campo Libre17,0,0
+695,12,0,campo18inf,Campo Libre18,0,0
+696,12,1,campo18gar,Campo Libre18,0,0
+697,12,0,campo19inf,Campo Libre19,0,0
+698,12,1,campo19gar,Campo Libre19,0,0
+699,12,0,campo20inf,Campo Libre20,0,0
+700,12,1,campo20gar,Campo Libre20,0,0
+701,12,0,campo21inf,Campo Libre21,0,0
+702,12,1,campo21gar,Campo Libre21,0,0
+703,12,0,campo22inf,Campo Libre22,0,0
+704,12,1,campo22gar,Campo Libre22,0,0
+705,12,0,campo23inf,Campo Libre23,0,0
+706,12,1,campo23gar,Campo Libre23,0,0
+707,12,0,campo24inf,Campo Libre24,0,0
+708,12,1,campo24gar,Campo Libre24,0,0
+709,12,0,campo25inf,Campo Libre25,0,0
+710,12,1,campo25gar,Campo Libre25,0,0
+711,12,0,campo26inf,Campo Libre26,0,0
+712,12,1,campo26gar,Campo Libre26,0,0
+713,12,0,campo27inf,Campo Libre27,0,0
+714,12,1,campo27gar,Campo Libre27,0,0
+715,12,0,campo28inf,Campo Libre28,0,0
+716,12,1,campo28gar,Campo Libre28,0,0
+717,12,0,campo29inf,Campo Libre29,0,0
+718,12,1,campo29gar,Campo Libre29,0,0
+719,12,0,campo30inf,Campo Libre30,0,0
+720,12,1,campo30gar,Campo Libre30,0,0
+721,13,0,campo1inf,Campo Libre1,0,0
+722,13,1,campo1gar,Campo Libre1,0,0
+723,13,0,campo2inf,Campo Libre2,0,0
+724,13,1,campo2gar,Campo Libre2,0,0
+725,13,0,campo3inf,Campo Libre3,0,0
+726,13,1,campo3gar,Campo Libre3,0,0
+727,13,0,campo4inf,Campo Libre4,0,0
+728,13,1,campo4gar,Campo Libre4,0,0
+729,13,0,campo5inf,Campo Libre5,0,0
+730,13,1,campo5gar,Campo Libre5,0,0
+731,13,0,campo6inf,Campo Libre6,0,0
+732,13,1,campo6gar,Campo Libre6,0,0
+733,13,0,campo7inf,Campo Libre7,0,0
+734,13,1,campo7gar,Campo Libre7,0,0
+735,13,0,campo8inf,Campo Libre8,0,0
+736,13,1,campo8gar,Campo Libre8,0,0
+737,13,0,campo9inf,Campo Libre9,0,0
+738,13,1,campo9gar,Campo Libre9,0,0
+739,13,0,campo10inf,Campo Libre10,0,0
+740,13,1,campo10gar,Campo Libre10,0,0
+741,13,0,campo11inf,Campo Libre11,0,0
+742,13,1,campo11gar,Campo Libre11,0,0
+743,13,0,campo12inf,Campo Libre12,0,0
+744,13,1,campo12gar,Campo Libre12,0,0
+745,13,0,campo13inf,Campo Libre13,0,0
+746,13,1,campo13gar,Campo Libre13,0,0
+747,13,0,campo14inf,Campo Libre14,0,0
+748,13,1,campo14gar,Campo Libre14,0,0
+749,13,0,campo15inf,Campo Libre15,0,0
+750,13,1,campo15gar,Campo Libre15,0,0
+751,13,0,campo16inf,Campo Libre16,0,0
+752,13,1,campo16gar,Campo Libre16,0,0
+753,13,0,campo17inf,Campo Libre17,0,0
+754,13,1,campo17gar,Campo Libre17,0,0
+755,13,0,campo18inf,Campo Libre18,0,0
+756,13,1,campo18gar,Campo Libre18,0,0
+757,13,0,campo19inf,Campo Libre19,0,0
+758,13,1,campo19gar,Campo Libre19,0,0
+759,13,0,campo20inf,Campo Libre20,0,0
+760,13,1,campo20gar,Campo Libre20,0,0
+761,13,0,campo21inf,Campo Libre21,0,0
+762,13,1,campo21gar,Campo Libre21,0,0
+763,13,0,campo22inf,Campo Libre22,0,0
+764,13,1,campo22gar,Campo Libre22,0,0
+765,13,0,campo23inf,Campo Libre23,0,0
+766,13,1,campo23gar,Campo Libre23,0,0
+767,13,0,campo24inf,Campo Libre24,0,0
+768,13,1,campo24gar,Campo Libre24,0,0
+769,13,0,campo25inf,Campo Libre25,0,0
+770,13,1,campo25gar,Campo Libre25,0,0
+771,13,0,campo26inf,Campo Libre26,0,0
+772,13,1,campo26gar,Campo Libre26,0,0
+773,13,0,campo27inf,Campo Libre27,0,0
+774,13,1,campo27gar,Campo Libre27,0,0
+775,13,0,campo28inf,Campo Libre28,0,0
+776,13,1,campo28gar,Campo Libre28,0,0
+777,13,0,campo29inf,Campo Libre29,0,0
+778,13,1,campo29gar,Campo Libre29,0,0
+779,13,0,campo30inf,Campo Libre30,0,0
+780,13,1,campo30gar,Campo Libre30,0,0
+781,14,0,campo1inf,Campo Libre1,0,0
+782,14,1,campo1gar,Impago de Alquileres,1,1
+783,14,0,campo2inf,Campo Libre2,0,0
+784,14,1,campo2gar,Daños Materiales,1,1
+785,14,0,campo3inf,Campo Libre3,0,0
+786,14,1,campo3gar,Defensa Jurídica del Arrendador,1,1
+787,14,0,campo4inf,Campo Libre4,0,0
+788,14,1,campo4gar,Asistencia en el Hogar,1,1
+789,14,0,campo5inf,Campo Libre5,0,0
+790,14,1,campo5gar,Campo Libre5,0,0
+791,14,0,campo6inf,Campo Libre6,0,0
+792,14,1,campo6gar,Campo Libre6,0,0
+793,14,0,campo7inf,Campo Libre7,0,0
+794,14,1,campo7gar,Campo Libre7,0,0
+795,14,0,campo8inf,Campo Libre8,0,0
+796,14,1,campo8gar,Campo Libre8,0,0
+797,14,0,campo9inf,Campo Libre9,0,0
+798,14,1,campo9gar,Campo Libre9,0,0
+799,14,0,campo10inf,Campo Libre10,0,0
+800,14,1,campo10gar,Campo Libre10,0,0
+801,14,0,campo11inf,Campo Libre11,0,0
+802,14,1,campo11gar,Campo Libre11,0,0
+803,14,0,campo12inf,Campo Libre12,0,0
+804,14,1,campo12gar,Campo Libre12,0,0
+805,14,0,campo13inf,Campo Libre13,0,0
+806,14,1,campo13gar,Campo Libre13,0,0
+807,14,0,campo14inf,Campo Libre14,0,0
+808,14,1,campo14gar,Campo Libre14,0,0
+809,14,0,campo15inf,Campo Libre15,0,0
+810,14,1,campo15gar,Campo Libre15,0,0
+811,14,0,campo16inf,Campo Libre16,0,0
+812,14,1,campo16gar,Campo Libre16,0,0
+813,14,0,campo17inf,Campo Libre17,0,0
+814,14,1,campo17gar,Campo Libre17,0,0
+815,14,0,campo18inf,Campo Libre18,0,0
+816,14,1,campo18gar,Campo Libre18,0,0
+817,14,0,campo19inf,Campo Libre19,0,0
+818,14,1,campo19gar,Campo Libre19,0,0
+819,14,0,campo20inf,Campo Libre20,0,0
+820,14,1,campo20gar,Campo Libre20,0,0
+821,14,0,campo21inf,Campo Libre21,0,0
+822,14,1,campo21gar,Campo Libre21,0,0
+823,14,0,campo22inf,Campo Libre22,0,0
+824,14,1,campo22gar,Campo Libre22,0,0
+825,14,0,campo23inf,Campo Libre23,0,0
+826,14,1,campo23gar,Campo Libre23,0,0
+827,14,0,campo24inf,Campo Libre24,0,0
+828,14,1,campo24gar,Campo Libre24,0,0
+829,14,0,campo25inf,Campo Libre25,0,0
+830,14,1,campo25gar,Campo Libre25,0,0
+831,14,0,campo26inf,Campo Libre26,0,0
+832,14,1,campo26gar,Campo Libre26,0,0
+833,14,0,campo27inf,Campo Libre27,0,0
+834,14,1,campo27gar,Campo Libre27,0,0
+835,14,0,campo28inf,Campo Libre28,0,0
+836,14,1,campo28gar,Campo Libre28,0,0
+837,14,0,campo29inf,Campo Libre29,0,0
+838,14,1,campo29gar,Campo Libre29,0,0
+839,14,0,campo30inf,Campo Libre30,0,0
+840,14,1,campo30gar,Campo Libre30,0,0
+841,15,0,campo1inf,Tipo de Animal,1,1
+842,15,1,campo1gar,Responsabilidad Civil,1,1
+843,15,0,campo2inf,Valor del Animal,1,0
+844,15,1,campo2gar,Asistencia Veterinaria por Enfermedad,1,1
+845,15,0,campo3inf,Peso,1,1
+846,15,1,campo3gar,Muerte por Enfermedad,1,1
+847,15,0,campo4inf,Raza,1,1
+848,15,1,campo4gar,Asistencia Veterinaria por Accidente,1,1
+849,15,0,campo5inf,Número de Identificación,1,0
+850,15,1,campo5gar,Defensa Jurídica,1,1
+851,15,0,campo6inf,Fecha de Nacimiento,1,0
+852,15,1,campo6gar,Consultoría Telefónica,1,1
+853,15,0,campo7inf,Tiene Otras Pólizas,1,1
+854,15,1,campo7gar,Campo Libre7,0,0
+855,15,0,campo8inf,Campo Libre8,0,0
+856,15,1,campo8gar,Campo Libre8,0,0
+857,15,0,campo9inf,Campo Libre9,0,0
+858,15,1,campo9gar,Campo Libre9,0,0
+859,15,0,campo10inf,Campo Libre10,0,0
+860,15,1,campo10gar,Campo Libre10,0,0
+861,15,0,campo11inf,Campo Libre11,0,0
+862,15,1,campo11gar,Campo Libre11,0,0
+863,15,0,campo12inf,Campo Libre12,0,0
+864,15,1,campo12gar,Campo Libre12,0,0
+865,15,0,campo13inf,Campo Libre13,0,0
+866,15,1,campo13gar,Campo Libre13,0,0
+867,15,0,campo14inf,Campo Libre14,0,0
+868,15,1,campo14gar,Campo Libre14,0,0
+869,15,0,campo15inf,Campo Libre15,0,0
+870,15,1,campo15gar,Campo Libre15,0,0
+871,15,0,campo16inf,Campo Libre16,0,0
+872,15,1,campo16gar,Campo Libre16,0,0
+873,15,0,campo17inf,Campo Libre17,0,0
+874,15,1,campo17gar,Campo Libre17,0,0
+875,15,0,campo18inf,Campo Libre18,0,0
+876,15,1,campo18gar,Campo Libre18,0,0
+877,15,0,campo19inf,Campo Libre19,0,0
+878,15,1,campo19gar,Campo Libre19,0,0
+879,15,0,campo20inf,Campo Libre20,0,0
+880,15,1,campo20gar,Campo Libre20,0,0
+881,15,0,campo21inf,Campo Libre21,0,0
+882,15,1,campo21gar,Campo Libre21,0,0
+883,15,0,campo22inf,Campo Libre22,0,0
+884,15,1,campo22gar,Campo Libre22,0,0
+885,15,0,campo23inf,Campo Libre23,0,0
+886,15,1,campo23gar,Campo Libre23,0,0
+887,15,0,campo24inf,Campo Libre24,0,0
+888,15,1,campo24gar,Campo Libre24,0,0
+889,15,0,campo25inf,Campo Libre25,0,0
+890,15,1,campo25gar,Campo Libre25,0,0
+891,15,0,campo26inf,Campo Libre26,0,0
+892,15,1,campo26gar,Campo Libre26,0,0
+893,15,0,campo27inf,Campo Libre27,0,0
+894,15,1,campo27gar,Campo Libre27,0,0
+895,15,0,campo28inf,Campo Libre28,0,0
+896,15,1,campo28gar,Campo Libre28,0,0
+897,15,0,campo29inf,Campo Libre29,0,0
+898,15,1,campo29gar,Campo Libre29,0,0
+899,15,0,campo30inf,Campo Libre30,0,0
+900,15,1,campo30gar,Campo Libre30,0,0

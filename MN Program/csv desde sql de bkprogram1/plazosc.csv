@@ -1,0 +1,8 @@
+﻿id,orden,descripcion,notas,referencia,itipoimporte,stipoplazo,idiacobro,iddiascobro,diascobro
+1,1,Plazo 30 días,,,0,,,,
+2,2,Plazo 60 días,,,0,,,,
+3,3,Plazo 90 días,,,0,,,,
+4,4,Plazo 120 días,,,0,,,,
+5,5,"Plazo 30, 60 días",,,0,,,,
+6,6,"Plazo 30, 60, 90 días",,,0,,,,
+7,7,"Plazo 30, 60, 90, 120 días",,,0,,,,

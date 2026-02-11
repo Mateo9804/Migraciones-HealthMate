@@ -1,0 +1,36 @@
+﻿codigo,icodcli,descripcion,tipo,historico,modelo,periodicidad,dni,codsubusu
+1,10,IVA,Específica,,,,,0
+2,1,IRPF,Específica,,,,,0
+3,9,SEGUROS SOCIALES,Específica,,,,,0
+4,13,RETENCIONES,Específica,,,,,0
+5,9,RETENCIONES,Específica,,,,,0
+6,9,PAGO A CUENTA DEL IMPUESTO DE SOCIEDADES,Específica,,,,,0
+10,11,IVA,Específica,,,,,0
+12,11,RETENCIONES,Específica,,,,,0
+13,6,IVA,Específica,,,,,0
+14,6,IRPF,Específica,,,,,0
+15,9,IVA,Específica,,,,,0
+16,9,IRPF,Específica,,,,,0
+17,7,IVA,Específica,,,,,0
+18,7,IRPF,Específica,,,,,0
+19,7,SEGUROS SOCIALES,Específica,,,,,0
+20,7,RETENCIONES,Específica,,,,,0
+21,7,PAGO A CUENTA DEL IMPUESTO DE SOCIEDADES,Específica,,,,,0
+22,5,SEGUROS SOCIALES,Específica,,,,,0
+23,5,IVA,Específica,,,,,0
+24,5,IRPF,Específica,,,,,0
+25,4,RETENCIONES,Específica,,,,,0
+26,4,IVA,Específica,,,,,0
+27,4,IRPF,Específica,,,,,0
+28,3,PAGO A CUENTA DEL IMPUESTO DE SOCIEDADES,Específica,,,,,0
+29,3,IRPF,Específica,,,,,0
+30,3,IVA,Específica,,,,,0
+31,12,SEGUROS SOCIALES,Específica,,,,,0
+32,2,IVA,Específica,,,,,0
+33,2,IRPF,Específica,,,,,0
+34,2,RETENCIONES,Específica,,,,,0
+35,8,IVA,Específica,,,,,0
+36,8,IRPF,Específica,,,,,0
+37,8,SEGUROS SOCIALES,Específica,,,,,0
+38,8,RETENCIONES,Específica,,,,,0
+39,8,PAGO A CUENTA DEL IMPUESTO DE SOCIEDADES,Específica,,,,,0

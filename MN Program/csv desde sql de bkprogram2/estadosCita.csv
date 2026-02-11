@@ -1,0 +1,11 @@
+﻿id,tabla,orden,mideTiempo,descripcion,color,activo,acturealizada
+1,2,0,0,No confirmada,1247467,1,0
+2,2,0,0,Confirmada,4314764,1,0
+3,2,0,1,En Sala de Espera,908799,1,0
+4,2,0,1,En Consulta,15712079,1,0
+5,2,0,0,Realizada,12369084,1,1
+6,2,0,0,Cancelada,0,1,0
+7,1,0,0,Cancelada No Refijada,4227327,1,0
+8,1,1,0,Cancelada Refijada,13395456,1,0
+9,2,1,0,Cancelada No Refijada,4227327,1,0
+10,2,2,0,Cancelada Refijada,13395456,1,0

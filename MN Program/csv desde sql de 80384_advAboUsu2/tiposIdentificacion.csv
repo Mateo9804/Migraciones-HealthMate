@@ -1,0 +1,8 @@
+﻿id,codigo,descripcion
+1,01,NIF-CIF
+2,02,NIF-IVA
+3,03,Pasaporte
+4,04,Documento oficial de identificación expedido por el país o territorio de residencia
+5,05,Certificado de residencia
+6,06,Otro documento probatorio
+7,07,No censado

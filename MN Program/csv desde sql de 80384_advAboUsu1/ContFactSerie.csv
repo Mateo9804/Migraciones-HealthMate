@@ -1,0 +1,4 @@
+﻿id,serie,contador,icodEmisor,icodproveedor,idtipofact,predeterminada,serieabonodefecto
+1,E,13,,,,False,
+2,M,3,,,,False,
+3,V,2,,,,False,

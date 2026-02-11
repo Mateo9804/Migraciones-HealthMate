@@ -1,0 +1,14 @@
+﻿id,padre,snombre
+1,0,Clase
+2,1,Pacientes
+5,2,General
+18,1,Potenciales
+72,1,Proveedores
+73,72,General
+90,72,Calidad del Servicio
+108,1,Trabajadores
+109,108,General
+124,1,LOPD
+125,124,General
+162,18,General
+163,2,Llamadas

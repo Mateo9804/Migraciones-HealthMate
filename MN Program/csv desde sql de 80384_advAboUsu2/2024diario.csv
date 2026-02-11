@@ -1,0 +1,12 @@
+﻿asiento,fecha,linea,cuentadebe,cuentahaber,comentario,importe,observaciones,tipo,apertura,inumexp,inumexh,inumigu,inumvar,iyear,importeeuro,codsubusu,asiver,documento,porimpuesto,porrecargo,contrapartida,baseimp,numfactura,serie,tipofact,icodcli,tipoBs,ctahonorario,punteo,bcobroremesa,idremesa,ccaja,itipocp,ffactura,formacp,cuentacp,fechaAbonada,refabonada,icodEmisor,cn,iprorrata,ilineapro,porpro,importepro,cuentapro,importetot,exportado,idtipofact,idtiporect,porproD,modelos,partidaRegul,id,clavemod349,idPago,esAgrupado,idconfigemisor,clavemod190,subclavemod190,incapacidadlaboral,idClaseFactura,area
+1,2024-06-19 00:00:00,1,5700000000,,Bono: BONO 2 S,10815.0000,,D,,,,,,,65.0000,0,1,,,,,,,,,1700,,,,,,,1,,Tarjeta,5700000000,,,,,,,,,,,,,,,,,1,,,,,,,,,
+1,2024-06-19 00:00:00,2,,4300000000,Bono: BONO 2 S,10815.0000,,H,,,,,,,65.0000,0,1,,,,,,,,,1700,,,,,,,1,,Tarjeta,5700000000,,,,,,,,,,,,,,,,,2,,,,,,,,,
+3,2024-07-03 00:00:00,1,5700000000,,Bono: BONO 2 S,10815.0000,,D,,,,,,,65.0000,0,3,,,,,,,,,1760,,,,,,,1,,Tarjeta,5700000000,,,,,,,,,,,,,,,,,8,,,,,,,,,
+3,2024-07-03 00:00:00,2,,4300000000,Bono: BONO 2 S,10815.0000,,H,,,,,,,65.0000,0,3,,,,,,,,,1760,,,,,,,1,,Tarjeta,5700000000,,,,,,,,,,,,,,,,,9,,,,,,,,,
+4,2024-07-09 00:00:00,1,4300000000,,Factura:1 Crear ficha FERNANDO MARTINEZ GOMEZ y seleccionar,34941.0000,,D,,,,,,,210.0000,0,4,,,,,,1,,,1768,,,,,,0,,,,,,,,,,,,,,,,,,,,,10,,,,,,,,,
+4,2024-07-09 00:00:00,2,,7050000000,Factura:1 Crear ficha FERNANDO MARTINEZ GOMEZ y seleccionar,34941.0000,,H,,,,,,,210.0000,0,4,,,,4300000000,,1,,,1768,,,,,,0,,,,,,,,,,,,,,,,,,,64,,11,,,,,,,,,
+4,2024-07-09 00:00:00,3,,4770000007,Factura:1 Crear ficha FERNANDO MARTINEZ GOMEZ y seleccionar,0.0000,,H,,,,,,,0.0000,0,4,,0.0000,0.0000,4300000000,210.0000,1,,V,1768,,7050000000,,,,0,,,,,,,,,,,,,,,,1,,,24,,12, ,,,,,,,1,
+5,2024-07-09 00:00:00,1,5700000000,,Cobro factura: 1/2024,34941.0000,,D,,,,,,,210.0000,0,5,,,,,,1,,,1768,,,,,,,1,2024-07-09 00:00:00,Tarjeta,5700000000,,,,,,,,,,,,,,,,,13,,,,,,,,,
+5,2024-07-09 00:00:00,2,,4300000000,Cobro factura: 1/2024,34941.0000,,H,,,,,,,210.0000,0,5,,,,,,1,,,1768,,,,,,,1,2024-07-09 00:00:00,Tarjeta,5700000000,,,,,,,,,,,,,,,,,14,,,,,,,,,
+6,2024-07-25 00:00:00,1,5700000000,,Bono: BONO 5 S,24958.0000,,D,,,,,,,150.0000,0,6,,,,,,,,,1757,,,,,,,1,,Efectivo,5700000000,,,,,,,,,,,,,,,,,15,,,,,,,,,
+6,2024-07-25 00:00:00,2,,4300000000,Bono: BONO 5 S,24958.0000,,H,,,,,,,150.0000,0,6,,,,,,,,,1757,,,,,,,1,,Efectivo,5700000000,,,,,,,,,,,,,,,,,16,,,,,,,,,

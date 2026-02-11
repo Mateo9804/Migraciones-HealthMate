@@ -1,0 +1,134 @@
+﻿icodcli,snombrecli,sdomiciliocli,spoblacioncli,sprovinciacli,scodpostalcli,snifcli,stelefonocli,sfaxcli,smovilcli,email,pagweb,telefono2,telefono3,cuentabanco,cuencont,notas,Nacionalidad,Perso1,Perso2,Perso3,Perso4,Perso5,Perso6,Perso7,Perso8,Perso9,Perso10,PersoFecha1,PersoFecha2,PersoFecha3,PersoNum1,PersoNum2,PersoNum3,PersoNum4,PersoNum5,PersoLogic1,PersoLogic2,PersoLogic3,PersoLogic4,PersoLogic5,PersoLogic6,CtaProvSupl,CodSubUSu,Perso11,Perso12,Perso13,Perso14,Perso15,Perso16,Perso17,Perso18,Perso19,Perso20,perso90,perso91,perso92,perso93,perso94,perso95,perso96,perso97,perso98,perso99,notas2,notas3,notas4,notas5,notas6,sociedad,objetosocial,capital,acciones,valoracc,formaorgadm,fechaconsti,fechacaducidad,socienotas,librosoficiales,regimenfiscal,contingenciafiscal,fechaorgadm,datosescrituras,socinscripcion,sochoja,socfolio,soctomo,socarchivo,socregistro,riesgofiscal,quiebra,codigo,Perso21,Perso22,Perso23,Perso24,Perso25,Perso26,Perso27,Perso28,Perso29,Perso30,Perso31,Perso32,Perso33,Perso34,Perso35,Perso36,Perso37,Perso38,Perso39,Perso40,clipoten,ultfechaigu1,diacobro1gr1,diacobro2gr1,diacobro3gr1,concepto1gr1,concepto2gr1,concepto3gr1,importe1gr1,importe2gr1,importe3gr1,periodo1gr1,periodo2gr1,periodo3gr1,ultfechaigu2,diacobro1gr2,diacobro2gr2,diacobro3gr2,concepto1gr2,concepto2gr2,concepto3gr2,importe1gr2,importe2gr2,importe3gr2,periodo1gr2,periodo2gr2,periodo3gr2,ultfechaigu3,diacobro1gr3,diacobro2gr3,diacobro3gr3,concepto1gr3,concepto2gr3,concepto3gr3,importe1gr3,importe2gr3,importe3gr3,periodo1gr3,periodo2gr3,periodo3gr3,ultfechaigu4,diacobro1gr4,diacobro2gr4,diacobro3gr4,concepto1gr4,concepto2gr4,concepto3gr4,importe1gr4,importe2gr4,importe3gr4,periodo1gr4,periodo2gr4,periodo3gr4,tiempo,tiemposeg,ftotaleuro,totsuplidos,totprovisiones,totprevias,totprevias1,totprevias2,totprevias3,totpagosprev2,totcapitalprev2,interesprev2,formapago1,formapago2,formapago3,formapago4,formapago5,formapago6,ultfechaigu5,ultfechaigu6,concepto4gr1,diacobro4gr1,importe4gr1,periodo4gr1,concepto5gr1,diacobro5gr1,importe5gr1,periodo5gr1,concepto5gr2,diacobro5gr2,importe5gr2,periodo5gr2,concepto6gr1,diacobro6gr1,importe6gr1,periodo6gr1,concept65gr2,diacobro6gr2,importe6gr2,periodo6gr2,refigu,numigu,notasigu,fechaalta,fechanacimiento,fechapermiso,nie,pasaporte,tarjetaresidencia,concepto1gr5,importe1gr5,periodo1gr5,diacobro1gr5,concepto2gr5,importe2gr5,periodo2gr5,diacobro2gr5,concepto3gr5,importe3gr5,periodo3gr5,diacobro3gr5,concepto4gr5,importe4gr5,periodo4gr5,diacobro4gr5,concepto5gr5,importe5gr5,periodo5gr5,diacobro5gr5,concepto6gr5,importe6gr5,periodo6gr5,diacobro6gr5,concepto1gr6,importe1gr6,periodo1gr6,diacobro1gr6,concepto2gr6,importe2gr6,periodo2gr6,diacobro2gr6,concepto3gr6,importe3gr6,periodo3gr6,diacobro3gr6,concepto4gr6,importe4gr6,periodo4gr6,diacobro4gr6,concepto5gr6,importe5gr6,periodo5gr6,diacobro5gr6,concepto6gr6,importe6gr6,periodo6gr6,diacobro6gr6,concepto4gr2,concepto4gr3,concepto4gr4,importe4gr2,importe4gr3,importe4gr4,periodo4gr2,periodo4gr3,periodo4gr4,diacobro4gr2,diacobro4gr3,diacobro4gr4,concepto6gr2,concepto6gr3,concepto6gr4,concepto5gr3,importe5gr3,periodo5gr3,diacobro5gr3,importe6gr3,periodo6gr3,diacobro6gr3,periodo6gr4,importe6gr4,diacobro6gr4,importe5gr4,periodo5gr4,diacobro5gr4,concepto5gr4,servicio1gr1,servicio2gr1,servicio3gr1,servicio4gr1,servicio5gr1,servicio6gr1,servicio1gr2,servicio2gr2,servicio3gr2,servicio4gr2,servicio5gr2,servicio6gr2,servicio1gr3,servicio2gr3,servicio3gr3,servicio4gr3,servicio5gr3,servicio6gr3,servicio1gr4,servicio2gr4,servicio3gr4,servicio4gr4,servicio5gr4,servicio6gr4,servicio1gr5,servicio2gr5,servicio3gr5,servicio4gr5,servicio5gr5,servicio6gr5,servicio1gr6,servicio2gr6,servicio3gr6,servicio4gr6,servicio5gr6,servicio6gr6,totalarea1,portotalarea1,totalarea2,portotalarea2,totalarea3,portotalarea3,totalarea4,portotalarea4,totalarea5,portotalarea5,totalarea6,portotalarea6,totalcobros,importeanual1gr1,importeanual2gr1,importeanual3gr1,importeanual4gr1,importeanual5gr1,importeanual6gr1,importeanual1gr2,importeanual2gr2,importeanual3gr2,importeanual4gr2,importeanual5gr2,importeanual6gr2,importeanual1gr3,importeanual2gr3,importeanual3gr3,importeanual4gr3,importeanual5gr3,importeanual6gr3,importeanual1gr4,importeanual2gr4,importeanual3gr4,importeanual4gr4,importeanual5gr4,importeanual6gr4,importeanual1gr5,importeanual2gr5,importeanual3gr5,importeanual4gr5,importeanual5gr5,importeanual6gr5,importeanual1gr6,importeanual2gr6,importeanual3gr6,importeanual4gr6,importeanual5gr6,importeanual6gr6,ftotalsuplidos,ftotalprovisiones,ftotalbaseimp,ftotaliva,ftotalirpf,ftotalcobro,ftotaldcto,formapago,numrecibos,fechainirecibo,fecharestorecibo,conceptorecibo,ctaiva,iva,ctairpf,irpf,notasformapago,ctaventas,ctabancocaja,campo1,campo2,campo3,campo4,campo5,campo6,campo7,campo8,campo9,campo10,campo11,campo12,campo13,campo14,campo15,campo16,campo17,campo18,campo19,campo20,campofecha1,campofecha2,campofecha3,campofecha4,campofecha5,campofecha6,campofecha7,campofecha8,totaloportunidades,totalofertas,totalprevisionoportunidades,totalprevisionofertas,ftotalsuplidosext,ftotalprovisionesext,ftotalbaseimpext,ftotalivaext,ftotalirpfext,ftotalcobroext,fsaldofinalext,ftotaldctoext,ftotaleuroext,ctaimpagado,fcambio,origen,zona,cargo,departamento,empresa,sector,numempleados,clitrabajador,cliotro,Perso41,Perso42,Perso43,Perso44,Perso45,Perso46,Perso47,Perso48,Perso49,Perso50,Perso51,Perso52,Perso53,Perso54,Perso55,Perso56,Perso57,Perso58,Perso59,Perso60,Perso61,Perso62,Perso63,Perso64,Perso65,Perso66,Perso67,Perso68,Perso69,Perso70,Perso71,Perso72,Perso73,Perso74,Perso75,Perso76,Perso77,Perso78,Perso79,Perso80,Perso81,Perso82,Perso83,Perso84,Perso85,Perso86,Perso87,Perso88,Perso89,PersoFecha4,PersoFecha5,PersoFecha6,PersoFecha7,PersoFecha8,PersoFecha9,PersoFecha10,PersoFecha11,PersoFecha12,PersoFecha13,PersoFecha14,PersoFecha15,referencia,PersoFecha16,PersoFecha17,notario,tipofichero,campo21,campo22,campo23,campo24,campofecha9,campofecha10,campofecha11,campofecha12,TotSalPrevias,TotEntPrevias,TotSalPrevias1,TotEntPrevias1,TotSalPrevias2,TotEntPrevias2,TotSalPrevias3,TotEntPrevias3,sincronizar,inivelprivacidad,fechaBaja,estadoCli,numproto,diario,asiento,hacienda,segsoc,inem,snombreclicomercial,campofecha13,uni1A1,uni2A1,uni3A1,uni4A1,uni5A1,uni6A1,uni1A2,uni2A2,uni3A2,uni4A2,uni5A2,uni6A2,uni1A3,uni2A3,uni3A3,uni4A3,uni5A3,uni6A3,uni1A4,uni2A4,uni3A4,uni4A4,uni5A4,uni6A4,uni1A5,uni2A5,uni3A5,uni4A5,uni5A5,uni6A5,uni1A6,uni2A6,uni3A6,uni4A6,uni5A6,uni6A6,ftotaldevolucionext,ftotaldevolucion,precioUni1A1,precioUni2A1,precioUni3A1,precioUni4A1,precioUni5A1,precioUni6A1,precioUni1A2,precioUni2A2,precioUni3A2,precioUni4A2,precioUni5A2,precioUni6A2,precioUni1A3,precioUni2A3,precioUni3A3,precioUni4A3,precioUni5A3,precioUni6A3,precioUni1A4,precioUni2A4,precioUni3A4,precioUni4A4,precioUni5A4,precioUni6A4,precioUni1A5,precioUni2A5,precioUni3A5,precioUni4A5,precioUni5A5,precioUni6A5,precioUni1A6,precioUni2A6,precioUni3A6,precioUni4A6,precioUni5A6,precioUni6A6,BicSwift,IBAN,NaturJuridica,fechavencimiento1,fechavencimiento2,fechavencimiento3,fechavencimiento4,fechavencimiento5,fechavencimiento6,totprevisionconceptoopor,totimportecierreconceptoopor,icodtipfichero,DctoDefecto,DctoPP,usarplazosfechafija,DctoRappels,textoalerta,balerta,bnotificaraperexp,bloqueo,dultimallamada,sNombrePais,dfecdesdeplantrabajo,dfechastaplantrabajo,irecnosms,irecnomail,tipobd,modified_on,niss,ctacotizacion,sexo,discapacidad,victimaterrorismo,victimaviolencia,nivelestudios,categoriaprofesional,grupocotizacion,numcolegiado,especialidad,idtarifaodonto,idcentros,ident_app,idDispositivo,starjetasocio,bnocrearactuhorario,idiafechaprevcobro,fmandato,nmandato,idcama,fsaldofinal,edad,meses,porComision,idplazos,usuario_cloud_auto,dctoDefectoCobro,idIntranetArbolNivelFicha,dctolinea2defecto,iddiascobro,ctaCobroCli,idSofa,SerieDefecto,saldoacobrar,DctoOdonto
+1,ALEJANDRO GARCIA GARCIA,C/ CONTE Nº 23,BARCELONA,BARCELONA,08036,12345678-Z,937-258-963,938-654-984,606362549,alejandrogarcia@garcia.com,,937-598-963,938-654-987,11111111301111111111,4300000000,"{\rtf1\ansi\ansicpg1252\deff0{\fonttbl{\f0\fnil\fcharset0 MS Sans Serif;}{\f1\fnil\fcharset0 Times New Roman;}}
+{\colortbl ;\red0\green0\blue0;}
+\viewkind4\uc1\pard\lang3082\b\f0\fs16\tab\tab\tab\tab\tab\tab Motivo de la Consulta\par
+\par
+\cf1 Motivo principal de la consulta:\b0    \par
+Bocio palpable y visible con el cuello en hiperextensi\'f3n\par
+\par
+\b\f1\fs6\par
+\fs4\par
+\f0\fs16 S\'edntomas:\b0       \par
+Aumento de tama\'f1o de la gl\'e1ndula tiroidea \cf0\par
+\cf1\par
+}
+",ESPAÑOLA,,,,,,,,,,,1900-01-01 00:00:00,1900-01-01 00:00:00,1900-01-01 00:00:00,,,,,,,,,,,,5610000000,2,,,,,,,,,,,,,,,,,,,,,"{\rtf1\ansi\ansicpg1252\deff0{\fonttbl{\f0\fnil\fcharset0 MS Sans Serif;}{\f1\fnil\fcharset0 Times New Roman;}}
+{\colortbl ;\red0\green0\blue0;}
+\viewkind4\uc1\pard\lang3082\b\f0\fs16\tab\tab\tab\tab\tab\tab Antecedentes y Exploraci\'f3n\par
+\par
+\cf1 Antecedentes Personales:\b0  \cf0\par
+\cf1\par
+\par
+\b Antecedentes Familiares:\b0  \par
+\par
+\par
+\b Enfermedades en Infancia:\b0  \par
+\par
+\par
+\cf0\b Enfermedades en Adulto:\b0  \b\par
+\cf1\b0\par
+\par
+\cf0\b Operaciones:\b0  \b\par
+\cf1\b0\par
+\par
+\b Antecedentes Personales:\b0    \b\f1\fs6\par
+\b0\f0\fs16 no\par
+\b\f1\fs6\par
+\fs4\par
+\f0\fs16 Antecedentes Familiares:\b0    \par
+abuela\par
+\b\f1\fs6\par
+\fs4\par
+\f0\fs16 Enfermedades en Infancia:\b0    \par
+varicela\par
+\b\f1\fs6\par
+\fs4\par
+\cf0\f0\fs16 Enfermedades en Adulto:\b0    \cf1\b\f1\fs6\par
+\b0\f0\fs16 no\par
+\b\f1\fs6\par
+\fs4\par
+\cf0\f0\fs16 Operaciones:\b0    \cf1\par
+apendicitis\par
+\b\f1\fs6\par
+\fs4\par
+\cf0\f0\fs16 Accidentes:\b0    \b\par
+\cf1\b0\par
+\b\f1\fs6\par
+\fs4\par
+\cf0\f0\fs16 H\'e1bitos:\b0    \cf1\par
+fumador\par
+\b\f1\fs6\par
+\fs4\par
+\cf0\f0\fs16 Alergias:\b0    \b\par
+\cf1\b0 no\par
+\par
+\b\f1\fs6\par
+\fs4\par
+\cf0\f0\fs16 Pruebas y Ex\'e1menes:\b0    \b\par
+\par
+\cf1\b0\par
+}
+","{\rtf1\ansi\ansicpg1252\deff0{\fonttbl{\f0\fnil\fcharset0 MS Sans Serif;}{\f1\fnil\fcharset0 Times New Roman;}}
+{\colortbl ;\red0\green0\blue0;}
+\viewkind4\uc1\pard\lang3082\b\f0\fs16\tab\tab\tab\tab\tab\tab\tab Tratamiento\par
+\par
+\cf1 Medicaci\'f3n Actual:\b0   \par
+\b\f1\fs6\par
+\par
+\par
+\fs4\par
+\f0\fs16 Tratamiento:\b0    \par
+Iodo radioactivo 131\par
+\par
+\b\f1\fs6\par
+\f0\fs16 Terapia:\b0    \par
+\b\f1\fs6\par
+\b0\f0\fs16\par
+}
+","{\rtf1\ansi\ansicpg1252\deff0{\fonttbl{\f0\fnil\fcharset0 MS Sans Serif;}}
+{\colortbl ;\red0\green0\blue0;}
+\viewkind4\uc1\pard\lang3082\b\f0\fs16\tab\tab\tab\tab\tab Diagn\'f3stico, Pron\'f3stico y Evoluci\'f3n\par
+\par
+\cf1 Diagn\'f3stico:\b0  \cf0\par
+\cf1 Bocio\par
+\par
+\b Pron\'f3stico:\b0  \par
+\par
+\par
+\b Evoluci\'f3n:\b0  \par
+\par
+\par
+}
+","{\rtf1\ansi\ansicpg1252\deff0{\fonttbl{\f0\fnil\fcharset0 MS Sans Serif;}{\f1\fnil MS Sans Serif;}}
+{\colortbl ;\red0\green0\blue0;}
+\viewkind4\uc1\pard\lang3082\b\f0\fs16\tab\tab\tab\tab\tab\tab\tab Receta\par
+\par
+Doctor:\b0  \b\par
+\cf1 Fecha:\b0   \cf0\par
+\cf1\b Prescripci\'f3n:\b0  \cf0\par
+\par
+\f1\par
+\par
+\b\f0 Duraci\'f3n del Tratamiento\cf1 :\b0  \cf0\par
+\b Posolog\'eda (unidades/toma)\cf1 :\b0  \cf0\par
+\b Cada (horas)\cf1 :\b0  \cf0\par
+\b Observaciones\cf1 :\b0  \cf0\par
+\cf1\par
+\cf0\par
+\par
+\b Firma\cf1 :\b0  \cf0\par
+\b\par
+}
+","{\rtf1\ansi\ansicpg1252\deff0{\fonttbl{\f0\fnil\fcharset0 MS Sans Serif;}{\f1\fnil MS Sans Serif;}}
+\viewkind4\uc1\pard\lang3082\b\f0\fs16\tab\tab\tab\tab\tab\tab Otras Observaciones\par
+\par
+Observaciones:\b0    \b\par
+\b0 Revisi\'f3n una vez al a\'f1o\f1\par
+\par
+}
+",,,,,,,,,,,,,,,,,,,,,,,1,,,,,,,,,,,,,,,,,,,,,0,1899-12-30 00:00:00,2011-01-15 00:00:00,,,Servicios de Medicina General + Especialistas,,,45.0000,,,1,1,1,1899-12-30 00:00:00,,,,,,,,,,1,1,1,1899-12-30 00:00:00,,,,,,,,,,1,1,1,1899-12-30 00:00:00,,,,,,,,,,1,1,1,,,-1535.0000,0.0000,0.0000,0.0000,0.0000,0.0000,0.0000,,,,Recibo,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,2004-02-22 00:00:00,2009-04-21 00:00:00,1987-09-25 00:00:00,43,"35,21",,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,100.0,0.0,0.0,0.0,0.0,0.0,0.0,0.0,0.0,0.0,0.0,0.0,0.0,0.0,0.0,0.0,0.0,0.0,0.0,0.0,0.0,0.0,0.0,0.0,0.0,0.0,0.0,0.0,0.0,0.0,0.0,0.0,0.0,0.0,0.0,0.0,540.0,100.0,0.0,0.0,0.0,0.0,0.0,0.0,0.0,0.0,0.0,0.0,540.0,540.0,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,0.0000,0.0000,1535.0000,0.0000,0.0000,285.0000,0.0000,,,,,,4770000007,0.0000,,,,7050000000,5720000000,Adeslas,0100705487520,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,0.0000,0.0000,0.0000,0.0000,0.0000,,0.0000,,,Clínica,Particular,No,Hombre,,,,0,0,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,Paciente,No,"1,09",21,,1961-05-15 00:00:00,,,,0.0000,0.0000,0.0000,0.0000,0.0000,0.0000,0.0000,0.0000,,,,Alta,,,,,,,,,1,1,1,1,1,1,1,1,1,1,1,1,1,1,1,1,1,1,1,1,1,1,1,1,1,1,1,1,1,1,1,1,1,1,1,1,,,0.0,0.0,0.0,0.0,0.0,0.0,0.0,0.0,0.0,0.0,0.0,0.0,0.0,0.0,0.0,0.0,0.0,0.0,0.0,0.0,0.0,0.0,0.0,0.0,0.0,0.0,0.0,0.0,0.0,0.0,0.0,0.0,0.0,0.0,0.0,0.0,,,Persona Física,,,,,,,,,24,,,1,,"{\rtf1\ansi\ansicpg1252\deff0{\fonttbl{\f0\fnil\fcharset0 MS Sans Serif;}}
+\viewkind4\uc1\pard\qc\lang3082\b\f0\fs16\par
+\par
+\ul\fs24 S\'f3lo revisiones Anuales\ulnone\fs16\par
+}
+",1,,,,,,,0,0,4,2000-01-01 00:00:00,,,Niño,,,,,,,,,,,,,,,,,,,-1250.0000,16,202,,,True,,,,,5720000000,,,,

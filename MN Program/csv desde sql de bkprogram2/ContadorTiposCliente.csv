@@ -1,0 +1,32 @@
+﻿id,tabla,tipocliente,contador
+1,clientes,General,0
+2,clientespotenciales,Grandes Cuentas,0
+3,clientespotenciales,General,0
+4,clientespotenciales,Agrupación,0
+5,clientespotenciales,Colegio Profesional,0
+6,clientespotenciales,Preferente,0
+7,clientespotenciales,Colaborador,0
+8,otros,Colaborador,0
+9,otros,Partner,0
+10,otros,Agente Comercial,0
+11,otros,Franquicia,0
+12,otros,General,0
+13,pacientes,General,0
+14,alumnos,General,0
+15,compañias,General,0
+16,mascotastutores,General,0
+17,mutuas,General,0
+18,voluntarios,General,0
+19,financiadores,General,0
+20,terceraedad,General,0
+22,clientespotenciales,Potencial,0
+23,otros,Tercero,0
+24,trabajadores,Trabajador,0
+25,pacientes,Paciente,0
+26,mutuas,Mutua,0
+27,trabajadores,Contrato Fijo,0
+28,proveedores,Proveedor,0
+29,trabajadores,General,0
+30,clientes,Preferente,0
+31,otros,Centro de Impartición,0
+32,otros,Lugar de Impartición,0

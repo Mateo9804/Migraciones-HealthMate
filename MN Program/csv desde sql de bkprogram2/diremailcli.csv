@@ -1,0 +1,13 @@
+﻿icodcli,linea,email,principal,estado,tipo,tipoEnvio,grupoEmailer,tramo,noborrable
+1,1,alejandrogarcia@garcia.com,1,,,,,,
+4,1,prueba@mnprogram.com,0,,,General,,,
+4,2,juan@gmail.com,1,,,General,,,
+41,1,mutua@mutuaprueba.es,1,,,General,,,
+42,1,mutua@mutuaprueba.es,1,,,General,,,
+43,1,mutua@mutuaprueba.es,1,Suscrito con Actividad,,General,,,
+49,1,mutuagallega@mutuagallega.com,1,,,,,,
+50,1,asepeyo@asepeyo.com,1,,,,,,
+51,1,maria@maria.es,1,,,,,,
+62,1,luis@luis.com,1,Suscrito con Actividad,,General,Trato preferente,,
+66,1,nereafernandez@mnprogram.com,1,,,,,,
+67,1,alejandrogarcia97@gmail.com,1,Suscrito con Actividad,,General,,,

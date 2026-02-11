@@ -1,0 +1,462 @@
+﻿id,nombre,texto,asunto,rutaCarpeta,favorita,recomendada,idMN
+3,Formulario Registro + Firma LOPD,"¡Bienvenida/o a nuestro centro!
+
+ 
+
+Pulsa en el siguiente enlace para cubrir tus datos 
+
+[UrlEnlacesWeb|1]
+
+
+
+¡Muchas gracias!
+",,,,,
+4,Formulario COVID,"Formulario COVID
+ 
+
+
+Confirmo no tener ni haber tenido en los últimos días ninguno de los siguitentes síntomas:
+ 
+
+
+- Fiebre (+38)
+
+- Pérdida de olfato y/o gusto
+
+- Dolor muscular
+
+- Dolor de garganta
+
+- Dolor de cabeza
+ 
+
+- Ni haber estado en contacto con personas diagnosticadas o con síntomas compatibles con el COVID 19.
+ 
+
+
+
+[Aceptar Whatsapp]
+ 
+
+
+¡Muchas gracias!",,,,,
+6,Recordatorio de Reunión,"Hola [Nombre], 
+
+Te recuerdo que el dia [Fecha] a las [Hora] tenemos la reunión, por favor confirma asistencia.
+
+Gracias y un saludo.",,,,,
+8,Informe Historia Clínica,"Hola [Nombre], 
+
+Te enviamos tu Informe de Historia Clínica: [Abrir Documento]
+
+Un saludo.",,,,,
+9,Envío Factura,"Hola [Nombre], 
+
+Te enviamos tu factura de los servicios prestados: [Abrir Documento].
+
+Un saludo.",,,,,
+10,Aceptación Documento LOPD,"Estimada/o [Nombre]
+
+De acuerdo con la normativa de protección de datos vigente, te envío un enlace para que leas y aceptes la documentación pertinente: [Aceptar Documento] 
+
+Recuerda que cuando lo desees puedes ponerte en contacto con nosotros para ejercer cualquiera de tus derechos (acceso, rectificación, cancelación, oposición, supresión, limitación y portabilidad).
+
+Una vez hecho, todas las partes recibiremos por correo electrónico una copia final del PDF.
+
+Gracias.
+",,,,,
+11,Aceptación Presupuesto,"Estimada/o [Nombre],
+
+Tal y como acordamos, te envío un enlace con el presupuesto. En él encontrarás todos los detalles relativos a la contratación, revisa que estén correctos. 
+
+[Aceptar Documento]
+
+Cuando hayas aceptado el presupuesto, todas las partes recibiremos por correo electrónico una copia final en PDF. 
+
+Muchas gracias
+",,,,,
+12,Actualización Datos,"Estimado [Nombre]
+
+Queremos confirmar que tu información de contacto es correcta y está actualizada para poder prestarte el mejor servicio.
+
+Clica en el siguiente enlace para revisarlos y actualizarlos en caso de ser necesario: [UrlEnlacesWeb|1]
+
+Muchas gracias.
+",,,,,
+13,Adjunto Whatsapp,"Hola [Nombre],
+
+Haz clic aquí para ver el documento adjunto: [Abrir Documento]
+
+¡Muchas gracias!",,,,,
+14,Intento de localización,"Hola [Nombre],
+
+Hemos intentado localizarte varias veces, pero no lo hemos conseguido. 
+
+Por favor, llámanos o responde a este mensaje y comunícanos para cuándo quieres concertar una nueva cita.  
+ 
+Muchas gracias y un saludo.",,,,,
+15,Confirmación de pago,"A/A: [Nombre]
+
+Estimado cliente, simplemente queríamos confirmarte que hemos recibido correctamente tu pago de [Importe]
+
+Recibe un cordial saludo.
+
+",,,,,
+17,Formulario Registro + Firma LOPD Paciente,"¡Bienvenida/o a [Nombre Empresa]!
+
+
+Pulsa sobre el siguiente enlace para cubrir tus datos y un breve cuestionario acerca de tus datos médicos y así formalizar el alta como paciente. No supone ningún compromiso y tan sólo te llevará 1 minuto. 
+Además, una vez completado el registro te llegará un correo electrónico con una copia de tu LOPD firmada.
+
+[UrlEnlacesWeb]
+
+Si eres menor de edad, cubre este formulario:
+[UrlEnlacesWeb]
+
+Si tienes cualquier duda, puedes llamarnos al [Teléfono Empresa].
+
+
+¡Muchas gracias por confiar en nosotros!
+",,,,True,E108862A-8004-444B-84DB-9EFE023E7E09
+18,Enviar Factura,"¡Hola [Nombre]!
+
+Te escribimos de [Nombre Empresa].
+
+Te envíamos tu factura. Pulsa en el siguiente enlace para abrirla.
+[Abrir Documento]
+
+Si tienes cualquier duda, puedes llamarnos al [Teléfono Empresa].
+
+¡Un saludo!",,,,True,0325B606-60A6-4629-A293-F701357D172F
+19,Firma Documento LOPD,"¡Hola [Nombre]!
+
+Te escribimos de [Nombre Empresa].
+
+En cumplimiento de la Ley Orgánica 3/2018, de Protección de Datos Personales, y siguiendo las Recomendaciones e Instrucciones emitidas por la Agencia Española de Protección de Datos (A.E.P.D.), procedemos a enviarte la documentación pertinente. 
+Tómate tu tiempo para revisarla y, si estás de acuerdo,te agradecería que la aceptases. 
+Simplemente pulsando sobre el siguiente enlace podrás acceder, acepta y firmar el documeto correspondiente. 
+[Aceptar Documento]
+
+Una vez hayas finalizado, recibirás en tu correo electrónico una copia en PDF del documento firmado. 
+
+Si tienes cualquier duda, puedes llamarnos al [Teléfono Empresa].
+
+¡Muchas gracias por tu confianza!",,,,True,14C879AA-CD7F-4C36-B189-00564E6EE0E7
+20,Firma Consentimiento Informado,"¡Hola [Nombre]!
+
+Te escribimos de [Nombre Empresa].
+
+Te enviamos el consentimiento informado para que lo firmes. Solo tienes que hacer clic en el enlace para verlo. Tómate tu tiempo para leerlo y firmar el documento.
+
+[Aceptar Documento]
+
+Una vez finalizado el proceso, todas las partes recibiremos un correo electrónico con una copia en PDF del documento firmado. 
+
+Si tienes cualquier duda, llámanos al [Teléfono Empresa].
+
+¡Gracias!",,,,True,526E9241-90E8-45A4-A9F8-E39D0EF39315
+21,Firma Consentimiento Grabación de Imágenes,"¡Hola [Nombre]!
+
+En cumplimiento del derecho a la propia imagen regulado por la Ley 1/1982, relativo a la protección de las personas físicas, pocedemos a adjuntar la documentación pertinente. 
+Tómate tu tiempo para revisarla y aceptarla. 
+Simplemente debes pulsar en el siguiente enlace para acceder, aceptar y firmar el documento.
+
+[Aceptar Documento]
+
+Una vez completado el proceso, recibirás en tu correo electrónico una copia en PDF del documento firmado. 
+¡Muchas gracias por tu confianza!",,,,True,169A5E79-2AF7-44D5-BCEE-66178EFFF0FA
+22,Enviar Informe,"¡Hola [Nombre]!
+
+Te escribimos de [Nombre Empresa].
+
+Te envíamos el informe que nos solicitaste. Para acceder a él pulsa en el siguiente enlace:
+[Abrir Documento]
+
+Si tienes cualquier duda, llámanos al [Teléfono Empresa]
+
+¡Muchas gracias!",,,,True,0FC65767-A7F7-4731-9E41-ADDCB43D98C4
+23,Enviar Justificante Asistencia,"¡Hola [Nombre]!
+
+Te escribimos de [Nombre Empresa].
+
+Te envíamos el justificante de asistencia que nos has solicitado. Pulsa en el siguiente enlace para verlo.
+[Abrir Documento]
+
+Si tienes cualquier duda, puedes llamarnos al [Teléfono Empresa].
+
+¡Muchas gracias!",,,,True,9050695D-031A-457D-B132-66E8FA008CBD
+24,Enviar Documento,"¡Hola [Nombre]!
+
+Te escribimos de [Nombre Empresa].
+
+Pulsa en el siguiente enlace para acceder al documento:
+[Abrir Documento]
+
+Si tienes cualquier duda, llámanos al [Teléfono Empresa].
+
+¡Muchas gracias!",,,,True,2C621DA5-E97B-405B-9001-1BB86FF4F07B
+25,Cuestionario de Salud,"¡Hola [Nombre]!
+
+Te escribimos de [Nombre Empresa].
+
+Pulsa sobre el siguiente enlace para cubrir un breve cuestionario sobre tus datos médicos fundamental para la correcta prestación de nuestro servicio.
+
+[UrlCuestionarios]
+
+Si tienes cualquier duda, puedes llamarnos al [Teléfono Empresa].
+
+¡Muchas gracias!
+",,,,True,0D6400FC-D178-4776-8F77-7365BAB1C689
+26,Recordatorio Cita con Confirmación,"Hola [Nombre],
+
+
+Te recordamos tu cita del próximo día [Fecha] a las [Hora] en [Nombre Empresa].
+
+
+
+Para confirmar la cita haz clic aquí: [TextoEnlaceConfirmarCita]
+
+Si tienes cualquier duda, llámanos al [Teléfono Empresa].
+
+¡Muchas gracias!",,,,True,8E650B67-E749-43CB-AD13-611D5CBF2ED8
+27,Recordatorio Cita con Confirmación/Cancelación,"Hola [Nombre],
+
+
+Te recordamos tu cita del próximo día [Fecha] a las [Hora] en [Nombre Empresa].
+
+
+
+Para confirmar la cita haz clic aquí: [TextoEnlaceConfirmarCita]
+
+
+
+Si no puedes acudir por favor cancela la cita desde el siguiente enlace: [TextoEnlaceCancelarCita]
+
+ 
+
+Si tienes cualquier duda, llámanos al [Teléfono Empresa].
+
+¡Muchas gracias!",,,,True,0C0E3A35-0442-46CF-83ED-573704D784B4
+28,Enviar Recibí de Cobro,"¡Hola [Nombre]!
+
+Te escribimos de [Nombre Empresa].
+
+Te envíamos el recibí de cobro. Pulsa en el siguiente enlace para abrirlo
+[Abrir Documento]
+
+Si tienes cualquier duda, puedes llamarnos al [Teléfono Empresa].
+
+¡Muchas gracias!",,,,True,BA6CDD2E-0753-4392-95A9-9311016C2DB6
+29,Aviso de Cobro Pendiente,"¡Hola [Nombre]!
+
+Te escribimos de [Nombre Empresa].
+
+Te recordamos que tienes pendiente de abonar un pago por un importe de [Importe] en concepto de [Concepto].
+
+Si tienes cualquier duda, puedes llamarnos al [Teléfono Empresa].
+
+¡Muchas gracias!",,,,True,47687306-FCA7-4818-AEFB-C4F9876C6F2D
+30,Felicitación Cumpleaños Empleado,"¡Hola [Nombre]!
+
+
+Desde [Nombre Empresa] te enviamos nuestra más cálida y sentida felicitación.
+Estamos encantados de poder compartir este gran día contigo. Gracias por formar parte de nuestro equipo y por ayudarnos a prosperar y crecer con todo lo que haces en tu día a día.
+
+¡Tod@s tus compañer@s te deseamos un muy feliz cumpleaños!",,,,True,902A9E04-EE39-4548-B980-ECA04455E746
+31,Felicitación Navidad,"¡Hola [Nombre]!
+
+En esta época tan especial queremos darte las gracias por confiar en nosotros. 
+¡Felices Fiestas!
+[Nombre Empresa]",,,,True,E30A46AF-E2B7-44C5-8BD0-AE0542B6D83E
+32,Formulario Registro + Firma LOPD Cliente,"¡Bienvenido/a a [Nombre Empresa]!
+
+Pulsa sobre el siguiente enlace para cubrir tus datos y firma el documento LOPD y así formalizar el alta como cliente. No supone ningún compromiso y tan sólo te llevará 1 minuto.
+Además, una vez completado el registro, te llegará un correo electrónico con una copia de tu LOPD firmada.
+
+[UrlEnlacesWeb]
+
+Si tienes cualquier duda, puedes llamarnos al [Teléfono Empresa].
+
+¡Muchas gracias por confiar en nosotros!",,,,True,99C0AEDD-727B-40BB-A609-57F476C52DA1
+33,Actualización Datos Paciente,"Estimado [Nombre]
+
+Te escribimos de [Nombre Empresa].
+
+Queremos confirmar que tu información de contacto es correcta y está actualizada para poder prestarte el mejor servicio.
+
+Clica en el siguiente enlace para revisarlos y actualizarlos en caso de ser necesario:  [UrlEnlacesWeb]
+
+Si tienes cualquier duda, puedes llamarnos al [Teléfono Empresa].
+
+Muchas gracias.",,,,True,692D43DD-5C2E-42BB-8116-7CB6B39E424F
+34,Enviar Informe Historia Clínica,"Hola [Nombre], 
+
+Te escribimos de [Nombre Empresa].
+
+Tal y como nos solicitaste, te enviamos un informe de tu Historia Clínica: [Abrir Documento]
+
+Si tienes cualquier duda, puedes llamarnos al [Teléfono Empresa].
+
+¡Muchas gracias!",,,,True,A2381CBE-3144-450E-916A-CBC2C908E8D2
+35,Formulario Registro + Firma LOPD + Cuestionario,"
+¡Bienvenid@!
+
+Estimado paciente;
+
+Haz clic en el siguiente enlace para cubrir tus datos y firmar el documento de LOPD. No supone ningún compromiso y tan sólo te llevará 1 minuto.
+
+[UrlEnlacesWeb]
+
+¡Muchas gracias!",,,,True,4334549B-C1E5-4179-8C50-EF66AA5A2FCD
+36,Aviso de Cobro,"Estimado/a [Nombre Destinatario], 
+
+se aproxima la fecha de pago de nuestra factura:
+ 
+Concepto: [Concepto] 
+Importe: [Importe]
+
+ 
+Para cualquier incidencia o comentario por favor ponte en contacto con nosotros.
+ 
+ 
+¡Muchas gracias!
+",,,,True,0903DB9C-1068-4790-BC97-E403DCC6D8F8
+37,Formulario Registro Paciente,"¡Bienvenid@!
+
+Estimado paciente;
+
+Haz clic en el siguiente enlace para cubrir tus datos. No supone ningún compromiso y tan sólo te llevará 1 minuto.
+
+[UrlEnlacesWeb]
+
+¡Muchas gracias!",,,,True,EBCD14D0-DE67-4DF5-8519-0B12FD87485C
+38,Formulario Registro Paciente + Firma LOPD,"¡Bienvenido/a a [Nombre Empresa]!
+
+Pulsa sobre el siguiente enlace para cubrir tus datos y firma el documento LOPD. No supone ningún compromiso y tan sólo te llevará 1 minuto.
+Además, una vez completado el registro, te llegará un correo electrónico con una copia de tu LOPD firmada.
+
+[UrlEnlacesWeb]
+
+Si tienes cualquier duda, puedes llamarnos al [Teléfono Empresa].
+
+¡Muchas gracias por confiar en nosotros!",,,,True,A82CB54C-398A-4403-B51E-2BBB3F9FABD2
+39,Formulario Registro Trabajador,"¡Bienvenid@!
+
+Estimado [Nombre Destinatario]
+
+Haz clic en el siguiente enlace para cubrir tus datos. No supone ningún compromiso y tan sólo te llevará 1 minuto.
+
+[UrlEnlacesWeb]
+
+¡Muchas gracias!",,,,True,77B8177B-E398-4C0C-BEE9-3D25BAEF3D21
+40,Formulario de Contacto,"¡Hola!
+
+Te escribimos de [Nombre Empresa].
+
+Clica en el siguiente enlace para cubrir tus datos para que podamos contactar contigo.
+[UrlEnlacesWeb]
+
+ Un cordial saludo
+",,,,True,CAEB6DBE-9C95-490E-9EA5-8EF2529AFB8E
+41,Firma Documento,"¡Hola [Nombre]!
+
+Te escribimos de [Nombre Empresa].
+
+Pulsa sobre el siguiente enlace para acceder al documento, leerlo y firmarlo. 
+
+[Aceptar Documento]
+
+Una vez hayas aceptado el documento, todas las partes recibiremos por correo electrónico una copia firmada en PDF.
+
+Si tienes cualquier duda, puedes llamarnos al [Teléfono Empresa].
+
+¡Muchas gracias!",Aceptación Documento,,,True,D577A6DE-FD32-4890-AA54-E5C456D864E0
+42,Felicitación de cumpleaños Paciente,"¡Hola [Nombre]!
+
+Desde [Nombre Empresa], te enviamos nuestra más cálida y sentida felicitación.
+Estamos encantados de poder compartir este gran día contigo. Gracias por haber formado parte de nuestra historia y ojalá sigamos prosperando juntos en el futuro. 
+
+¡Te deseamos muy feliz cumpleaños!",Felicitación de cumpleaños,,,True,05861D08-5B9F-441F-932A-D477CAE04E9D
+43,Solicitud de Cobro con Tarjeta,"¡Hola [Nombre]!
+
+Te escribimos de [Nombre Empresa].
+
+Para tu comodidad ponemos a tu disposición la posibilidad de abonar tu factura mediante tarjeta de crédito o débito. 
+Para ello simplemente debes pulsar sobre el siguiente enlace para realizar un pago seguro por un importe de [Importe] en concepto de [Concepto]:
+[TextoEnlaceCobroStripe]
+
+Si tienes cualquier duda, puedes llamarnos al [Teléfono Empresa].
+
+¡Muchas gracias!",Cobro con Tarjeta,,,True,9198FA00-0D78-4FEC-8FFF-FBBCBE73A3EE
+100000003,Formulario Registro + Firma LOPD,"¡Bienvenida/o a nuestro centro!
+
+Pulsa en el siguiente enlace para cubrir tus datos 
+
+[UrlEnlacesWeb|1]
+
+¡Muchas gracias!
+",,,,,
+100000004,Formulario COVID,"Formulario COVID
+ 
+Confirmo no tener ni haber tenido en los últimos días ninguno de los siguitentes síntomas:
+ 
+Fiebre ( +38)
+Pérdida de olfato y/o gusto
+Dolor muscular
+Dolor de garganta
+Dolor de cabeza
+ 
+Ni haber estado en contacto con personas diagnosticadas o con síntomas compatibles con el COVID 19.
+ 
+[Aceptar Whatsapp]
+ 
+¡Muchas gracias!",,,,,
+200000016,Recordatorio Cita,"Hola [Nombre]
+ 
+Te recordamos tu cita del próximo día [Fecha] a las [Hora].
+
+Si no puedes acudir, contesta a este mensaje o llámanos.
+
+ ¡Muchas gracias!
+",Recordatorio de Cita,,,,
+200000017,Confirmación Cita,"Hola [Nombre]
+ 
+Te recordamos tu cita del próximo día [Fecha] a las [Hora]. 
+
+Para confirmarla la cita haz clic aquí: [TextoEnlaceConfirmarCita]
+
+Si no puedes acudir por favor cancela la cita desde el siguiente enlace: [TextoEnlaceCancelarCita]
+
+ ¡Muchas gracias!
+",Recordatorio de Cita + Confirmación/Cancelación,,,,
+200000018,Aceptación Documento,"Estimada/o [Nombre],
+
+Haz clic aquí para leer el documento y aceptarlo: [Aceptar Documento]
+ 
+ 
+Una vez hecho, todas las partes recibiremos por correo electrónico una copia final en PDF. 
+ 
+Gracias.
+ 
+",Aceptación Documento,,,,
+200000019,Aceptación Whatsapp,"Hola [Nombre],
+
+Haz clic en el siguiente enlace para aceptar: [Aceptar Whatsapp]
+
+Cuando hayas aceptado las condiciones incluidas en el texto de este Whatsapp, todas las partes recibiremos por correo electrónico una copia firmada en PDF. 
+
+Muchas gracias.
+
+ 
+",Aceptación Whatsapp,,,,
+200000020,Felicitación de cumpleaños,"Hola [Nombre],
+
+Sabemos que es tu cumpleaños y queremos desearte todo lo mejor.
+
+ ¡Disfruta de tu día!
+",Felicitación de cumpleaños,,,,
+200000021,Cobro con Tarjeta,"Hola [Nombre],
+
+Para realizar el pago con tarjeta haz clic en el siguiente enlace:
+
+[TextoEnlaceCobroStripe]",Cobro con Tarjeta,,,,

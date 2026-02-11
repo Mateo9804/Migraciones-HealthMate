@@ -1,0 +1,15 @@
+﻿id,idPadre,texto,numEmpresa,orden,idConfAcceso
+49,0,Facturación,1,3,
+50,49,Facturación Emitida,1,0,
+51,49,Facturación Recibida,1,1,
+52,0,Agenda,1,1,356
+53,0,Correo,1,2,44
+54,0,Bases de Datos,1,0,
+55,0,Facturación,2,3,
+56,55,Facturación Emitida,2,0,
+57,55,Facturación Recibida,2,1,
+58,0,Agenda,2,1,356
+59,0,Correo,2,2,44
+60,0,Bases de Datos,2,0,
+61,0,Mail Marketing,2,4,108
+62,0,Registro Horario,2,5,

@@ -1,0 +1,23 @@
+﻿id,codigo,motivo
+1,01,Número de la factura
+2,02,Serie de la factura
+3,03,Fecha expedición
+4,04,Nombre y apellidos/Razón social - Emisor
+5,05,Nombre y apellidos/Razón social - Receptor
+6,06,Identificación fiscal Emisor/Obligado
+7,07,Identificación fiscal Receptor
+8,08,Domicilio Emisor/Obligado
+9,09,Domicilio Receptor
+10,10,Detalle Operación
+11,11,Porcentaje impositivo a aplicar
+12,12,Cuota tributaria a aplicar
+13,13,Fecha/Periodo a aplicar
+14,14,Clase de factura
+15,15,Literales legales
+16,16,Base imponible
+17,80,Cálculo de cuotas repercutidas
+18,81,Cálculo de cuotas retenidas
+19,82,Base imponible modificada por devolución de envases/embalajes
+20,83,Base imponible modificada por descuentos y bonificaciones
+21,84,"Base imponible modificada por resolución firme, judicial o administrativa"
+22,85,Base imponible modificada cuotas repercutidas no satisfechas. Auto de declaración de concurso

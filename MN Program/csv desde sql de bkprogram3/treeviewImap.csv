@@ -1,0 +1,10 @@
+﻿id,nombre,iCodOpe,iLinea,contenedora,ultimoUID,nextUID
+12,INBOX,1,1,True,20420,20422
+13,[Gmail],1,1,False,,
+14,[Gmail]/Borradores,1,1,True,8379,8432
+15,[Gmail]/Destacados,1,1,True,41,42
+16,[Gmail]/Enviados,1,1,True,1878,1879
+17,[Gmail]/Importantes,1,1,True,6052,6053
+18,[Gmail]/Papelera,1,1,True,20899,20900
+19,[Gmail]/Spam,1,1,True,5496,5497
+20,[Gmail]/Todos,1,1,True,35767,35768

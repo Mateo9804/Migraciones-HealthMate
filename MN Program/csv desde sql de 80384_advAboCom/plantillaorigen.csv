@@ -1,0 +1,615 @@
+﻿id,nombre,origendatos,consultasql,permiso,orden,tipo,filtroEntidad,filtroPropio,idOrigenPadre,finalConsulta,tabla,idCarpetaGeneral,prefijo,idOrigenReal,idModuloControl,titulo,origentitulo,tablatitulo
+3,Clientes Generales,0,"select clientes.* ,convert(char(8), dateadd(second, tiempo,''), 114) as tiempo,(substring(cuentabanco,1,4)+'************'+substring(cuentabanco,17,4)) as cuentabancocifr,clientesext.alertaodontograma as alertaodontograma from clientes left join clientesext on clientes.icodcli=clientesext.icodcli ",,19,, icodcli = [icodcli],,,,clientes,,cligeneral,,,Clientes Generales,0,
+4,Expediente,0,"
+		select expedien.*,convert(char(8), dateadd(second, tiempo, ' '), 114) as tiempo, 
+(isnull(fcuantia,0) + isnull(intereses,0) + isnull(costas,0)) as totalcuantia from expedien",ver_exp|1,61,Expedientes, expedien.inumexp = [inumexp] and expedien.iyear = [iyear],,,  order by expedien.expediente desc ,expedien,,expedien,,,Expediente,0,
+5,Historial Cliente,0,"select segcli.*,subusu.nombre as usuario,
+DATENAME(hh, horainiact) + ':' + DATENAME(mi, horainiact) + ':' + DATENAME(ss, horainiact) as horainiact,
+DATENAME(hh, horafinact) + ':' + DATENAME(mi, horafinact) + ':' + DATENAME(ss, horafinact) as horafinact,
+convert(char(8), dateadd(second, tiempo, ''), 114) as tiempo 
+from segcli 
+left join subusu on segcli.subusu=subusu.icodsubusu",,77,HistorialCliente, icodcli = [icodcli] and  linea = [linea] and  dfechaact = '[dfechaact]',,, order by segcli.dfechaact asc,segcli,,segcli,,,Historial Cliente,0,
+6,Empresa,4,"
+select *, CONVERT(VARCHAR(10), GETDATE(), 103) AS fechaimpresion,
+ CAST(DAY(GETDATE()) AS VARCHAR(2)) + ' ' + DATENAME(MM, GETDATE()) + ' ' + CAST(YEAR(GETDATE()) AS VARCHAR(4))  as fechaimpresionlarga from advAboCom.dbo.director",,58,Empresa,,icodprocu = [empresa],,,director,9,director,,,Empresa,0,
+8,Contactos,0,"SELECT * FROM contacto 
+",,43,Contactos, codcontacto = [codcontacto],,,,contacto,,contacto,,,TituloFormCorConPral,1,
+9,Pacientes,0,,bverpaciente,110,Pacientes,, clientes.tipobd = 4,3,,,,paciente,,,Pacientes,0,
+10,Historial Expediente,0,"select segexp.*,subusu.nombre as usuario
+from segexp 
+left join subusu on segexp.subusu=subusu.icodsubusu ",,78,HistorialExpediente, inumexp = [inumexp] and  iyear = [iyear] and  linea = [linea] and  dfechaact = '[dfechaact]',,, order by segexp.dfechaact asc,segexp,,segexp,,,Historial Expediente,0,
+11,Clientes,0,,,18,Clientes,, clientes.tipobd = 0,3,,clientes,,clientes,,,CliTitulo|0,1,
+13,Bancos General,0,"select bancos.id,bancos.banco,bancos.cuenta,bancos.telefono1,bancos.telefono2,bancos.telefono3,bancos.fax from bancos",,15,Bancos,id = [id],,, order by bancos.id desc,bancos,,,,,Bancos General,0,
+14,Bancos Cliente,0,"select clibancos.banco, clibancos.icodcli,clibancos.linea,clibancos.CuentaBanco,clibancos.BicSwift,clibancos.IBAN,clibancos.principal, clibancos.telefono1 from clibancos",,13,,,,,,clibancos,,,,,Bancos Cliente,0,
+15,Oportunidades,0,"
+SELECT oporcli.*,  subusu.nombre as subusuario from oporcli left join subusu on oporcli.icodusu=subusu.icodsubusu
+",ver_opor|1,108,Oportunidades, icodcli = [icodcli] and  linea = [linea] and  dfecha = [dfecha],,,,oporcli,,oporcli,,,Oportunidades,0,
+16,Cuentas Clientes,0,"select 
+cuencli.*,
+stipo = CASE WHEN bhonoproducto=1 THEN 'TIPOCUENTA_PRODUCTO' 
+WHEN bhonodcto=1 THEN 'DESCUENTO' 
+WHEN honogasto=1 THEN (select isnull(persogast, 'GASTO') from config)  WHEN bhonoarticulo=1 THEN (select isnull(persoart, 'ARTICULO')from config)  
+WHEN stipo='HONORARIO'	then (select isnull(persohono, 'HONORARIO')  from config)  
+when stipo='GASTO' then (select isnull(persoprov, 'SUPLIDO') from config) 
+ELSE stipo END,
+clase=CASE WHEN clasecuenta=0 or clasecuenta is null THEN 'Oficial' 
+WHEN clasecuenta=1 THEN 'Pro forma' 
+WHEN clasecuenta=2 THEN 'Presupuesto' 
+WHEN clasecuenta=3 THEN 'Albarán'   
+WHEN clasecuenta=4 THEN 'Pedido'
+WHEN clasecuenta=5 THEN 'Órden de Trabajo' 
+END,
+CASE WHEN (facturado is not null and facturado like 's') or (stipo like 'COBRO' or stipo like 'DESCUENTO') THEN 1 ELSE 0 END as cuentafacturada,
+(sdescripcion  + ' ' + isnull(cast(notas as varchar(2000)),' ')) as descripnotas 
+ from cuencli ",,54,,,,,,cuencli,,cuencli,,,Cuentas Clientes,0,
+17,Cuentas Expediente,0,"
+select (sdescripcion  + ' ' + isnull(cast(notas as varchar(2000)),' ')) as descripnotas,
+cuenexpe.*
+ from cuenexpe",,55,,,,,,cuenexpe,,cuenexpe,,,Cuentas Expediente,0,
+18,Previas Cliente,0,"select *
+from previcli",,126,,,,,,previcli,,previcli,,,Previas Cliente,0,
+19,Conceptos Factura,0,"select cuencli.icodcli,
+stipo = CASE WHEN bhonoproducto=1 THEN 'TIPOCUENTA_PRODUCTO'  
+WHEN bhonodcto=1 THEN 'DESCUENTO'
+WHEN honogasto=1 THEN (select isnull(persogast, 'GASTO') from config)
+WHEN bhonoarticulo=1 THEN (select isnull(persoart, 'ARTICULO')from config)
+WHEN stipo='HONORARIO' then (select isnull(persohono, 'HONORARIO')  from config) 
+when stipo='GASTO' then (select isnull(persoprov, 'SUPLIDO') from config)  ELSE stipo END, 
+facturado, cuencli.dfecha,cuencli.linea,cuencli.sdescripcion,cuencli.fentradaseuro,cuencli.fsalidaseuro,
+cuencli.subusu,cuencli.fechaseg,cuencli.lineaseg,
+clase=CASE WHEN clasecuenta=0 or clasecuenta is null THEN 'Oficial'  
+WHEN clasecuenta=1 THEN 'Pro forma'  
+WHEN clasecuenta=2 THEN 'Presupuesto'  
+WHEN clasecuenta=3 THEN 'Albarán'   
+ WHEN clasecuenta=4 THEN 'Pedido' 
+ WHEN clasecuenta=5 THEN 'Órden de Trabajo' 
+ END, 
+   
+cuencli.inumfactura, 
+cuencli.yearfact, cuencli.serie, facturas.fecha as fechafact
+, cuencli.tipounidad, cuencli.unidades  
+ from cuencli  
+inner join facturas on facturas.yearfact = cuencli.yearfact     
+and facturas.inumfactura = cuencli.inumfactura     
+and facturas.codsubusu = cuencli.codsubusu     
+and facturas.serie = cuencli.serie ",,41,,, clasecuenta=0 or clasecuenta is null,,,cuencli,,conceptofact,,,Conceptos Factura,0,
+20,Facturas Clientes,0,,,71,OficialClientes,,"
+ origen = 'cli'",162,,,,,,,Facturas,0,
+23,Proformas General,0,"select ((totalderechoseuro - isnull(totaldctoeuro,0)) + totalivaeuro - totalirpfeuro) as totalbaseivairpf,((totalderechoseuro - isnull(totaldctoeuro,0)) + totalivaeuro) as totalbaseiva,  (totalderechoseuro - isnull(totaldctoeuro,0) + totalivaeuro) as totalhonodctoiva,  (totalderechoseuro - isnull(totaldctoeuro,0)) as totalbaseimp,  (totalsuplidoseuro + (totalderechoseuro - isnull(totaldctoeuro,0)) + totalivaeuro - totalirpfeuro) as totalminuta,  proforma.*,(substring(cuentabanco,1,4)+ '************' + substring(cuentabanco,17,4)) as cuentabancocifr,  (datename(day,proforma.fecha)+ ' de ' + datename(month, proforma.fecha)+ ' de ' + datename(year,proforma.fecha)) as fechafacturalarga, ISNULL(subusu.nombre, 'DESPACHO') as nomsubusu   from proforma left join subusu on proforma.codsubusu = subusu.icodsubusu",,138,REMESAS, yearfact = [yearfact] and inumfactura = [inumfactura] and codsubusu = [codsubusu] and tipoprof = [tipoprof],,,,proforma,,proforma,,,Proformas General,0,
+24,Proformas Clientes,0,,,137,ProformasClientes,, proforma.tipoprof = 1 and origen = 'cli',23,,proforma,,proforma,,,Proformas,0,
+26,Albaranes Clientes,0,,,5,AlbaranClientes,, proforma.tipoprof = 3 and origen = 'cli',23,,albaran,,albaran,,,Albaranes Clientes,0,
+28,Cobros,0,"SELECT prevcobros.fechaingreso,prevcobros.fecha,prevcobros.nombrecli,
+case prevcobros.formapago when 'Cheque' then 'Contado' else isnull(prevcobros.formapago,'Otros') end as formapago1,
+prevcobros.formapago,
+prevcobros.total,prevcobros.concepto,prevcobros.cobrado as realizada,prevcobros.fechacobro as fecharealizada,prevcobros.serie,
+prevcobros.inumfactura as inumfact,prevcobros.yearfact,prevcobros.asientocobro,prevcobros.ctacliente as ctaacrcli,
+prevcobros.ctacajban,prevcobros.ctaingreso as ctagasing,1 as tipo,prevcobros.baseimp,prevcobros.iva,prevcobros.irpf,prevcobros.codsubusu,prevcobros.factura,
+prevcobros.notas,prevcobros.yearcontacobro,prevcobros.subusufact,prevcobros.id,prevcobros.impagado,prevcobros.fechaimpagado,prevcobros.lineacobro,
+prevcobros.ctacobrado,prevcobros.lineaimpagado,prevcobros.ctaimpagado,prevcobros.asientoimpagado,prevcobros.yearcontaimpagado,prevcobros.tipoprof,
+prevcobros.origen,prevcobros.iyear,prevcobros.inumexp,prevcobros.bproformarel,prevcobros.inumproformarel,prevcobros.yearproformarel,
+prevcobros.codsubusuproformarel,prevcobros.tipoproformarel,prevcobros.facturar,prevcobros.ctaiva,prevcobros.ctairpf,
+(case prevcobros.diariocobro when 'S' then 1 else 0 end) as diariocobro,
+(case prevcobros.diarioimpagado when 'S' then 1 else 0 end) as diarioimpagado,
+case prevcobros.factura 
+when 1 then 'Oficial' 
+when 2 then (case prevcobros.tipoprof when 2 then 'Presupuesto' when 3 then 'Albarán' else 'Proforma' end) 
+else 'Sin Facturar' end as tipofactura
+FROM prevcobros",,36,COBROS, id = [id],,,,prevcobros,,prevcobros,,,Cobros,0,
+29,Usuarios,0,"
+select * from subusu",,171,,,,,,subusu,,subusu,,,Usuarios,0,
+30,Previas 1 Cliente,0,"select * 
+from previcli1 ",,125,,,,,,previcli1,,previcli1,,,Previas 1 Cliente,0,
+31,Previas2 Cliente,0,"select *
+from previcli2 ",,127,,,,,,previcli2,,previcli2,,,Previas2 Cliente,0,
+32,Previas3 Cliente ,0,"select *
+from previcli3 ",,128,,,,,,previcli3,,previcli3,,,Previas3 Cliente ,0,
+33,Conceptos Oportunidades,0,"SELECT icodcli, dfecha, linea, icodopor, unidades, precio,prevision, oportunidad,icodusu,notas, referencia, 
+                facturar, importecierre, tipocuenta FROM oporcuentas",ver_opor|1,42,,,,,,oporcuentas,,oporcuentas,,,Conceptos Oportunidades,0,
+34,Clientes Potenciales,0,,clipot|1,20,,, clientes.tipobd = 2,3,,,,clipoten,,,Clientes Potenciales,0,
+35,Bancos Expedientes,0,"
+select bancos.* 
+from expbanco 
+left join bancos on expbanco.id=bancos.id ",,14,,,,,,bancos,,bancos,,,Bancos Expedientes,0,
+36,Trabajadores,0,,,168,,, clientes.tipobd = 1,3,,,,trabajador,,,Trabajadores,0,
+37,Terceros,0,,,165,,, clientes.tipobd = 3,3,,,,cliotro,,,Terceros,0,
+38,Alumnos,0,,bveralumno,6,Alumnos,, clientes.tipobd = 5,3,,,,alumno,,,Alumnos,0,
+39,Compañias,0,,bvercompania,40,,, clientes.tipobd = 6,3,,,,compania,,,Compañias,0,
+40,Mascotas,0,,bvermascota,102,,, clientes.tipobd = 7,,,,,mascota,,,Mascotas,0,
+41,Mutuas,0,,bvermutua,103,,, clientes.tipobd = 8,,,,,mutua,,,Mutuas,0,
+42,Proveedores,0,,bverproveedor,139,,, clientes.tipobd = 9,3,,,,proveedor,,,Proveedores,0,
+43,Voluntarios,0,,bvervoluntarios,172,,, clientes.tipobd = 10,,,,,voluntario,,,Voluntarios,0,
+44,Financieras,0,,bverfinancieras,74,,, clientes.tipobd = 11,,,,,financiera,,,Financieras,0,
+45,Tercera Edad,0,,bverterceraedad,164,,, clientes.tipobd = 12,,,,,terceraedad,,,Tercera Edad,0,
+47,Recetas Médicas,0,select * from recetasmedicas,,140,RECETAS, id = [id],,,,recetasmedicas,,recetasmedicas,,,Recetas Médicas,0,
+48,Área 1,0,"
+select * from clientes",historialarea1,7,,,,,,altacobrosa1,,clientes,,,Área 1,0,
+49,igucalen,0,select * from igucalen,,79,,,,,,igucalen,,igucalen,,,igucalen,0,
+50,Control Historial,0,,,52,CONTROLHISTORIAL,,,,,,88,,,1,Control Historial,0,
+51,Lineas Factura,0,"select (descripcion  + ' ' + isnull(cast(notas as varchar(2000)),' ')) as descripnotas,
+(isnull(entradaeuro,0) + isnull(salidaeuro,0)) as importe, linefact.*,
+(isnull(salidaeuro,0)-isnull(totaldctoeuro,0)) as salidamenosdcto
+ from linefact ",,85,,,,,,linefact,,linefact,,,Lineas Factura,0,
+52,Lineas Factura Gastos,0,,,88,,,  (lower(tipo)='honorario' and cuencli.honogasto = 1) ,51,,linefact,,linefactgas,,,Lineas Factura Gastos,0,
+53,Lineas Factura Honorarios,0,,,90,,, lower(tipo)='honorario',51,,linefact,,linefacthono,,,Lineas Factura Honorarios,0,
+54,Lineas Factura Provisiones,0,,,92,,, lower(tipo)='provision',51,,,,linefactprov,,,Lineas Factura Provisiones,0,
+55,Lineas Factura Gastos 2,0,"select (descripcion  + ' ' + isnull(cast(linefactgastos.notas as varchar(2000)),' ')) as descripnotas,
+(isnull(entradaeuro,0)+isnull(salidaeuro,0)) as importe,linefactgastos.*
+from linefact as linefactgastos 
+left join cuencli c on 
+linefactgastos.inumexpexho=c.icodcli and linefactgastos.fechaconcep=c.dfecha and linefactgastos.lineacuentas=c.linea",bverprovsup,89,,, lower(tipo)='gasto',,,linefact,,linefactgastos,,,Lineas Factura Gastos 2,0,
+56,Linea Factura Descuento,0,"select (descripcion  + ' ' + isnull(cast(linefactdescuento.notas as varchar(2000)),' ')) as descripnotas,
+(isnull(entradaeuro,0)+isnull(salidaeuro,0)) as importe,'DESCUENTO'as tipo,
+linefactdescuento.*
+
+ from linefact as linefactdescuento 
+ 
+ left join cuencli c on linefactdescuento.inumexpexho=c.icodcli and linefactdescuento.fechaconcep=c.dfecha and linefactdescuento.lineacuentas=c.linea ",,83,,, lower(tipo)='honorario' and bhonodcto<>0,,,linefactdescuento,,linefactdescuento,,,Linea Factura Descuento,0,
+57,Lineas Factura Articulos,0,"select (linefactarticulos.descripcion  + ' ' + isnull(cast(linefactarticulos.notas as varchar(2000)),' ')) as descripnotas,  
+(isnull(entradaeuro,0)+isnull(salidaeuro,0)) as importe,  linefactarticulos.*,c.lote as lote,alm.nombre as ubicacion,art.codigo as codarticulo,art.referencia as refarticulo 
+from linefact as linefactarticulos
+left join cuencli c on linefactarticulos.inumexpexho=c.icodcli and linefactarticulos.fechaconcep=c.dfecha and linefactarticulos.lineacuentas=c.linea 
+left join almacen alm on c.idalmacen=alm.id 
+left join articulos art on c.idartstock=art.id",bverArticulos,86,,, lower(linefactarticulos.tipo)='honorario' and (c.bhonoarticulo=1) and (c.bhonokit = 0 or c.bhonokit is null),,,linefact,,linefactarticulos,,,Lineas Factura Articulos,0,
+58,Lineas Factura Cuanta IVA,0,"select (SUM((round(isnull(linefactctaiva.salidaeuro,0),2))-(round(isnull(linefactctaiva.totaldctoeuro,0),2)))) as baseimp,
+round(SUM(isnull(linefactctaiva.totalivaeuro,0)),2) as totiva,linefactctaiva.ctaiva,linefactctaiva.iva 
+from linefact as linefactctaiva 
+
+",,87,,, linefactctaiva.tipo='honorario',," group by linefactctaiva.ctaiva,linefactctaiva.iva",,,linefactctaiva,,,Lineas Factura Cuanta IVA,0,
+59,Lineas Factura Kits,0,"
+select (linefactkit.descripcion  + ' ' + isnull(cast(linefactkit.notas as varchar(2000)),' ')) as descripnotas,
+(isnull(entradaeuro,0)+isnull(salidaeuro,0)) as importe,linefact.*
+,case when lineakit IS NULL  then 0 else lineakit end as linekit,case when dfechaKit IS null then linefactkit.fechaconcep else dfechakit end as dfechkit 
+from linefact as linefactkit 
+left join cuencli c on linefactkit.inumexpexho=c.icodcli and linefactkit.fechaconcep=c.dfecha and linefactkit.lineacuentas=c.linea 
+",bverkits,91,,, ((lower(linefactkit.tipo)='kit') or ((lower(linefactkit.tipo)='honorario') and (c.bhonoarticulo=1) and (c.bhonoKit=1))) ,51," order by c.idkit, dfechkit,linekit,linefactkit.fechaconcep,linefactkit.linea ",linefact,,linefact,,,Lineas Factura Kits,0,
+60,Factura Cobros,0,"select fracobro.* 
+from fracobro 
+",,69,,,,,,fracobro,,fracobro,,,Factura Cobros,0,
+61,Factura Devoluciones,0,"
+select fradevol.* 
+from fradevol ",,70,,,,,,fradevol,,fradevol,,,Factura Devoluciones,0,
+62,Factura Agrupaciones,0,"select factagru.* 
+from factagru ",,68,,,,,,factagru,,factagru,,,Factura Agrupaciones,0,
+63,Lineas Proforma,0,"select (lineprof.descripcion  + ' ' + isnull(cast(lineprof.notas as varchar(2000)),' ')) as descripnotas,(isnull(entradaeuro,0)+isnull(salidaeuro,0)) as importe, Cast(Round(lineprof.unidades,2,1) as int) as unidades
+,(isnull(salidaeuro,0)-isnull(totaldctoeuro,0)) as salidamenosdcto, isnull(fpreciounitario, 0) * (100 - isnull(dctolinea, 0))/100 as preciounimenosdcto
+,segod.referencia as refTratamiento,CONVERT(CHAR(10), segod.fechaalta, 101) as fechaTratamiento,CONVERT(VARCHAR, segod.horainicio, 108)  as horainiTratamiento 
+,CONVERT(VARCHAR, segod.horafinal, 108)  as horafinTratamiento,convert(char(8),dateadd(second, segod.tiempo, ''), 114) as tiempoTratamiento,segod.codgrafico 
+,(case segod.cara when 0 then 'Mesial'
+  when 1 then 'Distal'
+  when 2 then 'Palatina'
+  when 3 then 'Lingual'
+  when 4 then 'Oclusal'
+  when 5 then 'Ocluso -Mesial'
+  when 6 then 'Ocluso -Distal'
+  when 7 then 'Ocluso - Vestibular'
+  when 8 then 'Ocluso - Palatina'
+  when 9 then 'Ocluso - Lingual'
+  when 10 then 'Ocluso - Mesio - Distal'
+  when 11 then 'Vestibular'
+  when 12 then 'Vestibular-Mesial'
+  when 13 then 'Vestibular-Distal'
+  when 14 then 'Palatina-Mesial'
+  when 15 then 'Palatina-Distal'
+  when 16 then 'Distal-Mesial'
+  when 17 then 'Disto-Palatino-Mesial'
+  when 18 then 'Disto-Vestibu-Mesial'
+  when 19 then 'Disto-Ocluso-Mesial'
+  when 20 then 'Lingual-Mesial'
+  when 21 then 'Lingual-Distal'
+  when 22 then 'Lingual-Ocluso-Mesial'
+  when 23 then 'Lingual-Ocluso-Distal'
+  when 24 then 'Lingual-Vestibular'
+  when 25 then 'Lingual-Ocluso-Vestibular'
+  when 26 then 'Palatina-Mesial'
+  when 27 then 'Palatina-Distal'
+  when 28 then 'Palatina-Ocluso-Mesial'
+  when 29 then 'Palatina-Ocluso-Distal'
+  when 30 then 'Palatina-Vestibular'
+  when 31 then 'Palatina-Ocluso-Vestibular'
+  else ''
+  end) as caraTexto 
+, case when segod.info is null or segod.info like '' then convert(varchar, segod.diente) else 
+case when segod.diente is not null and segod.diente > 0 then convert(varchar, segod.diente) + ','  + replace(segod.info, '|', ',')
+	when segod.info like '%1C%' then '1C'
+	when segod.info like '%2C%' then '2C'
+	when segod.info like '%3C%' then '3C'
+	when segod.info like '%4C%' then '4C'
+	when segod.info like '%IN%' then 'IN'
+	when segod.info like '%SU%' then 'SU'
+	when segod.info like '%BC%' then 'Boca completa'
+	else replace(segod.info, '|', ',') end
+end as piezas ,
+CASE WHEN subusu.nombre is null THEN 'DESPACHO - 0' ELSE subusu.nombre + ' - ' + Convert(varchar, segod.codusu) END as usuario,
+segod.orden as orden,
+case when prdt.pagador = 0 then 0 else lineprof.TotalEuro end as TotalEuro,
+lineprof.yearfact,lineprof.inumfactura,lineprof.codsubusu,lineprof.fechaconcep,lineprof.linea,lineprof.tipo,lineprof.descripcion,lineprof.entrada,lineprof.salida,
+lineprof.inumexpexho,lineprof.iyear,lineprof.lineacuentas,lineprof.entradaeuro,lineprof.salidaeuro,lineprof.iva,lineprof.irpf,lineprof.dcto,
+lineprof.totaliva,lineprof.totalivaeuro,lineprof.totalirpf,lineprof.totalirpfeuro,lineprof.totaldcto,lineprof.totaldctoeuro,lineprof.total,
+lineprof.ctaprovsupl,lineprof.agrupacion,lineprof.origen,lineprof.fechaseg,lineprof.ctaiva,lineprof.ctairpf,lineprof.fcambio,lineprof.unidades,lineprof.fpreciounitario,
+lineprof.notas,lineprof.tipoprof,lineprof.ctaservart,lineprof.porrecargo,lineprof.poriva,lineprof.dctolinea,lineprof.inumproformarel,lineprof.lineaproformarel,
+lineprof.fechaconcepproformarel,lineprof.tipounidad,lineprof.facturada,lineprof.tipofactfacturada,lineprof.inumfacturada,lineprof.yearfacturada,lineprof.codsubusufacturada,
+lineprof.seriefacturada,lineprof.pedidor,lineprof.numero,lineprof.entradaext,lineprof.salidaext,lineprof.totalivaext,lineprof.totalirpfext,lineprof.dctolinea2,
+lineprof.idbonos,lineprof.idrecall
+,segod.id,case when segod.descuento is null then '0' else convert(varchar, segod.descuento) end as dctotratamiento,
+case when segod.importe is null then '0' else convert(varchar, segod.importe) end as importetratamiento,
+case when segod.importebase is null then '0' else convert(varchar, segod.importebase) end as preciotratamiento
+from lineprof 
+LEFT JOIN segodont segod 
+on lineprof.inumfactura=segod.presunum and lineprof.yearfact=segod.presuyear and lineprof.codsubusu=segod.presucodusu and lineprof.tipoprof=2 and lineprof.linea=segod.presulinea
+and lineprof.fechaconcep = segod.presufecha
+LEFT OUTER JOIN subusu ON segod.codusu = subusu.icodsubusu
+LEFT OUTER JOIN predodonttarifa prdt on prdt.idpredodont = segod.idpredodont and prdt.idtarifa = segod.idtarifa ",,94,,,,,,lineprof,,lineprof,,,Lineas Proforma,0,
+64,Lineas Proforma Gasto,0,,bverprovsup,97,,, lower(tipo)='gasto',63,,lineprof,,lineprofgas,,,Lineas Proforma Gasto,0,
+65,Lineas Proforma Honorario,0,,,99,,, lower(tipo)='honorario',63,,lineprof,,lineprofhono,,,Lineas Proforma Honorario,0,
+66,Lineas Proforma Gastos 2,0,"
+select (descripcion  + ' ' + isnull(cast(lineprofgastos.notas as varchar(2000)),' ')) as descripnotas,
+(isnull(entradaeuro,0)+isnull(salidaeuro,0)) as importe, lineprofgastos.* 
+from lineprof as lineprofgastos 
+left join cuencli c on lineprofgastos.inumexpexho=c.icodcli and lineprofgastos.fechaconcep=c.dfecha and lineprofgastos.lineacuentas=c.linea 
+",,98,,, lower(tipo)='honorario' and (bhonodcto=0 or bhonodcto is null) and (c.honogasto <> 0 and c.honogasto is not null),63,,lineprof,,lineprofgastos,,,Lineas Proforma Gastos 2,0,
+67,Lineas Proforma Provision,0,,,101,,,  lower(tipo)='provision',63,,,,lineprofprov,,,Lineas Proforma Provision,0,
+68,Linea Proforma Descuentos,0,"
+select (descripcion  + ' ' + isnull(cast(lineprofdescuento.notas as varchar(2000)),' ')) as descripnotas, 
+'DESCUENTO' as tipo, lineprofdescuento.*
+from lineprof as lineprofdescuento 
+left join cuencli c on lineprofdescuento.inumexpexho=c.icodcli and lineprofdescuento.fechaconcep=c.dfecha and lineprofdescuento.lineacuentas=c.linea ",,84,,, lower(tipo)='honorario' and bhonodcto<>0,,,lineprofdescuento,,lineprofdescuento,,,Linea Proforma Descuentos,0,
+69,Lineas Proforma Articulos,0,"select (lineprofarticulos.descripcion  + ' ' + isnull(cast(lineprofarticulos.notas as varchar(2000)),' ')) as descripnotas,
+(isnull(entradaeuro,0)+isnull(salidaeuro,0)) as importe, lineprofarticulos.*,
+c.lote as lote,alm.nombre as ubicacion,art.codigo as codarticulo,art.referencia as refarticulo 
+from lineprof as lineprofarticulos 
+left join cuencli c on lineprofarticulos.inumexpexho=c.icodcli and lineprofarticulos.fechaconcep=c.dfecha and lineprofarticulos.lineacuentas=c.linea
+left join almacen alm on c.idalmacen=alm.id 
+left join articulos art on c.idartstock=art.id 
+",bverArticulos,95,,, lower(lineprofarticulos.tipo)='honorario' and (c.bhonoarticulo=1) and (c.bhonokit = 0 or c.bhonokit is null),,,lineprof,,lineprofarticulos,,,Lineas Proforma Articulos,0,
+70,Lineas Proforma Cuenta IVA,0,"
+select (SUM((round(isnull(lineprofctaiva.salidaeuro,0),2))-(round(isnull(lineprofctaiva.totaldctoeuro,0),2)))) as baseimp,
+round(SUM(isnull(lineprofctaiva.totalivaeuro,0)),2) as totiva,lineprofctaiva.ctaiva,lineprofctaiva.iva 
+from lineprof as lineprofctaiva ",,96,,, lineprofctaiva.tipo='honorario',,"group by lineprofctaiva.ctaiva,lineprofctaiva.iva",,,lineprofctaiva,,,Lineas Proforma Cuenta IVA,0,
+71,Lineas Proforma Kits,0,"
+select (lineprofkit.descripcion  + ' ' + isnull(cast(lineprofkit.notas as varchar(2000)), ' ')) as descripnotas,
+(isnull(entradaeuro,0)+isnull(salidaeuro,0)) as importe, lineprofkit.*
+,case when lineakit IS NULL  then 0 else lineakit end as linekit,case when dfechaKit IS null then lineprofkit.fechaconcep else dfechakit end as dfechkit 
+from lineprof as lineprofkit 
+left join cuencli c on lineprofkit.inumexpexho=c.icodcli and lineprofkit.fechaconcep=c.dfecha and lineprofkit.lineacuentas=c.linea ",bverkits,100,,, ((lower(lineprofkit.tipo)='kit') or ((lower(lineprofkit.tipo)='honorario') and (c.bhonoarticulo=1) and (c.bhonoKit=1))),," order by c.idkit, dfechkit,linekit,lineprofkit.fechaconcep,lineprofkit.linea ",lineprof,,proforma,,,Lineas Proforma Kits,0,
+72,Colaboradores,0,"
+select * from colabora",bverficcolab,38,Colaboradores, colabora.codcolab = [codcolab],,,,colabora,,clicolab,,,TituloFormColPral,1,
+73,Obligaciones Detalles Cliente,0,"select* from clientesobligdetalles 
+",,105,,, codobligacion in (select codigo from clientesoblig where historico=0 or historico is null),,,clientesobligdetalles,,clientesobligdetalles,,,Obligaciones Detalles Cliente,0,
+74,Obligaciones Histórico Clientes,0,"select* from clientesobligdetalles 
+",,106,,, codobligacion in (select codigo from clientesoblig where historico=1),,,clientesobligdetalles,,clientesobligdetalleshisto,,,Obligaciones Histórico Clientes,0,
+75,Obligaciones Cliente,0,"
+select * from clientesoblig",,104,,,,,,clientesoblig,,clientesoblig,,,Obligaciones Cliente,0,
+76,socielib,0,"
+select * from socielib",,155,,,,,,socielib,,socielib,,,socielib,0,
+77,sociecue,0,"
+select * from sociecue",,153,,,,,,sociecue,,sociecue,,,sociecue,0,
+78,sociesoc,0,"
+select * from sociesoc",,161,,,,,,sociesoc,,sociesoc,,,sociesoc,0,
+79,socieadm,0,"
+select * from socieadm",,147,,,,,,socieadm,,socieadm,,,socieadm,0,
+80,sociemie,0,"
+select * from sociemie",,157,,,,,,sociemie,,sociemie,,,sociemie,0,
+81,sociecon,0,"
+select * from sociecon",,151,,,,,,sociecon,,sociecon,,,sociecon,0,
+82,socieapo,0,"
+select * from socieapo",,149,,,,,,socieapo,,socieapo,,,socieapo,0,
+83,sociereten,0,"
+select * from sociereten",,159,,,,,,sociereten,,sociereten,,,sociereten,0,
+84,cliiae,0,"
+select * from cliiae",,21,,,,,,cliiae,,cliiae,,,cliiae,0,
+85,cliresult,0,"
+select * from cliresult",,34,,,,,,cliresult,,cliresult,,,cliresult,0,
+86,clisocie,0,"
+select * from clisocie",,35,,,,,,clisocie,,clisocie,,,clisocie,0,
+87,cliirpf,0,"
+select * from cliirpf",,23,,,,,,cliirpf,,cliirpf,,,cliirpf,0,
+88,clibase,0,"
+select * from clibase",,17,,,,,,clibase,,clibase,,,clibase,0,
+89,cliiva,0,"
+select * from cliiva",,24,,,,,,cliiva,,cliiva,,,cliiva,0,
+90,cliivaco,0,"
+select * from cliivaco",,25,,,,,,cliivaco,,cliivaco,,,cliivaco,0,
+91,clialquiler,0,"
+select * from clialquiler",,16,,,,,,clialquiler,,clialquiler,,,clialquiler,0,
+92,clipers1,0,"
+select * from clipers1",cli_perso1|1,26,,,,,,clipers1,,clipers1,,,TituloFormCliPersoX|0,1,
+93,clipers2,0,"
+select * from clipers2",cli_perso2|1,27,,,,,,clipers2,,clipers2,,,TituloFormCliPersoX|1,1,
+94,clipers3,0,select * from clipers3,cli_perso3|1,28,,,,,,clipers3,,clipers3,,,TituloFormCliPersoX|2,1,
+95,clipers4,0,select * from clipers4,cli_perso4|1,29,,,,,,clipers4,,clipers4,,,TituloFormCliPersoX|3,1,
+96,clipers5,0,select * from clipers5,cli_perso5|1,30,,,,,,clipers5,,clipers5,,,TituloFormCliPersoX|4,1,
+97,clipers6,0,select * from clipers6,cli_perso6|1,31,,,,,,clipers6,,clipers6,,,TituloFormCliPersoX|5,1,
+98,clipers7,0,select * from clipers7,cli_perso7|1,32,,,,,,clipers7,,clipers7,,,TituloFormCliPersoX|6,1,
+100,oporcuentas,0,"select oporcuentas.*,subusu.nombre as subusuario 
+from oporcuentas left join subusu on oporcuentas.icodusu=subusu.icodsubusu",,107,,,,,,oporcuentas,,oporcuentas,,,oporcuentas,0,
+101,cobrosanual,0,"
+select sum(importe) as total,datepart(""yyyy"",fecha),concepto,formapago 
+from igucalen ",,37,,,,," group by datepart(""yyyy"",fecha),concepto,formapago",cobrosanual,,cobrosanual,,,cobrosanual,0,
+102,Adjuntos Cliente,0,"
+select * from cliadjun",,3,,,,,,cliadjun,,cliadjun,,,Adjuntos Cliente,0,
+103,Documentos Cliente,0,"
+select * from clidcto",,56,,,,,,clidcto,,clidcto,,,Documentos Cliente,0,
+104,cliimage,0,"
+select * from cliimage",,22,,,,,,cliimage,,cliimage,,,cliimage,0,
+105,Rentabilidades,0,"select *,((isnull(sumaigucalen,0) + isnull(sumacuencli,0)) - isnull(sumasegcli,0)) as saldofinal from rentabilidades",,142,,,,,,rentabilidades,,rentabilidades,,,Rentabilidades,0,
+106,Rentabilidades Acumuladas,0,"
+select *,((isnull(sumaigucalen,0) + isnull(sumacuencli,0)) - isnull(sumasegcli,0)) as saldofinal from rentabilidadesacumuladas",,143,,,,,,rentabilidadesacumuladas,,rentabilidadesacumuladas,,,Rentabilidades Acumuladas,0,
+107,Lineas Previsión Cobros,0,"
+select * from lineprevcobros",,93,,,,,,lineprevcobros,,lineprevcobros,,,Lineas Previsión Cobros,0,
+108,expedienexhortado,0,"
+select juzgado.juzgado as sjuzgadoexhortado from expedien 
+left join juzgado on expedien.codjuzgaexhortado=juzgado.codjuzga",,59,,,,,,expedienexhortado,,expedienexhortado,,,expedienexhortado,0,
+109,expedienexhortante,0,"
+select juzgado.juzgado as sjuzgaexho from expedien left join juzgado on expedien.codjuzgaexhor=juzgado.codjuzga",,60,,,,,,expedienexhortante,,expedienexhortante,,,expedienexhortante,0,
+110,tipoexp,0,"
+select * from tipoexp",,167,,,,,,tipoexp,,tipoexp,,,tipoexp,0,
+111,tipoasun,0,"
+select * from tipoasun",,166,,,,,,tipoasun,,tipoasun,,,TituloFormTipAsu,1,
+112,procedi,0,"
+select * from procedi",,134,,,,,,procedi,,procedi,,,TituloFormProced,1,
+113,Contrarios,0,select * from cliecont,bverficcont,50,Contrarios, icodclicon = [icodclicon],,,,cliecont,,cliecont,,,Contrarios,0,
+114,abogprop,0,"
+select expropro.numreferencia, * from expropro left join abogados on expropro.icodpro = abogados.icodabo",bverficabog,2,,,,,,abogados,,abogprop,,,abogprop,0,
+115,abogcont,0,"select exabocon.numreferencia,abogados.* 
+from exabocon 
+left join abogados on exabocon.icodabo=abogados.icodabo ",bverficabog,1,,,,,,abogados,,abogcont,,,abogcont,0,
+116,procpro,0,"
+select exabopro.numreferencia, procurad.*
+from exabopro 
+left join procurad on exabopro.icodabo=procurad.icodpro ",bverficproc,135,,,,,,procurad,,procpro,,,procpro,0,
+117,proccont,0,"
+select exprocon.numreferencia, exprocon.*
+from exprocon 
+left join procurad as proccont on exprocon.icodpro=proccont.icodpro ",bverficproc,133,,,,,,procurad,,proccont,,,proccont,0,
+119,Organismos,0,"
+select exporgan.*
+from exporgan 
+left join organism on exporgan.codorgan=organism.codorgan ",bverficorg,109,Organismos,,,,,organism,,organism,,,Organismos,0,
+120,Juzgados,0,"select numasunto,faseproc, juzgado.*
+from expjuzga 
+left join juzgado on expjuzga.codjuzga=juzgado.codjuzga ",bverficjuzga,81,,,,,,juzgado,,expjuzga,,,Juzgados,0,
+122,perso1,0,"
+select perso1.* , inumexp, iyear 
+from expperd1 
+left join perso1 on expperd1.codigo=perso1.codigo ",bverficper1,114,,,,,,perso1,,perso1,,,TituloFormPerX|0,1,
+123,perso2,0,"
+
+select perso2.*   , inumexp, iyear 
+from expperd2 
+left join perso2 on expperd2.codigo=perso2.codigo 
+",bverficper2,116,,,,,,perso2,,perso2,,,TituloFormPerX|1,1,
+124,perso3,0,"select perso3.*   , inumexp, iyear 
+from expperd3 
+left join perso3 on expperd3.codigo=perso3.codigo 
+",bverficper3,117,,,,,,perso3,,perso3,,,TituloFormPerX|2,1,
+125,perso4,0,"
+select perso4.*   , inumexp, iyear 
+from expperd4 
+left join perso4 on expperd4.codigo=perso4.codigo ",bverficper4,118,,,,,,perso4,,perso4,,,TituloFormPerX|3,1,
+126,perso5,0,"
+select perso5.*   , inumexp, iyear 
+from expperd5 
+left join perso5 on expperd5.codigo=perso5.codigo ",bverficper5,119,,,,,,perso5,,perso5,,,TituloFormPerX|4,1,
+127,perso6,0,"select perso6.*   , inumexp, iyear 
+from expperd6 
+left join perso6 on expperd6.codigo=perso6.codigo ",bverficper6,120,,,,,,perso6,,perso6,,,TituloFormPerX|5,1,
+128,perso7,0,"select perso7.*   , inumexp, iyear 
+from expperd7 
+left join perso7 on expperd7.codigo=perso7.codigo ",bverficper7,121,,,,,,perso7,,perso7,,,TituloFormPerX|6,1,
+129,perso8,0,"select perso8.*   , inumexp, iyear 
+from expperd8 
+left join perso8 on expperd8.codigo=perso8.codigo ",bverficper8,122,,,,,,perso8,,perso8,,,TituloFormPerX|7,1,
+130,perso9,0,"
+select perso9.*   , inumexp, iyear 
+from expperd9 
+left join perso9 on expperd9.codigo=perso9.codigo ",bverficper9,123,,,,,,perso9,,perso9,,,TituloFormPerX|8,1,
+131,perso10,0,"
+select perso10.*  , inumexp, iyear 
+from expperd10 
+left join perso10 on expperd10.codigo=perso10.codigo ",bverficper10,115,,,,,,perso10,,perso10,,,TituloFormPerX|9,1,
+132,previexp,0,"
+select * from previexp",,129,,,,,,previexp,,previexp,,,previexp,0,
+133,previexp1,0,"
+select * from previexp1",,130,,,,,,previexp1,,previexp1,,,previexp1,0,
+134,previexp2,0,"
+select * from previexp2",,131,,,,,,previexp2,,previexp2,,,previexp2,0,
+135,previexp3,0,"
+select * from previexp3",,132,,,,,,previexp3,,previexp3,,,previexp3,0,
+136,experso1,0,"
+select * from experso1",expe_perso1|1,62,,,,,,experso1,,experso1,,,TituloFormExpPersoX|0,1,
+137,experso2,0,"
+select * from experso2",expe_perso2|1,63,,,,,,experso2,,experso2,,,TituloFormExpPersoX|1,1,
+138,experso3,0,"
+select * from experso3",expe_perso3|1,64,,,,,,experso3,,experso3,,,TituloFormExpPersoX|2,1,
+139,experso4,0,"
+select * from experso4",expe_perso4|1,65,,,,,,experso4,,experso4,,,TituloFormExpPersoX|3,1,
+140,experso5,0,"
+select * from experso5",expe_perso5|1,66,,,,,,experso5,,experso5,,,TituloFormExpPersoX|4,1,
+141,seguros,0,"
+select * from seguros",,144,,,,,,seguros,,seguros,,,seguros,0,
+142,lesionad,0,"
+select * from lesionad",,82,,,,,,lesionad,,lesionad,,,lesionad,0,
+143,recobros,0,"
+select * from recobros",,141,,,,,,recobros,,recobros,,,recobros,0,
+144,peritos,0,,,113,,,,,,peritos,,peritos,,,peritos,0,
+145,Talleres Expediente,0,"
+select * from exptalleres
+left join talleres on exptalleres.codtar=talleres.codigo
+",,163,,,,,,talleres,,exptalleres,,,Talleres Expediente,0,
+146,Adjuntos Expediente,0,"
+select  * from expadjun",,4,,,,,,expadjun,,expadjun,,,Adjuntos Expediente,0,
+147,Documentos Expediente,0,"
+select * from expedcto",,57,,,,,,expedcto,,expedcto,,,Documentos Expediente,0,
+148,expimage,0,"
+select * from expimage",,67,,,,,,expimage,,expimage,,,expimage,0,
+150,Juzgado Principal,0,select * from juzgado,bverficjuzga,80,Juzgados, juzgado.codjuzga = [codjuzga],,,,juzgado,,juzgado,,,Juzgado Principal,0,
+151,Área 2,0,"
+select * from clientes",,8,,,,,,altacobrosa2,,clientes,,,Área 2,0,
+152,Área 3,0,"
+
+select * from clientes",,9,,,,,,altacobrosa3,,clientes,,,Área 3,0,
+153,Área 4,0,"
+select * from clientes",,10,,,,,,altacobrosa4,,clientes,,,Área 4,0,
+154,Área 5,0,"
+select * from clientes",,11,,,,,,altacobrosa5,,clientes,,,Área 5,0,
+155,Área 6,0,"
+select * from clientes",,12,,,,,,altacobrosa6,,clientes,,,Área 6,0,
+156,soccli,0,"
+select * from clientes",,145,,,,,,soccli,,clientes,,,soccli,0,
+157,fiscli,0,"
+select * from clientes",,75,,,,,,fiscli,,clientes,,,fiscli,0,
+158,clipersod1,0,"
+select clipersod1.icodcli, perso1.* from clipersod1 left join perso1 on clipersod1.codigo=perso1.codigo",cli_perso1|1,33,,,,,,perso1,,perso1,,,TituloFormPer1,1,
+159,Presupuestos Clientes,0,,,124,PresupuestosClientes,, proforma.tipoprof = 2 and origen = 'cli',23,,presupuesto,,presupuesto,,,Presupuestos,0,
+160,Pedidos Clientes,0,,,112,PedidosClientes,, proforma.tipoprof = 4 and origen = 'cli',23,,pedido,,pedido,,,Pedidos,0,
+161,Partes de Trabajo Clientes,0,,,111,OrdenTrabajoClientes,, proforma.tipoprof = 5 and origen = 'cli',23,,parte,,parte,,,Partes de Trabajo,0,
+162,Facturas Generales,0,"select ((totalderechoseuro - isnull(totaldctoeuro,0)) + totalivaeuro - totalirpfeuro) as totalbaseivairpf,
+((totalderechoseuro - isnull(totaldctoeuro,0)) + totalivaeuro) as totalbaseiva,
+(totalderechoseuro - isnull(totaldctoeuro,0) + totalivaeuro) as totalhonodctoiva,
+(totalderechoseuro - isnull(totaldctoeuro,0)) as totalbaseimp,
+(totalsuplidoseuro + (totalderechoseuro - isnull(totaldctoeuro,0)) + totalivaeuro - totalirpfeuro) as totalminuta,
+facturas.*,
+(substring(cuentabanco,1,4)+ '************' + substring(cuentabanco,17,4)) as cuentabancocifr,
+(datename(day,facturas.fecha)+ ' de ' + datename(month, facturas.fecha)+ ' de ' + datename(year,facturas.fecha)) as fechafacturalarga 
+from facturas ",,73,,yearfact = [yearfact] and inumfactura = [inumfactura] and codsubusu = [codsubusu] and serie = '[serie]',,,,facturas,,facturas,,,,0,
+163,Facturas Expedientes,0,,,72,OFICIALEXPEDIENTES,, origen = 'exp',162,,,,,,,,0,
+164,Última Actu Cliente,0,"select top 1 segcli.sactuacion, segcli.dfechaact, segcli.dfechanotificacion, 
+	DATENAME(hh, horainiact) + ':' + DATENAME(mi, horainiact) + ':' + DATENAME(ss, horainiact) as horainiact,
+	DATENAME(hh, horafinact) + ':' +DATENAME(mi, horafinact) + ':' + DATENAME(ss, horafinact) as horafinact, 
+	segcli.notas
+	from segcli ",,169,,,,," order by dfechaact desc,linea desc",expedienultactu,,expedienultactu,,,,0,
+166,Última Actu Exp,0,"select top 1 segexp.sactuacion, segexp.dfechaact, segexp.dfechanotificacion, 
+DATENAME(hh, horainiact) + ':' + DATENAME(mi, horainiact) + ':' + DATENAME(ss, horainiact) as horainiact,
+DATENAME(hh, horafinact) + ':' + DATENAME(mi, horafinact) + ':' + DATENAME(ss, horafinact) as horafinact,
+segexp.notas 
+from segexp ",,170,,,,," order by dfechaact desc,linea desc",expedienultactu,,expedienultactu,,,,0,
+167,soccont,0,select * from cliecont,,146,,,,,,soccont,,cliecont,,,,0,
+168,socielibcont,0,"
+select * from socielibcont",,156,,,,,,socielibcont,,socielibcont,,,,0,
+169,sociecuecont,0,"
+select * from sociecuecont",,154,,,,,,sociecuecont,,sociecuecont,,,sociecuecont,0,
+170,sociesoccont,0,"
+select * from sociesoccont",,162,,,,,,sociesoccont,,sociesoccont,,,sociesoccont,0,
+171,socieadmcont,0,"
+select * from socieadmcont",,148,,,,,,socieadmcont,,socieadmcont,,,socieadmcont,0,
+172,sociemiecont,0,"
+select * from sociemiecont",,158,,,,,,sociemiecont,,sociemiecont,,,sociemiecont,0,
+173,socieconcont,0,,,152,,,,,,socieconcont,,socieconcont,,,socieconcont,0,
+174,socieapocont,0,"
+select * from socieapocont",,150,,,,,,socieapocont,,socieapocont,,,socieapocont,0,
+175,socieretencont,0,"
+select * from socieretencont",,160,,,,,,socieretencont,,socieretencont,,,socieretencont,0,
+176,fiscont,0,"
+select * from cliecont",,76,,,,,,fiscont,,cliecont,,,fiscont,0,
+177,contiae,0,"
+select * from contiae",,46,,,,,,contiae,,contiae,,,contiae,0,
+178,contresult,0,"
+select * from contresult",,51,,,,,,contresult,,contresult,,,contresult,0,
+179,contsocie,0,"
+select * from contsocie",,53,,,,,,contsocie,,contsocie,,,contsocie,0,
+180,contirpf,0,"
+select * from contirpf",,47,,,,,,contirpf,,contirpf,,,contirpf,0,
+181,contbase,0,"
+select * from contbase",,45,,,,,,contbase,,contbase,,,contbase,0,
+182,contiva,0,"
+select * from contiva",,48,,,,,,contiva,,contiva,,,contiva,0,
+183,contivaco,0,"
+select * from contivaco",,49,,,,,,contivaco,,contivaco,,,contivaco,0,
+184,contalquiler,0,"
+select * from contalquiler",,44,,,,,,contalquiler,,contalquiler,,,contalquiler,0,
+185,Abogados,0,"
+select * from abogados",bverficabog,0,Abogados, icodabo = [icodabo],,,,abogados,,abogados,,,Abogados,0,
+186,Procuradores,0,select * from procurad,bverficproc,136,Procuradores,procurad.icodpro = [icodpro],,,,procurad,,procurad,,,Procuradores,0,
+187,Poderes,0,"
+
+select * from poderes",bverficpode,173,Poderes, poderes.inumpoder = [inumpoder],,,,poderes,,poderes,,,Poderes,0,
+188,Odontogramas,0,"
+select * from odontograma",,173,Odontogramas,id = [id],,,,odontograma,,odontograma,,,Odontograma,0,
+189,Tratamientos,0,"SELECT T.*, fechaAlta as fechaOrden, 
+                             CASE WHEN subusu.nombre is null THEN 'DESPACHO - 0' ELSE subusu.nombre + ' - ' + Convert(varchar, T.codusu) END as usuario,
+							 CASE WHEN cobrado = 0 THEN isnull((select sum(importe) from segodontentrada where idsegodont = T.id), 0)   
+                             ELSE T.importe END as pagado,  
+                             CASE WHEN cobrado = 0 THEN T.importe - isnull((select sum(importe) from segodontentrada where idsegodont = T.id), 0)   
+                             ELSE 0 END as pendiente,
+                             CASE WHEN realizado = 1 THEN fechaRealizado ELSE Convert(datetime, NULL) END as fechaRealizado
+							 FROM
+							 (SELECT  segodont.id, segodont.idOdontograma, segodont.referencia, 
+							 case when segcli.icodcli is null then segodont.fechaAlta else segcli.dfechaact end as fechaAlta, 
+							 case when segcli.icodcli is null then segodont.horaInicio else segcli.horainiact end as horaInicio,
+							 case when segcli.icodcli is null then segodont.horaFinal else segcli.horafinact end as horaFinal,
+							 case when segcli.icodcli is null then segodont.importe else segcli.precio end as importe,
+							 case when segcli.icodcli is null then segodont.descripcion else segcli.sactuacion end as descripcion,
+							 case when segcli.icodcli is null then segodont.realizado else Convert(bit, isnull(segcli.acturealizada, 0)) end as realizado, 
+							 case when segcli.icodcli is null then segodont.codusu else segcli.subusu end as codusu,
+							 case when segcli.icodcli is null then segodont.tiempo else segcli.tiempo end as tiempo,
+							 case when segcli.icodcli is null then segodont.tiempoPrevisto else segcli.tiempoPrevisto end as tiempoPrevisto,
+                             case when segcli.icodcli is null then segodont.fechaRealizado else segcli.fecharealizacion end as fechaRealizado,
+                             case when segcli.icodcli is null then segodont.recurso else segcli.aula end as recurso,
+							 segodont.concepto, segodont.diente, segodont.cara, segodont.raiz, segodont.notas, segodont.unidades, segodont.precioUnidad, segodont.tipoHistorial, 
+                             acturealizada, segodont.icodcli, segodont.dfechaact, 
+                             segodont.linea, segodont.color, segodont.codGrafico, segcli.agenda, segcli.facturado, segcli.facturable, 
+                             segcli.numfactura, segcli.serie, segcli.subusufact, segcli.yearfact, segcli.origenfact, segodont.info, 
+                             segodont.presufecha, segodont.presulinea, segodont.presuyear, segodont.presunum, segodont.presucodusu, 
+                             segodont.idArticulo, segodont.idlineprevcobro, 
+                             segodont.factserie, segodont.factyear, segodont.factusu, segodont.factnum, segodont.factlinea, segodont.factfecha, 
+                             CASE When (linefact.linea is null and lineprevcobros.id is null and cobro2.id is null and cuencli.inumfactura is null 
+                             and cuencli.presupuestado is null and controlmutua.id is null or (prevcobros.id is not null and (prevcobros.cobrado is null or prevcobros.cobrado = 0))) 
+                             or (cuencli.presupuestado is not null and cuencli.presupuestado not like 'S') THEN 0 ELSE 1 END as cobrado, 
+                             segodont.fcostemateriales, segodont.fcosteamortizacion, segodont.fcosteterceros, segodont.fcosteotros, 
+                             segodont.fcampolibre6, segodont.fcampolibre7, segodont.fcampolibre8, segodont.fcampolibre9, 
+                             segodont.fcampolibre10, segodont.fcostetotalcoste, segodont.fcostetotalbeneficio, segodont.fcosteporbeneficio, 
+                             segodont.aplicarcoste, segodont.preciocoste, segodont.idCobroMutua, segodont.tipounidad, segodont.idPeriodontograma, 
+                             case when segodont.info is null or segodont.info like '' then convert(varchar, segodont.diente) else 
+                             case when segodont.diente is not null and segodont.diente > 0 then convert(varchar, segodont.diente) + ',' else '' end  + replace(segodont.info, '|', ',') end as dientes,
+                             convert(bit, case when segodont.idActuPresupuesto is not null then 1 else 0 end) as traspasada, segodont.idActuPresupuesto,
+
+                             CASE When lineprof.linea is null and lineprof2.linea is null and cuencli.inumfactpresu is null THEN 0 ELSE 1 END as presupuestado,
+                             segodont.descuento, isnull(segodont.importeBase, segodont.importe) as importeBase,
+
+                             isnull(lineprof.unidades, lineprof2.unidades) as unidadeslinea,
+                             isnull(lineprof.fpreciounitario, lineprof2.fpreciounitario) as fpreciounitario,
+                             isnull(lineprof.dctolinea, lineprof2.dctolinea) as dctolinea,
+                             isnull(lineprof.iva, lineprof2.iva) as ivalinea
+
+                             FROM segodont 
+                             LEFT OUTER JOIN segcli ON segcli.icodcli = segodont.icodcli and segcli.dfechaact = segodont.dfechaact and segcli.linea = segodont.linea 
+                             
+                             LEFT OUTER JOIN segodont actupresu ON actupresu.id = segodont.idActuPresupuesto 
+
+                             LEFT OUTER JOIN lineprof ON lineprof.linea = actupresu.presulinea and lineprof.fechaconcep = actupresu.presufecha 
+                             and lineprof.yearfact = actupresu.presuyear and lineprof.inumfactura = actupresu.presunum and lineprof.tipoprof = 2 and lineprof.codsubusu = actupresu.presucodusu 
+
+                             LEFT OUTER JOIN lineprof lineprof2 ON lineprof2.linea = segodont.presulinea and lineprof2.fechaconcep = segodont.presufecha 
+                             and lineprof2.yearfact = segodont.presuyear and lineprof2.inumfactura = segodont.presunum and lineprof2.tipoprof = 2 and lineprof2.codsubusu = segodont.presucodusu 
+
+                             LEFT OUTER JOIN linefact ON linefact.yearfact = segodont.factyear and linefact.inumfactura = segodont.factnum and linefact.serie = segodont.factserie 
+                             and linefact.codsubusu = segodont.factusu and linefact.fechaconcep = segodont.factfecha and linefact.linea = segodont.factlinea 
+
+                             LEFT OUTER JOIN facturas ON facturas.inumfactura = segcli.numfactura and facturas.yearfact = segcli.yearfact 
+                             and facturas.codsubusu = segcli.subusufact and facturas.serie = segcli.serie and segcli.origenfact like 'O' 
+
+                             LEFT OUTER JOIN lineprevcobros ON lineprevcobros.id = segodont.idlineprevcobro 
+                             LEFT OUTER JOIN lineprevcobros cobro2 ON cobro2.id = segcli.idlineprevcobros 
+                             LEFT OUTER JOIN prevcobros ON prevcobros.id = lineprevcobros.idprevcobros or prevcobros.id = cobro2.idprevcobros 
+                             LEFT OUTER JOIN cuencli ON cuencli.dfecha = segcli.fechacuentas and  cuencli.linea = segcli.facturado and segcli.icodcli = cuencli.icodcli
+                             LEFT OUTER JOIN controlmutua ON controlmutua.id = segodont.idCobroMutua ) T
+                             LEFT OUTER JOIN subusu ON T.codusu = subusu.icodsubusu",,174,,id = [id],,,,segodont,,segodont,,,Tratamientos,0,
+190,OdontogramaPresupuestos,0,"
+select * from odontograma",,175,OdontogramaPresupuestos,id = [id],,,,odontograma,,odontograma,,,Presupuestos,0,
+191,Cobros Parciales Odontograma,0,"select * from segodontentrada
+ left join segodont on segodont.id = idsegodont ",0,176,,, identrada is null ,,,cobroparcial,,cobroparcial,,,Cobros Parciales Odontograma,0,
+192,Descuentos Odontograma,0,"select segodontentrada.fecha, segodontentrada.importe, segodont.descripcion as tratamiento, 
+odontentrada.descripcion as anticipo, odontentrada.fecha as fechaanticipo, isnull(segodontentrada.formacobro, odontentrada.formacobro) as formacobro
+from segodontentrada
+inner join odontentrada on odontentrada.identrada = segodontentrada.identrada
+left join segodont on segodont.id = idsegodont ",0,177,,,,,,descuento,,descuento,,,Descuentos Odontograma,0,
+193,Anticipos Odontograma,0,select * from odontentrada ,0,178,,,,,,anticipo,,anticipo,,,Anticipos Odontograma,0,
+194,Formularios,0,,,179,Formularios,,,,,,,formulario,,,Formularios,0,
+195,Oportunidades,0,"
+SELECT oporcli.*,  subusu.nombre as subusuario from oporcli left join subusu on oporcli.icodusu=subusu.icodsubusu
+",ver_opor|1,0,OportunidadesGeneral, icodcli = [icodcli] and  linea = [linea] and  dfecha = '[dfecha]',,,,oporcli,,oporcli,,,Oportunidades,0,
+198,Facturas Recibidas General,0,select contagastos.* from contagastos ,,180,FacturasRecibidas, id = [id],,,,contagastos,,contagastos,,,Facturas Recibidas General,0,
+199,Pedidos Recibidos,0,,,181,PedidosRecibidos,, contagastos.tipofact = 4 ,198,,pedidosR,,contagastos,,,Pedidos,0,
+200,ConceptosFacturacionRecibida,0,select linecontagastos.* from linecontagastos join contagastos on linecontagastos.id = contagastos.id,,182,,,,,,linecontagastos,,linecontagastos,,,Conceptos Factura Recibida,0,
+201,Cobros,0,"
+SELECT * FROM prevcobros",,0,CobrosGeneral,id = [id],,,,prevcobros,,prevcobros,,,Previsiones de Cobro,0,

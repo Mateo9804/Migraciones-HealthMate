@@ -1,0 +1,14 @@
+﻿idclaseiva,descripcion,Hayiva,Hayrecequ,ModoIva,descripcioncorta,modelosDef
+1,Deducible en operaciones interiores,1,0,0,Op. Int.,24
+2,Deducible en importaciones,1,0,0,Op. Imp.,24
+3,Deducible en adquisiciones intracomunitarias,1,0,0,Adq. Intr.,40
+4,"Compensación Reg. Esp. Agricultara, Ganadería y Pesca",1,0,0,Reg. Esp.,24
+5,Regularización de inversiones,1,0,0,Reg. Inv.,24
+6,Deducible por inversión del sujeto pasivo,1,0,0,Suj. Pasivo,24
+7,No Sujeto,0,0,0,No Sujeto,24
+8,Devengado en Régimen General,1,1,1,Reg.G,24
+9,Devengado en Adquisiciones Intracomunitarias,1,0,1,Op. Intrac.,40
+10,Entregas intracomunitarias,0,0,1,En. Intrac.,40
+11,Devengado en exportaciones,0,0,1,Export.,24
+12,Devengado por inversión del sujeto pasivo,1,0,1,Inv. Suj. Pas.,24
+13,No Sujeto,0,0,1,No Sujeto,24

@@ -1,0 +1,60 @@
+﻿id,idPais,nombre,idAutonomia
+1,1,Álava,16
+2,1,Albacete,8
+3,1,Alicante,10
+4,1,Almería,1
+5,1,Ávila,7
+6,1,Badajoz,11
+7,1,Baleares,4
+8,1,Barcelona,9
+9,1,Burgos,7
+10,1,Cáceres,11
+11,1,Cádiz,1
+12,1,Castellón,10
+13,1,Ciudad Real,8
+14,1,Córdoba,1
+15,1,A Coruña,12
+16,1,Cuenca,8
+17,1,Girona,9
+18,1,Granada,1
+19,1,Guadalajara,8
+20,1,Gipuzkoa,16
+21,1,Huelva,1
+22,1,Huesca,2
+23,1,Jaén,1
+24,1,León,7
+25,1,Lleida,9
+26,1,La Rioja,17
+27,1,Lugo,12
+28,1,Madrid,13
+29,1,Málaga,1
+30,1,Murcia,14
+31,1,Navarra,15
+32,1,Ourense,12
+33,1,Asturias,3
+34,1,Palencia,7
+35,1,Las Palmas,5
+36,1,Pontevedra,12
+37,1,Salamanca,7
+38,1,Santa Cruz de Tenerife,5
+39,1,Cantabria,6
+40,1,Segovia,7
+41,1,Sevilla,1
+42,1,Soria,7
+43,1,Tarragona,9
+44,1,Teruel,2
+45,1,Toledo,8
+46,1,Valencia,10
+47,1,Valladolid,7
+48,1,Bizkaia,16
+49,1,Zamora,7
+50,1,Zaragoza,2
+51,1,Ceuta,
+52,1,Melilla,
+53,23,Canillo,
+54,23,Encamp,
+55,23,Ordino,
+56,23,La Massana,
+57,23,Andorra la Vella,
+58,23,Sant Julià de Lòria,
+59,23,Escaldes-Engordany,

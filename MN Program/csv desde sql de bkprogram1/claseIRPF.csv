@@ -1,0 +1,7 @@
+﻿id,descripcion,profesionales,modelosRecibida
+1,Nóminas,False,1
+2,Alquileres,True,2
+3,Profesionales,True,65
+4,Nóminas - Rendimientos en Especie,False,1
+5,Rendimientos de Capital Inmobiliario,True,
+6,Dividendos,True,

@@ -1,0 +1,521 @@
+﻿seccion,identidad,valor,id
+DocCloud,Tipo,1,100
+MNActualizacion,com:FormsPruebasDefecto.sql,07/09/2022 16:11:26,101
+MNActualizacion,NuevasPlantillasWord,0,102
+MNActualizacion,Clientes\1.1 documento lopd (vs20.12).doc,1621325726,103
+MNActualizacion,Clientes\1.2 Autorización Grabación Imágenes (videoconsultas) (vs20.12).doc,1621325727,104
+MNActualizacion,Clientes\1.2 Autorización Grabación Imágenes (videoconsultas)(vs20.12).doc,1619777490,105
+MNActualizacion,Clientes\1.3 autorización de domiciliación (para particular) (vs20.12).doc,1621325728,106
+MNActualizacion,Clientes\1.3 autorización de domiciliación (para particular)(vs20.12).doc,1619777491,107
+MNActualizacion,Clientes\1.4 autorización de domiciliación (para empresa) (vs20.12).doc,1621325729,108
+MNActualizacion,Clientes\1.4 autorización de domiciliación (para empresa)(vs20.12).doc,1619777493,109
+MNActualizacion,Clientes\2.1 informe cliente (vs20.12).doc,1621325730,110
+MNActualizacion,Clientes\2.2 informe cliente detallado (vs20.12).doc,1621325731,111
+MNActualizacion,Clientes\Clientes\1.1 documento lopd(vs20.12).doc,1619777494,112
+MNActualizacion,Clientes\Clientes\1.2 Autorización Grabación Imágenes (videoconsultas)(vs20.12).doc,1619777495,113
+MNActualizacion,Clientes\Clientes\1.3 autorización de domiciliación (para particular)(vs20.12).doc,1619777496,114
+MNActualizacion,Clientes\Clientes\1.4 autorización de domiciliación (para empresa)(vs20.12).doc,1619777496,115
+MNActualizacion,Clientes\Clientes\2.1 informe cliente(vs20.12).doc,1619777497,116
+MNActualizacion,Clientes\Clientes\2.2 informe cliente detallado(vs20.12).doc,1619777497,117
+MNActualizacion,Clientes\Compras\1.1 pedido proveedor (vs20.12).doc,1621325731,118
+MNActualizacion,Clientes\Compras\1.1 pedido proveedor(vs20.12).doc,1619777499,119
+MNActualizacion,Clientes\Compras\1.2 pedido proveedor por unidades (vs20.12).doc,1621325732,120
+MNActualizacion,Clientes\Compras\1.2 pedido proveedor por unidades(vs20.12).doc,1619777500,121
+MNActualizacion,Clientes\Compras\Pedido Proveedor.doc,1619777500,122
+MNActualizacion,Clientes\Oportunidades\1.1 presupuesto (vs20.12).doc,1621325733,123
+MNActualizacion,Clientes\Oportunidades\1.1 presupuesto(vs20.12).doc,1619777501,124
+MNActualizacion,Clientes\Oportunidades\1.2 presupuesto por unidades (vs20.12).doc,1621325734,125
+MNActualizacion,Clientes\Oportunidades\1.2 presupuesto por unidades(vs20.12).doc,1619777502,126
+MNActualizacion,Clientes\Oportunidades\Boletín Alta.doc,1619777503,127
+MNActualizacion,Clientes\Oportunidades\Presupuesto.doc,1757490478,128
+MNActualizacion,Clientes\Recobros\Reclamación de Deuda(vs20.12).doc,1619777504,129
+MNActualizacion,Expedientes\1.1 carátula expediente (vs20.12).doc,1619777505,130
+MNActualizacion,Expedientes\1.1 carátula expediente(vs20.12).doc,1619777505,131
+MNActualizacion,Expedientes\1.2 informe expediente (vs20.12).doc,1619777506,132
+MNActualizacion,Expedientes\1.2 informe expediente(vs20.12).doc,1619777506,133
+MNActualizacion,Expedientes\1.3 informe expediente detallado (vs20.12).doc,1619777507,134
+MNActualizacion,Expedientes\1.3 informe expediente detallado(vs20.12).doc,1619777507,135
+MNActualizacion,Expedientes\2.1 solicitud provisión de fondos (vs20.12).doc,1619777508,136
+MNActualizacion,Expedientes\2.1 solicitud provisión de fondos(vs20.12).doc,1619777508,137
+MNActualizacion,Expedientes\2.2 recordatorio petición provisión (vs20.12).doc,1619777509,138
+MNActualizacion,Expedientes\2.2 recordatorio petición provisión(vs20.12).doc,1619777509,139
+MNActualizacion,Expedientes\2.3 acuse de recibo provisión (vs20.12).doc,1619777510,140
+MNActualizacion,Expedientes\2.3 acuse de recibo provisión(vs20.12).doc,1619777511,141
+MNActualizacion,Facturas\Oficiales\1.1 factura oficial (vs20.12).doc,1619777511,142
+MNActualizacion,Facturas\Oficiales\1.2 factura oficial por unidades (vs20.12).doc,1619777512,143
+MNActualizacion,Facturas\Oficiales\1.3 factura oficial (datos paciente y cliente) (vs20.12).doc,1619777512,144
+MNActualizacion,Facturas\Oficiales\1.4 factura con datos de tratamiento (vs20.12).doc,1619777513,145
+MNActualizacion,Facturas\Oficiales\1.5 factura de abono (vs20.12).doc,1619777513,146
+MNActualizacion,Facturas\Oficiales\Clientes\1.1 factura oficial (vs20.12).doc,1621325735,147
+MNActualizacion,Facturas\Oficiales\Clientes\1.1 factura oficial cliente (vs20.12).doc,1619777514,148
+MNActualizacion,"Facturas\Oficiales\Clientes\1.2 factura oficial (suplidos, honorarios y provisiones) (vs20.12).doc",1619777515,149
+MNActualizacion,Facturas\Oficiales\Clientes\1.2 factura oficial por unidades (vs20.12).doc,1621325735,150
+MNActualizacion,Facturas\Oficiales\Clientes\1.3 factura oficial (datos paciente y cliente) (vs20.12).doc,1621325736,151
+MNActualizacion,Facturas\Oficiales\Clientes\1.3 factura oficial por unidades (vs20.12).doc,1619777517,152
+MNActualizacion,Facturas\Oficiales\Clientes\1.4 factura de abono (vs20.12).doc,1621325737,153
+MNActualizacion,Facturas\Oficiales\Expedientes\1.1 factura oficial (vs20.12).doc,1619777518,154
+MNActualizacion,"Facturas\Oficiales\Expedientes\1.2 factura oficial (suplidos, derechos y provisiones) (vs20.12).doc",1619777519,155
+MNActualizacion,Facturas\Oficiales\Expedientes\1.2 factura oficial expediente (vs20.12).doc,1619777520,156
+MNActualizacion,Facturas\Oficiales\Expedientes\1.3  factura oficial por unidades (vs20.12).doc,1619777520,157
+MNActualizacion,"acturas\Oficiales\Expedientes\1.3 factura oficial (suplidos, honorarios y provisiones)(vs20.12).doc",1619777521,158
+MNActualizacion,Facturas\Oficiales\Expedientes\1.4  factura oficial por unidades(vs20.12).doc,1619777522,159
+MNActualizacion,Facturas\Oficiales\Expedientes\1.4 factura de abono (vs20.12).doc,1619777522,160
+MNActualizacion,Facturas\Oficiales\Expedientes\1.5 factura de abono(vs20.12).doc,1619777523,161
+MNActualizacion,Facturas\Oficiales\Expedientes\1.5 factura oficial expediente (suplidos y honorarios) (vs20.12).doc,1619777524,162
+MNActualizacion,Facturas\Proformas\Clientes\1.1 factura proforma cliente (vs20.12).doc,1619777524,163
+MNActualizacion,Facturas\Proformas\Clientes\1.1 factura proforma cliente(vs20.12).doc,1619777525,164
+MNActualizacion,Facturas\Proformas\Expedientes\1.1 factura proforma (vs20.12).doc,1619777525,165
+MNActualizacion,"acturas\Proformas\Expedientes\1.2 factura proforma (suplidos, derechos y provisiones) (vs20.12).doc",1619777526,166
+MNActualizacion,Facturas\Proformas\Expedientes\1.2 factura proforma expediente (vs20.12).doc,1619777527,167
+MNActualizacion,Facturas\Proformas\Expedientes\1.2 factura proforma expediente(vs20.12).doc,1619777527,168
+MNActualizacion,Facturas\Proformas\Expedientes\1.3  factura proforma por unidades (vs20.12).doc,1619777528,169
+MNActualizacion,"turas\Proformas\Expedientes\1.3 factura proforma (suplidos, honorarios y provisiones) (vs20.12).doc",1619777528,170
+MNActualizacion,"cturas\Proformas\Expedientes\1.3 factura proforma (suplidos, honorarios y provisiones)(vs20.12).doc",1619777529,171
+MNActualizacion,Facturas\Proformas\Expedientes\1.4  factura proforma por unidades (vs20.12).doc,1619777529,172
+MNActualizacion,Facturas\Proformas\Expedientes\1.4  factura proforma por unidades(vs20.12).doc,1619777530,173
+MNActualizacion,Gestión de Cobros\recibí (formato a4) (vs20.12).doc,1621325738,174
+MNActualizacion,Gestión de Cobros\recibí (formato a4)(vs20.12).doc,1619777531,175
+MNActualizacion,Gestión de Cobros\recibí (formato a4).doc,1619777531,176
+MNActualizacion,Gestión de Cobros\recibí (formato a5) (vs20.12).doc,1621325738,177
+MNActualizacion,Gestión de Cobros\recibí (formato a5)(vs20.12).doc,1619777533,178
+MNActualizacion,Gestión de Cobros\recibí (formato a5).doc,1619777534,179
+MNActualizacion,Gestión de Cobros\recibí (formato a6) (vs20.12).doc,1621325739,180
+MNActualizacion,Gestión de Cobros\recibí (formato a6)(vs20.12).doc,1619777534,181
+MNActualizacion,Gestión de Cobros\recibí (formato a6).doc,1619777535,182
+MNActualizacion,Gestión de Cobros\ticket cobro (vs20.12).doc,1621325740,183
+MNActualizacion,Gestión de Cobros\Ticket cobro.doc,1619777536,184
+MNActualizacion,Pacientes\1.1 documento lopd (vs20.12).doc,1621325741,185
+MNActualizacion,Pacientes\1.1 documento lopd.doc,1619777537,186
+MNActualizacion,Pacientes\1.2 autorización grabación imágenes (videoconsultas) (vs20.12).doc,1621325741,187
+MNActualizacion,Pacientes\1.2 Autorización Grabación Imágenes (videoconsultas).doc,1619777538,188
+MNActualizacion,Pacientes\1.3 consentimiento informado (vs20.12).doc,1621325742,189
+MNActualizacion,Pacientes\1.3 consentimiento informado.doc,1619777540,190
+MNActualizacion,Pacientes\1.4 autorización de domiciliación (para empresa) (vs20.12).doc,1621325743,191
+MNActualizacion,Pacientes\1.4 autorización de domiciliación (para empresa).doc,1619777541,192
+MNActualizacion,Pacientes\1.5 autorización de domiciliación (para particular) (vs20.12).doc,1621325744,193
+MNActualizacion,Pacientes\1.5 autorización de domiciliación (para particular).doc,1619777542,194
+MNActualizacion,Pacientes\2.1 informe paciente (vs20.12).doc,1621325745,195
+MNActualizacion,Pacientes\2.1 informe paciente.doc,1619777543,196
+MNActualizacion,Pacientes\2.2 informe paciente detallado (vs20.12).doc,1621325745,197
+MNActualizacion,Pacientes\2.2 informe paciente detallado.doc,1619777544,198
+MNActualizacion,Pacientes\3.1 justificante de asistencia médica (vs20.12).doc,1621325746,199
+MNActualizacion,Pacientes\3.1 justificante de asistencia médica.doc,1619777545,200
+MNActualizacion,Pacientes\4.1 ticket cita (vs20.12).doc,1621325747,201
+MNActualizacion,Pacientes\4.1 ticket cita.doc,1619777546,202
+MNActualizacion,Pacientes\Consentimientos\consentimiento anestesia local.doc,1619777547,203
+MNActualizacion,Pacientes\Consentimientos\Consentimiento Cirugía Oral.doc,1619777547,204
+MNActualizacion,Pacientes\Consentimientos\consentimiento cirugía periapical.doc,1619777548,205
+MNActualizacion,Pacientes\Consentimientos\consentimiento cirugía tumores benignos.doc,1619777548,206
+MNActualizacion,Pacientes\Consentimientos\consentimiento endodoncia.doc,1619777549,207
+MNActualizacion,Pacientes\Consentimientos\consentimiento extracción de cordales.doc,1619777549,208
+MNActualizacion,Pacientes\Consentimientos\consentimiento extracción de dientes incluidos.doc,1619777550,209
+MNActualizacion,Pacientes\Consentimientos\consentimiento extracción simple.doc,1619777550,210
+MNActualizacion,Pacientes\Consentimientos\consentimiento implantes.doc,1619777551,211
+MNActualizacion,Pacientes\Consentimientos\consentimiento odontología conservadora.doc,1619777552,212
+MNActualizacion,Pacientes\Consentimientos\consentimiento ortodoncia.doc,1619777552,213
+MNActualizacion,Pacientes\Consentimientos\consentimiento periodoncia.doc,1619777553,214
+MNActualizacion,Pacientes\Consentimientos\consentimiento prótesis.doc,1619777553,215
+MNActualizacion,Poderes\poder general a favor de persona fisica(vs20.12).doc,1619777554,216
+MNActualizacion,Poderes\poder general a favor de persona física (vs20.12).doc,1619777554,217
+MNActualizacion,Recetas Médicas\Plantilla Receta Médica en Catalán.doc,1621325748,218
+MNActualizacion,Recetas Médicas\Plantilla Receta Médica en Euskera.doc,1621325749,219
+MNActualizacion,Recetas Médicas\Plantilla Receta Médica en Gallego.doc,1621325749,220
+MNActualizacion,Recetas Médicas\Plantilla Receta Médica.doc,1621325750,221
+MNActualizacion,usu2:RegPlantillasWord.sql,1730986023,222
+MNActualizacion,usu1:RegPlantillasWord.sql,1612276720,223
+MNActualizacion,com:AdvAboCom(23).sql,20/09/2021 13:57:24,224
+MNActualizacion,com:AdvAboCom(26).sql,30/09/2019 11:36:17,225
+MNActualizacion,com:AdvAboCom(27).sql,27/09/2019 11:37:46,226
+MNActualizacion,com:AdvAboComS(19.10.3.0).sql,20/11/2019 13:09:25,227
+MNActualizacion,com:AdvAboComS(19.10.3.1).sql,25/11/2019 14:22:33,228
+MNActualizacion,com:AdvAboComS(19.10.3.3).sql,19/09/2023 11:15:00,229
+MNActualizacion,com:AdvAboComS(19.12.3.0).sql,07/01/2020 12:46:30,230
+MNActualizacion,com:AdvAboComS(20.1.3.0).sql,20/01/2020 15:59:17,231
+MNActualizacion,com:AdvAboComS(20.2.3.0).sql,07/02/2020 9:48:13,232
+MNActualizacion,com:AdvAboComS(20.2.3.1).sql,17/02/2020 13:53:29,233
+MNActualizacion,com:AdvAboComS(20.2.3.2).sql,05/03/2020 7:41:55,234
+MNActualizacion,com:AdvAboComS(20.2.3.3).sql,26/03/2020 11:41:08,235
+MNActualizacion,com:AdvAboComS(20.3.3.0).sql,31/03/2020 12:47:55,236
+MNActualizacion,com:AdvAboComS(20.4.3.0).sql,29/04/2020 21:39:18,237
+MNActualizacion,com:AdvAboComS(20.5.3.0).sql,19/10/2020 15:58:12,238
+MNActualizacion,com:AdvAboComS(20.6.3.0).sql,23/11/2020 13:45:36,239
+MNActualizacion,com:AdvAboComS(20.7.3.0).sql,07/08/2020 8:46:09,240
+MNActualizacion,com:AdvAboComS(20.8.3.0).sql,07/09/2020 15:35:58,241
+MNActualizacion,com:AdvAboComS(20.9.3.0).sql,25/11/2020 8:29:51,242
+MNActualizacion,com:AdvAboComS(20.10.3.0).sql,08/02/2021 12:22:44,243
+MNActualizacion,com:AdvAboComS(20.11.3.0).sql,03/12/2020 15:58:52,244
+MNActualizacion,com:AdvAboComS(20.12.3.0).sql,08/02/2022 12:59:03,245
+MNActualizacion,com:AdvAboComS(21.2.3.0).sql,03/11/2023 13:34:59,246
+MNActualizacion,com:AdvAboComS(21.2.3.1).sql,25/02/2021 16:00:16,247
+MNActualizacion,com:AdvAboComS(21.3.3.0).sql,25/06/2021 9:32:11,248
+MNActualizacion,com:AdvAboComS(21.4.3.0).sql,13/05/2021 13:20:10,249
+MNActualizacion,com:AdvAboComS(21.4.3.1).sql,25/05/2021 12:21:53,251
+MNActualizacion,com:OpeSupervisor.sql,11/03/2022 11:19:13,252
+MNActualizacion,com:TiposVia.sql,10/12/2019 9:05:11,253
+MNActualizacion,usu1:AdvAboUsu(8).sql,30/09/2019 11:36:34,254
+MNActualizacion,usu2:AdvAboUsu(8).sql,30/09/2019 11:36:34,255
+MNActualizacion,usu1:AdvAboUsu(9).sql,16/10/2019 10:27:13,256
+MNActualizacion,usu2:AdvAboUsu(9).sql,16/10/2019 10:27:13,257
+MNActualizacion,usu1:AdvAboUsuS(19.10.3.0).sql,12/11/2019 15:58:51,258
+MNActualizacion,usu2:AdvAboUsuS(19.10.3.0).sql,12/11/2019 15:58:51,259
+MNActualizacion,usu1:AdvAboUsuS(19.10.3.1).sql,25/11/2019 14:18:28,260
+MNActualizacion,usu2:AdvAboUsuS(19.10.3.1).sql,25/11/2019 14:18:28,261
+MNActualizacion,usu1:AdvAboUsuS(19.10.3.2).sql,03/12/2019 8:46:37,262
+MNActualizacion,usu2:AdvAboUsuS(19.10.3.2).sql,03/12/2019 8:46:37,263
+MNActualizacion,usu1:AdvAboUsuS(19.10.3.3).sql,10/12/2019 9:33:07,264
+MNActualizacion,usu2:AdvAboUsuS(19.10.3.3).sql,10/12/2019 9:33:07,265
+MNActualizacion,usu1:AdvAboUsuS(19.12.3.0).sql,26/12/2019 10:03:01,266
+MNActualizacion,usu2:AdvAboUsuS(19.12.3.0).sql,26/12/2019 10:03:01,267
+MNActualizacion,usu1:AdvAboUsuS(20.1.3.0).sql,04/02/2020 9:39:57,268
+MNActualizacion,usu2:AdvAboUsuS(20.1.3.0).sql,04/02/2020 9:39:57,269
+MNActualizacion,usu1:AdvAboUsuS(20.2.3.0).sql,21/07/2021 9:55:58,270
+MNActualizacion,usu2:AdvAboUsuS(20.2.3.0).sql,21/07/2021 9:55:58,271
+MNActualizacion,usu1:AdvAboUsuS(20.2.3.1).sql,03/03/2020 14:40:28,272
+MNActualizacion,usu2:AdvAboUsuS(20.2.3.1).sql,03/03/2020 14:40:28,273
+MNActualizacion,usu1:AdvAboUsuS(20.2.3.2).sql,05/03/2020 7:38:25,274
+MNActualizacion,usu2:AdvAboUsuS(20.2.3.2).sql,05/03/2020 7:38:25,275
+MNActualizacion,usu1:AdvAboUsuS(20.2.3.3).sql,30/03/2020 8:44:06,276
+MNActualizacion,usu2:AdvAboUsuS(20.2.3.3).sql,30/03/2020 8:44:06,277
+MNActualizacion,usu1:AdvAboUsuS(20.3.3.0).sql,31/03/2020 12:46:33,278
+MNActualizacion,usu2:AdvAboUsuS(20.3.3.0).sql,31/03/2020 12:46:33,279
+MNActualizacion,usu1:AdvAboUsuS(20.4.3.0).sql,06/05/2020 7:48:05,280
+MNActualizacion,usu2:AdvAboUsuS(20.4.3.0).sql,06/05/2020 7:48:05,281
+MNActualizacion,usu1:AdvAboUsuS(20.5.3.0).sql,09/06/2020 8:41:20,282
+MNActualizacion,usu2:AdvAboUsuS(20.5.3.0).sql,09/06/2020 8:41:20,283
+MNActualizacion,usu1:AdvAboUsuS(20.6.3.0).sql,29/07/2020 8:00:27,284
+MNActualizacion,usu2:AdvAboUsuS(20.6.3.0).sql,29/07/2020 8:00:27,285
+MNActualizacion,usu1:AdvAboUsuS(20.7.3.0).sql,07/08/2020 8:48:59,286
+MNActualizacion,usu2:AdvAboUsuS(20.7.3.0).sql,07/08/2020 8:48:59,287
+MNActualizacion,usu1:AdvAboUsuS(20.8.3.0).sql,07/09/2020 11:36:52,288
+MNActualizacion,usu2:AdvAboUsuS(20.8.3.0).sql,07/09/2020 11:36:52,289
+MNActualizacion,usu1:AdvAboUsuS(20.9.3.0).sql,05/11/2020 10:44:23,290
+MNActualizacion,usu2:AdvAboUsuS(20.9.3.0).sql,05/11/2020 10:44:23,291
+MNActualizacion,usu1:AdvAboUsuS(20.10.3.0).sql,02/12/2020 15:05:08,292
+MNActualizacion,usu2:AdvAboUsuS(20.10.3.0).sql,02/12/2020 15:05:08,293
+MNActualizacion,usu1:AdvAboUsuS(20.11.3.0).sql,18/12/2020 10:37:42,294
+MNActualizacion,usu2:AdvAboUsuS(20.11.3.0).sql,18/12/2020 10:37:42,295
+MNActualizacion,usu1:AdvAboUsuS(20.12.3.0).sql,04/02/2021 12:11:09,296
+MNActualizacion,usu2:AdvAboUsuS(20.12.3.0).sql,04/02/2021 12:11:09,297
+MNActualizacion,usu1:AdvAboUsuS(21.2.3.0).sql,04/02/2021 12:11:46,298
+MNActualizacion,usu2:AdvAboUsuS(21.2.3.0).sql,04/02/2021 12:11:46,299
+MNActualizacion,usu1:AdvAboUsuS(21.2.3.1).sql,23/02/2021 14:16:38,300
+MNActualizacion,usu2:AdvAboUsuS(21.2.3.1).sql,23/02/2021 14:16:38,301
+MNActualizacion,usu1:AdvAboUsuS(21.3.3.0).sql,16/04/2021 14:26:49,302
+MNActualizacion,usu2:AdvAboUsuS(21.3.3.0).sql,16/04/2021 14:26:49,303
+MNActualizacion,usu1:AdvAboUsuS(21.4.3.0).sql,13/05/2021 15:49:50,304
+MNActualizacion,usu2:AdvAboUsuS(21.4.3.0).sql,13/05/2021 15:49:50,305
+MNActualizacion,usu1:AdvAboUsuS(21.4.3.1).sql,21/07/2021 9:48:05,306
+MNActualizacion,usu2:AdvAboUsuS(21.4.3.1).sql,21/07/2021 9:48:05,307
+MNActualizacion,usu1:ColegiosProfesionales.sql,23/04/2021 12:31:24,308
+MNActualizacion,usu2:ColegiosProfesionales.sql,23/04/2021 12:31:24,309
+MNActualizacion,usu1:ConsultasOtrosDatos.sql,04/06/2021 10:10:45,310
+MNActualizacion,usu2:ConsultasOtrosDatos.sql,07/05/2021 7:46:57,311
+MNActualizacion,com:PlantillasCorreo.sql,07/11/2024 14:26:58,312
+MNActualizacion,usu1:PlantillasWhatsapp.sql,09/11/2024 15:44:18,313
+MNActualizacion,usu2:PlantillasWhatsapp.sql,09/11/2024 15:44:18,314
+MNActualizacion,Actualizador.Model.Migraciones.MigradorPreviexp,1,315
+MNActualizacion,Actualizador.Model.Migraciones.MigradorPreviexp1,1,316
+MNActualizacion,Actualizador.Model.Migraciones.MigradorPreviexp2,1,317
+MNActualizacion,Actualizador.Model.Migraciones.MigradorPreviexp3,1,318
+MNActualizacion,Actualizador.Model.Migraciones.MigradorObligaciones,1,319
+MNActualizacion,Actualizador.Model.Migraciones.MigradorMenusDefecto,1,320
+MNActualizacion,Actualizador.Model.Migraciones.MigradorCuadrosMando,1,321
+MNActualizacion,Actualizador.Model.Migraciones.MigradorColsDefectoGestor,1,323
+MNActualizacion,com:AdvAboComS(21.5.3.0).sql,15/07/2021 8:40:18,325
+MNActualizacion,usu1:AdvAboUsuS(21.5.3.0).sql,05/07/2021 8:54:54,326
+MNActualizacion,perso:21.5.3.0_CRMclinicas.json,04/06/2021 16:14:19,327
+MNActualizacion,Actualizador.Model.Migraciones.MigradorAulasComun,1,328
+MNActualizacion,AutoActuPlaju,14/09/2021 0:00:00,329
+MNActualizacion,com:AdvAboComS(21.7.3.0).sql,19/10/2021 8:16:22,330
+MNActualizacion,com:PGCSinFinesLucrativos.sql,16/02/2023 12:50:06,331
+MNActualizacion,usu1:AdvAboUsuS(21.7.3.0).sql,25/10/2021 9:34:42,332
+MNActualizacion,InicioProceso,20210914081603,333
+MNActualizacion,MigradorActualizacion.FacturacionRecibida.MigradorFacturacionRecibida,1,334
+MNActualizacion,FinProceso,20210914081603,335
+MNActualizacion,permisosbOcultarBD,1,336
+MNActualizacion,com:AdvAboComS(21.9.3.0).sql,27/10/2021 15:48:09,337
+MNActualizacion,usu1:AdvAboUsuS(21.9.3.0).sql,16/11/2021 8:10:46,338
+MNActualizacion,com:AdvAboComS(21.10.3.0).sql,18/01/2022 13:34:56,340
+MNActualizacion,usu1:AdvAboUsuS(21.10.3.0).sql,14/12/2021 14:29:51,341
+MNActualizacion,com:AdvAboComS(21.12.3.0).sql,20/12/2021 11:58:14,342
+MNActualizacion,OpeNoDepurar,1,343
+MNActualizacion,com:AdvAboComS(22.1.3.0).sql,07/03/2022 13:28:51,344
+MNActualizacion,usu2:AdvAboUsuS(21.9.3.0).sql,16/11/2021 8:10:46,345
+MNActualizacion,usu2:AdvAboUsuS(21.10.3.0).sql,14/12/2021 14:29:51,346
+MNActualizacion,usu1:AdvAboUsuS(21.12.3.0).sql,13/01/2022 13:19:09,347
+MNActualizacion,usu2:AdvAboUsuS(21.12.3.0).sql,13/01/2022 13:19:09,348
+MNActualizacion,usu1:AdvAboUsuS(22.1.3.0).sql,15/03/2022 10:39:06,349
+MNActualizacion,usu2:AdvAboUsuS(22.1.3.0).sql,15/03/2022 10:39:06,350
+MNActualizacion,Facturacion_Modelos_2110,1,351
+MNActualizacion,ReglaMail5,1,384
+MNActualizacion,com:AdvAboComS(22.3.3.0).sql,29/03/2022 8:18:18,385
+MNActualizacion,usu1:AdvAboUsuS(22.3.3.0).sql,23/03/2022 8:09:49,386
+MNActualizacion,usu2:AdvAboUsuS(22.3.3.0).sql,23/03/2022 8:09:49,387
+MNActualizacion,Facturacion_ModelosFR_2110,1,388
+MNActualizacion,com:AdvAboComS(22.4.3.0).sql,15/07/2022 8:20:49,408
+MNActualizacion,usu1:AdvAboUsuS(22.4.3.0).sql,13/07/2022 15:41:22,409
+MNActualizacion,usu2:AdvAboUsuS(22.4.3.0).sql,13/07/2022 15:41:22,410
+MNActualizacion,Actualizador.Model.Migraciones.MigradorArticulosPerso,1,411
+MNActualizacion,com:AdvAboComS(22.6.3.0).sql,15/07/2022 11:38:36,413
+MNActualizacion,usu1:AdvAboUsuS(22.6.3.0).sql,01/07/2022 14:23:08,414
+MNActualizacion,usu2:AdvAboUsuS(22.6.3.0).sql,01/07/2022 14:23:08,415
+MNActualizacion,com:AdvAboComS(22.7.3.0).sql,27/07/2022 14:25:09,416
+MNActualizacion,usu1:AdvAboUsuS(22.7.3.0) .sql,14/07/2022 9:24:36,417
+MNActualizacion,usu2:AdvAboUsuS(22.7.3.0) .sql,14/07/2022 9:24:36,418
+MNActualizacion,AltaAutoAccesoTrab,1,419
+MNActualizacion,com:AdvAboComS(22.9.3.0).sql,23/09/2022 12:32:39,421
+MNActualizacion,usu1:AdvAboUsuS(22.9.3.0).sql,22/09/2022 8:18:23,422
+MNActualizacion,usu2:AdvAboUsuS(22.9.3.0).sql,22/09/2022 8:18:23,423
+MNActualizacion,com:AdvAboComS(22.10.3.0).sql,22/11/2022 11:02:49,430
+MNActualizacion,usu1:AdvAboUsuS(22.10.3.0).sql,31/10/2022 15:00:32,431
+MNActualizacion,usu2:AdvAboUsuS(22.10.3.0).sql,31/10/2022 15:00:32,432
+MNActualizacion,com:AdvAboComS(22.11.3.0).sql,22/12/2022 16:34:10,684
+MNActualizacion,usu1:AdvAboUsuS(22.11.3.0).sql,05/01/2023 12:48:44,685
+MNActualizacion,usu2:AdvAboUsuS(22.11.3.0).sql,05/01/2023 12:48:44,686
+MNActualizacion,com:AdvAboComS(22.11.3.1).sql,12/01/2023 14:08:29,817
+MNActualizacion,usu1:AdvAboUsuS(22.11.3.1).sql,12/01/2023 14:10:04,818
+MNActualizacion,usu2:AdvAboUsuS(22.11.3.1).sql,12/01/2023 14:10:04,819
+obligaciones,0,General,892
+general,MensajeIndicadores,False,893
+general,ModeloWord,,894
+docsign,caducidad,24,895
+docsign,mostrarAceptacion,True,896
+docsign,mostrarNombre,True,897
+docsign,mostrarFirma,True,898
+general,VisibilidadIndicadores,1,899
+general,ActuacionRapidaPorDefecto,0,900
+general,ActuacionCompletaPorDefecto,0,901
+GestJuri,agenda_showoutofficehours,0,902
+ValoraGoogleEmpresa1,N1ValGoogle,Inserte aquí su Place ID,903
+general,BarraAccionesRapidas,False,904
+docsign,mostrarNif,True,905
+docsign,etiquetaEnlace,Aceptar Documento,906
+ControlHorario,PopUpInactividadSegundos,10,907
+firmaCorreo,caducidad,24,908
+firmaCorreo,mostrarAceptacion,True,909
+firmaCorreo,mostrarNombre,True,910
+firmaCorreo,mostrarNif,True,911
+firmaCorreo,mostrarFirma,True,912
+firmaCorreo,etiquetaEnlace,Aceptar contenido del correo,913
+NetDelphi,Info,,914
+tareas,nombreModuloFem,True,915
+EtiqContacto,EtiqContacto,1,916
+CuadroMandos,CmiDefectoUsu1,0,917
+GestJuri,agenda_intervalo,60,918
+datosuso,fechabloqueo,22/04/2021 10:25:17,919
+datosuso,fecha,22/04/2021 10:25:17,920
+CuadroMandos,CmiDefectoUsu2,0,921
+AdjuntoWhatsapp,caducidad,24,923
+AdjuntoWhatsapp,mostrarAceptacion,False,924
+AdjuntoWhatsapp,mostrarNombre,True,925
+AdjuntoWhatsapp,mostrarNif,False,926
+AdjuntoWhatsapp,mostrarFirma,False,927
+AdjuntoWhatsapp,mostrarDescarga,True,928
+AdjuntoWhatsapp,firmaEnNuevaHoja,True,929
+AdjuntoWhatsapp,etiquetaEnlace,Abrir Documento,930
+ValoraGoogleEmpresa2,N2ValGoogle,Inserte aquí su Place ID,931
+docsign,mostrarDescarga,False,932
+docsign,firmaEnNuevaHoja,True,933
+AccesoClientes,NotifClienteAdjunto,0##-1#0,934
+AccesoClientes,Configuracion,0,935
+firmaCorreo,mostrarDescarga,False,936
+firmaCorreo,firmaEnNuevaHoja,False,937
+AccesoClientes,NotifClienteActuacion,0##-1#0,938
+AccesoClientes,NotifClienteExpediente,0##-1#0,939
+AccesoClientes,NotifEmpresaAdjuntoPorCliente,0##-1#0,940
+general,LimiteActuacionesMostrar,100,941
+CuadrosMando22.8,Actualizar,1,942
+Agenda,NoAvisarConfigUsuarios,1,943
+general,PeriodoRentabilidad,0,944
+BajaComunicacionesComerciales,NotificarEmpresa,False,945
+BajaComunicacionesComerciales,OperadorCuentaEnvio,,946
+BajaComunicacionesComerciales,LineaCuentaEnvio,,947
+BajaComunicacionesComerciales,OtrasCuentasEnvio,,948
+GestJuri,agenda_VerVencimientos,0,949
+GestJuri,agenda_VerSenalamientos,0,950
+general,BotoneraArriba,True,951
+MNActualizacion,com:AdvAboComS(22.11.3.2).sql,18/01/2023 14:12:09,952
+MNActualizacion,usu1:AdvAboUsuS(22.11.3.2).sql,18/01/2023 14:13:16,953
+MNActualizacion,usu2:AdvAboUsuS(22.11.3.2).sql,18/01/2023 14:13:16,954
+Comisiones,Insertar_Permiso_Ver_Comisiones,1,955
+MNActualizacion,com:AdvAboComS(23.2.3.0).sql,30/05/2024 12:14:30,956
+MNActualizacion,usu1:AdvAboUsuS(23.2.3.0).sql,10/05/2024 8:04:44,957
+MNActualizacion,usu2:AdvAboUsuS(23.2.3.0).sql,10/05/2024 8:04:44,958
+MNActualizacion,perso:23.2.3.0_CRMclinicas.json,08/02/2023 8:18:24,959
+GestJuri,Exportar_ExportarFTP,0,960
+GestJuri,agenda_VerActu,1,961
+GestJuri,agenda_VerAvisos,1,962
+GestJuri,agenda_VerRecordatorios,0,963
+GestJuri,agenda_VerNotas,1,964
+GestJuri,agenda_VerPlanesTrabajo,0,965
+GestJuri,agenda_showclisubject,1,966
+GestJuri,agenda_timeActu,01:00:00,967
+GestJuri,agenda_holsat,0,968
+GestJuri,agenda_holsun,0,969
+MNActualizacion,com:AdvAboComS(23.2.3.1).sql,13/03/2023 15:44:08,970
+MNActualizacion,usu1:AdvAboUsuS(23.2.3.1).sql,13/03/2023 15:45:57,971
+MNActualizacion,usu2:AdvAboUsuS(23.2.3.1).sql,13/03/2023 15:45:57,972
+MNActualizacion,CorregirSegodontRealizados,1,973
+general,TamañoFuenteGrids,14,974
+MNActualizacion,com:AdvAboComS(23.4.3.0).sql,30/05/2024 12:14:42,975
+MNActualizacion,usu1:AdvAboUsuS(23.4.3.0).sql,10/05/2024 8:07:00,976
+MNActualizacion,usu2:AdvAboUsuS(23.4.3.0).sql,10/05/2024 8:07:00,977
+MNActualizacion,perso:23.4.3.0_CRMclinicas.json,10/04/2023 8:12:57,978
+CuadroMandos,CmiDefectoNoAuto,1,980
+EfectivoContado,Actualizar,1,981
+MNActualizacion,VersionBD,25.7.3.0,982
+Lexnet,Actualizador_Desactivar_AsociacionAvanzada,Jun 20 2024 10:25AM,984
+Lexnet,AsociacionAvanzada,False,985
+general,accesosExtrabTipoExpMenuPrincipal,1,986
+general,DesactivarAccionesRapidas,1,987
+general,OrdenAccesosRaiz24_3,1,988
+general,InformesHorarios,1,989
+general,InformesHorarios2,1,990
+ONEDRIVE,MUESTRA_SIN_ADJ,1,991
+PopupImpagados,aviso,12/01/2026 13:10:40#0#,993
+ConfigDoc,FILESYNC,.MNprogram_73e0b2f5-de48-4945-b248-6c674605ad57,994
+ConfigDoc,FECHA_FILESYNC,09/01/2026,995
+general,AccesosBuscarE2_O1,25/06/2024,996
+NotificacionVacaciones,NotificarEmpresa,False,997
+NotificacionVacaciones,OperadorCuentaEnvio,,998
+NotificacionVacaciones,LineaCuentaEnvio,,999
+VacacionesRevisadas,NotificarEmpresa,False,1000
+VacacionesRevisadas,OperadorCuentaEnvio,,1001
+VacacionesRevisadas,LineaCuentaEnvio,,1002
+MNActualizacion,com:AdvAboComS(21.4.2.0).sql,14/02/2024 16:01:09,1003
+MNActualizacion,com:AdvAboComS(22.6.2.0).sql,20/12/2023 9:36:09,1004
+MNActualizacion,com:AdvAboComS(23.4.3.1).sql,30/05/2024 12:14:52,1005
+MNActualizacion,com:AdvAboComS(23.5.2.0).sql,07/03/2024 15:48:21,1006
+MNActualizacion,com:AdvAboComS(23.5.3.0).sql,30/05/2024 12:15:28,1007
+MNActualizacion,com:AdvAboComS(23.7.3.0).sql,30/05/2024 12:15:37,1008
+MNActualizacion,com:AdvAboComS(23.9.3.0).sql,30/05/2024 12:15:46,1009
+MNActualizacion,com:AdvAboComS(23.9.3.2).sql,30/05/2024 12:15:57,1010
+MNActualizacion,com:AdvAboComS(24.1.3.0).sql,30/05/2024 12:16:06,1011
+MNActualizacion,com:AdvAboComS(24.1.3.1).sql,30/05/2024 12:16:16,1012
+MNActualizacion,com:AdvAboComS(24.2.3.0).sql,30/05/2024 12:16:26,1013
+MNActualizacion,com:AdvAboComS(24.2.3.1).sql,23/07/2024 9:35:39,1014
+MNActualizacion,usu1:AdvAboUsuS(21.4.2.0).sql,27/10/2023 13:31:24,1015
+MNActualizacion,usu2:AdvAboUsuS(21.4.2.0).sql,27/10/2023 13:31:24,1016
+MNActualizacion,usu2:AdvAboUsuS(21.5.3.0).sql,05/07/2021 8:54:54,1017
+MNActualizacion,usu2:AdvAboUsuS(21.7.3.0).sql,25/10/2021 9:34:42,1018
+MNActualizacion,usu1:AdvAboUsuS(23.4.3.1).sql,10/05/2024 8:07:35,1019
+MNActualizacion,usu2:AdvAboUsuS(23.4.3.1).sql,10/05/2024 8:07:35,1020
+MNActualizacion,usu1:AdvAboUsuS(23.5.3.0).sql,10/05/2024 8:08:11,1021
+MNActualizacion,usu2:AdvAboUsuS(23.5.3.0).sql,10/05/2024 8:08:11,1022
+MNActualizacion,usu1:AdvAboUsuS(23.7.3.0).sql,10/05/2024 8:08:57,1023
+MNActualizacion,usu2:AdvAboUsuS(23.7.3.0).sql,10/05/2024 8:08:57,1024
+MNActualizacion,usu1:AdvAboUsuS(23.9.3.0).sql,10/05/2024 8:09:40,1025
+MNActualizacion,usu2:AdvAboUsuS(23.9.3.0).sql,10/05/2024 8:09:40,1026
+MNActualizacion,usu1:AdvAboUsuS(23.9.3.2).sql,10/05/2024 8:10:20,1027
+MNActualizacion,usu2:AdvAboUsuS(23.9.3.2).sql,10/05/2024 8:10:20,1028
+MNActualizacion,usu1:AdvAboUsuS(24.1.2.0).sql,10/05/2024 8:10:48,1029
+MNActualizacion,usu2:AdvAboUsuS(24.1.2.0).sql,10/05/2024 8:10:48,1030
+MNActualizacion,usu1:AdvAboUsuS(24.1.3.0).sql,10/05/2024 8:11:17,1031
+MNActualizacion,usu2:AdvAboUsuS(24.1.3.0).sql,10/05/2024 8:11:17,1032
+MNActualizacion,usu1:AdvAboUsuS(24.1.3.1).sql,10/05/2024 8:11:58,1033
+MNActualizacion,usu2:AdvAboUsuS(24.1.3.1).sql,10/05/2024 8:11:58,1034
+MNActualizacion,usu1:AdvAboUsuS(24.2.3.0).sql,10/05/2024 8:12:55,1035
+MNActualizacion,usu2:AdvAboUsuS(24.2.3.0).sql,10/05/2024 8:12:55,1036
+MNActualizacion,usu1:AdvAboUsuS(24.2.3.1).sql,22/08/2024 15:02:13,1037
+MNActualizacion,usu2:AdvAboUsuS(24.2.3.1).sql,22/08/2024 15:02:13,1038
+MNActualizacion,ActuScriptRpa,1,1039
+MNActualizacion,ActuVersion,25.7.3.0,1040
+MNActualizacion,com:AdvAboComS(24.2.3.2).sql,26/06/2024 14:42:17,1041
+MNActualizacion,com:AdvAboComS(24.7.2.0).sql,18/12/2024 11:31:47,1042
+GestorConsultas,OrdenInd2,10/09/2025,1043
+GestorConsultas,OrdenInd32,10/09/2025,1044
+GestorConsultas,OrdenInd31,10/09/2025,1045
+GestorConsultas,OrdenInd41,10/09/2025,1046
+GestorConsultas,OrdenInd30,10/09/2025,1047
+GestorConsultas,OrdenInd42,10/09/2025,1048
+GestorConsultas,OrdenInd38,10/09/2025,1049
+GestorConsultas,OrdenInd39,10/09/2025,1050
+GestorConsultas,OrdenInd44,10/09/2025,1051
+GestorConsultas,OrdenInd47,10/09/2025,1052
+GestorConsultas,OrdenInd43,10/09/2025,1053
+GestorConsultas,OrdenInd35,10/09/2025,1054
+GestorConsultas,OrdenInd45,10/09/2025,1055
+GestorConsultas,OrdenInd46,10/09/2025,1056
+GestorConsultas,OrdenInd40_73,10/09/2025,1057
+GestorConsultas,OrdenInd50,10/09/2025,1058
+GestorConsultas,OrdenInd40_87,10/09/2025,1059
+GestorConsultas,OrdenInd22,10/09/2025,1060
+GestorConsultas,OrdenInd26,10/09/2025,1061
+GestorConsultas,OrdenInd25,10/09/2025,1062
+GestorConsultas,OrdenInd28,10/09/2025,1063
+GestorConsultas,OrdenInd29,10/09/2025,1064
+GestorConsultas,OrdenInd6,10/09/2025,1065
+GestorConsultas,OrdenInd49,10/09/2025,1066
+GestorConsultas,OrdenInd61,10/09/2025,1067
+GestorConsultas,OrdenInd1,10/09/2025,1068
+GestorConsultas,OrdenInd13,10/09/2025,1069
+GestorConsultas,OrdenInd34,10/09/2025,1070
+GestorConsultas,OrdenInd63,10/09/2025,1071
+GestorConsultas,OrdenInd53,10/09/2025,1072
+GestorConsultas,OrdenInd60,10/09/2025,1073
+MNActualizacion,insertmodexcel,1,1074
+MNActualizacion,com:AdvAboComS(24.7.3.0).sql,22/11/2024 10:06:48,1075
+MNActualizacion,com:AdvAboComS(24.11.3.0).sql,29/01/2025 8:19:42,1076
+MNActualizacion,com:AdvAboComS(24.11.3.1).sql,14/03/2025 15:30:26,1077
+MNActualizacion,activarrecordatorios,1,1078
+MNActualizacion,com:AdvAboComS(25.3.3.0).sql,25/04/2025 14:28:52,1079
+MNActualizacion,com:AdvAboComS(25.3.3.1).sql,29/07/2025 9:48:29,1080
+MNActualizacion,com:AdvAboComS(25.7.3.0).sql,09/12/2025 15:44:58,1081
+MNActualizacion,com:insert_municipios.sql,18/09/2025 11:35:03,1082
+MNActualizacion,usu1:AdvAboUsuS(24.2.3.2).sql,26/06/2024 14:43:39,1083
+MNActualizacion,usu2:AdvAboUsuS(24.2.3.2).sql,26/06/2024 14:43:39,1084
+MNActualizacion,usu1:AdvAboUsuS(24.7.3.0).sql,08/11/2024 11:37:11,1085
+MNActualizacion,usu2:AdvAboUsuS(24.7.3.0).sql,08/11/2024 11:37:11,1086
+MNActualizacion,usu1:AdvAboUsuS(24.11.3.0).sql,29/01/2025 8:20:21,1087
+MNActualizacion,usu2:AdvAboUsuS(24.11.3.0).sql,29/01/2025 8:20:21,1088
+MNActualizacion,usu1:AdvAboUsuS(24.11.3.1).sql,14/03/2025 15:19:51,1089
+MNActualizacion,usu2:AdvAboUsuS(24.11.3.1).sql,14/03/2025 15:19:51,1090
+MNActualizacion,usu1:AdvAboUsuS(25.3.3.0).sql,25/09/2025 14:25:59,1091
+MNActualizacion,usu2:AdvAboUsuS(25.3.3.0).sql,25/09/2025 14:25:59,1092
+MNActualizacion,usu1:AdvAboUsuS(25.3.3.1).sql,21/05/2025 10:18:52,1093
+MNActualizacion,usu2:AdvAboUsuS(25.3.3.1).sql,21/05/2025 10:18:52,1094
+MNActualizacion,usu1:AdvAboUsuS(25.7.3.0).sql,05/12/2025 8:55:05,1095
+MNActualizacion,usu2:AdvAboUsuS(25.7.3.0).sql,05/12/2025 8:55:05,1096
+MNActualizacion,Actualizador.Model.Migraciones.MigradorActivarCamposPesMasInformacion,1,1097
+MNActualizacion,Actualizador.Model.Migraciones.TurnosAusencias.MigradorTurnosAusencias,1,1098
+AtajosMN,UsoAtajos,NO,1099
+MNActualizacion,VolcarConfigsLexnet,1,1100
+MNActualizacion,VolcarConfigsLexnet_DESPACHO,1,1101
+MNActualizacion,Clientes\Documento LOPD.docx,1757490477,1102
+MNActualizacion,"Clientes\Compras\Pedido a proveedor por uds, iva y dcto..docx",1757490478,1103
+MNActualizacion,Clientes\Compras\Pedido a proveedor.docx,1757490478,1104
+MNActualizacion,Clientes\Oportunidades\Presupuesto por unidades.doc,1757490478,1105
+MNActualizacion,Facturas\Oficiales\Clientes\Factura Abono con IVA.docx,1757490478,1106
+MNActualizacion,Facturas\Oficiales\Clientes\Factura Abono.docx,1757490478,1107
+MNActualizacion,Facturas\Oficiales\Clientes\Factura Oficial (pacientes menores de edad).docx,1757490478,1108
+MNActualizacion,Facturas\Oficiales\Clientes\Factura Oficial Aseguradora con Descuento.docx,1757490479,1109
+MNActualizacion,Facturas\Oficiales\Clientes\Factura Oficial Aseguradora.docx,1757490479,1110
+MNActualizacion,Facturas\Oficiales\Clientes\Factura Oficial con Descuento con IVA.docx,1757490479,1111
+MNActualizacion,Facturas\Oficiales\Clientes\Factura Oficial con Descuento.docx,1757490479,1112
+MNActualizacion,Facturas\Oficiales\Clientes\Factura Oficial con IVA.docx,1757490479,1113
+MNActualizacion,Facturas\Oficiales\Clientes\Factura Oficial por uds. Aseguradora.docx,1757490479,1114
+MNActualizacion,Facturas\Oficiales\Clientes\Factura Oficial TicketBai.docx,1757490479,1115
+MNActualizacion,Facturas\Oficiales\Clientes\Factura Oficial.docx,1757490479,1116
+MNActualizacion,Facturas\presupuestos\clientes\Presupuesto.doc,1757490480,1117
+MNActualizacion,Gestión de Cobros\Recibí.doc,1757490480,1118
+MNActualizacion,Pacientes\Consentimiento Grabación Imágenes.doc,1757490480,1119
+MNActualizacion,Pacientes\Consentimiento Informado.docx,1757490480,1120
+MNActualizacion,Pacientes\Documento LOPD.docx,1757490480,1121
+MNActualizacion,Pacientes\Informe Historia Clínica.docx,1757490480,1122
+MNActualizacion,Pacientes\Justificante de Asistencia Médica.doc,1757490481,1123
+MNActualizacion,Pacientes\Receta.docx,1757490481,1124
+MNActualizacion,Recetas Médicas\Plantilla Receta Oficial en Catalán.doc,1757490481,1125
+MNActualizacion,Recetas Médicas\Plantilla Receta Oficial en Euskera.doc,1757490481,1126
+MNActualizacion,Recetas Médicas\Plantilla Receta Oficial en Gallego.doc,1757490481,1127
+MNActualizacion,Recetas Médicas\Plantilla Receta Oficial.doc,1757490481,1128
+MNActualizacion,Trabajadores\Cesión Imágenes Trabajador.docx,1757490482,1129
+MNActualizacion,Trabajadores\Documento LOPD.docx,1757490482,1130
+AtajosMN,AtajosClinicas.json_2,10/09/2025 9:48:09,1131
+AtajosMN,Ocultados,10/09/2025 9:48:09,1132
+AtajosMN,IControllerClinicas.json_2,10/09/2025 9:48:38,1133
+general,ForzarAccesoCarcasa1162_E2_O1,10/09/2025,1134
+general,ForzarAccesoCarcasa675_E2_O1,10/09/2025,1135
+general,AccesosContHorarioE2_O1,10/09/2025,1136
+general,GruposCarcasa_Emailer_2,10/09/2025,1137
+general,GruposCarcasa_RegHorario_2,10/09/2025,1138
+general,AccesoVariableVeriFactu2_O1,30/11/2025,1139

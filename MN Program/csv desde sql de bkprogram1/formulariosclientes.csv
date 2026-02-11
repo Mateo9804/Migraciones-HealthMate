@@ -1,0 +1,67 @@
+﻿id,nombre,tipobd,fecha,visible,template,mostrarMN,mostrarAvisoLegal,textoAvisoLegal,urlAvisoLegal,bGenerarOportunidad,etapaOportunidad,carpetaEnlacesWeb,tipo,importeOportunidad,predefinidaOportunidad,bEnviarCorreo,cuentaCorreo,textoCabecera,textoGuardar,textoUrlDestino,idioma,bEnviarCorreoAdmin,cuentaCorreoAdmin,bEnviarCorreoAdjuntos,metodoDeteccionFicha,colorFormulario,textoUrl,colorBotonGuardar,anadirCampoProducto,etiquetaCampoProducto,tipoEtiqueta,mostrarComComerciales,textoComComerciales,urlLogoWeb
+1,Alta Paciente,4,2021-12-20 13:26:36.900000,True,Ninguno,True,False,,,False,,General,0,,,False,,"<!DOCTYPE HTML PUBLIC ""-//W3C//DTD HTML 4.0 Transitional//EN"">
+<HTML><HEAD></HEAD>
+<BODY></BODY></HTML>
+",,,-2,False,,False,,,,,,,1,,,
+2,Alta Trabajador,1,2021-12-20 13:26:36.900000,True,,True,False,,,,,,0,,,,,,,,,,,,,,,,,,1,,,
+3,Alta Cliente,0,2022-09-29 18:45:17.480000,True,Ninguno,True,False,,,False,,General,0,,,False,,"<!DOCTYPE HTML PUBLIC ""-//W3C//DTD HTML 4.0 Transitional//EN"">
+<HTML><HEAD></HEAD>
+<BODY></BODY></HTML>
+",,,-2,False,,False,,,,,,,1,,,
+4,Bonos 10 Sesiones,4,2022-09-29 18:51:28.117000,True,Ninguno,True,False,He leído y acepto el aviso legal y la política de privacidad.,,True,Ganada,General,2,500.0000,,False,,"<!DOCTYPE HTML PUBLIC ""-//W3C//DTD HTML 4.0 Transitional//EN"">
+<HTML><HEAD></HEAD>
+<BODY></BODY></HTML>
+",,,-2,False,,False,,,,,,,1,,,
+5,Bono Indiba (10 Sesiones),4,2022-09-29 18:51:59.180000,True,Ninguno,True,False,He leído y acepto el aviso legal y la política de privacidad.,,True,Ganada,General,2,300.0000,,False,,"<!DOCTYPE HTML PUBLIC ""-//W3C//DTD HTML 4.0 Transitional//EN"">
+<HTML><HEAD></HEAD>
+<BODY></BODY></HTML>
+",,,-2,False,,False,,,,,,,1,,,
+6,Información tratamiento,4,2022-09-29 18:52:37.970000,True,Ninguno,True,False,He leído y acepto el aviso legal y la política de privacidad.,,True,Sin iniciar,General,1,500.0000,,False,,"<!DOCTYPE HTML PUBLIC ""-//W3C//DTD HTML 4.0 Transitional//EN"">
+<HTML><HEAD></HEAD>
+<BODY><FONT size=2 face=""Microsoft Sans Serif""><SPAN 
+style='FONT-SIZE: 11pt; FONT-FAMILY: ""Calibri"",sans-serif; LINE-HEIGHT: 107%; mso-ascii-theme-font: minor-latin; mso-fareast-font-family: Calibri; mso-fareast-theme-font: minor-latin; mso-hansi-theme-font: minor-latin; mso-bidi-font-family: ""Times New Roman""; mso-bidi-theme-font: minor-bidi; mso-ansi-language: ES; mso-fareast-language: EN-US; mso-bidi-language: AR-SA'>Te 
+llamamos y te asesoramos personalmente sobre el tratamiento que 
+necesites</SPAN></FONT></BODY></HTML>
+",,,-2,False,,False,,,,,,,1,,,
+7,Información Cirugía Plástica,4,2022-09-29 18:53:18.500000,True,Ninguno,True,False,,,True,Presupuesto,General,1,,,False,,"<!DOCTYPE HTML PUBLIC ""-//W3C//DTD HTML 4.0 Transitional//EN"">
+<HTML><HEAD></HEAD>
+<BODY></BODY></HTML>
+",,,-2,False,,False,,,,,,,1,,,
+8,Formulario de Registro Tutor,0,2024-10-24 12:12:55.557000,False,Ninguno,True,False,,,False,,General,0,,,True,,"{\rtf1\ansi\ansicpg1252\deff0\deflang3082{\fonttbl{\f0\fnil\fcharset0 Microsoft Sans Serif;}}
+\viewkind4\uc1\pard\f0\fs20\par
+}
+",Guardar,,-2,True,,False,4,,Formulario de Registro,16608781,False,Selecciona un Servicio,0,False,Consiento recibir Comunicaciones Comerciales,
+9,Registro Paciente + LOPD + Cuestionario,4,2024-06-13 12:43:00.827000,False,Ninguno,True,False,He leído y acepto el aviso legal y la política de privacidad.,,False,,General,0,,,True,,"{\rtf1\ansi\ansicpg1252\deff0\deflang3082{\fonttbl{\f0\fnil\fcharset0 Segoe UI;}{\f1\fnil\fcharset0 Microsoft Sans Serif;}}
+{\colortbl ;\red0\green102\blue204;}
+\viewkind4\uc1\pard\cf1\b\f0\fs32\'a1Bienvenid@!\cf0\b0\f1\fs20\par
+}
+",¡Registrarme!,,-2,True,,True,2,,¡Regístrate como paciente y firma tu LOPD!,16608781,False,Selecciona un Servicio,0,False,Consiento recibir Comunicaciones Comerciales,
+10,Registro Paciente + Firma LOPD,4,2024-06-13 12:49:53.627000,False,Ninguno,True,False,He leído y acepto el aviso legal y la política de privacidad.,,False,,General,0,,,True,,"{\rtf1\ansi\ansicpg1252\deff0\deflang3082{\fonttbl{\f0\fnil\fcharset0 Segoe UI;}{\f1\fnil\fcharset0 Microsoft Sans Serif;}}
+{\colortbl ;\red0\green102\blue204;}
+\viewkind4\uc1\pard\cf1\b\f0\fs32\'a1Bienvenid@!\cf0\b0\f1\fs20\par
+}
+",¡Registrarme!,,-2,True,,True,2,,¡Regístrate como paciente y firma tu LOPD!,16608781,False,Selecciona un Servicio,0,False,Consiento recibir Comunicaciones Comerciales,
+11,Actualización Datos Paciente,4,2024-06-13 13:24:59.443000,False,Ninguno,True,False,,,False,,General,0,,,True,,"{\rtf1\ansi\ansicpg1252\deff0\deflang3082{\fonttbl{\f0\fnil\fcharset0 Segoe UI;}{\f1\fnil\fcharset0 Microsoft Sans Serif;}}
+{\colortbl ;\red0\green102\blue204;}
+\viewkind4\uc1\pard\cf1\b\f0\fs32 Gracias por seguir confiando en nosotros\cf0\b0\f1\fs20\par
+}
+",¡Actualizar mis datos!,,-2,True,,True,2,,¡Actualízanos tus datos!,16608781,False,Selecciona un Servicio,0,False,Consiento recibir Comunicaciones Comerciales,
+12,Registro Paciente,4,2024-06-13 12:16:57.590000,False,Ninguno,True,False,He leído y aepto el aviso legal y la política de privacidad.,,False,,General,0,,,True,,"{\rtf1\ansi\ansicpg1252\deff0\deflang3082{\fonttbl{\f0\fnil\fcharset0 Segoe UI;}{\f1\fnil\fcharset0 Microsoft Sans Serif;}}
+{\colortbl ;\red0\green102\blue204;}
+\viewkind4\uc1\pard\cf1\b\f0\fs32\'a1Bienvenid@!\cf0\b0\f1\fs20\par
+}
+",¡Registrarme!,,-2,True,,True,2,,¡Regístrate como paciente!,16608781,False,Selecciona un Servicio,0,False,Consiento recibir Comunicaciones Comerciales,
+13,Registro paciente menor de edad + Firma LOPD,4,2024-06-13 13:15:01.393000,False,Ninguno,True,False,He leído y acepto el aviso legal y la política de privacidad.,,False,,General,0,,,True,,"{\rtf1\ansi\ansicpg1252\deff0\deflang3082{\fonttbl{\f0\fnil\fcharset0 Segoe UI;}{\f1\fnil\fcharset0 Microsoft Sans Serif;}}
+{\colortbl ;\red0\green102\blue204;}
+\viewkind4\uc1\pard\cf1\b\f0\fs32\'a1Bienvenid@s!\cf0\b0\f1\fs20\par
+}
+",¡Registrarnos!,,-2,True,,True,2,,¡Regístrate como paciente y firma tu LOPD!,16608781,False,Selecciona un Servicio,0,False,Consiento recibir Comunicaciones Comerciales,
+14,Registro de Trabajador,1,2024-06-13 13:20:18.433000,False,Ninguno,True,False,He leído y acepto el aviso legal y la política de privacidad.,,False,,General,0,,,True,,"{\rtf1\ansi\ansicpg1252\deff0\deflang3082{\fonttbl{\f0\fnil\fcharset0 Segoe UI;}{\f1\fnil\fcharset0 Microsoft Sans Serif;}}
+{\colortbl ;\red0\green102\blue204;}
+\viewkind4\uc1\pard\cf1\b\f0\fs32\'a1Bienvenid@ a nuestro equipo!\cf0\b0\f1\fs20\par
+}
+",¡Unirme!,,-2,True,,True,2,,¡Unirme!,16608781,False,Selecciona un Servicio,0,False,Consiento recibir Comunicaciones Comerciales,
+15,Formulario de Contacto,2,2024-10-23 12:43:02.663000,False,Ninguno,True,False,,,False,,General,0,,,False,,"{\rtf1\ansi\ansicpg1252\deff0\deflang3082{\fonttbl{\f0\fnil\fcharset0 Microsoft Sans Serif;}}
+\viewkind4\uc1\pard\f0\fs20\par
+}
+",Guardar,,-2,False,,False,4,,Formulario de Contacto,16608781,False,Selecciona un Servicio,0,False,Consiento recibir Comunicaciones Comerciales,

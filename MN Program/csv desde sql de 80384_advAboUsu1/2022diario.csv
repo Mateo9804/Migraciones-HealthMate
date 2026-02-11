@@ -1,0 +1,6 @@
+﻿asiento,fecha,linea,cuentadebe,cuentahaber,comentario,importe,observaciones,tipo,apertura,inumexp,inumexh,inumigu,inumvar,iyear,importeeuro,codsubusu,asiver,documento,porimpuesto,porrecargo,contrapartida,baseimp,numfactura,serie,tipofact,icodcli,tipoBs,ctahonorario,punteo,bcobroremesa,idremesa,ccaja,itipocp,ffactura,formacp,cuentacp,fechaAbonada,refabonada,icodEmisor,cn,iprorrata,ilineapro,porpro,importepro,cuentapro,importetot,exportado,idtipofact,idtiporect,porproD,modelos,partidaRegul,id,clavemod349,idPago,esAgrupado,idconfigemisor,clavemod190,subclavemod190,incapacidadlaboral,idClaseFactura,area
+2,2022-03-31 00:00:00,1,7050000000,,Uniformes nuevos,83193.0000,,D,,,,,,,500.0000,0,2,,,,4300000000,,10,,,,,,,,,0,,,,,,,-1,,,,,,,,,,,,,,7,,,,,,,,,
+2,2022-03-31 00:00:00,2,,4300000000,Uniformes nuevos,83193.0000,,H,,,,,,,500.0000,0,2,,,,,,10,,,,,,,,,0,,,,,,,-1,,,,,,,,,,,,,,8,,,,,,,,,
+3,2022-01-28 00:00:00,1,4300000000,,Factura:55 ADESLAS,41596.0000,,D,,,,,,,250.0000,0,1,,,,,,55,,,41,,,,,,0,,,,,,,,,,,,,,,,,,,,,9,,,,,,,,,
+3,2022-01-28 00:00:00,2,,7050000000,Factura:55 ADESLAS,41596.0000,,H,,,,,,,250.0000,0,1,,,,4300000000,,55,,,41,,,,,,0,,,,,,,,,,,,,,,,,,,0,,10,,,,,,,,,
+3,2022-01-28 00:00:00,3,,4770000007,Factura:55 ADESLAS,0.0000,,H,,,,,,,0.0000,0,1,,0.0000,0.0000,4300000000,250.0000,55,,V,41,,7050000000,,,,0,,,,,,,,,,,,,,,,1,,,0,,11, ,,,,,,,1,

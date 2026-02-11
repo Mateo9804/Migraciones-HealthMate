@@ -1,0 +1,158 @@
+﻿icodcli,idcampo,valor
+11,1,Anuncio local
+3,1,Comercial
+27,1,Desconocido
+28,1,Desconocido
+1,1,Página Web
+2,1,Página Web
+4,1,Página Web
+13,1,Página Web
+25,1,Página Web
+26,1,Página Web
+5,1,Recomendación Paciente
+6,1,Recomendación Paciente
+10,1,Recomendación Paciente
+12,1,Recomendación Paciente
+62,1,Recomendación Paciente
+16,1,Redes Sociales
+22,1,Redes Sociales
+23,1,Redes Sociales
+24,1,Redes Sociales
+30,1,Redes Sociales
+67,1,Redes Sociales
+5,2,01/02/2021
+4,2,01/05/2018
+16,2,01/05/2020
+22,2,01/05/2020
+23,2,01/05/2020
+24,2,01/05/2020
+25,2,01/05/2020
+26,2,01/05/2020
+27,2,01/05/2020
+28,2,01/05/2020
+29,2,01/05/2020
+30,2,01/05/2020
+1,2,10/04/2017
+11,2,10/05/2015
+3,2,10/11/2019
+12,2,10/12/2018
+10,2,12/10/2015
+13,2,14/08/2014
+6,2,15/04/2017
+62,2,24/10/2022
+67,2,31/01/2020
+6,4,Albañil
+67,4,Albañíl
+13,4,Cajera Supermercado
+11,4,Cocinero
+2,4,Comercial
+10,4,Delineante
+12,4,Empresario
+3,4,Enfermera
+62,4,Informático
+4,4,Ingeniero
+5,4,Policía
+1,4,Profesor
+5,5,63
+2,5,65
+3,5,65
+13,5,65
+6,5,72
+67,5,73
+11,5,78
+10,5,83
+1,5,85
+4,5,90
+62,5,90
+12,5,95
+62,6,"1,90"
+2,6,1.62
+13,6,1.62
+5,6,1.72
+3,6,1.75
+1,6,1.78
+10,6,1.78
+67,6,1.78
+6,6,1.79
+4,6,1.80
+11,6,1.80
+12,6,1.85
+2,7,No
+6,7,No
+12,7,No
+1,7,Sí
+3,7,Sí
+4,7,Sí
+5,7,Sí
+10,7,Sí
+11,7,Sí
+13,7,Sí
+62,7,Sí
+67,7,Sí
+3,8,Diariamente
+13,8,Diariamente
+67,8,Diariamente
+62,8,Más de 3 días a la semana
+1,8,Menos de 3 días
+4,8,Menos de 3 días
+5,8,Menos de 3 días
+10,8,Menos de 3 días
+11,8,Menos de 3 días
+5,11,No
+12,11,No
+13,11,No
+67,11,No
+1,11,Sí
+3,11,Sí
+4,11,Sí
+11,11,Sí
+16,11,Sí
+22,11,Sí
+23,11,Sí
+24,11,Sí
+25,11,Sí
+26,11,Sí
+27,11,Sí
+28,11,Sí
+29,11,Sí
+30,11,Sí
+51,11,Sí
+62,11,Sí
+1,12,Sí
+2,12,Sí
+3,12,Sí
+4,12,Sí
+5,12,Sí
+11,12,Sí
+12,12,Sí
+13,12,Sí
+62,12,Sí
+67,12,Sí
+62,13,No
+67,13,No
+1,13,Si
+4,13,Si
+1,21,Alto
+3,21,Alto
+4,21,Alto
+10,21,Alto
+11,21,Alto
+62,21,Alto
+67,21,Medio
+4,22,No
+67,22,No
+1,22,Si
+3,22,Si
+5,22,Si
+10,22,Si
+12,22,Si
+13,22,Si
+62,22,Si
+1,23,No
+5,23,No
+10,23,No
+11,23,No
+12,23,No
+62,23,No
+67,23,No
+4,23,Sí

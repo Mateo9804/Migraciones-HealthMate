@@ -1,0 +1,63 @@
+﻿idtipogestor,nombre,textoResumen,controlResumen,tablaPlantillas,consultaActual,campoUsuario,campoOrdenar
+1,Control de Historial,Actuación,GestorConsultas.frmResumenHistorial,,,subusu,
+2,Control de Oportunidades,Oportunidad,GestorConsultas.Forms.frmResumenOportunidad,,,icodusu,
+3,Control de Cuentas,,,,,subusu,
+4,Control de Obligaciones,Obligación,,,,,
+5,Control de Vencimientos,Vencimiento,,,,,
+6,Previsión de Cobros,,GestorConsultas.Forms.frmResumenPrevisionCobro,,0,codsubusu,
+7,Control de PIAS,Actuación,GestorConsultas.frmResumenHistorial,,,subusu,
+8,Cobros de Aseguradoras,,GestorConsultas.Forms.frmResumenCobrosMutua,,,codsubusu,
+12,Control de Medicación,Medicación,,,,,
+13,Movimientos de Stock,,,,,,
+15,Control de Camas,,,,,,
+16,AtenciÃ³n al Cliente,Tarea,Tarea,,,icodusu,
+17,Control de Tratamientos,,,,,,
+18,Control de Peticiones,,,,,,
+19,Controles Médicos,,,,,,
+20,Control de Stock,,,,,,
+21,Control Comercial,Venta,,,,,
+22,Facturas,,,,,codsubusu,
+25,Proformas,,,,,,
+26,Albaranes,,,,,,
+27,Pedidos,,,,,,
+28,Presupuestos,,,,,,
+29,Órdenes de Trabajo,,,,,,
+30,Control de Potenciales,,,,,clitrabajadores,"fechaalta DESC,icodcli DESC"
+31,Control de Clientes,,,,,clitrabajadores,"fechaalta DESC,icodcli DESC"
+32,Control de Expedientes,,,,,exclipro,expediente DESC
+34,Control de Bonos,,,,,,
+35,Proveedores,,,,,clitrabajadores,"fechaalta DESC,icodcli DESC"
+38,Pacientes,,,,,clitrabajadores,"fechaalta DESC,icodcli DESC"
+39,Alumnos,,,,,clitrabajadores,"fechaalta DESC,icodcli DESC"
+40,Time Report-Control Horario,,,,,subusu,
+41,Trabajadores,,,,,,"fechaalta DESC,icodcli DESC"
+42,Terceros,,,,,clitrabajadores,"fechaalta DESC,icodcli DESC"
+43,Aseguradoras,,,,,clitrabajadores,"fechaalta DESC,icodcli DESC"
+44,Compañías,,,,,clitrabajadores,"fechaalta DESC,icodcli DESC"
+45,Voluntarios,,,,,clitrabajadores,fechaalta DESC
+46,Financiadores,,,,,clitrabajadores,"fechaalta DESC,icodcli DESC"
+47,Tutores,,,,,clitrabajadores,"fechaalta DESC,icodcli DESC"
+48,Control de valoraciones,,,,,subusu,fecha DESC
+49,Facturas Recibidas,,,,,usuario,fecha desc
+50,Control de Tareas,Tareas,,,,icodusu,
+51,Control de Comisiones,Comisiones,,,,,
+52,Compras,,,,,icodusu,
+53,Control de Clases,Actuación,GestorConsultas.frmResumenHistorial,,,subusu,
+54,Recobros,,,,,icodusu,
+55,Artículos,,,,,subusu,
+56,Recursos,,,,,,fechaalta DESC
+57,Control de Adjuntos,,,,,,
+59,Diario,,,,,codsubusu,fechaAsiento DESC
+60,Albaranes Recibidos,,,,,usuario,fecha desc
+61,Control de Pagos,,,,,usuario,fecha desc
+62,Control de Cobros a Aseguradoras,,,,,,
+63,Control de Tesorería,,,,,,
+64,Control de Mascotas,,,,,,
+65,Control de Movimiento Recursos,Movimiento Recursos,,,,Movimiento Recursos,
+66,Control de Respuestas Escalas,Escalas,,,,,
+67,Control de PIA,,,,,icodusu,
+68,Control de Escalas,Escalas,,,,,
+69,Monitorización,,,,,subusu,
+70,Inmuebles,,,,,,
+71,Control de Trabajos,Trabajos,,,,,
+74,Control de WhatsApp,Comunicaciones Corporativas,Control de WhatsApp,,,,

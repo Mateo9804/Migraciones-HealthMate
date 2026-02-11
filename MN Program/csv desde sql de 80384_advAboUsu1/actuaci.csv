@@ -1,0 +1,1069 @@
+﻿indice,Orden,descripcion,diasfechaact,confechaven,diasfechaven,confechaavi,diasfechaavi,autoimporte,importe,origenimporte,campo,tipocuenta,condcto,plantilladcto,dctoenaltas,conemail,plantillaemail,emailenaltas,codigo,conactuenlace,actuenlace,tipotarifa,unidad,Referencia,honogasto,dias,tipo,alertas,actuenaltas,concodopeemail,codopeemailenaltas,codopeemail,autoimportecuentas,tipoactu,codsubusu,notas,notas2,notas3,notas4,notas5,notas6,campo1,campo2,campo3,backcolor,tiempo,tiempoprevisto,publicar,agenda,campo4,campo5,campo6,campo7,campo8,campo9,campo10,campo11,campo12,campo13,campo14,campo15,campo16,campo17,campo18,campofecha1,campofecha2,campofecha3,campofecha4,campofecha5,campofecha6,campofecha7,campofecha8,campofecha9,campofecha10,campofecha11,campofecha12,conlink,link,conlinkaltas,incluirlineasel,titulolink,tipodocumentolink,linkcarpeta,actufacturada,alarma,indexal,concodopeemailword,emailwordenaltas,plantillaemailusu,RecConWordCli,RecPlantillaWordCli,IndexTimeRecWordCli,RecConUsu,IndexTimeRecUsu,RecConWordUsu,RecPlantillaWordUsu,IndexTimeRecWordUsu,InfConEmailCli,InfPlantillaEmailCli,InfEmailCorreoenaltas,InfIdPlantillaEmailCli,RecConSmsCli,id_plantillasms,IndexTimeRecSmsCli,aula,fcostemateriales,fcosteamortizacion,fcosteterceros,fcosteotros,fcampolibre6,fcampolibre7,fcampolibre8,fcampolibre9,fcampolibre10,aplicarcoste,preciocoste,itabClase,fcostetotalcoste,fcostetotalbeneficio,fcosteporbeneficio,precio,campo19,campo20,campo21,campo22,campo23,campo24,campo25,campo26,campo27,campofecha13,campofecha14,campofecha15,campofecha16,campofecha17,campofecha18,RecConSMSAbo,id_plantillaSMSAbo,IndexTimeRecSMSAbo,RecConWordAbo,RecPlantillaWordAbo,IndexTimeRecWordAbo,RecConSMSPro,id_plantillaSMSPro,IndexTimeRecSMSPro,RecConWordPro,RecPlantillaWordPro,IndexTimeRecWordPro,incluiractufechatipo,tipoplazoseg,RecConPlantillaCli,RecPlantillaCli,IndexTiempoRecordaCli,IndexIncluirRecordaCli,tipohistotr,emailCliRealizarActuacion,emailCliRealizarActuacionPlantillaID,infEmailUsu,infPlantillaEmailUsu,infEmailUsuRealizarActu,InfIdPlantillaEmailUsu,porComision,importeFijoComision,valorDefecto,idTipoResp,idTarifa,dpto,numActAviso,numDiasAviso,ctaiva,autoCoste,autoCosteImporte,favorito,citaonline,actuRealizada
+-1,0,Revisión 1 año,0,0,0,0,0,0,0.0000,0,,HONORARIO,0,,0,0,,0,2218,0,,0,1.0,,0,0,Actuación,0,1,0,,,0,-1,0,"{\rtf1\ansi\ansicpg1252\deff0\deflang3082{\fonttbl{\f0\fnil\fcharset0 Microsoft Sans Serif;}}
+\viewkind4\uc1\pard\f0\fs20\par
+}
+","{\rtf1\ansi\ansicpg1252\deff0\deflang3082{\fonttbl{\f0\fnil\fcharset0 Microsoft Sans Serif;}}
+\viewkind4\uc1\pard\f0\fs20\par
+}
+","{\rtf1\ansi\ansicpg1252\deff0\deflang3082{\fonttbl{\f0\fnil\fcharset0 Microsoft Sans Serif;}}
+\viewkind4\uc1\pard\f0\fs20\par
+}
+","{\rtf1\ansi\ansicpg1252\deff0\deflang3082{\fonttbl{\f0\fnil\fcharset0 Microsoft Sans Serif;}}
+\viewkind4\uc1\pard\f0\fs20\par
+}
+","{\rtf1\ansi\ansicpg1252\deff0\deflang3082{\fonttbl{\f0\fnil\fcharset0 Microsoft Sans Serif;}}
+\viewkind4\uc1\pard\f0\fs20\par
+}
+","{\rtf1\ansi\ansicpg1252\deff0\deflang3082{\fonttbl{\f0\fnil\fcharset0 Microsoft Sans Serif;}}
+\viewkind4\uc1\pard\f0\fs20\par
+}
+",,,,6610596.0000,0,0,0,1,,,,,,,,,,,,,,,,,,,,,,,,,,,,0,,1,0,,,0,1,0,0,0,,,,,,,,,,,0,,,,,,,,,,,,,,,,,,0.0000,-1,0.0000,0.0000,0.0000,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,0,,0,,,,,,,,,,,,,0,0.0000,,False,
+-1,8,Revisión 1 año,0,0,0,0,0,0,0.0000,0,,HONORARIO,0,,0,0,,0,2219,0,,0,1.0,,0,0,Actuación,0,1,0,,,0,-1,0,"{\rtf1\ansi\ansicpg1252\deff0\deflang3082{\fonttbl{\f0\fnil\fcharset0 Microsoft Sans Serif;}}
+\viewkind4\uc1\pard\f0\fs20\par
+}
+","{\rtf1\ansi\ansicpg1252\deff0\deflang3082{\fonttbl{\f0\fnil\fcharset0 Microsoft Sans Serif;}}
+\viewkind4\uc1\pard\f0\fs20\par
+}
+","{\rtf1\ansi\ansicpg1252\deff0\deflang3082{\fonttbl{\f0\fnil\fcharset0 Microsoft Sans Serif;}}
+\viewkind4\uc1\pard\f0\fs20\par
+}
+","{\rtf1\ansi\ansicpg1252\deff0\deflang3082{\fonttbl{\f0\fnil\fcharset0 Microsoft Sans Serif;}}
+\viewkind4\uc1\pard\f0\fs20\par
+}
+","{\rtf1\ansi\ansicpg1252\deff0\deflang3082{\fonttbl{\f0\fnil\fcharset0 Microsoft Sans Serif;}}
+\viewkind4\uc1\pard\f0\fs20\par
+}
+","{\rtf1\ansi\ansicpg1252\deff0\deflang3082{\fonttbl{\f0\fnil\fcharset0 Microsoft Sans Serif;}}
+\viewkind4\uc1\pard\f0\fs20\par
+}
+",,,,7649020.0000,0,0,0,0,,,,,,,,,,,,,,,,,,,,,,,,,,,,0,,1,0,,,0,1,0,0,0,,,,,,,,,,,0,,,,,,,,,,,,,,,,,,0.0000,-1,0.0000,0.0000,0.0000,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,0,,0,,,,,,,,,,,,,0,0.0000,,False,
+0,01,Introducción: Conocer y comunicar la normativa de protección de datos,0,0,0,0,0,0,0.0000,0,,HONORARIO,0,,0,0,,0,2153,0,,-1,1.0,,0,0,Protección de Datos,0,0,0,,-1,0,1,0,"{\rtf1\ansi\ansicpg1252\deff0\deflang3082{\fonttbl{\f0\fswiss\fprq2\fcharset0 Calibri;}{\f1\fswiss\fprq2\fcharset0 Microsoft Sans Serif;}{\f2\fnil\fcharset0 Microsoft Sans Serif;}}
+\viewkind4\uc1\pard\sa200\sl276\slmult1\f0\fs24   \fs22 Adjuntamos la Gu\'eda oficial de la AGPD con el fin de que te pueda servir para adquirir un conocimiento suficiente para la gesti\'f3n de tus datos de acuerdo a la normativa vigente. \par
+ Adem\'e1s en este expediente hemos incluido una serie de actuaciones que te ayudar\'e1n a revisar y gestionar las cuestiones m\'e1s relevantes en materia de protecci\'f3n de datos:\par
+\pard\fi-360\li720\sa200\sl276\slmult1  \f1 -\tab\f0 Realizar un An\'e1lisis de Seguridad de MN program y gestionar las posibles incidencias\par
+ \f1 -\tab\f0 Realizar una Auditor\'eda de Datos de MN program y gestionar las posibles incidencias\par
+ \f1 -\tab\f0 Identificar los datos personales que se tratan\par
+ \f1 -\tab\f0 Realizar, documentar y registrar las actividades de tratamiento \par
+ \f1 -\tab\f0 Evaluar el nivel de seguridad actual (EIPD) \par
+ \f1 -\tab\f0 Realizar y comunicar el Documento de Seguridad\par
+ \f1 -\tab\f0 Analizar y adaptar a la normativa vigente los Contratos de tratamiento y confidencialidad firmados con los distintos implicados\par
+ \f1 -\tab\f0 Realizar las comunicaciones pertinentes en materia de protecci\'f3n de datos \par
+ \f1 -\tab\f0 Si fuese necesario nombrar e identificar al Delegado de protecci\'f3n de datos\par
+ \f1 -\tab\f0 Establecer un calendario de controles peri\'f3dicos de cumplimiento\par
+\pard  \f2\fs20\par
+ \par
+}
+","{\rtf1\ansi\ansicpg1252\deff0\deflang3082{\fonttbl{\f0\fnil\fcharset0 Microsoft Sans Serif;}}
+\viewkind4\uc1\pard\f0\fs20\par
+}
+","{\rtf1\ansi\ansicpg1252\deff0\deflang3082{\fonttbl{\f0\fnil\fcharset0 Microsoft Sans Serif;}}
+\viewkind4\uc1\pard\f0\fs20\par
+}
+","{\rtf1\ansi\ansicpg1252\deff0\deflang3082{\fonttbl{\f0\fnil\fcharset0 Microsoft Sans Serif;}}
+\viewkind4\uc1\pard\f0\fs20\par
+}
+","{\rtf1\ansi\ansicpg1252\deff0\deflang3082{\fonttbl{\f0\fnil\fcharset0 Microsoft Sans Serif;}}
+\viewkind4\uc1\pard\f0\fs20\par
+}
+","{\rtf1\ansi\ansicpg1252\deff0\deflang3082{\fonttbl{\f0\fnil\fcharset0 Microsoft Sans Serif;}}
+\viewkind4\uc1\pard\f0\fs20\par
+}
+",,,,16777215.0000,0,0,0,1,,,,,,,,,,,,,,,,,,,,,,,,,,,,0,,0,0,,,0,0,0,-1,0,,,,,,,,,,,0,,,,0,0,0,,,,,,,,,,,,0.0000,0,0.0000,0.0000,0.0000,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,0,,0,,,,,,,,,,,,,0,0.0000,,False,
+0,01,Primera Consulta,0,0,0,0,0,0,0.0000,0,,HONORARIO,0,,0,0,,0,2143,0,,0,1.0,,0,0,Cita,0,1,0,,-1,0,0,0,"{\rtf1\ansi\ansicpg1252\deff0\deflang3082{\fonttbl{\f0\fnil\fcharset0 Microsoft Sans Serif;}}
+\viewkind4\uc1\pard\f0\fs20\par
+}
+","{\rtf1\ansi\ansicpg1252\deff0\deflang3082{\fonttbl{\f0\fnil\fcharset0 Microsoft Sans Serif;}}
+\viewkind4\uc1\pard\f0\fs20\par
+}
+","{\rtf1\ansi\ansicpg1252\deff0\deflang3082{\fonttbl{\f0\fnil\fcharset0 Microsoft Sans Serif;}}
+\viewkind4\uc1\pard\f0\fs20\par
+}
+","{\rtf1\ansi\ansicpg1252\deff0\deflang3082{\fonttbl{\f0\fnil\fcharset0 Microsoft Sans Serif;}}
+\viewkind4\uc1\pard\f0\fs20\par
+}
+","{\rtf1\ansi\ansicpg1252\deff0\deflang3082{\fonttbl{\f0\fnil\fcharset0 Microsoft Sans Serif;}}
+\viewkind4\uc1\pard\f0\fs20\par
+}
+","{\rtf1\ansi\ansicpg1252\deff0\deflang3082{\fonttbl{\f0\fnil\fcharset0 Microsoft Sans Serif;}}
+\viewkind4\uc1\pard\f0\fs20\par
+}
+",,,,8689404.0000,0,0,0,1,,,,,,,,,,,,,,,,,,,,,,,,,,,,0,,1,0,,,0,0,0,0,0,,,,,,,,,,,0,,,,0,0,0,,,,,,,,,,,,0.0000,0,0.0000,0.0000,0.0000,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,0,,0,,,,,,,,,,,,,0,0.0000,,False,
+0,02,Cita,0,0,0,0,0,0,0.0000,0,,HONORARIO,0,,0,0,,0,2144,0,,0,1.0,,0,0,Cita,0,1,0,,-1,0,0,2,"{\rtf1\ansi\ansicpg1252\deff0\deflang3082{\fonttbl{\f0\fnil\fcharset0 Microsoft Sans Serif;}}
+\viewkind4\uc1\pard\f0\fs20\par
+}
+","{\rtf1\ansi\ansicpg1252\deff0\deflang3082{\fonttbl{\f0\fnil\fcharset0 Microsoft Sans Serif;}}
+\viewkind4\uc1\pard\f0\fs20\par
+}
+","{\rtf1\ansi\ansicpg1252\deff0\deflang3082{\fonttbl{\f0\fnil\fcharset0 Microsoft Sans Serif;}}
+\viewkind4\uc1\pard\f0\fs20\par
+}
+","{\rtf1\ansi\ansicpg1252\deff0\deflang3082{\fonttbl{\f0\fnil\fcharset0 Microsoft Sans Serif;}}
+\viewkind4\uc1\pard\f0\fs20\par
+}
+","{\rtf1\ansi\ansicpg1252\deff0\deflang3082{\fonttbl{\f0\fnil\fcharset0 Microsoft Sans Serif;}}
+\viewkind4\uc1\pard\f0\fs20\par
+}
+","{\rtf1\ansi\ansicpg1252\deff0\deflang3082{\fonttbl{\f0\fnil\fcharset0 Microsoft Sans Serif;}}
+\viewkind4\uc1\pard\f0\fs20\par
+}
+",,,,16777215.0000,0,0,0,1,,,,,,,,,,,,,,,,,,,,,,,,,,,,0,,1,0,,,0,0,0,0,0,,,,,,,,,,,0,,,,0,0,0,,,,,,,,,,,,0.0000,0,0.0000,0.0000,0.0000,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,1,100000012,0,,,,,,,,,,,,,0,0.0000,,True,
+0,02,Paso 1: Nombramiento del Delegado de Protección de Datos,0,0,0,0,0,0,0.0000,0,,HONORARIO,0,,0,0,,0,2154,0,,-1,1.0,,0,0,Protección de Datos,0,0,0,,-1,0,1,0,"{\rtf1\ansi\ansicpg1252\deff0\deflang3082{\fonttbl{\f0\fswiss\fprq2\fcharset0 Calibri;}{\f1\fswiss\fprq2\fcharset0 Microsoft Sans Serif;}{\f2\fnil\fcharset0 Microsoft Sans Serif;}}
+{\colortbl ;\red44\green42\blue41;\red65\green169\blue64;\red0\green0\blue255;}
+\viewkind4\uc1\pard\sa200\sl276\slmult1\f0\fs24     \fs22 El DPD ser\'e1 el garante del cumplimiento del RGPD. Su misi\'f3n, adem\'e1s de asesorar a la empresa, ser\'e1 asegurarse de que se cumple con las obligaciones en protecci\'f3n de datos. Ser\'e1 interlocutor con la AEPD y los ciudadanos que quieran ejercer sus derechos ante la empresa\par
+ No todas las organizaciones est\'e1n obligadas a contar con esta figura, y en todo caso podr\'eda ser un empleado o un externo.\par
+ El DPD estar\'e1 presente de forma obligatoria en:\par
+\pard\fi-360\li720\sa200\sl276\slmult1  \f1 -\tab\f0 Las organizaciones p\'fablicas\par
+ \f1 -\tab\f0 Las empresas que realicen tratamiento masivo de datos o a gran escala. Y aqu\'ed no se refiere tanto al tama\'f1o de la organizaci\'f3n como al riesgo que pueda suponer para los datos, sin depender del tama\'f1o de la empresa o el n\'famero de empleados. Por ejemplo, un taller que tiene miles de clientes pero una peque\'f1a cl\'ednica dental, con menos clientes pero con datos sensibles s\'ed est\'e1 obligada.\par
+\pard\fi-360\li720  \f1 -\tab\f0 Las \cf1\b empresas que traten datos de especial protecci\'f3n\cf0\b0 , como podr\'edan ser etnia, ideolog\'eda, religi\'f3n, \cf2 datos gen\'e9ticos, relativos a la salud, biom\'e9tricos <https://www.sage.com/es-es/blog/el-reglamento-general-de-proteccion-de-datos-i-aspectos-basicos/>\cf0  u orientaci\'f3n sexual, entre otros\par
+ \f1 -\tab\f0 Empresas que recojan caracter\'edsticas psicol\'f3gicas y de comportamiento de las personas\par
+\pard  Si necesitas formaci\'f3n para ejercer esta funci\'f3n puedes revisar el esquema de certificaci\'f3n de la AGPD: \cf3\ul <https://www.aepd.es/reglamento/cumplimiento/delegado-de-proteccion-de-datos.html>\cf0\ulnone\par
+ \f2\fs20\par
+ \par
+}
+","{\rtf1\ansi\ansicpg1252\deff0\deflang3082{\fonttbl{\f0\fnil\fcharset0 Microsoft Sans Serif;}}
+\viewkind4\uc1\pard\f0\fs20\par
+}
+","{\rtf1\ansi\ansicpg1252\deff0\deflang3082{\fonttbl{\f0\fnil\fcharset0 Microsoft Sans Serif;}}
+\viewkind4\uc1\pard\f0\fs20\par
+}
+","{\rtf1\ansi\ansicpg1252\deff0\deflang3082{\fonttbl{\f0\fnil\fcharset0 Microsoft Sans Serif;}}
+\viewkind4\uc1\pard\f0\fs20\par
+}
+","{\rtf1\ansi\ansicpg1252\deff0\deflang3082{\fonttbl{\f0\fnil\fcharset0 Microsoft Sans Serif;}}
+\viewkind4\uc1\pard\f0\fs20\par
+}
+","{\rtf1\ansi\ansicpg1252\deff0\deflang3082{\fonttbl{\f0\fnil\fcharset0 Microsoft Sans Serif;}}
+\viewkind4\uc1\pard\f0\fs20\par
+}
+",,,,16777215.0000,0,0,0,1,,,,,,,,,,,,,,,,,,,,,,,,,,,,0,,0,0,,,0,0,0,-1,0,,,,,,,,,,,0,,,,0,0,0,,,,,,,,,,,,0.0000,0,0.0000,0.0000,0.0000,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,0,,0,,,,,,,,,,,,,0,0.0000,,False,
+0,03,Paso 2: Identificación de los datos personales que se tratan,0,0,0,0,0,0,0.0000,0,,HONORARIO,0,,0,0,,0,2155,0,,-1,1.0,,0,0,Protección de Datos,0,0,0,,-1,0,1,0,"{\rtf1\ansi\ansicpg1252\deff0\deflang3082{\fonttbl{\f0\fswiss\fprq2\fcharset0 Calibri;}{\f1\fnil\fcharset0 Microsoft Sans Serif;}}
+\viewkind4\uc1\pard\sa200\sl276\slmult1\f0\fs24   \fs22 Para poder determinar que procedimientos debemos realizar, antes debemos analizar los tipos de datos que tratamos.\par
+\pard  De acuerdo con el \i\fs23 RGPD <https://www.iberley.es/legislacion/reglamento-ue-2016-679-27-abr-doue-reglamento-general-europeo-proteccion-datos-gdpr-rgpd-24473701>\i0\fs22 , se consideran \'abdatos personales\'bb toda informaci\'f3n sobre una \ul\b persona f\'edsica\ulnone\b0  cuya identidad pueda determinarse, directa o indirectamente, en particular mediante un identificador, como por ejemplo un nombre, un n\'famero de identificaci\'f3n, datos de localizaci\'f3n, un identificador en l\'ednea o uno o varios elementos propios de la identidad f\'edsica, fisiol\'f3gica, gen\'e9tica, ps\'edquica, econ\'f3mica, cultural o social de dicha persona.\par
+ Hay una serie de \ul\b datos especialmente sensibles\ulnone\b0  que requieren especial atenci\'f3n, a modo informativo citamos algunos: origen \'e9tnico o racial, las opiniones pol\'edticas, las convicciones religiosas o filos\'f3ficas, o la afiliaci\'f3n sindical, y el tratamiento de datos gen\'e9ticos, datos biom\'e9tricos dirigidos a identificar de manera un\'edvoca a una persona f\'edsica, datos relativos a la salud o datos relativos a la vida sexual o las orientaci\'f3n sexuales de una persona f\'edsica y aquellos  relativos a condenas e infracciones penales. \par
+ Para ayudarte con este proceso adjuntamos un documento que te servir\'e1 de gu\'eda para analizar aquellos supuestos m\'e1s habituales.\par
+ \f1\fs20\par
+ \par
+}
+","{\rtf1\ansi\ansicpg1252\deff0\deflang3082{\fonttbl{\f0\fnil\fcharset0 Microsoft Sans Serif;}}
+\viewkind4\uc1\pard\f0\fs20\par
+}
+","{\rtf1\ansi\ansicpg1252\deff0\deflang3082{\fonttbl{\f0\fnil\fcharset0 Microsoft Sans Serif;}}
+\viewkind4\uc1\pard\f0\fs20\par
+}
+","{\rtf1\ansi\ansicpg1252\deff0\deflang3082{\fonttbl{\f0\fnil\fcharset0 Microsoft Sans Serif;}}
+\viewkind4\uc1\pard\f0\fs20\par
+}
+","{\rtf1\ansi\ansicpg1252\deff0\deflang3082{\fonttbl{\f0\fnil\fcharset0 Microsoft Sans Serif;}}
+\viewkind4\uc1\pard\f0\fs20\par
+}
+","{\rtf1\ansi\ansicpg1252\deff0\deflang3082{\fonttbl{\f0\fnil\fcharset0 Microsoft Sans Serif;}}
+\viewkind4\uc1\pard\f0\fs20\par
+}
+",,,,16777215.0000,0,0,0,1,,,,,,,,,,,,,,,,,,,,,,,,,,,,0,,0,0,,,0,0,0,-1,0,,,,,,,,,,,0,,,,0,0,0,,,,,,,,,,,,0.0000,0,0.0000,0.0000,0.0000,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,0,,0,,,,,,,,,,,,,0,0.0000,,False,
+0,03,Receta,0,0,0,0,0,0,0.0000,0,,HONORARIO,0,,0,0,,0,2149,0,,0,1.0,,0,0,Cita,0,1,0,,-1,0,0,0,"{\rtf1\ansi\ansicpg1252\deff0\deflang3082{\fonttbl{\f0\fnil\fcharset0 Microsoft Sans Serif;}}
+\viewkind4\uc1\pard\f0\fs20\par
+}
+","{\rtf1\ansi\ansicpg1252\deff0\deflang3082{\fonttbl{\f0\fnil\fcharset0 Microsoft Sans Serif;}}
+\viewkind4\uc1\pard\f0\fs20\par
+}
+","{\rtf1\ansi\ansicpg1252\deff0\deflang3082{\fonttbl{\f0\fnil\fcharset0 Microsoft Sans Serif;}}
+\viewkind4\uc1\pard\f0\fs20\par
+}
+","{\rtf1\ansi\ansicpg1252\deff0\deflang3082{\fonttbl{\f0\fnil\fcharset0 Microsoft Sans Serif;}}
+\viewkind4\uc1\pard\f0\fs20\par
+}
+","{\rtf1\ansi\ansicpg1252\deff0\deflang3082{\fonttbl{\f0\fnil\fcharset0 Microsoft Sans Serif;}}
+\viewkind4\uc1\pard\f0\fs20\par
+}
+","{\rtf1\ansi\ansicpg1252\deff0\deflang3082{\fonttbl{\f0\fnil\fcharset0 Microsoft Sans Serif;}}
+\viewkind4\uc1\pard\f0\fs20\par
+}
+",,,,16777215.0000,0,0,0,0,,,,,,,,,,,,,,,,,,,,,,,,,,,,0,,1,0,,,0,0,0,0,0,,,,,,,,,,,0,,,,0,0,0,,,,,,,,,,,,0.0000,0,0.0000,0.0000,0.0000,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,0,,0,,,,,,,,,,,,,0,0.0000,,False,
+0,04,Paso 3: Registro de las actividades de tratamiento,0,0,0,0,0,0,0.0000,0,,HONORARIO,0,,0,0,,0,2156,0,,-1,1.0,,0,0,Protección de Datos,0,0,0,,-1,0,1,0,"{\rtf1\ansi\ansicpg1252\deff0\deflang3082{\fonttbl{\f0\fswiss\fprq2\fcharset0 Calibri;}{\f1\fswiss\fprq2\fcharset0 Microsoft Sans Serif;}{\f2\fnil\fcharset0 Microsoft Sans Serif;}}
+\viewkind4\uc1\pard\sa200\sl276\slmult1\f0\fs24   \fs22 El RGPD sustituye la obligaci\'f3n de inscribir ficheros en la AEPD por la de realizar un registro de actividades de tratamiento.\par
+ Dicha obligaci\'f3n corresponde tanto al Responsable del fichero como al Encargado del tratamiento. \par
+ Todos debemos contar con documentaci\'f3n interna relativa a las actividades de tratamiento que realizamos, pero el RGPD no obliga a cualquier responsable o encargado a realizar el Registro de dicha documentaci\'f3n en todos los casos. Registrar las actividades de tratamiento en la AGPD ser\'e1 obligatorio si:\par
+\pard\fi-360\li720\sa200\sl276\slmult1  \f1 -\tab\f0 La empresa u organizaci\'f3n tenga m\'e1s de 250 empleados.\par
+ \f1 -\tab\f0 Se realicen tratamientos que puedan entra\'f1ar un riesgo para los derechos y libertades de los interesados, no sean ocasionales, o incluyan categor\'edas especiales de datos personales.\par
+ \f1 -\tab\f0 Se realice un tratamiento de datos personales relativos a condenas e infracciones penales.\par
+\pard  Si est\'e1s en alguno de estos casos deber\'e1s ir a la sede de la agencia e inscribir los documentos correspondientes: <https://sedeagpd.gob.es/sede-electronica-web/vistas/infoSede/queSede.jsf>\par
+ Puedes utilizar el documento adjunto al paso anterior como gu\'eda para documentar las actividades de tratamiento m\'e1s comunes.\par
+ \f2\fs20\par
+ \par
+}
+","{\rtf1\ansi\ansicpg1252\deff0\deflang3082{\fonttbl{\f0\fnil\fcharset0 Microsoft Sans Serif;}}
+\viewkind4\uc1\pard\f0\fs20\par
+}
+","{\rtf1\ansi\ansicpg1252\deff0\deflang3082{\fonttbl{\f0\fnil\fcharset0 Microsoft Sans Serif;}}
+\viewkind4\uc1\pard\f0\fs20\par
+}
+","{\rtf1\ansi\ansicpg1252\deff0\deflang3082{\fonttbl{\f0\fnil\fcharset0 Microsoft Sans Serif;}}
+\viewkind4\uc1\pard\f0\fs20\par
+}
+","{\rtf1\ansi\ansicpg1252\deff0\deflang3082{\fonttbl{\f0\fnil\fcharset0 Microsoft Sans Serif;}}
+\viewkind4\uc1\pard\f0\fs20\par
+}
+","{\rtf1\ansi\ansicpg1252\deff0\deflang3082{\fonttbl{\f0\fnil\fcharset0 Microsoft Sans Serif;}}
+\viewkind4\uc1\pard\f0\fs20\par
+}
+",,,,16777215.0000,0,0,0,1,,,,,,,,,,,,,,,,,,,,,,,,,,,,0,,0,0,,,0,0,0,-1,0,,,,,,,,,,,0,,,,0,0,0,,,,,,,,,,,,0.0000,0,0.0000,0.0000,0.0000,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,0,,0,,,,,,,,,,,,,0,0.0000,,False,
+0,04,Revisión,0,0,0,0,0,0,0.0000,0,,HONORARIO,0,,0,0,,0,2145,0,,0,1.0,,0,0,Cita,0,1,0,,-1,0,0,0,"{\rtf1\ansi\ansicpg1252\deff0\deflang3082{\fonttbl{\f0\fnil\fcharset0 Microsoft Sans Serif;}}
+\viewkind4\uc1\pard\f0\fs20\par
+}
+","{\rtf1\ansi\ansicpg1252\deff0\deflang3082{\fonttbl{\f0\fnil\fcharset0 Microsoft Sans Serif;}}
+\viewkind4\uc1\pard\f0\fs20\par
+}
+","{\rtf1\ansi\ansicpg1252\deff0\deflang3082{\fonttbl{\f0\fnil\fcharset0 Microsoft Sans Serif;}}
+\viewkind4\uc1\pard\f0\fs20\par
+}
+","{\rtf1\ansi\ansicpg1252\deff0\deflang3082{\fonttbl{\f0\fnil\fcharset0 Microsoft Sans Serif;}}
+\viewkind4\uc1\pard\f0\fs20\par
+}
+","{\rtf1\ansi\ansicpg1252\deff0\deflang3082{\fonttbl{\f0\fnil\fcharset0 Microsoft Sans Serif;}}
+\viewkind4\uc1\pard\f0\fs20\par
+}
+","{\rtf1\ansi\ansicpg1252\deff0\deflang3082{\fonttbl{\f0\fnil\fcharset0 Microsoft Sans Serif;}}
+\viewkind4\uc1\pard\f0\fs20\par
+}
+",,,,16777215.0000,0,0,0,1,,,,,,,,,,,,,,,,,,,,,,,,,,,,0,,1,0,,,0,0,0,0,0,,,,,,,,,,,0,,,,0,0,0,,,,,,,,,,,,0.0000,0,0.0000,0.0000,0.0000,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,0,,0,,,,,,,,,,,,,0,0.0000,,False,
+0,05,Paso 4: Análisis del nivel de seguridad (EIPD),0,0,0,0,0,0,0.0000,0,,HONORARIO,0,,0,0,,0,2157,0,,-1,1.0,,0,0,Protección de Datos,0,0,0,,-1,0,1,0,"{\rtf1\ansi\ansicpg1252\deff0\deflang3082{\fonttbl{\f0\fswiss\fprq2\fcharset0 Calibri;}{\f1\fswiss\fprq2\fcharset0 Microsoft Sans Serif;}{\f2\fnil\fcharset0 Microsoft Sans Serif;}}
+\viewkind4\uc1\pard\sa200\sl276\slmult1\f0\fs24   \fs22 Teniendo en cuenta el estado de la t\'e9cnica, los costes de aplicaci\'f3n, y la naturaleza, el alcance, el contexto y los fines del tratamiento, as\'ed como riesgos de probabilidad y gravedad variables para los derechos y libertades de las personas f\'edsicas, el responsable y el encargado del tratamiento aplicar\'e1n \ul\b medidas t\'e9cnicas y organizativas apropiadas para garantizar un nivel de seguridad adecuado al riesgo.\ulnone\b0\par
+ \ul\b El RGPD exige una Evaluaci\'f3n de Impacto (EIPD)\ulnone\b0  cuando el tratamiento pueda entra\'f1ar un alto riesgo para los derechos y libertades de las personas. Se exige una EIPD por lo menos en los tres casos siguientes:\par
+\pard\fi-360\li720\sa200\sl276\slmult1  \f1 -\tab\f0 la evaluaci\'f3n sistem\'e1tica y exhaustiva de aspectos personales de una persona, incluida la elaboraci\'f3n de perfiles,\par
+ \f1 -\tab\f0 el tratamiento a gran escala de datos sensibles,\par
+ \f1 -\tab\f0 la observaci\'f3n sistem\'e1tica a gran escala de una zona p\'fablica.\par
+\pard\sa200\sl276\slmult1  Te recomendamos que ejecutes la herramienta \b An\'e1lisis de seguridad\b0  y revises los \b Permisos de MN program\b0  para evaluar el estado de situaci\'f3n actual. As\'ed mismo te sugerimos que actives la \b Auditor\'eda de datos\b0  para registrar posibles incidencias.  Recuerda que esta herramienta s\'f3lo verificar\'e1 aquellos procesos que realices dentro de MN program.\par
+ Si tienes dudas o quieres profundizar en este tema te recomendamos que leas el documento adjunto.\par
+\pard  \f2\fs20\par
+ \par
+}
+","{\rtf1\ansi\ansicpg1252\deff0\deflang3082{\fonttbl{\f0\fnil\fcharset0 Microsoft Sans Serif;}}
+\viewkind4\uc1\pard\f0\fs20\par
+}
+","{\rtf1\ansi\ansicpg1252\deff0\deflang3082{\fonttbl{\f0\fnil\fcharset0 Microsoft Sans Serif;}}
+\viewkind4\uc1\pard\f0\fs20\par
+}
+","{\rtf1\ansi\ansicpg1252\deff0\deflang3082{\fonttbl{\f0\fnil\fcharset0 Microsoft Sans Serif;}}
+\viewkind4\uc1\pard\f0\fs20\par
+}
+","{\rtf1\ansi\ansicpg1252\deff0\deflang3082{\fonttbl{\f0\fnil\fcharset0 Microsoft Sans Serif;}}
+\viewkind4\uc1\pard\f0\fs20\par
+}
+","{\rtf1\ansi\ansicpg1252\deff0\deflang3082{\fonttbl{\f0\fnil\fcharset0 Microsoft Sans Serif;}}
+\viewkind4\uc1\pard\f0\fs20\par
+}
+",,,,16777215.0000,0,0,0,1,,,,,,,,,,,,,,,,,,,,,,,,,,,,0,,0,0,,,0,0,0,-1,0,,,,,,,,,,,0,,,,0,0,0,,,,,,,,,,,,0.0000,0,0.0000,0.0000,0.0000,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,0,,0,,,,,,,,,,,,,0,0.0000,,False,
+0,05,Urgencia,0,0,0,0,0,0,0.0000,0,,HONORARIO,0,,0,0,,0,2148,0,,0,1.0,,0,0,Cita,0,1,0,,-1,0,0,0,"{\rtf1\ansi\ansicpg1252\deff0\deflang3082{\fonttbl{\f0\fnil\fcharset0 Microsoft Sans Serif;}}
+\viewkind4\uc1\pard\f0\fs20\par
+}
+","{\rtf1\ansi\ansicpg1252\deff0\deflang3082{\fonttbl{\f0\fnil\fcharset0 Microsoft Sans Serif;}}
+\viewkind4\uc1\pard\f0\fs20\par
+}
+","{\rtf1\ansi\ansicpg1252\deff0\deflang3082{\fonttbl{\f0\fnil\fcharset0 Microsoft Sans Serif;}}
+\viewkind4\uc1\pard\f0\fs20\par
+}
+","{\rtf1\ansi\ansicpg1252\deff0\deflang3082{\fonttbl{\f0\fnil\fcharset0 Microsoft Sans Serif;}}
+\viewkind4\uc1\pard\f0\fs20\par
+}
+","{\rtf1\ansi\ansicpg1252\deff0\deflang3082{\fonttbl{\f0\fnil\fcharset0 Microsoft Sans Serif;}}
+\viewkind4\uc1\pard\f0\fs20\par
+}
+","{\rtf1\ansi\ansicpg1252\deff0\deflang3082{\fonttbl{\f0\fnil\fcharset0 Microsoft Sans Serif;}}
+\viewkind4\uc1\pard\f0\fs20\par
+}
+",,,,255.0000,0,0,0,1,,,,,,,,,,,,,,,,,,,,,,,,,,,,0,,1,0,,,0,0,0,0,0,,,,,,,,,,,0,,,,0,0,0,,,,,,,,,,,,0.0000,0,0.0000,0.0000,0.0000,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,0,,0,,,,,,,,,,,,,0,0.0000,,False,
+0,06,Informe,0,0,0,0,0,0,0.0000,0,,HONORARIO,0,,0,0,,0,2175,0,,0,1.0,,0,0,Informe,0,1,0,,-1,0,0,0,"{\rtf1\ansi\ansicpg1252\deff0\deflang3082{\fonttbl{\f0\fnil\fcharset0 Microsoft Sans Serif;}}
+\viewkind4\uc1\pard\f0\fs20\par
+}
+","{\rtf1\ansi\ansicpg1252\deff0\deflang3082{\fonttbl{\f0\fnil\fcharset0 Microsoft Sans Serif;}}
+\viewkind4\uc1\pard\f0\fs20\par
+}
+","{\rtf1\ansi\ansicpg1252\deff0\deflang3082{\fonttbl{\f0\fnil\fcharset0 Microsoft Sans Serif;}}
+\viewkind4\uc1\pard\f0\fs20\par
+}
+","{\rtf1\ansi\ansicpg1252\deff0\deflang3082{\fonttbl{\f0\fnil\fcharset0 Microsoft Sans Serif;}}
+\viewkind4\uc1\pard\f0\fs20\par
+}
+","{\rtf1\ansi\ansicpg1252\deff0\deflang3082{\fonttbl{\f0\fnil\fcharset0 Microsoft Sans Serif;}}
+\viewkind4\uc1\pard\f0\fs20\par
+}
+","{\rtf1\ansi\ansicpg1252\deff0\deflang3082{\fonttbl{\f0\fnil\fcharset0 Microsoft Sans Serif;}}
+\viewkind4\uc1\pard\f0\fs20\par
+}
+",,,,16777215.0000,0,0,0,0,,,,,,,,,,,,,,,,,,,,,,,,,,,,0,,1,0,,,0,0,0,0,0,,,,,,,,,,,0,,,,0,0,0,,,,,,,,,,,,0.0000,0,0.0000,0.0000,0.0000,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,0,,0,,,,,,,,,,,,,0,0.0000,,False,
+0,06,Paso 5: Elaborar el Documento de Seguridad,0,0,0,0,0,0,0.0000,0,,HONORARIO,0,,0,0,,0,2158,0,,-1,1.0,,0,0,Protección de Datos,0,0,0,,-1,0,1,0,"{\rtf1\ansi\ansicpg1252\deff0\deflang3082{\fonttbl{\f0\fswiss\fprq2\fcharset0 Calibri;}{\f1\fswiss\fprq2\fcharset0 Microsoft Sans Serif;}{\f2\fnil\fcharset0 Microsoft Sans Serif;}}
+\viewkind4\uc1\pard\sa200\sl276\slmult1\f0\fs24   \fs22 El RGPD ya no distingue entre ficheros de nivel b\'e1sico, medio o alto, sino que especifica que las medidas de seguridad se aplicar\'e1n teniendo en cuenta el estado de la t\'e9cnica, los costes de aplicaci\'f3n, y la naturaleza, el alcance, el contexto y los fines del tratamiento, as\'ed como los riesgos para los derechos y libertades de las personas f\'edsicas. \par
+ Al evaluar la adecuaci\'f3n del nivel de seguridad se tendr\'e1n particularmente en cuenta los riesgos que presente el tratamiento de datos, en particular como consecuencia de la destrucci\'f3n, p\'e9rdida o alteraci\'f3n accidental o il\'edcita de datos personales transmitidos, conservados o tratados de otra forma, o la comunicaci\'f3n o acceso no autorizados a dichos datos\par
+ La nueva legislaci\'f3n habla de la \ldblquote Protecci\'f3n de datos desde el dise\'f1o y por defecto\ldblquote , as\'ed como de \ldblquote medidas t\'e9cnicas y organizativas apropiadas\rdblquote  para garantizar un nivel de seguridad adecuado al riesgo. \par
+ En particular cita una serie de medidas generales:\par
+\pard\fi-360\li720\sa200\sl276\slmult1  \f1 -\tab\f0 la seudonimizaci\'f3n y el cifrado de datos personales; \par
+ \f1 -\tab\f0 la capacidad de garantizar la confidencialidad, integridad, disponibilidad y resiliencia permanentes de los sistemas y servicios de tratamiento;\par
+ \f1 -\tab\f0 la capacidad de restaurar la disponibilidad y el acceso a los datos personales de forma r\'e1pida en caso de incidente f\'edsico o t\'e9cnico; \par
+ \f1 -\tab\f0 un proceso de verificaci\'f3n, evaluaci\'f3n y valoraci\'f3n regulares de la eficacia de las medidas t\'e9cnicas y organizativas para garantizar la seguridad del tratamiento.\par
+\pard\sa200\sl276\slmult1  Recuerda que hay varias formas de demostrar que tienes las medidas de seguridad necesarias:\par
+\pard\fi-360\li720\sa200\sl276\slmult1  \f1 -\tab\f0 Elaborar tu propio \b Documento de seguridad\b0 , aplicarlo y hacerle un seguimiento peri\'f3dico. Para ayudarte con este proceso hemos incluido un documento adjunto que te servir\'e1 de gu\'eda para elaborar tu propio documento de seguridad. \par
+ \f1 -\tab\f0 La adhesi\'f3n a un \b c\'f3digo de conducta\b0  aprobado o a un mecanismo de \b certificaci\'f3n\b0  aprobado\par
+\pard  Para ayudarte a implantar tu sistema obligatorio de copias de seguridad externas ponemos a tu disposici\'f3n el m\'f3dulo \b Backup Cloud.\b0\f2\fs20\par
+ \par
+}
+","{\rtf1\ansi\ansicpg1252\deff0\deflang3082{\fonttbl{\f0\fnil\fcharset0 Microsoft Sans Serif;}}
+\viewkind4\uc1\pard\f0\fs20\par
+}
+","{\rtf1\ansi\ansicpg1252\deff0\deflang3082{\fonttbl{\f0\fnil\fcharset0 Microsoft Sans Serif;}}
+\viewkind4\uc1\pard\f0\fs20\par
+}
+","{\rtf1\ansi\ansicpg1252\deff0\deflang3082{\fonttbl{\f0\fnil\fcharset0 Microsoft Sans Serif;}}
+\viewkind4\uc1\pard\f0\fs20\par
+}
+","{\rtf1\ansi\ansicpg1252\deff0\deflang3082{\fonttbl{\f0\fnil\fcharset0 Microsoft Sans Serif;}}
+\viewkind4\uc1\pard\f0\fs20\par
+}
+","{\rtf1\ansi\ansicpg1252\deff0\deflang3082{\fonttbl{\f0\fnil\fcharset0 Microsoft Sans Serif;}}
+\viewkind4\uc1\pard\f0\fs20\par
+}
+",,,,16777215.0000,0,0,0,1,,,,,,,,,,,,,,,,,,,,,,,,,,,,0,,0,0,,,0,0,0,-1,0,,,,,,,,,,,0,,,,0,0,0,,,,,,,,,,,,0.0000,0,0.0000,0.0000,0.0000,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,0,,0,,,,,,,,,,,,,0,0.0000,,False,
+0,07,Paso 6: Firmar contratos de tratamiento y confidencialidad,0,0,0,0,0,0,0.0000,0,,HONORARIO,0,,0,0,,0,2159,0,,-1,1.0,,0,0,Protección de Datos,0,0,0,,-1,0,1,0,"{\rtf1\ansi\ansicpg1252\deff0\deflang3082{\fonttbl{\f0\fswiss\fprq2\fcharset0 Calibri;}{\f1\fswiss\fprq2\fcharset0 Microsoft Sans Serif;}{\f2\fnil\fcharset0 Microsoft Sans Serif;}}
+\viewkind4\uc1\pard\sa200\sl276\slmult1\f0\fs24   \fs22 El RGPD exige un consentimiento libre, informado, espec\'edfico e inequ\'edvoco. Para poder considerar que el consentimiento es inequ\'edvoco, deber\'e1 existir  \b una declaraci\'f3n del interesado o una acci\'f3n positiva que manifieste su conformidad\b0 . Recuerda que el silencio, las casillas ya marcadas o la inacci\'f3n no constituir\'e1n prueba de consentimiento.\par
+ Para ayudarte con el proceso de obtenci\'f3n de dichos consentimiento adjuntamos una serie de plantillas modelo y actuaciones predefinidas:\par
+\pard\fi-360\li720\sa200\sl276\slmult1  \f1 -\tab\f0 Firmar contratos de tratamiento y confidencialidad con clientes\par
+ \f1 -\tab\f0 Firmar contratos de tratamiento y confidencialidad con potenciales\par
+ \f1 -\tab\f0 Firmar contratos de tratamiento y confidencialidad con trabajadores\par
+ \f1 -\tab\f0 Firmar contratos de tratamiento y confidencialidad con candidatos\par
+ \f1 -\tab\f0 Firmar contratos de tratamiento y confidencialidad con proveedores\par
+\pard  Ejecuta ahora un \b An\'e1lisis de Seguridad\b0  para comprobar en qu\'e9 incidencias existen.  Recuerda que tambi\'e9n puedes utilizar nuestro \b m\'f3dulo de Firma electr\'f3nica o el Emailer\b0  para agilizar y controlar este proceso.\f2\fs20\par
+ \par
+}
+","{\rtf1\ansi\ansicpg1252\deff0\deflang3082{\fonttbl{\f0\fnil\fcharset0 Microsoft Sans Serif;}}
+\viewkind4\uc1\pard\f0\fs20\par
+}
+","{\rtf1\ansi\ansicpg1252\deff0\deflang3082{\fonttbl{\f0\fnil\fcharset0 Microsoft Sans Serif;}}
+\viewkind4\uc1\pard\f0\fs20\par
+}
+","{\rtf1\ansi\ansicpg1252\deff0\deflang3082{\fonttbl{\f0\fnil\fcharset0 Microsoft Sans Serif;}}
+\viewkind4\uc1\pard\f0\fs20\par
+}
+","{\rtf1\ansi\ansicpg1252\deff0\deflang3082{\fonttbl{\f0\fnil\fcharset0 Microsoft Sans Serif;}}
+\viewkind4\uc1\pard\f0\fs20\par
+}
+","{\rtf1\ansi\ansicpg1252\deff0\deflang3082{\fonttbl{\f0\fnil\fcharset0 Microsoft Sans Serif;}}
+\viewkind4\uc1\pard\f0\fs20\par
+}
+",,,,16777215.0000,0,0,0,1,,,,,,,,,,,,,,,,,,,,,,,,,,,,0,,0,0,,,0,0,0,-1,0,,,,,,,,,,,0,,,,0,0,0,,,,,,,,,,,,0.0000,0,0.0000,0.0000,0.0000,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,0,,0,,,,,,,,,,,,,0,0.0000,,False,
+0,07,Pruebas Diagnósticas,0,0,0,0,0,0,0.0000,0,,HONORARIO,0,,0,0,,0,2202,0,,0,1.0,,0,0,Cita,0,1,0,,,0,0,0,"{\rtf1\ansi\ansicpg1252\deff0\deflang3082{\fonttbl{\f0\fnil\fcharset0 Microsoft Sans Serif;}}
+\viewkind4\uc1\pard\f0\fs20\par
+}
+","{\rtf1\ansi\ansicpg1252\deff0\deflang3082{\fonttbl{\f0\fnil\fcharset0 Microsoft Sans Serif;}}
+\viewkind4\uc1\pard\f0\fs20\par
+}
+","{\rtf1\ansi\ansicpg1252\deff0\deflang3082{\fonttbl{\f0\fnil\fcharset0 Microsoft Sans Serif;}}
+\viewkind4\uc1\pard\f0\fs20\par
+}
+","{\rtf1\ansi\ansicpg1252\deff0\deflang3082{\fonttbl{\f0\fnil\fcharset0 Microsoft Sans Serif;}}
+\viewkind4\uc1\pard\f0\fs20\par
+}
+","{\rtf1\ansi\ansicpg1252\deff0\deflang3082{\fonttbl{\f0\fnil\fcharset0 Microsoft Sans Serif;}}
+\viewkind4\uc1\pard\f0\fs20\par
+}
+","{\rtf1\ansi\ansicpg1252\deff0\deflang3082{\fonttbl{\f0\fnil\fcharset0 Microsoft Sans Serif;}}
+\viewkind4\uc1\pard\f0\fs20\par
+}
+",,,,16777215.0000,0,0,0,0,,,,,,,,,,,,,,,,,,,,,,,,,,,,0,,1,0,,,0,1,0,0,0,,,,,,,,,,,0,,,,,,,,,,,,,,,,,,0.0000,0,0.0000,0.0000,0.0000,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,0,,0,,,,,,,,,,,,,0,0.0000,,False,
+0,08,Consulta Telefónica,0,0,0,0,0,0,0.0000,0,,HONORARIO,0,,0,0,,0,2146,0,,0,1.0,,0,0,Llamada,0,1,0,,-1,0,0,0,"{\rtf1\ansi\ansicpg1252\deff0\deflang3082{\fonttbl{\f0\fnil\fcharset0 Microsoft Sans Serif;}}
+\viewkind4\uc1\pard\f0\fs20\par
+}
+","{\rtf1\ansi\ansicpg1252\deff0\deflang3082{\fonttbl{\f0\fnil\fcharset0 Microsoft Sans Serif;}}
+\viewkind4\uc1\pard\f0\fs20\par
+}
+","{\rtf1\ansi\ansicpg1252\deff0\deflang3082{\fonttbl{\f0\fnil\fcharset0 Microsoft Sans Serif;}}
+\viewkind4\uc1\pard\f0\fs20\par
+}
+","{\rtf1\ansi\ansicpg1252\deff0\deflang3082{\fonttbl{\f0\fnil\fcharset0 Microsoft Sans Serif;}}
+\viewkind4\uc1\pard\f0\fs20\par
+}
+","{\rtf1\ansi\ansicpg1252\deff0\deflang3082{\fonttbl{\f0\fnil\fcharset0 Microsoft Sans Serif;}}
+\viewkind4\uc1\pard\f0\fs20\par
+}
+","{\rtf1\ansi\ansicpg1252\deff0\deflang3082{\fonttbl{\f0\fnil\fcharset0 Microsoft Sans Serif;}}
+\viewkind4\uc1\pard\f0\fs20\par
+}
+",,,,16777215.0000,0,0,0,0,,,,,,,,,,,,,,,,,,,,,,,,,,,,0,,1,0,,,0,0,0,0,0,,,,,,,,,,,0,,,,0,0,0,,,,,,,,,,,,0.0000,0,0.0000,0.0000,0.0000,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,0,,0,,,,,,,,,,,,,0,0.0000,,False,
+0,08,Paso 7: Informar a clientes y empleados,0,0,0,0,0,0,0.0000,0,,HONORARIO,0,,0,0,,0,2160,0,,-1,1.0,,0,0,Protección de Datos,0,0,0,,-1,0,1,0,"{\rtf1\ansi\ansicpg1252\deff0\deflang3082{\fonttbl{\f0\fswiss\fprq2\fcharset0 Calibri;}{\f1\fswiss\fprq2\fcharset0 Microsoft Sans Serif;}{\f2\fnil\fcharset0 Microsoft Sans Serif;}}
+\viewkind4\uc1\pard\sa200\sl276\slmult1\f0\fs24   \fs22 En multitud de casos, deber\'e1s comunicarte con clientes y empleados en relaci\'f3n al ejercicio de sus derechos y a sus obligaciones en materia de protecci\'f3n de datos.\par
+ Tambi\'e9n est\'e1s obligado a notificar a la agencia y a los implicados de cualquier brecha de seguridad que afecte a datos personales.\par
+ Para ayudarte en este proceso adjuntamos una serie de plantillas y actuaciones predefinidas que podr\'e1s utilizar para la gesti\'f3n de los derechos m\'e1s habituales:\par
+\pard\fi-360\li720\sa200\sl276\slmult1  \f1 -\tab\f0 Informar derecho de acceso\par
+ \f1 -\tab\f0 Informar derecho de cancelaci\'f3n\par
+ \f1 -\tab\f0 Informar derecho de modificaci\'f3n\par
+ \f1 -\tab\f0 Informar derecho de oposici\'f3n\par
+ \f1 -\tab\f0 Informar derecho de transferencia de datos\par
+ \f1 -\tab\f0 Informar derecho de olvido\par
+ \f1 -\tab\f0 Brecha de seguridad\par
+ \f1 -\tab\f0 Informar de c\'e1maras de vigilancia\par
+ \f1 -\tab\f0 Consentimiento para tratar fotograf\'edas\par
+ \f1 -\tab\f0 Consentimientos en formularios web\par
+\pard  Recuerda que tambi\'e9n dispones de m\'f3dulos que te ayudar\'e1n a agilizar este proceso como son el \b Emailer y los Formularios Web.\b0\f2\fs20\par
+ \par
+}
+","{\rtf1\ansi\ansicpg1252\deff0\deflang3082{\fonttbl{\f0\fnil\fcharset0 Microsoft Sans Serif;}}
+\viewkind4\uc1\pard\f0\fs20\par
+}
+","{\rtf1\ansi\ansicpg1252\deff0\deflang3082{\fonttbl{\f0\fnil\fcharset0 Microsoft Sans Serif;}}
+\viewkind4\uc1\pard\f0\fs20\par
+}
+","{\rtf1\ansi\ansicpg1252\deff0\deflang3082{\fonttbl{\f0\fnil\fcharset0 Microsoft Sans Serif;}}
+\viewkind4\uc1\pard\f0\fs20\par
+}
+","{\rtf1\ansi\ansicpg1252\deff0\deflang3082{\fonttbl{\f0\fnil\fcharset0 Microsoft Sans Serif;}}
+\viewkind4\uc1\pard\f0\fs20\par
+}
+","{\rtf1\ansi\ansicpg1252\deff0\deflang3082{\fonttbl{\f0\fnil\fcharset0 Microsoft Sans Serif;}}
+\viewkind4\uc1\pard\f0\fs20\par
+}
+",,,,16777215.0000,0,0,0,1,,,,,,,,,,,,,,,,,,,,,,,,,,,,0,,0,0,,,0,0,0,-1,0,,,,,,,,,,,0,,,,0,0,0,,,,,,,,,,,,0.0000,0,0.0000,0.0000,0.0000,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,0,,0,,,,,,,,,,,,,0,0.0000,,False,
+0,09,Consulta Videollamada,0,0,0,0,0,0,0.0000,0,,HONORARIO,0,,0,0,,0,2147,0,,0,1.0,,0,0,Llamada,0,1,0,,-1,0,0,0,"{\rtf1\ansi\ansicpg1252\deff0\deflang3082{\fonttbl{\f0\fnil\fcharset0 Microsoft Sans Serif;}}
+\viewkind4\uc1\pard\f0\fs20\par
+}
+","{\rtf1\ansi\ansicpg1252\deff0\deflang3082{\fonttbl{\f0\fnil\fcharset0 Microsoft Sans Serif;}}
+\viewkind4\uc1\pard\f0\fs20\par
+}
+","{\rtf1\ansi\ansicpg1252\deff0\deflang3082{\fonttbl{\f0\fnil\fcharset0 Microsoft Sans Serif;}}
+\viewkind4\uc1\pard\f0\fs20\par
+}
+","{\rtf1\ansi\ansicpg1252\deff0\deflang3082{\fonttbl{\f0\fnil\fcharset0 Microsoft Sans Serif;}}
+\viewkind4\uc1\pard\f0\fs20\par
+}
+","{\rtf1\ansi\ansicpg1252\deff0\deflang3082{\fonttbl{\f0\fnil\fcharset0 Microsoft Sans Serif;}}
+\viewkind4\uc1\pard\f0\fs20\par
+}
+","{\rtf1\ansi\ansicpg1252\deff0\deflang3082{\fonttbl{\f0\fnil\fcharset0 Microsoft Sans Serif;}}
+\viewkind4\uc1\pard\f0\fs20\par
+}
+",,,,16777215.0000,0,0,0,1,,,,,,,,,,,,,,,,,,,,,,,,,,,,0,,1,0,,,0,0,0,0,0,,,,,,,,,,,0,,,,0,0,0,,,,,,,,,,,,0.0000,0,0.0000,0.0000,0.0000,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,0,,0,,,,,,,,,,,,,0,0.0000,,False,
+0,09,Paso 8: Control periódico verificación del cumplimiento,0,0,0,0,0,0,0.0000,0,,HONORARIO,0,,0,0,,0,2161,0,,-1,1.0,,0,0,Protección de Datos,0,0,0,,-1,0,1,0,"{\rtf1\ansi\ansicpg1252\deff0\deflang3082{\fonttbl{\f0\fswiss\fprq2\fcharset0 Calibri;}{\f1\fswiss\fprq2\fcharset0 Microsoft Sans Serif;}{\f2\fnil\fcharset0 Microsoft Sans Serif;}}
+\viewkind4\uc1\pard\sa200\sl276\slmult1\f0\fs24   \fs22 De forma peri\'f3dica deber\'e1s verificar que cumples con todos los requisitos exigidos por la ley en materia de protecci\'f3n de datos. Para ello te recomendamos que al menos realices las siguientes tareas:\par
+\pard\fi-360\li720\sa200\sl276\slmult1  \f1 -\tab\f0 Realizar un An\'e1lisis de Seguridad de MN program y gestionar las posibles incidencias\par
+ \f1 -\tab\f0 Realizar una Auditor\'eda de Datos de MN program y gestionar las posibles incidencias\par
+ \f1 -\tab\f0 Modificaciones de los datos personales que se tratan\par
+ \f1 -\tab\f0 Registro nuevas actividades de tratamiento o modificaci\'f3n de las existentes\par
+ \f1 -\tab\f0 Evaluar el nivel de seguridad actual (EIPD) \par
+ \f1 -\tab\f0 Modificaciones realizadas sobre el documento de seguridad\par
+ \f1 -\tab\f0 Estado de los contratos de tratamiento y confidencialidad \par
+ \f1 -\tab\f0 Control de comunicaciones en materia de protecci\'f3n de datos (derechos y brechas de seguridad)\par
+ \f1 -\tab\f0 Validar el cargo del Delegado de protecci\'f3n de datos\par
+\pard\sa200\sl276\slmult1  Recuerda que puedes utilizar el \b m\'f3dulo de Opciones Autom\'e1ticas\b0  para agilizar muchas de estas tareas.\par
+\pard  \f2\fs20\par
+ \par
+}
+","{\rtf1\ansi\ansicpg1252\deff0\deflang3082{\fonttbl{\f0\fnil\fcharset0 Microsoft Sans Serif;}}
+\viewkind4\uc1\pard\f0\fs20\par
+}
+","{\rtf1\ansi\ansicpg1252\deff0\deflang3082{\fonttbl{\f0\fnil\fcharset0 Microsoft Sans Serif;}}
+\viewkind4\uc1\pard\f0\fs20\par
+}
+","{\rtf1\ansi\ansicpg1252\deff0\deflang3082{\fonttbl{\f0\fnil\fcharset0 Microsoft Sans Serif;}}
+\viewkind4\uc1\pard\f0\fs20\par
+}
+","{\rtf1\ansi\ansicpg1252\deff0\deflang3082{\fonttbl{\f0\fnil\fcharset0 Microsoft Sans Serif;}}
+\viewkind4\uc1\pard\f0\fs20\par
+}
+","{\rtf1\ansi\ansicpg1252\deff0\deflang3082{\fonttbl{\f0\fnil\fcharset0 Microsoft Sans Serif;}}
+\viewkind4\uc1\pard\f0\fs20\par
+}
+",,,,16777215.0000,0,0,0,1,,,,,,,,,,,,,,,,,,,,,,,,,,,,0,,0,0,,,0,0,0,-1,0,,,,,,,,,,,0,,,,0,0,0,,,,,,,,,,,,0.0000,0,0.0000,0.0000,0.0000,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,0,,0,,,,,,,,,,,,,0,0.0000,,False,
+0,10,Informar Derecho Acceso,0,0,0,0,0,0,0.0000,0,,HONORARIO,0,,0,0,,0,2162,0,,-1,1.0,,0,0,Protección de Datos,0,0,0,,-1,0,1,0,"{\rtf1\ansi\ansicpg1252\deff0\deflang3082{\fonttbl{\f0\fnil\fcharset0 Microsoft Sans Serif;}}
+\viewkind4\uc1\pard\f0\fs20\par
+}
+","{\rtf1\ansi\ansicpg1252\deff0\deflang3082{\fonttbl{\f0\fnil\fcharset0 Microsoft Sans Serif;}}
+\viewkind4\uc1\pard\f0\fs20\par
+}
+","{\rtf1\ansi\ansicpg1252\deff0\deflang3082{\fonttbl{\f0\fnil\fcharset0 Microsoft Sans Serif;}}
+\viewkind4\uc1\pard\f0\fs20\par
+}
+","{\rtf1\ansi\ansicpg1252\deff0\deflang3082{\fonttbl{\f0\fnil\fcharset0 Microsoft Sans Serif;}}
+\viewkind4\uc1\pard\f0\fs20\par
+}
+","{\rtf1\ansi\ansicpg1252\deff0\deflang3082{\fonttbl{\f0\fnil\fcharset0 Microsoft Sans Serif;}}
+\viewkind4\uc1\pard\f0\fs20\par
+}
+","{\rtf1\ansi\ansicpg1252\deff0\deflang3082{\fonttbl{\f0\fnil\fcharset0 Microsoft Sans Serif;}}
+\viewkind4\uc1\pard\f0\fs20\par
+}
+",,,,16777215.0000,0,0,0,1,,,,,,,,,,,,,,,,,,,,,,,,,,,,0,,0,0,,,0,0,0,-1,0,,,,,,,,,,,0,,,,0,0,0,,,,,,,,,,,,0.0000,0,0.0000,0.0000,0.0000,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,0,,0,,,,,,,,,,,,,0,0.0000,,False,
+0,11,Informar Derecho Cancelación,0,0,0,0,0,0,0.0000,0,,HONORARIO,0,,0,0,,0,2163,0,,-1,1.0,,0,0,Protección de Datos,0,0,0,,-1,0,1,0,"{\rtf1\ansi\ansicpg1252\deff0\deflang3082{\fonttbl{\f0\fnil\fcharset0 Microsoft Sans Serif;}}
+\viewkind4\uc1\pard\f0\fs20\par
+}
+","{\rtf1\ansi\ansicpg1252\deff0\deflang3082{\fonttbl{\f0\fnil\fcharset0 Microsoft Sans Serif;}}
+\viewkind4\uc1\pard\f0\fs20\par
+}
+","{\rtf1\ansi\ansicpg1252\deff0\deflang3082{\fonttbl{\f0\fnil\fcharset0 Microsoft Sans Serif;}}
+\viewkind4\uc1\pard\f0\fs20\par
+}
+","{\rtf1\ansi\ansicpg1252\deff0\deflang3082{\fonttbl{\f0\fnil\fcharset0 Microsoft Sans Serif;}}
+\viewkind4\uc1\pard\f0\fs20\par
+}
+","{\rtf1\ansi\ansicpg1252\deff0\deflang3082{\fonttbl{\f0\fnil\fcharset0 Microsoft Sans Serif;}}
+\viewkind4\uc1\pard\f0\fs20\par
+}
+","{\rtf1\ansi\ansicpg1252\deff0\deflang3082{\fonttbl{\f0\fnil\fcharset0 Microsoft Sans Serif;}}
+\viewkind4\uc1\pard\f0\fs20\par
+}
+",,,,16777215.0000,0,0,0,1,,,,,,,,,,,,,,,,,,,,,,,,,,,,0,,0,0,,,0,0,0,-1,0,,,,,,,,,,,0,,,,0,0,0,,,,,,,,,,,,0.0000,0,0.0000,0.0000,0.0000,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,0,,0,,,,,,,,,,,,,0,0.0000,,False,
+0,12,Informar Derecho Modificación,0,0,0,0,0,0,0.0000,0,,HONORARIO,0,,0,0,,0,2164,0,,-1,1.0,,0,0,Protección de Datos,0,0,0,,-1,0,1,0,"{\rtf1\ansi\ansicpg1252\deff0\deflang3082{\fonttbl{\f0\fnil\fcharset0 Microsoft Sans Serif;}}
+\viewkind4\uc1\pard\f0\fs20\par
+}
+","{\rtf1\ansi\ansicpg1252\deff0\deflang3082{\fonttbl{\f0\fnil\fcharset0 Microsoft Sans Serif;}}
+\viewkind4\uc1\pard\f0\fs20\par
+}
+","{\rtf1\ansi\ansicpg1252\deff0\deflang3082{\fonttbl{\f0\fnil\fcharset0 Microsoft Sans Serif;}}
+\viewkind4\uc1\pard\f0\fs20\par
+}
+","{\rtf1\ansi\ansicpg1252\deff0\deflang3082{\fonttbl{\f0\fnil\fcharset0 Microsoft Sans Serif;}}
+\viewkind4\uc1\pard\f0\fs20\par
+}
+","{\rtf1\ansi\ansicpg1252\deff0\deflang3082{\fonttbl{\f0\fnil\fcharset0 Microsoft Sans Serif;}}
+\viewkind4\uc1\pard\f0\fs20\par
+}
+","{\rtf1\ansi\ansicpg1252\deff0\deflang3082{\fonttbl{\f0\fnil\fcharset0 Microsoft Sans Serif;}}
+\viewkind4\uc1\pard\f0\fs20\par
+}
+",,,,16777215.0000,0,0,0,1,,,,,,,,,,,,,,,,,,,,,,,,,,,,0,,0,0,,,0,0,0,-1,0,,,,,,,,,,,0,,,,0,0,0,,,,,,,,,,,,0.0000,0,0.0000,0.0000,0.0000,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,0,,0,,,,,,,,,,,,,0,0.0000,,False,
+0,13,Informar Derecho Oposición,0,0,0,0,0,0,0.0000,0,,HONORARIO,0,,0,0,,0,2165,0,,-1,1.0,,0,0,Protección de Datos,0,0,0,,-1,0,1,0,"{\rtf1\ansi\ansicpg1252\deff0\deflang3082{\fonttbl{\f0\fnil\fcharset0 Microsoft Sans Serif;}}
+\viewkind4\uc1\pard\f0\fs20\par
+}
+","{\rtf1\ansi\ansicpg1252\deff0\deflang3082{\fonttbl{\f0\fnil\fcharset0 Microsoft Sans Serif;}}
+\viewkind4\uc1\pard\f0\fs20\par
+}
+","{\rtf1\ansi\ansicpg1252\deff0\deflang3082{\fonttbl{\f0\fnil\fcharset0 Microsoft Sans Serif;}}
+\viewkind4\uc1\pard\f0\fs20\par
+}
+","{\rtf1\ansi\ansicpg1252\deff0\deflang3082{\fonttbl{\f0\fnil\fcharset0 Microsoft Sans Serif;}}
+\viewkind4\uc1\pard\f0\fs20\par
+}
+","{\rtf1\ansi\ansicpg1252\deff0\deflang3082{\fonttbl{\f0\fnil\fcharset0 Microsoft Sans Serif;}}
+\viewkind4\uc1\pard\f0\fs20\par
+}
+","{\rtf1\ansi\ansicpg1252\deff0\deflang3082{\fonttbl{\f0\fnil\fcharset0 Microsoft Sans Serif;}}
+\viewkind4\uc1\pard\f0\fs20\par
+}
+",,,,16777215.0000,0,0,0,1,,,,,,,,,,,,,,,,,,,,,,,,,,,,0,,0,0,,,0,0,0,-1,0,,,,,,,,,,,0,,,,0,0,0,,,,,,,,,,,,0.0000,0,0.0000,0.0000,0.0000,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,0,,0,,,,,,,,,,,,,0,0.0000,,False,
+0,14,Informar Derecho de Transferencia de Datos,0,0,0,0,0,0,0.0000,0,,HONORARIO,0,,0,0,,0,2166,0,,-1,1.0,,0,0,Protección de Datos,0,0,0,,-1,0,1,0,"{\rtf1\ansi\ansicpg1252\deff0\deflang3082{\fonttbl{\f0\fnil\fcharset0 Microsoft Sans Serif;}}
+\viewkind4\uc1\pard\f0\fs20\par
+}
+","{\rtf1\ansi\ansicpg1252\deff0\deflang3082{\fonttbl{\f0\fnil\fcharset0 Microsoft Sans Serif;}}
+\viewkind4\uc1\pard\f0\fs20\par
+}
+","{\rtf1\ansi\ansicpg1252\deff0\deflang3082{\fonttbl{\f0\fnil\fcharset0 Microsoft Sans Serif;}}
+\viewkind4\uc1\pard\f0\fs20\par
+}
+","{\rtf1\ansi\ansicpg1252\deff0\deflang3082{\fonttbl{\f0\fnil\fcharset0 Microsoft Sans Serif;}}
+\viewkind4\uc1\pard\f0\fs20\par
+}
+","{\rtf1\ansi\ansicpg1252\deff0\deflang3082{\fonttbl{\f0\fnil\fcharset0 Microsoft Sans Serif;}}
+\viewkind4\uc1\pard\f0\fs20\par
+}
+","{\rtf1\ansi\ansicpg1252\deff0\deflang3082{\fonttbl{\f0\fnil\fcharset0 Microsoft Sans Serif;}}
+\viewkind4\uc1\pard\f0\fs20\par
+}
+",,,,16777215.0000,0,0,0,1,,,,,,,,,,,,,,,,,,,,,,,,,,,,0,,0,0,,,0,0,0,-1,0,,,,,,,,,,,0,,,,0,0,0,,,,,,,,,,,,0.0000,0,0.0000,0.0000,0.0000,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,0,,0,,,,,,,,,,,,,0,0.0000,,False,
+0,15,Informar Derecho al Olvido,0,0,0,0,0,0,0.0000,0,,HONORARIO,0,,0,0,,0,2167,0,,-1,1.0,,0,0,Protección de Datos,0,0,0,,-1,0,1,0,"{\rtf1\ansi\ansicpg1252\deff0\deflang3082{\fonttbl{\f0\fnil\fcharset0 Microsoft Sans Serif;}}
+\viewkind4\uc1\pard\f0\fs20\par
+}
+","{\rtf1\ansi\ansicpg1252\deff0\deflang3082{\fonttbl{\f0\fnil\fcharset0 Microsoft Sans Serif;}}
+\viewkind4\uc1\pard\f0\fs20\par
+}
+","{\rtf1\ansi\ansicpg1252\deff0\deflang3082{\fonttbl{\f0\fnil\fcharset0 Microsoft Sans Serif;}}
+\viewkind4\uc1\pard\f0\fs20\par
+}
+","{\rtf1\ansi\ansicpg1252\deff0\deflang3082{\fonttbl{\f0\fnil\fcharset0 Microsoft Sans Serif;}}
+\viewkind4\uc1\pard\f0\fs20\par
+}
+","{\rtf1\ansi\ansicpg1252\deff0\deflang3082{\fonttbl{\f0\fnil\fcharset0 Microsoft Sans Serif;}}
+\viewkind4\uc1\pard\f0\fs20\par
+}
+","{\rtf1\ansi\ansicpg1252\deff0\deflang3082{\fonttbl{\f0\fnil\fcharset0 Microsoft Sans Serif;}}
+\viewkind4\uc1\pard\f0\fs20\par
+}
+",,,,16777215.0000,0,0,0,1,,,,,,,,,,,,,,,,,,,,,,,,,,,,0,,0,0,,,0,0,0,-1,0,,,,,,,,,,,0,,,,0,0,0,,,,,,,,,,,,0.0000,0,0.0000,0.0000,0.0000,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,0,,0,,,,,,,,,,,,,0,0.0000,,False,
+0,16,Brecha de Seguridad,0,0,0,0,0,0,0.0000,0,,HONORARIO,0,,0,0,,0,2168,0,,-1,1.0,,0,0,Protección de Datos,0,0,0,,-1,0,1,0,"{\rtf1\ansi\ansicpg1252\deff0\deflang3082{\fonttbl{\f0\fnil\fcharset0 Microsoft Sans Serif;}}
+\viewkind4\uc1\pard\f0\fs20\par
+}
+","{\rtf1\ansi\ansicpg1252\deff0\deflang3082{\fonttbl{\f0\fnil\fcharset0 Microsoft Sans Serif;}}
+\viewkind4\uc1\pard\f0\fs20\par
+}
+","{\rtf1\ansi\ansicpg1252\deff0\deflang3082{\fonttbl{\f0\fnil\fcharset0 Microsoft Sans Serif;}}
+\viewkind4\uc1\pard\f0\fs20\par
+}
+","{\rtf1\ansi\ansicpg1252\deff0\deflang3082{\fonttbl{\f0\fnil\fcharset0 Microsoft Sans Serif;}}
+\viewkind4\uc1\pard\f0\fs20\par
+}
+","{\rtf1\ansi\ansicpg1252\deff0\deflang3082{\fonttbl{\f0\fnil\fcharset0 Microsoft Sans Serif;}}
+\viewkind4\uc1\pard\f0\fs20\par
+}
+","{\rtf1\ansi\ansicpg1252\deff0\deflang3082{\fonttbl{\f0\fnil\fcharset0 Microsoft Sans Serif;}}
+\viewkind4\uc1\pard\f0\fs20\par
+}
+",,,,16777215.0000,0,0,0,1,,,,,,,,,,,,,,,,,,,,,,,,,,,,0,,0,0,,,0,0,0,-1,0,,,,,,,,,,,0,,,,0,0,0,,,,,,,,,,,,0.0000,0,0.0000,0.0000,0.0000,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,0,,0,,,,,,,,,,,,,0,0.0000,,False,
+0,17,Auditoría Externa,0,0,0,0,0,0,0.0000,0,,HONORARIO,0,,0,0,,0,2169,0,,-1,1.0,,0,0,Protección de Datos,0,0,0,,-1,0,1,0,"{\rtf1\ansi\ansicpg1252\deff0\deflang3082{\fonttbl{\f0\fnil\fcharset0 Microsoft Sans Serif;}}
+\viewkind4\uc1\pard\f0\fs20\par
+}
+","{\rtf1\ansi\ansicpg1252\deff0\deflang3082{\fonttbl{\f0\fnil\fcharset0 Microsoft Sans Serif;}}
+\viewkind4\uc1\pard\f0\fs20\par
+}
+","{\rtf1\ansi\ansicpg1252\deff0\deflang3082{\fonttbl{\f0\fnil\fcharset0 Microsoft Sans Serif;}}
+\viewkind4\uc1\pard\f0\fs20\par
+}
+","{\rtf1\ansi\ansicpg1252\deff0\deflang3082{\fonttbl{\f0\fnil\fcharset0 Microsoft Sans Serif;}}
+\viewkind4\uc1\pard\f0\fs20\par
+}
+","{\rtf1\ansi\ansicpg1252\deff0\deflang3082{\fonttbl{\f0\fnil\fcharset0 Microsoft Sans Serif;}}
+\viewkind4\uc1\pard\f0\fs20\par
+}
+","{\rtf1\ansi\ansicpg1252\deff0\deflang3082{\fonttbl{\f0\fnil\fcharset0 Microsoft Sans Serif;}}
+\viewkind4\uc1\pard\f0\fs20\par
+}
+",,,,16777215.0000,0,0,0,1,,,,,,,,,,,,,,,,,,,,,,,,,,,,0,,0,0,,,0,0,0,-1,0,,,,,,,,,,,0,,,,0,0,0,,,,,,,,,,,,0.0000,0,0.0000,0.0000,0.0000,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,0,,0,,,,,,,,,,,,,0,0.0000,,False,
+0,18,Cámaras de Vigilancia,0,0,0,0,0,0,0.0000,0,,HONORARIO,0,,0,0,,0,2170,0,,-1,1.0,,0,0,Protección de Datos,0,0,0,,-1,0,1,0,"{\rtf1\ansi\ansicpg1252\deff0\deflang3082{\fonttbl{\f0\fnil\fcharset0 Microsoft Sans Serif;}}
+\viewkind4\uc1\pard\f0\fs20\par
+}
+","{\rtf1\ansi\ansicpg1252\deff0\deflang3082{\fonttbl{\f0\fnil\fcharset0 Microsoft Sans Serif;}}
+\viewkind4\uc1\pard\f0\fs20\par
+}
+","{\rtf1\ansi\ansicpg1252\deff0\deflang3082{\fonttbl{\f0\fnil\fcharset0 Microsoft Sans Serif;}}
+\viewkind4\uc1\pard\f0\fs20\par
+}
+","{\rtf1\ansi\ansicpg1252\deff0\deflang3082{\fonttbl{\f0\fnil\fcharset0 Microsoft Sans Serif;}}
+\viewkind4\uc1\pard\f0\fs20\par
+}
+","{\rtf1\ansi\ansicpg1252\deff0\deflang3082{\fonttbl{\f0\fnil\fcharset0 Microsoft Sans Serif;}}
+\viewkind4\uc1\pard\f0\fs20\par
+}
+","{\rtf1\ansi\ansicpg1252\deff0\deflang3082{\fonttbl{\f0\fnil\fcharset0 Microsoft Sans Serif;}}
+\viewkind4\uc1\pard\f0\fs20\par
+}
+",,,,16777215.0000,0,0,0,1,,,,,,,,,,,,,,,,,,,,,,,,,,,,0,,0,0,,,0,0,0,-1,0,,,,,,,,,,,0,,,,0,0,0,,,,,,,,,,,,0.0000,0,0.0000,0.0000,0.0000,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,0,,0,,,,,,,,,,,,,0,0.0000,,False,
+0,19,Solicitud para requerir el consentimiento en todos los formularios,0,0,0,0,0,0,0.0000,0,,HONORARIO,0,,0,0,,0,2171,0,,-1,1.0,,0,0,Protección de Datos,0,0,0,,-1,0,1,0,"{\rtf1\ansi\ansicpg1252\deff0\deflang3082{\fonttbl{\f0\fnil\fcharset0 Microsoft Sans Serif;}}
+\viewkind4\uc1\pard\f0\fs20\par
+}
+","{\rtf1\ansi\ansicpg1252\deff0\deflang3082{\fonttbl{\f0\fnil\fcharset0 Microsoft Sans Serif;}}
+\viewkind4\uc1\pard\f0\fs20\par
+}
+","{\rtf1\ansi\ansicpg1252\deff0\deflang3082{\fonttbl{\f0\fnil\fcharset0 Microsoft Sans Serif;}}
+\viewkind4\uc1\pard\f0\fs20\par
+}
+","{\rtf1\ansi\ansicpg1252\deff0\deflang3082{\fonttbl{\f0\fnil\fcharset0 Microsoft Sans Serif;}}
+\viewkind4\uc1\pard\f0\fs20\par
+}
+","{\rtf1\ansi\ansicpg1252\deff0\deflang3082{\fonttbl{\f0\fnil\fcharset0 Microsoft Sans Serif;}}
+\viewkind4\uc1\pard\f0\fs20\par
+}
+","{\rtf1\ansi\ansicpg1252\deff0\deflang3082{\fonttbl{\f0\fnil\fcharset0 Microsoft Sans Serif;}}
+\viewkind4\uc1\pard\f0\fs20\par
+}
+",,,,16777215.0000,0,0,0,1,,,,,,,,,,,,,,,,,,,,,,,,,,,,0,,0,0,,,0,0,0,-1,0,,,,,,,,,,,0,,,,0,0,0,,,,,,,,,,,,0.0000,0,0.0000,0.0000,0.0000,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,0,,0,,,,,,,,,,,,,0,0.0000,,False,
+0,20,Consentimiento Fotografías,0,0,0,0,0,0,0.0000,0,,HONORARIO,0,,0,0,,0,2172,0,,-1,1.0,,0,0,Protección de Datos,0,0,0,,-1,0,1,0,"{\rtf1\ansi\ansicpg1252\deff0\deflang3082{\fonttbl{\f0\fnil\fcharset0 Microsoft Sans Serif;}}
+\viewkind4\uc1\pard\f0\fs20\par
+}
+","{\rtf1\ansi\ansicpg1252\deff0\deflang3082{\fonttbl{\f0\fnil\fcharset0 Microsoft Sans Serif;}}
+\viewkind4\uc1\pard\f0\fs20\par
+}
+","{\rtf1\ansi\ansicpg1252\deff0\deflang3082{\fonttbl{\f0\fnil\fcharset0 Microsoft Sans Serif;}}
+\viewkind4\uc1\pard\f0\fs20\par
+}
+","{\rtf1\ansi\ansicpg1252\deff0\deflang3082{\fonttbl{\f0\fnil\fcharset0 Microsoft Sans Serif;}}
+\viewkind4\uc1\pard\f0\fs20\par
+}
+","{\rtf1\ansi\ansicpg1252\deff0\deflang3082{\fonttbl{\f0\fnil\fcharset0 Microsoft Sans Serif;}}
+\viewkind4\uc1\pard\f0\fs20\par
+}
+","{\rtf1\ansi\ansicpg1252\deff0\deflang3082{\fonttbl{\f0\fnil\fcharset0 Microsoft Sans Serif;}}
+\viewkind4\uc1\pard\f0\fs20\par
+}
+",,,,16777215.0000,0,0,0,1,,,,,,,,,,,,,,,,,,,,,,,,,,,,0,,0,0,,,0,0,0,-1,0,,,,,,,,,,,0,,,,0,0,0,,,,,,,,,,,,0.0000,0,0.0000,0.0000,0.0000,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,0,,0,,,,,,,,,,,,,0,0.0000,,False,
+0,21,Control periódico verificación del cumplimiento,0,0,0,0,0,0,0.0000,0,,HONORARIO,0,,0,0,,0,2173,0,,-1,1.0,,0,0,Protección de Datos,0,0,0,,-1,0,1,0,"{\rtf1\ansi\ansicpg1252\deff0\deflang3082{\fonttbl{\f0\fswiss\fprq2\fcharset0 Calibri;}{\f1\fnil\fcharset0 Microsoft Sans Serif;}{\f2\fnil\fcharset2 Symbol;}}
+\viewkind4\uc1\pard{\pntext\f2\'B7\tab}{\*\pn\pnlvlblt\pnf2\pnindent0{\pntxtb\'B7}}\f0\fs24   \fs22 Identificaci\'f3n de los datos personales que se tratan\par
+{\pntext\f2\'B7\tab} Reconocer el nivel de seguridad (EIPD) \par
+{\pntext\f2\'B7\tab} Registro de las actividades de tratamiento \par
+{\pntext\f2\'B7\tab} Elaborar documento de seguridad \par
+{\pntext\f2\'B7\tab} Firmar contratos de tratamiento y confidencialidad \par
+{\pntext\f2\'B7\tab} Conocer y comunicar la normativa de protecci\'f3n de datos \par
+{\pntext\f2\'B7\tab} Delegado de protecci\'f3n de datos \par
+\pard  \f1\fs20\par
+ \par
+}
+","{\rtf1\ansi\ansicpg1252\deff0\deflang3082{\fonttbl{\f0\fnil\fcharset0 Microsoft Sans Serif;}}
+\viewkind4\uc1\pard\f0\fs20\par
+}
+","{\rtf1\ansi\ansicpg1252\deff0\deflang3082{\fonttbl{\f0\fnil\fcharset0 Microsoft Sans Serif;}}
+\viewkind4\uc1\pard\f0\fs20\par
+}
+","{\rtf1\ansi\ansicpg1252\deff0\deflang3082{\fonttbl{\f0\fnil\fcharset0 Microsoft Sans Serif;}}
+\viewkind4\uc1\pard\f0\fs20\par
+}
+","{\rtf1\ansi\ansicpg1252\deff0\deflang3082{\fonttbl{\f0\fnil\fcharset0 Microsoft Sans Serif;}}
+\viewkind4\uc1\pard\f0\fs20\par
+}
+","{\rtf1\ansi\ansicpg1252\deff0\deflang3082{\fonttbl{\f0\fnil\fcharset0 Microsoft Sans Serif;}}
+\viewkind4\uc1\pard\f0\fs20\par
+}
+",,,,16777215.0000,0,0,0,1,,,,,,,,,,,,,,,,,,,,,,,,,,,,0,,0,0,,,0,0,0,-1,0,,,,,,,,,,,0,,,,0,0,0,,,,,,,,,,,,0.0000,0,0.0000,0.0000,0.0000,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,0,,0,,,,,,,,,,,,,0,0.0000,,False,
+0,22,Contrato de tratamiento y confidencialidad,0,0,0,0,0,0,0.0000,0,,HONORARIO,0,,0,0,,0,2174,0,,-1,1.0,,0,0,Protección de Datos,0,0,0,,-1,0,1,0,"{\rtf1\ansi\ansicpg1252\deff0\deflang3082{\fonttbl{\f0\fnil\fcharset0 Microsoft Sans Serif;}}
+\viewkind4\uc1\pard\f0\fs20\par
+}
+","{\rtf1\ansi\ansicpg1252\deff0\deflang3082{\fonttbl{\f0\fnil\fcharset0 Microsoft Sans Serif;}}
+\viewkind4\uc1\pard\f0\fs20\par
+}
+","{\rtf1\ansi\ansicpg1252\deff0\deflang3082{\fonttbl{\f0\fnil\fcharset0 Microsoft Sans Serif;}}
+\viewkind4\uc1\pard\f0\fs20\par
+}
+","{\rtf1\ansi\ansicpg1252\deff0\deflang3082{\fonttbl{\f0\fnil\fcharset0 Microsoft Sans Serif;}}
+\viewkind4\uc1\pard\f0\fs20\par
+}
+","{\rtf1\ansi\ansicpg1252\deff0\deflang3082{\fonttbl{\f0\fnil\fcharset0 Microsoft Sans Serif;}}
+\viewkind4\uc1\pard\f0\fs20\par
+}
+","{\rtf1\ansi\ansicpg1252\deff0\deflang3082{\fonttbl{\f0\fnil\fcharset0 Microsoft Sans Serif;}}
+\viewkind4\uc1\pard\f0\fs20\par
+}
+",,,,16777215.0000,0,0,0,1,,,,,,,,,,,,,,,,,,,,,,,,,,,,0,,0,0,,,0,0,0,-1,0,,,,,,,,,,,0,,,,0,0,0,,,,,,,,,,,,0.0000,0,0.0000,0.0000,0.0000,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,0,,0,,,,,,,,,,,,,0,0.0000,,False,
+1,01,Consentimiento,0,0,0,0,0,0,0.0000,0,,HONORARIO,1,Pacientes\1.3 consentimiento informado.doc,1,0,,0,2203,0,,0,1.0,,0,0,Documento,1,1,0,,,0,1,0,"{\rtf1\ansi\ansicpg1252\deff0\deflang3082{\fonttbl{\f0\fnil\fcharset0 Microsoft Sans Serif;}}
+\viewkind4\uc1\pard\f0\fs20\par
+}
+","{\rtf1\ansi\ansicpg1252\deff0\deflang3082{\fonttbl{\f0\fnil\fcharset0 Microsoft Sans Serif;}}
+\viewkind4\uc1\pard\f0\fs20\par
+}
+","{\rtf1\ansi\ansicpg1252\deff0\deflang3082{\fonttbl{\f0\fnil\fcharset0 Microsoft Sans Serif;}}
+\viewkind4\uc1\pard\f0\fs20\par
+}
+","{\rtf1\ansi\ansicpg1252\deff0\deflang3082{\fonttbl{\f0\fnil\fcharset0 Microsoft Sans Serif;}}
+\viewkind4\uc1\pard\f0\fs20\par
+}
+","{\rtf1\ansi\ansicpg1252\deff0\deflang3082{\fonttbl{\f0\fnil\fcharset0 Microsoft Sans Serif;}}
+\viewkind4\uc1\pard\f0\fs20\par
+}
+","{\rtf1\ansi\ansicpg1252\deff0\deflang3082{\fonttbl{\f0\fnil\fcharset0 Microsoft Sans Serif;}}
+\viewkind4\uc1\pard\f0\fs20\par
+}
+",,,,16777215.0000,0,0,0,0,,,,,,,,,,,,,,,,,,,,,,,,,,,,0,,1,1,,,0,0,0,0,0,,,,,,,,,,,0,,,,,,,,,,,,,,,,,,0.0000,0,0.0000,0.0000,0.0000,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,0,,0,,,,,,,,,,,,,0,0.0000,,False,
+1,01,Llamada Entrante,0,0,0,0,0,0,0.0000,0,,HONORARIO,0,,0,0,,0,2176,0,,0,1.0,,0,0,Llamada,0,1,0,,,0,0,0,"{\rtf1\ansi\ansicpg1252\deff0\deflang3082{\fonttbl{\f0\fnil\fcharset0 Microsoft Sans Serif;}}
+\viewkind4\uc1\pard\f0\fs20\par
+}
+","{\rtf1\ansi\ansicpg1252\deff0\deflang3082{\fonttbl{\f0\fnil\fcharset0 Microsoft Sans Serif;}}
+\viewkind4\uc1\pard\f0\fs20\par
+}
+","{\rtf1\ansi\ansicpg1252\deff0\deflang3082{\fonttbl{\f0\fnil\fcharset0 Microsoft Sans Serif;}}
+\viewkind4\uc1\pard\f0\fs20\par
+}
+","{\rtf1\ansi\ansicpg1252\deff0\deflang3082{\fonttbl{\f0\fnil\fcharset0 Microsoft Sans Serif;}}
+\viewkind4\uc1\pard\f0\fs20\par
+}
+","{\rtf1\ansi\ansicpg1252\deff0\deflang3082{\fonttbl{\f0\fnil\fcharset0 Microsoft Sans Serif;}}
+\viewkind4\uc1\pard\f0\fs20\par
+}
+","{\rtf1\ansi\ansicpg1252\deff0\deflang3082{\fonttbl{\f0\fnil\fcharset0 Microsoft Sans Serif;}}
+\viewkind4\uc1\pard\f0\fs20\par
+}
+",,,,16777215.0000,0,0,0,0,,,,,,,,,,,,,,,,,,,,,,,,,,,,0,,1,0,,,0,0,0,0,0,,,,,,,,,,,0,,,,,,,,,,,,,,,,,,0.0000,0,0.0000,0.0000,0.0000,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,Actuación,,,,,,0,,0,,,,,,,,,,,,,0,0.0000,,False,
+1,02,Llamada Saliente Contacto,0,0,0,0,0,0,0.0000,0,,HONORARIO,0,,0,0,,0,2177,0,,0,1.0,,0,0,Llamada,0,1,0,,,0,0,0,"{\rtf1\ansi\ansicpg1252\deff0\deflang3082{\fonttbl{\f0\fnil\fcharset0 Microsoft Sans Serif;}}
+\viewkind4\uc1\pard\f0\fs20\par
+}
+","{\rtf1\ansi\ansicpg1252\deff0\deflang3082{\fonttbl{\f0\fnil\fcharset0 Microsoft Sans Serif;}}
+\viewkind4\uc1\pard\f0\fs20\par
+}
+","{\rtf1\ansi\ansicpg1252\deff0\deflang3082{\fonttbl{\f0\fnil\fcharset0 Microsoft Sans Serif;}}
+\viewkind4\uc1\pard\f0\fs20\par
+}
+","{\rtf1\ansi\ansicpg1252\deff0\deflang3082{\fonttbl{\f0\fnil\fcharset0 Microsoft Sans Serif;}}
+\viewkind4\uc1\pard\f0\fs20\par
+}
+","{\rtf1\ansi\ansicpg1252\deff0\deflang3082{\fonttbl{\f0\fnil\fcharset0 Microsoft Sans Serif;}}
+\viewkind4\uc1\pard\f0\fs20\par
+}
+","{\rtf1\ansi\ansicpg1252\deff0\deflang3082{\fonttbl{\f0\fnil\fcharset0 Microsoft Sans Serif;}}
+\viewkind4\uc1\pard\f0\fs20\par
+}
+",,,,16777215.0000,0,0,0,0,,,,,,,,,,,,,,,,,,,,,,,,,,,,0,,1,0,,,0,0,0,0,0,,,,,,,,,,,0,,,,,,,,,,,,,,,,,,0.0000,0,0.0000,0.0000,0.0000,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,Actuación,,,,,,0,,0,,,,,,,,,,,,,0,0.0000,,False,
+1,03,Llamada Saliente No Contacto,0,0,0,0,0,0,0.0000,0,,HONORARIO,0,,0,0,,0,2178,0,,0,1.0,,0,0,Llamada,0,1,0,,,0,0,0,"{\rtf1\ansi\ansicpg1252\deff0\deflang3082{\fonttbl{\f0\fnil\fcharset0 Microsoft Sans Serif;}}
+\viewkind4\uc1\pard\f0\fs20\par
+}
+","{\rtf1\ansi\ansicpg1252\deff0\deflang3082{\fonttbl{\f0\fnil\fcharset0 Microsoft Sans Serif;}}
+\viewkind4\uc1\pard\f0\fs20\par
+}
+","{\rtf1\ansi\ansicpg1252\deff0\deflang3082{\fonttbl{\f0\fnil\fcharset0 Microsoft Sans Serif;}}
+\viewkind4\uc1\pard\f0\fs20\par
+}
+","{\rtf1\ansi\ansicpg1252\deff0\deflang3082{\fonttbl{\f0\fnil\fcharset0 Microsoft Sans Serif;}}
+\viewkind4\uc1\pard\f0\fs20\par
+}
+","{\rtf1\ansi\ansicpg1252\deff0\deflang3082{\fonttbl{\f0\fnil\fcharset0 Microsoft Sans Serif;}}
+\viewkind4\uc1\pard\f0\fs20\par
+}
+","{\rtf1\ansi\ansicpg1252\deff0\deflang3082{\fonttbl{\f0\fnil\fcharset0 Microsoft Sans Serif;}}
+\viewkind4\uc1\pard\f0\fs20\par
+}
+",,,,16777215.0000,0,0,0,0,,,,,,,,,,,,,,,,,,,,,,,,,,,,0,,1,0,,,0,0,0,0,0,,,,,,,,,,,0,,,,,,,,,,,,,,,,,,0.0000,0,0.0000,0.0000,0.0000,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,Actuación,,,,,,0,,0,,,,,,,,,,,,,0,0.0000,,False,
+2,01,Ausencia Justificada,0,0,0,0,0,0,0.0000,0,,HONORARIO,0,,0,0,,0,2212,0,,0,1.0,,0,0,Laboral,0,1,0,,,0,0,0,"{\rtf1\ansi\ansicpg1252\deff0\deflang3082{\fonttbl{\f0\fnil\fcharset0 Microsoft Sans Serif;}}
+\viewkind4\uc1\pard\f0\fs20\par
+}
+","{\rtf1\ansi\ansicpg1252\deff0\deflang3082{\fonttbl{\f0\fnil\fcharset0 Microsoft Sans Serif;}}
+\viewkind4\uc1\pard\f0\fs20\par
+}
+","{\rtf1\ansi\ansicpg1252\deff0\deflang3082{\fonttbl{\f0\fnil\fcharset0 Microsoft Sans Serif;}}
+\viewkind4\uc1\pard\f0\fs20\par
+}
+","{\rtf1\ansi\ansicpg1252\deff0\deflang3082{\fonttbl{\f0\fnil\fcharset0 Microsoft Sans Serif;}}
+\viewkind4\uc1\pard\f0\fs20\par
+}
+","{\rtf1\ansi\ansicpg1252\deff0\deflang3082{\fonttbl{\f0\fnil\fcharset0 Microsoft Sans Serif;}}
+\viewkind4\uc1\pard\f0\fs20\par
+}
+","{\rtf1\ansi\ansicpg1252\deff0\deflang3082{\fonttbl{\f0\fnil\fcharset0 Microsoft Sans Serif;}}
+\viewkind4\uc1\pard\f0\fs20\par
+}
+",,,,16777215.0000,0,0,0,0,,,,,,,,,,,,,,,,,,,,,,,,,,,,0,,1,0,,,0,0,0,0,0,,,,,,,,,,,0,,,,,,,,,,,,,,,,,,0.0000,0,0.0000,0.0000,0.0000,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,0,,0,,,,,,,,,,,,,0,0.0000,,False,
+2,01,Encuesta Valoración de Servicio,0,0,0,0,0,0,0.0000,0,,HONORARIO,0,,1,0,,0,2204,0,,0,1.0,,0,0,Calidad de Servicio,0,1,0,,,0,1,0,"{\rtf1\ansi\ansicpg1252\deff0\deflang3082{\fonttbl{\f0\fnil\fcharset0 Microsoft Sans Serif;}}
+\viewkind4\uc1\pard\f0\fs20\par
+}
+","{\rtf1\ansi\ansicpg1252\deff0\deflang3082{\fonttbl{\f0\fnil\fcharset0 Microsoft Sans Serif;}}
+\viewkind4\uc1\pard\f0\fs20\par
+}
+","{\rtf1\ansi\ansicpg1252\deff0\deflang3082{\fonttbl{\f0\fnil\fcharset0 Microsoft Sans Serif;}}
+\viewkind4\uc1\pard\f0\fs20\par
+}
+","{\rtf1\ansi\ansicpg1252\deff0\deflang3082{\fonttbl{\f0\fnil\fcharset0 Microsoft Sans Serif;}}
+\viewkind4\uc1\pard\f0\fs20\par
+}
+","{\rtf1\ansi\ansicpg1252\deff0\deflang3082{\fonttbl{\f0\fnil\fcharset0 Microsoft Sans Serif;}}
+\viewkind4\uc1\pard\f0\fs20\par
+}
+","{\rtf1\ansi\ansicpg1252\deff0\deflang3082{\fonttbl{\f0\fnil\fcharset0 Microsoft Sans Serif;}}
+\viewkind4\uc1\pard\f0\fs20\par
+}
+",,,,16777215.0000,0,0,0,0,,,,,,,,,,,,,,,,,,,,,,,,,,,,0,,1,0,,,0,0,0,0,0,,,,,,,,,,,0,,,,,,,,,,,,,,,,,,0.0000,0,0.0000,0.0000,0.0000,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,1,100000012,0,,,,,,,,,,,,,0,0.0000,,False,
+2,02,Ausencia sin Justificar,0,0,0,0,0,0,0.0000,0,,HONORARIO,0,,0,0,,0,2213,0,,0,1.0,,0,0,Laboral,0,1,0,,,0,0,0,"{\rtf1\ansi\ansicpg1252\deff0\deflang3082{\fonttbl{\f0\fnil\fcharset0 Microsoft Sans Serif;}}
+\viewkind4\uc1\pard\f0\fs20\par
+}
+","{\rtf1\ansi\ansicpg1252\deff0\deflang3082{\fonttbl{\f0\fnil\fcharset0 Microsoft Sans Serif;}}
+\viewkind4\uc1\pard\f0\fs20\par
+}
+","{\rtf1\ansi\ansicpg1252\deff0\deflang3082{\fonttbl{\f0\fnil\fcharset0 Microsoft Sans Serif;}}
+\viewkind4\uc1\pard\f0\fs20\par
+}
+","{\rtf1\ansi\ansicpg1252\deff0\deflang3082{\fonttbl{\f0\fnil\fcharset0 Microsoft Sans Serif;}}
+\viewkind4\uc1\pard\f0\fs20\par
+}
+","{\rtf1\ansi\ansicpg1252\deff0\deflang3082{\fonttbl{\f0\fnil\fcharset0 Microsoft Sans Serif;}}
+\viewkind4\uc1\pard\f0\fs20\par
+}
+","{\rtf1\ansi\ansicpg1252\deff0\deflang3082{\fonttbl{\f0\fnil\fcharset0 Microsoft Sans Serif;}}
+\viewkind4\uc1\pard\f0\fs20\par
+}
+",,,,16777215.0000,0,0,0,0,,,,,,,,,,,,,,,,,,,,,,,,,,,,0,,1,0,,,0,0,0,0,0,,,,,,,,,,,0,,,,,,,,,,,,,,,,,,0.0000,0,0.0000,0.0000,0.0000,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,0,,0,,,,,,,,,,,,,0,0.0000,,False,
+2,02,Incidencia,0,0,0,0,0,0,0.0000,0,,HONORARIO,0,,0,0,,0,2205,0,,0,1.0,,0,0,Calidad de Servicio,0,1,0,,,0,1,0,"{\rtf1\ansi\ansicpg1252\deff0\deflang3082{\fonttbl{\f0\fnil\fcharset0 Microsoft Sans Serif;}}
+\viewkind4\uc1\pard\f0\fs20\par
+}
+","{\rtf1\ansi\ansicpg1252\deff0\deflang3082{\fonttbl{\f0\fnil\fcharset0 Microsoft Sans Serif;}}
+\viewkind4\uc1\pard\f0\fs20\par
+}
+","{\rtf1\ansi\ansicpg1252\deff0\deflang3082{\fonttbl{\f0\fnil\fcharset0 Microsoft Sans Serif;}}
+\viewkind4\uc1\pard\f0\fs20\par
+}
+","{\rtf1\ansi\ansicpg1252\deff0\deflang3082{\fonttbl{\f0\fnil\fcharset0 Microsoft Sans Serif;}}
+\viewkind4\uc1\pard\f0\fs20\par
+}
+","{\rtf1\ansi\ansicpg1252\deff0\deflang3082{\fonttbl{\f0\fnil\fcharset0 Microsoft Sans Serif;}}
+\viewkind4\uc1\pard\f0\fs20\par
+}
+","{\rtf1\ansi\ansicpg1252\deff0\deflang3082{\fonttbl{\f0\fnil\fcharset0 Microsoft Sans Serif;}}
+\viewkind4\uc1\pard\f0\fs20\par
+}
+",,,,16777215.0000,0,0,0,0,,,,,,,,,,,,,,,,,,,,,,,,,,,,0,,1,0,,,0,1,0,0,0,,,,,,,,,,,0,,,,,,,,,,,,,,,,,,0.0000,0,0.0000,0.0000,0.0000,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,0,,0,,,,,,,,,,,,,0,0.0000,,False,
+2,03,Reclamación,0,0,0,0,0,0,0.0000,0,,HONORARIO,0,,0,0,,0,2206,0,,0,1.0,,0,0,Calidad de Servicio,0,1,0,,,0,1,0,"{\rtf1\ansi\ansicpg1252\deff0\deflang3082{\fonttbl{\f0\fnil\fcharset0 Microsoft Sans Serif;}}
+\viewkind4\uc1\pard\f0\fs20\par
+}
+","{\rtf1\ansi\ansicpg1252\deff0\deflang3082{\fonttbl{\f0\fnil\fcharset0 Microsoft Sans Serif;}}
+\viewkind4\uc1\pard\f0\fs20\par
+}
+","{\rtf1\ansi\ansicpg1252\deff0\deflang3082{\fonttbl{\f0\fnil\fcharset0 Microsoft Sans Serif;}}
+\viewkind4\uc1\pard\f0\fs20\par
+}
+","{\rtf1\ansi\ansicpg1252\deff0\deflang3082{\fonttbl{\f0\fnil\fcharset0 Microsoft Sans Serif;}}
+\viewkind4\uc1\pard\f0\fs20\par
+}
+","{\rtf1\ansi\ansicpg1252\deff0\deflang3082{\fonttbl{\f0\fnil\fcharset0 Microsoft Sans Serif;}}
+\viewkind4\uc1\pard\f0\fs20\par
+}
+","{\rtf1\ansi\ansicpg1252\deff0\deflang3082{\fonttbl{\f0\fnil\fcharset0 Microsoft Sans Serif;}}
+\viewkind4\uc1\pard\f0\fs20\par
+}
+",,,,16777215.0000,0,0,0,0,,,,,,,,,,,,,,,,,,,,,,,,,,,,0,,1,0,,,0,0,0,0,0,,,,,,,,,,,0,,,,,,,,,,,,,,,,,,0.0000,0,0.0000,0.0000,0.0000,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,0,,0,,,,,,,,,,,,,0,0.0000,,False,
+2,03,Retraso Justificado,0,0,0,0,0,0,0.0000,0,,HONORARIO,0,,0,0,,0,2214,0,,0,1.0,,0,0,Laboral,0,1,0,,,0,0,0,"{\rtf1\ansi\ansicpg1252\deff0\deflang3082{\fonttbl{\f0\fnil\fcharset0 Microsoft Sans Serif;}}
+\viewkind4\uc1\pard\f0\fs20\par
+}
+","{\rtf1\ansi\ansicpg1252\deff0\deflang3082{\fonttbl{\f0\fnil\fcharset0 Microsoft Sans Serif;}}
+\viewkind4\uc1\pard\f0\fs20\par
+}
+","{\rtf1\ansi\ansicpg1252\deff0\deflang3082{\fonttbl{\f0\fnil\fcharset0 Microsoft Sans Serif;}}
+\viewkind4\uc1\pard\f0\fs20\par
+}
+","{\rtf1\ansi\ansicpg1252\deff0\deflang3082{\fonttbl{\f0\fnil\fcharset0 Microsoft Sans Serif;}}
+\viewkind4\uc1\pard\f0\fs20\par
+}
+","{\rtf1\ansi\ansicpg1252\deff0\deflang3082{\fonttbl{\f0\fnil\fcharset0 Microsoft Sans Serif;}}
+\viewkind4\uc1\pard\f0\fs20\par
+}
+","{\rtf1\ansi\ansicpg1252\deff0\deflang3082{\fonttbl{\f0\fnil\fcharset0 Microsoft Sans Serif;}}
+\viewkind4\uc1\pard\f0\fs20\par
+}
+",,,,16777215.0000,0,0,0,0,,,,,,,,,,,,,,,,,,,,,,,,,,,,0,,1,0,,,0,0,0,0,0,,,,,,,,,,,0,,,,,,,,,,,,,,,,,,0.0000,0,0.0000,0.0000,0.0000,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,0,,0,,,,,,,,,,,,,0,0.0000,,False,
+2,04,Retraso sin Justificar,0,0,0,0,0,0,0.0000,0,,HONORARIO,0,,0,0,,0,2215,0,,0,1.0,,0,0,Laboral,0,1,0,,,0,0,0,"{\rtf1\ansi\ansicpg1252\deff0\deflang3082{\fonttbl{\f0\fnil\fcharset0 Microsoft Sans Serif;}}
+\viewkind4\uc1\pard\f0\fs20\par
+}
+","{\rtf1\ansi\ansicpg1252\deff0\deflang3082{\fonttbl{\f0\fnil\fcharset0 Microsoft Sans Serif;}}
+\viewkind4\uc1\pard\f0\fs20\par
+}
+","{\rtf1\ansi\ansicpg1252\deff0\deflang3082{\fonttbl{\f0\fnil\fcharset0 Microsoft Sans Serif;}}
+\viewkind4\uc1\pard\f0\fs20\par
+}
+","{\rtf1\ansi\ansicpg1252\deff0\deflang3082{\fonttbl{\f0\fnil\fcharset0 Microsoft Sans Serif;}}
+\viewkind4\uc1\pard\f0\fs20\par
+}
+","{\rtf1\ansi\ansicpg1252\deff0\deflang3082{\fonttbl{\f0\fnil\fcharset0 Microsoft Sans Serif;}}
+\viewkind4\uc1\pard\f0\fs20\par
+}
+","{\rtf1\ansi\ansicpg1252\deff0\deflang3082{\fonttbl{\f0\fnil\fcharset0 Microsoft Sans Serif;}}
+\viewkind4\uc1\pard\f0\fs20\par
+}
+",,,,16777215.0000,0,0,0,0,,,,,,,,,,,,,,,,,,,,,,,,,,,,0,,1,0,,,0,0,0,0,0,,,,,,,,,,,0,,,,,,,,,,,,,,,,,,0.0000,0,0.0000,0.0000,0.0000,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,0,,0,,,,,,,,,,,,,0,0.0000,,False,
+2,05,Vacaciones,0,0,0,0,0,0,0.0000,0,,HONORARIO,0,,0,0,,0,2216,0,,0,1.0,,0,0,Laboral,0,1,0,,,0,0,0,"{\rtf1\ansi\ansicpg1252\deff0\deflang3082{\fonttbl{\f0\fnil\fcharset0 Microsoft Sans Serif;}}
+\viewkind4\uc1\pard\f0\fs20\par
+}
+","{\rtf1\ansi\ansicpg1252\deff0\deflang3082{\fonttbl{\f0\fnil\fcharset0 Microsoft Sans Serif;}}
+\viewkind4\uc1\pard\f0\fs20\par
+}
+","{\rtf1\ansi\ansicpg1252\deff0\deflang3082{\fonttbl{\f0\fnil\fcharset0 Microsoft Sans Serif;}}
+\viewkind4\uc1\pard\f0\fs20\par
+}
+","{\rtf1\ansi\ansicpg1252\deff0\deflang3082{\fonttbl{\f0\fnil\fcharset0 Microsoft Sans Serif;}}
+\viewkind4\uc1\pard\f0\fs20\par
+}
+","{\rtf1\ansi\ansicpg1252\deff0\deflang3082{\fonttbl{\f0\fnil\fcharset0 Microsoft Sans Serif;}}
+\viewkind4\uc1\pard\f0\fs20\par
+}
+","{\rtf1\ansi\ansicpg1252\deff0\deflang3082{\fonttbl{\f0\fnil\fcharset0 Microsoft Sans Serif;}}
+\viewkind4\uc1\pard\f0\fs20\par
+}
+",,,,16777215.0000,0,0,0,0,,,,,,,,,,,,,,,,,,,,,,,,,,,,0,,1,0,,,0,0,0,0,0,,,,,,,,,,,0,,,,,,,,,,,,,,,,,,0.0000,0,0.0000,0.0000,0.0000,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,0,,0,,,,,,,,,,,,,0,0.0000,,False,
+2,06,Reunión,0,0,0,0,0,0,0.0000,0,,HONORARIO,0,,0,0,,0,2217,0,,0,1.0,,0,0,Laboral,0,1,0,,,0,0,0,"{\rtf1\ansi\ansicpg1252\deff0\deflang3082{\fonttbl{\f0\fnil\fcharset0 Microsoft Sans Serif;}}
+\viewkind4\uc1\pard\f0\fs20\par
+}
+","{\rtf1\ansi\ansicpg1252\deff0\deflang3082{\fonttbl{\f0\fnil\fcharset0 Microsoft Sans Serif;}}
+\viewkind4\uc1\pard\f0\fs20\par
+}
+","{\rtf1\ansi\ansicpg1252\deff0\deflang3082{\fonttbl{\f0\fnil\fcharset0 Microsoft Sans Serif;}}
+\viewkind4\uc1\pard\f0\fs20\par
+}
+","{\rtf1\ansi\ansicpg1252\deff0\deflang3082{\fonttbl{\f0\fnil\fcharset0 Microsoft Sans Serif;}}
+\viewkind4\uc1\pard\f0\fs20\par
+}
+","{\rtf1\ansi\ansicpg1252\deff0\deflang3082{\fonttbl{\f0\fnil\fcharset0 Microsoft Sans Serif;}}
+\viewkind4\uc1\pard\f0\fs20\par
+}
+","{\rtf1\ansi\ansicpg1252\deff0\deflang3082{\fonttbl{\f0\fnil\fcharset0 Microsoft Sans Serif;}}
+\viewkind4\uc1\pard\f0\fs20\par
+}
+",,,,16777215.0000,0,0,0,0,,,,,,,,,,,,,,,,,,,,,,,,,,,,0,,1,0,,,0,0,0,0,0,,,,,,,,,,,0,,,,,,,,,,,,,,,,,,0.0000,0,0.0000,0.0000,0.0000,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,0,,0,,,,,,,,,,,,,0,0.0000,,False,
+3,01,Envío Presupuesto,0,0,0,0,0,0,0.0000,0,,HONORARIO,0,,0,0,,0,2207,0,,0,1.0,,0,0,Comercial,0,1,0,,,0,1,0,"{\rtf1\ansi\ansicpg1252\deff0\deflang3082{\fonttbl{\f0\fnil\fcharset0 Microsoft Sans Serif;}}
+\viewkind4\uc1\pard\f0\fs20\par
+}
+","{\rtf1\ansi\ansicpg1252\deff0\deflang3082{\fonttbl{\f0\fnil\fcharset0 Microsoft Sans Serif;}}
+\viewkind4\uc1\pard\f0\fs20\par
+}
+","{\rtf1\ansi\ansicpg1252\deff0\deflang3082{\fonttbl{\f0\fnil\fcharset0 Microsoft Sans Serif;}}
+\viewkind4\uc1\pard\f0\fs20\par
+}
+","{\rtf1\ansi\ansicpg1252\deff0\deflang3082{\fonttbl{\f0\fnil\fcharset0 Microsoft Sans Serif;}}
+\viewkind4\uc1\pard\f0\fs20\par
+}
+","{\rtf1\ansi\ansicpg1252\deff0\deflang3082{\fonttbl{\f0\fnil\fcharset0 Microsoft Sans Serif;}}
+\viewkind4\uc1\pard\f0\fs20\par
+}
+","{\rtf1\ansi\ansicpg1252\deff0\deflang3082{\fonttbl{\f0\fnil\fcharset0 Microsoft Sans Serif;}}
+\viewkind4\uc1\pard\f0\fs20\par
+}
+",,,,16777215.0000,0,0,0,0,,,,,,,,,,,,,,,,,,,,,,,,,,,,0,,1,0,,,0,0,0,0,0,,,,,,,,,,,0,,,,,,,,,,,,,,,,,,0.0000,0,0.0000,0.0000,0.0000,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,0,,0,,,,,,,,,,,,,0,0.0000,,False,
+3,02,Aceptación Presupuesto,0,0,0,0,0,0,0.0000,0,,HONORARIO,0,,0,0,,0,2208,0,,0,1.0,,0,0,Comercial,0,1,0,,,0,1,0,"{\rtf1\ansi\ansicpg1252\deff0\deflang3082{\fonttbl{\f0\fnil\fcharset0 Microsoft Sans Serif;}}
+\viewkind4\uc1\pard\f0\fs20\par
+}
+","{\rtf1\ansi\ansicpg1252\deff0\deflang3082{\fonttbl{\f0\fnil\fcharset0 Microsoft Sans Serif;}}
+\viewkind4\uc1\pard\f0\fs20\par
+}
+","{\rtf1\ansi\ansicpg1252\deff0\deflang3082{\fonttbl{\f0\fnil\fcharset0 Microsoft Sans Serif;}}
+\viewkind4\uc1\pard\f0\fs20\par
+}
+","{\rtf1\ansi\ansicpg1252\deff0\deflang3082{\fonttbl{\f0\fnil\fcharset0 Microsoft Sans Serif;}}
+\viewkind4\uc1\pard\f0\fs20\par
+}
+","{\rtf1\ansi\ansicpg1252\deff0\deflang3082{\fonttbl{\f0\fnil\fcharset0 Microsoft Sans Serif;}}
+\viewkind4\uc1\pard\f0\fs20\par
+}
+","{\rtf1\ansi\ansicpg1252\deff0\deflang3082{\fonttbl{\f0\fnil\fcharset0 Microsoft Sans Serif;}}
+\viewkind4\uc1\pard\f0\fs20\par
+}
+",,,,16777215.0000,0,0,0,0,,,,,,,,,,,,,,,,,,,,,,,,,,,,0,,1,0,,,0,0,0,0,0,,,,,,,,,,,0,,,,,,,,,,,,,,,,,,0.0000,0,0.0000,0.0000,0.0000,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,0,,0,,,,,,,,,,,,,0,0.0000,,True,
+3,03,Solicitud de Información,0,0,0,0,0,0,0.0000,0,,HONORARIO,0,,0,0,,0,2209,0,,0,1.0,,0,0,Comercial,0,1,0,,,0,1,0,"{\rtf1\ansi\ansicpg1252\deff0\deflang3082{\fonttbl{\f0\fnil\fcharset0 Microsoft Sans Serif;}}
+\viewkind4\uc1\pard\f0\fs20\par
+}
+","{\rtf1\ansi\ansicpg1252\deff0\deflang3082{\fonttbl{\f0\fnil\fcharset0 Microsoft Sans Serif;}}
+\viewkind4\uc1\pard\f0\fs20\par
+}
+","{\rtf1\ansi\ansicpg1252\deff0\deflang3082{\fonttbl{\f0\fnil\fcharset0 Microsoft Sans Serif;}}
+\viewkind4\uc1\pard\f0\fs20\par
+}
+","{\rtf1\ansi\ansicpg1252\deff0\deflang3082{\fonttbl{\f0\fnil\fcharset0 Microsoft Sans Serif;}}
+\viewkind4\uc1\pard\f0\fs20\par
+}
+","{\rtf1\ansi\ansicpg1252\deff0\deflang3082{\fonttbl{\f0\fnil\fcharset0 Microsoft Sans Serif;}}
+\viewkind4\uc1\pard\f0\fs20\par
+}
+","{\rtf1\ansi\ansicpg1252\deff0\deflang3082{\fonttbl{\f0\fnil\fcharset0 Microsoft Sans Serif;}}
+\viewkind4\uc1\pard\f0\fs20\par
+}
+",,,,16777215.0000,0,0,0,0,,,,,,,,,,,,,,,,,,,,,,,,,,,,0,,1,0,,,0,0,0,0,0,,,,,,,,,,,0,,,,,,,,,,,,,,,,,,0.0000,0,0.0000,0.0000,0.0000,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,0,,0,,,,,,,,,,,,,0,0.0000,,False,
+4,01,Informe Médico,0,0,0,0,0,0,0.0000,0,,HONORARIO,1,Pacientes\2.1 informe paciente.doc,1,0,,0,2211,0,,0,1.0,,0,0,Documento,0,1,0,,,0,1,0,"{\rtf1\ansi\ansicpg1252\deff0\deflang3082{\fonttbl{\f0\fnil\fcharset0 Microsoft Sans Serif;}}
+\viewkind4\uc1\pard\f0\fs20\par
+}
+","{\rtf1\ansi\ansicpg1252\deff0\deflang3082{\fonttbl{\f0\fnil\fcharset0 Microsoft Sans Serif;}}
+\viewkind4\uc1\pard\f0\fs20\par
+}
+","{\rtf1\ansi\ansicpg1252\deff0\deflang3082{\fonttbl{\f0\fnil\fcharset0 Microsoft Sans Serif;}}
+\viewkind4\uc1\pard\f0\fs20\par
+}
+","{\rtf1\ansi\ansicpg1252\deff0\deflang3082{\fonttbl{\f0\fnil\fcharset0 Microsoft Sans Serif;}}
+\viewkind4\uc1\pard\f0\fs20\par
+}
+","{\rtf1\ansi\ansicpg1252\deff0\deflang3082{\fonttbl{\f0\fnil\fcharset0 Microsoft Sans Serif;}}
+\viewkind4\uc1\pard\f0\fs20\par
+}
+","{\rtf1\ansi\ansicpg1252\deff0\deflang3082{\fonttbl{\f0\fnil\fcharset0 Microsoft Sans Serif;}}
+\viewkind4\uc1\pard\f0\fs20\par
+}
+",,,,16777215.0000,0,0,0,0,,,,,,,,,,,,,,,,,,,,,,,,,,,,0,,1,0,,,0,0,0,0,0,,,,,,,,,,,0,,,,,,,,,,,,,,,,,,0.0000,0,0.0000,0.0000,0.0000,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,0,,0,,,,,,,,,,,,,0,0.0000,,False,
+4,02,Justificante Asistencia Médica,0,0,0,0,0,0,0.0000,0,,HONORARIO,1,Pacientes\3.1 justificante de asistencia médica.doc,1,0,,0,2210,0,,0,1.0,,0,0,Documento,0,1,0,,,0,1,0,"{\rtf1\ansi\ansicpg1252\deff0\deflang3082{\fonttbl{\f0\fnil\fcharset0 Microsoft Sans Serif;}}
+\viewkind4\uc1\pard\f0\fs20\par
+}
+","{\rtf1\ansi\ansicpg1252\deff0\deflang3082{\fonttbl{\f0\fnil\fcharset0 Microsoft Sans Serif;}}
+\viewkind4\uc1\pard\f0\fs20\par
+}
+","{\rtf1\ansi\ansicpg1252\deff0\deflang3082{\fonttbl{\f0\fnil\fcharset0 Microsoft Sans Serif;}}
+\viewkind4\uc1\pard\f0\fs20\par
+}
+","{\rtf1\ansi\ansicpg1252\deff0\deflang3082{\fonttbl{\f0\fnil\fcharset0 Microsoft Sans Serif;}}
+\viewkind4\uc1\pard\f0\fs20\par
+}
+","{\rtf1\ansi\ansicpg1252\deff0\deflang3082{\fonttbl{\f0\fnil\fcharset0 Microsoft Sans Serif;}}
+\viewkind4\uc1\pard\f0\fs20\par
+}
+","{\rtf1\ansi\ansicpg1252\deff0\deflang3082{\fonttbl{\f0\fnil\fcharset0 Microsoft Sans Serif;}}
+\viewkind4\uc1\pard\f0\fs20\par
+}
+",,,,16777215.0000,0,0,0,0,,,,,,,,,,,,,,,,,,,,,,,,,,,,0,,1,1,,,0,0,0,0,0,,,,,,,,,,,0,,,,,,,,,,,,,,,,,,0.0000,0,0.0000,0.0000,0.0000,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,0,,0,,,,,,,,,,,,,0,0.0000,,False,

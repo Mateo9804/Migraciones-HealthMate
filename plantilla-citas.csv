@@ -1,0 +1,4 @@
+professional_name,client_name,client_phone,service_name,date,start_time,end_time,duration,status,notes,modalidad
+Dr. Juan Pérez,Juan García,34612345678,Fisioterapia,15/01/2024,09:00:00,10:00:00,60,confirmed,Primera sesión,presencial
+Dra. María López,María González,34687654321,Masaje Terapéutico,16/01/2024,10:30:00,11:30:00,60,confirmed,Segunda sesión,presencial
+Dr. Carlos Ruiz,Carlos Martínez,34699887766,Consulta General,17/01/2024,14:00:00,15:00:00,60,pending,Revisión anual,presencial

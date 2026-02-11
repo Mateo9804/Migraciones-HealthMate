@@ -1,0 +1,653 @@
+﻿id,nombre,idPadre,idOrigen,orden,idOrigenCampos,heredartitulo,permiso,origentitulo,tablatitulo,titulo,tipo
+8,Historial,,5,0,,False,,0,,Historial,0
+9,Empresa,,6,0,,False,,0,,Empresa,0
+11,Última Actuación,,7,0,,False,,0,,Última Actuación,0
+15,Historial,,10,0,,False,,0,,Historial,0
+17,Bancos,,14,0,,False,,0,,Bancos,0
+18,Oportunidad,,15,0,,False,,0,,Oportunidad,0
+19,Cuentas,,16,0,,False,,0,,Cuentas,0
+20,Previas,,18,0,,False,,0,,Previas,0
+22,Concepto,,19,0,,False,,0,,Concepto,0
+23,General,,21,0,,False,,0,,General,0
+24,Proforma,,23,0,,False,,0,,Proforma,0
+25,Cobros,,28,0,,False,,0,,Cobros,0
+29,Empresa,,12,0,6,False,,0,,Empresa,0
+30,General Alumnos,,12,1,3,False,,0,,General Alumnos,0
+31,Empresa,,11,0,6,False,,0,,Empresa,0
+32,Clientes,,11,1,,False,,1,,CliTitulo|0,0
+33,General,32,11,0,,False,,0,,General Clientes,0
+34,General Expedientes,32,11,1,4,False,ver_exp|1,1,,EtiqExpedientesProp,1
+35,Contactos,32,11,2,8,False,,1,,TituloFormCorConPral,1
+37,Usuarios,32,11,3,29,False,,0,,Usuarios,0
+38,Última Actuación,33,11,0,164,False,,0,,Última Actuación,0
+39,Cobros,32,11,4,28,False,,0,,Cobros,1
+40,Historial,32,11,5,5,False,,0,,Historial,1
+41,Cuentas,32,11,6,16,False,,0,,Cuentas,1
+42,Previas,41,11,0,18,False,,0,,Previas,1
+43,Previas 1,41,11,1,30,False,,0,,Previas 1,1
+44,Previas 2,41,11,2,31,False,,0,,Previas 2,1
+45,Previas 3,41,11,3,32,False,,0,,Previas 3,1
+46,Oportunidades,41,11,4,15,False,,0,,Oportunidades,1
+47,Conceptos Oportunidades,41,11,5,33,False,,0,,Conceptos Oportunidades,1
+48,Empresa,,4,0,6,False,,0,,Empresa,0
+50,Expedientes,,4,1,,False,,0,,Expedientes,0
+51,General Expedientes,50,4,0,4,False,,0,,General Expedientes,0
+52,Clientes,50,4,1,11,False,,1,,CliTitulo|0,1
+53,Clientes Potenciales,50,4,2,34,False,clipot|1,1,,CliTitulo|2,1
+55,Historial,50,4,3,10,False,,0,,Historial,1
+56,Cuentas,50,4,4,17,False,,0,,Cuentas,1
+57,Empresa,,20,0,6,False,,0,,Empresa,0
+58,Facturas,,20,1,,False,,0,,Facturas,0
+59,General Facturas,58,20,0,20,False,,0,,General Facturas,0
+63,Empresa,,26,0,6,False,,0,,Empresa,0
+64,Albaranes,,26,0,,False,,0,,Albaranes,0
+65,General Albaranes,64,26,0,26,False,,0,,General Albaranes,0
+68,Empresa,,47,0,6,False,,0,,Empresa,0
+69,Recetas Médicas,,47,1,,False,,0,,Recetas Médicas,0
+70,Recetas,69,47,0,47,False,,0,,Recetas,0
+71,Empresa,,13,0,6,False,,0,,Empresa,0
+72,Bancos,,13,1,,False,,0,,Bancos,0
+73,General Bancos,72,13,0,13,False,,0,,General Bancos,0
+74,Contactos,72,13,1,8,False,,0,,Contactos,0
+75,Empresa,,8,0,6,False,,0,,Empresa,0
+77,General Contactos,,8,1,8,False,,0,,General Contactos,0
+79,Historial Campos Combinados,32,11,7,,False,123456789,0,,Historial Campos Combinados,0
+80,Cobros Periódicos,32,11,8,,False,bvercobros,0,,Cobros Periódicos,1
+81,Alta Cobros,80,11,0,,False,,0,,Alta Cobros,0
+82,Area1,81,11,0,48,False,historialarea1,0,,Area1,0
+83,Resumen Anual,80,11,1,101,False,,0,,Resumen Anual,0
+84,Notas,80,11,2,,False,,0,,Notas,0
+85,Notas,84,11,0,,False,,0,,Notas,0
+86,Empresa,,50,0,6,False,,0,,Empresa,0
+87,Historial,,50,1,,False,,0,,Historial,0
+88,Campos,87,50,0,50,False,,0,,Campos,0
+90,Usuario,58,20,1,29,False,,0,,Usuario,0
+93,Conceptos,58,20,2,,False,,0,,Conceptos,0
+94,Todas,93,20,0,51,False,,0,,Todas,1
+95,Gastos,93,20,1,52,False,,0,,Gastos,1
+96,Honorarios,93,20,2,53,False,,0,,Honorarios,1
+97,Provisiones,93,20,3,54,False,,0,,Provisiones,1
+98,Suplidos,93,20,4,55,False,,0,,Suplidos,1
+99,Descuentos,93,20,5,56,False,,0,,Descuentos,1
+100,Articulos,93,20,6,57,False,,0,,Articulos,1
+101,Todos,,58,0,,False,,0,,Todos,0
+103,Gestión de Cobros,58,20,3,28,False,,0,,Gestión de Cobros,1
+105,Cobros Factura,58,20,4,60,False,,0,,Cobros Factura,1
+106,Devoluciones,58,20,5,61,False,,0,,Devoluciones,1
+107,Agrupaciones,58,20,6,62,False,,0,,Agrupaciones,1
+108,Datos Generales,24,23,0,24,False,,0,,Datos Generales,0
+109,Usuario,24,23,1,29,False,,0,,Usuario,0
+110,Conceptos,24,23,2,19,False,,0,,Conceptos,0
+111,Empresa,,24,0,6,False,,0,,Empresa,0
+112,Proforma,,24,1,,False,,0,,Proforma,0
+113,Generales,112,24,0,24,False,,0,,Generales,0
+114,Usuario,112,24,1,29,False,,0,,Usuario,0
+116,Conceptos,112,24,2,,False,,0,,Conceptos,0
+117,Todas,116,24,0,63,False,,0,,Todas,1
+118,Gastos,116,24,1,64,False,,0,,Gastos,1
+119,Honorarios,116,24,2,65,False,,0,,Honorarios,1
+120,Suplidos,116,24,3,64,False,,0,,Suplidos,1
+121,Provisión,116,24,4,67,False,,0,,Provisión,1
+122,Descuentos,116,24,5,68,False,,0,,Descuentos,1
+123,Articulos,116,24,6,69,False,,0,,Articulos,1
+125,Todas,,70,0,,False,,0,,Todas,0
+126,Kits,116,24,7,71,False,,0,,Kits,1
+127,Otros Campos,33,11,1,3,False,,0,,Otros Campos,0
+128,Alumnos,50,4,5,38,False,bveralumno,0,,Alumnos,1
+129,Tipo de Expediente,51,4,0,110,False,,0,,Tipo de Expediente,0
+130,Tipo de Asunto,51,4,1,111,True,,0,,,0
+131,Tipo de Procedimiento,51,4,2,112,False,,0,,Tipo de Procedimiento,0
+132,Juzgado Principal,51,4,3,150,False,codjuzga|1,0,,Juzgado Principal,0
+134,Terceros,50,4,6,37,False,ver_otros|1,1,,CliTitulo|3,1
+135,,,0,0,,False,,0,,CliTitulo|0,0
+136,Terceros,,0,0,37,False,ver_otros|1,1,,CliTitulo|0,0
+137,Pacientes,50,4,7,9,False,bverpaciente,0,,Pacientes,1
+138,Contrarios,50,4,8,113,False,bverficcont,1,,ContrarioTituloPlural,1
+139,Abogados Propios,50,4,9,114,False,bverficabog,0,,Abogados Propios,1
+140,Abogados Contrarios,50,4,10,115,False,bverficabog,0,,Abogados Contrarios,1
+141,Procuradores Propios,50,4,11,116,False,bverficproc,0,,Procuradores Propios,1
+142,Procuradores Contrarios,50,4,12,117,False,bverficproc,0,,Procuradores Contrarios,1
+143,Colaboradores,50,4,13,72,False,bverficcolab,0,,Colaboradores,1
+144,Organismos,50,4,14,119,False,bverficorg,1,,OrganismosTituloPlural,1
+145,Juzgados,50,4,15,120,False,bverficjuzga,0,,Juzgados,1
+146,Contactos,50,4,16,8,False,expe_con|1,1,,TituloFormCorConPral,1
+147,Bancos,50,4,17,35,False,,0,,Bancos,1
+148,Seguros,50,4,18,141,False,expe_seg|1,0,,Seguros,1
+149,Lesionados,50,4,19,142,False,expe_seg|1,0,,Lesionados,1
+150,Recobros,50,4,20,143,False,expe_rec|1,0,,Recobros,1
+151,Perso1,50,4,21,122,False,bverficper1,1,,TituloFormPerX|0,1
+152,Perso2,50,4,22,123,False,bverficper2,1,,TituloFormPerX|1,1
+153,Perso3,50,4,23,124,False,bverficper3,1,,TituloFormPerX|2,1
+154,Perso4,50,4,24,125,False,bverficper4,1,,TituloFormPerX|3,1
+155,Perso5,50,4,25,126,False,bverficper5,1,,TituloFormPerX|4,1
+156,Perso6,50,4,26,127,False,bverficper6,1,,TituloFormPerX|5,1
+157,Perso7,50,4,27,128,False,bverficper7,1,,TituloFormPerX|6,1
+158,Perso8,50,4,28,129,False,bverficper8,1,,TituloFormPerX|7,1
+159,Perso9,50,4,29,130,False,bverficper9,1,,TituloFormPerX|8,1
+160,Perso10,50,4,30,131,False,bverficper10,1,,TituloFormPerX|9,1
+161,ExpPerso1,50,4,31,136,False,expe_perso1|1,1,,TituloFormExpPersoX|0,1
+162,ExpPerso2,50,4,32,137,False,expe_perso2|1,1,,TituloFormExpPersoX|1,1
+163,ExpPerso3,50,4,33,138,False,expe_perso3|1,1,,TituloFormExpPersoX|2,1
+164,ExpPerso4,50,4,34,139,False,expe_perso4|1,1,,TituloFormExpPersoX|3,1
+165,ExpPerso5,50,4,35,140,False,expe_perso5|1,1,,TituloFormExpPersoX|4,1
+166,Usuarios,51,4,4,29,False,,0,,Usuarios,0
+167,Última Actuación,51,4,5,166,False,,0,,Última Actuación,0
+168,Adjuntos,51,4,6,146,False,,0,,Adjuntos,1
+169,Historial Campos Combinados,50,4,36,,False,123456789,0,,Historial Campos Combinados,0
+171,Cuentas Campos Combinados,50,4,37,,False,123456789,0,,Cuentas Campos Combinados,0
+172,Previas,56,4,0,132,False,,1,,CuePrevi,1
+173,Previas1,56,4,1,133,False,,1,,CuePrevi1,1
+174,Previas2,56,4,2,134,False,,1,,CuePrevi2,1
+175,Previas 3,56,4,3,135,False,,1,,CuePrevi3,1
+176,Colaboradores,32,11,9,72,False,cli_colab|1,0,,Colaboradores,1
+177,Descripción Obligación,32,11,10,75,False,bobligcli,0,,Descripción Obligación,1
+178,Obligaciones del Ejercicio,32,11,11,73,False,bobligcli,0,,Obligaciones del Ejercicio,1
+179,Historial Obligaciones,32,11,12,74,False,bobligcli,0,,Historial Obligaciones,1
+180,Cobros,80,11,3,49,False,,0,,Cobros,0
+181,Área 2,80,11,4,151,False,igu_grupo2|1,0,,Área 2,0
+182,Área 3,80,11,5,152,False,igu_grupo3|1,0,,Área 3,0
+183,Área 4,80,11,6,153,False,igu_grupo4|1,0,,Área 4,0
+184,Área 5,80,11,7,154,False,igu_grupo5|1,0,,Área 5,0
+185,Área 6,80,11,8,155,False,igu_grupo6|1,0,,Área 6,0
+186,Sociedades,32,11,13,,False,bsociecli,0,,Sociedades,1
+187,General Sociedades,186,11,0,156,False,,0,,General Sociedades,0
+188,Libros Contabilidad,186,11,1,76,False,,0,,Libros Contabilidad,0
+189,Cuentas Anuales,186,11,2,77,False,,0,,Cuentas Anuales,0
+190,Socios,186,11,3,78,False,,0,,Socios,0
+191,Administradores,186,11,4,79,False,,0,,Administradores,0
+192,Miembros del Consejo,186,11,5,80,False,,0,,Miembros del Consejo,0
+193,Consejeros Delegados,186,11,6,81,False,,0,,Consejeros Delegados,0
+194,Apoderado,186,11,7,82,False,,0,,Apoderado,0
+195,Retenciones,186,11,8,83,False,,0,,Retenciones,0
+196,Fiscales,32,11,14,,False,bfiscli,0,,Fiscales,1
+197,General Fiscales,196,11,0,157,False,,0,,General Fiscales,0
+198,IAE,196,11,1,84,False,,0,,IAE,0
+199,Resultados,196,11,2,85,False,,0,,Resultados,0
+200,Impuesto Sociedades,196,11,3,86,False,,0,,Impuesto Sociedades,0
+201,IRPF,196,11,4,87,False,,0,,IRPF,0
+202,Bases Imponibles a Compensar,196,11,5,88,False,,0,,Bases Imponibles a Compensar,0
+203,IVA,196,11,6,89,False,,0,,IVA,0
+204,IVA a compensar,196,11,7,90,False,,0,,IVA a compensar,0
+205,Administraciones,196,11,8,,False,,0,,Administraciones,0
+206,Alquileres,196,11,9,91,False,,0,,Alquileres,0
+207,CliPerso1,32,11,15,92,False,cli_perso1|1,1,,TituloFormCliPersoX|0,1
+208,CliPerso2,32,11,16,93,False,cli_perso2|1,1,,TituloFormCliPersoX|1,1
+209,CliPerso3,32,11,17,94,False,cli_perso3|1,1,,TituloFormCliPersoX|2,1
+210,CliPerso4,32,11,18,95,False,cli_perso4|1,1,,TituloFormCliPersoX|3,1
+211,CliPerso5,32,11,19,96,False,cli_perso5|1,1,,TituloFormCliPersoX|4,1
+212,CliPerso6,32,11,20,97,False,bverdireccionescli,1,,TituloFormCliPersoX|5,1
+213,CliPerso7,32,11,21,98,False,cli_perso7|1,1,,TituloFormCliPersoX|6,1
+214,Listados,32,11,22,,False,,0,,Listados,2
+215,Firma,,4,2,,False,sdfgsdfg,0,,Firma,0
+216,Empresa,,113,0,6,False,,0,,Empresa,0
+217,General Contrarios,,113,1,113,False,,0,,General Contrarios,0
+219,Usuarios Albaranes,64,26,1,29,False,,0,,Usuarios Albaranes,0
+220,Conceptos Campos Combinados,64,26,2,,False,123456,0,,Conceptos Campos Combinados,0
+221,Todos,220,26,0,,False,,0,,Todos,0
+222,Honorarios,220,26,1,,False,,0,,Honorarios,0
+223,Artículos,220,26,2,,False,,0,,Artículos,0
+224,Conceptos,64,26,3,,False,,0,,Conceptos,0
+225,Todos,224,26,0,63,False,,0,,Todos,1
+226,Suplidos,224,26,1,64,False,,0,,Suplidos,1
+227,Honorarios,224,26,2,65,False,,0,,Honorarios,1
+228,Provisiones,224,26,3,67,False,,0,,Provisiones,1
+229,Artículos,224,26,4,69,False,,0,,Artículos,1
+230,Kits,224,26,5,71,False,,0,,Kits,1
+231,Descuentos,224,26,6,68,False,,0,,Descuentos,1
+232,Gestión de Cobros,64,26,4,28,False,,0,,Gestión de Cobros,1
+233,Clientes,64,26,5,,False,,1,,CliTitulo|0,0
+234,Generales,233,26,0,11,False,,0,,Generales,0
+235,Contactos,233,26,1,8,True,,0,,,1
+236,Colaboradores,233,26,2,72,True,,0,,,1
+237,CliPerso1,233,26,6,92,True,,0,,,1
+238,CliPerso2,233,26,7,93,True,,0,,,1
+239,CliPerso3,233,26,8,94,True,,0,,,1
+240,CliPerso4,233,26,9,95,True,,0,,,1
+241,CliPerso5,233,26,10,96,True,,0,,,1
+242,CliPerso6,233,26,11,97,True,,0,,,1
+243,CliPerso7,233,26,12,98,True,,0,,,1
+244,clipersod1,32,11,22,158,True,,0,,,1
+245,clipersod1,233,26,13,158,True,,0,,,1
+246,Provisiones,116,24,8,67,False,,0,,Provisiones,1
+247,Gestión de Cobros,112,24,3,28,False,,0,,Gestión de Cobros,1
+248,Clientes,112,24,4,,False,,1,,CliTitulo|0,0
+249,Datos Generales,248,24,0,11,False,,0,,Datos Generales,0
+250,Contactos,248,24,1,8,True,,0,,,1
+251,Colaboradores,248,24,2,72,True,,0,,,1
+252,CliPerso1,248,24,3,92,True,,0,,,1
+253,CliPerso2,248,24,4,93,True,,0,,,1
+254,CliPerso3,248,24,5,94,True,,0,,,1
+255,CliPerso4,248,24,6,,False,,0,,,1
+256,CliPerso5,248,24,7,96,True,,0,,,1
+257,CliPerso6,248,24,8,97,True,,0,,,1
+258,CliPerso7,248,24,9,98,True,,0,,,1
+259,Alumnos,112,24,5,38,True,,0,,,1
+260,Pacientes,112,24,6,9,True,,0,,,1
+261,Empresa,,159,0,6,False,,0,,Empresa,0
+262,General Presupuestos,266,159,1,159,False,,0,,General Presupuestos,0
+263,Usuarios Presupuestos,266,159,2,29,False,,0,,Usuarios Presupuestos,0
+265,Conceptos,266,159,3,,False,,0,,Conceptos,0
+266,Presupuestos,,159,4,,False,,0,,Presupuestos,0
+267,Todos,265,159,0,63,False,,0,,Todos,1
+268,Suplidos,265,159,1,64,False,,0,,Suplidos,1
+269,Honorarios,265,159,2,65,False,,0,,Honorarios,1
+270,Provisiones,265,159,3,67,False,,0,,Provisiones,1
+271,Artículos,265,159,4,69,False,,0,,Artículos,1
+272,Kits,265,159,5,71,False,,0,,Kits,1
+273,Descuentos,265,159,6,68,False,,0,,Descuentos,1
+274,Clientes,266,159,3,,False,,1,,CliTitulo|0,0
+275,Datos Generales,274,159,0,11,False,,0,,Datos Generales,0
+276,Contactos,274,159,1,8,True,,0,,,1
+277,Colaboradores,274,159,2,72,True,,0,,,1
+278,CliPerso1,274,159,3,92,True,,0,,,1
+279,CliPerso2,274,159,4,93,True,,0,,,1
+280,CliPerso3,274,159,5,94,True,,0,,,1
+281,CliPerso4,274,159,6,95,True,,0,,,1
+282,CliPerso5,274,159,7,96,True,,0,,,1
+283,CliPerso6,274,159,8,97,True,,0,,,1
+284,CliPerso7,274,159,9,98,True,,0,,,1
+285,clipersod1,274,159,10,158,True,,0,,,1
+286,Empresa,,160,0,6,False,,0,,Empresa,0
+287,Pedidos,,160,1,,False,,0,,Pedidos,0
+288,Pedidos General,287,160,0,160,False,,0,,Pedidos General,0
+289,Usuario Pedidos,287,160,1,29,False,,0,,Usuario Pedidos,0
+290,Conceptos,287,160,2,,False,,0,,Conceptos,0
+291,Todos,290,160,0,63,False,,0,,Todos,1
+292,Suplidos,290,160,1,64,False,,0,,Suplidos,1
+293,Gastos,290,160,2,64,False,,0,,Gastos,1
+294,Honorarios,290,160,3,65,False,,0,,Honorarios,1
+295,Provisiones,290,160,4,67,False,,0,,Provisiones,1
+296,Artículos,290,160,5,69,False,,0,,Artículos,1
+297,Kits,290,160,6,71,False,,0,,Kits,1
+298,Descuentos,290,160,7,68,False,,0,,Descuentos,1
+299,Gestión de Cobros,287,160,3,28,False,,0,,Gestión de Cobros,1
+300,Clientes,287,160,4,,False,,1,,CliTitulo|0,0
+301,Datos Generales,300,160,0,11,False,,0,,Datos Generales,0
+302,Contactos,300,160,1,8,True,,0,,,1
+303,Colaboradores,300,160,2,72,True,,0,,,1
+304,CliPerso1,300,160,3,92,True,,0,,,1
+305,CliPerso2,300,160,4,93,True,,0,,,1
+306,CliPerso3,300,160,5,94,True,,0,,,1
+307,CliPerso4,300,160,6,95,True,,0,,,1
+308,CliPerso5,300,160,7,96,True,,0,,,1
+309,CliPerso6,300,160,8,97,True,,0,,,1
+310,CliPerso7,300,160,9,98,True,,0,,,1
+311,clipersod1,300,160,10,158,True,,0,,,1
+312,Empresa,,161,0,6,False,,0,,Empresa,0
+313,Partes de Trabajo,,161,1,,False,,0,,Partes de Trabajo,0
+314,Datos Generales,313,161,0,161,False,,0,,Datos Generales,0
+315,Usuarios,313,161,1,29,False,,0,,Usuarios,0
+316,Conceptos,313,161,2,,False,,0,,Conceptos,0
+317,Todos,316,161,0,63,False,,0,,Todos,1
+318,Suplidos,316,161,1,64,False,,0,,Suplidos,1
+319,Gastos,316,161,2,64,False,,0,,Gastos,1
+320,Honorarios,316,161,3,65,False,,0,,Honorarios,1
+321,Provisiones,316,161,4,67,False,,0,,Provisiones,1
+322,Artículos,316,161,5,69,False,,0,,Artículos,1
+323,Kits,316,161,6,71,False,,0,,Kits,1
+324,Descuentos,316,161,7,68,False,,0,,Descuentos,1
+325,Gestión de Cobros,313,161,3,28,False,,0,,Gestión de Cobros,1
+326,Clientes,313,161,4,,False,,1,,CliTitulo|0,0
+327,Datos Generales,326,161,0,11,False,,0,,Datos Generales,0
+328,Contactos,326,161,1,8,True,,0,,Contactos,1
+329,Colaboradores,326,161,2,72,True,,0,,Colaboradores,1
+330,CliPerso1,326,161,3,92,True,,0,,,1
+331,CliPerso2,326,161,4,93,True,,0,,,1
+332,CliPerso3,326,161,5,94,True,,0,,,1
+333,CliPerso4,326,161,6,95,True,,0,,,1
+334,CliPerso5,326,161,7,96,True,,0,,,1
+335,CliPerso6,326,161,8,97,True,,0,,,1
+336,CliPerso7,326,161,9,98,True,,0,,,1
+337, clipersod1,326,161,10,158,True,,0,,,1
+339,Kits,93,20,7,59,False,,0,,Kits,1
+340,Clientes,58,20,7,,False,,1,,CliTitulo|0,0
+341,Datos Generales,340,20,0,11,False,,0,,Datos Generales,0
+342,Contactos,340,20,1,8,True,,0,,,1
+343,Colaboradores,340,20,2,72,True,,0,,,1
+344,CliPerso1,340,20,3,92,True,,0,,,1
+345,CliPerso2,340,20,4,93,True,,0,,,1
+346,CliPerso3,340,20,5,94,False,,0,,,1
+347,CliPerso4,340,20,6,95,True,,0,,,1
+348,CliPerso5,340,20,7,96,True,,0,,,1
+349,CliPerso6,340,20,8,97,True,,0,,,1
+350,CliPerso7,340,20,9,98,True,,0,,,1
+351,clipersod1,340,20,10,158,True,,0,,,1
+352,Descripción Obligación,340,20,11,75,False,bobligcli,0,,Descripción Obligación,1
+353,Obligaciones del Ejercicio,340,20,12,73,False,bobligcli,0,,Obligaciones del Ejercicio,1
+354,Historial Obligaciones,340,20,13,74,False,bobligcli,0,,Historial Obligaciones,1
+355,Alumno,266,159,4,38,True,,0,,,1
+356,Paciente,266,159,5,9,False,,0,,,1
+357,Alumnos,58,20,8,38,True,,0,,,1
+358,Pacientes,58,20,9,9,True,,0,,,1
+359,Empresa,,163,0,6,False,,0,,Empresa,0
+360,Facturas,,163,1,,False,,0,,Facturas,0
+361,General Facturas,360,163,0,163,False,,0,,General Facturas,0
+362,Usuarios Facturas,360,163,1,29,False,,0,,Usuarios Facturas,1
+363,CONCEPTOSCOMBINADOS,360,163,2,,False,,0,,CONCEPTOSCOMBINADOS,1
+364,Conceptos,360,163,3,,False,,0,,Conceptos,1
+365,Todos,364,163,0,51,False,,0,,Todos,0
+366,Suplidos,364,163,1,55,False,,0,,Suplidos,0
+367,Gastos,364,163,2,52,False,,0,,Gastos,0
+368,Honorarios,364,163,3,53,False,,0,,Honorarios,0
+369,Provisiones,364,163,4,54,False,,0,,Provisiones,0
+370,Artículos,364,163,5,57,False,,0,,Artículos,0
+371,Kits,364,163,6,59,False,,0,,Kits,0
+372,Descuentos,364,163,7,56,False,,0,,Descuentos,0
+373,Gestión de Cobros,360,163,4,28,False,,0,,Gestión de Cobros,1
+374,Cobros,360,163,5,60,False,,0,,Cobros,1
+375,Devoluciones,360,163,6,61,False,,0,,Devoluciones,1
+376,AGRUPACIONESCOMBINADOS,360,163,7,,False,,0,,AGRUPACIONESCOMBINADOS,1
+377,Agrupaciones,360,163,8,62,False,,0,,Agrupaciones,1
+378,Expedientes,360,163,9,,False,,0,,Expedientes,0
+379,General Expedientes,378,163,0,4,False,,0,,General Expedientes,0
+380,Tipos de Expediente,378,163,1,110,False,,0,,Tipo de Expediente,0
+381,Tipos de Asunto,378,163,2,111,True,,0,,,0
+382,Tipos de Procedimiento,378,163,3,112,True,,0,,,0
+383,Clientes,378,163,4,,False,,1,,CliTitulo|0,0
+384,Contrarios,378,163,5,113,False,expe_con|1,0,,Contrarios,0
+385,Abogado Propio,378,163,6,114,False,,0,,Abogado Propio,0
+386,Abogado Contrario,378,163,7,115,False,,0,,Abogado Contrario,0
+387,Procuradores Propios,378,163,8,116,False,,0,,Procuradores Propios,0
+388,Procuradores Contrarios,378,163,9,117,False,,0,,Procuradores Contrarios,0
+389,Colaboradores,378,163,10,72,False,,0,,Colaboradores,0
+390,Organismos,378,163,11,119,False,,0,,Organismos,0
+391,Juzgados,378,163,12,120,False,,0,,Juzgados,0
+392,Bancos,378,163,13,35,False,,0,,Bancos,0
+393,Perso1,378,163,14,122,True,,0,,,0
+394,Perso2,378,163,15,123,True,,0,,,0
+395,Perso3,378,163,16,124,True,,0,,,0
+396,Perso4,378,163,17,125,True,,0,,,0
+397,Perso5,378,163,18,126,True,,0,,,0
+398,Perso6,378,163,19,127,True,,0,,,0
+399,Perso7,378,163,20,128,True,,0,,,0
+400,Perso8,378,163,21,129,True,,0,,,0
+401,Perso9,378,163,22,130,True,,0,,,0
+402,Perso10,378,163,23,131,True,,0,,,0
+403,experso1,378,163,24,136,True,,0,,,0
+404,experso2,378,163,25,137,True,,0,,,0
+405,experso3,378,163,26,138,True,,0,,,0
+406,experso4,378,163,27,139,True,,0,,,0
+407,experso5,378,163,28,140,True,,0,,,0
+472,Empresa,,34,0,6,False,,0,,Empresa,0
+473,Clientes,,34,1,,False,,1,,CliTitulo|0,0
+474,General,473,34,0,,False,,0,,General Clientes,0
+475,General Expedientes,473,34,1,4,False,ver_exp|1,1,,EtiqExpedientesProp,1
+476,Contactos,473,34,2,8,False,,1,,TituloFormCorConPral,1
+477,Usuarios,473,34,3,29,False,,0,,Usuarios,1
+478,Última Actuación,474,34,0,,False,,0,,Última Actuación,0
+479,Cobros,473,34,4,28,False,,0,,Cobros,1
+480,Historial,473,34,5,5,False,,0,,Historial,1
+481,Cuentas,473,34,6,16,False,,0,,Cuentas,1
+482,Previas,481,34,0,18,False,,0,,Previas,0
+483,Previas 1,481,34,1,30,False,,0,,Previas 1,0
+484,Previas 2,481,34,2,31,False,,0,,Previas 2,0
+485,Previas 3,481,34,3,32,False,,0,,Previas 3,0
+486,Oportunidades,481,34,4,15,False,,0,,Oportunidades,0
+487,Conceptos Oportunidades,481,34,5,33,False,,0,,Conceptos Oportunidades,0
+488,Historial Campos Combinados,473,34,7,,False,123456789,0,,Historial Campos Combinados,0
+489,Cobros Periódicos,473,34,8,,False,bvercobros,0,,Cobros Periódicos,1
+490,Alta Cobros,489,34,0,,False,,0,,Alta Cobros,0
+491,Area1,490,34,0,48,False,historialarea1,0,,Area1,0
+492,Resumen Anual,489,34,1,101,False,,0,,Resumen Anual,0
+493,Notas,489,34,2,,False,,0,,Notas,0
+494,Notas,493,34,0,,False,,0,,Notas,0
+495,Otros Campos,474,34,1,3,False,,0,,Otros Campos,0
+496,Colaboradores,473,34,9,72,False,cli_colab|1,0,,Colaboradores,1
+497,Descripción Obligación,473,34,10,75,False,bobligcli,0,,Descripción Obligación,1
+498,Obligaciones del Ejercicio,473,34,11,73,False,bobligcli,0,,Obligaciones del Ejercicio,1
+499,Historial Obligaciones,473,34,12,74,False,bobligcli,0,,Historial Obligaciones,1
+500,Cobros,489,34,3,49,False,,0,,Cobros,0
+501,Área 2,489,34,4,151,False,igu_grupo2|1,0,,Área 2,0
+502,Área 3,489,34,5,152,False,igu_grupo3|1,0,,Área 3,0
+503,Área 4,489,34,6,153,False,igu_grupo4|1,0,,Área 4,0
+504,Área 5,489,34,7,154,False,igu_grupo5|1,0,,Área 5,0
+505,Área 6,489,34,8,155,False,igu_grupo6|1,0,,Área 6,0
+506,Sociedades,473,34,13,,False,bsociecli,0,,Sociedades,1
+507,General Sociedades,506,34,0,156,False,,0,,General Sociedades,0
+508,Libros Contabilidad,506,34,1,76,False,,0,,Libros Contabilidad,0
+509,Cuentas Anuales,506,34,2,77,False,,0,,Cuentas Anuales,0
+510,Socios,506,34,3,78,False,,0,,Socios,0
+511,Administradores,506,34,4,79,False,,0,,Administradores,0
+512,Miembros del Consejo,506,34,5,80,False,,0,,Miembros del Consejo,0
+513,Consejeros Delegados,506,34,6,81,False,,0,,Consejeros Delegados,0
+514,Apoderado,506,34,7,82,False,,0,,Apoderado,0
+515,Retenciones,506,34,8,83,False,,0,,Retenciones,0
+516,Fiscales,489,34,14,,False,bfiscli,0,,Fiscales,1
+517,General Fiscales,516,34,0,157,False,,0,,General Fiscales,0
+518,IAE,516,34,1,84,False,,0,,IAE,0
+519,Resultados,516,34,2,85,False,,0,,Resultados,0
+520,Impuesto Sociedades,516,34,3,86,False,,0,,Impuesto Sociedades,0
+521,IRPF,516,34,4,87,False,,0,,IRPF,0
+522,Bases Imponibles a Compensar,516,34,5,88,False,,0,,Bases Imponibles a Compensar,0
+523,IVA,516,34,6,89,False,,0,,IVA,0
+524,IVA a compensar,516,34,7,90,False,,0,,IVA a compensar,0
+525,Administraciones,516,34,8,,False,,0,,Administraciones,0
+526,Alquileres,516,34,9,91,False,,0,,Alquileres,0
+527,CliPerso1,473,34,15,92,False,cli_perso1|1,1,,TituloFormCliPersoX|0,1
+528,CliPerso2,473,34,16,93,False,cli_perso2|1,1,,TituloFormCliPersoX|1,1
+529,CliPerso3,473,34,17,94,False,cli_perso3|1,1,,TituloFormCliPersoX|2,1
+530,CliPerso4,473,34,18,95,False,cli_perso4|1,1,,TituloFormCliPersoX|3,1
+531,CliPerso5,473,34,19,96,False,cli_perso5|1,1,,TituloFormCliPersoX|4,1
+532,CliPerso6,473,34,20,97,False,bverdireccionescli,1,,TituloFormCliPersoX|5,1
+533,CliPerso7,473,34,21,98,False,cli_perso7|1,1,,TituloFormCliPersoX|6,1
+534,Listados,473,34,22,,False,,0,,Listados,2
+535,clipersod1,473,34,22,158,True,,0,,,0
+538,Empresa,,38,0,6,False,,0,,Empresa,0
+539,Alumnos,,38,1,,False,,1,,Alumnos,0
+540,General,539,38,0,,False,,0,,General Alumnos,0
+541,General Expedientes,539,38,1,4,False,ver_exp|1,1,,EtiqExpedientesProp,1
+542,Contactos,539,38,2,8,False,,1,,TituloFormCorConPral,1
+543,Usuarios,539,38,3,29,False,,0,,Usuarios,0
+544,Última Actuación,540,38,0,164,False,,0,,Última Actuación,0
+545,Cobros,539,38,4,28,False,,0,,Cobros,1
+546,Historial,539,38,5,5,False,,0,,Historial,1
+547,Cuentas,539,38,6,16,False,,0,,Cuentas,1
+548,Previas,547,38,0,18,False,,0,,Previas,1
+549,Previas 1,547,38,1,30,False,,0,,Previas 1,1
+550,Previas 2,547,38,2,31,False,,0,,Previas 2,1
+551,Previas 3,547,38,3,32,False,,0,,Previas 3,1
+552,Oportunidades,547,38,4,15,False,,0,,Oportunidades,1
+553,Conceptos Oportunidades,547,38,5,33,False,,0,,Conceptos Oportunidades,1
+554,Historial Campos Combinados,539,38,7,,False,123456789,0,,Historial Campos Combinados,0
+555,Cobros Periódicos,539,38,8,,False,bvercobros,0,,Cobros Periódicos,1
+556,Alta Cobros,555,38,0,,False,,0,,Alta Cobros,0
+557,Area1,556,38,0,48,False,historialarea1,0,,Area1,0
+558,Resumen Anual,555,38,1,101,False,,0,,Resumen Anual,0
+559,Notas,555,38,2,,False,,0,,Notas,0
+560,Notas,559,38,0,,False,,0,,Notas,0
+561,Otros Campos,540,38,1,3,False,,0,,Otros Campos,0
+562,Colaboradores,539,38,9,72,False,cli_colab|1,0,,Colaboradores,1
+563,Descripción Obligación,539,38,10,75,False,bobligcli,0,,Descripción Obligación,1
+564,Obligaciones del Ejercicio,539,38,11,73,False,bobligcli,0,,Obligaciones del Ejercicio,1
+565,Historial Obligaciones,539,38,12,74,False,bobligcli,0,,Historial Obligaciones,1
+566,Cobros,555,38,3,49,False,,0,,Cobros,0
+567,Área 2,555,38,4,151,False,igu_grupo2|1,0,,Área 2,0
+568,Área 3,555,38,5,152,False,igu_grupo3|1,0,,Área 3,0
+569,Área 4,555,38,6,153,False,igu_grupo4|1,0,,Área 4,0
+570,Área 5,555,38,7,154,False,igu_grupo5|1,0,,Área 5,0
+571,Área 6,555,38,8,155,False,igu_grupo6|1,0,,Área 6,0
+572,Sociedades,539,38,13,,False,bsociecli,0,,Sociedades,1
+573,General Sociedades,572,38,0,156,False,,0,,General Sociedades,0
+574,Libros Contabilidad,572,38,1,76,False,,0,,Libros Contabilidad,0
+575,Cuentas Anuales,572,38,2,77,False,,0,,Cuentas Anuales,0
+576,Socios,572,38,3,78,False,,0,,Socios,0
+577,Administradores,572,38,4,79,False,,0,,Administradores,0
+578,Miembros del Consejo,572,38,5,80,False,,0,,Miembros del Consejo,0
+579,Consejeros Delegados,572,38,6,81,False,,0,,Consejeros Delegados,0
+580,Apoderado,572,38,7,82,False,,0,,Apoderado,0
+581,Retenciones,572,38,8,83,False,,0,,Retenciones,0
+582,Fiscales,539,38,14,,False,bfiscli,0,,Fiscales,1
+583,General Fiscales,582,38,0,157,False,,0,,General Fiscales,0
+584,IAE,582,38,1,84,False,,0,,IAE,0
+585,Resultados,582,38,2,85,False,,0,,Resultados,0
+586,Impuesto Sociedades,582,38,3,86,False,,0,,Impuesto Sociedades,0
+587,IRPF,582,38,4,87,False,,0,,IRPF,0
+588,Bases Imponibles a Compensar,582,38,5,88,False,,0,,Bases Imponibles a Compensar,0
+589,IVA,582,38,6,89,False,,0,,IVA,0
+590,IVA a compensar,582,38,7,90,False,,0,,IVA a compensar,0
+591,Administraciones,582,38,8,,False,,0,,Administraciones,0
+592,Alquileres,582,38,9,91,False,,0,,Alquileres,0
+593,CliPerso1,539,38,15,92,False,cli_perso1|1,1,,TituloFormCliPersoX|0,1
+594,CliPerso2,539,38,16,93,False,cli_perso2|1,1,,TituloFormCliPersoX|1,1
+595,CliPerso3,539,38,17,94,False,cli_perso3|1,1,,TituloFormCliPersoX|2,1
+596,CliPerso4,539,38,18,95,False,cli_perso4|1,1,,TituloFormCliPersoX|3,1
+597,CliPerso5,539,38,19,96,False,cli_perso5|1,1,,TituloFormCliPersoX|4,1
+598,CliPerso6,539,38,20,97,False,bverdireccionescli,1,,TituloFormCliPersoX|5,1
+599,CliPerso7,539,38,21,98,False,cli_perso7|1,1,,TituloFormCliPersoX|6,1
+600,Listados,539,38,22,,False,,0,,Listados,2
+601,clipersod1,539,38,22,158,True,,0,,,1
+602,Empresa,,9,0,6,False,,0,,Empresa,0
+603,Pacientes,,9,1,,False,,0,,Pacientes,0
+604,General,603,9,0,,False,,0,,General Pacientes,0
+605,General Expedientes,603,9,1,4,False,ver_exp|1,1,,EtiqExpedientesProp,1
+606,Contactos,603,9,2,8,False,,1,,TituloFormCorConPral,1
+607,Usuarios,603,9,3,29,False,,0,,Usuarios,0
+608,Última Actuación,604,9,0,164,False,,0,,Última Actuación,0
+609,Cobros,603,9,4,28,False,,0,,Cobros,1
+610,Historial,603,9,5,5,False,,0,,Historial,1
+611,Cuentas,603,9,6,16,False,,0,,Cuentas,1
+612,Previas,611,9,0,18,False,,0,,Previas,1
+613,Previas 1,611,9,1,30,False,,0,,Previas 1,1
+614,Previas 2,611,9,2,31,False,,0,,Previas 2,1
+615,Previas 3,611,9,3,32,False,,0,,Previas 3,1
+616,Oportunidades,611,9,4,15,False,,0,,Oportunidades,1
+617,Conceptos Oportunidades,611,9,5,33,False,,0,,Conceptos Oportunidades,1
+618,Historial Campos Combinados,603,9,7,,False,123456789,0,,Historial Campos Combinados,0
+619,Cobros Periódicos,603,9,8,,False,bvercobros,0,,Cobros Periódicos,1
+620,Alta Cobros,619,9,0,,False,,0,,Alta Cobros,0
+621,Area1,620,9,0,48,False,historialarea1,0,,Area1,0
+622,Resumen Anual,619,9,1,101,False,,0,,Resumen Anual,0
+623,Notas,619,9,2,,False,,0,,Notas,0
+624,Notas,623,9,0,,False,,0,,Notas,0
+625,Otros Campos,604,9,1,3,False,,0,,Otros Campos,0
+626,Colaboradores,603,9,9,72,False,cli_colab|1,0,,Colaboradores,1
+627,Descripción Obligación,603,9,10,75,False,bobligcli,0,,Descripción Obligación,1
+628,Obligaciones del Ejercicio,603,9,11,73,False,bobligcli,0,,Obligaciones del Ejercicio,1
+629,Historial Obligaciones,603,9,12,74,False,bobligcli,0,,Historial Obligaciones,1
+630,Cobros,619,9,3,49,False,,0,,Cobros,0
+631,Área 2,619,9,4,151,False,igu_grupo2|1,0,,Área 2,0
+632,Área 3,619,9,5,152,False,igu_grupo3|1,0,,Área 3,0
+633,Área 4,619,9,6,153,False,igu_grupo4|1,0,,Área 4,0
+634,Área 5,619,9,7,154,False,igu_grupo5|1,0,,Área 5,0
+635,Área 6,619,9,8,155,False,igu_grupo6|1,0,,Área 6,0
+636,Sociedades,603,9,13,,False,bsociecli,0,,Sociedades,1
+637,General Sociedades,636,9,0,156,False,,0,,General Sociedades,0
+638,Libros Contabilidad,636,9,1,76,False,,0,,Libros Contabilidad,0
+639,Cuentas Anuales,636,9,2,77,False,,0,,Cuentas Anuales,0
+640,Socios,636,9,3,78,False,,0,,Socios,0
+641,Administradores,636,9,4,79,False,,0,,Administradores,0
+642,Miembros del Consejo,636,9,5,80,False,,0,,Miembros del Consejo,0
+643,Consejeros Delegados,636,9,6,81,False,,0,,Consejeros Delegados,0
+644,Apoderado,636,9,7,82,False,,0,,Apoderado,0
+645,Retenciones,636,9,8,83,False,,0,,Retenciones,0
+646,Fiscales,603,9,14,,False,bfiscli,0,,Fiscales,1
+647,General Fiscales,646,9,0,157,False,,0,,General Fiscales,0
+648,IAE,646,9,1,84,False,,0,,IAE,0
+649,Resultados,646,9,2,85,False,,0,,Resultados,0
+650,Impuesto Sociedades,646,9,3,86,False,,0,,Impuesto Sociedades,0
+651,IRPF,646,9,4,87,False,,0,,IRPF,0
+652,Bases Imponibles a Compensar,646,9,5,88,False,,0,,Bases Imponibles a Compensar,0
+653,IVA,646,9,6,89,False,,0,,IVA,0
+654,IVA a compensar,646,9,7,90,False,,0,,IVA a compensar,0
+655,Administraciones,646,9,8,,False,,0,,Administraciones,0
+656,Alquileres,646,9,9,91,False,,0,,Alquileres,0
+657,CliPerso1,603,9,15,92,False,cli_perso1|1,1,,TituloFormCliPersoX|0,1
+658,CliPerso2,603,9,16,93,False,cli_perso2|1,1,,TituloFormCliPersoX|1,1
+659,CliPerso3,603,9,17,94,False,cli_perso3|1,1,,TituloFormCliPersoX|2,1
+660,CliPerso4,603,9,18,95,False,cli_perso4|1,1,,TituloFormCliPersoX|3,1
+661,CliPerso5,603,9,19,96,False,cli_perso5|1,1,,TituloFormCliPersoX|4,1
+662,CliPerso6,603,9,20,97,False,bverdireccionescli,1,,TituloFormCliPersoX|5,1
+663,CliPerso7,603,9,21,98,False,cli_perso7|1,1,,TituloFormCliPersoX|6,1
+664,Listados,603,9,22,,False,,0,,Listados,2
+665,clipersod1,603,9,2,158,True,,0,,,1
+666,Listados,50,4,38,,False,,0,,Listados,2
+667,Listados,64,26,6,,False,,0,,Listados,2
+668,Listados,58,20,10,,False,,0,,Listados,2
+669,Listados,266,159,6,,False,,0,,Listados,2
+670,Listados,112,24,7,,False,,0,,Listados,2
+671,Listados,313,161,5,,False,,0,,Listados,2
+672,Listados,287,160,5,,False,,0,,Listados,2
+675,Contactos,,113,2,8,True,,0,,,1
+676,Sociedades,,113,3,,False,,0,,Sociedades,0
+677,Fiscales,,113,4,,False,,0,,Fiscales,0
+678,General Sociedades,676,113,0,167,False,,0,,General Sociedades,0
+679,Libros Contabilidad,676,113,1,168,False,,0,,Libros Contabilidad,0
+680,Cuentas Anuales,676,113,2,169,False,,0,,Cuentas Anuales,0
+681,Socios,676,113,3,170,False,,0,,Socios,0
+682,Administradores,676,113,4,171,False,,0,,Administradores,0
+683,Miembros del Consejo,676,113,5,172,False,,0,,Miembros del Consejo,0
+684,Consejeros Delegados,676,113,6,173,False,,0,,Consejeros Delegados,0
+685,Apoderado,676,113,7,174,False,,0,,Apoderado,0
+686,Retenciones,676,113,8,175,False,,0,,Retenciones,0
+687,General Fiscales,677,113,0,176,False,,0,,General Fiscales,0
+688,IAE,677,113,1,177,False,,0,,IAE,0
+689,Resultados,677,113,2,178,False,,0,,Resultados,0
+690,Impuesto Sociedades,677,113,3,179,False,,0,,Impuesto Sociedades,0
+691,IRPF,677,113,4,180,False,,0,,IRPF,0
+692,Bases Imponibles a Compensar,677,113,5,88,False,,0,,Bases Imponibles a Compensar,0
+693,IVA,677,113,6,182,False,,0,,IVA,0
+694,IVA a compensar,677,113,7,183,False,,0,,IVA a compensar,0
+695,Administraciones,677,113,8,,False,,0,,Administraciones,0
+696,Alquileres,677,113,9,184,False,,0,,Alquileres,0
+697,Empresa,,185,0,6,False,,0,,Empresa,0
+698,General Abogados,,185,1,185,False,,0,,General Abogados,0
+699,Contactos,,185,2,8,True,,0,,,0
+700,Empresa,,186,0,6,False,,0,,Empresa,0
+701,General Procuradores,,186,1,186,False,,0,,General Procuradores,0
+702,Contactos,,186,2,8,True,,0,,,0
+703,Empresa,,119,0,6,False,,0,,Empresa,0
+704,Empresa,,187,0,6,False,,0,,Empresa,0
+705,General Poderes,,187,1,187,False,,0,,General Poderes,0
+706,Clientes,,187,2,11,False,,0,,Clientes,0
+707,Abogados,,187,3,185,False,Pode_abo|1,0,,Abogados,0
+708,Procuradores,,187,4,186,False,Pode_pro|1,0,,Procuradores,0
+709,Empresa,,72,0,6,False,,0,,Empresa,0
+710,General Colaboradores,,72,1,72,False,,0,,General Colaboradores,0
+711,Contactos,,72,2,8,False,,0,,Contactos,0
+712,Empresa,,150,0,6,False,,0,,Empresa,0
+713,General Juzgados,,150,1,150,False,,0,,General Juzgados,0
+714,Contactos,,150,2,8,False,,0,,Contactos,0
+715,Listados,360,163,10,,False,,0,,Listados,2
+716,Empresa,,189,0,,False,,0,,Empresa,0
+717,Odontogramas,,189,1,,False,,0,,Odontogramas,0
+719,Empresa,,188,0,6,False,,0,,Empresa,0
+720,Odontograma,,188,1,,False,,0,,Odontograma,0
+721,General Odontograma,720,188,0,188,False,,0,,General Odontograma,0
+722,Paciente,720,188,1,9,False,bverpaciente,0,,Paciente,0
+723,Tratamientos,720,188,2,189,False,,0,,Tratamientos,0
+727,Empresa,,190,0,6,False,,0,,Empresa,0
+728,Presupuesto,,190,1,,False,,0,,Presupuesto,0
+729,General Odontograma,728,190,0,190,False,,0,,General Odontograma,0
+730,General Presupuesto,728,190,1,159,False,,0,,General Presupuesto,0
+731,Conceptos,728,190,2,63,False,,0,,Conceptos,0
+732,Paciente,728,190,3,9,False,,0,,Paciente,0
+733,Cobros,720,188,3,28,False,,0,,Cobros,0
+734,Anticipos,720,188,4,193,False,,0,,Anticipos,0
+735,Descuentos,720,188,5,192,False,,0,,Descuentos,0
+736,Cobros Parciales,720,188,6,191,False,,0,,Cobros Parciales,0
+737,Empresa,,195,0,6,False,,0,,Empresa,0
+738,Oportunidades,,195,0,,False,,0,,Oportunidades,0
+739,General Oportunidades,738,195,0,195,False,,0,,General Oportunidades,0
+740,General Cliente,738,195,1,11,False,,0,,General Cliente,0
+741,General Cliente Potencial,738,195,2,34,False,,0,,General Cliente Potencial,0
+742,General Paciente,738,195,3,9,False,,0,,General Paciente,0
+743,General Tercero,738,195,4,9,False,,0,,General Tercero,0
+744,Conceptos Oportunidad,738,195,5,33,False,,0,,Conceptos Oportunidad,0
+745,Empresa,,199,0,6,False,,0,,Empresa,0
+746,FacturacionRecibida,,199,1,,False,,0,,Facturación Recibida,0
+747,GeneralFacturacionRecibida,746,199,0,199,False,,0,,General Facturación Recibida,0
+748,ConceptoFacturacionRecibida,746,199,1,200,False,,0,,Conceptos,0
+749,ProveedoresFacturacionRecibida,,199,2,42,False,,0,,General Proveedores,0
+750,Empresa,,201,0,6,False,,0,,Empresa,0
+751,Gestión de Cobros,,201,0,,False,,0,,Cobros,0
+752,General Gestión de Cobros,751,201,0,201,False,,0,,General Gestión de Cobros,0
+753,General Cliente,751,201,1,11,False,,0,,General Cliente,0
+754,Conceptos Gestion Cobros,751,201,5,107,False,,0,,Conceptos,0
+755,Clientes asociados,603,9,4,11,False,,1,,Clientes asociados,1
+756,Pacientes asociados,32,11,3,9,False,,1,,Pacientes asociados,1
+757,Expediente,58,20,11,4,False,,0,,Expediente,0
+758,Expediente,112,24,11,4,False,,0,,Expediente,0
+759,Perfil,33,11,1,,False,,0,,Perfil,0
+760,Perfil,604,9,0,,False,,0,,Perfil,0
+761,Perfil,474,34,1,,False,,0,,Perfil,0
+762,Perfil,540,38,1,,False,,0,,Perfil,0

@@ -1,0 +1,10 @@
+﻿id,id_padre,nombre,tipo,borrable
+1,0,Bandeja de fax,1,False
+2,0,Fax adjuntos historial,1,False
+3,1,Bandeja de entrada,2,False
+4,1,Bandeja de salida,3,False
+5,1,Elementos enviados,4,False
+6,1,Elementos eliminados,5,False
+7,2,Bandeja de entrada,2,False
+8,2,Elementos enviados,4,False
+9,2,Elementos eliminados,5,False

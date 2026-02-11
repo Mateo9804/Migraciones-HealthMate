@@ -1,0 +1,6 @@
+# Permitir descarga de archivos ZIP
+<FilesMatch "\.(zip)$">
+    ForceType application/zip
+    Header set Content-Disposition "attachment"
+</FilesMatch>
+

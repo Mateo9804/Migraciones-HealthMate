@@ -1,0 +1,3 @@
+﻿id,idoperador,idcondicion,condicion,idaccion,idFolder,emails,nombreRegla,habilitada,orden,opcionAccion,aplicarA,opcion2Accion,opcionTrabajadorAccion,opcionAdjuntosAccion,campoAsociacion,textoAsociacion,incluirTextoAsociacion,idPredef,campoBusqueda
+4,1,1,1,0,,,Asociación automática,True,1,0,0,0,0,0,,,False,,
+5,1,1,1,0,,,Asociación automática,True,2,0,0,0,0,0,,,False,,

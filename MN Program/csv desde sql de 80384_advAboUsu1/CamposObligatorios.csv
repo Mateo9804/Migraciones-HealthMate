@@ -1,0 +1,124 @@
+﻿idcampo,origen,nombre,etiqueta
+1,expedien,codsubusu,Usuario
+2,expedien,codjuzga,Juzgado
+3,expedien,dfechacierre,Fecha Cierre
+4,expedien,descripcion,Descripcion
+5,expedien,codcliente,Cliente
+6,expedien,codabopro,Procurador Propio
+7,expedien,codpropro,Abogado Propio
+8,expedien,codcontrario,Contrario
+9,expedien,campo21,
+10,expedien,campo22,
+11,expedien,campo23,
+12,expedien,campo24,
+13,expedien,campo25,
+14,expedien,campo26,
+15,expedien,campo27,
+16,expedien,campo28,
+17,expedien,campo29,
+18,expedien,campo30,
+19,expedien,campo31,
+20,expedien,campo32,
+21,expedien,campo33,
+22,expedien,campo34,
+23,expedien,campofecha13,
+24,expedien,campofecha14,
+25,expedien,campofecha15,
+26,expedien,campofecha16,
+27,expedien,campofecha17,
+28,expedien,campofecha18,
+29,expedien,campofecha19,
+30,cliente_1,snombrecli,Nombre
+31,cliente_1,snifcli,NIF/CIF
+32,cliente_1,codigo,Número
+33,cliente_1,sdomiciliocli,Dirección
+34,cliente_1,spoblacioncli,Población
+35,cliente_1,scodpostalcli,Código Postal
+36,cliente_1,sprovinciacli,Provincia
+37,cliente_1,fechanacimiento,Fecha Nacimiento
+38,cliente_1,edad,Edad
+39,cliente_1,email,Correo Electrónico
+40,cliente_1,stelefonocli,Teléfono 1
+41,cliente_1,telefono2,Teléfono 2
+42,cliente_1,smovilcli,Móvil
+43,cliente_1,sfaxcli,Fax
+44,cliente_1,tipofichero,Tipo Trabajador
+45,cliente_1,estadoCli,Estado
+46,cliente_1,fechaalta,Fecha Alta
+47,cliente_1,fechaBaja,Fecha Baja
+48,cliente_1,pagweb,Página Web
+49,cliente_1,sNombrePais,País
+50,cliente_1,telefono3,Teléfono 3
+51,cliente_1,backcolor,Color
+52,cliente_1,CodSubUSu,Usuario
+53,cliente_1,especialidad,Especialidad
+54,cliente_1,numcolegiado,Núm. Colegiado
+55,cliente_1,dpto,Departamento
+56,cliente_1,nifcomunitario,NIF Comunitario
+57,cliente_1,tipoId,Tipo Id
+58,cliente_1,mascotasexo,Sexo
+59,cliente_1,Campo0104,Profesión
+60,cliente_1,Campo0105,Peso
+61,cliente_1,Campo0106,Altura
+62,cliente_1,Campo0107,Práctica Deporte
+63,cliente_1,Campo0108,Frecuencia
+64,cliente_1,Campo0101,Fuente de Contacto
+65,cliente_1,Campo0102,Fecha de Primer Contacto
+66,cliente_1,Campo0201,Comunicaciones Comerciales
+67,cliente_1,Campo0202,Documento LOPD
+68,cliente_1,Campo0204,Servicios de Interés
+69,cliente_1,Campo0301,Nivel de Satisfacción
+70,cliente_1,Campo0302,Recomendaciones
+71,cliente_1,Campo0303,Reclamaciones
+72,cliente_1,Campo0203,Trato Preferente
+73,cliente_1,7,Fecha 1
+74,cliente_1,8,Fecha 2
+75,cliente_1,9,Fecha 3
+76,cliente_1,10,Fecha 4
+77,cliente_1,11,Fecha 5
+78,cliente_1,12,Fecha 6
+79,cliente_0,snombrecli,Nombre
+80,cliente_0,snifcli,NIF/CIF
+81,cliente_0,codigo,Número
+82,cliente_0,sdomiciliocli,Dirección
+83,cliente_0,spoblacioncli,Población
+84,cliente_0,scodpostalcli,Código Postal
+85,cliente_0,sprovinciacli,Provincia
+86,cliente_0,fechanacimiento,Fecha Nacimiento
+87,cliente_0,email,Correo Electrónico
+88,cliente_0,stelefonocli,Teléfono 1
+89,cliente_0,telefono2,Teléfono 2
+90,cliente_0,smovilcli,Móvil
+91,cliente_0,sfaxcli,Fax
+92,cliente_0,tipofichero,Tipo Cliente
+93,cliente_0,estadoCli,Estado
+94,cliente_0,fechaalta,Fecha Alta
+95,cliente_0,fechaBaja,Fecha Baja
+96,cliente_0,pagweb,Página Web
+97,cliente_0,sNombrePais,País
+98,cliente_0,telefono3,Teléfono 3
+99,cliente_0,backcolor,Color
+100,cliente_0,CodSubUSu,Usuario
+101,cliente_0,idIntranetArbolNivelFicha,Nivel Documentación Acceso Cliente
+102,cliente_0,estadoAEAT,Estado AEAT
+103,cliente_0,nifcomunitario,NIF Comunitario
+104,cliente_0,tipoId,Tipo Id
+105,cliente_0,mascotasexo,Sexo
+106,cliente_0,Campo0104,Profesión
+107,cliente_0,Campo0105,Peso
+108,cliente_0,Campo0106,Altura
+109,cliente_0,Campo0107,Práctica Deporte
+110,cliente_0,Campo0108,Frecuencia
+111,cliente_0,Campo0101,Fuente de Contacto
+112,cliente_0,Campo0201,Comunicaciones Comerciales
+113,cliente_0,Campo0202,Documento LOPD
+114,cliente_0,Campo0204,Servicios de Interés
+115,cliente_0,Campo0301,Nivel de Satisfacción
+116,cliente_0,Campo0303,Reclamaciones
+117,cliente_0,Campo0203,Trato Preferente
+118,cliente_0,1,Fecha 1
+119,cliente_0,2,Fecha 2
+120,cliente_0,3,Fecha 3
+121,cliente_0,4,Fecha 4
+122,cliente_0,5,Fecha 5
+123,cliente_0,6,Fecha 6

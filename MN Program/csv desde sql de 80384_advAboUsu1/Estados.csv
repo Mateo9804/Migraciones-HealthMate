@@ -1,0 +1,36 @@
+﻿id,entidad,estado,activo,alerta
+1,Expedientes,Abierto,False,False
+2,Expedientes,Cerrado,False,False
+3,Clientes_0,Alta,True,False
+4,Clientes_0,Baja,False,False
+5,Clientes_1,Alta,True,False
+6,Clientes_1,Baja,False,False
+7,Clientes_2,Alta,True,False
+8,Clientes_2,Baja,False,False
+9,Clientes_3,Alta,True,False
+10,Clientes_3,Baja,False,False
+11,Clientes_4,Alta,True,False
+12,Clientes_4,Baja,False,False
+13,Clientes_5,Alta,True,False
+14,Clientes_5,Baja,False,False
+15,Clientes_6,Alta,True,False
+16,Clientes_6,Baja,False,False
+17,Clientes_7,Alta,True,False
+18,Clientes_7,Baja,False,False
+19,Clientes_8,Alta,True,False
+20,Clientes_8,Baja,False,False
+21,Clientes_9,Alta,True,False
+22,Clientes_9,Baja,False,False
+23,Clientes_10,Alta,True,False
+24,Clientes_10,Baja,False,False
+25,Clientes_11,Alta,True,False
+26,Clientes_11,Baja,False,False
+27,Clientes_12,Alta,True,False
+28,Clientes_12,Baja,False,False
+29,Clientes_13,Alta,True,False
+30,Clientes_13,Baja,False,False
+31,Clientes_14,Alta,True,False
+32,Clientes_14,Baja,False,False
+35,Clientes_0,Docs pendientes subir/firmar,True,False
+36,Clientes_1,Docs pendientes subir/firmar,True,False
+37,Clientes_4,Docs pendientes subir/firmar,True,False

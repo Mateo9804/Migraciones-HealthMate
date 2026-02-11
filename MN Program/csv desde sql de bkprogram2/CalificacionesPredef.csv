@@ -1,0 +1,12 @@
+﻿id,sdescripcion,fnota,notaInicio,notaFin
+1,Sin Calificación,0.0000,0.0000,0.0000
+2,Muy Deficiente,0.2500,0.2500,0.2500
+3,Insuficiente Bajo,1.0000,1.0000,1.0000
+4,Insuficiente,3.0000,3.0000,3.0000
+5,Insuficiente Alto,4.5000,4.5000,4.5000
+6,Suficiente,5.0000,5.0000,5.0000
+7,Bien,6.0000,6.0000,6.0000
+8,Notable,7.0000,7.0000,7.0000
+9,Notable Alto,8.5000,8.5000,8.5000
+10,Sobresaliente,9.0000,9.0000,9.0000
+11,Matrícula de Honor,10.0000,10.0000,10.0000

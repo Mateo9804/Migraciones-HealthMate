@@ -1,0 +1,26 @@
+﻿id,stipo,sdescripcion
+1,AC01,Número de cuenta incorrecto (IBAN no válido)
+2,AC04,Cuenta cancelada
+3,AC06,Cuenta bloqueada y/o cuenta bloqueada por el deudor para Adeudos Directos
+4,AG01,Cuenta no admite Adeudos Directos
+5,AG02,Código de operación incorrecto
+6,AM04,Saldo insuficiente
+7,AM05,Operación duplicada
+8,BE01,Titular de la cuenta de cargo no coincide con el deudor
+9,BE05,Identificador del acreedor incorrecto
+10,CNOR,Entidad del beneficiario no registrada
+11,DNOR,Entidad del ordenante no registrada
+12,FF01,Formato no válido
+13,FF05,Tipo de adeudo incorrecto
+14,MD01,Mandato no válido o inexistente
+15,MD02,Faltan datos del mandato o son incorrectos
+16,MD06,Operación autorizada no conforme
+17,MD07,Deudor fallecido
+18,MS02,Razón no especificada por el cliente (orden del deudor)
+19,MS03,Razón no especificada por la entidad del deudor
+20,RC01,Identificador de la entidad incorrecto (BIC no válido)
+21,RR01,Faltan identificación o cuenta del deudor. Razones regulatorias
+22,RR02,Falta nombre o dirección del deudor. Razones regulatorias
+23,RR03,Falta nombre o dirección del acreedor. Razones regulatorias
+24,RR04,Razones regulatorias
+25,SL01,Servicios específicos ofrecidos por la entidad del deudor

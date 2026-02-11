@@ -1,0 +1,933 @@
+﻿id,grupo,codigo
+1,Actualización en docencia en general,001-00
+2,Administración de personal en general,002-00
+3,Secretariado y otros trabajos auxiliares de oficina en general,003-00
+4,Trabajos auxiliares de Oficina,003-01
+5,Atención telefónica y recepción,003-02
+6,Secretariado,003-03
+7,"Almacenaje, Stocks y Envíos en general",004-00
+8,Operación de carretillas,004-01
+9,Análisis de riesgos-banca en general,005-00
+10,Análisis y Control de Costes en general,006-00
+11,Análisis y Control Financiero en general,007-00
+12,Análisis y ensayos de laboratorio en general,008-00
+13,Trabajos auxiliares en  laboratorios de química industrial,008-01
+14,Análisis en laboratorios de química industrial,008-02
+15,Trabajos auxiliares en laboratorios de industrias alimentarias,008-03
+16,Atención al Cliente/Calidad Servicio en general,009-00
+17,Información al cliente,009-01
+18,Calidad de servicio,009-02
+19,Atención al cliente mediante TICs,009-03
+20,Atención al paciente o usuario de servicios sanitarios en general,010-00
+21,Atención al paciente o usuario hospitalario,010-01
+22,"Atención extrahospitalaria: farmacia, ortopedia, etc.",010-02
+23,Auditoría ambiental en general,011-00
+24,Auditoría económico financiera en general,013-00
+25,Auditoría informática en general,014-00
+26,Autómatas programables y robótica en general,015-00
+27,Automatismos industriales en general,016-00
+28,Instalación de automatismos,016-01
+29,Cuidados sanitarios auxiliares en general,017-00
+30,Movilización y traslado de pacientes,017-01
+31,Cuidados auxiliares de transporte sanitario,017-02
+32,Cuidados auxiliares de enfermería hospitalaria,017-03
+33,Cuidados auxiliares en geriatría,017-04
+34,Cuidados auxiliares en salud mental y toxicomanías,017-05
+35,Cuidados auxiliares en rehabilitación,017-06
+36,Higiene dental,017-07
+37,Prótesis dental,017-08
+38,"Bibliotecas, Archivos y Documentación en general",018-00
+39,Documentación en medios de comunicación,018-01
+40,Calderería industrial en general,019-00
+41,Tubería industrial,019-01
+42,Trabajos auxiliares de calderería,019-02
+43,Calderería- Tubería,019-03
+44,Técnicas de calderería,019-04
+45,Hostelería-Servicio de comidas y bebidas en general,024-00
+46,Jefatura de salas de restauración,024-01
+47,Servicio en restaurantes y bares,024-02
+48,Presentación de vinos y bebidas,024-03
+49,Presentación de Buffetes,024-04
+50,Coctelería,024-05
+51,Servicios de Juegos de Azar en general,025-00
+52,Gestión de apuestas en casinos y mesas de juego,025-01
+53,Operación de apuestas,025-02
+54,Estadística,026-01
+55,Bioquímica,026-02
+56,Edafología,026-03
+57,Botánica,026-04
+58,Economía,026-05
+59,Geología,026-06
+60,Matemáticas,026-07
+61,Química,026-08
+62,Física,026-09
+63,Psicología,026-10
+64,Otras Ciencias aplicadas,026-99
+65,Cobros e Impagos en general,027-00
+66,Análisis de riesgos y gestión crediticia,027-01
+67,Gestión de cobros y reclamaciones,027-02
+68,Hostelería- cocina en general,028-00
+69,Jefatura de cocinas,028-01
+70,Repostería-pastelería,028-02
+71,Comercio Exterior en general,029-00
+72,Compras y Aprovisionamientos en general,030-00
+73,Negociación y otras técnicas de relación con proveedores,030-01
+74,Comunicaciones Informáticas en general,031-00
+75,"Conducción y pilotaje de vehículos, aeronaves y trenes en general",032-00
+76,Conducción de vehículos ligeros,032-01
+77,Conducción de camiones pesados,032-02
+78,Conducción de autobuses,032-03
+79,Pilotaje de aeronaves,032-04
+80,Conducción de ferrocarriles y trenes,032-05
+81,"Conocimiento del producto: Agricultura, ganadería, caza y actividades de los servicios relacionados con las mismas",034-01
+82,"Conocimiento del producto: Selvicultura, explotación forestal y actividades de los servicios relacionados con las mismas",034-02
+83,"Conocimiento del producto: Pesca, acuicultura y actividades de los servicios relacionados con las mismas",034-03
+84,"Conocimiento del producto: Extracción y aglomeración de antracita, hulla, lignito y turba",034-04
+85,"Conocimiento del producto: Extracción de crudos de petróleo y gas natural; actividades de los servicios relacionados con las explotaciones petrolíferas y de gas, excepto actividades de prospección",034-05
+86,Conocimiento del producto: Extracción de minerales de uranio y torio,034-06
+87,Conocimiento del producto: Extracción de minerales metálicos,034-07
+88,Conocimiento del producto: Extracción de minerales no metálicos ni energéticos,034-08
+89,Conocimiento del producto: Industria de productos alimenticios y bebidas,034-09
+90,Conocimiento del producto: Industria del tabaco,034-10
+91,Conocimiento del producto: Industria textil,034-11
+92,Conocimiento del producto: Industria de la confección y de la peletería,034-12
+93,"Conocimiento del producto: Preparación, curtido y acabado del cuero; fabricación de artículos de marroquinería y viaje; artículos de guarnicionería, talabartería y zapatería",034-13
+94,"Conocimiento del producto: Industria de la madera y del corcho, excepto muebles; cestería y espartería",034-14
+95,Conocimiento del producto: Industria del papel,034-15
+96,"Conocimiento del producto: Edición, artes gráficas y reproducción de soportes grabados",034-16
+97,Conocimiento del producto: Industria química,034-17
+98,Conocimiento del producto: Fabricación de productos de caucho y materias plásticas,034-18
+99,Conocimiento del producto: Metalurgia,034-19
+100,"Conocimiento del producto: Fabricación de productos metálicos, excepto maquinaria y equipo",034-20
+101,Conocimiento del producto: Industria de la construcción de maquinaria y equipo mecánico,034-21
+102,Conocimiento del producto: Fabricación de máquinas de oficina y equipos informáticos,034-22
+103,Conocimiento del producto: Fabricación de maquinaria y material eléctrico,034-23
+104,"Conocimiento del producto: Fabricación de material electrónico; fabricación de equipo y aparatos de radio, televisión y comunicaciones",034-24
+105,"Conocimiento del producto: Fabricación de equipo e instrumentos médico-quirúrgicos, de precisión, óptica y relojería",034-25
+106,"Conocimiento del producto: Fabricación de vehículos de motor, remolques y semirremolques",034-26
+107,Conocimiento del producto: Fabricación de otro material de transporte,034-27
+108,"Conocimiento del producto: Coquerías, refino de petróleo y tratamiento de combustibles nucleares",034-28
+109,Conocimiento del producto: Fabricación de otros productos minerales no metálicos,034-29
+110,Conocimiento del producto: Fabricación de muebles,034-30
+111,Conocimiento del producto: Reciclaje,034-31
+112,"Conocimiento del producto: Producción y distribución de energía eléctrica, gas, vapor y agua caliente",034-32
+113,"Conocimiento del producto: Captación, depuración y distribución de agua",034-33
+114,Conocimiento del producto: Construcción,034-34
+115,"Conocimiento del producto: Venta, mantenimiento y reparación de vehículos de motor, motocicletas y ciclomotores; venta al por menor de combustible para vehículos de motor",034-35
+116,"Conocimiento del producto: Comercio al por mayor e intermediarios del comercio, excepto vehículos de motor y motocicletas",034-36
+117,"Conocimiento del producto: Comercio al por menor, excepto el comercio de vehículos de motor, motocicletas y ciclomotores; reparación de efectos personales y enseres domésticos",034-37
+118,Conocimiento del producto: Hostelería,034-38
+119,Conocimiento del producto: Transporte terrestre; transporte por tuberías,034-39
+120,"Conocimiento del producto: Transporte marítimo, de cabotaje y por vías de navegación interiores",034-40
+121,Conocimiento del producto: Transporte aéreo y espacial,034-41
+122,Conocimiento del producto: Actividades anexas a los transportes; actividades de agencias de viaje,034-42
+123,Conocimiento del producto: Correos y telecomunicaciones,034-43
+124,"Conocimiento del producto: Intermediación financiera, excepto seguros y planes de pensiones",034-44
+125,Conocimiento del producto: Actividades auxiliares ala intermediación financiera,034-45
+126,"Conocimiento del producto: Seguros y planes de pensiones, excepto seguridad social",034-46
+127,Conocimiento del producto: Actividades inmobiliarias,034-47
+128,"Conocimiento del producto: Alquiler de maquinaria y equipo sin operario, de efectos personales y enseres domésticos",034-48
+129,Conocimiento del producto: Actividades informáticas,034-49
+130,Conocimiento del producto: Investigación y desarrollo,034-50
+131,Conocimiento del producto: Otras actividades empresariales,034-51
+132,Conocimiento del producto: Educación,034-52
+133,"Conocimiento del producto: Actividades sanitarias y veterinarias, servicios sociales",034-53
+134,Conocimiento del producto: Actividades de saneamiento público,034-54
+135,Conocimiento del producto: Actividades asociativas,034-55
+136,"Conocimiento del producto: Actividades recreativas, culturales y deportivas",034-56
+137,Conocimiento del producto: Actividades diversas de servicios personales,034-57
+138,"Conocimiento del sector: Agricultura, ganadería, caza",035-01
+139,"Conocimiento del sector: Selvicultura, explotación forestal y actividades de los servicios relacionados con las mismas",035-02
+140,"Conocimiento del sector: Pesca, acuicultura y actividades de los servicios relacionados con las mismas",035-03
+141,"Conocimiento del sector: Extracción y aglomeración de antracita, hulla, lignito y turba",035-04
+142,"Conocimiento del sector: Extracción de crudos de petróleo y gas natural; actividades de los servicios relacionados con las explotaciones petrolíferas y de gas, excepto actividades de prospección",035-05
+143,Conocimiento del sector: Extracción de minerales de uranio y torio,035-06
+144,Conocimiento del sector: Extracción de minerales metálicos,035-07
+145,Conocimiento del sector: Extracción de minerales no metálicos ni energéticos,035-08
+146,Conocimiento del sector: Industria de productos alimenticios y bebidas,035-09
+147,Conocimiento del sector: Industria del tabaco,035-10
+148,Conocimiento del sector: Industria textil,035-11
+149,Conocimiento del sector: Industria de la confección y de la peletería,035-12
+150,"Conocimiento del sector: Preparación, curtido y acabado del cuero; fabricación de artículos de marroquinería y viaje; artículos de guarnicionería, talabartería y zapatería",035-13
+151,"Conocimiento del sector: Industria de la madera y del corcho, excepto muebles; cestería y espartería",035-14
+152,Conocimiento del sector: Industria del papel,035-15
+153,"Conocimiento del sector: Edición, artes gráficas y reproducción de soportes grabados",035-16
+154,Conocimiento del sector: Industria química,035-17
+155,Conocimiento del sector: Fabricación de productos de caucho y materias plásticas,035-18
+156,Conocimiento del sector: Metalurgia,035-19
+157,"Conocimiento del sector: Fabricación de productos metálicos, excepto maquinaria y equipo",035-20
+158,Conocimiento del sector: Industria de la construcción de maquinaria y equipo mecánico,035-21
+159,Conocimiento del sector: Fabricación de máquinas de oficina y equipos informáticos,035-22
+160,Conocimiento del sector: Fabricación de maquinaria y material eléctrico,035-23
+161,"Conocimiento del sector: Fabricación de material electrónico; fabricación de equipo y aparatos de radio, televisión y comunicaciones",035-24
+162,"Conocimiento del sector: Fabricación de equipo e instrumentos médico-quirúrgicos, de precisión, óptica y relojería",035-25
+163,"Conocimiento del sector: Fabricación de vehículos de motor, remolques y semirremolques",035-26
+164,Conocimiento del sector: Fabricación de otro material de transporte,035-27
+165,"Conocimiento del sector: Coquerías, refino de petróleo y tratamiento de combustibles nucleares",035-28
+166,Conocimiento del sector: Fabricación de otros productos minerales no metálicos,035-29
+167,Conocimiento del sector: Fabricación de muebles,035-30
+168,Conocimiento del sector: Reciclaje,035-31
+169,"Conocimiento del sector: Producción y distribución de energía eléctrica, gas, vapor y agua caliente",035-32
+170,"Conocimiento del sector: Captación, depuración y distribución de agua",035-33
+171,Conocimiento del sector: Construcción,035-34
+172,"Conocimiento del sector: Venta, mantenimiento y reparación de vehículos de motor, motocicletas y ciclomotores; venta al por menor de combustible para vehículos de motor",035-35
+173,"Conocimiento del sector: Comercio al por mayor e intermediarios del comercio, excepto vehículos de motor y motocicletas",035-36
+174,"Conocimiento del sector: Comercio al por menor, excepto el comercio de vehículos de motor, motocicletas y ciclomotores; reparación de efectos personales y enseres domésticos",035-37
+175,Conocimiento del sector: Hostelería,035-38
+176,Conocimiento del sector: Transporte terrestre; transporte por tuberías,035-39
+177,"Conocimiento del sector: Transporte marítimo, de cabotaje y por vías de navegación interiores",035-40
+178,Conocimiento del sector: Transporte aéreo y espacial,035-41
+179,Conocimiento del sector: Actividades anexas a los transportes; actividades de agencias de viaje,035-42
+180,Conocimiento del sector: Correos y telecomunicaciones,035-43
+181,"Conocimiento del sector: Intermediación financiera, excepto seguros y planes de pensiones",035-44
+182,Conocimiento del sector: Actividades auxiliares ala intermediación financiera,035-45
+183,"Conocimiento del sector: Seguros y planes de pensiones, excepto seguridad social",035-46
+184,Conocimiento del sector: Actividades inmobiliarias,035-47
+185,"Conocimiento del sector: Alquiler de maquinaria y equipo sin operario, de efectos personales y enseres domésticos",035-48
+186,Conocimiento del sector: Actividades informáticas,035-49
+187,Conocimiento del sector: Investigación y desarrollo,035-50
+188,Conocimiento del sector: Otras actividades empresariales,035-51
+189,Conocimiento del sector: Educación,035-52
+190,"Conocimiento del sector: Actividades sanitarias y veterinarias, servicios sociales",035-53
+191,Conocimiento del sector: Actividades de saneamiento público,035-54
+192,Conocimiento del sector: Actividades asociativas,035-55
+193,"Conocimiento del sector: Actividades recreativas, culturales y deportivas",035-56
+194,Conocimiento del sector: Actividades diversas de servicios personales,035-57
+195,Contabilidad en general,036-00
+196,Control de Gestión en general,037-00
+197,Control numérico en general,038-00
+198,Preparación de máquinas herramienta y Control Numérico (CNC),038-01
+199,Programación de máquinas herramienta con Control Numérico (CNC),038-02
+200,Diseño asistido por ordenador en general,039-00
+201,Diseño Gráfico Informatizado en general,040-00
+202,Diseño industrial en general,041-00
+203,Atención y venta en establecimientos comerciales en general,042-00
+204,Cobro y atención en Caja,042-01
+205,Enfermería en general,043-00
+206,Enfermería de atención primaria,043-01
+207,Enfermería de hospitales,043-02
+208,Enfermería de salud mental y toxicomanías,043-03
+209,Enfermería- otros ámbitos,043-99
+210,Equipos técnicos- Información y manifestaciones artísticas en general,044-00
+211,Operación de cámaras,044-01
+212,Edición y montaje de imágenes,044-02
+213,Técnicas de sonido,044-03
+214,Operación de equipos en estación de radio y televisión,044-04
+215,Proyecciones cinematográficas,044-05
+216,Fotografía,044-06
+217,Laboratorio de imagen,044-07
+218,Iluminación,044-08
+219,Escaparatismo en general,045-00
+220,Escenografía y ambientación artística en general,046-00
+221,Decoración de escenarios,046-01
+222,Vestuario,046-02
+223,Caracterización,046-03
+224,Regiduría de escena,046-04
+225,Traumatología,047-01
+226,Ginecología,047-02
+227,Cirugía,047-03
+228,Neurología,047-04
+229,Otras especialidades médicas,047-99
+230,Procesos productivos industria pesada: Fabricación de estructuras metálicas en general,048-00
+231,Carpintería metálica y de PVC,048-01
+232,Montaje de estructuras metálicas,048-02
+233,Estudios de mercado en general,049-00
+234,Finanzas para no Financieros en general,050-00
+235,Explotación forestal en general,051-00
+236,Trabajos forestales,051-01
+237,Manipulación de motosierras,051-02
+238,Explotación del alcornoque,051-03
+239,Explotación cinegética,051-04
+240,Formación de formadores en general,052-00
+241,Aplicación de TICs a la formación,052-01
+242,Montaje e instalación de frío industrial en general,054-00
+243,Montaje e instalación de cámaras frigoríficas,054-01
+244,Instalación y mantenimiento de aire acondicionado,054-02
+245,Gestión administrativa en general,055-00
+246,Gestión ambiental en general,056-00
+247,Sensibilización hacia el medio ambiente,056-01
+248,Dirección y gestión bancaria en general,057-00
+249,Gestión comercial en general,058-00
+250,Gestión en Agencia Comercial,058-01
+251,Gestión de almacén y/o distribución en general,059-00
+252,Gestión de empresas de Ec. Social en general,060-00
+253,Gestión de flotas en general,061-00
+254,Gestión de flotas- transporte por carretera,061-01
+255,Gestión de flotas- transporte marítimo,061-02
+256,Gestión de flotas-Transporte aéreo,061-03
+257,Gestión de la formación en general,062-00
+258,Gestión de obra en general,063-00
+259,Supervisión de ejecución de obra de edificación,063-01
+260,Supervisión de ejecución de obra civil,063-02
+261,Gestión de la producción en general,064-00
+262,Gestión de proyectos (no de proyectos informáticos) en general,065-00
+263,Gestión de proyectos informáticos en general,066-00
+264,Gestión de Pymes en general,067-00
+265,Gerencia de Pequeño Comercio,067-01
+266,Gestión de recursos humanos en general,068-00
+267,Selección y desarrollo de Recursos Humanos,068-01
+268,Habilidades directivas,068-02
+269,Habilidades personales e interpersonales en el entorno laboral,068-03
+270,Comunicación Interna,068-04
+271,Recursos humanos: Negociación colectiva,068-05
+272,"Conocimiento de la empresa (acogida), cultura de empresa, cambio de cultura",068-06
+273,Gestión del mantenimiento en general,069-00
+274,Técnicas de organización de instalaciones y mantenimiento de edificios y equipamientos urbanos,069-01
+275,Técnicas de organización del mantenimiento de equipos electromecánicos de uso no industrial,069-02
+276,Técnicas de organización del mantenimiento industrial,069-03
+277,Gestión económico financiera en general,070-00
+278,Gestión de grandes empresas y redes empresariales en general,071-00
+279,Gestión fiscal en general,072-00
+280,Gestión hospitalaria en general,073-00
+281,Gestión hotelera en general,074-00
+282,Gestión de hoteles y otros alojamientos,074-01
+283,Gestión de establecimientos de restauración,074-02
+284,Jefatura de economatos y bodegas,074-03
+285,Gestión inmobiliaria en general,075-00
+286,Habilitación y especialización en docencia en general,078-00
+287,Seguridad alimentaria: manipulación y control de alimentos en general,079-00
+288,Higiene alimentaria / Manipulación de alimentos,079-01
+289,Control de puntos críticos (Ind. Alimentaria),079-02
+290,Hostelería-Atención en pisos en general,080-00
+291,Gobernanza de pisos,080-01
+292,Servicio de pisos,080-02
+293,"Lencería, lavandería,  planchado",080-03
+294,Informática de Usuario / Ofimática en general,087-00
+295,Ofimática: Procesadores de texto,087-01
+296,Ofimática: Bases de datos,087-02
+297,Ofimática: Hojas de Cálculo,087-03
+298,Ofimática: Aplicaciones para Presentaciones en público,087-04
+299,Ofimática: Internet-intranet y navegadores,087-05
+300,Ofimática: Diseño de páginas web,087-06
+301,"Informática de usuario: Aplicaciones para el tratamiento de imágenes, sonido y vídeo",087-07
+302,Informática de usuario: Tratamiento e informes de grandes almacenes de datos,087-08
+303,Informática de usuario: Lenguajes de programación,087-09
+304,Informática de usuario: E-bussines & e-commerce,087-10
+305,"Informática de usuario: Aplicaciones estándar de gestión de recursos, compras y ventas",087-11
+306,Informática de usuario: Aplicaciones para tratamiento estadístico,087-12
+307,Informática de usuario: Sistemas operativos,087-13
+308,Introducción a la informática y/o Nuevas Tecnologías de la información y comunicación,087-14
+309,Informática de usuario: Utilidades y herramientas de apoyo para el tratamiento de ficheros,087-15
+310,Informática de usuario: Aplicaciones estándar para estudios y oficinas técnicas,087-16
+311,Informática  de desarrollo en general,088-00
+312,Ingeniería y nuevas tecnologías i+d+i en general,089-00
+313,Instalaciones de viviendas y edificios en general,090-00
+314,Fontanería,090-01
+315,Calefacción y climatización,090-02
+316,Instalación de gas,090-03
+317,Instalación de aislamientos,090-04
+318,Impermeabilización,090-05
+319,Instalaciones eléctricas en edificios,090-06
+320,Montaje e instalación de equipos industriales en general,091-00
+321,Instalación de equipos y sistemas electrónicos,091-01
+322,Instalación de máquinas y equipos industriales,091-02
+323,Instalación de equipos y sistemas de comunicación electrónicos,091-03
+324,Instalación y mantenimiento  de conducciones de fluidos,091-04
+325,Montaje electromecánico en Industrias de Fabricación de Equipos Electromecánicos,091-05
+326,Trabajos auxiliares de montajes electrónicos en Industrias de Fabricación de Equipos Electromecánicos,091-06
+327,Montaje de dispositivos y cuadros electrónicos en Industrias de Fabricación de Equipos Electromecánicos,091-07
+328,Montaje y ajuste de equipos electrónicos en Industrias de Fabricación de Equipos Electromecánicos,091-08
+329,Instrumentación y control en general,092-00
+330,Interiorismo y decoración en general,093-00
+331,Interpretación de planos y delineación en general,094-00
+332,Inversiones-banca en general,095-00
+333,"Jardinería, floricultura y arte floral en general",096-00
+334,Cultivo de flores,096-01
+335,Manipulación de flores,096-02
+336,Trabajos de centros de jardinería,096-03
+337,Trabajos en viveros,096-04
+338,Jardinería,096-05
+339,Laboratorio clínico en general,097-00
+340,Técnicas de microbiología,097-01
+341,Análisis de hematología,097-02
+342,Técnicas de inmunología-bioquímica,097-03
+343,Técnicas de anatomía patológica,097-04
+344,Técnicas auxiliares de laboratorio clínico,097-05
+345,Logística Integral en general,101-00
+346,Manipulación de mercancías en general,102-00
+347,Manipulación de mercancías-Transporte por carretera,102-01
+348,Manipulación de mercancías en puerto,102-02
+349,Manipulación de mercancías- Estiba y desestiba de buques,102-03
+350,Manipulación de mercancías con grúas portuarias,102-04
+351,Manipulación de mercancías en cubierta de buques,102-05
+352,Manipulación de mercancías-Transporte aéreo,102-06
+353,Mantenimiento de Edificios y Otro Equipamiento Urbano en general,103-00
+354,Análisis y diagnóstico de edificios,103-01
+355,Domótica,103-02
+356,Mantenimiento de instalaciones de climatización de edificios,103-03
+357,Mantenimiento de Equipos Electromecánicos de uso no industrial en general,104-00
+358,Mantenimiento de Equipos de climatización,104-01
+359,Mantenimiento de Equipos Electrodomésticos y de limpieza de edificios,104-02
+360,Mantenimiento de Equipos Informáticos y periféricos,104-03
+361,Mantenimiento de Equipos de Telefonía y Comunicaciones,104-04
+362,Mantenimiento de Equipos de electromedicina,104-05
+363,Mantenimiento Industrial en general,105-00
+364,Mantenimiento mecánico,105-01
+365,Mantenimiento electromecánico,105-02
+366,Mantenimiento eléctrico,105-03
+367,Mantenimiento electrónico,105-04
+368,Trabajos auxiliares en mantenimiento mecánico en Industrias de Fabricación de Equipos Electromecánicos,105-05
+369,Mantenimiento de instalaciones mecánicas en Industrias de Fabricación de Equipos Electromecánicos,105-06
+370,Mantenimiento mecánico en Industrias de Fabricación de Equipos Electromecánicos,105-07
+371,Trabajos auxiliares de mantenimiento electromecánico en Industrias de Fabricación de Equipos Electromecánicos,105-08
+372,Técnicas de mantenimiento electromecánico en Industrias de Fabricación de Equipos Electromecánicos,105-09
+373,Técnicas de mantenimiento de equipos eléctricos en Industrias de Fabricación de Equipos Electromecánicos,105-10
+374,Técnicas de mantenimiento electrónico en Industrias de Fabricación de Equipos Electromecánicos,105-11
+375,Mantenimiento de equipos electromecánicos en Industrias de Fabricación de Equipos Electromecánicos,105-12
+376,Mantenimiento y Reparación de Equipos de Transporte en general,106-00
+377,Reparación de maquinaria agrícola autopropulsada,106-01
+378,Reparación de maquinaria industrial autopropulsada,106-02
+379,Reparación de motores de aviación,106-03
+380,Reparación de motores náuticos y componentes mecánicos navales,106-04
+381,Mantenimiento de vehículos ferroviarios de tracción,106-05
+382,Reparación de vehículos pesados,106-06
+383,Mantenimiento y Reparación de Vehículos Ligeros en general,107-00
+384,Reparación de carrocerías de vehículos,107-01
+385,Reparación de motores y equipos de inyección,107-02
+386,Reparación de sistemas eléctricos y electrónicos de vehículos,107-03
+387,Diagnosis de vehículos,107-04
+388,Reparación de vehículos de dos o tres ruedas,107-05
+389,Marketing en general,108-00
+390,"Materiales y materias primas: Agricultura, ganadería, caza y actividades de los servicios relacionados con las mismas",109-01
+391,"Materiales y materias primas: Selvicultura, explotación forestal y actividades de los servicios relacionados con las mismas",109-02
+392,"Materiales y materias primas: Pesca, acuicultura y actividades de los servicios relacionados con las mismas",109-03
+393,"Materiales y materias primas: Extracción y aglomeración de antracita, hulla, lignito y turba",109-04
+394,"Materiales y materias primas: Extracción de crudos de petróleo y gas natural; actividades de los servicios relacionados con las explotaciones petrolíferas y de gas, excepto actividades de prospección",109-05
+395,Materiales y materias primas: Extracción de minerales de uranio y torio,109-06
+396,Materiales y materias primas: Extracción de minerales metálicos,109-07
+397,Materiales y materias primas: Extracción de minerales no metálicos ni energéticos,109-08
+398,Materiales y materias primas: Industria de productos alimenticios y bebidas,109-09
+399,Materiales y materias primas: Industria del tabaco,109-10
+400,Materiales y materias primas: Industria textil,109-11
+401,Materiales y materias primas: Industria de la confección y de la peletería,109-12
+402,"Materiales y materias primas: Preparación, curtido y acabado del cuero; fabricación de artículos de marroquinería y viaje; artículos de guarnicionería, talabartería y zapatería",109-13
+403,"Materiales y materias primas: Industria de la madera y del corcho, excepto muebles; cestería y espartería",109-14
+404,Materiales y materias primas: Industria del papel,109-15
+405,"Materiales y materias primas: Edición, artes gráficas y reproducción de soportes grabados",109-16
+406,Materiales y materias primas: Industria química,109-17
+407,Materiales y materias primas: Fabricación de productos de caucho y materias plásticas,109-18
+408,Materiales y materias primas: Metalurgia,109-19
+409,"Materiales y materias primas: Fabricación de productos metálicos, excepto maquinaria y equipo",109-20
+410,Materiales y materias primas: Industria de la construcción de maquinaria y equipo mecánico,109-21
+411,Materiales y materias primas: Fabricación de máquinas de oficina y equipos informáticos,109-22
+412,Materiales y materias primas: Fabricación de maquinaria y material eléctrico,109-23
+413,"Materiales y materias primas: Fabricación de material electrónico; fabricación de equipo y aparatos de radio, televisión y comunicaciones",109-24
+414,"Materiales y materias primas: Fabricación de equipo e instrumentos médico-quirúrgicos, de precisión, óptica y relojería",109-25
+415,"Materiales y materias primas: Fabricación de vehículos de motor, remolques y semirremolques",109-26
+416,Materiales y materias primas: Fabricación de otro material de transporte,109-27
+417,"Materiales y materias primas: Coquerías, refino de petróleo y tratamiento de combustibles nucleares",109-28
+418,Materiales y materias primas: Fabricación de otros productos minerales no metálicos,109-29
+419,Materiales y materias primas: Fabricación de muebles; otras industrias manufactureras,109-30
+420,Materiales y materias primas: Reciclaje,109-31
+421,"Materiales y materias primas: Producción y distribución de energía eléctrica, gas, vapor y agua caliente",109-32
+422,"Materiales y materias primas: Captación, depuración y distribución de agua",109-33
+423,Materiales y materias primas: Construcción,109-34
+424,Materiales y materias primas: Hostelería,109-35
+425,Mercados financieros en general,110-00
+426,Merchandising en general,111-00
+427,Metodologías-Didácticas específicas en general,112-00
+428,Calidad en general,114-00
+429,Auditoría de Calidad,114-01
+430,Introducción a la calidad,114-02
+431,Herramientas de calidad,114-03
+432,Gestión de calidad total/Modelos de excelencia empresarial,114-04
+433,Normalización/Homologación/ certificación de calidad,114-05
+434,Nuevas tecnologías e investigación aplicadas a la docencia,115-00
+435,Nutrición y dietética en general,116-00
+436,Oficina técnica-Construcción en general,117-00
+437,Delineación  en edificación y obras civiles,117-01
+438,Técnicas auxiliares de obra,117-02
+439,Técnicas auxiliares de topografía,117-03
+440,Técnicas auxiliares de laboratorio de obra,117-04
+441,Técnicas auxiliares de control y vigilancia de obras,117-05
+442,Planificación y control de obras,117-06
+443,Cálculo de estructuras y cimentaciones,117-07
+444,Encofrado,118-01
+445,Ferralla,118-02
+446,Hormigonado,118-03
+447,Entibado,118-04
+448,Montaje de estructuras tubulares,118-05
+449,Albañilería,118-06
+450,Revoco,118-07
+451,Tendido de yesos,118-08
+452,Estucado,118-09
+453,Colocación de escayola,118-10
+454,Colocación de prefabricados ligeros,118-11
+455,Instalación de redes de saneamiento,118-12
+456,Cantería,118-13
+457,Colocación de mármol,118-14
+458,Mampostería,118-15
+459,Pavimentación,118-16
+460,Trabajos en portland,118-17
+461,Pintura de edificios,118-18
+462,Entarimado,118-19
+463,Enmoquetado-entelado,118-20
+464,Colocación de pavimentos ligeros,118-21
+465,Acristalado de edificios,118-22
+466,Colocación de pizarra,118-23
+467,Solado-alicatado,118-24
+468,Techado en chapas y placas,118-25
+469,Operación de plantas de áridos,118-26
+470,Operación de plantas de hormigón,118-27
+471,Operación de plantas de aglomerados asfálticos,118-28
+472,Prefabricado de hormigón,118-29
+473,Otros competencias específicas de oficios de construcción,118-99
+474,Operación de maquinaria de construcción en general,119-00
+475,Operaciones con maquinas de perforación,119-01
+476,Operaciones de voladura con explosivos,119-02
+477,Operaciones con maquinaria excavadora,119-03
+478,Operaciones con maquinaria explanadora,119-04
+479,Operaciones con maquinaria de transporte de tierras,119-05
+480,Operaciones con maquinaria compactadoras,119-06
+481,Operaciones con maquinaria de firmes y pavimentos,119-07
+482,Operaciones con maquinaria de dragado,119-08
+483,Operaciones con maquinaria de vías,119-09
+484,Operación de grúas,119-10
+485,Operación de otra maquinaria de construcción,119-99
+486,Operativa bancaria en general,120-00
+487,Trabajos administrativos en entidades financieras,120-01
+488,Operaciones financieras de activo,120-02
+489,Operaciones financieras internacionales,120-03
+490,Operaciones financieras internas,120-04
+491,Gestión comercial de servicios financieros,120-05
+492,Operativa de agencias de viajes en general,121-00
+493,"Procesos de producción, transformación y distribución de energía y agua en general",122-00
+494,Operación y mantenimiento de centrales hidroeléctricas,122-01
+495,Supervisión de centrales hidroeléctricas,122-02
+496,Operación de centrales termoeléctrica,122-03
+497,Control de centrales termoeléctricas,122-04
+498,Montaje eléctrico de centrales eléctricas,122-05
+499,Montaje mecánico de centrales eléctricas,122-06
+500,Montaje de equipos de instrumentación y control  de central eléctrica,122-07
+501,Operaciones de instrumentación y control de centrales eléctricas,122-08
+502,Operaciones en líneas eléctricas de alta tensión,122-09
+503,Montaje y mantenimiento de subestaciones eléctricas,122-10
+504,Operaciones en  subestaciones eléctricas de alta tensión,122-11
+505,Operaciones en redes y centros de distribución de energía eléctrica,122-12
+506,Montaje y mantenimiento de instalaciones de distribución de energía eléctrica,122-13
+507,Operación de centros de maniobra de distribución de energía eléctrica,122-14
+508,Instalación de sistemas de energía solar térmica,122-15
+509,Instalación de sistemas fotovoltaicos y eólicos,122-16
+510,Técnicas de sistemas de energías renovables,122-17
+511,Operaciones de Calderas Industriales,122-18
+512,Operaciones en gasoductos,122-19
+513,Operaciones en sistemas de distribución de gas,122-20
+514,Supervisión de sistemas de distribución de gas,122-21
+515,Mantenimiento de plantas de captación y tratamiento de agua,122-22
+516,Operaciones en plantas de tratamiento de agua,122-23
+517,Operaciones en sistemas de distribución de agua,122-24
+518,Técnicas de sistemas de distribución de agua,122-25
+519,Operativa de seguros en general,123-00
+520,Técnicas administrativas de seguros,123-01
+521,Comercialización de seguros,123-02
+522,Operativa de transportes en general,124-00
+523,Operativa de transportes por carretera,124-01
+524,Operativa de transporte marítimo,124-02
+525,Operativa de transporte por ferrocarril. Control de circulación,124-03
+526,Atención a pasajeros en aeronaves,124-04
+527,Operación de centros de facilitación aeroportuaria,124-05
+528,Organización de centros educativos en general,125-00
+529,Legislación y normativa comunitaria,127-01
+530,Legislación y normativa internacional no comunitaria,127-02
+531,Legislación y normativa financiera y tributaria,127-03
+532,Legislación y normativa sociolaboral,127-04
+533,Legislación y normativa mercantil,127-05
+534,Legislación y normativa medioambiental,127-06
+535,Legislación y normativa administrativa (excepto la medioambiental),127-07
+536,Otra legislación y normativa,127-99
+537,"Montaje, instalación de equipos de uso no industrial en general",129-00
+538,Planificación y organización empresarial en general,133-00
+539,Carpintería-ebanistería artesana,135-01
+540,Restauración en madera,135-02
+541,Elaboración de objetos de fibra vegetal,135-03
+542,Cerámica,135-04
+543,Talla en piedra,135-05
+544,Soplado de vidrio,135-06
+545,Vidriería artística,135-07
+546,Decoración de objetos de vidrio,135-08
+547,Fundición artesana,135-09
+548,Cerrajería artística,135-10
+549,Calderería artística,135-11
+550,Marroquinería,135-12
+551,Guarnicionería,135-13
+552,Zapatería,135-14
+553,Tejeduría manual,135-15
+554,Adornos textiles,135-16
+555,Modistería,135-17
+556,Sastrería,135-18
+557,Costura,135-19
+558,Joyería,135-20
+559,Platería,135-21
+560,Luthería,135-22
+561,Encuadernación-restauración de libros,135-23
+562,Muñequería,135-24
+563,Elaboración de figuras plásticas,135-25
+564,Reparación de relojes,135-26
+565,Construcción de maquetas,135-27
+566,Otros Procesos productivos de Artesanía,135-99
+567,Procesos productivos Automoción en general,136-00
+568,Sacrificio de ganado,137-01
+569,Carnicería,137-02
+570,Elaboración de productos cárnicos,137-03
+571,Procesado de leche,137-04
+572,Elaboración de quesos,137-05
+573,Elaboración de helados,137-06
+574,Elaboración de productos lácteos y ovoproductos,137-07
+575,Elaboración de aceites y grasas,137-08
+576,Panadería,137-09
+577,Pastelería,137-10
+578,Elaboración de galletas,137-11
+579,Elaboración de cacao y chocolate,137-12
+580,Elaboración de turrones y mazapanes,137-13
+581,Elaboración de caramelos y dulces,137-14
+582,Elaboración de conservas de productos de la pesca,137-15
+583,Elaboración de conservas vegetales,137-16
+584,Procesado de productos congelados,137-17
+585,Molinería,137-18
+586,Elaboración de piensos compuestos,137-19
+587,Elaboración de azúcar,137-20
+588,Elaboración de precocinados y cocinados,137-21
+589,Procesado de catering,137-22
+590,Elaboración de café,137-23
+591,Elaboración de té e infusiones,137-24
+592,Elaboración de frutos secos y aperitivos snacks,137-25
+593,"Elaboración de sopas, salsas, caldos y postres deshidratados",137-26
+594,Elaboración de alimentos infantiles,137-27
+595,Pescadería,137-28
+596,Elaboración de vinos,137-29
+597,Elaboración de sidras,137-30
+598,Elaboración de cerveza,137-31
+599,Elaboración de alcoholes y licores,137-32
+600,Elaboración de bebidas analcoholicas,137-33
+601,Elaboración de tabaco,137-34
+602,Trabajos auxiliares en industrias alimentarias,137-35
+603,Almacenaje en industrias alimentarias,137-36
+604,Envasado de productos alimentarios,137-37
+605,Supervisión de operaciones de industrias alimentarias,137-38
+606,Otros Procesos productivos-Ind-Alimentarias,137-99
+607,Operación de montaje y ajuste mecánico,138-01
+608,Técnicas de ajuste mecánico,138-02
+609,Operación de máquinas-herramienta,138-03
+610,Operación de torno y fresadura,138-04
+611,Construcción de prototipos mecánicos,138-05
+612,Desarrollo de productos mecánicos,138-06
+613,Trabajos auxiliares de electricidad,138-07
+614,Electricidad industrial,138-08
+615,Diseño de sistemas de control eléctrico,138-09
+616,Operaciones de matricería y moldes,138-10
+617,"Otros Procesos productivos- Industrias de fabricación de equipos mecánicos, eléctricos y electrónicos",138-99
+618,Procesos de fundición,139-01
+619,Procesos de forja,139-02
+620,Procesos de laminación,139-03
+621,Procesos de estirado,139-04
+622,Procesos de tratamientos térmicos,139-05
+623,Recubrimiento de superficies metálicas,139-06
+624,Otros procesos productivos industria pesada: Construcciones metálicas y metalurgia en general,139-99
+625,Técnicas de producción editorial,140-01
+626,Técnicas de edición,140-02
+627,Realización de proyectos gráficos y maquetas,140-03
+628,Redacción y corrección de textos,140-04
+629,Trabajos de pre-impresión,140-05
+630,Preparación de textos,140-06
+631,Preparación de imágenes,140-07
+632,Integración de fotorreproducción,140-08
+633,Elaboración de pruebas,140-09
+634,Montaje y preparación de la forma impresora,140-10
+635,Impresión en huecograbado,140-11
+636,Impresión en offset-bobina,140-12
+637,Impresión en offset-hoja,140-13
+638,Impresión de flexografía,140-14
+639,Impresión de serigrafía,140-15
+640,Impresión de pequeños formatos,140-16
+641,Confección de complejos,140-17
+642,Confección de bolsas y sobres,140-18
+643,Extrusionado,140-19
+644,Encuadernación industrial,140-20
+645,Contracolado-engomado,140-21
+646,Troquelado,140-22
+647,Confección de productos de cartón,140-23
+648,Confección de etiquetas,140-24
+649,Maquetación de prensa,140-25
+650,Infografía de prensa,140-26
+651,Otros Procesos productivos- Industrias gráficas,140-99
+652,Fabricación de abrasivos rígidos,141-01
+653,Fabricación de abrasivos flexibles,141-02
+654,Fabricación de cerámicas especiales,141-03
+655,Fabricación de ladrillos y revestimientos cerámicos,141-04
+656,Fabricación de artículos del hogar y porcelana sanitaria,141-05
+657,Fabricación de vidrio y transformado en vidrio,141-06
+658,Elaboración de artículos de vidrio y transformados en vidrio,141-07
+659,Fabricación de fibra de vidrio,141-08
+660,Fabricación de vidrio óptico,141-09
+661,Fabricación de cadenas de joyería y bisutería,141-10
+662,Fabricación de artículos de joyería y bisutería por colada,141-11
+663,Fabricación de joyería y bisutería por prensado,141-12
+664,Fabricación de artículos de joyería por conformado electrolítico,141-13
+665,Acabado y verificado de artículos de joyería y bisutería,141-14
+666,Transformado de plástico para juguetes,141-15
+667,Manufacturado de juguetes de plástico y textil,141-16
+668,Fabricación de juguetes metálicos,141-17
+669,Fabricación de juguetes educativos y de sociedad,141-18
+670,Elaboración de lápices,141-19
+671,Fabricación de máquinas de escritorio,141-20
+672,Fabricación de cremalleras,141-21
+673,Teñido de artículos diversos,141-22
+674,Fabricación de cursores y remaches,141-23
+675,Otros procesos productivos-Industrias manufactureras diversas,141-99
+676,Operación de plantas químicas,142-01
+677,Técnicas de plantas químicas,142-02
+678,Operación en la fabricación en industrias farmacéuticas,142-03
+679,Técnicas de fabricación en industrias farmacéuticas,142-04
+680,Operación en la fabricación en industrias petroquímicas,142-05
+681,Técnicas de fabricación en industrias petroquímicas,142-06
+682,Operación en la fabricación de productos en otras industrias químicas,142-07
+683,Técnicas de fabricación en otras industrias químicas,142-08
+684,Operación en la transformación de plástico y caucho,142-09
+685,Técnicas de transformación de plástico y caucho,142-10
+686,Operación de industrias papeleras,142-11
+687,Técnicas de industrias papeleras,142-12
+688,Otros procesos productivos-Industrias químicas,142-99
+689,Procesado de fibras,143-01
+690,Procesado de fibras para la hilatura,143-02
+691,Hilado y acabado de hilados,143-03
+692,Coordinación técnica de producción de hilatura,143-04
+693,Control de calidad de hilatura,143-05
+694,Urdido y encolado,143-06
+695,Preparación de monturas y C:A:D:Jacquard,143-07
+696,Tejeduría en telar de calada,143-08
+697,Revisado y reparado de productos textiles. Tejeduría de calada,143-09
+698,Coordinación técnica de producción de tejeduría de calada,143-10
+699,Control de calidad de tejeduría de calada,143-11
+700,Procesado de telas no tejidas,143-12
+701,Coordinación técnica de producción de telas no tejidas,143-13
+702,Control de calidad de telas no tejidas,143-14
+703,Tejeduría de género de punto en máquinas de recogida,143-15
+704,Tejeduría de género de punto en máquinas de urdimbre,143-16
+705,Revisado y reparado de productos textiles. Géneros de punto,143-17
+706,Coordinación técnica de producción de géneros de punto,143-18
+707,Control de calidad de género de punto,143-19
+708,Preparado y blanqueado textil,143-20
+709,Estampado textil,143-21
+710,Teñido textil,143-22
+711,Acabados y aprestos,143-23
+712,Preparación de disoluciones,143-24
+713,Coordinación técnica de producción de ennoblecimiento textil,143-25
+714,Control de calidad de ennoblecimiento textil,143-26
+715,Confección de patrones y escalado,143-27
+716,Operación de máquinas de confección industrial,143-28
+717,Planchado,143-29
+718,Bordado y acolchado,143-30
+719,Revisión de productos textiles de confección,143-31
+720,Coordinación técnica de producción de confección,143-32
+721,Control de calidad de confección,143-33
+722,Curtición de pieles y cueros,143-34
+723,Acabado de cueros,143-35
+724,Control de procesos de curtición,143-36
+725,Confección de patrones de calzado,143-37
+726,"Cortado de cuero, ante y napa",143-38
+727,"Preparación y cosido de cuero, ante y napa",143-39
+728,Montado de calzado,143-40
+729,Terminado de calzado,143-41
+730,Confección de patrones de maroquinería y guantería,143-42
+731,Marroquinería industrial,143-43
+732,"Confección de patrones de peletería, ante y napa",143-44
+733,"Cortado, clavado y clasificado de peletería",143-45
+734,Operación de máquinas de peletería,143-46
+735,"Forrado y terminado de peletería, ante y napa",143-47
+736,"Otros procesos productivos- Industrias textiles, de la piel y el cuero",143-99
+737,Prospecciones y sondeos,144-01
+738,Preparación y conservación de galerías,144-02
+739,Arranque de carbón,144-03
+740,Transporte y extracción de mineral,144-04
+741,Electromecánica minera,144-05
+742,Extracción por sutiraje,144-06
+743,Aplicación de explosivos y arranque de minerales,144-07
+744,Minería de rocas para usos ornamentales,144-08
+745,Obtención y tratamiento de sal común,144-09
+746,Tratamiento y clasificación de rocas y minerales,144-10
+747,Beneficio de rocas para ornamentación,144-11
+748,Operación de coquización,144-12
+749,Sinterización de minerales de hierro,144-13
+750,Operación de horno alto,144-14
+751,Procesos de lixiviación y electrolisis,144-15
+752,Procesos de fusión y colada,144-16
+753,Obtención de alúmina y aluminio,144-17
+754,"Operación de hornos de tostación, calcinación y sinterización",144-18
+755,Otros procesos productivos- Minería y primeras transformaciones,144-99
+756,Piscicultura de criadero,145-01
+757,Piscicultura de engorde en aguas marinas,145-02
+758,Piscicultura en aguas continentales,145-03
+759,Reproducción y cultivo de larvas,145-04
+760,Estabulación de crustáceos (Cetareas),145-05
+761,Cultivo de crustáceos (Criadero y engorde),145-06
+762,Cultivo de moluscos en criadero,145-07
+763,Cultivo de moluscos en medio natural,145-08
+764,Reproducción de moluscos,145-09
+765,Marisqueo,145-10
+766,Cultivo de zooplancton,145-11
+767,Cultivo de fitoplancton,145-12
+768,Cultivo de macroalgas en medio natural,145-13
+769,Recolección de macroalgas,145-14
+770,Pesca de bajura,145-15
+771,Pesca de litoral,145-16
+772,Mecánica de pesca en litoral,145-17
+773,Pesca de altura y gran altura,145-18
+774,Mecánica de pesca en altura y gran altura,145-19
+775,Buceo profesional,145-20
+776,Otros procesos productivos-Pesca y acuicultura,145-99
+777,Aserrado  de madera,146-01
+778,Secado y tratamiento de madera,146-02
+779,Fabricación de chapa y tablero contrachapado,146-03
+780,Fabricación de laminados de madera,146-04
+781,Fabricación de tableros de partículas y de fibras,146-05
+782,Elaboración de proyectos de carpintería y mueble,146-06
+783,Despiece de madera y tableros,146-07
+784,Mecanizado de madera y tableros,146-08
+785,Armado y montaje de carpintería y mueble,146-09
+786,Barnizado-lacado,146-10
+787,Tapicería de muebles,146-11
+788,"Confección de muebles de caña, junco y mimbre",146-12
+789,Carpintería semi industrializada,146-13
+790,Carpintería de armar,146-14
+791,Carpintería de ribera,146-15
+792,Ebanistería semi industrializada,146-16
+793,Fabricación de toneles,146-17
+794,Preparación de corcho,146-18
+795,Fabricación de tapones,146-19
+796,Fabricación de artículos de corcho aglomerado,146-20
+797,Otros procesos productivos-Industrias de la madera y el corcho,146-99
+798,Cultivo de cereales y leguminosas de grano,147-01
+799,Cultivo de raíces y tubérculos,147-02
+800,Cultivo de plantas forrajeras y pratenses,147-03
+801,Cultivo de plantas industriales,147-04
+802,Fruticultura,147-05
+803,Viticultura,147-06
+804,Olivicultura,147-07
+805,Horticultura,147-08
+806,Producción de setas,147-09
+807,Producción de plantas hortícolas,147-10
+808,Manipulación de frutas y hortalizas,147-11
+809,Manipulación de tractores,147-12
+810,Manipulación de cosechadoras,147-13
+811,Producción agrícola- otros cultivos,147-99
+812,Explotación de ganado vacuno,148-01
+813,Explotación de ganado ovino-caprino,148-02
+814,Explotación de ganado equino,148-03
+815,Explotación extensiva de ganado porcino,148-04
+816,Explotación intensiva de ganado porcino,148-05
+817,Cunicultura,148-06
+818,Avicultura,148-07
+819,Apicultura,148-08
+820,Otros tipos de producción ganadera,148-99
+821,"Producción y realización de audiovisuales, radio y espectáculos en general",149-00
+822,"Producción de radio, cine, televisión, teatro y espectáculos",149-01
+823,"Realización de radio, cine, televisión, teatro y espectáculos",149-02
+824,Técnicas audiovisuales,149-03
+825,Infografía en medios audiovisuales,149-04
+826,Productividad en general,150-00
+827,Herramientas de medida de la productividad,150-01
+828,Diagnóstico clínico y radioterapia en general,151-00
+829,Técnicas de radiodiagnóstico,151-01
+830,Técnicas de medicina nuclear,151-02
+831,Técnicas de radioterapia,151-03
+832,Técnicas no radiológicas de diagnóstico clínico,151-04
+833,Otras técnicas de diagnóstico clínico,151-99
+834,Publicidad y comunicación externa de la empresa en general,152-00
+835,Relaciones Públicas y protocolo empresarial,152-01
+836,Recepción hotelera en general,153-00
+837,Redacción/Guión/locución-Información y manifestaciones artísticas en general,154-00
+838,"Técnicas de redacción, guión y periodismo",154-01
+839,Técnicas de locución y doblaje,154-02
+840,Reforma educativa de la LOGSE en general,155-00
+841,Salud laboral y enfermedades profesionales en general,157-00
+842,Seguridad de Instalaciones y dispositivos de alto riesgo en general,158-00
+843,Prevención de riesgos laborales en general,159-00
+844,Prevención de riesgos en la construcción,159-01
+845,Seguridad y vigilancia en general,160-00
+846,Seguridad privada,160-01
+847,Prevención de incendios,160-02
+848,Protección Civil,160-03
+849,Servicios Asistenciales en general,161-00
+850,Prevención de la marginación escolar y social,161-01
+851,Ayuda domiciliaria,161-02
+852,Servicios asistenciales a mayores: geriatría y gerocultura,161-03
+853,Peluquería,162-01
+854,Estilismo,162-02
+855,Manicura,162-03
+856,Estética,162-04
+857,Maquillaje,162-05
+858,Operación de cementerios,162-06
+859,Servicios funerarios,162-07
+860,Tanatología,162-08
+861,Atención al consumidor,162-09
+862,Servicio doméstico,162-10
+863,Otros Servicios Personales,162-99
+864,"Servicios Recreativos, Culturales y Deportivos en general",163-00
+865,Mantenimiento de bienes culturales,163-01
+866,Animación deportiva,163-02
+867,Masaje deportivo,163-03
+868,Monitoraje deportivo,163-04
+869,Animación socio- cultural,163-05
+870,Conservación de parques y jardines,163-06
+871,Operación de parques zoológicos,163-07
+872,Operación de centros de recreo,163-08
+873,"Otros servicios recreativos, culturales y deportivos",163-99
+874,Socorrismo y Primeros Auxilios en general,164-00
+875,Socorrismo acuático,164-01
+876,Primeros auxilios,164-02
+877,Soldadura en general,165-00
+878,Mantenimiento de estructuras metálicas,165-01
+879,Técnicas de soldadura de estructuras metálicas ligeras,165-02
+880,Técnicas de soldadura de estructuras metálicas pesadas,165-03
+881,Técnicas de soldadura de tuberías y recipientes de alta presión,165-04
+882,Homologación en Soldadura,165-05
+883,Soldadura especializada,165-06
+884,Soldadura eléctrica y oxigasística,165-07
+885,Supervisión de obra soldada,165-08
+886,Otras técnicas de soldadura,165-99
+887,Limpieza viaria,166-01
+888,Tratamiento y eliminación de residuos urbanos,166-02
+889,Depuración de aguas residuales,166-03
+890,Operación del mantenimiento  alcantarillado,166-04
+891,Supervisión del mantenimiento de alcantarillado,166-05
+892,Control de plagas,166-06
+893,Lavandería,166-07
+894,Tintorería,166-08
+895,Plancha,166-09
+896,Recepción de prendas para teñido y lavado,166-10
+897,Limpieza de inmuebles,166-11
+898,Otros servicios de limpieza y tratamiento de residuos urbanos,166-99
+899,Técnicas de venta y formación de vendedores en general,167-00
+900,Telecomunicaciones no informáticas en general,168-00
+901,Telemárketing / márketing telefónico,169-00
+902,Tratamiento de residuos (excepto residuos urbanos) en general,170-00
+903,Atención en ruta,171-01
+904,Animación turística,171-02
+905,Atención en congresos,171-03
+906,Información turística,171-04
+907,Desarrollo turístico,171-05
+908,Turismo rural,171-06
+909,Otros servicios turísticos especializados,171-99
+910,Tutorías y orientación en general,172-00
+911,Conocimiento y promoción de productos para farmacias en general,173-00
+912,Alemán,174-01
+913,Árabe,174-02
+914,Asturiano/bable,174-03
+915,Braille,174-04
+916,Castellano,174-05
+917,Catalán,174-06
+918,Chino,174-07
+919,Euskera,174-08
+920,Francés,174-09
+921,Gallego,174-10
+922,Griego,174-11
+923,Holandés,174-12
+924,Inglés,174-13
+925,Italiano,174-14
+926,Japonés,174-15
+927,Lenguaje de signos,174-16
+928,Portugués,174-17
+929,Ruso,174-18
+930,Sueco,174-19
+931,Valenciano,174-20
+932,Otros Idiomas no clasificables anteriormente,174-99

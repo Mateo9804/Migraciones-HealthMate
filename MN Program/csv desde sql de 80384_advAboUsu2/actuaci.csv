@@ -1,0 +1,324 @@
+﻿indice,Orden,descripcion,diasfechaact,confechaven,diasfechaven,confechaavi,diasfechaavi,autoimporte,importe,origenimporte,campo,tipocuenta,condcto,plantilladcto,dctoenaltas,conemail,plantillaemail,emailenaltas,codigo,conactuenlace,actuenlace,tipotarifa,unidad,Referencia,honogasto,dias,tipo,alertas,actuenaltas,concodopeemail,codopeemailenaltas,codopeemail,autoimportecuentas,tipoactu,codsubusu,notas,notas2,notas3,notas4,notas5,notas6,campo1,campo2,campo3,backcolor,tiempo,tiempoprevisto,publicar,agenda,campo4,campo5,campo6,campo7,campo8,campo9,campo10,campo11,campo12,campo13,campo14,campo15,campo16,campo17,campo18,campofecha1,campofecha2,campofecha3,campofecha4,campofecha5,campofecha6,campofecha7,campofecha8,campofecha9,campofecha10,campofecha11,campofecha12,conlink,link,conlinkaltas,incluirlineasel,titulolink,tipodocumentolink,linkcarpeta,actufacturada,alarma,indexal,concodopeemailword,emailwordenaltas,plantillaemailusu,RecConWordCli,RecPlantillaWordCli,IndexTimeRecWordCli,RecConUsu,IndexTimeRecUsu,RecConWordUsu,RecPlantillaWordUsu,IndexTimeRecWordUsu,InfConEmailCli,InfPlantillaEmailCli,InfEmailCorreoenaltas,InfIdPlantillaEmailCli,RecConSmsCli,id_plantillasms,IndexTimeRecSmsCli,aula,fcostemateriales,fcosteamortizacion,fcosteterceros,fcosteotros,fcampolibre6,fcampolibre7,fcampolibre8,fcampolibre9,fcampolibre10,aplicarcoste,preciocoste,itabClase,fcostetotalcoste,fcostetotalbeneficio,fcosteporbeneficio,precio,campo19,campo20,campo21,campo22,campo23,campo24,campo25,campo26,campo27,campofecha13,campofecha14,campofecha15,campofecha16,campofecha17,campofecha18,RecConSMSAbo,id_plantillaSMSAbo,IndexTimeRecSMSAbo,RecConWordAbo,RecPlantillaWordAbo,IndexTimeRecWordAbo,RecConSMSPro,id_plantillaSMSPro,IndexTimeRecSMSPro,RecConWordPro,RecPlantillaWordPro,IndexTimeRecWordPro,incluiractufechatipo,tipoplazoseg,RecConPlantillaCli,RecPlantillaCli,IndexTiempoRecordaCli,IndexIncluirRecordaCli,tipohistotr,emailCliRealizarActuacion,emailCliRealizarActuacionPlantillaID,infEmailUsu,infPlantillaEmailUsu,infEmailUsuRealizarActu,InfIdPlantillaEmailUsu,porComision,importeFijoComision,valorDefecto,idTipoResp,idTarifa,dpto,numActAviso,numDiasAviso,ctaiva,autoCoste,autoCosteImporte,favorito,citaonline,actuRealizada
+-1,0,CERRAR AGENDA,0,0,0,0,0,0,0.0000,0,,HONORARIO,0,,0,0,,0,2240,0,,0,1.0,,0,0,Actuación,0,1,0,,,0,-1,0,"{\rtf1\ansi\ansicpg1252\deff0\deflang3082{\fonttbl{\f0\fnil\fcharset0 Microsoft Sans Serif;}}
+\viewkind4\uc1\pard\f0\fs20\par
+}
+","{\rtf1\ansi\ansicpg1252\deff0\deflang3082{\fonttbl{\f0\fnil\fcharset0 Microsoft Sans Serif;}}
+\viewkind4\uc1\pard\f0\fs20\par
+}
+","{\rtf1\ansi\ansicpg1252\deff0\deflang3082{\fonttbl{\f0\fnil\fcharset0 Microsoft Sans Serif;}}
+\viewkind4\uc1\pard\f0\fs20\par
+}
+","{\rtf1\ansi\ansicpg1252\deff0\deflang3082{\fonttbl{\f0\fnil\fcharset0 Microsoft Sans Serif;}}
+\viewkind4\uc1\pard\f0\fs20\par
+}
+","{\rtf1\ansi\ansicpg1252\deff0\deflang3082{\fonttbl{\f0\fnil\fcharset0 Microsoft Sans Serif;}}
+\viewkind4\uc1\pard\f0\fs20\par
+}
+","{\rtf1\ansi\ansicpg1252\deff0\deflang3082{\fonttbl{\f0\fnil\fcharset0 Microsoft Sans Serif;}}
+\viewkind4\uc1\pard\f0\fs20\par
+}
+",,,,16033476.0000,0,0,0,0,,,,,,,,,,,,,,,,,,,,,,,,,,,,0,,1,0,,,0,1,0,0,0,,,,,,,,,,,0,,,,,,,,,,,,,,,,,,0.0000,-1,0.0000,0.0000,0.0000,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,0,,0,,,,,,,,,,,,,0,0.0000,,False,
+-1,0,DISPONIBILIDAD NACHO MARTINAEZ,0,0,0,0,0,0,0.0000,0,,HONORARIO,0,,0,0,,0,2245,0,,0,1.0,,0,0,Actuación,0,1,0,,,0,-1,0,"{\rtf1\ansi\ansicpg1252\deff0\deflang3082{\fonttbl{\f0\fnil\fcharset0 Microsoft Sans Serif;}}
+\viewkind4\uc1\pard\f0\fs20\par
+}
+","{\rtf1\ansi\ansicpg1252\deff0\deflang3082{\fonttbl{\f0\fnil\fcharset0 Microsoft Sans Serif;}}
+\viewkind4\uc1\pard\f0\fs20\par
+}
+","{\rtf1\ansi\ansicpg1252\deff0\deflang3082{\fonttbl{\f0\fnil\fcharset0 Microsoft Sans Serif;}}
+\viewkind4\uc1\pard\f0\fs20\par
+}
+","{\rtf1\ansi\ansicpg1252\deff0\deflang3082{\fonttbl{\f0\fnil\fcharset0 Microsoft Sans Serif;}}
+\viewkind4\uc1\pard\f0\fs20\par
+}
+","{\rtf1\ansi\ansicpg1252\deff0\deflang3082{\fonttbl{\f0\fnil\fcharset0 Microsoft Sans Serif;}}
+\viewkind4\uc1\pard\f0\fs20\par
+}
+","{\rtf1\ansi\ansicpg1252\deff0\deflang3082{\fonttbl{\f0\fnil\fcharset0 Microsoft Sans Serif;}}
+\viewkind4\uc1\pard\f0\fs20\par
+}
+",,,,16777215.0000,0,0,0,0,,,,,,,,,,,,,,,,,,,,,,,,,,,,0,,1,0,,,0,1,0,0,0,,,,,,,,,,,0,,,,,,,,,,,,,,,,,,0.0000,-1,0.0000,0.0000,0.0000,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,0,,0,,,,,,,,,,,,,0,0.0000,,False,
+-1,0,DIVINA PASTORA,0,0,0,0,0,1,0.0000,0,,HONORARIO,0,,0,0,,0,2231,0,,0,1.0,,0,0,Fisioterapia,0,1,0,,,0,-1,0,"{\rtf1\ansi\ansicpg1252\deff0\deflang3082{\fonttbl{\f0\fnil\fcharset0 Microsoft Sans Serif;}}
+\viewkind4\uc1\pard\f0\fs20\par
+}
+","{\rtf1\ansi\ansicpg1252\deff0\deflang3082{\fonttbl{\f0\fnil\fcharset0 Microsoft Sans Serif;}}
+\viewkind4\uc1\pard\f0\fs20\par
+}
+","{\rtf1\ansi\ansicpg1252\deff0\deflang3082{\fonttbl{\f0\fnil\fcharset0 Microsoft Sans Serif;}}
+\viewkind4\uc1\pard\f0\fs20\par
+}
+","{\rtf1\ansi\ansicpg1252\deff0\deflang3082{\fonttbl{\f0\fnil\fcharset0 Microsoft Sans Serif;}}
+\viewkind4\uc1\pard\f0\fs20\par
+}
+","{\rtf1\ansi\ansicpg1252\deff0\deflang3082{\fonttbl{\f0\fnil\fcharset0 Microsoft Sans Serif;}}
+\viewkind4\uc1\pard\f0\fs20\par
+}
+","{\rtf1\ansi\ansicpg1252\deff0\deflang3082{\fonttbl{\f0\fnil\fcharset0 Microsoft Sans Serif;}}
+\viewkind4\uc1\pard\f0\fs20\par
+}
+",,,,14982788.0000,1800,0,0,0,,,,,,,,,,,,,,,,,,,,,,,,,,,,0,,1,0,,,0,1,0,0,0,,,,,,,,,,,0,,,,,,,,,,,,,,,,,,0.0000,-1,0.0000,0.0000,0.0000,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,0,,0,,,,,,,,,,,,,0,0.0000,,False,
+-1,0,FISIOESTETICA GROUPON,0,0,0,0,0,0,0.0000,0,,HONORARIO,0,,0,0,,0,2247,0,,0,1.0,,0,0,Tratameintos,0,1,0,,,0,-1,1,"{\rtf1\ansi\ansicpg1252\deff0\deflang3082{\fonttbl{\f0\fnil\fcharset0 Microsoft Sans Serif;}}
+\viewkind4\uc1\pard\f0\fs20\par
+}
+","{\rtf1\ansi\ansicpg1252\deff0\deflang3082{\fonttbl{\f0\fnil\fcharset0 Microsoft Sans Serif;}}
+\viewkind4\uc1\pard\f0\fs20\par
+}
+","{\rtf1\ansi\ansicpg1252\deff0\deflang3082{\fonttbl{\f0\fnil\fcharset0 Microsoft Sans Serif;}}
+\viewkind4\uc1\pard\f0\fs20\par
+}
+","{\rtf1\ansi\ansicpg1252\deff0\deflang3082{\fonttbl{\f0\fnil\fcharset0 Microsoft Sans Serif;}}
+\viewkind4\uc1\pard\f0\fs20\par
+}
+","{\rtf1\ansi\ansicpg1252\deff0\deflang3082{\fonttbl{\f0\fnil\fcharset0 Microsoft Sans Serif;}}
+\viewkind4\uc1\pard\f0\fs20\par
+}
+","{\rtf1\ansi\ansicpg1252\deff0\deflang3082{\fonttbl{\f0\fnil\fcharset0 Microsoft Sans Serif;}}
+\viewkind4\uc1\pard\f0\fs20\par
+}
+",,,,12897956.0000,3600,0,0,0,,,,,,,,,,,,,,,,,,,,,,,,,,,,0,,1,0,,,0,1,0,0,0,,,,,,,,,,,0,,,,,,,,,,,,,,,,,,0.0000,-1,0.0000,0.0000,0.0000,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,0,,0,,,,,,,,,,,,,0,0.0000,,False,False
+-1,0,FISIOESTETICA NORMAL,0,0,0,0,0,1,0.0000,0,,HONORARIO,0,,0,0,,0,2246,0,,0,1.0,,0,0,Tratameintos,0,1,0,,,0,-1,1,"{\rtf1\ansi\ansicpg1252\deff0\deflang3082{\fonttbl{\f0\fnil\fcharset0 Microsoft Sans Serif;}}
+\viewkind4\uc1\pard\f0\fs20\par
+}
+","{\rtf1\ansi\ansicpg1252\deff0\deflang3082{\fonttbl{\f0\fnil\fcharset0 Microsoft Sans Serif;}}
+\viewkind4\uc1\pard\f0\fs20\par
+}
+","{\rtf1\ansi\ansicpg1252\deff0\deflang3082{\fonttbl{\f0\fnil\fcharset0 Microsoft Sans Serif;}}
+\viewkind4\uc1\pard\f0\fs20\par
+}
+","{\rtf1\ansi\ansicpg1252\deff0\deflang3082{\fonttbl{\f0\fnil\fcharset0 Microsoft Sans Serif;}}
+\viewkind4\uc1\pard\f0\fs20\par
+}
+","{\rtf1\ansi\ansicpg1252\deff0\deflang3082{\fonttbl{\f0\fnil\fcharset0 Microsoft Sans Serif;}}
+\viewkind4\uc1\pard\f0\fs20\par
+}
+","{\rtf1\ansi\ansicpg1252\deff0\deflang3082{\fonttbl{\f0\fnil\fcharset0 Microsoft Sans Serif;}}
+\viewkind4\uc1\pard\f0\fs20\par
+}
+",,,,16744703.0000,3600,0,0,0,,,,,,,,,,,,,,,,,,,,,,,,,,,,0,,1,0,,,0,1,0,0,0,,,,,,,,,,,0,,,,,,,,,,,,,,,,,,0.0000,-1,0.0000,0.0000,0.0000,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,0,,0,,,,,,,,,,,,,0,0.0000,,False,False
+-1,0,FISIOTERAPIA BONO NORMAL ,0,0,0,0,0,1,0.0000,0,,HONORARIO,0,,0,0,,0,2224,0,,0,1.0,,0,0,Actuación,0,1,0,,,0,-1,0,"{\rtf1\ansi\ansicpg1252\deff0\deflang3082{\fonttbl{\f0\fnil\fcharset0 Microsoft Sans Serif;}}
+\viewkind4\uc1\pard\f0\fs20\par
+}
+","{\rtf1\ansi\ansicpg1252\deff0\deflang3082{\fonttbl{\f0\fnil\fcharset0 Microsoft Sans Serif;}}
+\viewkind4\uc1\pard\f0\fs20\par
+}
+","{\rtf1\ansi\ansicpg1252\deff0\deflang3082{\fonttbl{\f0\fnil\fcharset0 Microsoft Sans Serif;}}
+\viewkind4\uc1\pard\f0\fs20\par
+}
+","{\rtf1\ansi\ansicpg1252\deff0\deflang3082{\fonttbl{\f0\fnil\fcharset0 Microsoft Sans Serif;}}
+\viewkind4\uc1\pard\f0\fs20\par
+}
+","{\rtf1\ansi\ansicpg1252\deff0\deflang3082{\fonttbl{\f0\fnil\fcharset0 Microsoft Sans Serif;}}
+\viewkind4\uc1\pard\f0\fs20\par
+}
+","{\rtf1\ansi\ansicpg1252\deff0\deflang3082{\fonttbl{\f0\fnil\fcharset0 Microsoft Sans Serif;}}
+\viewkind4\uc1\pard\f0\fs20\par
+}
+",,,,65280.0000,3600,0,0,0,,,,,,,,,,,,,,,,,,,,,,,,,,,,0,,1,0,,,0,1,0,0,0,,,,,,,,,,,0,,,,,,,,,,,,,,,,,,0.0000,-1,0.0000,0.0000,0.0000,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,0,,0,,,,,,,,,,,,,0,0.0000,,False,
+-1,0,FISIOTERAPIA CON BONO DE 45MIN,0,0,0,0,0,1,0.0000,0,,HONORARIO,0,,0,0,,0,2223,0,,0,1.0,,0,0,Actuación,0,1,0,,,0,-1,0,"{\rtf1\ansi\ansicpg1252\deff0\deflang3082{\fonttbl{\f0\fnil\fcharset0 Microsoft Sans Serif;}}
+\viewkind4\uc1\pard\f0\fs20\par
+}
+","{\rtf1\ansi\ansicpg1252\deff0\deflang3082{\fonttbl{\f0\fnil\fcharset0 Microsoft Sans Serif;}}
+\viewkind4\uc1\pard\f0\fs20\par
+}
+","{\rtf1\ansi\ansicpg1252\deff0\deflang3082{\fonttbl{\f0\fnil\fcharset0 Microsoft Sans Serif;}}
+\viewkind4\uc1\pard\f0\fs20\par
+}
+","{\rtf1\ansi\ansicpg1252\deff0\deflang3082{\fonttbl{\f0\fnil\fcharset0 Microsoft Sans Serif;}}
+\viewkind4\uc1\pard\f0\fs20\par
+}
+","{\rtf1\ansi\ansicpg1252\deff0\deflang3082{\fonttbl{\f0\fnil\fcharset0 Microsoft Sans Serif;}}
+\viewkind4\uc1\pard\f0\fs20\par
+}
+","{\rtf1\ansi\ansicpg1252\deff0\deflang3082{\fonttbl{\f0\fnil\fcharset0 Microsoft Sans Serif;}}
+\viewkind4\uc1\pard\f0\fs20\par
+}
+",,,,16711680.0000,2700,0,0,0,,,,,,,,,,,,,,,,,,,,,,,,,,,,0,,1,0,,,0,1,0,0,0,,,,,,,,,,,0,,,,,,,,,,,,,,,,,,0.0000,-1,0.0000,0.0000,0.0000,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,0,,0,,,,,,,,,,,,,0,0.0000,,False,
+-1,0,GROUPON ,0,0,0,0,0,1,0.0000,0,,HONORARIO,0,,0,0,,0,2239,0,,0,1.0,,0,0,Fisioterapia,0,1,0,,,0,-1,0,"{\rtf1\ansi\ansicpg1252\deff0\deflang3082{\fonttbl{\f0\fnil\fcharset0 Microsoft Sans Serif;}}
+\viewkind4\uc1\pard\f0\fs20\par
+}
+","{\rtf1\ansi\ansicpg1252\deff0\deflang3082{\fonttbl{\f0\fnil\fcharset0 Microsoft Sans Serif;}}
+\viewkind4\uc1\pard\f0\fs20\par
+}
+","{\rtf1\ansi\ansicpg1252\deff0\deflang3082{\fonttbl{\f0\fnil\fcharset0 Microsoft Sans Serif;}}
+\viewkind4\uc1\pard\f0\fs20\par
+}
+","{\rtf1\ansi\ansicpg1252\deff0\deflang3082{\fonttbl{\f0\fnil\fcharset0 Microsoft Sans Serif;}}
+\viewkind4\uc1\pard\f0\fs20\par
+}
+","{\rtf1\ansi\ansicpg1252\deff0\deflang3082{\fonttbl{\f0\fnil\fcharset0 Microsoft Sans Serif;}}
+\viewkind4\uc1\pard\f0\fs20\par
+}
+","{\rtf1\ansi\ansicpg1252\deff0\deflang3082{\fonttbl{\f0\fnil\fcharset0 Microsoft Sans Serif;}}
+\viewkind4\uc1\pard\f0\fs20\par
+}
+",,,,6610596.0000,1800,0,0,0,,,,,,,,,,,,,,,,,,,,,,,,,,,,0,,1,0,,,0,1,0,0,0,,,,,,,,,,,0,,,,,,,,,,,,,,,,,,0.0000,-1,0.0000,0.0000,0.0000,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,0,,0,,,,,,,,,,,,,0,0.0000,,False,
+-1,0,INDIBA,0,0,0,0,0,0,0.0000,0,,HONORARIO,0,,0,0,,0,2244,0,,0,1.0,,0,0,Actuación,0,1,0,,,0,-1,0,"{\rtf1\ansi\ansicpg1252\deff0\deflang3082{\fonttbl{\f0\fnil\fcharset0 Microsoft Sans Serif;}}
+\viewkind4\uc1\pard\f0\fs20\par
+}
+","{\rtf1\ansi\ansicpg1252\deff0\deflang3082{\fonttbl{\f0\fnil\fcharset0 Microsoft Sans Serif;}}
+\viewkind4\uc1\pard\f0\fs20\par
+}
+","{\rtf1\ansi\ansicpg1252\deff0\deflang3082{\fonttbl{\f0\fnil\fcharset0 Microsoft Sans Serif;}}
+\viewkind4\uc1\pard\f0\fs20\par
+}
+","{\rtf1\ansi\ansicpg1252\deff0\deflang3082{\fonttbl{\f0\fnil\fcharset0 Microsoft Sans Serif;}}
+\viewkind4\uc1\pard\f0\fs20\par
+}
+","{\rtf1\ansi\ansicpg1252\deff0\deflang3082{\fonttbl{\f0\fnil\fcharset0 Microsoft Sans Serif;}}
+\viewkind4\uc1\pard\f0\fs20\par
+}
+","{\rtf1\ansi\ansicpg1252\deff0\deflang3082{\fonttbl{\f0\fnil\fcharset0 Microsoft Sans Serif;}}
+\viewkind4\uc1\pard\f0\fs20\par
+}
+",,,,16744703.0000,1800,0,0,0,,,,,,,,,,,,,,,,,,,,,,,,,,,,0,,1,0,,,0,1,0,0,0,,,,,,,,,,,0,,,,,,,,,,,,,,,,,,0.0000,-1,0.0000,0.0000,0.0000,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,0,,0,,,,,,,,,,,,,0,0.0000,,False,
+-1,0,MAPFRE,0,0,0,0,0,0,0.0000,0,,HONORARIO,0,,0,0,,0,2243,0,,0,1.0,,0,0,Actuación,0,1,0,,,0,-1,0,"{\rtf1\ansi\ansicpg1252\deff0\deflang3082{\fonttbl{\f0\fnil\fcharset0 Microsoft Sans Serif;}}
+\viewkind4\uc1\pard\f0\fs20\par
+}
+","{\rtf1\ansi\ansicpg1252\deff0\deflang3082{\fonttbl{\f0\fnil\fcharset0 Microsoft Sans Serif;}}
+\viewkind4\uc1\pard\f0\fs20\par
+}
+","{\rtf1\ansi\ansicpg1252\deff0\deflang3082{\fonttbl{\f0\fnil\fcharset0 Microsoft Sans Serif;}}
+\viewkind4\uc1\pard\f0\fs20\par
+}
+","{\rtf1\ansi\ansicpg1252\deff0\deflang3082{\fonttbl{\f0\fnil\fcharset0 Microsoft Sans Serif;}}
+\viewkind4\uc1\pard\f0\fs20\par
+}
+","{\rtf1\ansi\ansicpg1252\deff0\deflang3082{\fonttbl{\f0\fnil\fcharset0 Microsoft Sans Serif;}}
+\viewkind4\uc1\pard\f0\fs20\par
+}
+","{\rtf1\ansi\ansicpg1252\deff0\deflang3082{\fonttbl{\f0\fnil\fcharset0 Microsoft Sans Serif;}}
+\viewkind4\uc1\pard\f0\fs20\par
+}
+",,,,255.0000,1800,0,0,0,,,,,,,,,,,,,,,,,,,,,,,,,,,,0,,1,0,,,0,1,0,0,0,,,,,,,,,,,0,,,,,,,,,,,,,,,,,,0.0000,-1,0.0000,0.0000,0.0000,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,0,,0,,,,,,,,,,,,,0,0.0000,,False,
+-1,0,MAQUINARIA ,0,0,0,0,0,0,0.0000,0,,HONORARIO,0,,0,0,,0,2232,0,,0,1.0,,0,0,Fisioterapia,0,1,0,,,0,-1,1,"{\rtf1\ansi\ansicpg1252\deff0\deflang3082{\fonttbl{\f0\fnil\fcharset0 Microsoft Sans Serif;}}
+\viewkind4\uc1\pard\f0\fs20\par
+}
+","{\rtf1\ansi\ansicpg1252\deff0\deflang3082{\fonttbl{\f0\fnil\fcharset0 Microsoft Sans Serif;}}
+\viewkind4\uc1\pard\f0\fs20\par
+}
+","{\rtf1\ansi\ansicpg1252\deff0\deflang3082{\fonttbl{\f0\fnil\fcharset0 Microsoft Sans Serif;}}
+\viewkind4\uc1\pard\f0\fs20\par
+}
+","{\rtf1\ansi\ansicpg1252\deff0\deflang3082{\fonttbl{\f0\fnil\fcharset0 Microsoft Sans Serif;}}
+\viewkind4\uc1\pard\f0\fs20\par
+}
+","{\rtf1\ansi\ansicpg1252\deff0\deflang3082{\fonttbl{\f0\fnil\fcharset0 Microsoft Sans Serif;}}
+\viewkind4\uc1\pard\f0\fs20\par
+}
+","{\rtf1\ansi\ansicpg1252\deff0\deflang3082{\fonttbl{\f0\fnil\fcharset0 Microsoft Sans Serif;}}
+\viewkind4\uc1\pard\f0\fs20\par
+}
+",,,,8703700.0000,1800,0,0,0,,,,,,,,,,,,,,,,,,,,,,,,,,,,0,,1,0,,,0,1,0,0,0,,,,,,,,,,,0,,,,,,,,,,,,,,,,,,0.0000,-1,0.0000,0.0000,0.0000,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,0,,0,,,,,,,,,,,,,0,0.0000,,False,
+-1,0,PILATES,0,0,0,0,0,0,0.0000,0,,HONORARIO,0,,0,0,,0,2228,0,,0,1.0,,0,0,Actuación,0,1,0,,,0,-1,4,"{\rtf1\ansi\ansicpg1252\deff0\deflang3082{\fonttbl{\f0\fnil\fcharset0 Microsoft Sans Serif;}}
+\viewkind4\uc1\pard\f0\fs20\par
+}
+","{\rtf1\ansi\ansicpg1252\deff0\deflang3082{\fonttbl{\f0\fnil\fcharset0 Microsoft Sans Serif;}}
+\viewkind4\uc1\pard\f0\fs20\par
+}
+","{\rtf1\ansi\ansicpg1252\deff0\deflang3082{\fonttbl{\f0\fnil\fcharset0 Microsoft Sans Serif;}}
+\viewkind4\uc1\pard\f0\fs20\par
+}
+","{\rtf1\ansi\ansicpg1252\deff0\deflang3082{\fonttbl{\f0\fnil\fcharset0 Microsoft Sans Serif;}}
+\viewkind4\uc1\pard\f0\fs20\par
+}
+","{\rtf1\ansi\ansicpg1252\deff0\deflang3082{\fonttbl{\f0\fnil\fcharset0 Microsoft Sans Serif;}}
+\viewkind4\uc1\pard\f0\fs20\par
+}
+","{\rtf1\ansi\ansicpg1252\deff0\deflang3082{\fonttbl{\f0\fnil\fcharset0 Microsoft Sans Serif;}}
+\viewkind4\uc1\pard\f0\fs20\par
+}
+",,,,4194368.0000,0,0,0,0,,,,,,,,,,,,,,,,,,,,,,,,,,,,0,,1,0,,,0,1,0,0,0,,,,,,,,,,,0,,,,,,,,,,,,,,,,,,0.0000,-1,0.0000,0.0000,0.0000,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,0,,0,,,,,,,,,,,,,0,0.0000,,False,
+-1,0,PODO GROUPON,0,0,0,0,0,1,0.0000,0,,HONORARIO,0,,0,0,,0,2241,0,,0,1.0,,0,0,Actuación,0,1,0,,,0,-1,0,"{\rtf1\ansi\ansicpg1252\deff0\deflang3082{\fonttbl{\f0\fnil\fcharset0 Microsoft Sans Serif;}}
+\viewkind4\uc1\pard\f0\fs20\par
+}
+","{\rtf1\ansi\ansicpg1252\deff0\deflang3082{\fonttbl{\f0\fnil\fcharset0 Microsoft Sans Serif;}}
+\viewkind4\uc1\pard\f0\fs20\par
+}
+","{\rtf1\ansi\ansicpg1252\deff0\deflang3082{\fonttbl{\f0\fnil\fcharset0 Microsoft Sans Serif;}}
+\viewkind4\uc1\pard\f0\fs20\par
+}
+","{\rtf1\ansi\ansicpg1252\deff0\deflang3082{\fonttbl{\f0\fnil\fcharset0 Microsoft Sans Serif;}}
+\viewkind4\uc1\pard\f0\fs20\par
+}
+","{\rtf1\ansi\ansicpg1252\deff0\deflang3082{\fonttbl{\f0\fnil\fcharset0 Microsoft Sans Serif;}}
+\viewkind4\uc1\pard\f0\fs20\par
+}
+","{\rtf1\ansi\ansicpg1252\deff0\deflang3082{\fonttbl{\f0\fnil\fcharset0 Microsoft Sans Serif;}}
+\viewkind4\uc1\pard\f0\fs20\par
+}
+",,,,6610596.0000,1800,0,0,0,,,,,,,,,,,,,,,,,,,,,,,,,,,,0,,1,0,,,0,1,0,0,0,,,,,,,,,,,0,,,,,,,,,,,,,,,,,,0.0000,-1,0.0000,0.0000,0.0000,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,0,,0,,,,,,,,,,,,,0,0.0000,,False,
+-1,0,PODOLOGIA ,0,0,0,0,0,1,0.0000,0,,HONORARIO,0,,0,0,,0,2229,0,,0,1.0,,0,0,Cita,0,1,0,,,0,-1,6,"{\rtf1\ansi\ansicpg1252\deff0\deflang3082{\fonttbl{\f0\fnil\fcharset0 Microsoft Sans Serif;}}
+\viewkind4\uc1\pard\f0\fs20\par
+}
+","{\rtf1\ansi\ansicpg1252\deff0\deflang3082{\fonttbl{\f0\fnil\fcharset0 Microsoft Sans Serif;}}
+\viewkind4\uc1\pard\f0\fs20\par
+}
+","{\rtf1\ansi\ansicpg1252\deff0\deflang3082{\fonttbl{\f0\fnil\fcharset0 Microsoft Sans Serif;}}
+\viewkind4\uc1\pard\f0\fs20\par
+}
+","{\rtf1\ansi\ansicpg1252\deff0\deflang3082{\fonttbl{\f0\fnil\fcharset0 Microsoft Sans Serif;}}
+\viewkind4\uc1\pard\f0\fs20\par
+}
+","{\rtf1\ansi\ansicpg1252\deff0\deflang3082{\fonttbl{\f0\fnil\fcharset0 Microsoft Sans Serif;}}
+\viewkind4\uc1\pard\f0\fs20\par
+}
+","{\rtf1\ansi\ansicpg1252\deff0\deflang3082{\fonttbl{\f0\fnil\fcharset0 Microsoft Sans Serif;}}
+\viewkind4\uc1\pard\f0\fs20\par
+}
+",,,,8689404.0000,1800,0,0,0,,,,,,,,,,,,,,,,,,,,,,,,,,,,0,,1,0,,,0,1,0,0,0,,,,,,,,,,,0,,,,,,,,,,,,,,,,,,0.0000,-1,0.0000,0.0000,0.0000,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,0,,0,,,,,,,,,,,,,0,0.0000,,False,
+-1,0,PRIMERA VISITA,0,0,0,0,0,1,0.0000,0,,HONORARIO,0,,0,0,,0,2242,0,,0,1.0,,0,0,Actuación,0,1,0,,,0,-1,0,"{\rtf1\ansi\ansicpg1252\deff0\deflang3082{\fonttbl{\f0\fnil\fcharset0 Microsoft Sans Serif;}}
+\viewkind4\uc1\pard\f0\fs20\par
+}
+","{\rtf1\ansi\ansicpg1252\deff0\deflang3082{\fonttbl{\f0\fnil\fcharset0 Microsoft Sans Serif;}}
+\viewkind4\uc1\pard\f0\fs20\par
+}
+","{\rtf1\ansi\ansicpg1252\deff0\deflang3082{\fonttbl{\f0\fnil\fcharset0 Microsoft Sans Serif;}}
+\viewkind4\uc1\pard\f0\fs20\par
+}
+","{\rtf1\ansi\ansicpg1252\deff0\deflang3082{\fonttbl{\f0\fnil\fcharset0 Microsoft Sans Serif;}}
+\viewkind4\uc1\pard\f0\fs20\par
+}
+","{\rtf1\ansi\ansicpg1252\deff0\deflang3082{\fonttbl{\f0\fnil\fcharset0 Microsoft Sans Serif;}}
+\viewkind4\uc1\pard\f0\fs20\par
+}
+","{\rtf1\ansi\ansicpg1252\deff0\deflang3082{\fonttbl{\f0\fnil\fcharset0 Microsoft Sans Serif;}}
+\viewkind4\uc1\pard\f0\fs20\par
+}
+",,,,255.0000,3600,0,0,0,,,,,,,,,,,,,,,,,,,,,,,,,,,,0,,1,0,,,0,1,0,0,0,,,,,,,,,,,0,,,,,,,,,,,,,,,,,,0.0000,-1,0.0000,0.0000,0.0000,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,0,,0,,,,,,,,,,,,,0,0.0000,,False,
+-1,0,REHABILITACION MUTUA 30,0,0,0,0,0,0,0.0000,0,,HONORARIO,0,,0,0,,0,2237,0,,0,1.0,,0,0,Rehabilitacion,0,1,0,,,0,-1,1,"{\rtf1\ansi\ansicpg1252\deff0\deflang3082{\fonttbl{\f0\fnil\fcharset0 Microsoft Sans Serif;}}
+\viewkind4\uc1\pard\f0\fs20\par
+}
+","{\rtf1\ansi\ansicpg1252\deff0\deflang3082{\fonttbl{\f0\fnil\fcharset0 Microsoft Sans Serif;}}
+\viewkind4\uc1\pard\f0\fs20\par
+}
+","{\rtf1\ansi\ansicpg1252\deff0\deflang3082{\fonttbl{\f0\fnil\fcharset0 Microsoft Sans Serif;}}
+\viewkind4\uc1\pard\f0\fs20\par
+}
+","{\rtf1\ansi\ansicpg1252\deff0\deflang3082{\fonttbl{\f0\fnil\fcharset0 Microsoft Sans Serif;}}
+\viewkind4\uc1\pard\f0\fs20\par
+}
+","{\rtf1\ansi\ansicpg1252\deff0\deflang3082{\fonttbl{\f0\fnil\fcharset0 Microsoft Sans Serif;}}
+\viewkind4\uc1\pard\f0\fs20\par
+}
+","{\rtf1\ansi\ansicpg1252\deff0\deflang3082{\fonttbl{\f0\fnil\fcharset0 Microsoft Sans Serif;}}
+\viewkind4\uc1\pard\f0\fs20\par
+}
+",,,,16777215.0000,1800,0,0,0,,,,,,,,,,,,,,,,,,,,,,,,,,,,0,,1,0,,,0,1,0,0,0,,,,,,,,,,,0,,,,,,,,,,,,,,,,,,0.0000,-1,0.0000,0.0000,0.0000,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,0,,0,,,,,,,,,,,,,0,0.0000,,False,
+-1,0,SESION NORMAL,0,0,0,0,0,0,0.0000,0,,HONORARIO,0,,0,0,,0,2230,0,,0,1.0,,0,0,Fisioterapia,0,1,0,,,0,-1,0,"{\rtf1\ansi\ansicpg1252\deff0\deflang3082{\fonttbl{\f0\fnil\fcharset0 Microsoft Sans Serif;}}
+\viewkind4\uc1\pard\f0\fs20\par
+}
+","{\rtf1\ansi\ansicpg1252\deff0\deflang3082{\fonttbl{\f0\fnil\fcharset0 Microsoft Sans Serif;}}
+\viewkind4\uc1\pard\f0\fs20\par
+}
+","{\rtf1\ansi\ansicpg1252\deff0\deflang3082{\fonttbl{\f0\fnil\fcharset0 Microsoft Sans Serif;}}
+\viewkind4\uc1\pard\f0\fs20\par
+}
+","{\rtf1\ansi\ansicpg1252\deff0\deflang3082{\fonttbl{\f0\fnil\fcharset0 Microsoft Sans Serif;}}
+\viewkind4\uc1\pard\f0\fs20\par
+}
+","{\rtf1\ansi\ansicpg1252\deff0\deflang3082{\fonttbl{\f0\fnil\fcharset0 Microsoft Sans Serif;}}
+\viewkind4\uc1\pard\f0\fs20\par
+}
+","{\rtf1\ansi\ansicpg1252\deff0\deflang3082{\fonttbl{\f0\fnil\fcharset0 Microsoft Sans Serif;}}
+\viewkind4\uc1\pard\f0\fs20\par
+}
+",,,,7661308.0000,0,0,0,0,,,,,,,,,,,,,,,,,,,,,,,,,,,,0,,1,0,,,0,1,0,0,0,,,,,,,,,,,0,,,,,,,,,,,,,,,,,,0.0000,-1,0.0000,0.0000,0.0000,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,0,,0,,,,,,,,,,,,,0,0.0000,,False,

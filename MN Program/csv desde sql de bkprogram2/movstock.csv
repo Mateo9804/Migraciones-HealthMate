@@ -1,0 +1,5 @@
+﻿idarticulo,fecha,linea,tipo,unidades,precioUni,numfactura,yearfact,codsubusufact,OrFactProf,serie,cliprov,idfactrecib,idalmacen,fechacaducidad,lote,idlineafactrecib,idkit,idlinekit,idkitfabric,idlinekitfabric,itipokit,idlineprevcobros,idCajaMan,idTraspasoAlmLin,icodcliact,dfechaact,ilineaact,istockMed,idAlumMaterial,iunidkits,dfechaentrega,IdenMatKit,idsegclider,icodclioporcuen,dfechaoporcuen,lineaoporcuen,notas,origen,idTraspasoAlmacen,lineaTraspaso,dctolinea,dcto
+1,2013-04-11 00:00:00,2,Salida,3.0,65.0000,6,2013,2,1,,13,,1,,,,,,,,,,,,,,,,,,,,,,,,,,,,,
+1,2013-04-11 00:00:00,3,Salida,3.0,65.0000,1,2013,2,1,V,13,,1,,,,,,,,,,,,,,,,,,,,,,,,,,,,10.0000,0.0000
+1,2013-04-11 00:00:00,4,Entrada,2.0,65.0000,6,2013,0,0,,38,10,1,,,,,,,,,,,,,,,,,,,,,,,,,,,,,
+2,2013-04-11 00:00:00,2,Entrada,3.0,45.0000,6,2013,0,0,,38,10,1,,,,,,,,,,,,,,,,,,,,,,,,,,,,,

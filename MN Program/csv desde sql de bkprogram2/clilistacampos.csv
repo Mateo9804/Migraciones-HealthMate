@@ -1,0 +1,13 @@
+﻿id,campo,tipobd,etiqueta,visible
+1,LblComboMultSelec1,0,Campo Libre Selección Múltiple 1,0
+2,LblComboMultSelec2,0,Campo Libre Selección Múltiple 2,0
+3,LblComboMultSelec3,0,Campo Libre Selección Múltiple 3,0
+4,LblComboMultSelec1,2,Campo Libre Selección Múltiple 1,0
+5,LblComboMultSelec2,2,Campo Libre Selección Múltiple 2,0
+6,LblComboMultSelec3,2,Campo Libre Selección Múltiple 3,0
+7,LblComboMultSelec1,3,Campo Libre Selección Múltiple 1,0
+8,LblComboMultSelec2,3,Campo Libre Selección Múltiple 2,0
+9,LblComboMultSelec3,3,Campo Libre Selección Múltiple 3,0
+10,LblComboMultSelec1,4,Campo Libre Selección Múltiple 1,0
+11,LblComboMultSelec2,4,Campo Libre Selección Múltiple 2,0
+12,LblComboMultSelec3,4,Campo Libre Selección Múltiple 3,0

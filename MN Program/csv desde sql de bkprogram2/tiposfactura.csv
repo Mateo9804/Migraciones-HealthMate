@@ -1,0 +1,7 @@
+﻿id,codigo,descripcion,motivo
+1,F1,Factura,
+2,R1,Factura rectificativa (R1),"Error fundado en derecho y Art. 80 Uno, Dos y Seis LIVA (R1)"
+3,R2,Factura rectificativa (R2),Art 80 Tres LIVA - concurso (R2)
+4,R3,Factura rectificativa (R3),Art 80 Cuatro LIVA - deuda incobrable (R3)
+5,R4,Factura rectificativa (R4),Resto (R4)
+6,R5,Factura rectificativa (R5),Factura rectificativa simplificada (R5)

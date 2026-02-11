@@ -1,0 +1,914 @@
+﻿id,nombre,texto,accion,campoVisualizacion,usarEtiquetasIni,idPadre,esConfiguracion,icono,orden,campoPermiso,tipoAcceso
+1,Bases de Datos,Bases de Datos,,,0,0,0,basesdatos_16x16,0,,
+2,Potenciales,func:EtiqPotenciales|true,AbrirModulo|29,bverpotenciales,1,1,0,,20,clipotenper,
+3,Clientes,EtiqClientesProp,AbrirModulo|30,bVerBaseDatosClientes,1,1,0,,30,,
+4,Alumnos,EtiqAlumnosProp,AbrirModulo|38,bveralumno,1,1,0,,40,,
+5,Pacientes,Pacientes,AbrirModulo|37,bverpaciente,0,1,0,,50,,
+6,Expedientes,EtiqExpedientesProp,,bVerExpedientes[AND]!bTipoExpMenuPrincipal,1,0,0,expedientes_16x16,10,ExpPer,
+7,Trabajadores,Trabajadores,AbrirModulo|40,bvertrabajador,0,1,0,,70,,
+8,Terceros,EtiqTercerosProp,AbrirModulo|41,bVerTerceros,1,1,0,,80,permisoAccion:VerListadoTerceros,
+9,Proveedores,Proveedores,AbrirModulo|34,bverproveedor,0,1,0,,90,!bOcultarBDProveedor,
+10,Aseguradoras,Aseguradoras,AbrirModulo|42,bvermutua,0,1,0,,100,,
+11,Mascotas,EtiqMascotasProp,AbrirModulo|46,bvermascota,1,1,0,,110,,
+12,Compañías,Compañías,AbrirModulo|43,bvercompania,0,1,0,,120,,
+13,Voluntarios,Voluntarios,AbrirModulo|44,bvervoluntarios,0,1,0,,130,,
+14,Financiadores,Financiadores,AbrirModulo|45,bVerFinancieras,0,1,0,,140,,
+15,Tercera Edad,Tercera Edad,AbrirDelphi|22,bverterceraedad,0,1,0,,150,,
+16,Ficheros,Ficheros,,TieneFicherosActivados,0,1,0,,170,,
+17,Contactos,TituloFormCorConPral,AbrirTipoFichero|7,bverficconta,1,16,0,,10,,
+18,Contrarios,ContrarioTituloPlural,AbrirTipoFichero|1,bverficcont,1,16,0,,20,,
+19,Abogados,AbogadoTituloPlural,AbrirTipoFichero|2,bverficabog,1,16,0,,30,,
+20,Procuradores,ProcuradorTituloPlural,AbrirTipoFichero|3,bverficproc,1,16,0,,40,,
+21,Juzgados,JuzgadoTituloPlural,AbrirTipoFichero|4,bverficjuzga,1,16,0,,50,,
+22,Poderes,Poderes,AbrirTipoFichero|6,bverficpode,5,16,0,,60,,
+23,Colaboradores,TituloFormColPral,AbrirTipoFichero|0,bverficcolab,1,16,0,,80,,
+24,Organismos,Organismos,AbrirTipoFichero|10,bverficorg,0,16,0,,90,,
+25,Inmuebles,Inmuebles,AbrirTipoFichero|21,bverficper1,5,16,0,,170,,
+26,Notarías,Notarías,AbrirTipoFichero|8,bverficper2,5,16,0,,110,,
+27,Promotoras,Promotoras,AbrirDelphi|23,bverficper3,5,16,0,,120,,
+28,Vehículos,Vehículos,AbrirTipoFichero|1002,bverficper4,5,16,0,,180,,
+29,Agencias Inmobiliarias,Inmobiliarias,AbrirTipoFichero|22,bverficper5,5,16,0,,130,,
+30,Constructoras,Constructoras,AbrirDelphi|24,bverficper6,5,16,0,,140,,
+31,Fichero Libre,FicheroLibre,AbrirTipoFichero|19,bverficper7,5,16,0,,190,,
+32,Fichero Libre 1,FicheroLibre1,AbrirTipoFichero|16,bverficper8,5,16,0,,200,,
+33,Fichero Libre 2,FicheroLibre2,AbrirTipoFichero|17,bverficper9,5,16,0,,210,,
+34,Fichero Libre 3,FicheroLibre3,AbrirTipoFichero|18,bverficper10,5,16,0,,220,,
+35,Peritos,Peritos,AbrirTipoFichero|5,bverficperit,5,16,0,,100,,
+36,Talleres,Talleres,AbrirTipoFichero|20,bverfictalle,0,16,0,,150,,
+37,Asegurados,Asegurados,AbrirTipoFichero|15,bverasegurados,5,16,0,,160,,
+38,Colitigantes,Colitigantes,AbrirTipoFichero|14,bverficcolit,5,16,0,,70,,
+39,Agenda,Agenda,,bVerNuevaAgenda,0,0,0,agenda_16x16,50,,
+41,Sincronización Agenda,Sincronización Agenda,,bVerSincAgenda,0,39,0,,30,,
+42,Office 365/Outlook,Office 365/Outlook,AbrirTipoFichero|1074,,0,41,0,,10,,
+43,Google Calendar,Google Calendar,AbrirTipoFichero|1066,,0,41,0,,20,,
+44,Correo,Correo,AbrirEjecutable|Correo.exe,bMostrarCorreo,0,624,0,,10,,
+45,Cuentas de Correo ,Cuentas de Correo ,AbrirTipoFichero|1077,bMostrarCorreo[OR]esFreemium,0,44,1,,10,,
+46,Firmas,Firmas,AbrirTipoFichero|1078,bMostrarCorreo[OR]esFreemium,0,44,1,,20,,
+47,Adjuntos,Gestor Documental,,,0,0,0,adjuntos_16x16_2,40,,
+48,Carpeta de Almacenamiento,Carpeta de Almacenamiento,"AbrirEjecutable|ConfigGenerales.exe,ConfigCarpetaAlmacenamiento",bvervisordocumental,0,47,1,,10,,
+50,Control de Adjuntos,Control de Adjuntos,AbrirTipoFichero|992,bverControlAdjuntos,0,47,0,,30,,
+51,Documentación Interna,Documentación Interna,AbrirEjecutable|DocumentacionInterna.exe,bverdocuminterna,0,47,0,,40,,
+52,Facturación Emitida,Facturación Emitida,,bVerFacturacion,0,351,0,,20,,
+53,Facturas,Facturas,AbrirModulo|21,bVerFacturacion,0,52,0,,10,FactPerEmitida,
+56,Proformas,Proformas,AbrirModulo|24,bVerFacturacion[AND]True[AND]bverproforma,0,52,0,,20,FactPerEmitida,
+59,Presupuestos,Presupuestos,AbrirModulo|27,bVerFacturacion[AND]True[AND]bverPresupuesto,0,52,0,,30,FactPerEmitida,
+62,Albaranes,Albaranes,AbrirModulo|25,bVerFacturacion[AND]True[AND]FactPerEmitida|1[AND]bverAlbaran,0,52,0,,40,FactPerEmitida,
+65,Pedidos,Pedidos,AbrirModulo|26,bVerFacturacion[AND]True[AND]FactPerEmitida|1[AND]bverPedido,0,52,0,,50,FactPerEmitida,
+68,Control de Cuentas,Control de Cuentas,AbrirModulo|2,vermodcuentas,0,52,0,,80,bcontrolcuentas[AND]FactPerEmitida,
+69,Cobros,Cobros,AbrirModulo|5,bVerFacturacion[AND]True,0,352,0,,10,CobrosPer,
+70,Plantilla Impresión Cobro,Plantilla Impresión Cobro,"AbrirEjecutable|ConfigGenerales.exe,PlantillasCobros",bVerFacturacion[AND]True,0,69,1,,10,FactPerEmitida,
+71,Remesas,Remesas,AbrirTipoFichero|1044,bVerFacturacion[AND]True[AND]bverrecibrem,0,417,0,,10,bcobrosper,
+72,Bancos,Bancos,AbrirTipoFichero|1000,bVerFacturacion[AND]True[AND]bverrecibrem,0,417,0,,20,BancosPer,
+73,Facturación Recibida,Facturación Recibida,,bVerFacturacion[AND]True[AND]bverfactrecibida,0,351,0,,30,,
+74,Facturas,Facturas,AbrirModulo|48,bVerFacturacion[AND]True[AND]bverfactrecibida,0,73,0,,10,FactPerRecibida,
+75,Albaranes,Albaranes,AbrirModulo|59,bVerFacturacion[AND]True[AND]bverfactrecibida[AND]bverFRAlbaran,0,73,0,,20,FactPerRecibida,
+76,Pedidos,Pedidos,AbrirDelphi|27,DELPHI,0,73,0,,30,FactPerRecibida,
+77,Presupuestos,Presupuestos,AbrirDelphi|28,DELPHI,0,73,0,,40,FactPerRecibida,
+78,Pagos,Pagos,AbrirModulo|60,bVerFacturacion[AND]True[AND]bVerControlPagos,0,352,0,,30,LibPrevPagoPer[AND]FactPerRecibida,
+79,Contabilidad,Contabilidad,,bVerContabilidad[AND]True[AND]bverContPGC,0,0,0,contabilidad_16x16,220,,
+80,Contabilidad Autónomo o PGC,Contabilidad Autónomo o PGC,"AbrirEjecutable|ConfigGenerales.exe,TipoContabilidad",bVerContabilidad[AND]True[AND]!bvermenulibregistro[AND]bverContPGC,0,79,1,,50,CuentaPer[AND]LibroDiario,
+81,Libros/Modelos AEAT,Libros/Modelos AEAT,,bVerContabilidad[AND]True[AND]!bvermenulibregistro[AND]!bOcultarModelosAEAT,0,79,0,,80,,
+82,Diario,Diario,AbrirModulo|58,bVerContabilidad[AND]True[AND]LibroDiario|1[AND]bverContPGC[AND]bVerDiario,0,79,0,,20,LibroDiario,
+83,Listado del Mayor,Listado del Mayor,AbrirTipoFichero|1140,bVerContabilidad[AND]True[AND]ListMayorPer|1[AND]bverContPGC[AND]bVerDiario,0,79,0,,30,ListMayorPer,
+84,Balances,Balances,,bVerContabilidad[AND]True[AND]ListBalanceSitPer|1[AND]bverContPGC[AND]bVerDiario,0,79,0,,60,ListBalanceSitPer,
+85,Modelos,Modelos,,bVerContabilidad[AND]True[AND]!bvermenulibregistro[AND]!bOcultarModelosAEAT,0,81,0,,20,,
+86,Herramientas de Chequeo,Herramientas de Chequeo,AbrirTipoFichero|1267,bVerContabilidad[AND]True[AND]bverContPGC[AND]CuentaPer[AND]LibroDiario[AND]bVerDiario,0,369,0,,20,CuentaPer[AND]LibroDiario,
+87,Importación,Importación,AbrirEjecutable|Importador.exe,bVerImportador,0,721,0,,30,permisoAccion:VerModuloImportador,
+88,Whatsapp,Whatsapp,AbrirTipoFichero|1075,bVerWhatsapp,0,716,0,,1,permisoAccion:VerModuloWhatsApp,
+91,Oportunidades,OportunidadesPl,AbrirModulo|1,bvercontroloportunidad,1,0,0,CRM__oportunidades,80,,
+94,Tareas,TareasPl,AbrirModulo|49,bMostrarPlanificacionTareas[AND]bVerAtencionCliente[AND]!bTipoTareaMenuPrincipal,1,658,0,,20,,
+95,Plantilla Impresión Orden de Trabajo,Plantilla Impresión Orden de Trabajo,"AbrirEjecutable|ConfigGenerales.exe,PlantillasOrdenesTrabajo",bVerAtencionCliente,0,704,1,,10,,
+96,Compras,Compras,AbrirModulo|51,bVerModuloCompra,1,721,0,,20,,
+97,Comisiones,Comisiones,AbrirModulo|50,bVerComisiones,0,872,0,Comisiones,100,,
+100,Inicio Jornada,Inicio Jornada,"AbrirTipoFichero|1076,0",bVerTimeReport[OR]bWorkControlHorario[OR]esFreemium,0,945,0,,10,,
+101,Fin Jornada,Fin Jornada,"AbrirTipoFichero|1076,1",bVerTimeReport[OR]bWorkControlHorario[OR]esFreemium,0,945,0,,20,,
+102,Inicio Descanso,Inicio Descanso,"AbrirTipoFichero|1076,2",bVerTimeReport[OR]bWorkControlHorario[OR]esFreemium,0,945,0,,30,,
+103,Fin Descanso,Fin Descanso,"AbrirTipoFichero|1076,3",bVerTimeReport[OR]bWorkControlHorario[OR]esFreemium,0,945,0,,40,,
+104,Time Sheet,Imputaciones de Tiempo,"AbrirModulo|39,0,pestanaSel=2",bVerTimeReport[OR]esFreemium,0,353,0,,10,,
+105,Informes,Informes,"AbrirModulo|39,3",bVerInformesTR,0,191,0,,30,permisoAccion:ControlHorarioInformes,
+106,Cuadro de Mando,Cuadros de Informes,,bVerCuadroMandos[OR]esFreemium,0,872,0,cuadromandos_16x16,120,,
+108,Emailer,Mail Marketing,AbrirEjecutable|Emailer.exe,bVerEmailer,0,1178,0,,40,bVerEmailer,
+109,Cuenta de envío de Emailer,Cuenta de envío de Emailer,"AbrirEjecutable|Emailer.exe,2",bVerEmailer,0,108,1,,10,esSupervisor,
+110,Firma Electrónica,Firma Electrónica,,bVerMNDocSign,0,1159,0,,30,,
+118,Protección de Datos,Seguridad,,,0,0,0,protecciondatos_16x16,240,,
+120,Auditoría Datos (logs),Auditoría Datos (logs),AbrirEjecutable|GestorLogs.exe,bverlopd,0,118,0,,70,,
+121,Análisis de Seguridad,Análisis de Seguridad,"AbrirEjecutable|OtrosModulos.exe,ResumenLopd",(!esCloud)[AND](bverlopd[OR]esFreemium),0,118,0,,90,,
+122,Baja Comunicaciones Comerciales (LSSI),Baja Comunicaciones Comerciales (LSSI),,bBajaComComercial,0,118,0,,80,,
+123,Control de Historial,Control de Historial,AbrirModulo|0,bVerControlHistorial,0,0,0,historial_16x16,30,,
+124,Stock,Stock,,bMostarArticulos,0,175,0,,50,,
+125,Artículos,Artículos,AbrirTipoFichero|1217,bMostarArticulos,0,124,0,,10,,
+127,Clases,Clases,,bcontrolcursos,0,0,0,clases_16x16,20,,
+128,Control de Clases,Control de Clases,AbrirModulo|52,bcontrolcursos,0,127,0,,20,,
+129,Control Seguimiento,Control de Asistencia,,bvercontrolAsistencia,0,127,0,,30,,
+130,Seguimiento y Asistencia,Pasar Asistencia,AbrirTipoFichero|1093,bvercontrolAsistencia,0,129,0,,30,,
+131,Imprimir Plantillas de Asistencia,Imprimir Plantillas de Asistencia,AbrirTipoFichero|1069,bvercontrolAsistencia,0,129,0,,40,,
+133,Reserva Online Clases,Reserva Online Clases,,bcontrolcursos[AND]bMostrarCitaOnline,0,127,0,,40,,
+134,Configurar Web,Configurar Web,"AbrirTipoFichero|1067,2",bcontrolcursos,0,133,0,,10,,
+135,Enviar Enlace de Reserva,Enviar Enlace de Reserva,,bcontrolcursos,0,133,0,,20,,
+136,Reserva Online Cursos,Reserva Online Cursos,,bcontrolcursos[AND]bMostrarCitaOnline,0,127,0,,50,,
+137,Configurar Web,Configurar Web,"AbrirTipoFichero|1067,3",bcontrolcursos,0,136,0,,10,,
+138,Enviar Enlace de Reserva,Enviar Enlace de Reserva,,bcontrolcursos,0,136,0,,20,,
+139,Formularios Registro Web,Formularios Registro Web,,bVerModuloFormulariosClientes,0,451,0,,10,,
+140,Configurar Web,Configurar Web,"AbrirEjecutable|ConfiguracionAccesoCloud.exe,formulariosregistro",bMostrarCitaOnline[AND]bVerModuloFormulariosClientes,0,139,0,,157,,
+141,Enviar Enlace,Enviar Enlace,,bMostrarCitaOnline[AND]bVerModuloFormulariosClientes,0,139,0,,158,,
+142,Recobros,Recobros,AbrirModulo|53,bVerModuloRecobros,0,0,0,recobros_16x16,100,,
+143,Crédito y Caución,Crédito y Caución,"AbrirModulo|0,2",bVerCreditoCaucion,0,0,0,credito_caucion_16x16,243,,
+144,Número de Gestor,Número de Gestor,"AbrirEjecutable|ConfigGenerales.exe,CreditoCaucion",bVerCreditoCaucion,0,143,1,,10,,
+146,Vencimientos/Pólizas,ven:Vencimientos,AbrirModulo|4,bverficvencimientos,0,841,0,,10,,
+147,Odontograma,Odontología,,bverodontograma[OR]bvercontroltratamiento[OR]bvergesttarfodont[OR]bVerPlanTratamiento,0,0,0,odontograma_16x16,110,,
+148,Lexnet,Lexnet,AbrirEjecutable|LexNet.exe,ComprobarEjecutable|Lexnet.exe[AND]bVerLexnet,0,905,0,,10,,
+149,Formato número de autos,Formato número de autos,"AbrirEjecutable|ConfigGenerales.exe,LexnetNumAutos",ComprobarEjecutable|Lexnet.exe[AND]bVerLexnet,0,148,1,,150,,
+150,Avantius,Avantius,AbrirEjecutable|LexNet.exe,ComprobarEjecutable|Lexnet.exe[AND]bVerAvantius,0,432,0,,20,,
+151,Formato número de autos,Formato número de autos,"AbrirEjecutable|ConfigGenerales.exe,AvantiusNumAutos",ComprobarEjecutable|Lexnet.exe[AND]bVerAvantius,0,150,1,,10,,
+152,Vereda,Vereda,AbrirEjecutable|LexNet.exe,ComprobarEjecutable|Lexnet.exe[AND]bVerVereda,0,432,0,,30,,
+153,Formato número de autos,Formato número de autos,"AbrirEjecutable|ConfigGenerales.exe,VeredaNumAutos",ComprobarEjecutable|Lexnet.exe[AND]bVerVereda,0,152,1,,10,,
+154,Justizia.Sip,Justizia.Sip,AbrirEjecutable|LexNet.exe,ComprobarEjecutable|Lexnet.exe[AND]bVerJustiziaSIP,0,432,0,,40,,
+155,Formato número de autos,Formato número de autos,"AbrirEjecutable|ConfigGenerales.exe,JusticiaSIPNumAutos",ComprobarEjecutable|Lexnet.exe[AND]bVerJustiziaSIP,0,154,1,,10,,
+156,Ejusticia.Cat,Ejusticia.Cat,AbrirEjecutable|LexNet.exe,ComprobarEjecutable|Lexnet.exe[AND]bVerEJusticia,0,432,0,,50,,
+157,Formato número de autos,Formato número de autos,"AbrirEjecutable|ConfigGenerales.exe,eJusticiaNumAutos",ComprobarEjecutable|Lexnet.exe[AND]bVerEJusticia,0,156,1,,10,,
+158,Procesos Automáticos,RPA,,DELPHI,0,690,0,,1,,
+159,Creación de Historial,Reglas Automáticas de Historial,AbrirTipoFichero|1055,MostrarRpaReglasAutomaticas,0,1179,0,,10,,
+160,Recordatorios Automáticos,Correos Automáticos,,DELPHI,0,158,0,,97,,
+163,Valoraciones,Valoraciones,AbrirModulo|47,bVerModuloValoracionesServicio[OR]esFreemium,0,872,0,Valoraciones1,110,,
+165,Acceso Web/Móvil,Acceso Web/Móvil,,DELPHI,0,858,0,,7,,
+166,Reserva Online,Reserva Online,,VersionConCitaOnline,0,872,0,Reserva_online,90,,
+167,Configuraciones,Configuraciones,,bMostrarCitaOnlineCitas,0,480,0,,30,,
+168,Formularios Registro Web,Formularios Web,,bVerModuloFormulariosClientes[AND]esCloud,0,675,0,,30,,
+169,Configurar webs,Formularios de Registro,"AbrirEjecutable|ConfiguracionAccesoCloud.exe,formulariosregistro",bVerModuloFormulariosClientes[AND]bVerFormulariosRegistro,0,168,0,,10,,
+170,Configuración,Configuración,,,0,0,1,configuracion_16x16,299,,
+171,Configuraciones Obligatorias,Configuraciones Obligatorias,,,0,170,0,,10,,
+172,Seleccionar Empresa,Seleccionar Empresa,AbrirTipoFichero|1080,,0,171,0,,10,,
+173,Logo de Empresa,Logo de Empresa,AbrirDelphi|86,,0,171,0,,20,,
+174,Configuraciones Generales,Configuraciones Generales,,,0,170,0,,20,,
+175,Predefinidos,Predefinidos,,,0,174,0,,10,,
+176,Gestión de Plantillas,Gestión de Plantillas,,,0,0,0,ficheros_16x16,230,,
+177,Seleccionar Ejercicio,Seleccionar Ejercicio,AbrirTipoFichero|1081,,0,174,0,,20,,
+178,Seleccionar Impresora,Seleccionar Impresora,AbrirDelphi|108,,0,174,0,,30,,
+179,Configuraciones Supervisor,Configuraciones Supervisor,,,0,170,0,,30,,
+180,Configuraciones Generales,Configuraciones Generales,AbrirEjecutable|ConfigGenerales.exe,,0,179,0,,10,,
+181,Personalización,Personalización,AbrirDelphi|109,,0,179,0,,20,,
+182,Gestión de Permisos,Gestión de Permisos,,DELPHI,0,179,0,,30,,
+183,Correo,Correo,AbrirTipoFichero|1004,bverlopd[OR]esFreemium,0,122,0,,10,,
+184,SMS,SMS,AbrirTipoFichero|1005,bverlopd[OR]esFreemium,0,122,0,,20,,
+185,Correo,Correo,"AbrirTipoFichero|1068,2",bcontrolcursos,0,135,0,,151,,
+186,WhatsApp,WhatsApp,"AbrirTipoFichero|1071,2",bcontrolcursos,0,135,0,,187,permisoAccion:VerModuloWhatsApp,
+187,Correo,Correo,"AbrirTipoFichero|1068,3",bcontrolcursos,0,138,0,,20,,
+188,WhatsApp,WhatsApp,"AbrirTipoFichero|1071,3",bcontrolcursos,0,138,0,,10,permisoAccion:VerModuloWhatsApp,
+189,Correo,Correo,AbrirTipoFichero|1072,bMostrarCitaOnline[AND]bVerModuloFormulariosClientes,0,141,0,,159,,
+190,WhatsApp,WhatsApp,AbrirTipoFichero|1073,bMostrarCitaOnline[AND]bVerModuloFormulariosClientes,0,141,0,,160,permisoAccion:VerModuloWhatsApp,
+191,Control Horario,Registro Horario,,bWorkControlHorario[OR]esFreemium,0,872,0,controlhorario_16x16,10,,
+193,Libros/Declaraciones,Libros/Declaraciones,,DELPHI,0,428,0,,70,,
+194,Libro del IVA/IGIC (Fra. Emitidas/Fra. Recibidas),Libro del IVA/IGIC (Fra. Emitidas/Fra. Recibidas),AbrirDelphi|30,DELPHI,0,428,0,,20,permisoAccion:VerLibrosConta,
+196,Libro de Gastos,Libro de Gastos,AbrirTipoFichero|1161,bVerContabilidad[AND]True[AND]!bvermenulibregistro[AND]bverContPGC,0,428,0,,30,permisoAccion:VerLibrosConta,
+197,Libro Bs. Inversión,Libro Bs. Inversión,AbrirTipoFichero|1168,bVerContabilidad[AND]True[AND]!bvermenulibregistro[AND]bverContPGC[AND]bverbienes,0,428,0,,40,permisoAccion:VerLibrosConta,
+199,I.V.A.,I.V.A.,,DELPHI,0,428,0,,80,,
+200,Liquidación IVA Mód. 303,Liquidación IVA Mód. 303,AbrirDelphi|35,bVerContabilidad[AND]True[AND]!bvermenulibregistro[AND]bverContPGC,0,199,0,,10,LiqIvaPer,
+201,Declaración Mód. 347,Declaración Mód. 347,AbrirDelphi|36,bVerContabilidad[AND]True[AND]!bvermenulibregistro[AND]bverContPGC,0,199,0,,20,Mod347Per,
+202,I.R.P.F.,I.R.P.F.,,DELPHI,0,428,0,,90,,
+203,Ventas,Ventas,AbrirDelphi|37,bVerContabilidad[AND]True[AND]!bvermenulibregistro[AND]bverContPGC,0,202,0,,10,IrpfVentaPer,
+204,Nóminas,Nóminas,AbrirDelphi|38,bVerContabilidad[AND]True[AND]!bvermenulibregistro[AND]bverContPGC,0,202,0,,20,IrpfNominaPer,
+205,Alquileres,Alquileres,AbrirDelphi|39,bVerContabilidad[AND]True[AND]!bvermenulibregistro[AND]bverContPGC,0,202,0,,30,IrpfAlquilerPer,
+206,Profesionales,Profesionales,AbrirDelphi|40,bVerContabilidad[AND]True[AND]!bvermenulibregistro[AND]bverContPGC,0,202,0,,40,IrpfProfesPer,
+207,Nóminas - Rendimientos en Especie,Nóminas - Rendimientos en Especie,AbrirDelphi|41,bVerContabilidad[AND]True[AND]!bvermenulibregistro[AND]bverContPGC,0,202,0,,50,IrpfNominaPer,
+208,Libros,Libros,,bVerContabilidad[AND]True[AND]!bvermenulibregistro,0,434,0,,341,,
+209,Libros Declaraciones,Libros Declaraciones,,bVerContabilidad[AND]True[AND]!bvermenulibregistro,0,208,0,,236,,
+210,Libro del IVA/IGIC (Fra. Emitidas/Fra Recibidas),Libro del IVA/IGIC (Fra. Emitidas/Fra Recibidas),AbrirDelphi|42,bVerContabilidad[AND]True[AND]!bvermenulibregistro,0,209,0,,239,LibroIvaPer,
+211,Libros de Ingresos,Libros de Ingresos,AbrirTipoFichero|1091,bVerContabilidad[AND]True[AND]!bvermenulibregistro,0,209,0,,240,LibroIngresoPer,
+212,Libro de Gastos,Libro de Gastos,AbrirDelphi|44,bVerContabilidad[AND]True[AND]!bvermenulibregistro,0,209,0,,241,LibroGastoPer,
+213,Libro Bs. Inversión,Libro Bs. Inversión,AbrirDelphi|45,bVerContabilidad[AND]True[AND]!bvermenulibregistro,0,209,0,,242,LibroInversPer,
+214,Libro Provisiones/Suplidos,Libro Provisiones/Suplidos,AbrirTipoFichero|1088,bVerContabilidad[AND]True[AND]!bvermenulibregistro,0,209,0,,243,LibProvisPer,
+215,I.V.A.,I.V.A.,,bVerContabilidad[AND]True[AND]!bvermenulibregistro,0,208,0,,237,,
+216,Liquidación IVA Mód. 303,Liquidación IVA Mód. 303,AbrirDelphi|47,bVerContabilidad[AND]True[AND]!bvermenulibregistro,0,215,0,,244,LiqIvaPer,
+217,Declaración Mód. 347,Declaración Mód. 347,AbrirDelphi|48,bVerContabilidad[AND]True[AND]!bvermenulibregistro,0,215,0,,245,Mod347Per,
+218,I.R.P.F.,I.R.P.F.,,bVerContabilidad[AND]True[AND]!bvermenulibregistro,0,208,0,,238,,
+219,Ventas,Ventas,AbrirDelphi|49,bVerContabilidad[AND]True[AND]!bvermenulibregistro,0,218,0,,246,IrpfVentaPer,
+220,Nóminas,Nóminas,AbrirDelphi|50,bVerContabilidad[AND]True[AND]!bvermenulibregistro,0,218,0,,247,IrpfNominaPer,
+221,Alquileres,Alquileres,AbrirDelphi|51,bVerContabilidad[AND]True[AND]!bvermenulibregistro,0,218,0,,248,IrpfAlquilerPer,
+222,Profesionales,Profesionales,AbrirDelphi|52,bVerContabilidad[AND]True[AND]!bvermenulibregistro,0,218,0,,249,IrpfProfesPer,
+223,IRPF - Nóminas - Rendimientos en Especie,IRPF - Nóminas - Rendimientos en Especie,AbrirDelphi|53,bVerContabilidad[AND]True[AND]!bvermenulibregistro,0,218,0,,250,IrpfNominaPer,
+224,Diario,Diario,AbrirModulo|58,DELPHI,0,82,0,,10,LibroDiario,
+225,Listado del Diario,Listado del Diario,AbrirDelphi|55,DELPHI,0,82,0,,20,ListDiarioPer,
+226,Balance de Situación,Balance de Situación,AbrirTipoFichero|1141,bVerContabilidad[AND]True[AND]!bvermenulibregistro[AND]bverContPGC,0,84,0,,10,ListBalanceSitPer,
+227,Balance Sumas y Saldos,Balance Sumas y Saldos,AbrirTipoFichero|1142,bVerContabilidad[AND]True[AND]!bvermenulibregistro[AND]bverContPGC,0,84,0,,20,ListBalanceSumPer,
+228,Resumen Sumas y Saldos Anual ,Resumen Sumas y Saldos Anual ,AbrirTipoFichero|1143,bVerContabilidad[AND]True[AND]!bvermenulibregistro[AND]bverContPGC,0,84,0,,30,ListBalanceSumPer,
+229,Pérdidas y Ganancias,Pérdidas y Ganancias,AbrirTipoFichero|1144,bVerContabilidad[AND]True[AND]!bvermenulibregistro[AND]bverContPGC,0,84,0,,40,ListPerdGanPer,
+230,Estado de Cambios En el Patrimonio Neto,Estado de Cambios En el Patrimonio Neto,AbrirTipoFichero|1145,!configuracionCom:general|bPGCSinFinesLucrativos,0,84,0,,50,ListPerdGanPer,
+232,Modelo 111,Modelo 111,AbrirTipoFichero|1153,bVerContabilidad[AND]True[AND]!bvermenulibregistro[AND]bverContPGC,0,85,0,,10,permisoAccion:VerModelosAEATConta,
+233,Modelo 115,Modelo 115,AbrirTipoFichero|1152,bVerContabilidad[AND]True[AND]!bvermenulibregistro[AND]bverContPGC,0,85,0,,20,permisoAccion:VerModelosAEATConta,
+234,Modelo 130,Modelo 130,AbrirTipoFichero|1154,bVerContabilidad[AND]True[AND]!bvermenulibregistro[AND]bverContPGC,0,85,0,,30,permisoAccion:VerModelosAEATConta,
+235,Modelo 180,Modelo 180,AbrirTipoFichero|1155,bVerContabilidad[AND]True[AND]!bvermenulibregistro[AND]bverContPGC,0,85,0,,40,permisoAccion:VerModelosAEATConta,
+236,Modelo 303,Modelo 303,AbrirTipoFichero|1149,bVerContabilidad[AND]True[AND]!bvermenulibregistro[AND]bverContPGC,0,85,0,,60,permisoAccion:VerModelosAEATConta,
+237,Modelo 347,Modelo 347,AbrirTipoFichero|1156,bVerContabilidad[AND]True[AND]!bvermenulibregistro[AND]bverContPGC,0,85,0,,70,permisoAccion:VerModelosAEATConta,
+238,Modelo 696,Modelo 696,AbrirTipoFichero|1123,bVerContabilidad[AND]True[AND]!bvermenulibregistro[AND]bverContPGC[AND]bVerModelo696,0,85,0,,100,permisoAccion:VerModelosAEATConta,
+239,Modelos,Modelos,,bVerContabilidad[AND]True[AND]!bvermenulibregistro[AND]!bOcultarModelosAEAT,0,434,0,,342,,
+240,Modelo 111,Modelo 111,AbrirDelphi|69,bVerContabilidad[AND]True[AND]!bvermenulibregistro,0,239,0,,251,IrpfNominaPer[AND]IrpfProfesPer,
+241,Modelo 115,Modelo 115,AbrirDelphi|70,bVerContabilidad[AND]True[AND]!bvermenulibregistro,0,239,0,,252,IrpfAlquilerPer,
+242,Modelo 130,Modelo 130,AbrirDelphi|71,bVerContabilidad[AND]True[AND]!bvermenulibregistro,0,239,0,,253,LibroIngresoPer[AND]LibroGastoPer,
+243,Modelo 180,Modelo 180,AbrirDelphi|72,bVerContabilidad[AND]True[AND]!bvermenulibregistro,0,239,0,,254,IrpfAlquilerPer,
+244,Modelo 233,Modelo 233,AbrirDelphi|73,bVerContabilidad[AND]True[AND]!bvermenulibregistro[AND]v=CRMguarderías,0,239,0,,258,,
+245,Modelo 303,Modelo 303,AbrirTipoFichero|1150,bVerContabilidad[AND]True[AND]!bvermenulibregistro,0,239,0,,255,LibroIvaPer,
+246,Modelo 347,Modelo 347,AbrirDelphi|75,bVerContabilidad[AND]True[AND]!bvermenulibregistro,0,239,0,,256,Mod347Per,
+247,Modelo 696,Modelo 696,AbrirDelphi|76,bVerContabilidad[AND]True[AND]!bvermenulibregistro,0,239,0,,257,LibroIngresoPer,
+248,Chequeo Asientos Descuadrados,Chequeo Asientos Descuadrados,AbrirTipoFichero|1157,False,0,86,0,,70,CuentaPer[AND]LibroDiario,
+249,Chequeo Asientos con descuadres inferior a 1 euro,Chequeo Asientos con descuadres inferior a 1 euro,AbrirTipoFichero|1158,False,0,86,0,,190,CuentaPer[AND]LibroDiario,
+250,Chequeo Cuentas no Existen en Balances,Chequeo Cuentas no Existen en Balances,AbrirTipoFichero|1159,False,0,86,0,,80,CuentaPer[AND]LibroDiario,
+251,Chequeo Cuentas Erróneas,Chequeo de Asientos con Cuentas que no existen en el PGC,AbrirTipoFichero|1160,False,0,86,0,,90,CuentaPer[AND]LibroDiario,
+252,Chequeo Contabilizado/Pendiente Contabilizar,Chequeo Contabilizado/Pendiente Contabilizar,AbrirTipoFichero|1162,False,0,86,0,,100,CuentaPer[AND]LibroDiario,
+253,Chequeo Cuentas IVA/IRPF,Chequeo Cuentas IVA/IRPF,AbrirTipoFichero|1164,False,0,86,0,,110,CuentaPer[AND]LibroDiario,
+254,Números no correlativos en Facturas Emitidas,Números no correlativos en Facturas Emitidas,AbrirTipoFichero|1047,False,0,86,0,,120,CuentaPer[AND]LibroDiario,
+255,Fechas no correlativas en Facturas Emitidas,Fechas no correlativas en Facturas Emitidas,AbrirTipoFichero|1048,False,0,86,0,,130,CuentaPer[AND]LibroDiario,
+256,Chequeo cuentas en Facturas Emitidas y Recibidas,Chequeo cuentas en Facturas Emitidas y Recibidas,AbrirTipoFichero|1049,False,0,86,0,,140,CuentaPer[AND]LibroDiario,
+257,Chequeo NIF y cuentas contables no coinciden entre factura y diario,Chequeo NIF y cuentas contables no coinciden entre factura y diario,AbrirTipoFichero|1051,False,0,86,0,,150,CuentaPer[AND]LibroDiario,
+258,Chequeo asientos que no tiene cubierta la contrapartida,Chequeo asientos que no tiene cubierta la contrapartida,AbrirTipoFichero|1052,False,0,86,0,,160,CuentaPer[AND]LibroDiario,
+259,Chequeo descuadres ente cuota iva y base imponible de facturas y diario,Chequeo descuadres ente cuota iva y base imponible de facturas y diario,AbrirTipoFichero|1054,False,0,86,0,,170,CuentaPer[AND]LibroDiario,
+260,Chequeo descuadres entre los totales de la factura emitida y los totales de los conceptos,Chequeo descuadres entre los totales de la factura emitida y los totales de los conceptos,AbrirTipoFichero|1053,False,0,86,0,,180,CuentaPer[AND]LibroDiario,
+268,Control de Recordatorios Automáticos,Correos Automáticos,AbrirEjecutable|Recordatorios.exe,bverrecordatorios[AND]FORZARVISUALIZACIONPREMIUM[OR]esFreemium,0,1178,0,,30,,
+272,Configuración de Cuentas,Correos automáticos,,,0,691,0,,50,,
+273,SMS,SMS,AbrirEjecutableDelphi|ConfSMS.exe,bverrecordatorios[OR]esFreemium,0,272,0,,20,,
+274,Correo,Correo,"AbrirEjecutable|Correo.exe,recordatorios",bverrecordatorios[OR]esFreemium,0,272,0,,10,,
+283,Gestión de Acceso de Trabajadores,Gestión de Acceso de Trabajadores,"AbrirEjecutable|ConfiguracionAccesoCloud.exe,usuarios",DELPHI,0,709,0,,171,,
+284,Gestión de Acceso de Clientes,Acceso Web Clientes,"AbrirEjecutable|ConfiguracionAccesoCloud.exe,clientes",bAccesoClientes,0,872,0,acceso_clientes_16x16,80,,
+285,Gestión de Boletines Informativos,Gestión de Boletines Informativos,"AbrirEjecutable|ConfiguracionAccesoCloud.exe,noticias",DELPHI,0,709,0,,172,,
+286,Gestión de Documentos de Clientes,Gestión de Documentos de Clientes,AbrirDelphi|84,DELPHI,0,709,0,,173,,
+288,Centros,Centros,AbrirTipoFichero|1026,bvercentros,0,175,0,,10,,
+289,Tipos Expedientes Predefinidos,TipExpTituloPredef,AbrirTipoFichero|1062,bVerExpedientes[AND]bverexppredef,1,807,0,,10,,
+292,Asuntos Predefinidos,Asuntos,AbrirTipoFichero|12,bVerExpedientes[AND]bvertipoasunto[AND]True,0,807,0,,30,TipoAsuPer,
+293,Procedimientos Predefinidos,Procedimientos,AbrirTipoFichero|13,bVerExpedientes[AND]bverprocedimiento,0,807,0,,40,ProcediPer,
+294,Tratamientos Predefinidos,Tratamientos,AbrirTipoFichero|1084,bverodontograma,0,810,0,,10,,
+295,Actuaciones Predefinidas,Actuaciones,AbrirTipoFichero|1025,,0,808,0,,10,ActuPer,
+297,Bonos Predefinidos,Bonos,"AbrirEjecutable|OtrosModulos.exe,BonosPredefinidos",VerSistemaBonos,0,815,0,,10,,
+299,Honorarios Predefinidos,EtiqHonorariosPred,AbrirTipoFichero|1046,True[AND]bverhonopredef,1,811,0,,10,DerPer,
+300,Suplidos Predefinidos,Suplidos,AbrirTipoFichero|1099,True[AND]bverprovsup,0,811,0,,30,SupliPer,
+303,Gastos Predefinidos,Gastos,AbrirTipoFichero|1120,bVerFacturacion[AND]True[AND]bverfactrecibida,0,811,0,,20,FactPerRecibida,
+304,Oportunidades Predefinidas,OporPredef,AbrirTipoFichero|1024,bveroportunidades[OR]bvercontrolventas,1,813,0,,10,,
+313,Vencimientos Predefinidos,Vencimientos,AbrirDelphi|101,bverficvencimientos,0,816,0,,10,,
+314,Ramos Predefinidos,Ramos,AbrirDelphi|102,bversegven,0,816,0,,20,,
+315,Vacunas Predefinidas,Vacunas,"AbrirEjecutable|Pediatria.exe,-2",bVerPediatria,0,814,0,,10,,
+319,Plantillas de Word,Plantillas de Word,AbrirTipoFichero|1194,bMostrarPlantillasWord,0,176,0,,30,,
+320,Plantillas de Correo,Plantillas de Correo,"AbrirEjecutable|Correo.exe,plantillas,correo",bMostrarCorreo,0,176,0,,40,,
+321,Plantillas de Whatsapp / SMS,func:etiqMenuPlantillasWhatsappSms,AbrirTipoFichero|1028,,1,176,0,,50,permisoAccion:VerModuloWhatsApp,
+322,Plantillas de Notas,Plantillas de Notas,AbrirTipoFichero|1185,,0,176,0,,60,,
+323,Plantillas de Doc. MN,Plantillas de Doc. MN,AbrirEjecutable|PlantillasHtml.exe,DELPHI,0,176,0,,70,,
+324,Plantillas Predefinidas,Plantillas Predefinidas,"AbrirTipoFichero|1210,0",,0,176,0,,10,,
+325,Datos Usuario / Trabajador,Datos Usuario / Trabajador,AbrirDelphi|110,!bocultperm[AND]esSupervisor,0,182,0,,10,CambiaPasswdPer,
+326,Permisos  Usuarios / Trabajadores,Permisos  Usuarios / Trabajadores,AbrirDelphi|111,!bocultperm[AND]esSupervisor,0,182,0,,20,GesOperaPer,
+327,Cambiar de Usuario / Trabajador Activo,Cambiar de Usuario / Trabajador Activo,AbrirDelphi|112,!bocultperm[AND]!esCloud,0,182,0,,30,OperadorActiPer[AND]OperadorActiPer,
+328,Niveles Privacidad Fichas,Niveles de Seguridad,,bVerNivelesSeguridad,0,182,0,,40,,
+351,Facturación,Facturación,,bVerFacturacion,0,0,0,facturacion_emitida_16x16,200,,
+352,Tesorería,Tesorería,,bVerFacturacion[AND]True,0,0,0,cobros_16x16,210,,
+353,Time Report,Time Report,,bVerTimeReport[OR]esFreemium,0,1176,0,,10,,
+355,Informes,Informes,"AbrirModulo|39,1",bVerTimeReport[OR]esFreemium,0,353,0,,30,permisoAccion:TimeReportInformes,
+356,Agenda,Agenda,AbrirEjecutable|Agenda.exe,bVerNuevaAgenda,0,39,0,,10,,
+357,Control de Medicación,Control de Medicación,AbrirModulo|11,bverControlMedicacion,0,0,0,controlmedicacion_16x16,190,,
+358,Backup Cloud,Backup Cloud,AbrirTipoFichero|1087,ComprobarEjecutable|MNBackupCloud.exe,0,118,0,,100,,
+359,Escáner,Escáner,AbrirEjecutable|TwainGui.exe,bVerModuloEscaner,0,47,0,,20,,
+360,Calendario Web (Acceso Profesores),Calendario Web (Acceso Profesores),,DELPHI,0,710,0,,146,,
+361,Enviar Enlace,Enviar Enlace,,bMostrarOficinaVirtual[AND]bVerModuloFormulariosClientes,0,529,0,,2,,
+362,Correo,Correo,"AbrirTipoFichero|1072,0",bMostrarOficinaVirtual[AND]bVerModuloFormulariosClientes,0,361,0,,212,,
+363,WhatsApp,WhatsApp,"AbrirTipoFichero|1073,0",bMostrarOficinaVirtual[AND]bVerModuloFormulariosClientes,0,361,0,,213,permisoAccion:VerModuloWhatsApp,
+364,Cuentas,Cuentas,,bVerContabilidad[AND]True,0,79,0,,10,,
+366,Balances P.G.C. Antiguo,Balances P.G.C. Antiguo,,bVerContabilidad[AND]True[AND]bverbalpgcantiguo,0,79,0,,70,,
+367,Cierre/Apertura Ejercicio,Cierre/Apertura Ejercicio,,bVerContabilidad[AND]True,0,369,0,,10,,
+368,Asientos Predefinidos,Asientos Predefinidos,AbrirTipoFichero|1171,bVerContabilidad[AND]True[AND]bVerDiario,0,369,0,,50,,
+369,Utilidades,Utilidades,,bVerContabilidad[AND]True,0,79,0,,40,,
+370,Conciliación,Conciliación,,bVerFacturacion[AND]True[AND]bverrecibrem,0,418,0,,20,FactPerEmitida,
+371,Norma 19,Norma 19,AbrirDelphi|148,bVerFacturacion[AND]True[AND]bverrecibrem[AND]bverconciliacion19,0,370,0,,10,FactPerEmitida,
+372,Norma 43,Norma 43,AbrirDelphi|149,bVerFacturacion[AND]True[AND]bverrecibrem[AND]bverconciliacion43,0,370,0,,20,FactPerEmitida,
+373,Formación Bonificada,Formación Bonificada,,bverBonificacion,0,0,0,formacion_bonificada_16x16,150,,
+374,Recetas Médicas,Recetas Médicas,AbrirTipoFichero|1193,bverReceta,0,732,0,,10,,
+375,Cuentas,Cuentas,AbrirTipoFichero|1122,bVerContabilidad[AND]True[AND]!bvermenulibregistro[AND]bverContPGC,0,364,0,,10,CuentaPer,
+376,Estructura PGC,Estructura PGC,AbrirTipoFichero|1147,bVerContabilidad[AND]True[AND]!bvermenulibregistro[AND]bverContPGC,0,364,0,,20,CuentaPer[AND]LibroDiario,
+377,Config. Cuentas,Config. Cuentas,AbrirTipoFichero|1134,bVerContabilidad[AND]True[AND]!bvermenulibregistro[AND]bverContPGC,0,364,0,,30,ConfigCuenPer,
+378,Tipos de Iva/Igic,Tipos de Iva/Igic,AbrirTipoFichero|1172,bVerContabilidad[AND]True[AND]!bvermenulibregistro[AND]bverContPGC,0,364,0,,40,tipoivaper,
+379,Tipos de I.R.P.F.,Tipos de I.R.P.F.,AbrirTipoFichero|1173,bVerContabilidad[AND]True[AND]!bvermenulibregistro[AND]bverContPGC,0,364,0,,50,tipoirpfper,
+380,Equivalencias P.G.C. 2008,Equivalencias P.G.C. 2008,AbrirDelphi|118,bVerContabilidad[AND]True[AND]!bvermenulibregistro[AND]bverContPGC[AND]bverTraspaso,0,364,0,,60,CuentaPer,
+381,Traspaso Cuentas P.G.C. 2008,Traspaso Cuentas P.G.C. 2008,AbrirDelphi|119,bVerContabilidad[AND]True[AND]!bvermenulibregistro[AND]bverContPGC[AND]bverTraspaso,0,364,0,,70,CuentaPer,
+382,Balance de Situación,Balance de Situación,AbrirDelphi|120,bverContPGC[AND]bverbalpgcantiguo,0,366,0,,10,,
+383,Balance Sumas y Saldos,Balance Sumas y Saldos,AbrirDelphi|121,bverContPGC[AND]bverbalpgcantiguo,0,366,0,,20,,
+384,Pérdidas y Ganancias,Pérdidas y Ganancias,AbrirDelphi|122,bverContPGC[AND]bverbalpgcantiguo,0,366,0,,30,,
+385,Cierre Ejercicio,Cierre Ejercicio,AbrirTipoFichero|1131,bVerContabilidad[AND]True[AND]!bvermenulibregistro[AND]bverContPGC,0,367,0,,10,cierreper,
+386,Invertir Cierre,Invertir Cierre,AbrirTipoFichero|1132,bVerContabilidad[AND]True[AND]!bvermenulibregistro[AND]bverContPGC,0,367,0,,20,cierreper,
+387,Generar Asiento Apertura,Generar Asiento Apertura,AbrirTipoFichero|1135,bVerContabilidad[AND]True[AND]!bvermenulibregistro[AND]bverContPGC,0,367,0,,30,cierreper,
+388,Invertir Apertura,Invertir Apertura,AbrirTipoFichero|1136,bVerContabilidad[AND]True[AND]!bvermenulibregistro[AND]bverContPGC,0,367,0,,40,cierreper,
+389,Importar Cuentas,Importar Cuentas,AbrirTipoFichero|1137,bVerContabilidad[AND]True[AND]!bvermenulibregistro[AND]bverContPGC,0,367,0,,50,cierreper,
+390,Gastos/Ingresos,Gastos/Ingresos,AbrirDelphi|128,DELPHI,0,368,0,,10,LibGasIngPer,
+391,Nóminas,Nóminas,AbrirDelphi|129,DELPHI,0,368,0,,20,LibNominaPer,
+392,Pago Seguros Sociales,Pago Seguros Sociales,AbrirDelphi|130,DELPHI,0,368,0,,30,LibSegurosPer,
+393,Devengo Seguros Sociales,Devengo Seguros Sociales,AbrirDelphi|131,DELPHI,0,368,0,,40,LibDevengoPer,
+394,Importación Contaplus,Importación Contaplus,AbrirEjecutableDelphi|ImpContaPlus.exe,ComprobarEjecutable|ImpContaPlus.exe[AND]bVerContabilidad[AND]True[AND]!bvermenulibregistro[AND]bverContPGC,0,369,0,,60,CuentaPer[AND]LibroDiario,
+395,Actualizar %IVA,Actualizar %IVA,AbrirTipoFichero|1177,bVerContabilidad[AND]True[AND]!bvermenulibregistro[AND]bverContPGC,0,369,0,,30,tipoivaper,
+396,Actualizar %IRPF,Actualizar %IRPF,AbrirTipoFichero|1178,bVerContabilidad[AND]True[AND]!bvermenulibregistro[AND]bverContPGC,0,369,0,,40,tipoirpfper,
+400,Actualizar Marca de Saldo,Actualizar Marca de Saldo,AbrirEjecutableDelphi|MarcaSaldo.exe,ComprobarEjecutable|MarcaSaldo.exe[AND]bverContPGC,0,369,0,,70,,
+401,Eliminar Facturas Desvincular Cobros,Eliminar Facturas Desvincular Cobros,AbrirDelphi|138,bvereliminarfacturasnocobros,0,1094,0,,20,,
+402,Eliminar duplicados de cobros de remesas,Eliminar duplicados de cobros de remesas,AbrirDelphi|139,bvereliminarcobrosduplicados,0,369,0,,80,,
+403,Expedientes Predefinidos,Expedientes Predefinidos,AbrirTipoFichero|1062,bverBonificacion,0,373,0,,10,,
+404,Generar XML,Generar XML,,bverBonificacion,0,373,0,,20,,
+405,Acciones Formativas,Acciones Formativas,,bverBonificacion,0,404,0,,10,,
+406,Inicio Curso,Inicio Curso,,bverBonificacion,0,404,0,,20,,
+407,Fin Curso,Fin Curso,,bverBonificacion,0,404,0,,30,,
+413,Odontograma,Odontograma,AbrirTipoFichero|1227,bverodontograma,0,147,0,,10,,
+414,Control de Tratamientos,Control de Tratamientos,AbrirModulo|16,bvercontroltratamiento,0,147,0,,20,,
+416,Control de Bonos,Control de Bonos,AbrirModulo|33,VerSistemaBonos,0,728,0,,10,,
+417,Remesas,Remesas,,bVerFacturacion[AND]True[AND]bverrecibrem,0,352,0,,50,,
+418,Utilidades,Utilidades,,bVerContabilidad[AND]True[AND]bverrecibrem[AND]bVerFacturacion[AND]bverContPGC,0,417,0,,30,FactPerEmitida,
+419,Arqueo de Caja,Cierres de Caja,AbrirTipoFichero|1221,bverarqueo,0,352,0,,70,!bOcultarArqueoCaja,
+422,Control PIA Historial,Control de Historial PIA,AbrirModulo|6,bVerPlanesTrabajo,0,907,0,,20,,
+423,Control de Obligaciones,Control de Obligaciones,AbrirModulo|3,bverficobligaciones,0,0,0,obligaciones_16x16,241,,
+424,Calificaciones,Calificaciones,,bverCalificacion,0,0,0,calificaciones_16x16,140,,
+425,Cursos,Cursos,AbrirTipoFichero|991,,0,421,0,,329,,
+426,Alumnos,EtiqAlumnosProp,AbrirTipoFichero|989,,1,421,0,,330,,
+428,Libros,Libros,,bVerContabilidad[AND]True[AND]!bvermenulibregistro,0,81,0,,10,,
+429,Enviar Enlace,Enviar Enlace,,VersionConCitaOnline,0,480,0,,20,,
+430,Correo,Correo,AbrirTipoFichero|1082,VersionConCitaOnline,0,429,0,,10,,
+431,WhatsApp,WhatsApp,AbrirTipoFichero|1083,VersionConCitaOnline[AND]bVerWhatsapp[AND]FORZARVISUALIZACIONPREMIUM,0,429,0,,20,permisoAccion:VerModuloWhatsApp,
+432,Lexnet,Lexnet,,ComprobarEjecutable|Lexnet.exe[AND]bVerLexnet,0,0,0,lexnet_16x16,90,,
+433,Historial de Fichajes,Historial de Fichajes,"AbrirModulo|39,2",bWorkControlHorario,0,191,0,,20,permisoAccion:ControlHorarioHistorialFichajes,
+434,Libros/Modelos AEAT,Libros/Modelos AEAT,,DELPHI,0,351,0,,50,,
+435,Cobros a Aseguradora,Cobros a Aseguradora,AbrirModulo|61,bVerFacturacion[AND]bvermutua,0,352,0,,20,,
+436,Bienes Inversión/Amortizaciones,Bienes Inversión/Amortizaciones,AbrirTipoFichero|1166,bVerFacturacion[AND]True[AND]bverfactrecibida[AND]bverbienes,0,73,0,,60,FactPerRecibida,
+438,Libro de IVA por Tipo de Operación,Libro de IVA por Tipo de Operación,AbrirTipoFichero|1085,bVerContabilidad[AND]True[AND]!bvermenulibregistro,0,444,0,,50,permisoAccion:VerLibrosFacturacion,
+442,Nuevos Libros/Modelos AEAT,Libros/Modelos AEAT,,!bOcultarModelosAEAT[AND]bMostarModelosAEATFactu,0,351,0,,50,,
+443,Modelos,Modelos,,!bOcultarModelosAEAT,0,442,0,,10,,
+444,Libros,Libros,,,0,442,0,,20,,
+445,Libro de Provisiones y Suplidos,Libro de Provisiones y Suplidos,AbrirTipoFichero|1088,bverprovsup,0,444,0,,10,permisoAccion:VerLibrosFacturacion,
+446,Depuración,Depuración,,False,0,721,0,,60,,
+447,Fusionar Fichas Duplicadas,Fusionar Fichas Duplicadas,AbrirTipoFichero|1090,bMostrarFusionFichas,0,721,0,,70,,
+448,Libro de Ingresos/Facturas Emitidas,Libro de Ingresos/Facturas Emitidas,AbrirTipoFichero|1091,,0,444,0,,20,permisoAccion:VerLibrosFacturacion,
+449,Declaración Mod. 347,Declaración Mod. 347,AbrirTipoFichero|1092,,0,444,0,,30,permisoAccion:VerLibrosFacturacion,
+450,Control de Asistencia,Control de Asistencias,AbrirModulo|0,bvercontrolAsistencia,0,129,0,,10,,
+451,Reserva Online,Reserva Online,,DELPHI,0,127,0,,10,,
+452,Calendario Web y Asistencia,Calendario Web y Asistencia,AbrirTipoFichero|1064,DELPHI,0,360,0,,1667,,
+453,Seguimiento,Seguimiento,AbrirTipoFichero|1065,DELPHI,0,360,0,,1668,,
+454,Nueva Firma,Nueva Firma,,bVerMNDocSign,0,110,0,,20,,
+455,Control de Firmas Electrónicas,Control de Firmas Electrónicas,AbrirTipoFichero|1003,bVerMNDocSign,0,110,0,,30,,
+456,Certificado Digital,Certificado Digital,FirmaMN|1,bVerMNDocSign,0,454,0,,10,,
+457,Firma Wacom,Firma Wacom,FirmaMN|2,bVerMNDocSign,0,454,0,,20,,
+458,Tablet/Móvil,Tablet/Móvil,FirmaMN|3,bVerFirmaTablet,0,454,0,,30,,
+459,MN Accept,MN Sign,,DELPHI,0,675,0,,50,,
+460,Accept Adjunto por Correo,Sign de Adjunto por Correo,FirmaMN|4,VerMailAccept,0,508,0,,30,,
+461,Accept Adjunto por Whatsapp,Sign de Adjunto por Whatsapp,FirmaMN|5,VerMailAccept[AND]bVerWhatsapp,0,508,0,,40,permisoAccion:VerModuloWhatsApp,
+462,Accept de Correo,Sign de Correo,FirmaMN|6,VerMailAccept,0,508,0,,10,,
+463,Accept de Whatsapp,Sign de Whatsapp,FirmaMN|7,VerMailAccept[AND]bVerWhatsapp,0,508,0,,20,permisoAccion:VerModuloWhatsApp,
+464,Nóminas,Nóminas,,DELPHI,0,73,0,,80,FactPerRecibida,
+465,Alta Nómina,Alta Nómina,AbrirDelphi|157,bVerFacturacion[AND]True[AND]bverfactrecibida[AND]bvernominas,0,464,0,,1988,FactPerRecibida,
+466,Devengo Seguros Sociales,Devengo Seguros Sociales,AbrirDelphi|158,bVerFacturacion[AND]True[AND]bverfactrecibida[AND]bvernominas,0,464,0,,1989,FactPerRecibida,
+467,Pagos Seguros Sociales,Pagos Seguros Sociales,AbrirDelphi|159,bVerFacturacion[AND]True[AND]bverfactrecibida[AND]bvernominas,0,464,0,,1990,FactPerRecibida,
+468,Atajos Envío Correo,Atajos Envío Correo,AbrirTipoFichero|1094,MostrarRpaAtajosEnvioCorreo,0,540,0,,292,,
+469,Pruebas Médicas Predefinidas,Pruebas Médicas,AbrirTipoFichero|1095,MostrarHistoriaClinica,0,809,0,,10,,
+476,Todos los CMI,Cuadros de Informes,"AbrirEjecutable|CuadroMandos.exe,--miCMI=1",bVerCuadroMandos[OR]esFreemium,0,106,0,,20,,
+477,Generar Igualas (Servicios),GenerarServicios,AbrirTipoFichero|1098,bMostrarServiciosCli,1,352,0,,60,,
+480,Reserva de Agenda,Reserva de Agenda,,VersionConCitaOnline,0,166,0,,10,,
+481,Reserva de Clases,Reserva de Clases,,VersionConCitaOnline[AND]bcontrolcursos[AND]FORZARVISUALIZACIONPREMIUM,0,166,0,,30,,
+482,Configurar Web,Configurar Web,AbrirTipoFichero|1101,VersionConCitaOnline[AND]bcontrolcursos,0,481,0,,10,,
+483,Enviar Enlace,Enviar Enlace,,VersionConCitaOnline[AND]bcontrolcursos,0,481,0,,20,,
+484,Correo,Correo,AbrirTipoFichero|1102,VersionConCitaOnline[AND]bcontrolcursos,0,483,0,,10,,
+485,WhatsApp,WhatsApp,AbrirTipoFichero|1103,VersionConCitaOnline[AND]bcontrolcursos[AND]bVerWhatsapp[AND]FORZARVISUALIZACIONPREMIUM,0,483,0,,20,permisoAccion:VerModuloWhatsApp,
+486,Reserva de Cursos,Reserva de Cursos,,VersionConCitaOnline[AND]VerExpedientes[AND]bcontrolcursos[AND]FORZARVISUALIZACIONPREMIUM,0,166,0,,20,,
+487,Configurar Web,Configurar Web,AbrirTipoFichero|1104,VersionConCitaOnline[AND]VerExpedientes[AND]bcontrolcursos,0,486,0,,10,,
+488,Enviar Enlace,Enviar Enlace,,VersionConCitaOnline[AND]VerExpedientes[AND]bcontrolcursos,0,486,0,,20,,
+489,Correo,Correo,AbrirTipoFichero|1105,VersionConCitaOnline[AND]VerExpedientes[AND]bcontrolcursos,0,488,0,,10,,
+490,WhatsApp,WhatsApp,AbrirTipoFichero|1106,VersionConCitaOnline[AND]VerExpedientes[AND]bcontrolcursos[AND]bVerWhatsapp[AND]FORZARVISUALIZACIONPREMIUM,0,488,0,,20,permisoAccion:VerModuloWhatsApp,
+491,Reserva de Tareas,Reserva de Tareas,,DELPHI,0,166,0,,40,,
+492,Configurar Web,Configurar Web,AbrirTipoFichero|1107,bMostrarCitaOnlineTareas,0,491,0,,10,,
+493,Enviar Enlace,Enviar Enlace,,bMostrarCitaOnlineTareas,0,491,0,,20,,
+494,Correo,Correo,AbrirTipoFichero|1108,bMostrarCitaOnlineTareas,0,493,0,,10,,
+495,WhatsApp,WhatsApp,AbrirTipoFichero|1109,bMostrarCitaOnlineTareas[AND]bVerWhatsapp[AND]FORZARVISUALIZACIONPREMIUM,0,493,0,,20,permisoAccion:VerModuloWhatsApp,
+497,Enlaces Externos,Enlaces Externos,,,0,721,0,,70,,
+498,Configurar,Configurar,AbrirTipoFichero|1086,,0,497,0,,10,,
+500,Configurar Niveles,Configurar Niveles,AbrirTipoFichero|1035,!bocultperm,0,328,0,,10,,
+501,Desbloquear Niveles,Desbloquear Niveles,AbrirTipoFichero|1110,!bocultperm,0,328,0,,20,,
+503,Tareas Predefinidas,TareasPl,AbrirTipoFichero|1033,bVerAtencionCliente[AND]!bVerTareasSubtareas[AND]bMostrarPlanificacionTareas,1,812,0,,10,,
+504,Pedidos Predefinidos,ComprasPredef,AbrirTipoFichero|1112,bVerModuloCompra,1,812,0,,40,,
+508,Enviar MN Accept,Enviar MN Sign,,VerMailAccept[AND]!bAsistenteMNSign[AND]FORZARVISUALIZACIONPREMIUM,0,459,0,,10,,
+509,Control de MN Accept,Control de MN Sign,AbrirTipoFichero|1003,VerMailAccept,0,675,0,,20,,
+510,Permisos,Permisos,AbrirTipoFichero|1119,bModuloPermisosNet,0,118,0,,20,,
+511,NivelesSeguridad,Niveles de Seguridad,AbrirTipoFichero|1035,bVerNivelesSeguridad,0,118,0,,50,,
+512,ConfigurarNivelesSeg,Configurar,AbrirTipoFichero|1035,DELPHI,0,511,0,,10,,
+513,Modelo 347,Modelo 347,AbrirTipoFichero|1121,,0,443,0,,80,permisoAccion:VerModelosAEATFactu,
+515,Modelo 696,Modelo 696,AbrirTipoFichero|1123,bVerModelo696,0,443,0,,110,permisoAccion:VerModelosAEATFactu,
+516,Modelo111,Modelo 111,AbrirTipoFichero|1128,,0,443,0,,10,permisoAccion:VerModelosAEATFactu,
+517,Modelo 115,Modelo 115,AbrirTipoFichero|1124,,0,443,0,,20,permisoAccion:VerModelosAEATFactu,
+518,Atajos Envío Whatsapp,Atajos Envío Whatsapp,AbrirTipoFichero|1125,MostrarRpaAtajosEnvioCorreo,0,540,0,,293,permisoAccion:VerModuloWhatsApp,
+519,Atajos Imprimir Plantilla,Atajos Imprimir Plantilla,AbrirTipoFichero|1126,MostrarRpaAtajosEnvioCorreo,0,540,0,,294,,
+520,Gestión de Accesos,Gestión de Accesos,,False,0,118,0,,60,GesOperaPer,
+521,Operadores,Usuarios,AbrirTipoFichero|1127,bvertrabajador[AND](esSupervisor[OR]!bocultperm),0,118,0,,10,GesOperaPer,
+525,Modelo 130,Modelo 130,AbrirTipoFichero|1138,,0,443,0,,30,permisoAccion:VerModelosAEATFactu,
+526,Modelo 180,Modelo 180,AbrirTipoFichero|1139,,0,443,0,,40,permisoAccion:VerModelosAEATFactu,
+527,Modelo 303,Modelo 303,AbrirTipoFichero|1146,,0,443,0,,70,permisoAccion:VerModelosAEATFactu,
+528,Modelo 349,Modelo 349,AbrirTipoFichero|1148,,0,443,0,,90,permisoAccion:VerModelosAEATFactu,
+529,Formularios de Registro,Formularios de Registro,,DELPHI,0,168,0,,10,,
+530,Formularios de Solicitud de Información,Formularios de Solicitud de Información,,DELPHI,0,168,0,,30,,
+531,Formularios de Venta,Formularios de Venta,,DELPHI,0,168,0,,20,,
+532,Configurar Webs,Formularios de Solicitud de Información,"AbrirEjecutable|ConfiguracionAccesoCloud.exe,formulariosregistro,1",bVerModuloFormulariosClientes[AND]FORZARVISUALIZACIONPREMIUM[AND]bVerFormulariosSolicitudInfo,0,168,0,,20,,
+533,Enviar Enlace,Enviar Enlace,,bMostrarOficinaVirtual[AND]bVerModuloFormulariosClientes,0,530,0,,2,,
+534,Correo,Correo,"AbrirTipoFichero|1072,1",bMostrarOficinaVirtual[AND]bVerModuloFormulariosClientes,0,533,0,,288,,
+535,WhatsApp,WhatsApp,"AbrirTipoFichero|1073,1",bMostrarOficinaVirtual[AND]bVerModuloFormulariosClientes,0,533,0,,289,permisoAccion:VerModuloWhatsApp,
+536,Configurar Webs,Formularios de Venta,"AbrirEjecutable|ConfiguracionAccesoCloud.exe,formulariosregistro,2",bVerModuloFormulariosClientes[AND]FORZARVISUALIZACIONPREMIUM[AND]bVerFormulariosVenta,0,168,0,,30,,
+537,Enviar Enlace,Enviar Enlace,,bMostrarOficinaVirtual[AND]bVerModuloFormulariosClientes,0,531,0,,2,,
+538,Correo,Correo,"AbrirTipoFichero|1072,2",bMostrarOficinaVirtual[AND]bVerModuloFormulariosClientes,0,537,0,,290,,
+539,WhatsApp,WhatsApp,"AbrirTipoFichero|1073,2",bMostrarOficinaVirtual[AND]bVerModuloFormulariosClientes,0,537,0,,291,permisoAccion:VerModuloWhatsApp,
+540,Atajos RPA,Atajos RPA,,MostrarRpaAtajosEnvioCorreo,0,691,0,,1,,
+541,RPA Adjuntos,RPA Adjuntos,,DELPHI,0,690,0,,70,,
+542,Capturar Adjuntos,Robot Archivador,AbrirTipoFichero|1133,MostrarRpaCapturarAdjuntos,0,1177,0,,10,,
+543,Configurar RPA Capturar Adjuntos,Configuraciones,AbrirTipoFichero|1151,MostrarRpaAtajosEnvioCorreo,0,693,0,,1,,
+544,Facturación Recibida,Facturación Recibida BETA,,DELPHI,0,351,0,,296,FactPerRecibida,
+545,Facturas Recibidas,Facturas Recibidas,AbrirModulo|48,bVerFacturacion[AND]True[AND]bverfactrecibida,0,544,0,,296,FactPerRecibida,
+546,Albaranes Recibidos,Albaranes Recibidos,AbrirModulo|59,bVerFacturacion[AND]True[AND]bverfactrecibida[AND]bverFRAlbaran,0,544,0,,2,FactPerRecibida,
+547,Pagos,Pagos,AbrirModulo|60,bVerFacturacion[AND]True[AND]bverfactrecibida,0,544,0,,297,FactPerRecibida,
+548,Contabilidad,Contabilidad BETA,,DELPHI,0,0,0,contabilidad_16x16,297,,
+549,Diario,Diario,AbrirModulo|58,bVerContabilidad[AND]True[AND]!bvermenulibregistro[AND]bverContPGC,0,548,0,,298,LibroDiario,
+550,Libro Mayor,Libro Mayor,AbrirTipoFichero|1140,bVerContabilidad[AND]True[AND]!bvermenulibregistro[AND]bverContPGC,0,548,0,,299,ListMayorPer,
+551,Balances,Balances,,bVerContabilidad[AND]True[AND]!bvermenulibregistro[AND]bverContPGC,0,548,0,,300,ListBalanceSitPer,
+552,Balance de Situación,Balance de Situación,AbrirTipoFichero|1141,bVerContabilidad[AND]True[AND]!bvermenulibregistro[AND]bverContPGC,0,551,0,,304,ListBalanceSitPer,
+553,Balance Sumas y Saldos,Balance Sumas y Saldos,AbrirTipoFichero|1142,bVerContabilidad[AND]True[AND]!bvermenulibregistro[AND]bverContPGC,0,551,0,,305,ListBalanceSumPer,
+554,Resumen Sumas y Saldos Anual,Resumen Sumas y Saldos Anual,AbrirTipoFichero|1143,bVerContabilidad[AND]True[AND]!bvermenulibregistro[AND]bverContPGC,0,551,0,,306,ListBalanceSumPer,
+555,Pérdidas y Ganancias,Pérdidas y Ganancias,AbrirTipoFichero|1144,bVerContabilidad[AND]True[AND]!bvermenulibregistro[AND]bverContPGC,0,551,0,,307,ListPerdGanPer,
+556,Estado de Cambios En el Patrimonio Neto,Estado de Cambios En el Patrimonio Neto,AbrirTipoFichero|1145,bVerContabilidad[AND]True[AND]!bvermenulibregistro[AND]bverContPGC,0,551,0,,308,ListPerdGanPer,
+557,Libros/ Modelos AEAT,Libros/ Modelos AEAT,,,0,548,0,,301,,
+558,Modelos,Modelos,,bVerContabilidad[AND]True[AND]!bvermenulibregistro[AND]bverContPGC,0,557,0,,309,,
+559,Modelo 111,Modelo 111,AbrirTipoFichero|1153,bVerContabilidad[AND]True[AND]!bvermenulibregistro[AND]bverContPGC,0,558,0,,311,IrpfNominaPer[AND]IrpfProfesPer,
+560,Modelo 115,Modelo 115,AbrirTipoFichero|1152,bVerContabilidad[AND]True[AND]!bvermenulibregistro[AND]bverContPGC,0,558,0,,312,IrpfAlquilerPer,
+561,Modelo 130,Modelo 130,AbrirTipoFichero|1154,bVerContabilidad[AND]True[AND]!bvermenulibregistro[AND]bverContPGC,0,558,0,,313,LibroIngresoPer[AND]LibroGastoPer,
+562,Modelo 180,Modelo 180,AbrirTipoFichero|1155,bVerContabilidad[AND]True[AND]!bvermenulibregistro[AND]bverContPGC,0,558,0,,314,IrpfAlquilerPer,
+563,Modelo 303,Modelo 303,AbrirTipoFichero|1149,bVerContabilidad[AND]True[AND]!bvermenulibregistro[AND]bverContPGC,0,558,0,,315,LibroIvaPer,
+564,Modelo 347,Modelo 347,AbrirTipoFichero|1156,bVerContabilidad[AND]True[AND]!bvermenulibregistro[AND]bverContPGC,0,558,0,,316,Mod347Per,
+565,Modelo 349,Modelo 349,AbrirTipoFichero|1181,,0,85,0,,80,permisoAccion:VerModelosAEATConta,
+566,Modelo 696,Modelo 696,AbrirTipoFichero|1123,bVerContabilidad[AND]True[AND]!bvermenulibregistro[AND]bverContPGC,0,558,0,,317,LibroIngresoPer,
+567,Libros,Libros,,bVerContabilidad[AND]True[AND]!bvermenulibregistro,0,557,0,,310,,
+568,Libro de Ingresos,Libro de Ingresos,AbrirTipoFichero|1091,bVerContabilidad[AND]True[AND]!bvermenulibregistro[AND]bverContPGC,0,567,0,,318,LibroIngresoPer,
+569,Libro Provisiones/Suplidos,Libro Provisiones/Suplidos,AbrirTipoFichero|1088,bVerContabilidad[AND]True[AND]!bvermenulibregistro[AND]bverContPGC,0,567,0,,319,LibProvisPer,
+570,Cuentas,Cuentas,,bVerContabilidad[AND]True,0,548,0,,302,,
+571,Cuentas,Cuentas,AbrirTipoFichero|1122,bVerContabilidad[AND]True[AND]!bvermenulibregistro[AND]bverContPGC,0,570,0,,320,CuentaPer,
+572,Estructura PGC,Estructura PGC,AbrirTipoFichero|1147,bVerContabilidad[AND]True[AND]!bvermenulibregistro[AND]bverContPGC,0,570,0,,321,CuentaPer[AND]LibroDiario,
+573,Config. Cuentas,Config. Cuentas,AbrirTipoFichero|1134,bVerContabilidad[AND]True[AND]!bvermenulibregistro[AND]bverContPGC,0,570,0,,322,ConfigCuenPer,
+574,Utilidades,Utilidades,,bVerContabilidad[AND]True[AND]!bvermenulibregistro[AND]bverContPGC,0,548,0,,303,,
+575,Herramientas de Chequeo,Herramientas de Chequeo,,bVerContabilidad[AND]True[AND]!bvermenulibregistro[AND]bverContPGC,0,574,0,,323,,
+577,Chequeo Asientos con Descuadres inferiores a 1 euro,Chequeo Asientos con Descuadres inferiores a 1 euro,AbrirTipoFichero|1158,bVerContabilidad[AND]True[AND]!bvermenulibregistro[AND]bverContPGC,0,575,0,,324,,
+579,Chequeo Cuentas erróneas,Chequeo Cuentas erróneas,AbrirTipoFichero|1160,bVerContabilidad[AND]True[AND]!bvermenulibregistro[AND]bverContPGC,0,575,0,,325,,
+581,Chequeo Contabilizado/Pendiente de Contabilizar,Chequeo Contabilizado/Pendiente de Contabilizar,AbrirTipoFichero|1162,bVerContabilidad[AND]True[AND]!bvermenulibregistro[AND]bverContPGC,0,575,0,,326,,
+582,Cursos,Cursos,AbrirTipoFichero|991,,0,424,0,,10,,
+583,Alumnos,EtiqAlumnosProp,AbrirTipoFichero|989,,1,424,0,,20,,
+584,Seleccionar Logo Empresa,Seleccionar Logo Empresa,AbrirTipoFichero|1163,,0,655,0,,40,,
+585,Chequeo Cuentas IVA/IRPF,Chequeo Cuentas IVA/IRPF,AbrirTipoFichero|1164,bVerContabilidad[AND]True[AND]!bvermenulibregistro[AND]bverContPGC,0,575,0,,327,,
+586,Expedientes Predefinidos,ExpTituloPredef,AbrirTipoFichero|1165,bVerExpedientes,1,807,0,,20,,
+587,Modelo 233,Modelo 233,AbrirTipoFichero|1129,bVerModelo233,0,443,0,,60,permisoAccion:VerModelosAEATFactu,
+588,Nóminas,Nóminas,AbrirTipoFichero|1167,bVerFacturacion[AND]True[AND]bverfactrecibida[AND]bvernominas,0,73,0,,50,FactPerRecibida,
+589,Libros,Libros,,DELPHI,0,544,0,,290,,
+591,Libro Bs Inversión Factu,Libro Bs. Inversión,AbrirTipoFichero|1169,bVerContabilidad[AND]True[AND]!bvermenulibregistro[AND]bverbienes,0,444,0,,70,permisoAccion:VerLibrosFacturacion,
+593,CuentasFac,Cuentas,,False,0,351,0,,10,,
+594,TiposIvaAuton,Tipos de IVA/IGIC,AbrirTipoFichero|1172,bverContAut,0,825,0,,60,,
+595,TiposIrpfAuton,Tipos de IRPF,AbrirTipoFichero|1173,bverContAut,0,825,0,,70,,
+596,OpeContrasena,Cambiar tu contraseña,AbrirTipoFichero|1174,!esCloud,0,118,0,,30,,
+597,TareasPredef,EtiqTareasProp,AbrirTipoFichero|1175,bVerTareasSubtareas,1,175,0,,140,,
+598,SubTareasPredef,TareasPl,AbrirTipoFichero|1176,bVerTareasSubtareas[AND]bMostrarPlanificacionTareas,1,812,0,,20,,
+599,Actualizar %IVA,Actualizar %IVA,AbrirTipoFichero|1179,bverContAut,0,1094,0,,30,,
+600,Actualizar %IRPF,Actualizar %IRPF,AbrirTipoFichero|1180,bverContAut,0,1094,0,,40,,
+601,Empresa Bonificada,Empresa Bonificada,AbrirTipoFichero|1116,bverBonificacion,0,406,0,,10,,
+602,Empresa Organizadora,Empresa Organizadora,AbrirTipoFichero|1182,bverBonificacion,0,406,0,,20,,
+603,Empresa Bonificada,Empresa Bonificada,AbrirTipoFichero|1117,bverBonificacion,0,407,0,,10,,
+604,Empresa Organizadora,Empresa Organizadora,AbrirTipoFichero|1183,bverBonificacion,0,407,0,,20,,
+605,Tarifas Predefinidas,Tarifas,AbrirTipoFichero|1184,bMostrarGestionTarifas,0,811,0,,40,,
+606,Modelo 390,Modelo 390,AbrirTipoFichero|1130,,0,443,0,,100,permisoAccion:VerModelosAEATFactu,
+607,Órdenes de Trabajo,Órdenes de Trabajo,AbrirModulo|28,bVerFacturacion[AND]True[AND]FactPerEmitida|1[AND]bverParteTrab,0,52,0,,60,FactPerEmitida,
+608,Chequeo Cuentas Sin Facturar,Chequeo Cuentas Sin Facturar,AbrirTipoFichero|1186,False,0,86,0,,10,CuentaPer[AND]LibroDiario,
+609,Chequeo Actuaciones con precio que no están en cobros y/o facturas,Chequeo Actuaciones con precio que no están en cobros y/o facturas,AbrirTipoFichero|1187,False,0,86,0,,20,CuentaPer[AND]LibroDiario,
+610,Chequeo Cobros sin facturar,Chequeo Cobros sin facturar,AbrirTipoFichero|1188,False,0,86,0,,30,CuentaPer[AND]LibroDiario,
+611,Chequeo Remesas sin cobrar y/o sin enviar a diario,Chequeo Remesas sin cobrar y/o sin enviar a diario,AbrirTipoFichero|1189,False,0,86,0,,40,CuentaPer[AND]LibroDiario,
+612,Chequeo Pagos sin facturar,Chequeo Pagos sin facturar,AbrirTipoFichero|1190,False,0,86,0,,50,CuentaPer[AND]LibroDiario,
+613,Libro de Ingresos,Libro de Ingresos,AbrirTipoFichero|1191,bVerContabilidad[AND]True[AND]!bvermenulibregistro[AND]bverContPGC,0,428,0,,60,permisoAccion:VerLibrosConta,
+614,Libro de Gastos,Libro de Gastos,AbrirTipoFichero|1192,bVerContabilidad[AND]True[AND]!bvermenulibregistro,0,444,0,,40,permisoAccion:VerLibrosFacturacion,
+615,Chequeo Facturas con Conceptos sin IVA,Chequeo Facturas con Conceptos sin IVA,AbrirTipoFichero|1195,False,0,86,0,,60,CuentaPer[AND]LibroDiario,
+616,Modelo 390,Modelo 390,AbrirTipoFichero|1196,,0,85,0,,90,permisoAccion:VerModelosAEATConta,
+617,ConfBasesDatos,Configuraciones,,,0,1,0,,180,,1
+619,ConfGeneralesBD,Generales,"AbrirEjecutable|ConfigGenerales.exe,BasesDatos",,0,617,0,,10,,1
+620,ConfGeneralesNumAuto,Contadores,AbrirTipoFichero|1258,,0,617,0,,20,,1
+621,ConfAgenda,Configuraciones,,,0,39,0,,40,,1
+623,ConfGeneralesAgenda,Generales,"AbrirEjecutable|ConfigGenerales.exe,agenda",,0,621,0,,10,,1
+624,MenuCorreo,Correo,,bMostrarCorreo[OR]esFreemium,0,0,0,correo_16x16,60,,
+625,ConfCorreo,Configuraciones,,,0,624,0,,20,,1
+627,ConfGeneralesCorreo,Generales,AbrirTipoFichero|1260,,0,625,0,,10,,1
+628,PlantillasCorreo,Plantillas de Correo,"AbrirEjecutable|Correo.exe,plantillas,correo",,0,625,0,,20,,1
+629,ConfAdjuntos,Configuraciones,,,0,47,0,,50,,1
+630,ConfGeneralesAdjuntos,Generales,"AbrirEjecutable|ConfigGenerales.exe,Documentacion",,0,629,0,,10,,1
+631,ConfFacturacion,Configuraciones,,,0,351,0,,70,,1
+633,ConfGeneralesFactuGen,Generales,AbrirTipoFichero|1259,,0,631,0,,10,,1
+634,ConfGeneralesFactCont,Contadores,AbrirTipoFichero|1258,!esFreemium,0,631,0,,20,,1
+635,PlantillasWordFactu,Plantillas de Word,AbrirTipoFichero|1198,bMostrarPlantillasWord,0,631,0,,50,,1
+636,PlantillasCorreoFactu,Plantillas de Correo,"AbrirEjecutable|Correo.exe,plantillas,correo",!esFreemium,0,631,0,,60,,1
+637,ConfTesoreria,Configuraciones,,,0,352,0,,90,,1
+639,ConfGeneralesTesoGen,Generales,"AbrirEjecutable|ConfigGenerales.exe,Cobros",,0,637,0,,10,,1
+640,ConfGeneralesTesoCont,Contadores,AbrirTipoFichero|1258,,0,637,0,,20,,1
+641,PlantillasWordTeso,Plantillas de Word,AbrirTipoFichero|1199,bMostrarPlantillasWord,0,637,0,,30,,1
+642,PlantillasCorreoTeso,Plantillas de Correo,"AbrirEjecutable|Correo.exe,plantillas,correo",,0,637,0,,40,,1
+643,ConfContabilidad,Configuraciones,,,0,79,0,,90,,1
+645,ConfGeneralesConta,Generales,"AbrirEjecutable|ConfigGenerales.exe,TipoContabilidad",!esFreemiumFactu,0,643,0,,10,,1
+646,ConfGeneralesContaCont,Contadores,AbrirTipoFichero|1258,!esFreemiumFactu,0,643,0,,30,,1
+648,ConfTimeReport,Configuraciones,,,0,353,0,,40,,1
+650,ConfGeneralesTR,Generales,"AbrirEjecutable|ConfigGenerales.exe,TR",,0,648,0,,10,,1
+651,ConfControlHorario,Configuraciones,,DELPHI,0,191,0,,40,,1
+654,PlantillasCorreoControlHorario,Plantillas de Correo,"AbrirEjecutable|Correo.exe,plantillas,correo",,0,651,0,,20,,1
+655,ConfPlantillas,Configuraciones,,,0,176,0,,90,,1
+657,ConfGeneralesPlantillas,Generales,"AbrirEjecutable|ConfigGenerales.exe,Plantillas",,0,655,0,,10,,1
+658,MenuPlanificacion,Planificación,,HijosVisibles-659,0,0,0,tareas_16x16,79,,
+659,ConfTareas,Configuraciones,,,0,658,0,,50,,1
+661,ConfGeneralesTareasGen,Generales,AbrirTipoFichero|1261,,0,659,0,,10,,1
+662,ConfGeneralesTareasCont,Contadores,AbrirTipoFichero|1258,,0,659,0,,20,,1
+663,PlantillasWordTareas,Plantillas de Word,AbrirTipoFichero|1202,bMostrarPlantillasWord,0,659,0,,30,,1
+664,PlantillasCorreoTareas,Plantillas de Correo,"AbrirEjecutable|Correo.exe,plantillas,correo",,0,659,0,,40,,1
+665,ConfCompras,Configuraciones,,DELPHI,0,705,0,,10,,1
+667,PlantillasWordCompras,Plantillas de Word,AbrirTipoFichero|1194,,0,665,0,,10,,1
+668,PlantillasCorreoCompras,Plantillas de Correo,"AbrirEjecutable|Correo.exe,plantillas,correo",,0,665,0,,20,,1
+671,ConfGeneralesOporGen,OportunidadesPl,AbrirTipoFichero|1262,bvercontroloportunidad,1,949,0,,1,,1
+672,ConfGeneralesOporCont,Contadores,AbrirTipoFichero|1258,bvercontroloportunidad,0,949,0,,4,,1
+673,PlantillasWord,Plantillas de Word,AbrirTipoFichero|1194,bvercontroloportunidad[OR]bVerComisiones,0,949,0,,5,,1
+674,PlantillasCorreo,Plantillas de Correo,"AbrirEjecutable|Correo.exe,plantillas,correo",bvercontroloportunidad[OR]bVerModuloValoracionesServicio[OR]esFreemium,0,949,0,,6,,1
+675,MenuMNSign,MN Sign,,VerMailAccept,0,1159,0,,10,,
+676,ConfMNSign,Configuraciones,,DELPHI,0,675,0,,60,,1
+678,ConfGeneralesMNSignGen,Generales,"AbrirEjecutable|ConfigGenerales.exe,FirmaElectronica",,0,676,0,,10,,1
+679,PlantillasWordMNSign,Plantillas de Word,AbrirTipoFichero|1194,DELPHI,0,676,0,,20,,1
+680,PlantillasCorreoMNSign,Plantillas de Correo,"AbrirEjecutable|Correo.exe,plantillas,correo",,0,676,0,,30,,1
+681,ConfFirmaElec,Configuraciones,,DELPHI,0,110,0,,10,,1
+683,PlantillasWordFirmaElec,Plantillas de Word,AbrirTipoFichero|1194,,0,681,0,,10,,1
+684,PlantillasCorreoFirmaElec,Plantillas de Correo,"AbrirEjecutable|Correo.exe,plantillas,correo",,0,681,0,,20,,1
+685,MenuEmailer,Emailer,,DELPHI,0,1178,0,emailer_16x16,40,bVerEmailer,
+686,ConfEmailer,Configuraciones,,,0,685,0,,405,,1
+688,MenuConfEmailer,Generales,AbrirTipoFichero|1197,,0,686,0,,1,,1
+689,PlantillasCorreoEmailer,Plantillas de Correo,"AbrirEjecutable|Correo.exe,plantillas,correo",,0,686,0,,4,,1
+690,MenuRPA,Automatizaciones,,bverrecordatorios|1[OR]bVerModuloValoracionesServicio[OR]esFreemium[OR]MostrarRpaAtajosEnvioCorreo[OR]MostrarRpaCapturarAdjuntos,0,872,0,clock_16x16,60,,
+691,ConfRPA,Configuraciones,,DELPHI,0,690,0,,120,,1
+693,ConfRPAAdjuntos,RPA Adjuntos,,,0,691,0,,2,,1
+694,ConfGeneralesRPAGen,Generales,"AbrirEjecutable|ConfigGenerales.exe,FirmaElectronica",DELPHI,0,691,0,,4,,1
+695,PlantillasWordRPA,Plantillas de Word,AbrirTipoFichero|1194,,0,691,0,,5,,1
+696,PlantillasCorreoRPA,Plantillas de Correo,"AbrirEjecutable|Correo.exe,plantillas,correo",,0,691,0,,6,,1
+700,Configuraciones,Configuraciones,,esCloud,0,858,0,,5,,1
+702,ConfGeneralesFormsWeb,Formularios Web,"AbrirEjecutable|ConfigGenerales.exe,FormulariosClientes",,0,700,0,,417,,1
+704,MenuTareas,Tareas,,DELPHI,0,658,0,,10,,
+705,MenuCompras,Compras,,DELPHI,0,658,0,,40,,
+707,Configurar Web Reserva de Agenda,Configurar Web Reserva de Agenda,AbrirTipoFichero|1228,bMostrarCitaOnlineCitas,0,167,0,,1,,1
+709,MenuAccesoWebCli,Acceso Clientes,,DELPHI,0,165,0,,123,,
+710,MenuAccesoWebProf,Acceso Profesores,,DELPHI,0,165,0,,2,,
+715,AbrirServiciosMN,Servicio,AbrirEjecutable|ServiciosMNprogram.exe,bVerModuloValoracionesServicio[OR]esFreemium,0,949,0,,10,,1
+716,MenuWhatsapp,WhatsApp,,False,0,0,0,whatsapp_16x16,208,,
+717,ConfWhatsapp,Configuraciones,,,0,716,0,,437,,1
+719,ConfGeneralesWhatsapp,Generales,"AbrirEjecutable|ConfigGenerales.exe,Whatsapp",,0,717,0,,1,permisoAccion:VerModuloWhatsApp,1
+720,PlantillasWhatsapp,Plantillas de WhatsApp,AbrirTipoFichero|1028,,0,717,0,,2,permisoAccion:VerModuloWhatsApp,1
+721,MenuMasModulos,Más Módulos,,,0,0,0,importación_16x16,250,,
+722,ConfOdonto,Configuraciones,,,0,147,0,,30,,1
+724,ConfGeneralesOdonto,Generales,"AbrirEjecutable|ConfigGenerales.exe,Odontograma",,0,722,0,,10,,1
+725,ConfLexnet,Configuraciones,,,0,432,0,,60,,1
+727,ConfGeneralesLexnet,Generales,"AbrirEjecutable|ConfigGenerales.exe,Lexnet",,0,725,0,,10,,1
+728,MenuBonos,Bonos,,VerSistemaBonos,0,0,0,bonos_16x16,130,,
+729,ConfBonos,Configuraciones,,,0,728,0,,20,,1
+731,ConfGeneralesBonos,Generales,"AbrirEjecutable|ConfigGenerales.exe,BasesDatos",,0,729,0,,10,,1
+732,MenuRecetas,Recetas Médicas,,bverReceta,0,0,0,recetas_16x16,120,,
+733,ConfRecetas,Configuraciones,,bMostrarPlantillasWord,0,732,0,,30,,1
+734,PlantillasWordRecetas,Plantillas de Word,AbrirTipoFichero|1200,,0,733,0,,10,,1
+735,ConfCalificaciones,Configuraciones,,,0,424,0,,30,,1
+737,ConfGeneralesCalif,Generales,"AbrirEjecutable|ConfigGenerales.exe,Calificaciones",,0,735,0,,10,,1
+738,ConfClases,Configuraciones,,,0,127,0,,60,,1
+739,ConfGeneralesClases,Generales,"AbrirEjecutable|ConfigGenerales.exe,BasesDatos",,0,738,0,,10,,1
+740,LibroIrpfTipoOperacion,Libro de IRPF por Tipo de Operación,AbrirTipoFichero|1201,,0,444,0,,60,permisoAccion:VerLibrosFacturacion,
+741,PlantillasWordBD,Plantillas de Word,AbrirTipoFichero|1194,bMostrarPlantillasWord,0,617,0,,30,,1
+742,PlantillasCorreoBD,Plantillas de Correo,"AbrirEjecutable|Correo.exe,plantillas,correo",,0,617,0,,40,,1
+743,PlantillasWhatsAppBD,Plantillas de WhatsApp,AbrirTipoFichero|1028,bVerWhatsapp,0,617,0,,50,permisoAccion:VerModuloWhatsApp,1
+744,PlantillasWordAge,Plantillas de Word,AbrirTipoFichero|1194,bMostrarPlantillasWord,0,621,0,,20,,1
+745,PlantillasCorreoAge,Plantillas de Correo,"AbrirEjecutable|Correo.exe,plantillas,correo",,0,621,0,,30,,1
+746,PlantillasWhatsAppAge,Plantillas de WhatsApp,AbrirTipoFichero|1028,bVerWhatsapp,0,621,0,,40,permisoAccion:VerModuloWhatsApp,1
+748,PlantillasWhatsFact,Plantillas de WhatsApp,AbrirTipoFichero|1028,bVerWhatsapp,0,631,0,,70,permisoAccion:VerModuloWhatsApp,1
+750,PlantillasWhatsTeso,Plantillas de WhatsApp,AbrirTipoFichero|1028,bVerWhatsapp,0,637,0,,50,permisoAccion:VerModuloWhatsApp,1
+755,PlantillasWhatsPlanif,Plantillas de WhatsApp,AbrirTipoFichero|1028,bVerWhatsapp,0,659,0,,50,permisoAccion:VerModuloWhatsApp,1
+760,PlantillasWhatsMNSign,Plantillas de WhatsApp,AbrirTipoFichero|1028,bVerWhatsapp[AND]FORZARVISUALIZACIONPREMIUM,0,676,0,,40,permisoAccion:VerModuloWhatsApp,1
+762,PlantillasWhatsRPA,Plantillas de WhatsApp,AbrirTipoFichero|1028,bVerWhatsapp[AND]FORZARVISUALIZACIONPREMIUM,0,691,0,,7,permisoAccion:VerModuloWhatsApp,1
+763,ConfValoraciones,Valoraciones,"AbrirEjecutable|ConfigGenerales.exe,Valoraciones",bVerModuloValoracionesServicio[OR]esFreemium,0,949,0,,2,,1
+764,PlantillasWhatsOpor,Plantillas de WhatsApp,AbrirTipoFichero|1028,bVerWhatsapp[AND]FORZARVISUALIZACIONPREMIUM,0,949,0,,7,permisoAccion:VerModuloWhatsApp,1
+765,ConfGenComisiones,Comisiones,"AbrirEjecutable|ConfigGenerales.exe,Comisiones",bVerComisiones,0,949,0,,3,,1
+772,ConfSeguridad,Configuraciones,,esCloud,0,118,0,,110,,1
+774,ConfGeneralesSegur,Generales,"AbrirEjecutable|ConfigGenerales.exe,Seguridad",,0,772,0,,10,,1
+775,LibroIVAOperacionConta,Libro de IVA por Tipo de Operación,AbrirTipoFichero|1203,bVerContabilidad[AND]True[AND]!bvermenulibregistro[AND]bverContPGC,0,428,0,,50,permisoAccion:VerLibrosConta,
+790,LibroIRPFOperacionConta,Libro de IRPF por Tipo de Operación,AbrirTipoFichero|1204,bVerContabilidad[AND]True[AND]!bvermenulibregistro[AND]bverContPGC,0,428,0,,10,permisoAccion:VerLibrosConta,
+791,Sign Avanzado de Adjunto por Correo,Sign Avanzado de Adjunto por Correo,FirmaMN|8,VerMailAccept,0,508,0,,50,,
+792,Sign Avanzado de Adjunto por Whatsapp,Sign Avanzado de Adjunto por Whatsapp,FirmaMN|9,VerMailAccept[AND]bVerWhatsapp,0,508,0,,60,permisoAccion:VerModuloWhatsApp,
+793,PlantillasCorreoLexnet,Plantillas de Correo,"AbrirEjecutable|Correo.exe,plantillas,correo",,0,725,0,,20,,1
+794,PlantillasWordBonos,Plantillas de Word,AbrirTipoFichero|1194,bMostrarPlantillasWord,0,729,0,,20,,1
+795,PlantillasWordCalif,Plantillas de Word,AbrirTipoFichero|1194,bMostrarPlantillasWord,0,735,0,,20,,1
+798,TicketBai,TicketBai,,bVerTicketBAI,0,351,0,,40,,
+799,Facturas TicketBai,Facturas TicketBai,AbrirTicketBai|,bVerTicketBAI,0,798,0,,10,,
+800,ConfFacturacion,Configuraciones,,bVerTicketBAI,0,798,0,,20,,1
+802,ConfGeneralesFactuGen,Generales,"AbrirEjecutable|ConfigGenerales.exe,Facturacion",,0,800,0,,10,,1
+803,ConfGeneralesFactCont,Contadores,"AbrirEjecutable|ConfigGenerales.exe,numeracion",,0,800,0,,20,,1
+804,PlantillasWordFactu,Plantillas de Word,AbrirTipoFichero|1198,,0,800,0,,30,,1
+805,LiqIva303,Liquidación Mod. 303,AbrirTipoFichero|1205,,0,444,0,,80,permisoAccion:VerLibrosFacturacion,
+806,Firmas,Firmas,AbrirTipoFichero|1206,,0,625,0,,30,,
+807,Expedientes,EtiqExpedientesProp,,bVerExpedientes,1,175,0,,30,,
+808,Historial y Agenda,Historial y Agenda,,bVerControlHistorial[OR]bVerNuevaAgenda,0,175,0,,40,,
+809,Historia Clínica,Historia Clínica,,MostrarHistoriaClinica,0,175,0,,50,,
+810,Odontograma,Odontograma,,bverodontograma[OR]bVerPlanTratamiento,0,175,0,,60,,
+811,Facturación,Facturación,,bVerFacturacion[OR]bverfactrecibida,0,175,0,,70,,
+812,Planificación ,Planificación ,,bVerAtencionCliente[OR]bVerModuloCompra[OR]bMostarArticulos,0,175,0,,80,,
+813,Oportunidades,OportunidadesPl,,bvercontroloportunidad,1,175,0,,90,,
+814,Pediatría,Pediatría,,bVerPediatria,0,175,0,,100,,
+815,Bonos,Bonos,,VerSistemaBonos,0,175,0,,110,,
+816,Vencimientos/Pólizas,Vencimientos/Pólizas,,bverficvencimientos,0,175,0,,120,,
+817,Predefinidos,Predefinidos,,bvercentros[OR]bVerExpedientes,0,617,0,,70,,
+818,Centros Predefinidos,CentrosPredefinidos,AbrirTipoFichero|1026,bvercentros,1,817,0,,10,,
+819,Expedientes Predefinidos,ExpTituloPredef,AbrirTipoFichero|1165,bVerExpedientes,1,1183,0,,10,,
+820,Tipos de Expedientes Predefinidos,TipExpTituloPredef,AbrirTipoFichero|1062,bVerExpedientes,1,1183,0,,20,,
+821,Asuntos Predefinidos,Asuntos Predefinidos,AbrirTipoFichero|12,bvertipoasunto[AND]bVerExpedientes,0,817,0,,40,TipoAsuPer,
+822,Procedimientos Predefinidos,Procedimientos Predefinidos,AbrirTipoFichero|13,bverprocedimiento[AND]bVerExpedientes,0,817,0,,50,ProcediPer,
+823,Predefinidos,Predefinidos,,,0,621,0,,50,,
+824,Actuaciones Predefinidas,Actuaciones,AbrirTipoFichero|1025,,0,823,0,,10,,
+825,Predefinidos,Predefinidos,,,0,631,0,,100,,
+826,Servicios Predefinidos,EtiqHonorariosPred,AbrirTipoFichero|1046,bverhonopredef,1,825,0,,10,DerPer,
+827,Gastos Predefinidos,Gastos,AbrirTipoFichero|1120,,0,825,0,,20,FactPerRecibida,
+828,Suplidos Predefinidos,Suplidos,AbrirTipoFichero|1099,bverprovsup,0,825,0,,30,SupliPer,
+829,Predefinidos,Predefinidos,,,0,637,0,,70,,
+830,Servicios Predefinidos,EtiqHonorariosPred,AbrirTipoFichero|1046,bverhonopredef,1,829,0,,10,DerPer,
+831,Predefinidos,Predefinidos,,,0,648,0,,30,,
+832,Actuaciones Predefinidas,Actuaciones,AbrirTipoFichero|1025,,0,831,0,,10,,
+833,Predefinidos,Predefinidos,,,0,659,0,,80,,
+834,Tareas Predefinidas,EtiqTareasProp,AbrirTipoFichero|1175,bMostrarPlanificacionTareas[AND]bVerTareasSubtareas,1,833,0,,10,,
+835,Subtareas Predefinidas,TareasPl,AbrirTipoFichero|1176,bMostrarPlanificacionTareas[AND]bVerAtencionCliente,1,833,0,,20,,
+836,Pedidos Predefinidos,Compras,AbrirTipoFichero|1112,bVerModuloCompra,1,833,0,,30,,
+837,Predefinidos,Predefinidos,,,0,949,0,,9,,
+838,Oportunidades Predefinidas,OporPredef,AbrirTipoFichero|1024,bvercontroloportunidad,1,837,0,,0,,
+839,Predefinidos,Predefinidos,,,0,722,0,,30,,
+840,Tratamientos Predefinidos,Tratamientos,AbrirTipoFichero|1084,,0,839,0,,10,,
+841,Vencimientos/Pólizas,Vencimientos/Pólizas,,bverficvencimientos,0,0,0,vencimientos_16x16,242,,
+842,ConfigVencimientos,Configuraciones,,,0,841,0,,20,,1
+843,Predefinidos,Predefinidos,,,0,842,0,,10,,
+844,Vencimientos Predefinidos,Vencimientos Predefinidos,AbrirDelphi|101,,0,843,0,,10,,
+845,Predefinidos,Predefinidos,,,0,729,0,,30,,
+846,Bonos Predefinidos,Bonos,"AbrirEjecutable|OtrosModulos.exe,BonosPredefinidos",,0,845,0,,10,,
+850,EnvioRPA,Enviar RPA,,DELPHI,0,690,0,,60,,
+851,EnviarCorreoRPA,Enviar Correo con RPA,AbrirTipoFichero|1207,DELPHI,0,690,0,,80,,
+852,EnviarWhatsappRPA,Enviar WhatsApp con RPA,AbrirTipoFichero|1208,DELPHI,0,690,0,,90,permisoAccion:VerModuloWhatsApp,
+853,ImprimirRPA,Imprimir Plantilla con RPA,AbrirTipoFichero|1209,DELPHI,0,690,0,,100,,
+854,Stock,Stock,,bMostarArticulos,0,721,0,,10,,
+855,Artículos,Artículos,AbrirModulo|54,bMostarArticulos,0,854,0,,10,,
+856,Movimientos de Stock,Movimientos de Stock,AbrirModulo|12,bMostarArticulos[AND]bMostarStock[AND]bVerFacturacion,0,854,0,,20,,
+857,Entradas/Salidas de Almacén,Entradas/Salidas de Almacén,AbrirDelphi|155,DELPHI,0,854,0,,30,,
+858,Oficina Virtual,Oficina Virtual,,DELPHI,0,872,0,accesocloud_16x16,141,,
+859,Acceso Trabajadores,MN program Web,Navegador|http://www.mnprogramweb.net,,0,872,0,accesocloud_16x16,70,,
+861,Plantillas Predeterminadas,Plantillas Predeterminadas,"AbrirTipoFichero|1210,2",bMostrarPlantillasWord,0,631,0,,90,,1
+862,Plantillas Predeterminadas,Plantillas Predeterminadas,"AbrirTipoFichero|1210,3",bMostrarPlantillasWord,0,637,0,,60,,1
+863,Plantillas Predeterminadas,Plantillas Predeterminadas,"AbrirTipoFichero|1210,4",,0,659,0,,60,,1
+864,Plantillas Predeterminadas,Plantillas Predeterminadas,"AbrirTipoFichero|1210,5",bvercontroloportunidad,0,949,0,,8,,1
+865,Plantillas Predeterminadas,Plantillas Predeterminadas,"AbrirTipoFichero|1210,6",,0,733,0,,20,,1
+866,Plantillas Predeterminadas,Plantillas Predeterminadas,"AbrirTipoFichero|1210,8",,0,722,0,,20,,1
+867,Plantillas Predeterminadas,Plantillas Predeterminadas,"AbrirTipoFichero|1210,9",,0,717,0,,4,permisoAccion:VerModuloWhatsApp,1
+868,Plantillas Predeterminadas,Plantillas Predeterminadas,"AbrirTipoFichero|1210,11",,0,725,0,,30,,1
+869,Plantillas Predeterminadas,Plantillas Predeterminadas,"AbrirTipoFichero|1210,7",bcontrolcursos[AND]bMostrarPlantillasWord,0,617,0,,60,,1
+870,Plantillas Predeterminadas,Plantillas Predeterminadas,"AbrirTipoFichero|1210,7",bvercontrolAsistencia,0,129,0,,20,,1
+871,ConfGeneralesAccCli,MN program Web,"AbrirEjecutable|ConfigGenerales.exe,AccesoClientes",,0,700,0,,3,,1
+872,ModPremium,Módulos Premium,,,0,0,0,,300,,
+873,Servicios Contratados,Servicios,AbrirTipoFichero|1211,bMostrarServiciosCli,1,52,0,,70,,
+876,Emisores Facturas,Emisores Facturas,AbrirTipoFichero|1212,bPermitirFactDifCIF,0,631,0,,30,,
+877,MN program Web,MN program Web,,DELPHI,0,872,0,accesocloud_16x16,70,,
+878,Recursos,Recursos,,bVerRecursos[AND]!bvercamas,0,658,0,,70,,1
+879,Recursos,Recursos,AbrirModulo|55,bVerRecursos[AND]!bvercamas,0,878,0,,10,,
+880,Control Movimientos Recursos,Control Movimientos Recursos,AbrirModulo|64,bVerRecursos[AND]!bvercamas,0,878,0,,20,,
+881,Control de Tesorería,Control de Tesorería,AbrirModulo|62,bVerControlTesoreria,0,352,0,,40,accesoTesoreria,
+882,ConfMFA,Verificación en dos pasos,"AbrirEjecutable|ConfigGenerales.exe,MFA",esCloud,0,118,0,,40,,1
+883,Mascotas,TituloMascotaPl,AbrirModulo|63,bVerMascotas,1,1,0,,160,,
+884,CuentasEmailer,Cuentas,AbrirTipoFichero|1213,bVerEmailer,0,686,0,,2,,1
+885,FirmasEmailer,Firmas,"AbrirEjecutable|Emailer.exe,3",bVerEmailer,0,686,0,,3,,1
+886,Histórico Informes,Histórico Informes,AbrirTipoFichero|1214,bVerCuadroMandos[OR]esFreemium,0,106,0,,40,,
+890,TPV,TPV,,bvertpv,0,52,0,,90,,0
+891,AbrirTPV,TPV,AbrirEjecutable|TPV.exe,bvertpv,0,890,0,,0,,0
+892,ConfTPV,Configuraciones,,,0,890,0,,1,,1
+893,ConfGeneralesTPV,Generales,"AbrirEjecutable|ConfigGenerales.exe,TPV",,0,892,0,,0,,1
+894,Escalas,EtiqCuestionarios,,bverescalas,1,0,0,escalas,170,,0
+895,ControlRespuestasEscalas,EtiqControlRespuestasCuestionarios,AbrirModulo|65,bvercontrolrespuestasescalas,1,894,0,,20,,0
+896,ConfEscalas,Configuraciones,,,0,894,0,,40,,1
+897,ConfEscalasPredefinidas,EtiqCuestionariosPredefinidos,AbrirTipoFichero|1216,,1,896,0,,10,,1
+899,Formularios de Solicitud de Servicio,Formularios de Solicitud de Servicio,,DELPHI,0,168,0,,40,,
+900,Configurar Webs,Formularios de Solicitud de Servicio,"AbrirEjecutable|ConfiguracionAccesoCloud.exe,formulariosregistro,3",bVerModuloFormulariosClientes[AND]bVerAtencionCliente[AND]FORZARVISUALIZACIONPREMIUM[AND]bVerFormulariosSolicitudServ,0,168,0,,40,,
+901,Enviar Enlace,Enviar Enlace,,bMostrarOficinaVirtual[AND]bVerModuloFormulariosClientes,0,899,0,,2,,
+902,Correo,Correo,"AbrirTipoFichero|1072,3",bMostrarOficinaVirtual[AND]bVerModuloFormulariosClientes,0,901,0,,1,,
+903,WhatsApp,WhatsApp,"AbrirTipoFichero|1073,3",bMostrarOficinaVirtual[AND]bVerModuloFormulariosClientes,0,901,0,,2,permisoAccion:VerModuloWhatsApp,
+905,Lexnet,Lexnet,,ComprobarEjecutable|Lexnet.exe[AND]bVerLexnet,0,432,0,,10,,
+906,Escritos en Cola,Escritos en Cola,AbrirTipoFichero|1218,ComprobarEjecutable|Lexnet.exe[AND]bVerLexnet[AND]bMostrarEscritosColaLexnet,0,905,0,,20,,
+907,MenuPIA,Plan Individual,,bVerControlPIA,0,0,0,pia_16x16,160,,
+908,Control PIA,Control de PIA,AbrirModulo|66,,0,907,0,,10,,
+909,ConfPIA,Configuración,,,0,907,0,,30,,1
+910,PlantillasWordPIA,Plantillas de Word,AbrirTipoFichero|1220,bMostrarPlantillasWord,0,909,0,,10,,
+911,PredefinidosPIA,Predefinidos,,,0,909,0,,20,,
+912,ObjetivosPredefPIA,Objetivos,AbrirTipoFichero|1219,,0,911,0,,10,,
+914,PIA,PIA,,bVerControlPIA,0,175,0,,150,,
+915,Objetivos Predefinidos,Objetivos,AbrirTipoFichero|1219,,0,914,0,,10,,
+917,ControlEscalas,EtiqControlCuestionarios,AbrirModulo|67,,1,894,0,,10,,0
+919,Artículos Predefinidos,Artículos,AbrirTipoFichero|1217,bMostarArticulos,0,829,0,,20,,
+923,Calendario de Obligaciones,Calendario de Obligaciones,AbrirTipoFichero|1223,bMostrarCalendarioObligaciones[AND]!bMostrarPlanificacionTareas,0,928,0,,20,,0
+926,Tareas,TareasPl,,(!bMostrarPlanificacionTareas)[AND](bVerAtencionCliente),1,0,0,tareas_plazos_16x16,70,,
+927,Tareas,TareasPl,AbrirModulo|49,bVerAtencionCliente[AND]!bTipoTareaMenuPrincipal,1,926,0,,10,,
+928,ConfTareas,Configuraciones,,,0,926,0,,30,,
+929,ConfGeneralesTareasGen,Generales,"AbrirEjecutable|ConfigGenerales.exe,AtencionCliente",,0,928,0,,10,,
+930,Predefinidos,Predefinidos,,,0,928,0,,30,,
+931,Tareas Predefinidas,EtiqTareasProp,AbrirTipoFichero|1175,bVerTareasSubtareas,1,930,0,,10,,
+932,Subtareas Predefinidas,TareasPl,AbrirTipoFichero|1176,bVerAtencionCliente,1,930,0,,20,,
+935,Monitorización,Monitorización,AbrirModulo|68,bVerMonitorizacion,0,1176,0,,20,permisoAccion:ControlHorarioMonitorizacion,
+936,Artículos Predefinidos,Artículos,AbrirTipoFichero|1217,bMostarArticulos,0,825,0,,40,,
+937,Artículos Predefinidos,Artículos,AbrirTipoFichero|1217,bMostarArticulos,0,829,0,,30,,
+938,Artículos Predefinidos,Artículos,AbrirTipoFichero|1217,bMostarArticulos,0,811,0,,50,,
+940,Calendario de Obligaciones,Calendario de Obligaciones,AbrirTipoFichero|1223,bMostrarCalendarioObligaciones[AND]bMostrarPlanificacionTareas,0,659,0,,70,,0
+941,controlTrabajos,EtiqTareasProp,AbrirModulo|70,bVerTareasSubtareas[AND]bMostrarPlanificacionTareas,1,658,0,,30,,
+942,controlTrabajos2,EtiqTareasProp,AbrirModulo|70,bVerTareasSubtareas[AND]!bMostrarPlanificacionTareas,1,926,0,,20,,
+943,Recall,Recall,AbrirTipoFichero|1226,bVerRecall,0,39,0,,20,,
+945,Fichaje,Fichaje,,,0,191,0,,10,,
+946,ConfGeneralesMonitorizacion,Monitorización,"AbrirEjecutable|ConfigGenerales.exe,Monitorizacion",,0,651,0,,10,,1
+947,PlantillasCorreoTimeReport,Plantillas de Correo,"AbrirEjecutable|Correo.exe,plantillas,correo",,0,648,0,,20,,1
+949,ConfiguracionesMasModulosPremium,Configuraciones,,DELPHI,0,944,0,,110,,
+951,TareasPredefinidasMenu,TareasPl,,!bMostrarPlanificacionTareas[AND]bVerAtencionCliente,1,175,0,,130,,
+952,TareasPredefinidasTareas,EtiqTareasProp,AbrirTipoFichero|1175,bVerTareasSubtareas[AND]!bMostrarPlanificacionTareas,1,951,0,,20,,
+953,TareasPredefinidasSubTareas,TareasPl,AbrirTipoFichero|1176,!bMostrarPlanificacionTareas,1,951,0,,10,,
+954,TareasPredefPlanificacion,EtiqTareasProp,AbrirTipoFichero|1175,bVerTareasSubtareas[AND]bMostrarPlanificacionTareas,1,812,0,,30,,
+955,WhatsappBusiness,Whatsapp Business,,configuracionCom:WhatsappBusiness|Activado,0,716,0,,2,,1
+956,WhatsappRecordatorios,Recordatorios Automáticos,"AbrirEjecutable|Emailer.exe,5",,0,955,0,,1,permisoAccion:VerModuloWhatsApp,1
+957,WhatsappWeb,Whatsapp Web,AbrirTipoFichero|1075,configuracionCom:WhatsappBusiness|Activado,0,716,0,,1,permisoAccion:VerModuloWhatsApp,1
+958,PlantillasWhatsappBsns,Plantillas Whatsapp Business,AbrirTipoFichero|1229,configuracionCom:WhatsappBusiness|Activado,0,176,0,,80,permisoAccion:VerModuloWhatsApp,1
+959,PlantillasWhatsappBsns2,Plantillas Whatsapp Business,AbrirTipoFichero|1229,configuracionCom:WhatsappBusiness|Activado,0,717,0,,3,permisoAccion:VerModuloWhatsApp,1
+960,validacionGastos,Validación de Gastos,AbrirTipoFichero|1253,bVerValidacionGastos,0,73,0,,70,,1
+1003,Modelo 190,Modelo 190,AbrirTipoFichero|1225,,0,85,0,,50,permisoAccion:VerModelosAEATConta,0
+1004,Modelo 190,Modelo 190,AbrirTipoFichero|1224,,0,443,0,,50,permisoAccion:VerModelosAEATFactu,0
+1005,Reserva de Agenda,Reserva de Agenda,AbrirTipoFichero|1230,bMostrarCitaOnlineCitas,0,480,0,,10,,
+1006,Reserva Online SoloUnaConfig,Reserva Online,,DELPHI,0,858,0,,4,,
+1007,Reserva de Agenda,Reserva de Agenda,AbrirTipoFichero|1230,bMostrarCitaOnlineCitas[AND]FORZARVISUALIZACIONPREMIUM,0,1006,0,,1,,
+1008,Enviar Enlace,Enviar Enlace,,bMostrarCitaOnlineCitas[AND]FORZARVISUALIZACIONPREMIUM,0,1006,0,,2,,
+1009,Correo,Correo,AbrirTipoFichero|1082,bMostrarCitaOnlineCitas,0,1008,0,,1,,
+1010,WhatsApp,WhatsApp,AbrirTipoFichero|1083,bMostrarCitaOnlineCitas,0,1008,0,,2,permisoAccion:VerModuloWhatsApp,
+1011,Configurar Web,Configuraciones,,bMostrarCitaOnlineCitas[AND]FORZARVISUALIZACIONPREMIUM,0,1006,0,,3,,
+1012,Configurar Web Reserva de Agenda,Configurar Web Reserva de Agenda,AbrirTipoFichero|1228,bMostrarCitaOnlineCitas,0,1011,0,,1,,
+1013,Configurar Web,Configurar Web Reserva de Cursos,AbrirTipoFichero|1104,bMostrarCitaOnlineCursos[AND]FORZARVISUALIZACIONPREMIUM,0,1006,0,,1,,
+1014,Enviar Enlace,Enviar Enlace,,bMostrarCitaOnlineCursos[AND]FORZARVISUALIZACIONPREMIUM,0,1006,0,,2,,
+1015,Correo,Correo,AbrirTipoFichero|1105,bMostrarCitaOnlineCursos,0,1014,0,,1,,
+1016,WhatsApp,WhatsApp,AbrirTipoFichero|1106,bMostrarCitaOnlineCursos,0,1014,0,,2,permisoAccion:VerModuloWhatsApp,
+1017,Configurar Web,Configurar Web Reserva de Clases,AbrirTipoFichero|1101,bMostrarCitaOnlineClases[AND]FORZARVISUALIZACIONPREMIUM,0,1006,0,,1,,
+1018,Enviar Enlace,Enviar Enlace,,bMostrarCitaOnlineClases[AND]FORZARVISUALIZACIONPREMIUM,0,1006,0,,2,,
+1019,Correo,Correo,AbrirTipoFichero|1102,bMostrarCitaOnlineClases,0,1018,0,,1,,
+1020,WhatsApp,WhatsApp,AbrirTipoFichero|1103,bMostrarCitaOnlineClases,0,1018,0,,2,permisoAccion:VerModuloWhatsApp,
+1021,Configurar Web,Configurar Web Reserva de Tareas,AbrirTipoFichero|1107,bMostrarCitaOnlineTareas[AND]FORZARVISUALIZACIONPREMIUM,0,1006,0,,1,,
+1022,Enviar Enlace,Enviar Enlace,,bMostrarCitaOnlineTareas[AND]FORZARVISUALIZACIONPREMIUM,0,1006,0,,2,,
+1023,Correo,Correo,AbrirTipoFichero|1108,bMostrarCitaOnlineTareas,0,1022,0,,1,,
+1024,WhatsApp,WhatsApp,AbrirTipoFichero|1109,bMostrarCitaOnlineTareas,0,1022,0,,2,permisoAccion:VerModuloWhatsApp,
+1025,Inmuebles,TituloInmueblePl,AbrirModulo|69,bVerInmuebles[AND]!bVerPortalesInmobiliarios,1,0,0,stock_16x16,25,,
+1026,recursosCamas,Habitaciones y Camas,AbrirModulo|55,bvercamas,0,0,0,Habitaciones_y_camas,180,,
+1027,Sin Empresas Participantes,Sin Empresas Participantes,AbrirTipoFichero|1115,bverBonificacion,0,405,0,,10,,0
+1028,Con Empresas Participantes,Con Empresas Participantes,AbrirTipoFichero|1233,bverBonificacion,0,405,0,,20,,0
+1029,ConfGeneralesFactCont,Contadores,AbrirModulo|1232,esFreemium,0,631,0,,40,,1
+1030,Grupos de Empresa,Grupos de Empresas,AbrirTipoFichero|1234,bverBonificacion,0,406,0,,30,,0
+1031,Grupos de Empresa,Grupos de Empresas,AbrirTipoFichero|1235,bverBonificacion,0,407,0,,30,,0
+1032,WhatsappChat,Chat,AbrirTipoFichero|1237,configuracionCom:WhatsappBusiness|Activado,0,955,0,,2,permisoAccion:VerModuloWhatsApp,1
+1033,Comprobaciones Modelos,Comprobaciones Modelos,,!bOcultarModelosAEAT,0,442,0,,30,,0
+1034,Modelos 303 y 390,Modelos 303 y 390,AbrirTipoFichero|1236,,0,1033,0,,50,permisoAccion:VerModelosAEATFactu,0
+1035,Comprobaciones Modelos,Comprobaciones Modelos,,!bOcultarModelosAEAT,0,81,0,,30,,0
+1036,Modelos 303 y 390,Modelos 303 y 390,AbrirTipoFichero|1238,,0,1035,0,,40,permisoAccion:VerModelosAEATConta,0
+1037,EnlacesEscalas,Enviar Enlace,,esCloud[AND]bMostrarCuestionariosWeb[AND]webAngular,0,894,0,,30,,0
+1038,EnlacesEscalasCorreo,Por Correo,AbrirTipoFichero|1239,,0,1037,0,,10,,0
+1039,EnlacesEscalasWhatsapp,Por Whatsapp,AbrirTipoFichero|1240,,0,1037,0,,20,permisoAccion:VerModuloWhatsApp,0
+1040,Escalas,EtiqCuestionariosWeb,,DELPHI,1,1159,0,,20,,0
+1041,ConfEscalasPredefinidas,EtiqCuestionariosWeb,AbrirTipoFichero|1216,esCloud[AND]bMostrarCuestionariosWeb[AND]bverescalas,1,675,0,,40,,1
+1042,EnlacesEscalas,Enviar Enlace,,esCloud[AND]bMostrarCuestionariosWeb[AND]webAngular[AND]bverescalas,0,1040,0,,10,,0
+1043,EnlacesEscalasCorreo,Por Correo,AbrirTipoFichero|1239,esCloud[AND]bMostrarCuestionariosWeb[AND]webAngular[AND]bverescalas,0,1042,0,,10,,0
+1044,EnlacesEscalasWhatsapp,Por Whatsapp,AbrirTipoFichero|1240,esCloud[AND]bMostrarCuestionariosWeb[AND]webAngular[AND]bverescalas,0,1042,0,,20,permisoAccion:VerModuloWhatsApp,0
+1045,Modelo 347,Modelo 347,AbrirTipoFichero|1241,,0,1033,0,,60,permisoAccion:VerModelosAEATFactu,0
+1046,Modelo 347,Modelo 347,AbrirTipoFichero|1242,,0,1035,0,,50,permisoAccion:VerModelosAEATConta,0
+1047,Modelo 349,Modelo 349,AbrirTipoFichero|1243,,0,1033,0,,70,permisoAccion:VerModelosAEATFactu,0
+1048,Modelo 349,Modelo 349,AbrirTipoFichero|1244,,0,1035,0,,60,permisoAccion:VerModelosAEATConta,0
+1049,Modelos 111 y 190,Modelos 111 y 190,AbrirTipoFichero|1245,,0,1033,0,,10,permisoAccion:VerModelosAEATFactu,0
+1050,Modelos 111 y 190,Modelos 111 y 190,AbrirTipoFichero|1246,,0,1035,0,,10,permisoAccion:VerModelosAEATConta,0
+1051,Modelo 130,Modelo 130,AbrirTipoFichero|1247,,0,1033,0,,30,permisoAccion:VerModelosAEATFactu,0
+1052,Modelo 130,Modelo 130,AbrirTipoFichero|1248,,0,1035,0,,30,permisoAccion:VerModelosAEATConta,0
+1053,ConfGeneralesContaFreemiumFactu,Generales,"AbrirTipoFichero|1251,2",esFreemiumFactu,0,643,0,,20,,1
+1054,PlantillasPredeterminadasFreemiumFactu,Plantillas Predeterminadas,AbrirTipoFichero|1210,esFreemiumFactu,0,631,0,,80,,1
+1055,Modelos 115 y 180,Modelos 115 y 180,AbrirTipoFichero|1249,,0,1033,0,,20,permisoAccion:VerModelosAEATFactu,0
+1057,Modelos 115 y 180,Modelos 115 y 180,AbrirTipoFichero|1250,,0,1035,0,,20,permisoAccion:VerModelosAEATConta,0
+1058,Propiedades,Propiedades,,False,0,0,0,sala_azul,298,,
+1059,Propiedades,Propiedades,AbrirModulo|69,,0,1058,0,,10,,
+1060,Portales Inmobiliarios,Portales Inmobiliarios,"AbrirEjecutable|ConfigGenerales.exe,PortalesInmobiliarios",bVerPortalesInmobiliarios,0,1058,0,,20,,
+1061,depurarMandatos,Herramientas de Chequeo,AbrirTipoFichero|1254,,0,418,0,,10,,0
+1062,Modelo 233,Modelo 233,AbrirTipoFichero|1255,bVerModelo233,0,1033,0,,40,permisoAccion:VerModelosAEATFactu,0
+1063,Inmuebles,TituloInmueblePl,,bVerInmuebles[AND]bVerPortalesInmobiliarios,1,0,0,stock_16x16,25,,
+1064,Inmuebles,TituloInmueblePl,AbrirModulo|69,bVerInmuebles,1,1063,0,,1,,
+1065,ConfInmuebles,Configuraciones,,,0,1063,0,,2,,1
+1066,Portales Inmobiliarios,Portales Inmobiliarios,"AbrirEjecutable|ConfigGenerales.exe,PortalesInmobiliarios",bVerPortalesInmobiliarios,0,1065,0,,1,,
+1067,SelEncabezado,Seleccionar Encabezado,AbrirTipoFichero|1256,,0,655,0,,20,,
+1068,SelPiePagina,Seleccionar Pie de Página,AbrirTipoFichero|1257,,0,655,0,,30,,
+1069,Controles Médicos,Controles Médicos,,MostrarControlesMedicos,0,175,0,,20,,
+1070,Controles Médicos Predefinidos,Controles Médicos,AbrirTipoFichero|1263,MostrarControlesMedicos,0,1069,0,,10,,0
+1071,RRHH,RRHH,,bVerRrhh[AND]FORZARVISUALIZACIONPREMIUM,0,872,0,controlhorario_16x16,140,bVerRrhh,
+1072,Trabajadores,Trabajadores,AbrirModulo|40,bVerRrhh,0,1071,0,,1,,
+1073,Turnos y Ausencias,Turnos y Ausencias,,bVerRrhh,0,1071,0,,2,,
+1074,Control Horario,Control Horario,,bVerRrhh,0,1071,0,,3,,
+1075,Fichaje,Fichaje,,bVerRrhh,0,1074,0,,10,,
+1076,Inicio Jornada,Inicio Jornada,"AbrirTipoFichero|1076,0",bVerTimeReport[OR]bWorkControlHorario[OR]esFreemium,0,1075,0,,1,,
+1077,Fin Jornada,Fin Jornada,"AbrirTipoFichero|1076,1",bVerTimeReport[OR]bWorkControlHorario[OR]esFreemium,0,1075,0,,2,,
+1078,Inicio Descanso,Inicio Descanso,"AbrirTipoFichero|1076,2",bVerTimeReport[OR]bWorkControlHorario[OR]esFreemium,0,1075,0,,3,,
+1079,Fin Descanso,Fin Descanso,"AbrirTipoFichero|1076,3",bVerTimeReport[OR]bWorkControlHorario[OR]esFreemium,0,1075,0,,4,,
+1080,Historial de Fichajes,Historial de Fichajes,"AbrirModulo|39,2",bWorkControlHorario,0,1074,0,,20,permisoAccion:ControlHorarioHistorialFichajes,
+1081,Informes,Informes,"AbrirModulo|39,3",bVerInformesTR,0,1074,0,,30,permisoAccion:ControlHorarioInformes,
+1082,Monitorización,Monitorización,AbrirModulo|68,DELPHI,0,1071,0,,4,permisoAccion:ControlHorarioMonitorizacion,
+1083,OporFreemiumMenu,OportunidadesPl,,esFreemiumFactu[AND]bvercontroloportunidad,1,721,0,,70,,
+1084,OporFreemiumModulo,OportunidadesPl,AbrirModulo|1,esFreemiumFactu,1,1083,0,,10,,
+1085,OporFreemiumConfig,Configuraciones,,esFreemiumFactu,0,1083,0,,20,,
+1086,OporFreemiumConfigMod,Generales,AbrirTipoFichero|1262,esFreemiumFactu,0,1085,0,,10,,
+1087,OporFreemiumPredef,Predefinidos,,esFreemiumFactu,0,1083,0,,30,,
+1088,OporFreemiumPredefMod,OportunidadesPl,AbrirTipoFichero|1024,esFreemiumFactu,1,1087,0,,10,,
+1089,ConfStock,Configuraciones,,,0,854,0,,50,,1
+1090,ConfGeneralesStock,Generales,AbrirTipoFichero|1264,,0,1089,0,,10,,1
+1091,ConfGeneralesStockCont,Contadores,AbrirTipoFichero|1258,False,0,1089,0,,20,,1
+1092,Predefinidos,Predefinidos,,False,0,1089,0,,30,,
+1093,Pedidos Predefinidos,Compras,AbrirTipoFichero|1112,bVerModuloCompra,1,1092,0,,10,,
+1094,FactUtiles,Utilidades,,bvereliminarfacturasnocobros[OR]bMostrarHerramientasChequeo,0,351,0,,60,,
+1095,HerraCheqFact,Herramientas de Chequeo,AbrirTipoFichero|1265,bMostrarHerramientasChequeo,0,1094,0,,10,,
+1096,TesoreriaUtiles,Utilidades,,bMostrarHerramientasChequeo,0,352,0,,80,,
+1097,HerraCheqTesor,Herramientas de Chequeo,AbrirTipoFichero|1266,bMostrarHerramientasChequeo,0,1096,0,,10,,
+1098,PresVet,PRESVET,AbrirTipoFichero|1268,bRecetaPresVet,0,732,0,,20,,
+1099,Control de Turnos y Ausencias,Control de Turnos y Ausencias,AbrirModulo|72,bVerRrhh,0,1073,0,,2,permisoAccion:AccesoControlTurnos,
+1100,Solicitar Vacaciones/Ausencia,Solicitar Vacaciones/Ausencia,AbrirTipoFichero|1269,bVerRrhh,0,1073,0,,2,,
+1101,CalendarioTurnos,Calendario,AbrirTipoFichero|1270,bVerRrhh,0,1073,0,,1,,
+1102,Buscar Ficha,Buscar Ficha,AbrirTipoFichero|1273,,0,1,0,,10,,
+1103,Buscar Expedientes,ExpBuscarExp,AbrirTipoFichero|1272,bVerExpedientes,1,6,0,,10,ExpPer,
+1104,[Grupo]RegistroDatos,Registro de Datos,,,0,0,0,,30,,
+1105,[Grupo]GestionInmuebles,Gestión de Inmuebles,,,0,0,0,,10,,
+1106,[Grupo]GestionExpedientes,func:etiqTitGrupoGestionExpedientes,,bVerExpedientes,1,0,0,,20,,
+1107,[Grupo]GestorDocumental,Gestor Documental,,,0,0,0,,42,,
+1108,[Grupo]Agenda,Agenda,,,0,0,0,,52,,
+1109,[Grupo]Comunicaciones,Comunicaciones,,,0,0,0,,62,,
+1110,[Grupo]Odontologia,Odontología,,,0,0,0,,72,,
+1111,[Grupo]RecetasMedicas,Recetas Médicas,,,0,0,0,,82,,
+1112,[Grupo]Lexnet,Lexnet,,,0,0,0,,92,,
+1113,[Grupo]ImputacionTiempos,Imputación de Tiempos,,,0,0,0,,102,,
+1114,[Grupo]Historial,Historial,,,0,0,0,,112,,
+1115,[Grupo]PlanIndividual,Plan Individual,,,0,0,0,,122,,
+1116,[Grupo]RegistroMedicacion,Registro Medicación,,,0,0,0,,132,,
+1117,[Grupo]Planificacion,Planificación,,HijosVisibles-659,0,0,0,,142,,
+1118,[Grupo]Logistica,Logística,,,0,0,0,,152,,
+1119,[Grupo]GestionComercial,Gestión Comercial,,,0,0,0,,162,,
+1120,[Grupo]GestionRecobros,Gestión de Recobros,,,0,0,0,,172,,
+1121,[Grupo]GestionEconomica,Gestión Económica,,,0,0,0,,182,,
+1122,[Grupo]GestionPlantillas,Gestión de Plantillas,,,0,0,0,,66,,
+1123,[Grupo]Atajos,Atajos,,DELPHI,0,0,0,,63,,
+1124,[Grupo]Recursos,Recursos,,,0,0,0,,212,,
+1125,[Grupo]Informes,Informes,,,0,0,0,,222,,
+1126,[Grupo]Seguridad,Seguridad,,,0,0,0,,232,,
+1127,[Grupo]Utilidades,Utilidades,,,0,0,0,,242,,
+1128,[Grupo]ModulosPremium,Módulos Premium,,,0,0,0,,252,,
+1129,Potenciales,func:EtiqPotenciales|true,AbrirModulo|29,bverpotenciales,1,1119,0,,102,clipotenper,
+1130,MisAtajos,Mis Atajos,AbrirTipoFichero|1276,bverAtajos,0,690,0,,40,,
+1131,GrupoFirma,MN Sign,,False,0,0,0,,1007,,
+1132,ParamPuestas,Configuraciones,"AbrirEjecutable|ConfigGenerales.exe,Parametrización",False,0,0,0,,1017,,
+1133,papeleracli,Papelera de Reciclaje,AbrirTipoFichero|1274,bVerPapeleraReciclaje,0,1,0,,170,permisoAccion:VerPapeleraReciclaje,
+1134,papeleraexp,Papelera de Reciclaje,AbrirTipoFichero|1275,bVerPapeleraReciclaje,0,6,0,,30,permisoAccion:VerPapeleraReciclaje,
+1135,[Grupo]GestionUsuarios,Gestión de Usuarios,,esSupervisor[AND]bvertrabajador,0,0,0,,1,,
+1136,GestionUsuarios,Usuarios,AbrirTipoFichero|1127,esSupervisor[AND]bvertrabajador,0,1135,0,Operadores,1,,
+1137,GestionPermisos,Permisos,AbrirTipoFichero|1119,esSupervisor[AND]bModuloPermisosNet,0,1135,0,Permisos1,2,,
+1138,MenuExpedientes,EtiqExpedientesProp,,bVerExpedientes,1,1106,0,expedientes_16x16,222,ExpPer,
+1139,MenuAlumnos,EtiqAlumnosProp,,bveralumno[AND]bcontrolcursos[AND]bVerExpedientes,1,1106,0,basesdatos_16x16,212,ExpPer,
+1140,AlumnosGrupo,EtiqAlumnosProp,AbrirModulo|38,bveralumno[AND]bcontrolcursos[AND]bVerExpedientes,1,1139,0,basesdatos_16x16,214,ExpPer,
+1141,BuscarAlumno,Buscar Ficha,AbrirTipoFichero|1273,bveralumno[AND]bcontrolcursos[AND]bVerExpedientes,1,1139,0,ico_buscar_ficha,213,ExpPer,
+1142,papeleraalum,Papelera de Reciclaje,AbrirTipoFichero|1274,bVerPapeleraReciclaje,1,1139,0,papelera_16x16,214,ExpPer,
+1144,Expedientes2,EtiqExpedientesProp,AbrirModulo|31,bVerExpedientes[AND]!bTipoExpMenuPrincipal,1,6,0,,20,ExpPer,
+1145,Expedientes3,EtiqExpedientesProp,AbrirModulo|31,False,1,6,0,,40,ExpPer,
+1146,NuevoInforme,Informes,AbrirTipoFichero|1277,bMostrarInformes,0,0,0,informes_sencillos_16x16,2708,,
+1147,Cuadro de Mando,Informes,"AbrirEjecutable|CuadroMandos.exe,--sencillos=1",bVerCuadroMandos[OR]esFreemium,0,106,0,,10,,
+1148,VeriFactu,Veri*Factu,,bActivarVeriFActu,0,351,0,,45,,
+1149,Facturas VeriFactu,Facturas Veri*Factu,AbrirVeriFactu|,bActivarVeriFActu,0,1148,0,,10,,
+1150,ConfFacturacion,Configuraciones,,bActivarVeriFActu,0,1148,0,,20,,1
+1151,ConfGeneralesFactuGen,Generales,"AbrirEjecutable|ConfigGenerales.exe,Facturacion",,0,1150,0,,10,,1
+1152,ConfGeneralesFactCont,Contadores,"AbrirEjecutable|ConfigGenerales.exe,numeracion",,0,1150,0,,20,,1
+1153,PlantillasWordFactu,Plantillas de Word,AbrirTipoFichero|1198,,0,1150,0,,30,,1
+1154,Seguimientos,Seguimientos,,bVerEscalasSeguimiento,0,0,0,escalas,171,,0
+1155,ControlSeguimientos,Control de Seguimientos,"AbrirModulo|67,variante=1",bVerEscalasSeguimiento,0,1154,0,,10,,0
+1156,ConfSeguimientos,Configuraciones,,bVerEscalasSeguimiento,0,1154,0,,20,,1
+1157,ConfSeguimientosPredef,Seguimientos Predefinidos,AbrirTipoFichero|1278,bVerEscalasSeguimiento,0,1156,0,,10,,1
+1158,AsistenteMNSign,Enviar MN Sign,AbrirTipoFichero|1279,VerMailAccept[AND]FORZARVISUALIZACIONPREMIUM,0,675,0,,10,,0
+1159,moduloConfirmSign,Control de Firmas,,bVerMNDocSign[OR]VerMailAccept,0,872,0,icono_MnSignAzul,30,,0
+1160,exportarConfigs,Exportar Configuraciones,AbrirTipoFichero|1281,,0,721,0,,40,esSupervisor,0
+1161,importarConfigs,Importar Configuraciones,AbrirTipoFichero|1282,,0,721,0,,50,esSupervisor,0
+1162,Control de WhatsApp,Control de WhatsApp,AbrirModulo|73,bVerComunicacionesCorp,0,872,0,iconoCuentasEmpresa,50,,0
+1163,MenuAIController,Recordatorios Automáticos,AbrirEjecutable|RecordatoriosAutomaticos.exe,bVerIControler,0,1178,0,,10,,
+1165,Plantillas Legales,Plantillas Legales,AbrirTipoFichero|1284,bVerPlantillasLegales,0,176,0,,20,,
+1169,Compras,Compras,AbrirModulo|51,False,1,0,0,Control_de_compras,850,,
+1170,ConfGeneralesTR,Configuraciones,"AbrirEjecutable|ConfigGenerales.exe,TimeReport,39,40,no,2",bWorkControlHorario,0,191,0,,50,,
+1171,ReglasAutoActuacionesPredef,Reglas Automáticas Actuaciones,AbrirTipoFichero|1286,MostrarRpaReglasAutomaticas,0,1179,0,,20,,
+1172,Control de Correos,Correos Corporativos,AbrirModulo|74,bVerControlCorreo,0,872,0,correo_16x16,40,,0
+1173,Control de Pendientes,Control de Pendientes,"AbrirEjecutable|CuadroMandos.exe,--sencillos=1,--controlPendientes",bVerCuadroMandos[OR]esFreemium,0,106,0,,30,,
+1174,Imputacion Gastos,Imputaciones de Gastos,"AbrirModulo|39,0,pestanaSel=3",(bVerTimeReport[OR]esFreemium)[AND]bVerPestanaGastos,0,353,0,,20,,
+1176,Control de Tiempos,Control de Tiempos,,,0,872,0,time_report_16x16,20,,
+1177,adjuntosAutomatizaciones,Adjuntos,,,0,690,0,,10,,
+1178,correoAutomatizaciones,Correo,,,0,690,0,,20,,
+1179,historialAutomatizaciones,Historial,,,0,690,0,,30,,
+1180,EnvioFacturasEmailer,Envío de Facturas,"AbrirEjecutable|Emailer.exe,6",MostrarEnvioDeFacturas,0,1178,0,,20,,
+1181,MN Import,MN Import,AbrirTipoFichero|1288,bVerImportador,0,721,0,,35,,
+1182,Configuracion Expedientes,Configuraciones,,bVerExpedientes,0,6,0,,50,,
+1183,Predefinidos,Predefinidos,,bVerExpedientes,0,1182,0,,10,,
+1184,VacacionesAusencias,Vacaciones y Ausencias,AbrirTipoFichero|1289,bWorkControlHorario,0,191,0,,49,,
+1185,VeriFactu,Veri*Factu,"AbrirModulo|21,variante=2",False,0,351,0,,45,,
+1187,ChatGPT,ChatGPT,AbrirTipoFichero|1290,bVerChatGPT,0,872,0,ico_chatgpt_azul_16x16,119,,
+1188,Informe de Vacaciones,Informe de Vacaciones,AbrirTipoFichero|1291,esProductoControlDeTiempos,0,0,0,,1000,,
+1189,Informe de Ausencias,Informe de Ausencias (Hoy),AbrirTipoFichero|1292,esProductoControlDeTiempos,0,0,0,,1000,,
+1190,Informe de Retrasos,Informe de Retrasos,AbrirTipoFichero|1293,esProductoControlDeTiempos,0,0,0,,1002,,
+1191,Informe de Trabajadores sin Horario (Hoy),Informe Sin Horario (Hoy),AbrirTipoFichero|1294,esProductoControlDeTiempos,0,0,0,,1003,,
+1192,Informe Detallado de Fichajes,Informe Detallado de Fichajes,"AbrirModulo|39,3=4",esProductoControlDeTiempos,0,0,0,,1005,,
+1193,Informe de Fichajes,Informe de Fichajes,"AbrirModulo|39,3=5",esProductoControlDeTiempos,0,0,0,,1004,,
+1207,Actualiza a Veri*factu,EtiquetaAccesoCarcasaVeriFactu,AbrirTipoFichero|1298,false,7,1143,0,,70,,

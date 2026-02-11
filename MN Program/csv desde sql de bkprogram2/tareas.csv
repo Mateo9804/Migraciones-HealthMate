@@ -1,0 +1,4 @@
+﻿fecha,hora,linea,tarea,completada,notas,origen,inumdcto,iyear,fechaactdcto,lineaactdcto,codsubusu,fechaaviso,horaaviso,tipoaviso,alarma,fechaal,horaal,palmid,backcolor,modified_on,id,ident_app,idDispositivo,uuidRecordatorio,migrada
+2006-01-17 00:00:00,1899-12-30 12:00:00,1,REVISAR DOCUMENTACIÓN,0,,,,,,,0,2006-01-17 00:00:00,,Cita/Llamada,0,,1899-12-30 08:00:00,,,2000-01-01 00:00:00,1,,,,
+2006-01-17 00:00:00,1899-12-30 12:00:00,2,CITA CON CLIENTE,0,,,,,,,0,2006-01-17 00:00:00,,Cita/Llamada,0,,1899-12-30 08:00:00,,,2000-01-01 00:00:00,2,,,,
+2012-11-30 00:00:00,1899-12-30 12:00:00,0,INGRESO BANCO,0,,,,,,,0,2012-11-30 00:00:00,,Cita/Llamada,0,,1899-12-30 08:00:00,,,2000-01-01 00:00:00,3,,,,

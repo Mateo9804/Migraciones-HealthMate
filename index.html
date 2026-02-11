@@ -9,11 +9,21 @@
 <body>
     <div class="container">
         <div class="header">
-            <h1>📁 Subir Archivos</h1>
-            <p>Sube archivos CSV, XML o JSON</p>
+            <h1>📁 Migraciones HealthMate</h1>
+            <p>Procesa archivos CSV, XML o JSON según la base de datos</p>
         </div>
 
-        <div class="upload-area" id="uploadArea">
+        <div class="page-selector">
+            <label for="pageSelect">Selecciona la base de datos:</label>
+            <select id="pageSelect" class="select-page" required>
+                <option value="">-- Selecciona una base de datos --</option>
+                <option value="clinni">Clinni</option>
+                <option value="dricloud">DriCloud</option>
+                <option value="mnprogram">MN Program</option>
+            </select>
+        </div>
+
+        <div class="upload-area" id="uploadArea" style="display: none;">
             <div class="upload-content">
                 <svg class="upload-icon" viewBox="0 0 24 24" fill="none" stroke="currentColor">
                     <path d="M21 15v4a2 2 0 0 1-2 2H5a2 2 0 0 1-2-2v-4"></path>
@@ -22,17 +32,34 @@
                 </svg>
                 <h2>Arrastra y suelta archivos aquí</h2>
                 <p>o</p>
-                <button class="btn-select" id="selectBtn">Seleccionar archivos</button>
-                <p class="file-types">Formatos permitidos: .csv, .xml, .json</p>
+                <div class="upload-buttons">
+                    <button class="btn-select" id="selectBtn">Seleccionar archivos</button>
+                    <button class="btn-select-folder" id="selectFolderBtn">Seleccionar carpeta</button>
+                </div>
+                <p class="file-types" id="fileTypesText">Formatos permitidos: .csv, .xml, .json</p>
             </div>
-            <input type="file" id="fileInput" multiple accept=".csv,.xml,.json" hidden>
+            <input type="file" id="fileInput" multiple hidden>
+            <input type="file" id="folderInput" webkitdirectory="" directory="" multiple hidden>
         </div>
 
         <div class="files-list" id="filesList"></div>
 
         <div class="actions" id="actions" style="display: none;">
-            <button class="btn-upload" id="uploadBtn">Subir archivos</button>
+            <button class="btn-upload" id="uploadBtn">Procesar archivos</button>
             <button class="btn-clear" id="clearBtn">Limpiar lista</button>
+        </div>
+
+        <div class="result-section" id="resultSection" style="display: none;">
+            <div class="result-card">
+                <h3>✅ Procesamiento completado</h3>
+                <p>Los archivos han sido procesados exitosamente.</p>
+                <a id="downloadBtn" class="btn-download" href="#" download>
+                    📥 Descargar resultados (ZIP)
+                </a>
+                <button id="processMoreBtn" class="btn-process-more">
+                    🔄 Procesar más archivos
+                </button>
+            </div>
         </div>
     </div>
 

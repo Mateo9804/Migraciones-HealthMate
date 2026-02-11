@@ -1,0 +1,132 @@
+﻿id,idform,tipo,subtipo,titulo,orden,eliminado,valordefecto,bloqueado
+2,2,1,0,Motivo Consulta,0,False,,
+3,2,1,0,Antecedentes,1,False,,
+4,2,1,0,Diagnóstico,2,False,,
+5,2,1,0,Tratamiento,3,False,,
+6,3,1,0,Mediación,0,False,,
+100000001,100000001,2,0,Agudeza Visual,0,False,,
+100000002,100000001,1,0,Observaciones,0,False,,
+100000003,100000001,0,5,Fecha Próxima Revisión,0,False,,
+100000011,100000005,1,0,Motivo de Consulta,0,False,,
+100000012,100000005,1,0,Antecedentes Personales,1,False,,
+100000013,100000005,1,0,Antecedentes Familiares,2,False,,
+100000014,100000005,1,0,Antecedentes Oftalmológico,0,False,,
+100000015,100000005,1,0,Alergias,3,False,,
+100000016,100000005,1,0,Medicación actual,4,False,,
+100000017,100000005,1,0,Observaciones importantes,5,False,,
+100000018,100000005,0,4,Distancia interpupilar,0,False,,
+100000019,100000006,2,0,OJO DERECHO,0,False,,
+100000020,100000006,0,0,PRISMA,1,False,,
+100000021,100000006,0,0,BASE,2,False,,
+100000022,100000006,0,0,GRADOS,3,False,,
+100000023,100000006,2,0,OJO IZQUIERDO,4,False,,
+100000024,100000006,0,0,PRISMA,5,False,,
+100000025,100000006,0,0,BASE,6,False,,
+100000026,100000006,0,0,GRADOS,7,False,,
+100000027,100000007,1,0,Motivo de Consulta,0,False,,
+100000028,100000001,2,0,Su Gafa,1,False,,
+100000029,100000001,0,0,VP ad-OD,2,False,,
+100000030,100000001,0,0,VP ad-OI,3,False,,
+100000031,100000001,0,0,Gafa actual,4,False,,
+100000032,100000007,2,0,Agudeza Visual,1,False,,
+100000033,100000007,2,0,Subjetivo sin Dilatar,2,False,,
+100000034,100000007,2,0,Subjetivo Dilatado,3,False,,
+100000035,100000007,1,0,Segmento Anterior,4,False,,
+100000036,100000007,1,0,Segmento Posterior,5,False,,
+100000037,100000008,2,0,Aérea,0,False,,
+100000038,100000008,2,0,Ósea,1,False,,
+100000039,100000008,2,0,Rinne,2,False,,
+100000040,100000008,2,0,Weber,3,False,,
+100000041,100000008,2,0,Enmascamiento,4,False,,
+100000042,100000009,1,0,Motivo Consulta,0,False,,
+100000043,100000009,0,5,Fecha Última Regla,1,False,,
+100000044,100000009,1,0,Citología,2,False,,
+100000045,100000009,1,0,Exploración Mamaria,3,False,,
+100000047,100000011,2,0,Nueva Tabla,0,True,,False
+100000048,100000011,1,0,Antecedentes familiares,0,False,,False
+100000049,100000011,0,1,¿Eres fumador?,3,False,,False
+100000050,100000012,0,4,Operar antes de (días),0,False,,False
+100000051,100000012,0,5,Intervención el,1,False,,False
+100000052,100000012,2,0,Antecedentes Familiares,2,False,,False
+100000053,100000012,2,0,Antecedentes Personales I-Enfermedades Infantiles,3,False,,False
+100000054,100000012,2,0,Antecedentes Personales II,4,False,,False
+100000055,100000012,0,0,Otras:,5,False,,False
+100000056,100000012,0,1,Grupo Sanguíneo:,6,False,,False
+100000057,100000012,0,0,Tensión Arterial:,7,False,,False
+100000058,100000012,1,0,Antecedentes Ginecológicos:,8,False,"Menarquía:
+Fórmula Menstrual:
+Intensidad: 
+F.U.R.: 
+Dismenorrea:
+T. Premenstrual:
+Menopausia:
+Trastornos Climatéricos",False
+100000059,100000012,2,0,Antecedentes Ginecológicos:,9,False,,False
+100000060,100000012,2,0,Menograma:??,10,False,,False
+100000061,100000012,1,0,Historia Sexual:,11,False,"Edad de Comienzo:
+Frecuencia/Dispaurenía:
+Satisfactorias:",False
+100000062,100000012,2,0,Método Anticonceptivo: ,12,False,,False
+100000063,100000012,2,0,Antecedenes Obstétricos:,13,False,,False
+100000064,100000012,1,0,Exploración Tocoginecológica:,14,False,"Mama Derecha:
+
+
+Mama izquierda:
+Periné:
+Vulva:
+Vagina:
+Cuello:
+
+
+Utero:
+Anexos:
+Parámetrios:
+Douglas:
+Recto:
+Abdomen:
+Peso:
+T. Arterial:",False
+100000065,100000012,1,0,Exploraciones Complementarias:,15,False,"Papanicolau:
+Colposcopia:
+Biopsia:
+Ecografía:
+Histeroscopia:
+Microlegrado:
+Otras:",False
+100000066,100000012,1,0,Analísticas:,16,False,"Grupo:      RH:                     Hemograma:       P. de Coagulación:
+Otras:
+",False
+100000067,100000012,1,0,Diagnóstico:,17,False,,False
+100000068,100000012,1,0,Tratamientos:,18,False,,False
+100000069,100000012,1,0,RPA:,19,False,"Fecha:           
+Evolución:
+Ecografía:
+Reconocimiento:
+Mét. Anticonceptivo:
+Analítica y/o exploraciones complementarias:",False
+100000071,100000015,1,0,Receta,0,False,"Medicamento: 
+
+Duración: 
+
+Dosificación: 
+
+Instrucciones: ",False
+100000072,100000011,1,0,¿Enfermedades crónicas? Cuales?,1,False,,False
+100000073,100000011,0,0,"Si el campo anterior es afirmativo, ¿desde cuando?",2,False,,False
+100000074,100000011,0,1,¿Duermen bien?,4,False,,False
+100000075,100000016,1,0,Motivo Consulta,0,False,,False
+100000076,100000016,1,0,Comentario,0,False,,False
+2000000001,2000000001,0,5,Fecha Última Menstruación,1,False,,True
+2000000002,2000000001,0,5,Fecha Probable de Parto,2,False,,True
+2000000003,2000000002,1,0,Motivo Consulta,0,False,,True
+2000000004,2000000002,1,0,Antecedentes,1,False,,True
+2000000005,2000000002,1,0,Diagnóstico,2,False,,True
+2000000006,2000000002,1,0,Tratamientos,3,False,,True
+2000000007,2000000003,0,5,Fecha última regla,1,False,,True
+2000000008,2000000003,0,0,Semana de gestación,2,False,,True
+2000000009,2000000004,0,4,Peso (kg),1,False,,True
+2000000010,2000000004,0,4,Altura (m),2,False,,True
+2000000011,2000000004,0,0,IMC,3,False,,True
+2000000012,2000000005,0,5,Fecha última regla,1,False,,True
+2000000013,2000000005,0,0,Semana de gestación,2,False,,True
+2000000014,2000000005,0,5,Fecha Probable de Parto,3,False,,True

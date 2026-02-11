@@ -1,0 +1,1885 @@
+﻿id,tabla,campo,etiqueta,usarEtiquetasIni,propVisualizacion,tiposPlantilla
+1,linefact,nombremascota,Nombre Mascota,,bVerMascotas,
+2,linefacthono,nombremascota,Nombre Mascota,,bVerMascotas,
+3,linefactarticulos,nombremascota,Nombre Mascota,,bVerMascotas,
+4,facturas,nombremascota,Nombre Mascota,,bVerMascotas,
+5,clientes,paisexpedicion,País de Expedición,,,
+6,clientes,tipoidentificacion,Tipo Documento,,,
+7,liquidaciones,saldoFilaAbs,Saldo (Absoluto),,,
+8,totalescalcint,totalSaldoAbs,Saldo (Absoluto),,,
+9,camposCombinados,DIRECCION_DESCRIP_HONOAGRUPADO,,,,#
+10,alumpruebasevaluables,alumnopruebaevaluable,Nombre Alumno,,,
+11,alumpruebasevaluables,nifalumpruebaevaluable,Nif Alumno,,,
+12,alumpruebasevaluables,notamedia,Nota Media,,,
+13,alumpruebasevaluables,notamediatexto,Nota Media Texto,,,
+14,pruebasevaluables,calificacionletra,Calificación,,,
+15,pruebasevaluables,fechapruebaevaluable,Fecha,,,
+16,pruebasevaluables,notaspruebaevaluable,Notas,,,
+17,pruebasevaluables,periodolectivo,Periodo Lectivo,,,
+18,pruebasevaluables,pruebaevaluable,Prueba Evaluable,,,
+19,pruebasevaluables,puntuacionpruebaevaluable,Puntuación,,,
+20,director,movil,Móvil,,,
+21,recetasMedicas,principio,Principio Activo,,,
+22,recetasMedicas,periodoVal,Período de Validez (días),,,
+24,tratamientopac,numcolegusutratam,Núm. Colegiado Usuario,,,#
+25,facturas,iva,IVA %,,,
+26,recetasMedicas,prescripcion,Prescripción Extraordinaria,,,
+27,director,direncabezado,Encabezado,,,
+28,director,dirpiepagina,Pie de Página,,,
+29,oporcliserv,direccionTarea,Dirección,,bclipers6,
+30,lineprevcobros,importebaseimpmenosdcto,Base Imponible,,,
+31,facturas,referencia,Referencia,,,
+32,facturas,mesfechafactletra,Mes Factura,,,
+33,informeCM,datos,Informe,,,
+34,prevcobros,importeEntregado,Importe Entregado,,,
+35,prevcobros,importeDevolver,Importe a Devolver,,,
+36,facturas,fechaoperacion,Fecha Operación,,,
+37,nombreplanificaciontareas,nombreplanificacion,Nombre,,,
+38,planificaciontareas,fecha,Fecha,,,
+39,planificaciontareas,hora,Hora,,,
+40,planificaciontareas,tiempoprevisto,Tiempo Previsto,,,
+41,planificaciontareas,descripcion,Descripción,,,
+42,planificaciontareas,direccion,Dirección,,,
+43,planificaciontareas,nombrecliente,Nombre,,,
+44,planificaciontareas,notas,Notas,,,
+46,director,codpostal,Código Postal,,,
+47,director,email,Correo Electrónico,,,
+48,director,direccion,Dirección,,,
+49,director,V_IMAGEN1,Logo de Empresa,,,
+50,director,nif,NIF/CIF,,,
+51,director,snombreprocu,Nombre,,,
+52,director,poblacion,Población,,,
+53,director,provincia,Provincia,,,
+54,director,telefono,Teléfono,,,
+55,clientes,textoalerta,Alerta,,,
+56,clientes,IBAN,IBAN,,,
+57,clientes,scodpostalcli,Código Postal,,,
+58,clientes,email,Correo Electrónico,,,
+59,clientes,departamento,Departamento,,,
+60,clientes,sdomiciliocli,Dirección,,,
+61,clientes,edad,Edad,,,
+62,clientes,fechanacimiento,Fecha Nacimiento,,,
+63,clientes,smovilcli,Móvil,,,
+64,clientes,snifcli,NIF/CIF,,,
+65,clientes,snombrecli,Nombre,,,
+66,clientes,snombreclicomercial,Nombre Comercial,,,
+67,clientes,notas,Notas,,,
+68,clientes,numcolegiado,Núm Colegiado,,,
+69,clientes,codigo,Número,,,
+70,clientes,sNombrePais,País,,,
+71,clientes,spoblacioncli,Población,,,
+72,clientes,mascotasexo,Sexo,,,
+73,clientes,stelefonocli,Teléfono 1,,,
+74,clientes,tipofichero,Tipo Cliente,,,
+75,clientes,telefono2,Teléfono 2,,,#
+76,clientes,telefono3,Teléfono 3,,,#
+77,clientes,BicSwift,Código BIC/SWIFT,,,#
+78,clientes,ctabancocaja,Cta Banco/Caja,,,#
+79,clientes,ctaimpagado,Cta Impagado,,,#
+80,clientes,ctairpf,Cta IRPF,,,#
+81,clientes,ctaiva,Cta IVA/IGIC,,,#
+82,clientes,sprovinciacli,Provincia,,,#
+83,expedien,iyear,EtiqYearExpediente,1,,
+84,expedien,fcuantia,Cuantía,,bVerCuantiaExp,
+85,expedien,descripcion,EtiqDescripExpediente,1,,
+86,expedien,estado,Estado,,,
+87,expedien,dfechaalta,Fecha Alta,,,
+88,expedien,dfechacierre,Fecha Cierre,,,
+89,expedien,snumasunto,Núm. Autos,,bverjuzga,
+90,expedien,expediente,Núm. Expediente,,,
+91,expedien,srefcliente,Ref. Expediente,,bVerExpReferencia,
+92,expedien,refhisto,Ref. Histórico,,bVerRefHistoExp,
+93,expedien,srefabogado,Ref. Propia,,,
+94,expedien,nombretodosclientes,Todos los Clientes,,,
+95,expedien,nombretodoscontrarios,Todos los Contrarios,,bverficcont,
+96,expedien,itipoasunto,Tipo de Asunto,,bVerExpTipoAsun,
+97,expedien,itipoexp,Tipo de Expediente,,,
+98,expedien,codproce,Tipo de Procedimiento,,bVerExpTipoProc,
+99,expedien,nombreusuario,Usuario,,,
+100,expedien,NIG,NIG,,,#
+101,expedien,notas,Notas,,,#
+102,expedien,notas2,notas2,,,#
+103,expedien,notas3,notas3,,,#
+104,expedien,notas4,notas4,,,#
+105,expedien,notas5,notas5,,,#
+106,expedien,notas6,notas6,,,#
+107,expedien,textoalerta,Alerta,,,#
+108,cliadjun,descripcion,Título,,,#
+109,cliadjun,fecha,Fecha,,,#
+110,cliadjun,imagen,Nombre Adjunto,,,#
+111,cliadjun,ubicacion,Ubicación,,,#
+112,cliValoresPerfil,1,1,,,
+113,cliValoresPerfil,2,2,,,
+114,cliValoresPerfil,3,3,,,
+115,cliValoresPerfil,4,4,,,
+116,cliValoresPerfil,5,5,,,
+117,cliValoresPerfil,6,6,,,
+118,cliValoresPerfil,7,7,,,
+119,cliValoresPerfil,8,8,,,
+120,cliValoresPerfil,9,9,,,
+121,cliValoresPerfil,10,10,,,
+122,cliValoresPerfil,11,11,,,
+123,cliValoresPerfil,12,12,,,
+124,cliValoresPerfil,13,13,,,
+125,cliValoresPerfil,14,14,,,
+126,cliValoresPerfil,15,15,,,
+127,cliValoresPerfil,16,16,,,
+128,cliValoresPerfil,17,17,,,
+129,cliValoresPerfil,18,18,,,
+130,cliValoresPerfil,19,19,,,
+131,cliValoresPerfil,20,20,,,
+132,cliValoresPerfil,21,21,,,
+133,cliValoresPerfil,22,22,,,
+134,cliValoresPerfil,23,23,,,
+135,cliValoresPerfil,24,24,,,
+136,cliValoresPerfil,25,25,,,
+137,cliValoresPerfil,26,26,,,
+138,cliValoresPerfil,27,27,,,
+139,cliValoresPerfil,28,28,,,
+140,cliValoresPerfil,29,29,,,
+141,cliValoresPerfil,30,30,,,
+142,cliValoresPerfil,31,31,,,
+143,cliValoresPerfil,32,32,,,
+144,cliValoresPerfil,33,33,,,
+145,cliValoresPerfil,34,34,,,
+146,cliValoresPerfil,35,35,,,
+147,cliValoresPerfil,36,36,,,
+148,cliValoresPerfil,37,37,,,
+149,cliValoresPerfil,38,38,,,
+150,cliValoresPerfil,39,39,,,
+151,cliValoresPerfil,40,40,,,
+152,cliValoresPerfil,41,41,,,
+153,cliValoresPerfil,42,42,,,
+154,cliValoresPerfil,43,43,,,
+155,cliValoresPerfil,44,44,,,
+156,cliValoresPerfil,45,45,,,
+157,soccli,notario,Notario,,,
+158,soccli,sociedad,Denominación Social,,,
+159,soccli,numproto,Núm. de Protocolo,,,
+160,soccli,capital,Capital Social,,,
+161,soccli,fechaCapSocial,Fecha Actualización Capital Social,,,
+162,soccli,acciones,Nº Acciones/Participaciones,,,
+163,soccli,fechaconsti,Fecha Constitución,,,
+164,soccli,CNAE,CNAE 2009,,,
+165,soccli,formaorgadm,Forma del Organo de Administración,,,
+166,soccli,fechaorgadm,Fecha del Organo de Administración,,,
+167,soccli,fechacaducidad,Fecha Caducidad Cargo,,,
+168,soccli,objetosocial,Objeto Social,,,
+169,soccli,socarchivo,Archivo,,,
+170,soccli,socfolio,Folio,,,
+171,soccli,sochoja,Hoja,,,
+172,soccli,socinscripcion,Inscripción,,,
+173,soccli,socregistro,Registro,,,
+174,soccli,soctomo,Tomo,,,
+175,soccli,valoracc,Valor Acciones/Participaciones,,,
+176,soccli,diario,Diario,,,
+177,soccli,asiento,Asiento,,,
+178,soccli,presidente,Presidente,,,
+179,soccli,secretario,Secretario,,,
+180,soccli,clasejunta,Clase Junta,,,
+181,sociesoc,socio,Socio,,,
+182,sociesoc,nifsoc,NIF,,,
+183,sociesoc,acciones,Nº Acciones/Participaciones,,,
+184,sociesoc,valornominal,Valor Nominal Participaciones,,,
+185,sociesoc,valorpartic,Valor Participaciones,,,
+186,sociesoc,porcapital,% Capital,,,
+187,sociesoc,sssoc,Núm. Seguridad Social,,,
+188,sociesoc,domiciliosoc,Dirección,,,
+189,sociesoc,codpostal,Código Postal,,,
+190,sociesoc,poblacion,Población,,,
+191,sociesoc,provincia,Provincia,,,
+192,sociesoc,pais,País,,,
+193,sociesoc,primaemision,Prima de Emisión,,,
+194,sociesoc,Nacionalidad,Nacionalidad,,,
+195,sociesoc,fechanacsoc,Fecha de Nacimiento,,,#
+196,socieadm,numSS,Núm. Seguridad Social,,,
+197,socieadm,fechanac,Fecha Nacimiento,,,
+198,socieadm,estadocivil,Estado Civil,,,
+199,socieadm,direccion,Dirección,,,
+200,socieadm,codpostal,Código Postal,,,
+201,socieadm,poblacion,Población,,,
+202,socieadm,provincia,Provincia,,,
+203,socieadm,pais,País,,,
+204,socieadm,Nacionalidad,Nacionalidad,,,
+205,socieadm,estadoAdmin,Estado,,,
+206,socieadm,fechapoder,F. Poder/Elevación a Escritura Pública,,,
+207,socieadm,duracion,Duración (años),,,
+208,socieadm,fechavence,Fecha Vencimiento,,,
+209,socieadm,fechacese,Fecha Cese,,,
+210,socieadm,notas,Notas,,,
+211,socieadm,administrador,Administrador,,,#
+212,socieadm,cargo,Cargo,,,#
+213,socieadm,fechanombramiento,Fecha Nombramiento,,,#
+214,socieadm,snif,NIF/CIF,,,#
+215,socieadm,notaria,Notaría,,,#
+216,sociemie,miembros,Miembro,,,
+217,sociemie,cargo,Cargo,,,
+218,sociemie,duracion,Duración,,,
+219,sociemie,fechanombramiento,Fecha Nombramiento,,,
+220,sociemie,snif,NIF/CIF,,,
+221,sociemie,notaria,Notaría,,,
+222,sociemie,numSS,Núm. Seguridad Social,,,
+223,sociemie,fechanac,Fecha Nacimiento,,,
+224,sociemie,estadocivil,Estado Civil,,,
+225,sociemie,direccion,Dirección,,,
+226,sociemie,codpostal,Código Postal,,,
+227,sociemie,poblacion,Población,,,
+228,sociemie,provincia,Provincia,,,
+229,sociemie,pais,País,,,
+230,sociemie,Nacionalidad,Nacionalidad,,,
+231,sociemie,naturalezaPoder,Estado,,,
+232,sociemie,fechapoder,F. Poder/Elevación a Escritura Pública,,,
+233,sociemie,fechavence,Fecha Vencimiento,,,
+234,sociemie,fechacese,Fecha Cese,,,
+235,sociemie,notas,Notas,,,
+236,sociecon,consejero,Consejero,,,
+237,sociecon,cargo,Cargo,,,
+238,sociecon,duracion,Duración,,,
+239,sociecon,fechanombramiento,Fecha Nombramiento,,,
+240,sociecon,snif,NIF/CIF,,,
+241,sociecon,notaria,Notaría,,,
+242,sociecon,numSS,Núm. Seguridad Social,,,
+243,sociecon,fechanac,Fecha Nacimiento,,,
+244,sociecon,estadocivil,Estado Civil,,,
+245,sociecon,direccion,Dirección,,,
+246,sociecon,codpostal,Código Postal,,,
+247,sociecon,poblacion,Población,,,
+248,sociecon,provincia,Provincia,,,
+249,sociecon,pais,País,,,
+250,sociecon,Nacionalidad,Nacionalidad,,,
+251,sociecon,naturalezaPoder,Estado,,,
+252,sociecon,fechapoder,F. Poder/Elevación a Escritura Pública,,,
+253,sociecon,fechavence,Fecha Vencimiento,,,
+254,sociecon,fechacese,Fecha Cese,,,
+255,sociecon,notas,Notas,,,
+256,socieapo,apoderado,Apoderado,,,
+257,socieapo,cargo,Cargo,,,
+258,socieapo,duracion,Duración,,,
+259,socieapo,fechanombramiento,Fecha Nombramiento,,,
+260,socieapo,snif,NIF/CIF,,,
+261,socieapo,notaria,Notaría,,,
+262,socieapo,numSS,Núm. Seguridad Social,,,
+263,socieapo,fechanac,Fecha Nacimiento,,,
+264,socieapo,estadocivil,Estado Civil,,,
+265,socieapo,direccion,Dirección,,,
+266,socieapo,codpostal,Código Postal,,,
+267,socieapo,poblacion,Población,,,
+268,socieapo,provincia,Provincia,,,
+269,socieapo,pais,País,,,
+270,socieapo,Nacionalidad,Nacionalidad,,,
+271,socieapo,naturalezaPoder,Estado,,,
+272,socieapo,fechapoder,F. Poder/Elevación a Escritura Pública,,,
+273,socieapo,fechavence,Fecha Vencimiento,,,
+274,socieapo,fechacese,Fecha Cese,,,
+275,socieapo,notas,Notas,,,
+276,socieapo,naturalezaPoder,Naturaleza Poder,,,
+277,socieapo,inscripcion,Inscripción,,,
+278,socieescrituras,socienotas,Escrituras y Contratos,,,
+279,socielibrosofi,librosoficiales,Libros Oficiales,,,
+280,socielib,año,Año,,,
+281,socielib,fecha,Fecha,,,
+282,socielib,libro,Descripción,,,
+283,socielib,tipolibro,Tipo de Libro,,,
+284,sociecue,cuentas,Cuenta,,,
+285,sociecue,fecha,Fecha,,,
+286,sociecue,presentado,Presentado,,,
+287,sociereten,descripcion,Descripción,,,
+288,sociereten,fecha,Fecha,,,
+289,fiscli,contingenciafiscal,Contingencia Fiscal,,,
+290,fiscli,regimenfiscal,Régimen Fiscal,,,
+291,riesgocli,riesgofiscal,Riesgo,,,
+292,quiebracli,quiebra,Quiebra,,,
+293,cliiae,fecha,Fecha Alta,,,
+294,cliiae,iae,IAE,,,
+295,cliiae,tipo,Tipo,,,
+296,cliiae,estado,Estado,,,
+297,cliiae,fechaBaja,Fecha Baja,,,
+298,cliiae,causa,Causa,,,
+299,cliresult,fecha,Fecha Alta,,,
+300,cliresult,resultado,Resultado,,,
+301,clisocie,fecha,Fecha Alta,,,
+302,clisocie,impsocie,Cuota Impuesto Sociedades,,,
+303,clisocie,tipo,Tipo,,,
+304,clisocie,causa,Causa,,,
+305,cliirpf,fecha,Fecha Alta,,,
+306,cliirpf,Irfp,Cuota IRPF,,,
+307,cliirpf,tipo,Tipo,,,
+308,cliirpf,causa,Causa,,,
+309,clibase,baseimp,Base Imponible,,,
+310,clibase,fecha,Fecha Alta,,,
+311,cliiva,fecha,Fecha Alta,,,
+312,cliiva,iva,IVA,,,
+313,cliiva,tipo,Tipo,,,
+314,cliiva,causa,Causa,,,
+315,cliivaco,fecha,Fecha Alta,,,
+316,cliivaco,iva,IVA a Compensar,,,
+317,admincli,hacienda,Hacienda,,,
+318,admincli,segsoc,Seguridad Social,,,
+319,admincli,inem,INEM,,,
+320,clialquiler,fecha,Fecha Contrato,,,
+321,clialquiler,duracion,Duración del Contrato,,,
+322,clialquiler,fianza,Fianza,,,
+323,clialquiler,retencion,Retención,,,
+324,clialquiler,dirLocal,Local,,,
+325,clialquiler,importe,Importe Alquiler,,,
+326,clialquiler,refCatastral,Referencia Catastral,,,
+327,clialquiler,superficie,Superficie,,,
+328,clialquiler,telefonoLocal,Teléfono,,,
+329,clialquiler,direccion,Dirección,,,
+330,clialquiler,codpostal,Código Postal,,,
+331,clialquiler,poblacion,Población,,,
+332,clialquiler,provincia,Provincia,,,
+333,clialquiler,nomdue,Nombre (Datos Propiedad),,,
+334,clialquiler,dnidue,NIF/CIF (Datos Propiedad),,,
+335,clialquiler,emailProp,Correo Electrónico (Datos Propiedad),,,
+336,clialquiler,telefonoProp,Teléfono (Datos Propiedad),,,
+337,clialquiler,nomadm,Nombre (Datos Administrador),,,
+338,clialquiler,dniAdmin,NIF/CIF (Datos Administrador),,,
+339,clialquiler,emailAdmin,Correo Electrónico (Datos Administrador),,,
+340,clialquiler,tlfadm,Teléfono (Datos Administrador),,,
+341,contacto,cargo,Cargo,,,
+342,contacto,codpostal,Código Postal,,,
+343,contacto,email1,Correo Electrónico 1,,,
+344,contacto,domicilio,Dirección,,,
+345,contacto,movil,Móvil,,,
+346,contacto,nif,NIF/CIF,,,
+347,contacto,nombre,Nombre,,,
+348,contacto,tipo,Tipo Contacto,,,
+349,contacto,email2,Correo Electrónico 2,,,#
+350,contacto,email3,Correo Electrónico 3,,,#
+351,contacto,email4,Correo Electrónico 4,,,#
+352,contacto,email5,Correo Electrónico 5,,,#
+353,contacto,fax,Fax,,,#
+354,contacto,Nacionalidad,Nacionalidad,,,#
+355,contacto,notas,Notas,,,#
+356,contacto,pagweb,Página Web,,,#
+357,contacto,poblacion,Población,,,#+exp
+358,contacto,provincia,Provincia,,,#+exp
+359,contacto,telefono1,Teléfono 1,,,#+exp
+360,contacto,telefono2,Teléfono 2,,,#
+361,contacto,telefono3,Teléfono 3,,,#
+362,terceros,scodpostalcli,Código Postal,,,
+363,terceros,email,Correo Electrónico 1,,,
+364,terceros,sdomiciliocli,Dirección,,,
+365,terceros,smovilcli,Móvil,,,
+366,terceros,snifcli,NIF/CIF,,,
+367,terceros,snombrecli,Nombre,,,
+368,terceros,tipofichero,Tipo Contacto,,,
+369,tercerosppal,scodpostalcli,Código Postal,,,
+370,tercerosppal,email,Correo Electrónico 1,,,
+371,tercerosppal,sdomiciliocli,Dirección,,,
+372,tercerosppal,smovilcli,Móvil,,,
+373,tercerosppal,snifcli,NIF/CIF,,,
+374,tercerosppal,snombrecli,Nombre,,,
+375,tercerosppal,tipofichero,Tipo Contacto,,,
+376,cliasociados,scodpostalcli,Código Postal,,,
+377,cliasociados,email,Correo Electrónico 1,,,
+378,cliasociados,sdomiciliocli,Dirección,,,
+379,cliasociados,smovilcli,Móvil,,,
+380,cliasociados,snifcli,NIF/CIF,,,
+381,cliasociados,snombrecli,Nombre,,,
+382,cliasociados,stelefonocli,Teléfono 1,,,
+383,cliasociados,tipofichero,Tipo Cliente,,,
+384,cliasegu,scodpostalcli,Código Postal,,,
+385,cliasegu,email,Correo Electrónico 1,,,
+386,cliasegu,sdomiciliocli,Dirección,,,
+387,cliasegu,smovilcli,Móvil,,,
+388,cliasegu,snifcli,NIF/CIF,,,
+389,cliasegu,snombrecli,Nombre,,,
+390,cliasegu,stelefonocli,Teléfono 1,,,
+391,cliasegu,tipofichero,Tipo Aseguradora,,,
+392,clifam,scodpostalcli,Código Postal,,,
+393,clifam,email,Correo Electrónico 1,,,
+394,clifam,sdomiciliocli,Dirección,,,
+395,clifam,smovilcli,Móvil,,,
+396,clifam,snifcli,NIF/CIF,,,
+397,clifam,snombrecli,Nombre,,,
+398,clifam,spoblacioncli,Población,,,#
+399,clifam,stelefonocli,Teléfono 1,,,
+400,clifam,tipofichero,Tipo Tutor,,,
+401,clifam,telefono2,Teléfono 2,,,#
+402,clifam,telefono3,Teléfono 3,,,#
+403,financli,scodpostalcli,Código Postal,,,
+404,financli,email,Correo Electrónico 1,,,
+405,financli,sdomiciliocli,Dirección,,,
+406,financli,smovilcli,Móvil,,,
+407,financli,snifcli,NIF/CIF,,,
+408,financli,snombrecli,Nombre,,,
+409,financli,spoblacioncli,Población,,,#
+410,financli,stelefonocli,Teléfono 1,,,
+411,financli,tipofichero,Tipo Financiador,,,
+412,financli,telefono2,Teléfono 2,,,#
+413,financli,telefono3,Teléfono 3,,,#
+414,voluncli,scodpostalcli,Código Postal,,,
+415,voluncli,email,Correo Electrónico 1,,,
+416,voluncli,sdomiciliocli,Dirección,,,
+417,voluncli,smovilcli,Móvil,,,
+418,voluncli,snifcli,NIF/CIF,,,
+419,voluncli,snombrecli,Nombre,,,
+420,voluncli,spoblacioncli,Población,,,#
+421,voluncli,stelefonocli,Teléfono 1,,,
+422,voluncli,tipofichero,Tipo Voluntario,,,
+423,voluncli,telefono2,Teléfono 2,,,#
+424,voluncli,telefono3,Teléfono 3,,,#
+425,segcli,estadosalaespera,Estado,,,
+426,segcli,sactuacion,Descripción,,,
+427,segcli,dfechaact,Fecha Actuación,,,
+428,segcli,fecharealizacion,Fecha Realización,,,
+429,segcli,horafinact,Hora Fin,,,
+430,segcli,horainiact,Hora Inicio,,,
+431,segcli,notas,Notas,,,
+432,segcli,notas2,Notas2,,,#
+433,segcli,notas3,Notas3,,,#
+434,segcli,notas4,Notas4,,,#
+435,segcli,notas5,notas5,,,#
+436,segcli,notas6,notas6,,,#
+437,segcli,precio,Precio,,,
+438,segcli,realizada,Realizada,,,
+439,segcli,tiempo,Tiempo,,,
+440,segcli,tipo,Tipo Actuación,,,
+441,segcli,usuario,Usuario Actuación,,,
+442,segcli,preciocoste,Precio Coste,,,#
+443,segcli,publicar,Acceso Clientes,,,#
+444,clientesultactu,sactuacion,Descripción,,,#
+445,clientesultactu,dfechaact,Fecha Actuación,,,#
+446,clientesultactu,fecharealizacion,Fecha Realización,,,#
+447,clientesultactu,horafinact,Hora Fin,,,#
+448,clientesultactu,horainiact,Hora Inicio,,,#
+449,clientesultactu,notas,Notas,,,#
+450,clientesultactu,precio,Precio,,,#
+451,clientesultactu,acturealizada,Realizada,,,#
+452,clientesultactu,tiempo,Tiempo,,,#
+453,clientesultactu,tipo,Tipo Actuación,,,#
+454,clientesultactu,usuario,Usuario Actuación,,,#
+455,historiaclinica,historiaclinica,Historia Clínica,,,
+456,tratamientopac,dctotratamiento,% Dcto Línea,,,
+457,tratamientopac,caraTexto,Cara,,,
+458,tratamientopac,fechaAlta,Fecha Tratamiento,,,
+459,tratamientopac,descripcion,Descripción,,,
+460,tratamientopac,horaInicio,Hora Inicio Tratamiento,,,
+461,tratamientopac,horaFinal,Hora Fin Tratamiento,,,
+462,tratamientopac,importetratamiento,Importe Tratamiento,,,
+463,tratamientopac,piezas,Pieza,,,
+464,tratamientopac,preciotratamiento,Precio Tratamiento,,,
+465,tratamientopac,referencia,Ref. Tratamiento,,,
+466,tratamientopac,tiempo,Tiempo Tratamiento,,,
+467,tratamientopac,usuariotratam,Usuario Tratamiento,,,
+468,oporcliserv,oportunidad,Descripción,,,
+469,oporcliserv,estado,Estado,,,
+470,oporcliserv,etapa,Etapa,,,
+471,oporcliserv,dfecha,Fecha,,,
+472,oporcliserv,fechacierre,Fecha Cierre,,,
+473,oporcliserv,horaalta,Hora,,,
+474,oporcliserv,hora,Hora Cierre,,,
+475,oporcliserv,tipo,Tipo,,,
+476,oporcliserv,subusuario,Usuario,,,
+477,vlistadobonos,consumido,Consumido,,,
+478,vListadoBonos,Descripcion,Descripción,,,
+479,vlistadobonos,descuento,Descuento,,,
+480,vlistadobonos,disponible,Disponible,,,
+481,vlistadobonos,estado,Estado,,,
+482,vListadoBonos,FechaAlta,Fecha Alta,,,
+483,vlistadobonos,fechacaducidad,Fecha Caducidad,,,
+484,vlistadobonos,total,Importe,,,
+485,vlistadobonos,notas,Notas,,,
+486,vListadoBonos,NumBono,Núm Bono,,,
+487,vListadoBonos,Importe,Precio,,,
+488,vlistadobonos,unidades,Sesiones,,,
+489,vListadoBonos,TipoBono,Tipo Bono,,,
+490,vlistadobonos,totalresumen,Total,,,
+491,vlistadobonos,nomsubusu,Usuario,,,
+492,vListadoBonos,Realizado,Realizado,,,#
+493,vlistadobonos,referencia,Referencia,,,#
+494,vlistadobonos,unidadesrecarga,Unidades Recarga,,,#
+495,vlistadobonos,notas2,Notas2,,,#
+496,vlistadobonos,notas3,Notas3,,,#
+497,vlistadobonos,notas4,Notas4,,,#
+498,vlistadobonos,notas5,Notas5,,,#
+499,vlistadobonos,notas6,Notas6,,,#
+500,servicioscli,descripcion,Descripción,,,
+501,servicioscli,nomsubusu,Usuario,,,
+502,servicioscli,unidades,Unidades,,,
+503,servicioscli,preciounitario,Precio Ud.,,,
+504,servicioscli,importe,Importe,,,
+505,servicioscli,dcto,%Dcto,,,
+506,servicioscli,baseimponible,Base Imponible,,,
+507,servicioscli,fecha,Fecha Alta,,,
+508,servicioscli,descripcionperiodo,Frecuencia,,,
+509,servicioscli,formapago,Forma de Cobro,,,
+510,servicioscli,fechavencimiento,Próximo Vencimiento,,,
+511,servicioscli,fechaproxfactura,Próxima Factura,,,
+512,servicioscli,fechabaja,Fecha Baja,,,
+513,servicioscli,notas,Notas,,,
+514,oporclipia,oportunidad,Descripción,,,
+515,oporclipia,estado,Estado,,,
+516,oporclipia,etapa,Etapa,,,
+517,oporclipia,dfecha,Fecha,,,
+518,oporclipia,fechacierre,Fecha Cierre,,,
+519,oporclipia,fechaseguimiento,Fecha Próx. Revisión,,,
+520,oporclipia,tipo,Tipo,,,
+521,objetivosoportunidad,cumplimiento,Cumplimiento,,,
+522,objetivosoportunidad,especialidad,Especialidad,,,
+523,objetivosoportunidad,sdescripcion,Objetivo,,,
+524,objetivosoportunidad,tipo,Tipo,,,
+525,programas,especialidad,Especialidad,,,
+526,programas,fechafin,Fecha Fin,,,
+527,programas,fechaini,Fecha Inicio,,,
+528,programas,objetivo,Objetivo,,,
+529,programas,programa,Programa,,,
+530,segcliPIA,sactuacion,Descripción,,,
+531,segcliPIA,estadosalaespera,Estado,,,
+532,segcliPIA,dfechaact,Fecha Actuación,,,
+533,segcliPIA,fecharealizacion,Fecha Realización,,,
+534,segcliPIA,horafinact,Hora Fin,,,
+535,segcliPIA,horainiact,Hora Inicio,,,
+536,segcliPIA,notas,Notas,,,
+537,segcliPIA,precio,Precio,,,
+538,segcliPIA,realizada,Realizada,,,
+539,segcliPIA,tiempo,Tiempo,,,
+540,segcliPIA,tipo,Tipo Actuación,,,
+541,segcliPIA,usuario,Usuario Actuación,,,
+542,trabajadorpia,dptotrabajador,Departamento,,,
+543,trabajadorpia,nomtrabajador,Nombre,,,
+544,escala,escala,Escala,,bVerEscalas,
+545,recobrodeudor,scodpostalclideudor,Código Postal Deudor,,,
+546,recobrodeudor,sdomicilioclideudor,Dirección Deudor,,,
+547,recobrodeudor,smovilclideudor,Móvil Deudor,,,
+548,recobrodeudor,snifclideudor,Nif Deudor,,,
+549,recobrodeudor,nombredeudor,Nombre Deudor,,,
+550,recobrodeudor,spoblacionclideudor,Población Deudor,,,
+551,recobrodeudor,sprovinciaclideudor,Provincia Deudor,,,
+552,recobrodeudor,stelefonoclideudor,Teléfono 1 Deudor,,,
+553,recobrodeudor,totalsaldodeudor,Total Saldo Deudor,,,
+554,recobrocliente,scodpostalclicliente,Código Postal Cliente,,,
+555,recobrocliente,sdomicilioclicliente,Dirección Cliente,,,
+556,recobrocliente,smovilclicliente,Móvil Cliente,,,
+557,recobrocliente,snifclicliente,Nif Cliente,,,
+558,recobrocliente,snombreclicliente,Nombre Cliente,,,
+559,recobrocliente,spoblacionclicliente,Población Cliente,,,
+560,recobrocliente,sprovinciaclicliente,Provincia Cliente,,,
+561,recobrocliente,stelefonoclicliente,Teléfono 1 Cliente,,,
+562,recobroexpediente,iyear,Año Exp,,,
+563,recobroexpediente,descripcionexp,Descripción Expediente,,,
+564,recobroexpediente,expediente,Núm Exp,,,
+565,recobroexpediente,refexpediente,Ref Expediente,,,
+566,recobroexpediente,refpropia,Ref Propia,,,
+567,recobroexpediente,tipoasunto,Tipo Asunto,,bVerExpTipoAsun,
+568,recobroexpediente,tipoexp,Tipo Expediente,,,
+569,recobroexpediente,tipoprocedi,Tipo Procedimiento,,bVerExpTipoProc,
+570,recobrooporcli,oportunidad,Descripción,,,
+571,recobrooporcli,estado,Estado,,,
+572,recobrooporcli,etapa,Etapa,,,
+573,recobrooporcli,dfecha,Fecha Alta,,,
+574,recobrooporcli,fechacierre,Fecha Cierre,,,
+575,recobrooporcli,fechaseguimiento,Fecha Seguimiento,,,
+576,recobrooporcli,horaalta,Hora Alta,,,
+577,recobrooporcli,hora,Hora Cierre,,,
+578,recobrooporcli,horaseguimiento,Hora Seguimiento,,,
+579,recobrooporcli,saldoRecobros,Saldo,,,
+580,recobrooporcli,TotEntradas,Total Entradas,,,
+581,recobrooporcli,TotSalidas,Total Salidas,,,
+582,recobrooporcli,nombreusuario,Usuario,,,
+583,movrecobros,sdescripcion,Descripción,,,
+584,movrecobros,dfecha,Fecha,,,
+585,movrecobros,importe,Importe,,,
+586,movrecobros,tipo,Tipo,,,
+587,historialrecobros,sactuacion,Descripción,,,
+588,historialrecobros,dfechaact,Fecha Actuación,,,
+589,historialrecobros,fecharealizacion,Fecha Realización,,,
+590,historialrecobros,notas,Notas,,,
+591,historialrecobros,tipo,Tipo Actuación,,,
+592,historialrecobros,usuario,Usuario,,,
+593,clipers3,perso7,CliPer7,1,,
+594,clipers3,perso9,CliPer9,1,,
+595,clipers3,perso5,CliPer5,1,,
+596,clipers3,perso26,Clidonde,1,,
+597,clipers3,perso25,Clidosis,1,,
+598,clipers3,perso4,CliPer4,1,,
+599,clipers3,persofecha1,CliPerFecha1,1,,
+600,clipers3,persofecha6,CliPerFecha6,1,,
+601,clipers3,persofecha2,CliPerFecha2,1,,
+602,clipers3,persofecha5,CliPerFecha5,1,,
+603,clipers3,persofecha4,CliPerFecha4,1,,
+604,clipers3,perso24,CliPer24,1,,
+605,clipers3,perso2,CliPer2,1,,
+606,clipers3,perso6,CliPer6,1,,
+607,clipers3,perso10,CliPer10,1,,
+608,clipers3,perso23,CliPer23,1,,
+609,clipers3,perso21,CliPer21,1,,
+610,clipers3,perso1,CliPer1,1,,
+611,clipers3,perso22,CliPer22,1,,
+612,clipers3,persologic7,CliPersologic7,1,,
+613,clipers3,perso3,CliPer3,1,,#
+614,clipers3,notas,Notas,,,#
+615,clipers3,perso11,CliPer11,1,,#
+616,clipers3,perso12,CliPer12,1,,#
+617,clipers3,perso13,CliPer13,1,,#
+618,clipers3,perso14,CliPer14,1,,#
+619,clipers3,perso15,CliPer15,1,,#
+620,clipers3,perso8,CliPer8,1,,#
+621,clipers6,Perso3,Código Postal,,,
+622,clipers6,Perso1,Dirección,,,
+623,clipers6,Perso4,Población,,,
+624,clipers6,Perso2,Provincia,,,
+625,clipers6,Perso6,Teléfono Dirección,,,
+626,clipers6,Perso16,Tipo Dirección,,,
+627,clipers6,Perso7,Estado,,,#
+628,clipers6,PersoFecha1,Fecha Alta,,,#
+629,clipers6,PersoFecha2,Fecha Baja,,,#
+630,tipoexp,codigo,Código,,,#
+631,tipoexp,contador,Contador,,,#
+632,tipoexp,descripcionexp,Descripción,,,#
+633,tipoexp,tipoexp,Tipo de Expediente,,,#
+634,tipoasun,codigo,Código,,,#
+635,tipoasun,tipoasunto,Tipo de Asunto,,,#
+636,procedi,codproce,Código,,,#
+637,procedi,indice,Índice,,,#
+638,procedi,orden,Orden,,,#
+639,procedi,procedimiento,Tipo Procedimiento,,,#
+640,expfichaperso,campotipo1,Expcampotipo1,1,,
+641,expfichaperso,campotipo2,Expcampotipo2,1,,
+642,expfichaperso,campotipo3,Expcampotipo3,1,,
+643,expfichaperso,campotipo4,Expcampotipo4,1,,
+644,expfichaperso,campotipo5,Expcampotipo5,1,,
+645,expfichaperso,campotipo6,Expcampotipo6,1,,
+646,expfichaperso,campotipo7,Expcampotipo7,1,,
+647,expfichaperso,campofechatipo1,Expcampofechatipo1,1,,
+648,expfichaperso,campofechatipo2,Expcampofechatipo2,1,,
+649,expfichaperso,campofechatipo3,Expcampofechatipo3,1,,
+650,expempfecha,sdirarq,ExpDir,1,bVerExpEmplaza,
+651,expempfecha,spobarq,ExpPob,1,bVerExpEmplaza,
+652,expempfecha,smuniarq,ExpMun,1,bVerExpEmplaza,
+653,expempfecha,scparq,ExpCp,1,bVerExpEmplaza,
+654,expempfecha,sprovarq,ExpProv,1,bVerExpEmplaza,
+655,expempfecha,spaisarq,ExpPais,1,bVerExpEmplaza,
+656,expempfecha,costefinArq,ExpcostefinArq,1,bVerExpEmplaza,
+657,expempfecha,fencargoArq,Expfencargo,1,bVerExpEmplaza,
+658,expempfecha,fvisadoArq,Expfvisado,1,bVerExpEmplaza,
+659,expempfecha,flicenciaArq,Expflicencia,1,bVerExpEmplaza,
+660,expempfecha,finicioObraArq,Expfcomienzo,1,bVerExpEmplaza,
+661,expempfecha,ffinobraArq,Expffinal,1,bVerExpEmplaza,
+662,expempfecha,fcierreobraArq,Expfcierre,1,bVerExpEmplaza,
+663,expcliprincipal,scodpostalcli,Código Postal,,,
+664,expcliprincipal,email,Correo Electrónico 1,,,
+665,expcliprincipal,sdomiciliocli,Dirección,,,
+666,expcliprincipal,smovilcli,Móvil,,,
+667,expcliprincipal,snifcli,NIF/CIF,,,
+668,expcliprincipal,snombrecli,Nombre,,,
+669,expcliprincipal,stelefonocli,Teléfono 1,,,
+670,expcliprincipal,tipofichero,Tipo Cliente,,,
+671,expclilinea,scodpostalcli,Código Postal,,,
+672,expclilinea,email,Correo Electrónico 1,,,
+673,expclilinea,sdomiciliocli,Dirección,,,
+674,expclilinea,smovilcli,Móvil,,,
+675,expclilinea,snifcli,NIF/CIF,,,
+676,expclilinea,snombrecli,Nombre,,,
+677,expclilinea,stelefonocli,Teléfono 1,,,
+678,expclilinea,tipofichero,Tipo Cliente,,,
+679,expclilistado,scodpostalcli,Código Postal,,,
+680,expclilistado,email,Correo Electrónico 1,,,
+681,expclilistado,sdomiciliocli,Dirección,,,
+682,expclilistado,smovilcli,Móvil,,,
+683,expclilistado,snifcli,NIF/CIF,,,
+684,expclilistado,snombrecli,Nombre,,,
+685,expclilistado,stelefonocli,Teléfono 1,,,
+686,expclilistado,tipofichero,Tipo Cliente,,,
+687,expclipoten,scodpostalcli,Código Postal,,,#
+688,expclipoten,email,Correo Electrónico 1,,,#
+689,expclipoten,sdomiciliocli,Dirección,,,#
+690,expclipoten,smovilcli,Móvil,,,#
+691,expclipoten,snifcli,NIF/CIF,,,#
+692,expclipoten,snombrecli,Nombre,,,#
+693,expclipoten,stelefonocli,Teléfono 1,,,#
+694,expclipoten,tipofichero,Tipo Potencial,,,#
+695,expcontactos,scodpostalcli,Código Postal,,,
+696,expcontactos,email,Correo Electrónico 1,,,
+697,expcontactos,sdomiciliocli,Dirección,,,
+698,expcontactos,smovilcli,Móvil,,,
+699,expcontactos,snifcli,NIF/CIF,,,
+700,expcontactos,snombrecli,Nombre,,,
+701,expcontactos,stelefonocli,Teléfono 1,,,
+702,expcontactos,tipofichero,Tipo Contacto,,,
+703,expalumnasoc,scodpostalcli,Código Postal,,,
+704,expalumnasoc,email,Correo Electrónico 1,,,
+705,expalumnasoc,sdomiciliocli,Dirección,,,
+706,expalumnasoc,estadocurso,Estado Matrícula,,,
+707,expalumnasoc,dfmatricula,Fecha Matrícula,,,
+708,expalumnasoc,dfechabaja,Fecha Baja,,,
+709,expalumnasoc,smovilcli,Móvil,,,
+710,expalumnasoc,snifcli,NIF/CIF,,,
+711,expalumnasoc,snombrecli,Nombre,,,
+712,expalumnasoc,spoblacioncli,Población,,,
+713,expalumnasoc,sprovinciacli,Provincia,,,
+714,expalumnasoc,stelefonocli,Teléfono 1,,,
+715,expalumnasoc,tipofichero,Tipo Alumno,,,
+716,exppacasoc,scodpostalcli,Código Postal,,,#
+717,exppacasoc,email,Correo Electrónico 1,,,#
+718,exppacasoc,sdomiciliocli,Dirección,,,#
+719,exppacasoc,smovilcli,Móvil,,,#
+720,exppacasoc,snifcli,NIF/CIF,,,#
+721,exppacasoc,snombrecli,Nombre,,,#
+722,exppacasoc,spoblacioncli,Población,,,#
+723,exppacasoc,sprovinciacli,Provincia,,,#
+724,exppacasoc,stelefonocli,Teléfono 1,,,#
+725,expproveeasoc,scodpostalcli,Código Postal,,,#
+726,expproveeasoc,email,Correo Electrónico 1,,,#
+727,expproveeasoc,sdomiciliocli,Dirección,,,#
+728,expproveeasoc,smovilcli,Móvil,,,#
+729,expproveeasoc,snifcli,NIF/CIF,,,#
+730,expproveeasoc,snombrecli,Nombre,,,#
+731,expproveeasoc,spoblacioncli,Población,,,#
+732,expproveeasoc,sprovinciacli,Provincia,,,#
+733,expproveeasoc,stelefonocli,Teléfono 1,,,#
+734,trabexp,snifcli,NIF/CIF,,,
+735,trabexp,snombrecli,Nombre,,,
+736,trabexp,tipofichero,Tipo Trabajador,,,
+737,cliecont,codpostal,Código Postal,,,
+738,cliecont,email,Correo Electrónico 1,,,
+739,cliecont,domicilio,Dirección,,,
+740,cliecont,nifclicon,NIF/CIF,,,
+741,cliecont,movil,Móvil,,,
+742,cliecont,snombreclicon,Nombre,,,
+743,cliecont,poblacion,Población,,,
+744,cliecont,provincia,Provincia,,,
+745,cliecont,telefono,Télefono 1,,,
+746,abogados,scodpostalabo,Código Postal,,,
+747,abogados,email,Correo Electrónico 1,,,
+748,abogados,sdomicilioabo,Dirección,,,
+749,abogados,snifabo,NIF/CIF,,,
+750,abogados,smovilabo,Móvil,,,
+751,abogados,snombreabo,Nombre,,,
+752,abogados,numcolegiado,Núm Colegiado,,,
+753,abogados,spoblacionabo,Población,,,
+754,abogados,sprovinciaabo,Provincia,,,
+755,abogados,stelefonoabo,Teléfono 1,,,
+756,abogados,cuentabanco,CCC Abogado,,,#
+757,abogados,Nacionalidad,Nacionalidad,,,#
+758,abogados,notas,Notas,,,#
+759,abogados,numreferencia,Núm Referencia,,,#
+760,abogados,pagweb,Página Web,,,#
+761,abogados,sfaxabo,Fax,,,#
+762,abogados,snombreabodespacho,Nombre Despacho,,,#
+763,abogados,telefono2,Teléfono 2,,,#
+764,abogados,telefono3,Teléfono 3,,,#
+765,procurad,scodpostalpro,Código Postal,,,
+766,procurad,email,Correo Electrónico 1,,,
+767,procurad,sdomiciliopro,Dirección,,,
+768,procurad,snifpro,NIF/CIF,,,
+769,procurad,smovilpro,Móvil,,,
+770,procurad,snombrepro,Nombre,,,
+771,procurad,numcolegiado,Núm Colegiado,,,
+772,procurad,spoblacionpro,Población,,,
+773,procurad,sprovinciapro,Provincia,,,
+774,procurad,stelefonopro,Teléfono 1,,,
+775,procurad,cuentabanco,CCC Procurador,,,#
+776,procurad,Nacionalidad,Nacionalidad,,,#
+777,procurad,notas,Notas,,,#
+778,procurad,numreferencia,Ref  Procurador,,,#
+779,procurad,pagweb,Página Web,,,#
+780,procurad,Perso1,Perso1,,,#
+781,procurad,Perso10,Perso10,,,#
+782,procurad,Perso2,Perso2,,,#
+783,procurad,sfaxpro,Fax,,,#
+784,procurad,telefono2,Teléfono 2,,,#
+785,procurad,telefono3,Teléfono 3,,,#
+786,colabora,cuentabanco,CCC Colaborador,,,#
+787,colabora,email,Correo Electrónico 1,,,#
+788,colabora,Nacionalidad,Nacionalidad,,,#
+789,colabora,notas,Notas,,,#
+790,colabora,scodpostalcol,Código Postal,,,#
+791,colabora,sdomiciliocol,Dirección,,,#
+792,colabora,sfaxcol,Fax,,,#
+793,colabora,smovilcol,Móvil,,,#
+794,colabora,snifcol,NIF/CIF,,,#
+795,colabora,snombrecol,Nombre,,,#
+796,colabora,spoblacioncol,Población,,,#
+797,colabora,sprovinciacol,Provincia,,,#
+798,colabora,stelefonocol,Teléfono 1,,,#
+799,colabora,telefono2,Teléfono 2,,,#
+800,colabora,telefono3,Teléfono 3,,,#
+801,organism,cif,NIF/CIF,,,#
+802,organism,codorgan,Código,,,#
+803,organism,codpostal,Código Postal,,,#
+804,organism,domicilio,Dirección,,,#
+805,organism,email,Correo Electrónico 1,,,#
+806,organism,fax,Fax,,,#
+807,organism,nacionalidad,Nacionalidad,,,#
+808,organism,nombre,Nombre,,,#
+809,organism,notas,Notas,,,#
+810,organism,pagweb,Página Web,,,#
+811,organism,poblacion,Población,,,#
+812,organism,provincia,Provincia,,,#
+813,organism,telefono,Teléfono 1,,,#
+814,organism,telefono2,Teléfono 2,,,#
+815,organism,telefono3,Teléfono 3,,,#
+816,juzgado,codpostal,Código Postal,,,
+817,juzgado,direccion,Dirección,,,
+818,juzgado,faseproc,Fase Procedimiento,,,
+819,juzgado,juzgado,Nombre,,,
+820,juzgado,notas,Notas,,,
+821,juzgado,numasunto,Núm Autos,,,
+822,juzgado,poblacionjuz,Población,,,
+823,juzgado,posicion,Posición Procesal,,,
+824,juzgado,provincia,Provincia,,,
+825,juzgado,telefono,Teléfono 1,,,
+826,juzgado,email,Correo Electrónico 1,,,#
+827,juzgado,estado1,Estado 1,,,#
+828,juzgado,fax,Fax,,,#
+829,juzgado,nacionalidad,Nacionalidad,,,#
+830,juzgado,numconsignacion,Código de Consignación,,,#
+831,juzgado,pagweb,Página Web,,,#
+832,juzgado,perso1,perso1,,,#
+833,juzgado,telefono2,Teléfono 2,,,#
+834,juzgado,telefono3,Teléfono 3,,,#
+835,colitiga,scodpostalcol,Código Postal,,,
+836,colitiga,email,Correo Electrónico 1,,,
+837,colitiga,sdomiciliocol,Dirección,,,
+838,colitiga,snifcol,NIF/CIF,,,
+839,colitiga,smovilcol,Móvil,,,
+840,colitiga,snombrecol,Nombre,,,
+841,colitiga,spoblacioncol,Población,,,
+842,colitiga,posicion,Posición Procesal,,,
+843,colitiga,sprovinciacol,Provincia,,,
+844,colitiga,stelefonocol,Teléfono,,,
+845,colitiga,cuentabanco,Cuenta Banco,,,#
+846,colitiga,estado,Estado,,,#
+847,colitiga,notas,Notas,,,#
+848,colitiga,pagweb,Web,,,#
+849,colitiga,sfaxcol,Fax,,,#
+850,colitiga,snombreabocolit,Abogado,,,#
+851,colitiga,sNombrePais,País,,,#
+852,colitiga,snombreprocolit,Procurador,,,#
+853,colitiga,telefono2,Teléfono 2,,,#
+854,colitiga,telefono3,Teléfono 3,,,#
+855,bancos,banco,Banco/Caja,,,#
+856,bancos,BicSwift,BIC/SWIFT,,,#
+857,bancos,codpostal,Código Postal,,,#
+858,bancos,cuenta,Número Cuenta,,,#
+859,bancos,direccion,Dirección,,,#
+860,bancos,email,Correo Electrónico 1,,,#
+861,bancos,empresa,Empresa,,,#
+862,bancos,fax,Fax,,,#
+863,bancos,iban,IBAN,,,#
+864,bancos,nacionalidad,Nacionalidad,,,#
+865,bancos,nifcif,NIF/CIF,,,#
+866,bancos,notas,Notas,,,#
+867,bancos,pagweb,Página Web,,,#
+868,bancos,poblacion,Población,,,#
+869,bancos,provincia,Provincia,,,#
+870,bancos,sepaacr,SEPA Vencido Acreedor,,,#
+871,bancos,sepadtoacr,SEPA Descuento Acreedor,,,#
+872,bancos,sepadtopre,SEPA Descuento Presentador,,,#
+873,bancos,sepapre,SEPA Vencido Presentador,,,#
+874,bancos,sufdescord,Sufijo Dcto Emisor,,,#
+875,bancos,sufijo19,Sufijos Vencidos,,,#
+876,bancos,sufijo58,Sufijos Dcto,,,#
+877,bancos,sufvenord,Sufijo Vencido Emisor,,,#
+878,bancos,telefono1,Teléfono 1,,,#
+879,bancos,telefono2,Teléfono 2,,,#
+880,bancos,telefono3,Télefono 3,,,#
+881,intervinientes,codpostal,Código Postal,,,
+882,intervinientes,email,Correo Electrónico 1,,,
+883,intervinientes,direccion,Dirección,,,
+884,intervinientes,movil,Móvil,,,
+885,intervinientes,nif,NIF/CIF,,,
+886,intervinientes,nombre,Nombre,,,
+887,intervinientes,numcolegiado,Núm. Colegiado,,,
+888,intervinientes,poblacion,Población,,,
+889,intervinientes,provincia,Provincia,,,
+890,intervinientes,rol,Rol,,,
+891,intervinientes,telefono1,Teléfono 1,,,
+892,intervinientes,relacion,Tipo Fichero,,,#
+893,intervinientes,pais,Pais,,,#
+894,segexp,sactuacion,Descripción,,,
+895,segexp,dfechaact,Fecha Actuación,,,
+896,segexp,fecharealizacion,Fecha Realización,,,
+897,segexp,horafinact,Hora Fin,,,
+898,segexp,horainiact,Hora Inicio,,,
+899,segexp,notas,Notas,,,
+900,segexp,precio,Precio,,,
+901,segexp,acturealizada,Realizada,,,
+902,segexp,tiempo,Tiempo,,,
+903,segexp,tipo,Tipo Actuación,,,
+904,segexp,usuario,Usuario Actuación,,,
+905,expedienultactu,sactuacion,Descripción,,,#
+906,expedienultactu,dfechaact,Fecha Actuación,,,#
+907,expedienultactu,fecharealizacion,Fecha Realización,,,#
+908,expedienultactu,horafinact,Hora Fin,,,#
+909,expedienultactu,horainiact,Hora Inicio,,,#
+910,expedienultactu,notas,Notas,,,#
+911,expedienultactu,precio,Precio,,,#
+912,expedienultactu,acturealizada,Realizada,,,#
+913,expedienultactu,tiempo,Tiempo,,,#
+914,expedienultactu,tipo,Tipo Actuación,,,#
+915,expedienultactu,usuario,Usuario Actuación,,,#
+916,Expadjun,Descripcion,Título,,,#
+917,Expadjun,Fecha,Fecha,,,#
+918,Expadjun,Imagen,Nombre Adjunto,,,#
+919,Expadjun,ubicacion,Ubicación,,,#
+920,calificacionescurso,nifalumno,NIF Alumno,,,
+921,calificacionescurso,nombrealumno,Nombre Alumno,,,
+922,calificacionescurso,notamedia,Nota Media,,,
+923,calificacionescurso,calificacion,Calificación,,,
+924,calificacionescurso,dfecha,Fecha,,,
+925,calificacionescurso,notaseva,Notas,,,
+926,calificacionescurso,periodolectivo,Período Lectivo,,,
+927,calificacionescurso,descripcion,Prueba Evaluable,,,
+928,calificacionescurso,fnota,Puntuación,,,
+929,recetasMedicas,cve,Código de Barras,,,
+930,recetasMedicas,denominacion,Denominación del medicamento,,,
+931,recetasMedicas,diagnostico,Diagnóstico,,,
+932,recetasMedicas,sniftra,DNI/NIE Doctor,,,
+933,recetasMedicas,snifcli,DNI/NIE Paciente,,,
+934,recetasMedicas,sdomiciliotra,Domicilio Doctor,,,
+935,recetasMedicas,dosificacion,Dosificación y Forma,,,
+936,recetasMedicas,duracion,Duración del Tratamiento,,,
+937,recetasMedicas,especialidad,Especialidad,,,
+938,recetasMedicas,fechaprescripcion,Fecha de Prescripción,,,
+939,recetasMedicas,fechanacimiento,Fecha Nacimiento,,,
+940,recetasMedicas,formato,Formato,,,
+941,recetasMedicas,instrucciones,Instrucciones al Paciente,,,
+942,recetasMedicas,snombretra,Nombre Doctor,,,
+943,recetasMedicas,notas,Notas,,,
+944,recetasMedicas,numcolegiado,Núm. Colegiado,,,
+945,recetasMedicas,unidades,Núm. Envases/Unidades,,,
+946,recetasMedicas,numerolote,Núm. Lote,,,
+947,recetasMedicas,numreceta,Núm. Receta,,,
+948,recetasMedicas,numero,Número,,,
+949,recetasMedicas,snombrecli,Paciente,,,
+950,recetasMedicas,spoblaciontra,Población Doctor,,,
+951,recetasMedicas,nombre,Trabajador/Usuario,,,
+952,recetasMedicas,via,Vía o Forma de Administración,,,
+953,facturas,dcto,% Dcto,,,
+954,facturas,yearfact,Año Factura,,,
+955,facturas,codpostalcli,Código Postal,,,
+956,facturas,sdescripcion,Descripción Factura,,,
+957,facturas,totSoloDctoFact,Descuento,,,
+958,facturas,domiciliocli,Dirección,,,
+959,facturas,fecha,Fecha,,,
+960,facturas,fechafacturalarga,Fecha Larga,,,
+961,facturas,formapago,Forma de Cobro,,,
+962,facturas,iban,IBAN,,,
+963,facturas,honoConDctoLin,Importe,,,
+964,facturas,irpf,IRPF %,,,
+965,facturas,nifcli,NIF/CIF,,,
+966,facturas,nombrecli,Nombre,,,
+967,facturas,notas,Notas,,,
+968,facturas,inumfactura,Núm Factura,,,
+969,facturas,paiscli,País,,,
+970,facturas,poblacioncli,Población,,,
+971,facturas,provinciacli,Provincia,,,
+972,facturas,refabonada,Ref Fact Abonada,,,
+973,facturas,serie,Serie,,,
+974,facturas,TotalEuro,Total,,,
+975,facturas,totalletra,Total Letra,,,
+976,facturas,totalbaseimp,Total Base Imponible,,,
+977,facturas,importecobrado,Total Cobrado,,,
+978,facturas,TotalDctoEuro,Total Descuento,,,
+979,facturas,TotalIvaEuro,Total IVA/IGIC,,,
+980,facturas,TotalIrpfeuro,Total IRPF,,,
+981,facturas,totalhonoeuro,Total Honorarios,,,
+982,facturas,totanticipos,Total Anticipos,,,
+983,facturas,totalsuplidoseuro,Total Suplidos,,,
+984,facturas,totalpendiente,Total Pendiente,,,
+985,facturas,totalprovisioneseuro,Total Provisiones,,,
+986,prevcobros,realizada,Cobrado,,,
+987,prevcobros,concepto,Concepto,,,
+988,prevcobros,fecharealizada,Fecha Cobro,,,
+989,prevcobros,fecha,Fecha Vencimiento,,,
+990,prevcobros,cliente,Nombre,,,
+991,prevcobros,total,Total,,,
+992,prevcobros,totalletra,Total Letra,,,
+993,prevcobros,usuario,Usuario,,,
+994,prevcobros,nrecibo,Recibo,,,
+995,lineprevcobros,pordctolinea,% Dcto,,,
+996,lineprevcobros,baseimp,Importe,,,
+997,lineprevcobros,concepto,Concepto,,,
+998,lineprevcobros,fecha,Fecha,,,
+999,lineprevcobros,notas,Notas,,,
+1000,lineprevcobros,fpreciounitario,Precio Unidad,,,
+1001,lineprevcobros,total,Total,,,
+1002,lineprevcobros,importedctocalculado,Total Dcto,,,
+1003,lineprevcobros,irpf,Total IRPF,,,
+1004,lineprevcobros,iva,Total IVA,,,
+1005,lineprevcobros,unidades,Unidades,,,#
+1006,bonificada,codigobonificacion,Cód Bonificación,,,
+1007,bonificada,contenidos,Contenidos,,,
+1008,bonificada,descripcion,Descripción,,,
+1009,bonificada,diasDistancia,Días Impartición Distancia/Teleformación,,,
+1010,bonificada,diasPresencial,Días Impartición Presencial,,,
+1011,bonificada,diasTutor,Días Impartición Tutoría,,,
+1012,bonificada,expediente,Núm Expediente,,,
+1013,bonificada,grupo,Grupo de Acciones,,,
+1014,bonificada,gruponotificado,Grupo Notificado,,,
+1015,bonificada,horafinmandistancia,Hora Fin Mañana Distancia,,,
+1016,bonificada,horafinmanpresencial,Hora Fin Mañana Presencial,,,
+1017,bonificada,horafinmantutor,Hora Fin Mañana Tutor,,,
+1018,bonificada,horafintardistancia,Hora Fin Tarde Distancia,,,
+1019,bonificada,horafintarpresencial,Hora Fin Tarde Presencial,,,
+1020,bonificada,horafintartutor,Hora Fin Tarde Tutor,,,
+1021,bonificada,horainimandistancia,Hora Ini Mañana Distancia,,,
+1022,bonificada,horainimanpresencial,Hora Ini Mañana Presencial,,,
+1023,bonificada,horainimantutor,Hora Ini Mañana Tutor,,,
+1024,bonificada,horainitardistancia,Hora Ini Tarde Distancia,,,
+1025,bonificada,horainitarpresencial,Hora Ini Tarde Presencial,,,
+1026,bonificada,horainitartutor,Hora Ini Tarde Tutor,,,
+1027,bonificada,horasdistancia,Horas Distancia,,,
+1028,bonificada,horasformacion,Horas Teleformación,,,
+1029,bonificada,horasmedioambiente,Horas Medio Ambiente,,,
+1030,bonificada,horaspresencial,Horas Presencial,,,
+1031,bonificada,horasprevencion,Horas Prevención,,,
+1032,bonificada,horastecnologias,Horas Tecnologías,,,
+1033,bonificada,horastotal,Horas Total Curso,,,
+1034,bonificada,horastotaltutor,Horas Totales Tutoría,,,
+1035,bonificada,horastottutordis,Horas Totales Distancia/Teleformación,,,
+1036,bonificada,iyear,Año,,,
+1037,bonificada,mediosCentro,Medios Centro Formación,,,
+1038,bonificada,mediosEntidad,Medios Entidad Organizadora,,,
+1039,bonificada,mediosPropios,Medios Propios,,,
+1040,bonificada,modalidad,Modalidad,,,
+1041,bonificada,nivel,Nivel de Formación,,,
+1042,bonificada,objetivos,Objetivos,,,
+1043,bonificada,observaciones,Observaciones,,,
+1044,bonificada,observacioninicurso,Observaciones Inicio Curso,,,
+1045,bonificada,tipo,Tipo Acc Formativa,,,
+1046,bonificada,tipoaccion,Tipo de Acción,,,
+1047,bonificada,url,Url,,,
+1048,bonificada,usuario,Usuario,,,
+1049,subusu,especialidadtra,Especialidad,,,#+pacientes
+1050,subusu,nombre,Nombre,,,
+1051,subusu,numcolegiadotra,Núm. Colegiado,,,#+pacientes
+1052,subusu,ContExh,Cont Exhorto,,,#
+1053,subusu,ContExp,Cont Expediente,,,#
+1054,subusu,ContVar,Cont Varios,,,#
+1055,subusu,costehora,Coste Hora,,,#
+1056,subusu,honohora,Honorarios Hora,,,#
+1057,subusu,HonoHora10,Honorarios Hora 10,,,#
+1058,subusu,HonoHora2,Honorarios Hora 2,,,#
+1059,subusu,HonoHora3,Honorarios Hora 3,,,#
+1060,subusu,HonoHora4,Honorarios Hora 4,,,#
+1061,subusu,HonoHora5,Honorarios Hora 5,,,#
+1062,subusu,HonoHora6,Honorarios Hora 6,,,#
+1063,subusu,HonoHora7,Honorarios Hora 7,,,#
+1064,subusu,HonoHora8,Honorarios Hora 8,,,#
+1065,subusu,HonoHora9,Honorarios Hora 9,,,#
+1066,clidatoscobros,concepto,Concepto,,,
+1067,clidatoscobros,fecharealizada,Fecha Cobro,,,
+1068,clidatoscobros,fecha,Fecha Vencimiento,,,
+1069,clidatoscobros,formapago,Forma de Cobro,,,
+1070,clidatoscobros,total,Total,,,
+1071,titularcobro,IBAN,IBAN,,,
+1072,titularcobro,scodpostalcli,Código Postal,,,
+1073,titularcobro,email,Correo Electrónico,,,
+1074,titularcobro,sdomiciliocli,Dirección,,,
+1075,titularcobro,edad,Edad,,,
+1076,titularcobro,fechanacimiento,Fecha Nacimiento,,,
+1077,titularcobro,smovilcli,Móvil,,,
+1078,titularcobro,snifcli,NIF/CIF,,,
+1079,titularcobro,snombrecli,Nombre,,,
+1080,titularcobro,snombreclicomercial,Nombre Comercial,,,
+1081,titularcobro,notas,Notas,,,
+1082,titularcobro,codigo,Número Cliente,,,
+1083,titularcobro,sNombrePais,País,,,
+1084,titularcobro,spoblacioncli,Población,,,
+1085,titularcobro,mascotasexo,Sexo,,,
+1086,titularcobro,stelefonocli,Teléfono 1,,,
+1087,titularcobro,tipofichero,Tipo Cliente,,,
+1088,linefact,descripcion,Descripción,,,
+1089,linefact,descripnotas,Descripción + Notas,,,
+1090,linefact,importe,Importe,,,
+1091,linefact,notas,Notas,,,
+1092,linefact,fpreciounitario,Precio Unidad,,,
+1093,linefact,tipo,Tipo Cuenta,,,
+1094,linefact,TotalEuro,Total,,,
+1095,linefact,TotalDctoEuro,Total Dcto,,,
+1096,linefact,totalirpfeuro,Total IRPF,,,
+1097,linefact,totalivaeuro,Total IVA/IGIC,,,
+1098,linefact,unidades,Unidades,,,
+1099,linefact,usuario,Usuario,,,
+1100,linefact,ctairpf,Cuenta IRPF,,,#
+1101,linefact,ctaiva,Cuenta IVA/IGIC,,,#
+1102,linefact,CtaProvSupl,Cuenta Provisión/Suplido,,,#
+1103,linefact,cuotaivasinrec,Cuota IVA Sin Recargo,,,#
+1104,linefact,cuotarec,Cuota Recargo,,,#
+1105,linefact,dcto,% Dcto,,,#
+1106,linefact,fechaconcep,Fecha,,,#
+1107,linefact,poriva,% IVA Sin Recargo,,,#
+1108,linefact,porrecargo,% Recargo,,,#
+1109,linefact,preciounimenosdcto,Precio Unidad-Dcto,,,#
+1110,linefactgas,descripcion,Descripción,,,
+1111,linefactgas,descripnotas,Descripción + Notas,,,
+1112,linefactgas,importe,Importe,,,
+1113,linefactgas,notas,Notas,,,
+1114,linefactgas,fpreciounitario,Precio Unidad,,,
+1115,linefactgas,tipo,Tipo Cuenta,,,
+1116,linefactgas,TotalEuro,Total,,,
+1117,linefactgas,unidades,Unidades,,,
+1118,linefactgas,usuario,Usuario,,,
+1119,linefactgas,CtaProvSupl,Cuenta Provisión/Suplido,,,#
+1120,linefacthono,descripcion,Descripción,,,
+1121,linefacthono,descripnotas,Descripción + Notas,,,
+1122,linefacthono,importe,Importe,,,
+1123,linefacthono,notas,Notas,,,
+1124,linefacthono,fpreciounitario,Precio Unidad,,,
+1125,linefacthono,tipo,Tipo Cuenta,,,
+1126,linefacthono,TotalEuro,Total,,,
+1127,linefacthono,TotalDctoEuro,Total Dcto,,,
+1128,linefacthono,totalirpfeuro,Total IRPF,,,
+1129,linefacthono,totalivaeuro,Total IVA/IGIC,,,
+1130,linefacthono,unidades,Unidades,,,
+1131,linefacthono,usuario,Usuario,,,
+1132,linefacthono,ctairpf,Cuenta IRPF,,,#
+1133,linefacthono,ctaiva,Cuenta IVA/IGIC,,,#
+1134,linefacthono,CtaProvSupl,Cuenta Provisión/Suplido,,,#
+1135,linefacthono,cuotaivasinrec,Cuota IVA Sin Recargo,,,#
+1136,linefacthono,cuotarec,Cuota Recargo,,,#
+1137,linefacthono,dcto,% Dcto,,,#
+1138,linefacthono,fechaconcep,Fecha,,,#
+1139,linefacthono,poriva,% IVA Sin Recargo,,,#
+1140,linefacthono,porrecargo,% Recargo,,,#
+1141,linefacthono,preciounimenosdcto,Precio Unidad-Dcto,,,#
+1142,linefactgastos,descripcion,Descripción,,,
+1143,linefactgastos,descripnotas,Descripción + Notas,,,
+1144,linefactgastos,importe,Importe,,,
+1145,linefactgastos,notas,Notas,,,
+1146,linefactgastos,fpreciounitario,Precio Unidad,,,
+1147,linefactgastos,tipo,Tipo Cuenta,,,
+1148,linefactgastos,TotalEuro,Total,,,
+1149,linefactgastos,TotalDctoEuro,Total Dcto,,,
+1150,linefactgastos,totalirpfeuro,Total IRPF,,,
+1151,linefactgastos,totalivaeuro,Total IVA/IGIC,,,
+1152,linefactgastos,unidades,Unidades,,,
+1153,linefactgastos,usuario,Usuario,,,
+1154,linefactgastos,ctairpf,Cuenta IRPF,,,#
+1155,linefactgastos,ctaiva,Cuenta IVA/IGIC,,,#
+1156,linefactgastos,CtaProvSupl,Cuenta Provisión/Suplido,,,#
+1157,linefactgastos,cuotaivasinrec,Cuota IVA Sin Recargo,,,#
+1158,linefactgastos,cuotarec,Cuota Recargo,,,#
+1159,linefactgastos,dcto,% Dcto,,,#
+1160,linefactgastos,fechaconcep,Fecha,,,#
+1161,linefactgastos,poriva,% IVA Sin Recargo,,,#
+1162,linefactgastos,porrecargo,% Recargo,,,#
+1163,linefactgastos,preciounimenosdcto,Precio Unidad-Dcto,,,#
+1164,linefactprov,descripcion,Descripción,,,
+1165,linefactprov,descripnotas,Descripción + Notas,,,
+1166,linefactprov,importe,Importe,,,
+1167,linefactprov,notas,Notas,,,
+1168,linefactprov,fpreciounitario,Precio Unidad,,,
+1169,linefactprov,tipo,Tipo Cuenta,,,
+1170,linefactprov,TotalEuro,Total,,,
+1171,linefactprov,CtaProvSupl,Cuenta Provisión/Suplido,,,#
+1172,linefactarticulos,descripcion,Descripción,,,
+1173,linefactarticulos,descripnotas,Descripción + Notas,,,
+1174,linefactarticulos,importe,Importe,,,
+1175,linefactarticulos,notas,Notas,,,
+1176,linefactarticulos,fpreciounitario,Precio Unidad,,,
+1177,linefactarticulos,tipo,Tipo Cuenta,,,
+1178,linefactarticulos,TotalEuro,Total,,,
+1179,linefactarticulos,TotalDctoEuro,Total Dcto,,,
+1180,linefactarticulos,totalirpfeuro,Total IRPF,,,
+1181,linefactarticulos,totalivaeuro,Total IVA/IGIC,,,
+1182,linefactarticulos,unidades,Unidades,,,
+1183,linefactarticulos,usuario,Usuario,,,
+1184,linefactarticulos,lote,Lote,,,
+1185,linefactarticulos,fechaCaducidad,Fecha de Caducidad/Garantía,,,
+1186,linefactarticulos,ctairpf,Cuenta IRPF,,,#
+1187,linefactarticulos,ctaiva,Cuenta IVA/IGIC,,,#
+1188,linefactarticulos,cuotaivasinrec,Cuota IVA Sin Recargo,,,#
+1189,linefactarticulos,cuotarec,Cuota Recargo,,,#
+1190,linefactarticulos,dcto,% Dcto,,,#
+1191,linefactarticulos,fechaconcep,Fecha,,,#
+1192,linefactarticulos,poriva,% IVA Sin Recargo,,,#
+1193,linefactarticulos,porrecargo,% Recargo,,,#
+1194,linefactarticulos,preciounimenosdcto,Precio Unidad-Dcto,,,#
+1195,linefactanticipos,descripcion,Descripción,,,
+1196,linefactanticipos,descripnotas,Descripción + Notas,,,
+1197,linefactanticipos,importe,Importe,,,
+1198,linefactanticipos,notas,Notas,,,
+1199,linefactanticipos,fpreciounitario,Precio Unidad,,,
+1200,linefactanticipos,tipo,Tipo Cuenta,,,
+1201,linefactanticipos,TotalEuro,Total,,,
+1202,linefactanticipos,TotalDctoEuro,Total Dcto,,,
+1203,linefactanticipos,totalirpfeuro,Total IRPF,,,
+1204,linefactanticipos,totalivaeuro,Total IVA/IGIC,,,
+1205,linefactanticipos,unidades,Unidades,,,
+1206,linefactanticipos,usuario,Usuario,,,
+1207,linefactanticipos,ctairpf,Cuenta IRPF,,,#
+1208,linefactanticipos,ctaiva,Cuenta IVA/IGIC,,,#
+1209,linefactanticipos,cuotaivasinrec,Cuota IVA Sin Recargo,,,#
+1210,linefactanticipos,cuotarec,Cuota Recargo,,,#
+1211,linefactanticipos,dcto,% Dcto,,,#
+1212,linefactanticipos,fechaconcep,Fecha,,,#
+1213,linefactanticipos,poriva,% IVA Sin Recargo,,,#
+1214,linefactanticipos,porrecargo,% Recargo,,,#
+1215,linefactanticipos,preciounimenosdcto,Precio Unidad-Dcto,,,#
+1216,cobrosfact,realizada,Cobrado,,,
+1217,cobrosfact,concepto,Concepto,,,
+1218,cobrosfact,fecharealizada,Fecha Cobro,,,
+1219,cobrosfact,fecha,Fecha Vencimiento,,,
+1220,cobrosfact,total,Total,,,
+1221,cobrosfact,totalletra,Total Letra,,,
+1222,titularfact,IBAN,IBAN,,,
+1223,titularfact,scodpostalcli,Código Postal,,,
+1224,titularfact,email,Correo Electrónico,,,
+1225,titularfact,sdomiciliocli,Dirección,,,
+1226,titularfact,edad,Edad,,,
+1227,titularfact,fechanacimiento,Fecha Nacimiento,,,
+1228,titularfact,smovilcli,Móvil,,,
+1229,titularfact,snifcli,NIF/CIF,,,
+1230,titularfact,snombrecli,Nombre,,,
+1231,titularfact,snombreclicomercial,Nombre Comercial,,,
+1232,titularfact,notas,Notas,,,
+1233,titularfact,codigo,Número Cliente,,,
+1234,titularfact,sNombrePais,País,,,
+1235,titularfact,spoblacioncli,Población,,,
+1236,titularfact,mascotasexo,Sexo,,,
+1237,titularfact,stelefonocli,Teléfono 1,,,
+1238,titularfact,tipofichero,Tipo Cliente,,,
+1239,expedienfact,iyear,EtiqYearExpediente,1,,
+1240,expedienfact,fcuantia,Cuantía,,bVerCuantiaExp,
+1241,expedienfact,descripcion,EtiqDescripExpediente,1,,
+1242,expedienfact,estado,Estado,,,
+1243,expedienfact,dfechaalta,Fecha Alta,,,
+1244,expedienfact,dfechacierre,Fecha Cierre,,,
+1245,expedienfact,snumasunto,Núm. Autos,,bverjuzga,
+1246,expedienfact,expediente,Núm. Expediente,,,
+1247,expedienfact,srefcliente,Ref. Expediente,,bVerExpReferencia,
+1248,expedienfact,refhisto,Ref. Histórico,,bVerRefHistoExp,
+1249,expedienfact,srefabogado,Ref. Propia,,,
+1250,expedienfact,nombretodosclientes,Todos los Clientes,,,
+1251,expedienfact,nombretodoscontrarios,Todos los Contrarios,,bverficcont,
+1252,expedienfact,itipoasunto,Tipo de Asunto,,bVerExpTipoAsun,
+1253,expedienfact,itipoexp,Tipo de Expediente,,,
+1254,expedienfact,codproce,Tipo de Procedimiento,,bVerExpTipoProc,
+1255,expedienfact,nombreusuario,Usuario,,,
+1256,pacsclifact,scodpostalcli,Código Postal,,,
+1257,pacsclifact,email,Correo Electrónico,,,
+1258,pacsclifact,sdomiciliocli,Dirección,,,
+1259,pacsclifact,edad,Edad,,,
+1260,pacsclifact,fechanacimiento,Fecha Nacimiento,,,
+1261,pacsclifact,smovilcli,Móvil,,,
+1262,pacsclifact,snifcli,NIF/CIF,,,
+1263,pacsclifact,snombrecli,Nombre,,,
+1264,pacsclifact,snombreclicomercial,Nombre Comercial,,,
+1265,pacsclifact,notas,Notas,,,
+1266,pacsclifact,codigo,Número Cliente,,,
+1267,pacsclifact,sNombrePais,País,,,
+1268,pacsclifact,spoblacioncli,Población,,,
+1269,pacsclifact,mascotasexo,Sexo,,,
+1270,pacsclifact,stelefonocli,Teléfono 1,,,
+1271,pacsclifact,tipofichero,Tipo Paciente,,,
+1272,alumnclifact,scodpostalcli,Código Postal,,,
+1273,alumnclifact,email,Correo Electrónico,,,
+1274,alumnclifact,sdomiciliocli,Dirección,,,
+1275,alumnclifact,edad,Edad,,,
+1276,alumnclifact,fechanacimiento,Fecha Nacimiento,,,
+1277,alumnclifact,smovilcli,Móvil,,,
+1278,alumnclifact,snifcli,NIF/CIF,,,
+1279,alumnclifact,snombrecli,Nombre,,,
+1280,alumnclifact,snombreclicomercial,Nombre Comercial,,,
+1281,alumnclifact,notas,Notas,,,
+1282,alumnclifact,codigo,Número Alumno,,,
+1283,alumnclifact,sNombrePais,País,,,
+1284,alumnclifact,spoblacioncli,Población,,,
+1285,alumnclifact,mascotasexo,Sexo,,,
+1286,alumnclifact,stelefonocli,Teléfono 1,,,
+1287,alumnclifact,tipofichero,Tipo Alumno,,,
+1288,camposCombinados,TRABAJADORES_DPTO_NOMBRE,,,,
+1289,camposCombinados,HISTORIALCOMBINADOS_AN,,,,#
+1290,camposCombinados,HISTORIALCOMBINADOS_FA,,,,#
+1291,camposCombinados,HISTORIALCOMBINADOS_FAN,,,,#
+1292,camposCombinados,HISTORIALCOMBINADOS_FAT,,,,#
+1293,camposCombinados,HISTORIALCOMBINADOS_FATP,,,,#
+1294,camposCombinados,HISTORIALCOMBINADOS_FAHHP,,,,#
+1295,camposCombinados,COBROSCOMB_FCT,,,,#
+1296,camposCombinados,COBROSCOMB_FI,,,,#
+1297,camposCombinados,CONTROLASISTENCIAALTACOMB,,,,#
+1298,camposCombinados,CONTROLASISTENCIAALTACOMB_PROFESOR,,,,#
+1299,camposCombinados,CONTROLASISTENCIAALTACOMB_DNI,,,,#
+1300,camposCombinados,CONTROLASISTENCIAALTA_NOMBRE,,,,#
+1301,camposCombinados,CUENTAS_COMBINADOS_DES,,,,#
+1302,camposCombinados,CUENTAS_COMBINADOS_FDES,,,,#
+1303,camposCombinados,CUENTAS_COMBINADOS_FDESN,,,,#
+1304,camposCombinados,PIA_ESPECIALIDADOBJETIVOCUMPLIMIENTO_NOMBRE,,,,
+1305,camposCombinados,PIA_ESPECIALIDADPROGRAMAFECHAS_NOMBRE,,,,
+1306,camposCombinados,PIA_DEPARTAMENTONOMBRE_NOMBRE,,,,
+1307,camposCombinados,ALUMMATRICULADO_AFNT,,,,
+1308,camposCombinados,ALUMRESERVADO_ANT,,,,#
+1309,camposCombinados,ALUMINTERESADO_ANT,,,,#
+1310,camposCombinados,ALUMBAJA_ANT,,,,#
+1311,camposCombinados,CONCEPTOSCOMBI_DES,,,,#
+1312,camposCombinados,CONCEPTOSCOMBI_FDES,,,,#
+1313,camposCombinados,CONCEPTOSCOMBI_FDESN,,,,#
+1314,camposCombinados,CONCEPTOSCOMBI_PRECIO1,,,,#
+1315,camposCombinados,CONCEPTOSCOMBI_PRECIO2,,,,#
+1316,camposCombinados,CONCEPTOSCOMBI_PRECIO3,,,,#
+1317,camposCombinados,CONCEPTOSCOMBI_PRECIO4,,,,#
+1318,camposCombinados,CONCEPTOSCOMBI_PRECIO5,,,,#
+1319,camposCombinados,CONCEPTOSCOMBI_PRECIO6,,,,#
+1320,camposCombinados,CONCEPTOSCOMBI_CTAIVA,,,,#
+1321,camposCombinados,CONCEPTOSCOMBI_CAP1,,,,#
+1322,camposCombinados,CONCEPTOSCOMBI_CAP2,,,,#
+1323,camposCombinados,CONCEPTOSCOMBI_CAP3,,,,#
+1324,camposCombinados,CONCEPTOSCOMBI_CAP4,,,,#
+1325,camposCombinados,CONCEPTOSCOMBI_DS,,,,#
+1326,camposCombinados,CONCEPTOSCOMBI_FDS,,,,#
+1327,camposCombinados,CONCEPTOSCOMBI_FDSN,,,,#
+1328,camposCombinados,DESCRIPCIONHONOAGRUPADO,,,,#
+1329,camposCombinados,FECHADESCRIPCIONHONOAGRUPADO,,,,#
+1330,camposCombinados,UNIDADESESCRIPCIONHONOAGRUPADO,,,,#
+1331,camposCombinados,HONO_AGRUPADO_UDSPF,,,,#
+1332,camposCombinados,HONO_PACIENTE,,,,#
+1333,camposCombinados,HONO_PACIENTE_CONUSUARIO,,,,#
+1334,camposCombinados,HONO_SEGODONT,,,,#
+1335,camposCombinados,CONCEPTOSCOMBI_DE,,,,#
+1336,camposCombinados,CONCEPTOSCOMBI_FDE,,,,#
+1337,camposCombinados,CONCEPTOSCOMBI_FDEN,,,,#
+1338,camposCombinados,OPORCOMBINADOS_CTCUIT,,,,#
+1339,camposCombinados,OPORCOMBINADOS_CTSCUIT,,,,#
+1340,camposCombinados,OPORCOMBINADOS_CTCNUIT,,,,#
+1341,camposCombinados,OPORCOMBINADOS_CTSCNUIT,,,,#
+1342,proforma,dcto,% Dcto,,,
+1343,proforma,yearfact,Año Factura,,,
+1344,proforma,codpostalcli,Código Postal,,,
+1345,proforma,sdescripcionorden,Descripción Factura,,,
+1346,proforma,domiciliocli,Dirección,,,
+1347,proforma,fecha,Fecha,,,
+1348,proforma,fechafacturalarga,Fecha Larga,,,
+1349,proforma,formapago,Forma de Cobro,,,
+1350,proforma,iban,IBAN,,,
+1351,proforma,honoConDctoLin,Importe,,,
+1352,proforma,irpf,IRPF %,,,
+1353,proforma,nifcli,NIF/CIF,,,
+1354,proforma,nombrecli,Nombre,,,
+1355,proforma,notas,Notas,,,
+1356,proforma,inumfactura,Núm Factura,,,
+1357,proforma,paiscli,País,,,
+1358,proforma,poblacioncli,Población,,,
+1359,proforma,provinciacli,Provincia,,,
+1360,proforma,reffactu,Ref Factura,,,
+1361,proforma,TotalEuro,Total,,,
+1362,proforma,totalletra,Total Letra,,,
+1363,proforma,totalbaseimp,Total Base Imponible,,,
+1364,proforma,importecobrado,Total Cobrado,,,
+1365,proforma,TotalDctoEuro,Total Descuento,,,
+1366,proforma,TotalIvaEuro,Total IVA/IGIC,,,
+1367,proforma,TotalIrpfeuro,Total IRPF,,,
+1368,proforma,totalhonoeuro,Total Honorarios,,,
+1369,proforma,totalsuplidoseuro,Total Suplidos,,,
+1370,proforma,totalpendiente,Total Pendiente,,,
+1371,proforma,totalprovisioneseuro,Total Provisiones,,,
+1372,lineprof,descripcion,Descripción,,,
+1373,lineprof,descripnotas,Descripción + Notas,,,
+1374,lineprof,importe,Importe,,,
+1375,lineprof,notas,Notas,,,
+1376,lineprof,fpreciounitario,Precio Unidad,,,
+1377,lineprof,tipo,Tipo Cuenta,,,
+1378,lineprof,TotalEuro,Total,,,
+1379,lineprof,TotalDctoEuro,Total Dcto,,,
+1380,lineprof,totalirpfeuro,Total IRPF,,,
+1381,lineprof,totalivaeuro,Total IVA/IGIC,,,
+1382,lineprof,unidades,Unidades,,,
+1383,lineprof,usuario,Usuario,,,
+1384,lineprof,ctairpf,Cuenta IRPF,,,#
+1385,lineprof,ctaiva,Cuenta IVA/IGIC,,,#
+1386,lineprof,CtaProvSupl,Cuenta Provisión/Suplido,,,#
+1387,lineprof,cuotaivasinrec,Cuota IVA Sin Recargo,,,#
+1388,lineprof,cuotarec,Cuota Recargo,,,#
+1389,lineprof,dcto,% Dcto,,,#
+1390,lineprof,fechaconcep,Fecha,,,#
+1391,lineprof,poriva,% IVA Sin Recargo,,,#
+1392,lineprof,porrecargo,% Recargo,,,#
+1393,lineprof,preciounimenosdcto,Precio Unidad-Dcto,,,#
+1394,lineprofgas,descripcion,Descripción,,,
+1395,lineprofgas,descripnotas,Descripción + Notas,,,
+1396,lineprofgas,importe,Importe,,,
+1397,lineprofgas,notas,Notas,,,
+1398,lineprofgas,fpreciounitario,Precio Unidad,,,
+1399,lineprofgas,tipo,Tipo Cuenta,,,
+1400,lineprofgas,TotalEuro,Total,,,
+1401,lineprofgas,unidades,Unidades,,,
+1402,lineprofgas,usuario,Usuario,,,
+1403,lineprofgas,CtaProvSupl,Cuenta Provisión/Suplido,,,#
+1404,lineprofhono,descripcion,Descripción,,,
+1405,lineprofhono,descripnotas,Descripción + Notas,,,
+1406,lineprofhono,importe,Importe,,,
+1407,lineprofhono,notas,Notas,,,
+1408,lineprofhono,fpreciounitario,Precio Unidad,,,
+1409,lineprofhono,tipo,Tipo Cuenta,,,
+1410,lineprofhono,TotalEuro,Total,,,
+1411,lineprofhono,TotalDctoEuro,Total Dcto,,,
+1412,lineprofhono,totalirpfeuro,Total IRPF,,,
+1413,lineprofhono,totalivaeuro,Total IVA/IGIC,,,
+1414,lineprofhono,unidades,Unidades,,,
+1415,lineprofhono,usuario,Usuario,,,
+1416,lineprofhono,ctairpf,Cuenta IRPF,,,#
+1417,lineprofhono,ctaiva,Cuenta IVA/IGIC,,,#
+1418,lineprofhono,CtaProvSupl,Cuenta Provisión/Suplido,,,#
+1419,lineprofhono,cuotaivasinrec,Cuota IVA Sin Recargo,,,#
+1420,lineprofhono,cuotarec,Cuota Recargo,,,#
+1421,lineprofhono,dcto,% Dcto,,,#
+1422,lineprofhono,fechaconcep,Fecha,,,#
+1423,lineprofhono,poriva,% IVA Sin Recargo,,,#
+1424,lineprofhono,porrecargo,% Recargo,,,#
+1425,lineprofhono,preciounimenosdcto,Precio Unidad-Dcto,,,#
+1426,lineprofgastos,descripcion,Descripción,,,
+1427,lineprofgastos,descripnotas,Descripción + Notas,,,
+1428,lineprofgastos,importe,Importe,,,
+1429,lineprofgastos,notas,Notas,,,
+1430,lineprofgastos,fpreciounitario,Precio Unidad,,,
+1431,lineprofgastos,tipo,Tipo Cuenta,,,
+1432,lineprofgastos,TotalEuro,Total,,,
+1433,lineprofgastos,TotalDctoEuro,Total Dcto,,,
+1434,lineprofgastos,totalirpfeuro,Total IRPF,,,
+1435,lineprofgastos,totalivaeuro,Total IVA/IGIC,,,
+1436,lineprofgastos,unidades,Unidades,,,
+1437,lineprofgastos,usuario,Usuario,,,
+1438,lineprofgastos,ctairpf,Cuenta IRPF,,,#
+1439,lineprofgastos,ctaiva,Cuenta IVA/IGIC,,,#
+1440,lineprofgastos,CtaProvSupl,Cuenta Provisión/Suplido,,,#
+1441,lineprofgastos,cuotaivasinrec,Cuota IVA Sin Recargo,,,#
+1442,lineprofgastos,cuotarec,Cuota Recargo,,,#
+1443,lineprofgastos,dcto,% Dcto,,,#
+1444,lineprofgastos,fechaconcep,Fecha,,,#
+1445,lineprofgastos,poriva,% IVA Sin Recargo,,,#
+1446,lineprofgastos,porrecargo,% Recargo,,,#
+1447,lineprofgastos,preciounimenosdcto,Precio Unidad-Dcto,,,#
+1448,lineprofprov,descripcion,Descripción,,,
+1449,lineprofprov,descripnotas,Descripción + Notas,,,
+1450,lineprofprov,importe,Importe,,,
+1451,lineprofprov,notas,Notas,,,
+1452,lineprofprov,fpreciounitario,Precio Unidad,,,
+1453,lineprofprov,tipo,Tipo Cuenta,,,
+1454,lineprofprov,TotalEuro,Total,,,
+1455,lineprofprov,CtaProvSupl,Cuenta Provisión/Suplido,,,#
+1456,lineprofarticulos,descripcion,Descripción,,,
+1457,lineprofarticulos,descripnotas,Descripción + Notas,,,
+1458,lineprofarticulos,importe,Importe,,,
+1459,lineprofarticulos,notas,Notas,,,
+1460,lineprofarticulos,fpreciounitario,Precio Unidad,,,
+1461,lineprofarticulos,tipo,Tipo Cuenta,,,
+1462,lineprofarticulos,TotalEuro,Total,,,
+1463,lineprofarticulos,TotalDctoEuro,Total Dcto,,,
+1464,lineprofarticulos,totalirpfeuro,Total IRPF,,,
+1465,lineprofarticulos,totalivaeuro,Total IVA/IGIC,,,
+1466,lineprofarticulos,unidades,Unidades,,,
+1467,lineprofarticulos,usuario,Usuario,,,
+1468,lineprofarticulos,lote,Lote,,,
+1469,lineprofarticulos,fechaCaducidad,Fecha de Caducidad/Garantía,,,
+1470,lineprofarticulos,ctairpf,Cuenta IRPF,,,#
+1471,lineprofarticulos,ctaiva,Cuenta IVA/IGIC,,,#
+1472,lineprofarticulos,cuotaivasinrec,Cuota IVA Sin Recargo,,,#
+1473,lineprofarticulos,cuotarec,Cuota Recargo,,,#
+1474,lineprofarticulos,dcto,% Dcto,,,#
+1475,lineprofarticulos,fechaconcep,Fecha,,,#
+1476,lineprofarticulos,poriva,% IVA Sin Recargo,,,#
+1477,lineprofarticulos,porrecargo,% Recargo,,,#
+1478,lineprofarticulos,preciounimenosdcto,Precio Unidad-Dcto,,,#
+1479,lineprofanticipos,descripcion,Descripción,,,
+1480,lineprofanticipos,descripnotas,Descripción + Notas,,,
+1481,lineprofanticipos,importe,Importe,,,
+1482,lineprofanticipos,notas,Notas,,,
+1483,lineprofanticipos,fpreciounitario,Precio Unidad,,,
+1484,lineprofanticipos,tipo,Tipo Cuenta,,,
+1485,lineprofanticipos,TotalEuro,Total,,,
+1486,lineprofanticipos,TotalDctoEuro,Total Dcto,,,
+1487,lineprofanticipos,totalirpfeuro,Total IRPF,,,
+1488,lineprofanticipos,totalivaeuro,Total IVA/IGIC,,,
+1489,lineprofanticipos,unidades,Unidades,,,
+1490,lineprofanticipos,usuario,Usuario,,,
+1491,lineprofanticipos,ctairpf,Cuenta IRPF,,,#
+1492,lineprofanticipos,ctaiva,Cuenta IVA/IGIC,,,#
+1493,lineprofanticipos,cuotaivasinrec,Cuota IVA Sin Recargo,,,#
+1494,lineprofanticipos,cuotarec,Cuota Recargo,,,#
+1495,lineprofanticipos,dcto,% Dcto,,,#
+1496,lineprofanticipos,fechaconcep,Fecha,,,#
+1497,lineprofanticipos,poriva,% IVA Sin Recargo,,,#
+1498,lineprofanticipos,porrecargo,% Recargo,,,#
+1499,lineprofanticipos,preciounimenosdcto,Precio Unidad-Dcto,,,#
+1500,prevcobrosprof,realizada,Cobrado,,,
+1501,prevcobrosprof,concepto,Concepto,,,
+1502,prevcobrosprof,fecharealizada,Fecha Cobro,,,
+1503,prevcobrosprof,fecha,Fecha Vencimiento,,,
+1504,prevcobrosprof,total,Total,,,
+1505,prevcobrosprof,totalletra,Total Letra,,,
+1506,tareascuentas,oportunidad,Descripción,,,
+1507,tareascuentas,conceptonotas,Descripción + Notas,,,
+1508,tareascuentas,importecierre,Importe,,,
+1509,tareascuentas,notas,Notas,,,
+1510,tareascuentas,prevision,Precio,,,
+1511,tareascuentas,precio,Precio Unidad,,,
+1512,tareascuentas,tipocuenta,Tipo Cuenta,,,
+1513,tareascuentas,total,Total,,,
+1514,tareascuentas,totaldctoeuro,Total Dcto,,,
+1515,tareascuentas,totalirpf,Total IRPF,,,
+1516,tareascuentas,totaliva,Total IVA,,,
+1517,tareascuentas,unidades,Unidades,,,
+1518,tareascuentas,subusuario,Usuario,,,
+1519,tareassuplidos,oportunidad,Descripción,,,
+1520,tareassuplidos,conceptonotas,Descripción + Notas,,,
+1521,tareassuplidos,importecierre,Importe,,,
+1522,tareassuplidos,notas,Notas,,,
+1523,tareassuplidos,prevision,Precio,,,
+1524,tareassuplidos,precio,Precio Unidad,,,
+1525,tareassuplidos,tipocuenta,Tipo Cuenta,,,
+1526,tareassuplidos,total,Total,,,
+1527,tareassuplidos,unidades,Unidades,,,
+1528,tareassuplidos,subusuario,Usuario,,,
+1529,tareashono,oportunidad,Descripción,,,
+1530,tareashono,conceptonotas,Descripción + Notas,,,
+1531,tareashono,importecierre,Importe,,,
+1532,tareashono,notas,Notas,,,
+1533,tareashono,prevision,Precio,,,
+1534,tareashono,precio,Precio Unidad,,,
+1535,tareashono,tipocuenta,Tipo Cuenta,,,
+1536,tareashono,total,Total,,,
+1537,tareashono,totaldctoeuro,Total Dcto,,,
+1538,tareashono,totalirpf,Total IRPF,,,
+1539,tareashono,totaliva,Total IVA,,,
+1540,tareashono,unidades,Unidades,,,
+1541,tareashono,subusuario,Usuario,,,
+1542,tareasprovisiones,oportunidad,Descripción,,,
+1543,tareasprovisiones,conceptonotas,Descripción + Notas,,,
+1544,tareasprovisiones,importecierre,Importe,,,
+1545,tareasprovisiones,notas,Notas,,,
+1546,tareasprovisiones,prevision,Precio,,,
+1547,tareasprovisiones,precio,Precio Unidad,,,
+1548,tareasprovisiones,tipocuenta,Tipo Cuenta,,,
+1549,tareasprovisiones,total,Total,,,
+1550,tareasarticulos,oportunidad,Descripción,,,
+1551,tareasarticulos,conceptonotas,Descripción + Notas,,,
+1552,tareasarticulos,importecierre,Importe,,,
+1553,tareasarticulos,notas,Notas,,,
+1554,tareasarticulos,prevision,Precio,,,
+1555,tareasarticulos,precio,Precio Unidad,,,
+1556,tareasarticulos,tipocuenta,Tipo Cuenta,,,
+1557,tareasarticulos,total,Total,,,
+1558,tareasarticulos,totaldctoeuro,Total Dcto,,,
+1559,tareasarticulos,totalirpf,Total IRPF,,,
+1560,tareasarticulos,totaliva,Total IVA,,,
+1561,tareasarticulos,unidades,Unidades,,,
+1562,tareasarticulos,subusuario,Usuario,,,
+1563,tareasarticulos,lote,Lote,,,
+1564,tareasarticulos,fechaCaducidad,Fecha de Caducidad/Garantía,,,
+1565,tareashistorial,sactuacion,Descripción,,,
+1566,tareashistorial,estadosalaespera,Estado,,,
+1567,tareashistorial,dfechaact,Fecha Actuación,,,
+1568,tareashistorial,fecharealizacion,Fecha Realización,,,
+1569,tareashistorial,horafinact,Hora Fin,,,
+1570,tareashistorial,horainiact,Hora Inicio,,,
+1571,tareashistorial,notas,Notas,,,
+1572,tareashistorial,precio,Precio,,,
+1573,tareashistorial,realizada,Realizada,,,
+1574,tareashistorial,tiempo,Tiempo,,,
+1575,tareashistorial,tipo,Tipo Actuación,,,
+1576,tareashistorial,usuario,Usuario Actuación,,,
+1577,oportareaexpediente,iyear,EtiqYearExpediente,1,,
+1578,oportareaexpediente,fcuantia,Cuantía,,bVerCuantiaExp,
+1579,oportareaexpediente,descripcion,EtiqDescripExpediente,1,,
+1580,oportareaexpediente,estado,Estado,,,
+1581,oportareaexpediente,dfechaalta,Fecha Alta,,,
+1582,oportareaexpediente,dfechacierre,Fecha Cierre,,,
+1583,oportareaexpediente,snumasunto,Núm. Autos,,bverjuzga,
+1584,oportareaexpediente,expediente,Núm. Expediente,,,
+1585,oportareaexpediente,srefcliente,Ref. Expediente,,bVerExpReferencia,
+1586,oportareaexpediente,refhisto,Ref. Histórico,,bVerRefHistoExp,
+1587,oportareaexpediente,srefabogado,Ref. Propia,,,
+1588,oportareaexpediente,nombretodosclientes,Todos los Clientes,,,
+1589,oportareaexpediente,nombretodoscontrarios,Todos los Contrarios,,bverficcont,
+1590,oportareaexpediente,itipoasunto,Tipo de Asunto,,bVerExpTipoAsun,
+1591,oportareaexpediente,itipoexp,Tipo de Expediente,,,
+1592,oportareaexpediente,codproce,Tipo de Procedimiento,,bVerExpTipoProc,
+1593,oportareaexpediente,nombreusuario,Usuario,,,
+1594,oporcli,oportunidad,Descripción,,,
+1595,oporcli,estado,Estado,,,
+1596,oporcli,etapa,Etapa,,,
+1597,oporcli,dfecha,Fecha,,,
+1598,oporcli,fechacierre,Fecha Cierre,,,
+1599,oporcli,horaalta,Hora,,,
+1600,oporcli,hora,Hora Cierre,,,
+1601,oporcli,tipo,Tipo,,,
+1602,oporcli,subusuario,Usuario,,,
+1603,oporclicuentas,oportunidad,Descripción,,,
+1604,oporclicuentas,conceptonotas,Descripción + Notas,,,
+1605,oporclicuentas,importecierre,Importe,,,
+1606,oporclicuentas,notas,Notas,,,
+1607,oporclicuentas,prevision,Precio,,,
+1608,oporclicuentas,precio,Precio Unidad,,,
+1609,oporclicuentas,tipocuenta,Tipo Cuenta,,,
+1610,oporclicuentas,total,Total,,,
+1611,oporclicuentas,totaldctoeuro,Total Dcto,,,
+1612,oporclicuentas,totalirpf,Total IRPF,,,
+1613,oporclicuentas,totaliva,Total IVA,,,
+1614,oporclicuentas,unidades,Unidades,,,
+1615,oporclicuentas,subusuario,Usuario,,,
+1616,oporclisuplidos,oportunidad,Descripción,,,
+1617,oporclisuplidos,conceptonotas,Descripción + Notas,,,
+1618,oporclisuplidos,importecierre,Importe,,,
+1619,oporclisuplidos,notas,Notas,,,
+1620,oporclisuplidos,prevision,Precio,,,
+1621,oporclisuplidos,precio,Precio Unidad,,,
+1622,oporclisuplidos,tipocuenta,Tipo Cuenta,,,
+1623,oporclisuplidos,total,Total,,,
+1624,oporclisuplidos,unidades,Unidades,,,
+1625,oporclisuplidos,subusuario,Usuario,,,
+1626,oporclihono,oportunidad,Descripción,,,
+1627,oporclihono,conceptonotas,Descripción + Notas,,,
+1628,oporclihono,importecierre,Importe,,,
+1629,oporclihono,notas,Notas,,,
+1630,oporclihono,prevision,Precio,,,
+1631,oporclihono,precio,Precio Unidad,,,
+1632,oporclihono,tipocuenta,Tipo Cuenta,,,
+1633,oporclihono,total,Total,,,
+1634,oporclihono,totaldctoeuro,Total Dcto,,,
+1635,oporclihono,totalirpf,Total IRPF,,,
+1636,oporclihono,totaliva,Total IVA,,,
+1637,oporclihono,unidades,Unidades,,,
+1638,oporclihono,subusuario,Usuario,,,
+1639,oporcliprovisiones,oportunidad,Descripción,,,
+1640,oporcliprovisiones,conceptonotas,Descripción + Notas,,,
+1641,oporcliprovisiones,importecierre,Importe,,,
+1642,oporcliprovisiones,notas,Notas,,,
+1643,oporcliprovisiones,prevision,Precio,,,
+1644,oporcliprovisiones,precio,Precio Unidad,,,
+1645,oporcliprovisiones,tipocuenta,Tipo Cuenta,,,
+1646,oporcliprovisiones,total,Total,,,
+1647,oporcliarticulos,oportunidad,Descripción,,,
+1648,oporcliarticulos,conceptonotas,Descripción + Notas,,,
+1649,oporcliarticulos,importecierre,Importe,,,
+1650,oporcliarticulos,notas,Notas,,,
+1651,oporcliarticulos,prevision,Precio,,,
+1652,oporcliarticulos,precio,Precio Unidad,,,
+1653,oporcliarticulos,tipocuenta,Tipo Cuenta,,,
+1654,oporcliarticulos,total,Total,,,
+1655,oporcliarticulos,totaldctoeuro,Total Dcto,,,
+1656,oporcliarticulos,totalirpf,Total IRPF,,,
+1657,oporcliarticulos,totaliva,Total IVA,,,
+1658,oporcliarticulos,unidades,Unidades,,,
+1659,oporcliarticulos,subusuario,Usuario,,,
+1660,oporcliarticulos,lote,Lote,,,
+1661,oporcliarticulos,fechaCaducidad,Fecha de Caducidad/Garantía,,,
+1662,oporclihistorial,sactuacion,Descripción,,,
+1663,oporclihistorial,estadosalaespera,Estado,,,
+1664,oporclihistorial,dfechaact,Fecha Actuación,,,
+1665,oporclihistorial,fecharealizacion,Fecha Realización,,,
+1666,oporclihistorial,horafinact,Hora Fin,,,
+1667,oporclihistorial,horainiact,Hora Inicio,,,
+1668,oporclihistorial,notas,Notas,,,
+1669,oporclihistorial,precio,Precio,,,
+1670,oporclihistorial,realizada,Realizada,,,
+1671,oporclihistorial,tiempo,Tiempo,,,
+1672,oporclihistorial,tipo,Tipo Actuación,,,
+1673,oporclihistorial,usuario,Usuario Actuación,,,
+1674,oporclipedido,asociadoa,Asociado a,,,
+1675,oporclipedido,oportunidad,Descripción,,,
+1676,oporclipedido,etapa,Etapa,,,
+1677,oporclipedido,estado,Estado,,,
+1678,oporclipedido,dfecha,Fecha Compra,,,
+1679,oporclipedido,fechacierre,Fecha Recepción,,,
+1680,oporclipedido,fechafinprev,Fecha Prevista Recepción,,,
+1681,oporclipedido,formapago,Forma Pago,,,
+1682,oporclipedido,nifproveedor,NIF Proveedor,,,
+1683,oporclipedido,nomproveedor,Nombre Proveedor,,,
+1684,oporclipedido,numopor,Número,,,
+1685,oporclipedido,tipo,Tipo,,,
+1686,oporclipedido,subusuario,Usuario,,,
+1687,oporclipedido,unidades,Unidades,,,
+1688,oporclipedido,dcto,%Dcto,,,
+1689,oporclipedido,prevision,Precio,,,
+1690,oporclipedido,importecierre,Importe,,,
+1691,oporcliexpediente,iyear,EtiqYearExpediente,1,,
+1692,oporcliexpediente,fcuantia,Cuantía,,bVerCuantiaExp,
+1693,oporcliexpediente,descripcion,EtiqDescripExpediente,1,,
+1694,oporcliexpediente,estado,Estado,,,
+1695,oporcliexpediente,dfechaalta,Fecha Alta,,,
+1696,oporcliexpediente,dfechacierre,Fecha Cierre,,,
+1697,oporcliexpediente,snumasunto,Núm. Autos,,bverjuzga,
+1698,oporcliexpediente,expediente,Núm. Expediente,,,
+1699,oporcliexpediente,srefcliente,Ref. Expediente,,bVerExpReferencia,
+1700,oporcliexpediente,refhisto,Ref. Histórico,,bVerRefHistoExp,
+1701,oporcliexpediente,srefabogado,Ref. Propia,,,
+1702,oporcliexpediente,nombretodosclientes,Todos los Clientes,,,
+1703,oporcliexpediente,nombretodoscontrarios,Todos los Contrarios,,bverficcont,
+1704,oporcliexpediente,itipoasunto,Tipo de Asunto,,bVerExpTipoAsun,
+1705,oporcliexpediente,itipoexp,Tipo de Expediente,,,
+1706,oporcliexpediente,codproce,Tipo de Procedimiento,,bVerExpTipoProc,
+1707,oporcliexpediente,nombreusuario,Usuario,,,
+1708,comprascuentas,oportunidad,Descripción,,,
+1709,comprascuentas,conceptonotas,Descripción + Notas,,,
+1710,comprascuentas,importecierre,Importe,,,
+1711,comprascuentas,notas,Notas,,,
+1712,comprascuentas,prevision,Precio,,,
+1713,comprascuentas,precio,Precio Unidad,,,
+1714,comprascuentas,tipocuenta,Tipo Cuenta,,,
+1715,comprascuentas,total,Total,,,
+1716,comprascuentas,totaldctoeuro,Total Dcto,,,
+1717,comprascuentas,totalirpf,Total IRPF,,,
+1718,comprascuentas,totaliva,Total IVA,,,
+1719,comprascuentas,unidades,Unidades,,,
+1720,comprascuentas,subusuario,Usuario,,,
+1721,comprasgastos,oportunidad,Descripción,,,
+1722,comprasgastos,conceptonotas,Descripción + Notas,,,
+1723,comprasgastos,importecierre,Importe,,,
+1724,comprasgastos,notas,Notas,,,
+1725,comprasgastos,prevision,Precio,,,
+1726,comprasgastos,precio,Precio Unidad,,,
+1727,comprasgastos,tipocuenta,Tipo Cuenta,,,
+1728,comprasgastos,total,Total,,,
+1729,comprasgastos,totaldctoeuro,Total Dcto,,,
+1730,comprasgastos,totalirpf,Total IRPF,,,
+1731,comprasgastos,totaliva,Total IVA,,,
+1732,comprasgastos,unidades,Unidades,,,
+1733,comprasgastos,subusuario,Usuario,,,
+1734,comprasarticulos,oportunidad,Descripción,,,
+1735,comprasarticulos,conceptonotas,Descripción + Notas,,,
+1736,comprasarticulos,importecierre,Importe,,,
+1737,comprasarticulos,notas,Notas,,,
+1738,comprasarticulos,prevision,Precio,,,
+1739,comprasarticulos,precio,Precio Unidad,,,
+1740,comprasarticulos,tipocuenta,Tipo Cuenta,,,
+1741,comprasarticulos,total,Total,,,
+1742,comprasarticulos,totaldctoeuro,Total Dcto,,,
+1743,comprasarticulos,totalirpf,Total IRPF,,,
+1744,comprasarticulos,totaliva,Total IVA,,,
+1745,comprasarticulos,unidades,Unidades,,,
+1746,comprasarticulos,subusuario,Usuario,,,
+1747,comprasarticulos,lote,Lote,,,
+1748,comprasarticulos,fechaCaducidad,Fecha de Caducidad/Garantía,,,
+1749,cuencli,yearfact,Año Factura,,,#
+1750,cuencli,capituloconcepto,Capítulo,,,#
+1751,cuencli,clasecuenta,Clase de Cuenta,,,#
+1752,cuencli,contpar1,Contrapartida 1,,,#
+1753,cuencli,contpar2,Contrapartida 2,,,#
+1754,cuencli,ctairpf,Cuenta Contable IRPF,,,#
+1755,cuencli,ctaiva,Cuenta Contable IVA,,,#
+1756,cuencli,cuenrealizada,Cuenta Realizada,,,#
+1757,cuencli,sDescripcion,Descripción,,,#
+1758,cuencli,descripnotas,Descripción + Notas,,,#
+1759,cuencli,dFecha,Fecha,,,#
+1760,cuencli,fEntradasEuro,Entradas,,,#
+1761,cuencli,fSalidasEuro,Salidas,,,#
+1762,cuencli,inumfactura,Núm Factura,,,#
+1763,cuencli,irpf,IRPF,,,#
+1764,cuencli,iva,IVA,,,#
+1765,cuencli,fpreciounitario,Precio Unidad,,,#
+1766,cuencli,referencia,Referencia,,,#
+1767,cuencli,sTipo,Tipo Cuenta,,,#
+1768,cuencli,subcapitulo,Subcapítulo,,,#
+1769,cuencli,unidades,Unidades,,,#
+1770,cuenexpe,dctolinea,% Dcto Línea,,,
+1771,cuenexpe,sdescripcion,Descripción,,,
+1772,cuenexpe,descripnotas,Descripción + Notas,,,
+1773,cuenexpe,dFecha,Fecha,,,
+1774,cuenexpe,fsalidaseuro,Importe,,,
+1775,cuenexpe,notas,Notas,,,
+1776,cuenexpe,fpreciounitario,Precio Unidad,,,
+1777,cuenexpe,sTipo,Tipo Cuenta,,,
+1778,cuenexpe,totalcuenta,Total,,,
+1779,cuenexpe,unidades,Unidades,,,
+1780,previexp,asiento,Asiento,,,#
+1781,previexp,contpar1,Contrapartida1,,,#
+1782,previexp,contpar2,Contrapartida2,,,#
+1783,previexp,dfecha,Fecha,,,#
+1784,previexp,fecharealizada,Fecha Realización,,,#
+1785,previexp,fentradaseuro,Entradas,,,#
+1786,previexp,fsalidaseuro,Salidas,,,#
+1787,previexp,previrealizada,Previa Realizada,,,#
+1788,previexp,sdescripcion,Descripción,,,#
+1789,previexp1,dfecha,Fecha,,,#
+1790,previexp1,fecharealizada,Fecha Realización,,,#
+1791,previexp1,fentradaseuro,Entradas,,,#
+1792,previexp1,fsalidaseuro,Salidas,,,#
+1793,previexp1,previrealizada,Previa Realizada,,,#
+1794,previexp1,sdescripcion,Descripción,,,#
+1795,previexp2,asiento,Asiento,,,#
+1796,previexp2,contpar1,Contrapartida1,,,#
+1797,previexp2,contpar2,Contrapartida2,,,#
+1798,previexp2,dfecha,Fecha,,,#
+1799,previexp2,fecharealizada,Fecha Realización,,,#
+1800,previexp2,fentradaseuro,Entradas,,,#
+1801,previexp2,fsalidaseuro,Salidas,,,#
+1802,previexp2,previrealizada,Previa Realizada,,,#
+1803,previexp2,sdescripcion,Descripción,,,#
+1804,previexp3,dfecha,Fecha,,,#
+1805,previexp3,fecharealizada,Fecha Realización,,,#
+1806,previexp3,fentradaseuro,Entradas,,,#
+1807,previexp3,fsalidaseuro,Salidas,,,#
+1808,previexp3,previrealizada,Previa Realizada,,,#
+1809,previexp3,sdescripcion,Descripción,,,#
+1810,expalumsel,iyear,EtiqYearExpediente,1,,
+1811,expalumsel,fcuantia,Cuantía,,bVerCuantiaExp,
+1812,expalumsel,descripcion,EtiqDescripExpediente,1,,
+1813,expalumsel,estado,Estado,,,
+1814,expalumsel,dfechaalta,Fecha Alta,,,
+1815,expalumsel,dfechacierre,Fecha Cierre,,,
+1816,expalumsel,snumasunto,Núm. Autos,,bverjuzga,
+1817,expalumsel,expediente,Núm. Expediente,,,
+1818,expalumsel,srefcliente,Ref. Expediente,,bVerExpReferencia,
+1819,expalumsel,refhisto,Ref. Histórico,,bVerRefHistoExp,
+1820,expalumsel,srefabogado,Ref. Propia,,,
+1821,expalumsel,nombretodosclientes,Todos los Clientes,,,
+1822,expalumsel,nombretodoscontrarios,Todos los Contrarios,,bverficcont,
+1823,expalumsel,itipoasunto,Tipo de Asunto,,bVerExpTipoAsun,
+1824,expalumsel,itipoexp,Tipo de Expediente,,,
+1825,expalumsel,codproce,Tipo de Procedimiento,,bVerExpTipoProc,
+1826,expalumsel,nombreusuario,Usuario,,,
+1827,expalumsel,NIG,NIG,,,#
+1828,expalumsel,notas,Notas,,,#
+1829,expalumsel,notas2,notas2,,,#
+1830,expalumsel,notas3,notas3,,,#
+1831,expalumsel,notas4,notas4,,,#
+1832,expalumsel,notas5,notas5,,,#
+1833,expalumsel,notas6,notas6,,,#
+1834,titularprof,IBAN,IBAN,,,
+1835,titularprof,scodpostalcli,Código Postal,,,
+1836,titularprof,email,Correo Electrónico,,,
+1837,titularprof,sdomiciliocli,Dirección,,,
+1838,titularprof,edad,Edad,,,
+1839,titularprof,fechanacimiento,Fecha Nacimiento,,,
+1840,titularprof,smovilcli,Móvil,,,
+1841,titularprof,snifcli,NIF/CIF,,,
+1842,titularprof,snombrecli,Nombre,,,
+1843,titularprof,snombreclicomercial,Nombre Comercial,,,
+1844,titularprof,notas,Notas,,,
+1845,titularprof,codigo,Número Cliente,,,
+1846,titularprof,sNombrePais,País,,,
+1847,titularprof,spoblacioncli,Población,,,
+1848,titularprof,mascotasexo,Sexo,,,
+1849,titularprof,stelefonocli,Teléfono 1,,,
+1850,titularprof,tipofichero,Tipo Cliente,,,
+1851,totalescalcint,totalResta,Total Salidas - Total Entradas,,,
+1852,linefactarticulos,serieLote,Serie,,,
+1853,lineprofarticulos,serieLote,Serie,,,
+1854,tareasarticulos,serieLote,Serie,,,
+1855,oporcliarticulos,serieLote,Serie,,,
+1856,comprasarticulos,serieLote,Serie,,,
+1857,faceaapp,codorganogestor,Código Órgano Gestor,,,
+1858,faceaapp,nomorganogestor,Nombre Órgano Gestor,,,
+1859,faceaapp,rolorganogestor,Rol Órgano Gestor,,,
+1860,faceaapp,codunidadtramitadora,Código Unidad Tramitadora,,,
+1861,faceaapp,nomunidadtramitadora,Nombre Unidad Tramitadora,,,
+1862,faceaapp,rolunidadtramitadora,Rol Unidad Tramitadora,,,
+1863,faceaapp,codoficinacontable,Código Oficina Contable,,,
+1864,faceaapp,nomoficinacontable,Nombre Oficina Contable,,,
+1865,faceaapp,roloficinacontable,Rol Oficina Contable,,,
+1866,faceaapp,codorganoproponente,Código Órgano Proponente,,,
+1867,faceaapp,nomorganoproponente,Nombre Órgano Proponente,,,
+1868,faceaapp,rolorganoproponente,Rol Órgano Proponente,,,
+1869,movrecobrosprevias4,dfecha,Fecha,,,
+1870,movrecobrosprevias4,tipoPrevia,Tipo,,,
+1871,movrecobrosprevias4,sdescripcion,Descripción,,,
+1872,movrecobrosprevias4,importe,Importe,,,
+1873,clientes,V_IMAGEN1,Foto Ficha,,,
+1875,director,ibanempresa,IBAN,,bverrecibrem,
+1876,director,sepavencidoacreedor,SEPA Vencido Acreedor,,bverrecibrem,
+1877,director,paisempresa,País,,,
+1878,recetasMedicas,smovilcli,Móvil Cliente,,,
+1879,recetasMedicas,email,Mail Cliente,,,
+1880,servicioscli,nombrePagador,Pagador,,,
+1881,tareashistorial,tiempohoras,Tiempo Horas,,,
+1882,facturas,codExpContratacion,Código Expediente Contratación,,,
+1883,prevcobros,estadocobro,Estado Cobro,,,
+1884,prevcobrosprof,estadocobro,Estado Cobro,,,
+1885,cobrosfact,estadocobro,Estado Cobro,,,
+1886,camposCombinados,CONCEPTOSCOMBI_BASEIMPIVA1,,,,#
+1887,camposCombinados,CONCEPTOSCOMBI_BASEIMPIVA2,,,,#

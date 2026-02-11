@@ -1,0 +1,10 @@
+﻿idiva,descripcion,iva,recequ,vigente,predeterminada
+0,TIPO IVA 0%,0.0,0.0,True,
+3,TIPO IVA 4%,4.0,0.5,True,
+9,TIPO IVA 21%,21.0,4.0,True,
+10,TIPO IVA 10%,10.0,1.0,True,
+11,TIPO IVA 5%,5.0,0.0,True,
+12,TIPO IGIC 3%,3.0,0.0,True,
+13,"TIPO IGIC 6,5%",6.5,0.0,True,
+14,TIPO IGIC 15%,15.0,0.0,True,
+15,TIPO IGIC 20%,20.0,0.0,True,

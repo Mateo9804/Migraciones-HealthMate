@@ -1,0 +1,1316 @@
+﻿id,claveFiltro,nombre,campo,orden,campovisualizacion,etiquetasini,tipofiltro,Visible,consultaindependiente,subClave,modofiltro,consultacombo,combovaloresUsu,disponible
+1,ControlClientes,Todos los teléfonos,smovilcli|stelefonocli|telefono2|telefono3,3,,0,0,True,,,,,,1
+2,ControlClientes,func:GetEtiqNombreCliente,snombrecli,1,,1,3,True,,,,,,1
+3,ControlClientes,Correo electrónico,email,4,,0,3,True,(icodcli IN (select icodcli from diremailcli dec where email like '%{0}%')),,,,,1
+4,ControlClientes,NIF/CIF,snifcli,2,,0,0,True,,,,,,1
+5,ControlClientes,Número,codigo,5,!bvercamponumerico,0,0,False,,,,,,1
+6,ControlClientes,Dirección,sdomiciliocli,6,,0,0,False,,,,,,1
+7,ControlClientes,clinombrecomercial,snombreclicomercial,7,bvernomcomercialcli,1,0,False,,ControlClientes,,,,1
+8,ControlClientes,Población,spoblacioncli,8,,0,0,False,,,,,,1
+9,ControlClientes,Provincia,sprovinciacli,9,,0,0,False,,,,,,1
+10,ControlClientes,Código Postal,scodpostalcli,10,,0,0,False,,,,,,1
+11,ControlClientes,País,snombrepais,11,,0,0,False,,,,,,1
+12,ControlClientes,Teléfono,stelefonocli,12,,0,0,False,,,,,,1
+13,ControlClientes,Teléfono 2,telefono2,13,,0,0,False,,,,,,1
+14,ControlClientes,Teléfono 3,telefono2,14,,0,0,False,,,,,,1
+15,ControlClientes,clienfax,sfaxcli,15,,1,0,False,,,,,,1
+16,ControlClientes,Móvil,smovilcli,16,,0,0,False,,,,,,1
+17,ControlClientes,Página Web,pagweb,17,,0,0,False,,,,,,1
+18,ControlClientes,CCC,cuentabanco,18,,0,0,False,,,,,,1
+19,ControlClientes,Notas,notas,19,,0,0,False,,,,,,1
+20,ControlClientes,Nacionalidad,nacionalidad,20,bvernacionalidadcli,0,0,False,,ControlClientes,,,,1
+21,ControlClientes,Estado,estadocli,21,,0,0,False,,,,,,1
+22,ControlExpedientes,Cliente,snombreclitodos,1,,1,3,True,idexp IN (SELECT ECP.inumexp * CAST(10000 as bigint) + ECP.iyear as idexp    FROM [[instancia]advabousu[empresa]].dbo.exclipro ECP    JOIN [[instancia]advabousu[empresa]].dbo.clientes C ON ECP.icodcli = C.icodcli    WHERE C.tipobd = 0 AND C.snombrecli LIKE '%{0}%'),ControlExpedientes,,,,1
+23,ControlExpedientes,EtiqDescripExpediente,descripcion,2,,1,3,True,,,,,,1
+24,ControlExpedientes,EtiqTipoExpediente,tipoexp,4,,1,3,False,,,,,,1
+25,ControlExpedientes,EtiqNumExpediente,expediente,21,,1,3,False,,,,,,1
+26,ControlExpedientes,ContrarioTituloSingular,contrariotodos,2,bverficcont,1,3,True, exists (SELECT 1 FROM [[instancia]advabousu[empresa]].dbo.exclicon ECC   JOIN [[instancia]advabousu[empresa]].dbo.cliecont CC ON ECC.icodclicon = CC.icodclicon   WHERE ECC.inumexp = [nomTablaGestor].inumexp and ECC.iyear = [nomTablaGestor].iyear and  CC.snombreclicon LIKE '%{0}%') ,ControlExpedientes,,,,1
+27,ControlExpedientes,Núm Autos,snumasuntotodos,3,bverficjuzga,0,3,True,idexp IN (SELECT EJ.numexp * CAST(10000 as bigint) + EJ.iyear as idexp    FROM [[instancia]advabousu[empresa]].dbo.expjuzga EJ   WHERE EJ.numasunto LIKE '%{0}%'),ControlExpedientes,,,,1
+28,ControlExpedientes,JuzgadoTituloSingular,juzgado,1,bverficjuzga,1,3,False,,,,,,1
+29,ControlExpedientes,EtiqAbogadoPropio,abopropiotodos,1,bverficabog,1,3,False,idexp IN (SELECT EPP.inumexp * CAST(10000 as bigint) + EPP.iyear as idexp    FROM [[instancia]advabousu[empresa]].dbo.expropro EPP    JOIN [[instancia]advabousu[empresa]].dbo.abogados A ON EPP.icodpro = A.icodabo   WHERE A.snombreabo LIKE '%{0}%'),ControlExpedientes,,,,1
+30,ControlExpedientes,Ref. Propia,srefabogado,28,bverrefpropia,1,3,False,,,,,,1
+31,ControlExpedientes,EtiqRefExpediente,srefcliente,5,bverrefcliente,1,3,False,,,,,,1
+32,ControlExpedientes,NIG,nig,1,bvernigexp,0,3,False,,ControlExpedientes,,,,1
+33,ControlExpedientes,cliUsuario,usuario,6,,1,3,False,,,,,,1
+34,ControlExpedientes,Tipo Asunto,tipoasunto,1,bvertipoasunto,0,3,False,,,,,,1
+35,ControlExpedientes,EtiqProcuradorPropio,procpropio,6,bverficproc,1,3,True,,ControlExpedientes,,,,1
+36,ControlExpedientes,Última Actuación,descripcionultimaactu,7,,0,3,False,,,,,,1
+37,ControlExpedientes,Estado,estado,3,,0,3,True,,,,,,1
+38,ControlExpedientes,EtiqYearExpediente,anyo,8,,1,1,False,,,,,,1
+39,ControlHistorial,Descripción,sactuacion,0,,0,3,True,,,,,,1
+40,ControlHistorial,Nombre,snombrecli,1,,0,0,True,,,,,,1
+41,ControlHistorial,Descripción Expediente,descripcion,5,bVerExpedientes,1,0,False,,,,,,1
+42,ControlHistorial,cliUsuario,nomsubusu,2,,1,3,True,((nomsubusu like '%{0}%') or (idsubusus in (select cast(subact.idact as varchar) + '-' +cast(subact.origen as varchar) from [[instancia]advabousu[empresa]].dbo.subususact subact left join [[instancia]advabousu[empresa]].dbo.subusu sb on subact.codsubusu = sb.icodsubusu where sb.nombre like '%{0}%'))),,,,,1
+43,ControlHistorial,Tipo de Plazo,tipoactu,4,vertipoplazoseg,0,0,True,,,,,,1
+44,ControlHistorial,Tipo de Actuación,tipo,3,,0,0,True,,,,,,1
+45,ControlExpedientes,EtiqAbogadoContrario,abocontrario,1,bverficabog,1,3,False,idexp IN (SELECT EAC.inumexp * CAST(10000 as bigint) + EAC.iyear as idexp FROM [[instancia]advabousu[empresa]].dbo.exabocon EAC JOIN [[instancia]advabousu[empresa]].dbo.abogados A ON EAC.icodabo = A.icodabo   WHERE A.snombreabo LIKE '%{0}%'),ControlExpedientes,,,,1
+46,ControlExpedientes,EtiqProcuradorContrario,proccontrario,1,bverficproc,1,3,False,,ControlExpedientes,,,,1
+47,ControlExpedientes,Etiqueta Editable,campo29,14,tipoexp:bverotrosdatoscampo29,1,3,False,,,,,,1
+48,ControlExpedientes,EtiqRefProcuradorPropio,refProcProptodos,1,bverficproc,1,3,True,idexp IN (SELECT EAP.inumexp * CAST(10000 as bigint) + EAP.iyear as idexp   FROM [[instancia]advabousu[empresa]].dbo.exabopro EAP   WHERE EAP.numreferencia LIKE '%{0}%'),ControlExpedientes,,,,1
+49,ControlExpedientes,CliRefCli,numreferenciatodos,26,,1,3,False,idexp IN (SELECT ECP.inumexp * CAST(10000 as bigint) + ECP.iyear as idexp   FROM [[instancia]advabousu[empresa]].dbo.exclipro ECP   WHERE ECP.numreferencia LIKE '%{0}%'),ControlExpedientes,,,,1
+50,ControlClientes,Número,numero,1,bvercamponumerico,0,1,True,,,,,,1
+51,ControlClientes,cliUsuario,susuario,22,,1,0,False,,,,,,1
+52,ControlExpedientes,EtiqRefAbogadoPropio,refAbogProptodos,23,bverficabog,1,3,False,idexp IN (SELECT EPP.inumexp * CAST(10000 as bigint) + EPP.iyear as idexp  FROM [[instancia]advabousu[empresa]].dbo.expropro EPP WHERE EPP.numreferencia LIKE '%{0}%'),ControlExpedientes,,,,1
+53,ControlExpedientes,Núm. Siniestro,numsiniestro,24,expe_seg|1,1,3,False,idexp IN (SELECT S.inumexp * CAST(10000 as bigint) + S.iyear as idexp    FROM [[instancia]advabousu[empresa]].dbo.seguros S    WHERE S.numsiniestro LIKE '%{0}%'),ControlExpedientes,,,,1
+54,ControlExpedientes,CentrosPrincipal,nombrecentro,25,bvercentros,1,3,False,,ControlExpedientes,,,,1
+55,ControlClientes,CentrosPrincipal,nombrecentro,26,bvercentros,1,0,False,,,,,,1
+56,ControlExpedientes,Notas,notas,15,,0,3,False,,,,,,1
+57,ControlExpedientes,EtiqAlumnosProp,alumnostodos,26,bveralumno,1,3,True,idexp IN (SELECT ECP.inumexp * CAST(10000 as bigint) + ECP.iyear as idexp    FROM [[instancia]advabousu[empresa]].dbo.expalumnos ECP   JOIN [[instancia]advabousu[empresa]].dbo.clientes C ON ECP.icodcli = C.icodcli   WHERE C.tipobd = 5 AND C.snombrecli LIKE '%{0}%'),ControlExpedientes,,,,1
+58,ControlExpedientes,EtiqClientesProp,snombreclitodos,1,,1,3,True,e.inumexp * CAST(10000 as bigint) + e.iyear IN (SELECT ECP.inumexp * CAST(10000 as bigint) + ECP.iyear as idexp    FROM exclipro ECP   JOIN clientes C ON ECP.icodcli = C.icodcli    WHERE C.tipobd = 0 AND C.snombrecli LIKE '%{0}%'),frmSeleccionarFicha,,,,1
+59,ControlExpedientes,ContrarioTituloSingular,contrariotodos,22,bverficcont,1,3,False,e.inumexp * CAST(10000 as bigint) + e.iyear IN (SELECT ECC.inumexp * CAST(10000 as bigint) + ECC.iyear as idexp   FROM exclicon ECC   JOIN cliecont CC ON ECC.icodclicon = CC.icodclicon   WHERE CC.snombreclicon LIKE '%{0}%'),frmSeleccionarFicha,,,,1
+60,ControlExpedientes,Núm Autos,snumasuntotodos,1,bverficjuzga,0,3,False,e.inumexp * CAST(10000 as bigint) + e.iyear IN (SELECT EJ.numexp * CAST(10000 as bigint) + EJ.iyear as idexp     FROM expjuzga EJ     WHERE EJ.numasunto LIKE '%{0}%'),frmSeleccionarFicha,,,,1
+61,ControlExpedientes,EtiqAbogadoPropio,abopropiotodos,1,bverficabog,1,3,False,e.inumexp * CAST(10000 as bigint) + e.iyear IN (SELECT EPP.inumexp * CAST(10000 as bigint) + EPP.iyear as idexp   FROM expropro EPP    JOIN abogados A ON EPP.icodpro = A.icodabo   WHERE A.snombreabo LIKE '%{0}%'),frmSeleccionarFicha,,,,1
+62,ControlExpedientes,EtiqRefProcuradorPropio,refProcProptodos,1,bverficproc,1,3,False,e.inumexp * CAST(10000 as bigint) + e.iyear IN (SELECT EAP.inumexp * CAST(10000 as bigint) + EAP.iyear as idexp     FROM exabopro EAP    WHERE EAP.numreferencia LIKE '%{0}%'),frmSeleccionarFicha,,,,1
+63,ControlExpedientes,CliRefCli,numreferenciatodos,1,,1,3,False,e.inumexp * CAST(10000 as bigint) + e.iyear IN (SELECT ECP.inumexp * CAST(10000 as bigint) + ECP.iyear as idexp  FROM exclipro ECP    WHERE ECP.numreferencia LIKE '%{0}%'),frmSeleccionarFicha,,,,1
+64,ControlExpedientes,EtiqRefAbogadoPropio,refAbogProptodos,1,bverficabog,1,3,False,e.inumexp * CAST(10000 as bigint) + e.iyear IN (SELECT EPP.inumexp * CAST(10000 as bigint) + EPP.iyear as idexp    FROM expropro EPP   WHERE EPP.numreferencia LIKE '%{0}%'),frmSeleccionarFicha,,,,1
+65,ControlExpedientes,Núm. Siniestro,numsiniestro,1,expe_seg|1,1,3,False,e.inumexp * CAST(10000 as bigint) + e.iyear IN (SELECT S.inumexp * CAST(10000 as bigint) + S.iyear as idexp   FROM seguros S    WHERE S.numsiniestro LIKE '%{0}%'),frmSeleccionarFicha,,,,1
+66,ControlExpedientes,EtiqAlumnosProp,alumnostodos,1,bveralumno,1,3,False,e.inumexp * CAST(10000 as bigint) + e.iyear IN (SELECT ECP.inumexp * CAST(10000 as bigint) + ECP.iyear as idexp   FROM expalumnos ECP    JOIN clientes C ON ECP.icodcli = C.icodcli  WHERE C.tipobd = 5 AND C.snombrecli LIKE '%{0}%'),frmSeleccionarFicha,,,,1
+67,ControlExpedientes,EtiqRefAbogado,srefprocurador,7,procuradores,1,3,True,,,,,,1
+68,ControlExpedientes,Ref. Historico,refhisto,25,bverrefhistoexp,0,3,False,,,,,,1
+69,ControlExpedientes,Proveedores,proveedorestodos,24,bverproveedor,0,3,False,idexp IN (SELECT DISTINCT EP.inumexp * CAST(10000 as bigint) + EP.iyear as idexp       FROM expproveedor EP        LEFT JOIN clientes C ON C.icodcli = EP.icodcli       WHERE C.snombrecli LIKE '%{0}%'),ControlExpedientes,,,,1
+70,ControlExpedientes,EtiqTercerosProp,tercerostodos,23,bVerTerceros,1,3,False,idexp IN (SELECT DISTINCT ECP.inumexp * CAST(10000 as bigint) + ECP.iyear as idexp        FROM exclipro ECP        LEFT JOIN clientes C ON C.icodcli = ECP.icodcli       WHERE C.tipobd = 3 AND C.snombrecli LIKE '%{0}%'),ControlExpedientes,,,,1
+71,ControlExpedientes,Campo 3,campotipo3,9,bvertipologiaexpe,1,3,False,,,,,,1
+72,ControlClientes,Referencia,referencia,25,,0,0,False,,ControlPotenciales,,,,1
+73,Vencimientos,Nº Póliza,numpoliza,1,,0,3,True,,,,,,1
+74,Vencimientos,Nombre Cliente,snombrecli,2,,0,3,True,,,,,,1
+75,Vencimientos,NIF Cliente,snifcli,3,,0,3,True,,,,,,1
+76,Vencimientos,Descripción,descripcion,4,,0,3,True,,,,,,1
+77,Vencimientos,Ramo,grupo,5,,0,3,True,,,,,,1
+78,Vencimientos,Compañía,company,6,,0,3,True,,,,,,1
+79,Vencimientos,Estado,estado,7,,0,3,True,,,,,,1
+80,Vencimientos,Tipo Póliza,tipopoliza,8,,0,3,True,,,,,,1
+81,Vencimientos,cliUsuario,nomsubusu,9,,1,3,True,,,,,,1
+82,Vencimientos,Situación Póliza,situacionpoliza,10,,0,3,False,,,,,,1
+83,Vencimientos,Núm. Anulación,numanulacion,11,,0,3,False,,,,,,1
+84,Vencimientos,Agente,agente,12,,0,3,False,,,,,,1
+85,Vencimientos,Tipo,tipo,13,,0,3,False,,,,,,1
+95,Stock,Lote,lote,5,,0,3,True,,,,,,1
+96,Stock,Nombre,descripcion,3,,0,3,True,,,,,,1
+97,Stock,Código Artículo,codigo,2,,0,3,True,,,,,,1
+98,Stock,Referencia Artículo,referencia,13,,0,3,False,,,,,,1
+101,Stock,Tipo,tipo,0,,0,4,True,,,,{$}:string|Todas{=}|Entradas{=}Entrada|Salidas{=}Salida,,1
+102,Stock,Tipo Artículo,tipoart,12,,0,3,False,,,,,,1
+103,Stock,Familia,nomfamilia,4,,0,3,True,,,,,,1
+104,Stock,Almacén,almacen,8,,0,3,True,,,,,,1
+105,ControlClientes,clinombrecomercial,snombreclicomercial,1,tipoficherocli:6:bvernomcomercialcli,1,0,True,,ControlCompañias,,,,1
+106,ControlClientes,CCC,cuentabanco,1,tipoficherocli:6:bverdatosbancarioscli,0,0,True,,ControlCompañias,,,,1
+107,PrevisionCobros,Nombre,cliente,0,,0,3,True,,PrevisionCobros,,,,1
+108,PrevisionCobros,Forma de cobro,formapago1,1,,0,4,True,,PrevisionCobros,,formacobro|formacobro,,1
+109,PrevisionCobros,Concepto,concepto,2,,0,0,True,,PrevisionCobros,,,,1
+110,PrevisionCobros,Núm. Factura,inumfact,3,,0,1,True,,PrevisionCobros,,,,1
+111,PrevisionCobros,Serie Factura,serie,15,,0,3,False,(CASE WHEN (serie='seriemn' or serie='seriemnrec') THEN '' ELSE serie END) LIKE '%{0}%',PrevisionCobros,,,,1
+112,PrevisionCobros,Descripción Expediente,nombreexp,12,,0,0,False,,PrevisionCobros,,,,1
+113,PrevisionCobros,Tipo Factura,tipofactura,13,,0,4,False,,PrevisionCobros,,tipofact|tipofact,,1
+114,PrevisionCobros,Estado,estadocobro,4,,0,4,True,,PrevisionCobros,4,controlcobros|estadocobro,,1
+115,ControlClientes,clinombrecomercial,snombreclicomercial,1,tipoficherocli:7:bvernomcomercialcli,1,0,True,,Tutores,,,,1
+118,ControlClientes,CentrosPlural,centrotodos,1,bvercentros,1,3,False,icodcli IN (SELECT icodcli  FROM CentrosClientes CC JOIN centrospredef CP ON CC.idCentro = CP.id WHERE CP.sdescripcion LIKE '%{0}%'),ControlClientes,,,,1
+119,PrevisionCobros,Descripción concepto,descripcion,1,,0,0,True,,PrevisionCobros:Conceptos,,,,1
+120,ControlClientes,Persona de Contacto,contacto,27,bvercontactocli[AND]bverficconta,0,3,False,"icodcli in (SELECT ContactLin.IcodCli FROM contactlin INNER JOIN contacto ON (ContactLin.icodcontacto = contacto.codcontacto and contacto.nombre like '%{0}%') WHERE ISNULL(ContactLin.icodcli,0) != 0)",,,,,1
+121,ControlClientes,Persona de Contacto,contacto,23,bvercontactoclipot[AND]bverficconta,0,3,False,"icodcli in (SELECT ContactLin.IcodCli FROM contactlin INNER JOIN contacto ON (ContactLin.icodcontacto = contacto.codcontacto and contacto.nombre like '%{0}%') WHERE ISNULL(ContactLin.icodcli,0) != 0)",ControlPotenciales,,,,1
+122,ControlClientes,Persona de Contacto,contacto,29,tipoficherocli:5:bvercontactocli[AND]bverficconta,0,3,False,"icodcli in (SELECT ContactLin.IcodCli FROM contactlin INNER JOIN contacto ON (ContactLin.icodcontacto = contacto.codcontacto and contacto.nombre like '%{0}%') WHERE ISNULL(ContactLin.icodcli,0) != 0)",ControlAlumnos,,,,1
+123,ControlClientes,Persona de Contacto,contacto,30,tipoficherocli:8:bvercontactocli[AND]bverficconta,0,3,False,"icodcli in (SELECT ContactLin.IcodCli FROM contactlin INNER JOIN contacto ON (ContactLin.icodcontacto = contacto.codcontacto and contacto.nombre like '%{0}%') WHERE ISNULL(ContactLin.icodcli,0) != 0)",aseguradoras,,,,1
+124,ControlClientes,Persona de Contacto,contacto,31,tipoficherocli:6:bvercontactocli[AND]bverficconta,0,3,False,"icodcli in (SELECT ContactLin.IcodCli FROM contactlin INNER JOIN contacto ON (ContactLin.icodcontacto = contacto.codcontacto and contacto.nombre like '%{0}%') WHERE ISNULL(ContactLin.icodcli,0) != 0)",ControlCompañias,,,,1
+125,ControlClientes,Persona de Contacto,contacto,32,tipoficherocli:9:bvercontactootros[AND]bverficconta,0,3,False,"icodcli in (SELECT ContactLin.IcodCli FROM contactlin INNER JOIN contacto ON (ContactLin.icodcontacto = contacto.codcontacto and contacto.nombre like '%{0}%') WHERE ISNULL(ContactLin.icodcli,0) != 0)",ControlProveedores,,,,1
+126,ControlFinanciadores,Persona de Contacto,contacto,32,tipoficherocli:11:bvercontactocli[AND]bverficconta,0,3,False,"icodcli in (SELECT ContactLin.IcodCli FROM contactlin INNER JOIN contacto ON (ContactLin.icodcontacto = contacto.codcontacto and contacto.nombre like '%{0}%') WHERE ISNULL(ContactLin.icodcli,0) != 0)",,,,,1
+127,ControlClientes,Persona de Contacto,contacto,34,tipoficherocli:10:bvercontactootros[AND]bverficconta,0,3,False,"icodcli in (SELECT ContactLin.IcodCli FROM contactlin INNER JOIN contacto ON (ContactLin.icodcontacto = contacto.codcontacto and contacto.nombre like '%{0}%') WHERE ISNULL(ContactLin.icodcli,0) != 0)",ControlClientes,,,,1
+128,ControlClientes,Persona de Contacto,contacto,35,tipoficherocli:7:bvercontactocli[AND]bverficconta,0,3,False,"icodcli in (SELECT ContactLin.IcodCli FROM contactlin INNER JOIN contacto ON (ContactLin.icodcontacto = contacto.codcontacto and contacto.nombre like '%{0}%') WHERE ISNULL(ContactLin.icodcli,0) != 0)",Tutores,,,,1
+129,ControlClientes,Persona de Contacto,contacto,36,bvercontactotrab[AND]bverficconta,0,3,False,"icodcli in (SELECT ContactLin.IcodCli FROM contactlin INNER JOIN contacto ON (ContactLin.icodcontacto = contacto.codcontacto and contacto.nombre like '%{0}%') WHERE ISNULL(ContactLin.icodcli,0) != 0)",ControlTrabajadores,,,,1
+130,ControlClientes,Persona de Contacto,contacto,37,tipoficherocli:4:bvercontactocli[AND]bverficconta,0,3,False,"icodcli in (SELECT ContactLin.IcodCli FROM contactlin INNER JOIN contacto ON (ContactLin.icodcontacto = contacto.codcontacto and contacto.nombre like '%{0}%') WHERE ISNULL(ContactLin.icodcli,0) != 0)",ControlPacientes,,,,1
+131,ControlClientes,Persona de Contacto,contacto,38,bvercontactootros[AND]bverficconta,0,3,False,"icodcli in (SELECT ContactLin.IcodCli FROM contactlin INNER JOIN contacto ON (ContactLin.icodcontacto = contacto.codcontacto and contacto.nombre like '%{0}%') WHERE ISNULL(ContactLin.icodcli,0) != 0)",Terceros,,,,1
+132,ControlClientes,clinombrecomercial,snombreclicomercial,1,tipoficherocli:5:bvernomcomercialcli,1,0,True,,ControlAlumnos,,,,1
+133,ControlValoraciones,Nombre,nombreCliente,0,,0,0,True,,,,,,1
+134,ControlValoraciones,cliUsuario,nombreUsuario,1,,1,0,True,,,,,,1
+135,ControlValoraciones,Actuación,sactuacion,2,,0,0,True,,,,,,1
+136,ControlValoraciones,Valoración,puntuacion,3,,0,4,True,,,,{$}:int|Todas{=}|1{=}1|2{=}2|3{=}3|4{=}4|5{=}5,,1
+137,ControlClientes,Naturaleza Jurídica,naturjuridica,1,tipoficherocli:9:bvernatjuridicaotros,0,0,False,,ControlProveedores,,,,1
+138,ControlClientes,Naturaleza Jurídica,naturjuridica,1,bvernatjuridicacli,0,0,False,,,,,,1
+139,ControlClientes,Naturaleza Jurídica,naturjuridica,1,bvernatjuridicaclipot,0,0,False,,ControlPotenciales,,,,1
+140,ControlClientes,clinombrecomercial,snombreclicomercial,1,tipoficherocli:10:bvernomcomercialcli,1,0,True,,Voluntarios,,,,1
+141,ControlClientes,Naturaleza Jurídica,naturjuridica,1,tipoficherocli:7:bvernatjuridicacli,0,0,True,,Tutores,,,,1
+142,ControlExpedientes,Población,spobArq,25,bverEmplaza,0,3,False,,,,,,1
+143,ControlExpedientes,Dirección,sdirArq,26,bverEmplaza,0,3,False,,,,,,1
+144,PIAS,Actuación,sactuacion,0,,0,0,True,,,,,,1
+145,PIAS,Objetivo,sobjetivo,1,,0,0,True,,,,,,1
+146,PIAS,Nombre,cliente,2,,0,3,True,CAST(icodcli as varchar) + '-' + CAST(dfechaact as varchar) + '-' + CAST(linea as varchar) in  (select CAST(SC.icodcli as varchar) + '-' + CAST(SC.dfechaact as varchar) + '-' + CAST(SC.linea as varchar) FROM segcli   SC inner join clientes C on SC.icodcli = C.icodcli where C.snombrecli LIKE '%{0}%'),,,,,1
+147,ControlHistorial,En Agenda,agenda,4,bVerNuevaAgenda,0,4,True,,,,{$}:int|Todas{=}|Sí{=}1|No{=}0,,1
+148,FacturasRecibidas,Proveedor,nombre,3,,0,0,True,,,,,,1
+149,FacturasRecibidas,NIF/CIF,nifcli,4,,0,0,True,,,,,,1
+150,FacturasRecibidas,Tipo de Gasto,concepto,2,,0,0,True,,,,,,1
+151,FacturasRecibidas,Forma de Pago,formapago,4,,0,4,True,,,,formacobro|formacobro,,1
+152,FacturasRecibidas,Número,numfactura,1,,0,1,True,,,,,,1
+153,FacturasRecibidas,Núm. Documento,documento,5,,0,0,False,,,,,,1
+154,FacturasRecibidas,cliUsuario,nombreusuario,7,,1,0,False,,,,,,1
+155,FacturasRecibidas,Total,total,13,,0,1,False,,,1,,,1
+157,FacturasRecibidas,Estado Pago,frapagada,6,,0,4,True,,,,{$}:int|Todas{=}|Pagadas{=}1|No pagadas{=}0|Pagadas Parcial{=}2,,1
+158,ControlExpedientes,EtiqProcuradorPropio,procuradorpropio,7,bverficproc,1,0,True,,frmSeleccionarFicha,,,,1
+159,ControlExpedientes,EtiqProcuradorContrario,procuradorcontrario,7,bverficproc,1,0,True,,frmSeleccionarFicha,,,,1
+160,AtencionCliente,Nombre,snombrecli,1,,0,0,True,,,,,,1
+161,AtencionCliente,Descripción,oportunidad,2,,0,3,True,oportunidad like '%{0}%',,,,,1
+162,AtencionCliente,cliUsuario,subusuario,3,,1,0,True,,,,,,1
+163,AtencionCliente,Tipo,tipo,4,,0,0,True,,,,,,1
+164,AtencionCliente,Fuente,fuente,5,,0,0,True,,,,,,1
+165,AtencionCliente,Etapa,etapa,6,,0,0,True,,,,,,1
+166,AtencionCliente,Estado,estado,7,,0,0,True,,,,,,1
+169,AtencionCliente,Apoyo Responsable,apoyoresponsable,10,,0,0,False,,,,,,1
+171,ControlOportunidades,Descripción,oportunidad,0,,0,0,True,,,,,,1
+172,ControlOportunidades,EtiqClienteProp,snombrecli,1,,1,0,True,,,,,,1
+173,ControlOportunidades,Estado,estado,17,,0,0,False,,,,,,1
+174,ControlOportunidades,Etapa,etapa,2,,0,0,True,,,,,,1
+175,ControlOportunidades,cliUsuario,subusuario,3,,1,0,True,,,,,,1
+176,ControlOportunidades,Tipo,tipo,16,,0,0,False,,,,,,1
+177,ControlOportunidades,Fuente,fuente,8,,0,0,False,,,,,,1
+178,ControlOportunidades,campo17,campo17,11,bvercampobd1opor,2,0,False,,,,,,1
+179,DocManager,Nombre Adjunto,nombreAdjunto,0,,0,0,True,,,,,,1
+180,DocManager,Título Adjunto,titulo,15,,0,0,False,,,,,,1
+181,DocManager,Cuerpo Documento,Cuerpo,16,,0,6,False,,,,,,1
+182,DocManager,Tipo Archivo,nombrecarta,17,,0,5,False,,,,,,1
+183,DocManager,Actuación,sactuacion,2,,0,0,True,,,,,,1
+184,DocManager,Usuario Actuación,usuACT,3,,0,0,True,,,,,,1
+185,DocManager,De,mailde,6,,0,0,False,,,,,,1
+186,DocManager,Para,mailpara,7,,0,0,False,,,,,,1
+187,DocManager,CC,mailcc,8,,0,0,False,,,,,,1
+188,DocManager,CCO,mailcco,9,,0,0,False,,,,,,1
+189,DocManager,Asunto Correo,mailasunto,10,,0,0,False,,,,,,1
+190,DocManager,Cuerpo Correo,mailtexto,11,,0,10,False,,,,,,1
+191,DocManager,Origen,origen,12,,0,0,False,,,,,,1
+192,DocManager,Carpeta,idcarpeta,13,,0,0,False,,,,,,1
+193,DocManager,Fecha Gestión,fechaHora,14,,0,8,False,,,,,,1
+194,DocManager,Fecha Adjunto,fechadcto,4,,0,8,True,,,,,,1
+195,DocManager,Fecha Actuación,fechaactuacion,1,,0,8,True,,,,,,1
+196,DocManager,Fecha Correo,fechacorreo,5,,0,8,False,,,,,,1
+198,ControlExpedientes,EtiqAbogadoContrario,abogadocontrario,11,bverficabog,1,0,True,,frmSeleccionarFicha,,,,1
+199,ControlClientes,Departamento,dpto,27,!bMultipleDepartamento,0,0,True,,ControlTrabajadores,,,,1
+200,ControlExpedientes,EtiqRefContrario,numreferencia,7,bverficcont,1,3,True,"idexp IN (SELECT ECC.inumexp * CAST(10000 as bigint) + ECC.iyear as idexp
+	FROM [[instancia]advabousu[empresa]].dbo.expedien ECC
+	JOIN [[instancia]advabousu[empresa]].dbo.exclicon CC ON ECC.inumexp = CC.inumexp and ECC.iyear = CC.iyear
+	WHERE CC.numreferencia LIKE '%{0}%')",ControlExpedientes,,,,1
+201,ControlObligaciones,Des. Obligación,obligacion,1,,0,0,True,,,,,,1
+202,ControlObligaciones,Estado,realizada,2,,0,4,True,,,,{$}:int|Todas{=}|Cerradas{=}1|Abiertas{=}0,,1
+203,ControlObligaciones,Etapa,etapa,3,,0,4,True,,,,{$}:int|Todas{=}|Doc No Recibida{=}0|Doc Recibida{=}1|Doc Gestion{=}2|Preparada{=}3|Presentada{=}4,,1
+204,ControlObligaciones,Nombre cliente,snombrecli,4,,0,0,True,,,,,,1
+205,ControlObligaciones,NIF/CIF,dni,5,,0,0,True,,,,,,1
+206,ControlObligaciones,Forma Presentación,presentado,6,,0,0,True,,,,,,1
+207,ControlObligaciones,Forma pago,pago,7,,0,0,True,,,,,,1
+208,ControlObligaciones,Todos los teléfonos,movil|telefono1|telefono2|telefono3,8,,0,0,True,,,,,,1
+209,ControlOportunidades,Todos los teléfonos,climvl|clitfo1|clitfo2|clitfo3,4,,0,0,True,,,,,,1
+210,ControlExpedientes,EtiqContactoNombre,nombrecont,10,expe_con|1[AND]bverficconta,1,3,False,"inumexp * CAST(10000 as bigint) + iyear    IN (SELECT ECT.inumexp * CAST(10000 as bigint) + ECT.iyear as idexp    
+FROM [[instancia]advabousu[empresa]].dbo.expconta ECT    JOIN [[instancia]advabousu[empresa]].dbo.contacto C ON ECT.codcontacto = C.codcontacto    
+WHERE nombrecont LIKE '%{0}%')",,,,,1
+211,ControlExpedientes,EtiqTerceroProp,nombretercero,11,bVerTerceros,1,3,False,nombretercero LIKE '%{0}%' ,ControlExpedientes,,,,1
+212,ControlExpedientes,NIF Contacto,nifTercero,18,bVerTerceros,0,3,False,niftercero like '%{0}%' ,ControlExpedientes,,,,1
+213,ControlExpedientes,NIF Persona de Contacto,nifCont,19,expe_con|1[AND]bverficconta,0,3,False,"inumexp * CAST(10000 as bigint) + iyear    IN (SELECT ECT.inumexp * CAST(10000 as bigint) + ECT.iyear as idexp    
+FROM [[instancia]advabousu[empresa]].dbo.expconta ECT    JOIN [[instancia]advabousu[empresa]].dbo.contacto C ON ECT.codcontacto = C.codcontacto    
+WHERE nifCont LIKE '%{0}%')",,,,,1
+214,ControlExpedientes,EtiqTerceroTelefonos,telefonoTercero|movilTercero|faxTercero|telefono2Tercero|telefono3Tercero,12,bVerTerceros,1,3,False,,ControlExpedientes,,,,1
+215,ControlExpedientes,EtiqContactoTelefonos,telefonoContacto|movilContacto|faxContacto|telefono2Contacto|telefono3Contacto,13,expe_con|1[AND]bverficconta,1,3,False,,,,,,1
+216,ControlOportunidades,Año,Año,12,,0,0,False,,,,,,1
+217,ControlOportunidades,Serie,Serie,13,,0,0,False,,,,,,1
+218,ControlOportunidades,Número,Numero,14,,0,1,False,,,,,,1
+219,PrevisionCobros,Nombre,cliente,4,,0,3,True,,PrevisionCobros:Conceptos,,,,1
+220,PrevisionCobros,Forma de cobro,formapago1,3,,0,4,True,,PrevisionCobros:Conceptos,,formacobro|formacobro,,1
+221,PrevisionCobros,Concepto,concepto,0,,0,0,True,,PrevisionCobros:Conceptos,,,,1
+222,PrevisionCobros,Núm. Factura,inumfact,5,,0,1,True,,PrevisionCobros:Conceptos,,,,1
+223,PrevisionCobros,Serie Factura,serie,19,,0,3,False,(CASE WHEN (serie='seriemn' or serie='seriemnrec') THEN '' ELSE serie END) LIKE '%{0}%',PrevisionCobros:Conceptos,,,,1
+224,PrevisionCobros,Descripción Expediente,nombreexp,21,,0,0,False,,PrevisionCobros:Conceptos,,,,1
+225,PrevisionCobros,Tipo Factura,tipofactura,7,,0,4,True,,PrevisionCobros:Conceptos,,tipofact|tipofact,,1
+226,PrevisionCobros,Estado,estadocobro,2,,0,4,True,,PrevisionCobros:Conceptos,,controlcobros|estadocobro,,1
+227,ControlFacturas,Serie,serie,5,,0,3,True,(CASE WHEN (serie='seriemn' or serie='seriemnrec') THEN '' ELSE serie END) LIKE '%{0}%',Oficial,,,,1
+228,ControlFacturas,Nombre,nombrecli,3,,0,3,True,,,,,,1
+229,ControlFacturas,EtiqNumExpediente,inumexpediente,8,bVerExpedientes,1,1,False,,,,,,1
+230,ControlFacturas,EtiqYearExpediente,iyearexpediente,7,bVerExpedientes,1,1,False,,,,,,1
+231,ControlFacturas,NIF/CIF,nifcli,2,!bverSoloNomCli,0,0,True,,,,,,1
+232,ControlFacturas,cliUsuario,nomsubusu,6,,1,0,True,,,,,,1
+233,ControlFacturas,Forma de Cobro,formapago,1,,0,0,True,,Oficial,,,,1
+234,ControlFacturas,Número,inumfactura,4,,0,1,True,,,,,,1
+235,ControlFacturas,Estado Cobro,estado,0,,0,4,True,,Oficial,,{$}:int|Todas{=}|Cobradas{=}1|No Cobradas{=}2|Cobradas Parcialmente{=}3,,1
+237,ControlHistorial,Personas de Contacto,nomcontacto,9,bverficconta,0,0,False,,,,,,1
+238,ControlExpedientes,Tipo Procedimiento,procedimiento,1,bverprocedimiento,0,3,True,,,,,,1
+239,ControlExpedientes,NIF Abogado Contrario,nifabocont,20,bverficabog,0,3,False,,ControlExpedientes,,,,1
+240,ControlHistorial,NIF Abogado Contrario,nifabocont,7,bverficabog,0,0,False,,,,,,1
+241,AtencionCliente,EtiqNumExpediente,expediente,12,bVerExpedientes,1,3,True,,,,,,1
+243,AtencionCliente,EtiqDescripExpediente,descripcionexp,14,bVerExpedientes,1,0,True,,,,,,1
+244,ControlFacturas,Estado,estado,0,,0,4,True,,ControlPresupuestos,,presupuestos|estado,,1
+245,ControlFacturas,Descripción,sdescripcionorden,0,,0,0,True,,ControlPresupuestos,,,,1
+246,AtencionCliente,EtiqRefPropiaExpediente,refpropiaexp,15,VerExpedientes[AND]bverrefpropia,1,0,True,,,,,,1
+247,PrevisionCobros,Paciente,nompaciente,14,bverpaciente,0,0,False,,PrevisionCobros,,,,1
+248,AtencionCliente,Clase,clase,16,,2,0,False,,,,,,1
+249,AtencionCliente,Sprint,sprint,17,,0,0,False,,,,,,1
+250,TimeReport,cliUsuario,nomsubusu,1,,1,0,True,,,,,,1
+251,TimeReport,DescripciÃ³n,oportunidad,2,,0,0,True,,,,,,1
+252,TimeReport,Tipo,tipo,3,,0,0,True,,,,,,1
+253,TimeReport,etapa,etapa,4,,2,0,True,,,,,,1
+254,TimeReport,Estado,estadoTarea,5,,0,0,True,,,,,,1
+255,TimeReport,Nombre,snombrecli,6,,0,0,True,,,,,,1
+256,TimeReport,DescripciÃ³n Exp.,descripcionexp,7,,0,0,True,,,,,,1
+257,TimeReport,Fuente,fuente,8,,0,0,False,,,,,,1
+258,TimeReport,NÃºm. Exp,expediente,9,,0,3,False,,,,,,1
+259,TimeReport,AÃ±o Exp,iyearexp,10,,0,3,False,,,,,,1
+260,TimeReport,Clase,clase,11,,0,0,False,,,,,,1
+261,TimeReport,Núm. Remesa,sprint,12,,0,0,False,,,,,,1
+262,PrevisionCobros,Núm. Remesa,idremesa,10,,0,1,False,,PrevisionCobros,,,,1
+263,ControlComisiones,Comisionista,nombrecliente,0,,0,0,True,,,,,,1
+264,ControlComisiones,Concepto,concepto,1,,0,0,True,,,,,,1
+265,ControlComisiones,Tipo Comisión,tipocomision,2,,0,0,True,,,,,,1
+266,ControlComisiones,Estado,estadoComision,3,,0,0,True,,,,,,1
+267,ControlComisiones,EtiqNumExpediente,inumexp,4,VerExpedientes,1,1,True,,,,,,1
+268,ControlComisiones,EtiqYearExpediente,iyear,5,VerExpedientes,1,1,True,,,,,,1
+269,ControlComisiones,EtiqDescripExpediente,descripcion,6,VerExpedientes,1,0,True,,,,,,1
+270,ControlComisiones,EtiqRefPropiaExpediente,srefabogado,7,VerExpedientes[AND]bverrefpropia,1,0,True,,,,,,1
+271,ControlComisiones,EtiqUsuarioExpediente,usuarioexp,8,VerExpedientes,1,0,True,,,,,,1
+272,ControlComisiones,Tipo,tipoliquidacion,9,,0,0,True,,,,,,1
+273,Pedidos,Proveedor,nombreProveedor,0,,0,0,True,,,,,,1
+274,Pedidos,Descripción,oportunidad,1,,0,0,True,,,,,,1
+275,Pedidos,Tipo,tipo,12,,0,0,False,,,,,,1
+276,Pedidos,EtiqDescripExpediente,descripcionExp,6,VerExpedientes,1,0,False,,,,,,1
+277,Pedidos,EtiqNumExpediente,numExp,8,VerExpedientes,1,1,False,,,,,,1
+278,Pedidos,EtiqYearExpediente,iyear,3,VerExpedientes,1,1,False,,,,,,1
+279,Pedidos,EtiqRefPropiaExpediente,srefabogado,10,VerExpedientes,1,0,False,,,,,,1
+280,Pedidos,Asociado a,nombreAsociado,4,,0,0,False,,,,,,1
+281,Pedidos,Etapa,etapa,2,,2,0,True,,,,,,1
+282,Pedidos,Estado,estado,7,,0,0,False,,,,,,1
+283,Pedidos,Usuario,nombreUsuario,13,,0,0,False,,,,,,1
+284,Pedidos,Creado por,nombreCreador,5,,0,0,False,,,,,,1
+285,Pedidos,Serie,serie,11,,0,0,False,,,,,,1
+286,Pedidos,Número,numopor,9,,0,1,False,,,,,,1
+287,PrevisionCobros,Ref. Propia,srefabogado,11,,0,0,False,,PrevisionCobros,,,,1
+288,PrevisionCobros,Ref. Propia,srefabogado,6,,0,0,True,,PrevisionCobros:Conceptos,,,,1
+289,PrevisionCobros,Facturar,facturar,16,,0,4,False,,PrevisionCobros,,{$}:int|Todas{=}|Facturar{=}1|No Facturar{=}0,,1
+290,PrevisionCobros,Facturar,facturar,14,,0,4,False,,PrevisionCobros:Conceptos,,{$}:int|Todas{=}|Facturar{=}1|No Facturar{=}0,,1
+291,ControlFacturas,Ref. Factura,reffactu,15,,0,0,False,f.reffactu,Oficial,,,,1
+292,ControlTratamientos,Descripción,Descripcion,1,,0,0,True,,,,,,1
+293,ControlTratamientos,Nombre,snombrecli,2,,0,3,True,snombrecli like '%{0}%',,,,,1
+295,ControlTratamientos,Tipo Tratamiento,tipoodontograma,4,,0,0,True,,,,,,1
+296,PrevisionCobros,NIF/CIF Cliente,snifcli,17,!bverSoloNomCli,0,0,False,,PrevisionCobros,,,,1
+297,ControlFacturas,Notas,notas,16,,0,0,False,,,,,,1
+298,ControlFacturas,Tipo Cliente,tipofichero,14,,0,0,False,,,,,,1
+299,Vencimientos,Matrícula,campo1inf,14,,0,0,True,,,,,,1
+300,ControlHistorial,Comunicado MN,comunicadomn,5,bVerComunicaciones,0,4,False,,,,{$}:int|Todas{=}|Comunicado MN{=}1|No Comunicado MN{=}0,,1
+301,PrevisionCobros,Núm. Ficha,codigo,8,!bverSoloNomCli,0,0,False,,PrevisionCobros,,,,1
+302,ControlHistorial,Estado Cita,idEstadoCita,,bversalaespera,0,4,True,,,,{$}:int|Pendiente{=}1|En Curso{=}2|Cancelada{=}3|Confirmada{=}4|Realizada{=}5,,1
+505,PrevisionCobros,Alumno,nombrealum,6,bveralumno,0,0,False,,PrevisionCobros,,,,1
+507,PrevisionCobros,Núm. Recibo,nrecibo,7,,0,0,False,,PrevisionCobros,,,,1
+662,ControlExpedientes,NIF Cliente,nifCliente,27,!bverSoloNomCli,0,3,False,"idexp IN (SELECT ECP.inumexp * CAST(10000 as bigint) + ECP.iyear as idexp    
+FROM [[instancia]advabousu[empresa]].dbo.exclipro ECP    JOIN [[instancia]advabousu[empresa]].dbo.clientes C ON ECP.icodcli = C.icodcli    
+WHERE C.tipobd = 0 AND C.snifcli LIKE '%{0}%')",ControlExpedientes,,,,1
+663,ControlHistorial,Estado Cobro,estadocobro,6,,0,0,False,estadoCobro     select ( case when pv.cobrado=1 and (pv.impagado=0 or pv.impagado is null) then upper('c')+'obrado' when (pv.cobrado=0 or pv.cobrado is null) and (pv.impagado=0 or pv.impagado is null) then upper('n')+'o '+upper('c')+'obrado' when pv.impagado=1 and pv.tipoimpago='vuelto a cobrar' then upper('i')+'mpagado. '+upper('v')+'uelto a cobrar' when pv.impagado=1 and pv.tipoimpago='perdido definitivo' then upper('i')+'mpagado. '+upper('d')+'efinitivo' when pv.impagado=1 then upper('i')+'mpagado' end ) as estadocobro from [[instancia]advabousu[empresa]].dbo.prevcobros pv     WHERE estadocobro LIKE '%{0}%'),,,,,1
+664,PrevisionCobros,cliUsuario,nomsubusu,9,,1,0,False,,PrevisionCobros,,,,1
+665,ControlClases,Descripción Clase,sactuacion,0,,0,0,True,,,,,,1
+666,ControlClases,Descripción Curso,descripcion,2,bVerExpedientes,1,0,True,,,,,,1
+667,ControlClases,Profesor,nomsubusu,3,,0,0,True,,,,,,1
+668,ControlClases,Tipo Clase,tipoClase,8,,0,4,True,,,4,segexp|tipoClase,,1
+669,Recobros,Deudor,snombrecli,1,,0,0,True,,,,,,1
+670,Recobros,Cliente,nomcliente,2,,0,0,True,,,,,,1
+671,Recobros,Descripción,oportunidad,3,,0,0,True,,,,,,1
+672,Recobros,Etapa,etapa,4,,0,0,True,,,,,,1
+673,Recobros,Estado,estado,5,,0,0,True,,,,,,1
+674,Recobros,cliUsuario,nombreUsuario,6,,1,0,True,,,,,,1
+675,Recobros,Todos los teléfonos,climvl|clitfo1|clitfo2|clitfo3,7,,0,0,True,,,,,,1
+676,Recobros,Núm. Exp.,numExp,9,VerExpedientes,0,1,True,,,,,,1
+677,Recobros,Año Exp.,iyear,10,VerExpedientes,0,1,True,,,,,,1
+678,Recobros,Descripción Exp.,descripcionExp,11,VerExpedientes,0,0,True,,,,,,1
+679,Recobros,NIF Deudor,snifcli,8,,0,0,True,C.snifcli,,,,,1
+680,ControlClases,Día de la semana,diasemana,10,,0,0,True,,,,,,1
+681,PrevisionCobros,clinombrecomercial,nomcomercial,5,!bverSoloNomCli,1,0,False,,PrevisionCobros,,,,1
+682,ControlBonos,Descripción,descripcion,0,,0,0,True,,,,,,1
+683,ControlBonos,Estado Bono,estado,2,,0,0,True,,,,,,1
+684,ControlBonos,Nombre,snombrecli,1,,0,0,True,,,,,,1
+686,ControlHistorial,clinombrecomercial,nombrecomercial,8,!bverSoloNomCli,1,0,False,,,,,,1
+687,ControlObligaciones,clinombrecomercial,snombreclicomercial,9,,1,0,False,,,,,,1
+689,ControlFacturas,Abogado Propio,snombreabo,,bverficabog,0,0,True,,,,,,1
+690,ControlFacturas,EtiqTerceroProp,tercero,11,bVerTerceros,1,0,False,,,,,,1
+691,ControlClases,ExpTipo,tipocurso,8,,1,0,True,,,,,,1
+692,ControlClases,Alumno,alumnostodos,4,,0,3,True,idact IN (SELECT (cast(SA.inumexp as varchar) + '-' + cast(SA.iyear as varchar) + '-' + cast(SA.dfechaact as varchar) + '-' + cast(SA.linea as varchar))   FROM [[instancia]advabousu[empresa]].dbo.segexpAlumnos SA  JOIN [[instancia]advabousu[empresa]].dbo.clientes C ON C.icodcli = SA.icodalum  WHERE C.tipobd = 5 AND C.snombrecli LIKE '%{0}%' AND inumexp = SA.inumexp AND iyear = SA.iyear AND linea = SA.linea and dfechaact = SA.dfechaact),,,,,1
+693,AtencionCliente,EtiqTipoExpediente,tipoexpedien,2,VerExpedientes,1,0,False,,,,,,1
+694,ControlFacturas,Referencia,referencia,13,,0,0,False,,,,,,1
+695,ControlRecursos,Nombre,snombrecli,1,,0,0,True,,,,,,1
+696,ControlRecursos,Tipo Recurso,tipofichero,2,,0,0,True,,,,,,1
+697,ControlRecursos,Estado,estadocli,3,,0,0,True,,,,,,1
+698,ControlRecursos,Número,codigo,4,,0,0,True,,,,,,1
+700,ControlRecursos,cliUsuario,nomsubusu,6,,1,0,False,,,,,,1
+701,ControlOportunidades,EtiqNumExpediente,numexpediente,5,VerExpedientes,1,1,False,,,,,,1
+702,ControlOportunidades,EtiqYearExpediente,anioexpediente,6,VerExpedientes,1,1,False,,,,,,1
+703,ControlOportunidades,EtiqDescripExpediente,descexpediente,7,VerExpedientes,1,0,False,,,,,,1
+704,ControlOportunidades,EtiqRefPropiaExpediente,refpropexpediente,9,VerExpedientes[AND]bverrefpropia,1,0,False,,,,,,1
+705,ControlTratamientos,CentrosPrincipal,nombrecentro,5,bvercentros,1,0,False,,,,,,1
+706,ControlTratamientos,CentrosPlural,centrotodos,6,bvercentros,1,3,False,icodcli IN (SELECT icodcli  FROM CentrosClientes CC JOIN centrospredef CP ON CC.idCentro = CP.id WHERE CP.sdescripcion LIKE '%{0}%'),,,,,1
+707,ControlClientes,EtiqTipoCliente,tipofichero,322,,1,3,False,,ControlClientes,,,,1
+708,ControlClientes,Tipo Trabajador,tipofichero,323,,0,3,False,,ControlTrabajadores,,,,1
+709,ControlClientes,Tipo Potencial,tipofichero,24,,0,3,False,,ControlPotenciales,,,,1
+710,ControlClientes,Tipo Contacto,tipofichero,325,,1,3,False,,Terceros,,,,1
+711,ControlClientes,Tipo Paciente,tipofichero,326,,0,3,False,,ControlPacientes,,,,1
+712,ControlClientes,Tipo Alumno,tipofichero,327,,0,3,False,,ControlAlumnos,,,,1
+713,ControlClientes,Tipo Compañía,tipofichero,328,,0,3,False,,ControlCompañias,,,,1
+714,ControlClientes,Tipo Tutor,tipofichero,329,,0,3,False,,Tutores,,,,1
+715,ControlClientes,Tipo Aseguradora,tipofichero,330,,0,3,False,,aseguradoras,,,,1
+716,ControlClientes,Tipo Proveedor,tipofichero,331,,0,3,False,,ControlProveedores,,,,1
+717,ControlClientes,Tipo Voluntario,tipofichero,332,,0,3,False,,Voluntarios,,,,1
+718,ControlClientes,Tipo Financiador,tipofichero,333,,0,3,False,,ControlFinanciadores,,,,1
+719,ControlClientes,Tipo de Recurso,tipofichero,334,,0,3,False,,ControlRecursos,,,,1
+720,ControlExpedientes,Etapa,etapaexpedien,17,,1,3,False,,,,,,1
+721,AtencionCliente,Serie,serie,423,,0,0,True,,,,,,1
+722,ControlHistorial,Juzgado Actuación,juzgadoact,321,bVerJuzgadoSeg,0,3,False,,,,,,1
+723,ControlClases,Cliente,snombrecli,1,,0,0,True,,,,,,1
+724,ControlExpedientes,Provincia (Juzgado),provinciajuzgado,321,bverficjuzga,0,3,False,idexp IN (SELECT EJD.inumexp * CAST(10000 as bigint) + EJD.iyear as idexp FROM [[instancia]advabousu[empresa]].dbo.expedien EJD JOIN [[instancia]advabousu[empresa]].dbo.juzgado J ON EJD.codjuzga = J.codjuzga WHERE J.provincia LIKE '%{0}%'),ControlExpedientes,,,,1
+725,ControlExpedientes,Nombre Comercial Cliente,snombreclicomercial,51,bvernomcomercialcli,1,3,False,Cli1.snombreclicomercial like '%{0}%',frmSeleccionarFicha,,,,1
+726,ControlExpedientes,NIF Abogado Contrario,nifabocont,52,bverficabog,0,3,False,Abogados2.snifabo like '%{0}%',frmSeleccionarFicha,,,,1
+727,ControlExpedientes,NIF Cliente,nifCliente,53,!bverSoloNomCli,0,3,False,Cli1.snifcli like '%{0}%',frmSeleccionarFicha,,,,1
+728,ControlExpedientes,EtiqTerceroNIF,nifTercero,54,bVerTerceros,1,3,False,Cli3.snifcli like '%{0}%',frmSeleccionarFicha,,,,1
+729,ControlExpedientes,NIG,nig,55,,0,3,False,e.nig like '%{0}%',frmSeleccionarFicha,,,,1
+730,ControlExpedientes,EtiqTerceroNombre,nombreTercero,56,bVerTerceros,1,3,False,Cli3.snombrecli like '%{0}%',frmSeleccionarFicha,,,,1
+731,ControlExpedientes,EtiqTerceroTelefonos,telefonoTercero|movilTercero|faxTercero|telefono2Tercero|telefono3Tercero,57,bVerTerceros,1,3,False,(Cli3.stelefonocli like '%{0}%' or Cli3.smovilcli like '%{0}%' or Cli3.sfaxcli like '%{0}%' or Cli3.telefono2 like '%{0}%' or Cli3.telefono3 like '%{0}%'),frmSeleccionarFicha,,,,1
+732,ControlExpedientes,Provincia (Juzgado),provinciajuzgado,51,bverficjuzga,0,3,False,juzgado.provincia like '%{0}%',frmSeleccionarFicha,,,,1
+733,ControlExpedientes,Proveedores,nombreProveedor,51,bverproveedor,0,3,False,"e.inumexp * CAST(10000 as bigint) + e.iyear IN (SELECT DISTINCT EP.inumexp * CAST(10000 as bigint) + EP.iyear as idexp
+			FROM expproveedor EP
+			LEFT JOIN clientes C ON C.icodcli = EP.icodcli
+			WHERE C.snombrecli LIKE '%{0}%')",frmSeleccionarFicha,,,,1
+734,ControlExpedientes,EtiqTercerosProp,tercerostodos,51,bVerTerceros,1,3,False,"e.inumexp * CAST(10000 as bigint) + e.iyear IN (SELECT DISTINCT ECP.inumexp * CAST(10000 as bigint) + ECP.iyear as idexp
+			FROM exclipro ECP
+			LEFT JOIN clientes C ON C.icodcli = ECP.icodcli
+			WHERE C.tipobd = 3 AND C.snombrecli LIKE '%{0}%')",frmSeleccionarFicha,,,,1
+735,ControlClases,CentrosSingular,nombreCentro,50,bvercentros,1,0,False,,,,,,1
+736,ControlExpedientes,CentrosSingular,sdescripcion,101,bvercentros,1,0,False,,frmSeleccionarFicha,,,,1
+737,Diario,Núm. Asiento,asiVer,0,,0,3,True,,,,,,1
+738,Diario,Núm. Cuenta,cuentaAsiento,1,,0,3,True,,,,,,1
+739,Diario,Importe Debe,importeDebe,2,,0,1,True,,,,,,1
+740,Diario,Importe Haber,importeHaber,3,,0,1,True,,,,,,1
+741,Diario,Comentario,comentario,4,,0,0,True,comentario like '%{0}%',,,,,1
+743,Diario,Desc. Cuenta,descripcionCuenta,6,,0,0,True,descripcionCuenta like '%{0}%',,,,,1
+744,Diario,Observaciones,observaciones,7,,0,0,True,observaciones like '%{0}%',,,,,1
+745,Diario,Tipo D/H,iTipo,8,,0,4,True,,,,{$}:int|Todo{=}|Debe{=}0|Haber{=}1,,1
+746,Diario,Contrapartida,contrapartida,9,,0,3,True,,,,,,1
+747,Diario,Ficha Asociada,fichaAsociada,10,,0,0,True,,,,,,1
+748,Diario,Núm. Factura,numFacturaAsiento,11,,0,1,True,,,,,,1
+749,Diario,Serie Factura,serieAsiento,12,,0,0,True,,,,,,1
+751,AtencionCliente,Asociado a,nombreAsociado,10,visualizacion:1100048|1405|-1|1,0,0,False,,,,,,1
+752,ControlOportunidades,Asociado a,nombreAsociado,10,visualizacion:1100048|1405|-1|0,0,0,False,,,,,,1
+753,ControlTratamientos,Auxiliar,auxiliar,7,,0,0,False,,,,,,1
+754,Diario,Núm. Expediente,numExpediente,14,,0,1,False,,,,,,1
+755,FacturasRecibidas,Serie,serie,6,,0,0,False,,,,,,1
+756,ControlValoraciones,Estado Cliente,estadoCliente,4,,0,0,False,,,,,,1
+757,FacturasRecibidas,cliUsuario,nombreusuario,8,,1,0,False,,,,,,1
+761,ControlFacturas,clinombrecomercial,snombreclicomercial,30,bvernomcomercialcli[AND]!bverSoloNomCli,1,0,False,,,,,,1
+762,AtencionCliente,clinombrecomercial,snombreclicomercial,30,bvernomcomercialcli,1,0,False,,,,,,1
+763,ControlOportunidades,clinombrecomercial,snombreclicomercial,30,bvernomcomercialcli,1,0,False,,,,,,1
+765,ControlExpedientes,Nombre Comercial Cliente,snombreclicomercial,18,bvernomcomercialcli,1,3,True,,ControlExpedientes,,,,1
+766,ControlPagos,Nombre,nombrecli,0,,0,0,True,,,3,,,1
+767,ControlPagos,Concepto,concepto,1,,0,0,True,,,3,,,1
+768,ControlPagos,Forma de Pago,formapago,2,,0,0,True,,,3,,,1
+769,ControlPagos,Núm. Documento,documento,3,,0,0,True,,,,,,1
+770,ControlPagos,Núm. Factura,inumfact,4,,0,1,True,,,,,,1
+771,FacturasRecibidas,cliUsuario,nombreusuario,5,,1,0,True,,,,,,1
+774,Cuentas,Descripción,sdescripcion,0,,0,0,True,,,,,,1
+775,Cuentas,cliUsuario,nomsubusu,1,,1,0,True,,,,,,1
+776,Cuentas,Nombre,snombrecli,2,,0,0,True,,,,,,1
+777,Cuentas,Descripción Expediente,descexp,3,VerExpedientes,1,0,True,,,,,,1
+778,Cuentas,Facturada,cuentafacturada,4,,0,4,True,,,,{$}:int|Todas{=}|Sí{=}1|No{=}0,,1
+779,Cuentas,Facturar,facturar,5,,0,4,True,,,,{$}:int|Todas{=}|Sí{=}1|No{=}0,,1
+780,ControlFacturas,Estado Factura,estadoFact,0,visualizacion:700027|1400|-0,0,4,True,,Oficial,,facturas|estadofact,True,1
+781,FacturasRecibidas,Estado Factura,estadoFact,0,visualizacion:700027|1402|-0,0,0,True,,,,,,1
+782,AtencionCliente,Trabajo,descripcionTarea,33,bVerTareasSubtareas,0,0,True,,,,,,1
+783,Pedidos,CentrosSingular,nombrecentrocompra,31,bvercentros,1,0,False,,,,,,1
+784,ControlOportunidades,CentrosSingular,nombrecentrooportunidad,31,bvercentros,1,0,False,,,,,,1
+785,ControlClientes,func:GetEtiqNombreCliente,snombrecli,11,bMostrarRefServSupGast,1,3,True,"icodcli in (SELECT DISTINCT icodcli 
+	FROM servicioscli S
+	WHERE
+		S.referencia LIKE '%{0}%')",,,,,1
+786,ControlValoraciones,Ref. Propia,srefabogado,7,bverrefpropia,0,0,True,,,,,,1
+787,ControlHistorial,Pagador,nombrepagador,324,bMostrarGestionTarifas[AND]bMostrarCampoTarifasActuacion,0,0,False,,,,,,1
+788,ControlHistorial,Tarifa,nombretarifa,325,bMostrarGestionTarifas,0,0,False,,,,,,1
+789,ControlHistorial,Núm. Volante,numvolante,326,bMostrarGestionTarifas,0,0,False,,,,,,1
+790,AlbaranesRecibidos,Número,numfactura,0,,0,1,True,,,,,,1
+791,AlbaranesRecibidos,Tipo de Gasto,concepto,1,,0,0,True,,,,,,1
+792,AlbaranesRecibidos,Nombre,nombre,2,,0,0,True,,,,,,1
+793,AlbaranesRecibidos,NIF/CIF,nifcli,3,,0,0,True,,,,,,1
+794,AlbaranesRecibidos,Núm. Documento,documento,4,,0,0,True,,,,,,1
+795,Cuentas,Ref. Expediente,srefcliente,,bverrefcliente,0,0,False,,,,,,1
+796,ControlExpedientes,Colitigante,colitigantestodos,0,bverficcolit,0,3,False,idexp in (SELECT DISTINCT EC.numexp*CAST(10000 as bigint)+EC.iyear as idexp FROM expcolit EC JOIN colitiga C ON EC.codcolit = C.codcolit WHERE C.snombrecol LIKE '%{0}%'),,,,,1
+797,ControlClientes,Naturaleza Jurídica,naturjuridica,1,tipoficherocli:4:bvernatjuridicacli,1,0,True,,ControlPacientes,,,,1
+798,AtencionCliente,CentrosSingular,nombrecentrotarea,30,bvercentros,1,0,True,,,,,,1
+799,ControlCobrosAseguradoras,Paciente,snombrecli,0,,0,3,True,,,,,,1
+800,ControlCobrosAseguradoras,Aseguradora,snombremutua,1,,0,3,True,,,,,,1
+801,ControlCobrosAseguradoras,Concepto,sactuacion,2,,0,3,True,,,,,,1
+802,ControlCobrosAseguradoras,cliUsuario,nombre,3,,1,3,True,,,,,,1
+803,ControlCobrosAseguradoras,Nº Factura,inumfactura,4,,0,3,True,,,,,,1
+804,ControlCobrosAseguradoras,Facturado,facturado,5,,0,4,True,,,,{$}:string|Todas{=}|Facturado{=}S|No Facturado{=}n,,1
+805,ControlCobrosAseguradoras,Nº Volante/Referencia,numvolante,6,,0,3,True,,,,,,1
+806,PrevisionCobros,Núm. Cobro,inumcobro,20,bvernumcobro,0,1,False,,PrevisionCobros,,,,1
+807,ControlOportunidades,Referencia,referencia,31,,0,0,False,,,,,,1
+808,ControlOportunidades,Creado por,creadopor,33,,0,0,False,,,,,,1
+809,ControlOportunidades,Fuente de Contacto (P),1,18,,0,0,False,,Perfil,,,,1
+810,ControlOportunidades,Campo de perfil 2,2,50,,0,0,False,,Perfil,,,,1
+811,ControlOportunidades,Campo de perfil 3,3,50,,0,0,False,,Perfil,,,,1
+812,ControlOportunidades,Profesión (P),4,19,,0,0,False,,Perfil,,,,1
+813,ControlOportunidades,Peso (P),5,20,,0,0,False,,Perfil,,,,1
+814,ControlOportunidades,Altura (P),6,21,,0,0,False,,Perfil,,,,1
+815,ControlOportunidades,Práctica Deporte (P),7,22,,0,0,False,,Perfil,,,,1
+816,ControlOportunidades,Frecuencia (P),8,23,,0,0,False,,Perfil,,,,1
+817,ControlOportunidades,Campo de perfil 9,9,50,,0,0,False,,Perfil,,,,1
+818,ControlOportunidades,Campo de perfil 10,10,50,,0,0,False,,Perfil,,,,1
+819,ControlOportunidades,Comunicaciones Comerciales (P),11,24,,0,0,False,,Perfil,,,,1
+820,ControlOportunidades,Documento LOPD (P),12,25,,0,0,False,,Perfil,,,,1
+821,ControlOportunidades,Trato Preferente (P),13,26,,0,0,False,,Perfil,,,,1
+822,ControlOportunidades,Servicios de Interés (P),14,27,,0,0,False,,Perfil,,,,1
+823,ControlOportunidades,Campo de perfil 15,15,50,,0,0,False,,Perfil,,,,1
+824,ControlOportunidades,Campo de perfil 16,16,50,,0,0,False,,Perfil,,,,1
+825,ControlOportunidades,Campo de perfil 17,17,50,,0,0,False,,Perfil,,,,1
+826,ControlOportunidades,Campo de perfil 18,18,50,,0,0,False,,Perfil,,,,1
+827,ControlOportunidades,Campo de perfil 19,19,50,,0,0,False,,Perfil,,,,1
+828,ControlOportunidades,Campo de perfil 20,20,50,,0,0,False,,Perfil,,,,1
+829,ControlOportunidades,Nivel de Satisfacción (P),21,28,,0,0,False,,Perfil,,,,1
+830,ControlOportunidades,Recomendaciones (P),22,29,,0,0,False,,Perfil,,,,1
+831,ControlOportunidades,Reclamaciones (P),23,30,,0,0,False,,Perfil,,,,1
+832,ControlOportunidades,Campo de perfil 24,24,50,,0,0,False,,Perfil,,,,1
+833,ControlOportunidades,Campo de perfil 25,25,50,,0,0,False,,Perfil,,,,1
+834,ControlOportunidades,Campo de perfil 26,26,50,,0,0,False,,Perfil,,,,1
+835,ControlOportunidades,Campo de perfil 27,27,50,,0,0,False,,Perfil,,,,1
+836,ControlOportunidades,Campo de perfil 28,28,50,,0,0,False,,Perfil,,,,1
+837,ControlOportunidades,Campo de perfil 29,29,50,,0,0,False,,Perfil,,,,1
+838,ControlOportunidades,Campo de perfil 30,30,50,,0,0,False,,Perfil,,,,1
+839,ControlOportunidades,Campo de perfil 31,31,50,,0,0,False,,Perfil,,,,1
+840,ControlOportunidades,Campo de perfil 32,32,50,,0,0,False,,Perfil,,,,1
+841,ControlOportunidades,Campo de perfil 33,33,50,,0,0,False,,Perfil,,,,1
+842,ControlOportunidades,Campo de perfil 34,34,50,,0,0,False,,Perfil,,,,1
+843,ControlOportunidades,Campo de perfil 35,35,50,,0,0,False,,Perfil,,,,1
+844,ControlOportunidades,Campo de perfil 36,36,50,,0,0,False,,Perfil,,,,1
+845,ControlOportunidades,Campo de perfil 37,37,50,,0,0,False,,Perfil,,,,1
+846,ControlOportunidades,Campo de perfil 38,38,50,,0,0,False,,Perfil,,,,1
+847,ControlOportunidades,Campo de perfil 39,39,50,,0,0,False,,Perfil,,,,1
+848,ControlOportunidades,Campo de perfil 40,40,50,,0,0,False,,Perfil,,,,1
+849,ControlOportunidades,Campo de perfil 41,41,50,,0,0,False,,Perfil,,,,1
+850,ControlOportunidades,Campo de perfil 42,42,50,,0,0,False,,Perfil,,,,1
+851,ControlOportunidades,Campo de perfil 43,43,50,,0,0,False,,Perfil,,,,1
+852,ControlOportunidades,Campo de perfil 44,44,50,,0,0,False,,Perfil,,,,1
+853,ControlOportunidades,Campo de perfil 45,45,50,,0,0,False,,Perfil,,,,1
+854,AtencionCliente,Campo de perfil 1,1,50,,0,0,False,,Perfil,,,,1
+855,AtencionCliente,Campo de perfil 2,2,50,,0,0,False,,Perfil,,,,1
+856,AtencionCliente,Campo de perfil 3,3,50,,0,0,False,,Perfil,,,,1
+857,AtencionCliente,Campo de perfil 4,4,50,,0,0,False,,Perfil,,,,1
+858,AtencionCliente,Campo de perfil 5,5,50,,0,0,False,,Perfil,,,,1
+859,AtencionCliente,Campo de perfil 6,6,50,,0,0,False,,Perfil,,,,1
+860,AtencionCliente,Campo de perfil 7,7,50,,0,0,False,,Perfil,,,,1
+861,AtencionCliente,Campo de perfil 8,8,50,,0,0,False,,Perfil,,,,1
+862,AtencionCliente,Campo de perfil 9,9,50,,0,0,False,,Perfil,,,,1
+863,AtencionCliente,Campo de perfil 10,10,50,,0,0,False,,Perfil,,,,1
+864,AtencionCliente,Campo de perfil 11,11,50,,0,0,False,,Perfil,,,,1
+865,AtencionCliente,Campo de perfil 12,12,50,,0,0,False,,Perfil,,,,1
+866,AtencionCliente,Campo de perfil 13,13,50,,0,0,False,,Perfil,,,,1
+867,AtencionCliente,Campo de perfil 14,14,50,,0,0,False,,Perfil,,,,1
+868,AtencionCliente,Campo de perfil 15,15,50,,0,0,False,,Perfil,,,,1
+869,AtencionCliente,Campo de perfil 16,16,50,,0,0,False,,Perfil,,,,1
+870,AtencionCliente,Campo de perfil 17,17,50,,0,0,False,,Perfil,,,,1
+871,AtencionCliente,Campo de perfil 18,18,50,,0,0,False,,Perfil,,,,1
+872,AtencionCliente,Campo de perfil 19,19,50,,0,0,False,,Perfil,,,,1
+873,AtencionCliente,Campo de perfil 20,20,50,,0,0,False,,Perfil,,,,1
+874,AtencionCliente,Campo de perfil 21,21,50,,0,0,False,,Perfil,,,,1
+875,AtencionCliente,Campo de perfil 22,22,50,,0,0,False,,Perfil,,,,1
+876,AtencionCliente,Campo de perfil 23,23,50,,0,0,False,,Perfil,,,,1
+877,AtencionCliente,Campo de perfil 24,24,50,,0,0,False,,Perfil,,,,1
+878,AtencionCliente,Campo de perfil 25,25,50,,0,0,False,,Perfil,,,,1
+879,AtencionCliente,Campo de perfil 26,26,50,,0,0,False,,Perfil,,,,1
+880,AtencionCliente,Campo de perfil 27,27,50,,0,0,False,,Perfil,,,,1
+881,AtencionCliente,Campo de perfil 28,28,50,,0,0,False,,Perfil,,,,1
+882,AtencionCliente,Campo de perfil 29,29,50,,0,0,False,,Perfil,,,,1
+883,AtencionCliente,Campo de perfil 30,30,50,,0,0,False,,Perfil,,,,1
+884,AtencionCliente,Campo de perfil 31,31,50,,0,0,False,,Perfil,,,,1
+885,AtencionCliente,Campo de perfil 32,32,50,,0,0,False,,Perfil,,,,1
+886,AtencionCliente,Campo de perfil 33,33,50,,0,0,False,,Perfil,,,,1
+887,AtencionCliente,Campo de perfil 34,34,50,,0,0,False,,Perfil,,,,1
+888,AtencionCliente,Campo de perfil 35,35,50,,0,0,False,,Perfil,,,,1
+889,AtencionCliente,Campo de perfil 36,36,50,,0,0,False,,Perfil,,,,1
+890,AtencionCliente,Campo de perfil 37,37,50,,0,0,False,,Perfil,,,,1
+891,AtencionCliente,Campo de perfil 38,38,50,,0,0,False,,Perfil,,,,1
+892,AtencionCliente,Campo de perfil 39,39,50,,0,0,False,,Perfil,,,,1
+893,AtencionCliente,Campo de perfil 40,40,50,,0,0,False,,Perfil,,,,1
+894,AtencionCliente,Campo de perfil 41,41,50,,0,0,False,,Perfil,,,,1
+895,AtencionCliente,Campo de perfil 42,42,50,,0,0,False,,Perfil,,,,1
+896,AtencionCliente,Campo de perfil 43,43,50,,0,0,False,,Perfil,,,,1
+897,AtencionCliente,Campo de perfil 44,44,50,,0,0,False,,Perfil,,,,1
+898,AtencionCliente,Campo de perfil 45,45,50,,0,0,False,,Perfil,,,,1
+899,ControlExpedientes,Potenciales,snombrePotencialTodos,6,bverpotenciales,0,3,True,e.inumexp * CAST(10000 as bigint) + e.iyear IN (SELECT ECP.inumexp * CAST(10000 as bigint) + ECP.iyear as idexp    FROM exclipro ECP   JOIN clientes C ON ECP.icodcli = C.icodcli    WHERE C.tipobd = 2 AND C.snombrecli LIKE '%{0}%'),frmSeleccionarFicha,,,,1
+905,ControlClases,CentrosSingular,nombreCentro,50,bvercentros,1,0,False,,,,,,1
+906,ControlExpedientes,CentrosSingular,sdescripcion,101,bvercentros,1,0,False,,frmSeleccionarFicha,,,,1
+911,ControlClientes,func:GetEtiqNombreCliente,snombrecli,11,bMostrarRefServSupGast,1,3,True,"icodcli in (SELECT DISTINCT icodcli 
+	FROM servicioscli S
+	WHERE
+		S.referencia LIKE '%{0}%')",,,,,1
+914,PrevisionCobros,EtiqTerceroRel,id,5,,1,3,False,id in (select distinct(id) from prevcobros prev where iyear < 1 and inumexp in (select distinct(terc.icodcli) from cliterceros terc join clientes cli on terc.icodclitercero = cli.icodcli where cli.snombrecli like '%{0}%')),PrevisionCobros,,,,1
+915,ControlFacturas,Estado TicketBai,estadoTicketBai,31,bVerTicketBAI,0,4,True,,,,{$}:string|Todos{=}|Pendiente de Enviar{=}Pendiente de Enviar|Aceptado{=}Aceptado|Rechazado{=}Rechazado|Error de envío{=}Error de envío|Aceptado con errores{=}Aceptado con errores|No enviable{=}No enviable,,1
+916,PrevisionCobros,Creado por,nombreCreador,5,mostrarCampoCreadoPor,0,3,False,,PrevisionCobros,,,,1
+917,ControlTesorerias,Nombre,snombrecli,1,,0,0,True,,,,,,1
+918,ControlTesorerias,Concepto,concepto,2,,0,0,True,,,,,,1
+919,ControlTesorerias,cliUsuario,usuario,4,,1,0,True,,,,,,1
+920,ControlTesorerias,Núm. Factura,inumfactura,5,,0,1,False,,,,,,1
+921,ControlTesorerias,Serie Factura,serie,6,,0,0,False,,,,,,1
+922,ControlTesorerias,Descripción Expediente,descripcionexpediente,7,,0,0,False,,,,,,1
+923,ControlTesorerias,Ref. Propia,refpropia,8,,0,0,False,,,,,,1
+924,AtencionCliente,Usuario Trabajo,nombreUsuarioTarea,5,bVerTareasSubtareas,0,0,False,,,,,,1
+945,AtencionCliente,Núm. de Cliente,numcliente,5,,0,3,False,,,,,,1
+946,ControlOportunidades,Núm. de Cliente,numcliente,10,,0,3,False,,,,,,1
+947,ControlFacturas,Persona de Contacto,contacto,10,bverficconta,1,3,False,"icodcli in (SELECT ContactLin.IcodCli FROM contactlin INNER JOIN contacto ON (ContactLin.icodcontacto = contacto.codcontacto and contacto.nombre like '%{0}%') WHERE ISNULL(ContactLin.icodcli,0) != 0)",,,,,1
+948,ControlFacturas,Correo Electrónico,email,9,!bverSoloNomCli,0,3,False,,,,,,1
+949,ArticulosPredef,Código,codigo,1,,0,0,True,,,,,,1
+950,ArticulosPredef,Nombre,descripcion,2,,0,3,True,,,,,,1
+951,ArticulosPredef,Familia,nomfamilia,3,,0,0,True,,,,,,1
+952,ArticulosPredef,Subfamilia,subfamilia,4,,0,0,False,,,,,,1
+953,ArticulosPredef,Descripción,descripcionlarga,5,,0,0,True,,,,,,1
+954,ArticulosPredef,Código de Barras,codigobarras,6,,0,0,True,,,,,,1
+955,ArticulosPredef,Proveedor Habitual,nomproveedor,7,,0,0,True,,,,,,1
+956,Mascotas,Nombre Mascota,snombrecli,1,,0,3,True,,,,,,1
+957,Mascotas,Cliente,nomcli,2,,0,3,True,,,,,,1
+958,Mascotas,Todos los teléfonos,smovilcli|stelefonocli|telefono2|telefono3,3,,0,0,True,,,3,,,1
+959,Mascotas,Núm. Chip,mascotanumero,4,,0,3,False,,,,,,1
+960,Mascotas,Especie,mascotaespecie,5,,0,3,False,,,,,,1
+961,Mascotas,Raza,mascotaraza,6,,0,3,False,,,,,,1
+962,Mascotas,Variedad,mascotavariedad,7,,0,3,False,,,,,,1
+963,Mascotas,Capa,mascotacapa,8,,0,3,False,,,,,,1
+964,Mascotas,Carácter,mascotacaracter,9,,0,3,False,,,,,,1
+965,Mascotas,Bozal,mascotabozal,10,,0,3,False,,,,,,1
+966,Mascotas,Esterilizado/a,mascotaesteriliz,11,,0,3,False,,,,,,1
+967,Mascotas,UsuarioMascota,usuario,12,,1,3,False,,,3,,,1
+968,Mascotas,Estado,estadocli,13,,0,3,False,,,,,,1
+969,Mascotas,Correo Electrónico Cliente,email,15,,0,3,False,,,,,,1
+970,Mascotas,NIF Cliente,snifcli,16,,0,3,False,,,,,,1
+971,Mascotas,Tipo Cliente,tipofichero,17,,0,3,False,,,,,,1
+972,ControlFacturas,Emisor,nomemisor,57,bPermitirFactDifCIF,0,3,True,,,,,,1
+973,ControlCobrosAseguradoras,Número Paciente,codigo,0,,0,3,True,,,,,,1
+974,ArticulosPredef,Lote,lote,8,,0,3,True,id in (select distinct idarticulo from [[instancia]advabousu[empresa]].dbo.lotes where lote like '%{0}%'),,,,,1
+975,ArticulosPredef,Nº Serie,numserie,9,,0,3,True,id in (select distinct idarticulo from [[instancia]advabousu[empresa]].dbo.lotes where serie like '%{0}%'),,,,,1
+976,PrevisionCobros,TituloMascota,mascotanombre,15,bVerMascotas,1,3,True,,PrevisionCobros,,,,1
+977,FacturasRecibidas,Receptor,nomemisor,15,bPermitirFactDifCIF,0,3,True,,,,,,1
+978,ControlMovimientoRecursos,Recurso,nombreAsociado,1,,0,0,True,,,,,,1
+979,ControlMovimientoRecursos,Cliente,nombreCliente,2,,0,0,True,,,,,,1
+980,ControlMovimientoRecursos,Descripción Exp.,descExp,3,VerExpedientes,1,0,True,,,,,,1
+981,ControlMovimientoRecursos,Todos los teléfonos,smovilcli|stelefonocli|telefono2|telefono3,4,,0,0,False,,,,,,1
+982,ControlMovimientoRecursos,Correo electrónico,email,5,,0,0,False,,,,,,1
+983,ControlMovimientoRecursos,Ref. Propia,refpropiaexp,6,bVerExpedientes,0,0,False,,,,,,1
+984,ControlFacturas,ExpReferExp,refexpediente,12,VerExpedientes,1,0,False,,,,,,1
+985,ControlHistorial,Nombre Cliente Rel.,nombreclirel,7,,0,0,False,,,,,,1
+986,DocManagerCuadroMandos,Informe,sactuacion,1,,0,0,True,,,,,,1
+987,DocManagerCuadroMandos,Formato,formato,2,,0,4,True,,,,{$}:string|Todos{=}|Correo{=}CORREO|Excel{=}EXCEL|PDF{=}PDF,,1
+988,DocManagerCuadroMandos,Fecha Informe,fechaactuacion,2,,0,8,True,,,,,,1
+989,AtencionCliente,Etapa Trabajo,etapaTarea,34,bMostrarCampoEtapaTarea,0,0,False,,,,,,1
+990,PrevisionCobros,Diagnóstico,diagnostico,15,bVerDiagnosticos,0,3,False,,PrevisionCobros,,,,1
+991,ControlHistorial,Diagnóstico,diagnostico,325,bVerDiagnosticos,0,3,False,,,,,,1
+992,Cuentas,Juzgado,juzgado,7,bverficjuzga,0,0,True,,,,,,1
+993,ColaLexnet,Presentar en,nombreDestino,0,,0,0,True,,,,,,1
+994,ColaLexnet,Tipo,tipoMensaje,1,,0,4,True,,,4,{$}:string|Todos{=}|Escrito{=}Escrito|Iniciador Asunto{=}Iniciador Asunto|Iniciador Ejecución{=}Iniciador Ejecución|Recurso Queja{=}Recurso Queja|Personación{=}Personación|Escrito Defensa{=}Escrito Defensa|Recurso Casación{=}Recurso Casación,,1
+995,ColaLexnet,Año Exp.,iyear,2,,0,1,True,,,,,,1
+996,ColaLexnet,Número Exp.,expediente,3,,0,1,True,,,,,,1
+997,ColaLexnet,Descripción Exp.,descripcion,4,,0,0,True,,,,,,1
+998,ColaLexnet,Fecha Envío,fechaEnvio,5,,0,8,True,,,,,,1
+999,ColaLexnet,Ref. Propia,srefabogado,6,,0,0,False,,,,,,1
+1000,ColaLexnet,NIG,NIG,7,,0,0,False,,,,,,1
+1001,ColaLexnet,Núm. Autos,snumasunto,8,,0,0,False,,,,,,1
+1002,ColaLexnet,Tipo Expediente,tipoexp,9,,0,0,False,,,,,,1
+1003,ColaLexnet,Tipo Asunto,tipoasunto,10,,0,0,False,,,,,,1
+1004,ColaLexnet,Tipo Procedimiento,procedimiento,11,,0,0,False,,,,,,1
+1005,ColaLexnet,Cliente (Principal),snombrecli,12,,0,0,False,,,,,,1
+1006,ColaLexnet,Abogado Propio (Principal),snombreabo,13,,0,0,False,,,,,,1
+1007,ColaLexnet,Contrario (Principal),snombreclicon,14,,0,0,False,,,,,,1
+1008,ColaLexnet,Procurador Propio (Principal),procuPropio,15,,0,0,False,,,,,,1
+1009,ColaLexnet,Procurador Contrario (Principal),procuContrario,16,,0,0,False,,,,,,1
+1010,ColaLexnet,cliUsuario,nomUsuario,17,,1,0,False,,,,,,1
+1011,Stock,Código de Barras,codigobarras,1,,0,3,True,,,,,,1
+1012,Stock,Nº Serie,serieLote,6,,0,3,True,,,,,,1
+1013,Stock,Cliente/Proveedor Movimiento,cliprovstock,7,,0,3,True,,,,,,1
+1014,Stock,Nº Factura,numfactura,9,,0,3,True,,,,,,1
+1015,Stock,Año Factura,yearfact,10,,0,3,True,,,,,,1
+1016,Stock,Subfamilia,subfamilia,11,,0,3,False,,,,,,1
+1017,Stock,Estado Artículo,estadoArticulo,14,,0,3,False,,,,,,1
+1018,Stock,Facturado,facturado,15,,0,4,False,,,,{$}:int|Todas{=}|Facturado{=}1|No Facturado{=}0,,1
+1019,Stock,Unidades,unidades,16,,0,1,False,,,,,,1
+1020,Stock,Precio Unidad,preciouni,17,,0,1,False,,,,,,1
+1021,Stock,Precio Total,preciototal,18,,0,1,False,,,,,,1
+1022,Stock,Serie Factura,serie,19,,0,1,False,,,,,,1
+1023,ControlPIA,Nombre,snombrecli,0,,0,0,True,,,,,,1
+1024,ControlPIA,Descripción,oportunidad,1,,0,0,True,,,,,,1
+1025,ControlPIA,Etapa,etapa,2,,0,0,True,,,,,,1
+1026,ControlPIA,NIF,snifcli,3,,0,0,False,,,,,,1
+1027,ControlPIA,Creado por,creadopor,5,,0,0,False,,,,,,1
+1028,ControlPIA,cliUsuario,nombreusuario,6,,1,0,False,,,,,,1
+1029,ControlPIA,Estado,estado,7,,0,0,False,,,,,,1
+1030,ControlPIA,Todos los Teléfonos,climvl|clitfo1|clitfo2|clitfo3,8,,0,0,False,,,,,,1
+1031,ControlPIA,Correo Electrónico,email,9,,0,0,False,,,,,,1
+1032,ControlPIA,CentrosSingular,nombrecentropia,10,bvercentros,1,0,False,,,,,,1
+1033,ControlPIA,Tipo,tipo,11,,0,0,False,,,,,,1
+1034,ControlPIA,Núm. Cliente,numcli,4,,0,0,False,,,,,,1
+1036,ControlRespuestasEscalas,Nombre,snombrecli,1,,0,0,True,,,,,,1
+1037,ControlRespuestasEscalas,Escala,nombre,2,,0,0,True,,,,,,1
+1038,ControlRespuestasEscalas,Pregunta,tituloPregunta,3,,0,0,True,,,,,,1
+1039,ControlRespuestasEscalas,Respuesta,tituloRespuesta,4,,0,0,True,,,,,,1
+1040,ControlRespuestasEscalas,cliUsuario,susuario,5,,1,0,False,,,,,,1
+1041,ControlRespuestasEscalas,Todos los teléfonos,smovilcli|stelefonocli|telefono2|telefono3,6,,0,0,False,,,,,,1
+1042,ControlRespuestasEscalas,Correo electrónico,email,7,,0,0,False,,,,,,1
+1043,ControlRespuestasEscalas,NIF,snifcli,8,,0,0,False,,,,,,1
+1044,ControlRespuestasEscalas,CentrosSingular,scentro,9,bvercentros,1,0,False,,,,,,1
+1045,ControlRespuestasEscalas,Campo de perfil 1,1,50,,0,0,False,,Perfil,,,,1
+1046,ControlRespuestasEscalas,Campo de perfil 2,2,50,,0,0,False,,Perfil,,,,1
+1047,ControlRespuestasEscalas,Campo de perfil 3,3,50,,0,0,False,,Perfil,,,,1
+1048,ControlRespuestasEscalas,Campo de perfil 4,4,50,,0,0,False,,Perfil,,,,1
+1049,ControlRespuestasEscalas,Campo de perfil 5,5,50,,0,0,False,,Perfil,,,,1
+1050,ControlRespuestasEscalas,Campo de perfil 6,6,50,,0,0,False,,Perfil,,,,1
+1051,ControlRespuestasEscalas,Campo de perfil 7,7,50,,0,0,False,,Perfil,,,,1
+1052,ControlRespuestasEscalas,Campo de perfil 8,8,50,,0,0,False,,Perfil,,,,1
+1053,ControlRespuestasEscalas,Campo de perfil 9,9,50,,0,0,False,,Perfil,,,,1
+1054,ControlRespuestasEscalas,Campo de perfil 10,10,50,,0,0,False,,Perfil,,,,1
+1055,ControlRespuestasEscalas,Campo de perfil 11,11,50,,0,0,False,,Perfil,,,,1
+1056,ControlRespuestasEscalas,Campo de perfil 12,12,50,,0,0,False,,Perfil,,,,1
+1057,ControlRespuestasEscalas,Campo de perfil 13,13,50,,0,0,False,,Perfil,,,,1
+1058,ControlRespuestasEscalas,Campo de perfil 14,14,50,,0,0,False,,Perfil,,,,1
+1059,ControlRespuestasEscalas,Campo de perfil 15,15,50,,0,0,False,,Perfil,,,,1
+1060,ControlRespuestasEscalas,Campo de perfil 16,16,50,,0,0,False,,Perfil,,,,1
+1061,ControlRespuestasEscalas,Campo de perfil 17,17,50,,0,0,False,,Perfil,,,,1
+1062,ControlRespuestasEscalas,Campo de perfil 18,18,50,,0,0,False,,Perfil,,,,1
+1063,ControlRespuestasEscalas,Campo de perfil 19,19,50,,0,0,False,,Perfil,,,,1
+1064,ControlRespuestasEscalas,Campo de perfil 20,20,50,,0,0,False,,Perfil,,,,1
+1065,ControlRespuestasEscalas,Campo de perfil 21,21,50,,0,0,False,,Perfil,,,,1
+1066,ControlRespuestasEscalas,Campo de perfil 22,22,50,,0,0,False,,Perfil,,,,1
+1067,ControlRespuestasEscalas,Campo de perfil 23,23,50,,0,0,False,,Perfil,,,,1
+1068,ControlRespuestasEscalas,Campo de perfil 24,24,50,,0,0,False,,Perfil,,,,1
+1069,ControlRespuestasEscalas,Campo de perfil 25,25,50,,0,0,False,,Perfil,,,,1
+1070,ControlRespuestasEscalas,Campo de perfil 26,26,50,,0,0,False,,Perfil,,,,1
+1071,ControlRespuestasEscalas,Campo de perfil 27,27,50,,0,0,False,,Perfil,,,,1
+1072,ControlRespuestasEscalas,Campo de perfil 28,28,50,,0,0,False,,Perfil,,,,1
+1073,ControlRespuestasEscalas,Campo de perfil 29,29,50,,0,0,False,,Perfil,,,,1
+1074,ControlRespuestasEscalas,Campo de perfil 30,30,50,,0,0,False,,Perfil,,,,1
+1075,ControlPIA,EtiqTipoCliente,tipofichero,11,,1,0,False,,,,,,1
+1076,ControlEscalas,Cuestionario,nombre,1,,1,0,True,,,,,,1
+1077,ControlEscalas,Nombre,snombrecli,2,,0,0,True,,,,,,1
+1078,ControlEscalas,cliUsuario,susuario,3,,1,0,True,,,,,,1
+1079,ControlEscalas,Valoración,resultado,4,,0,0,True,,,,,,1
+1080,ControlEscalas,Tipo,tipo,5,,0,0,False,,,,,,1
+1081,ControlEscalas,Tipo Cliente,tipofichero,6,,0,0,False,,,,,,1
+1082,ControlEscalas,NIF Cliente,snifcli,7,,0,0,False,,,,,,1
+1083,ControlEscalas,Todos los teléfonos,smovilcli|stelefonocli|telefono2|telefono3,8,,0,0,False,,,,,,1
+1084,ControlEscalas,Correo electrónico,email,9,,0,0,False,,,,,,1
+1085,ControlEscalas,CentrosSingular,scentro,10,bvercentros,1,0,False,,,,,,1
+1086,ControlEscalas,Campo de perfil 1,1,50,,0,0,False,,Perfil,,,,1
+1087,ControlEscalas,Campo de perfil 2,2,50,,0,0,False,,Perfil,,,,1
+1088,ControlEscalas,Campo de perfil 3,3,50,,0,0,False,,Perfil,,,,1
+1089,ControlEscalas,Campo de perfil 4,4,50,,0,0,False,,Perfil,,,,1
+1090,ControlEscalas,Campo de perfil 5,5,50,,0,0,False,,Perfil,,,,1
+1091,ControlEscalas,Campo de perfil 6,6,50,,0,0,False,,Perfil,,,,1
+1092,ControlEscalas,Campo de perfil 7,7,50,,0,0,False,,Perfil,,,,1
+1093,ControlEscalas,Campo de perfil 8,8,50,,0,0,False,,Perfil,,,,1
+1094,ControlEscalas,Campo de perfil 9,9,50,,0,0,False,,Perfil,,,,1
+1095,ControlEscalas,Campo de perfil 10,10,50,,0,0,False,,Perfil,,,,1
+1096,ControlEscalas,Campo de perfil 11,11,50,,0,0,False,,Perfil,,,,1
+1097,ControlEscalas,Campo de perfil 12,12,50,,0,0,False,,Perfil,,,,1
+1098,ControlEscalas,Campo de perfil 13,13,50,,0,0,False,,Perfil,,,,1
+1099,ControlEscalas,Campo de perfil 14,14,50,,0,0,False,,Perfil,,,,1
+1100,ControlEscalas,Campo de perfil 15,15,50,,0,0,False,,Perfil,,,,1
+1101,ControlEscalas,Campo de perfil 16,16,50,,0,0,False,,Perfil,,,,1
+1102,ControlEscalas,Campo de perfil 17,17,50,,0,0,False,,Perfil,,,,1
+1103,ControlEscalas,Campo de perfil 18,18,50,,0,0,False,,Perfil,,,,1
+1104,ControlEscalas,Campo de perfil 19,19,50,,0,0,False,,Perfil,,,,1
+1105,ControlEscalas,Campo de perfil 20,20,50,,0,0,False,,Perfil,,,,1
+1106,ControlEscalas,Campo de perfil 21,21,50,,0,0,False,,Perfil,,,,1
+1107,ControlEscalas,Campo de perfil 22,22,50,,0,0,False,,Perfil,,,,1
+1108,ControlEscalas,Campo de perfil 23,23,50,,0,0,False,,Perfil,,,,1
+1109,ControlEscalas,Campo de perfil 24,24,50,,0,0,False,,Perfil,,,,1
+1110,ControlEscalas,Campo de perfil 25,25,50,,0,0,False,,Perfil,,,,1
+1111,ControlEscalas,Campo de perfil 26,26,50,,0,0,False,,Perfil,,,,1
+1112,ControlEscalas,Campo de perfil 27,27,50,,0,0,False,,Perfil,,,,1
+1113,ControlEscalas,Campo de perfil 28,28,50,,0,0,False,,Perfil,,,,1
+1114,ControlEscalas,Campo de perfil 29,29,50,,0,0,False,,Perfil,,,,1
+1115,ControlEscalas,Campo de perfil 30,30,50,,0,0,False,,Perfil,,,,1
+1117,ControlExpedientes,Cualquier criterio,cualquiera,0,,0,3,True,"(descripcion like '%{0}%'
+or expediente like '%{0}%'
+or srefabogado like '%{0}%' 
+or snumasunto like '%{0}%' 
+or NIG like '%{0}%' 
+or procedimiento like '%{0}%' 
+or snombrecli like '%{0}%' 
+or abocontrario like '%{0}%' 
+or abopropio like '%{0}%'
+or snombreclicon like '%{0}%'
+or nomcomcli like '%{0}%')",,,,,1
+1119,ControlTratamientos,Tarifa,tarifa,8,bvergesttarfodont,0,0,False,,,,,,1
+1120,PrevisionCobros,Usuario Ficha,nombreusuficha,20,,0,0,False,,PrevisionCobros,,,,1
+1121,PrevisionCobros,Número Máximo,campotipo1,18,bvertipologiaexpe,1,0,False,,PrevisionCobros,,,,1
+1122,PrevisionCobros,Campo 2,campotipo2,8,bvertipologiaexpe,1,0,False,,PrevisionCobros,,,,1
+1123,PrevisionCobros,Campo 3,campotipo3,9,bvertipologiaexpe,1,0,False,,PrevisionCobros,,,,1
+1124,PrevisionCobros,Categoría,campotipo4,12,bvertipologiaexpe,1,0,False,,PrevisionCobros,,,,1
+1125,PrevisionCobros,Modalidad,campotipo5,17,bvertipologiaexpe,1,0,False,,PrevisionCobros,,,,1
+1126,PrevisionCobros,Campo Tipo 3,campotipo6,11,bvertipologiaexpe,1,0,False,,PrevisionCobros,,,,1
+1127,PrevisionCobros,Comentarios,campotipo7,13,bvertipologiaexpe,1,0,False,,PrevisionCobros,,,,1
+1132,ControlAdjuntosBuscadorDocumentos,Formato,adjuntos.nombrecarta,3,,0,5,True,,,,,,1
+1133,ControlAdjuntosBuscadorDocumentos,Nombre Adjunto,nombreReal,4,,0,0,True,,,3,,,1
+1134,ControlAdjuntosBuscadorDocumentos,Tipo Adjunto,tipoAdjun,8,,0,4,True,,,,,,1
+1135,ControlAdjuntosBuscadorDocumentos,Carpeta,nombreCarpeta,1,,0,0,True,,,3,,,1
+1136,ControlAdjuntosBuscadorDocumentos,Nombre Ficha,snombrecli,5,,0,0,True,,,3,,,1
+1137,ControlAdjuntosBuscadorDocumentos,Descripción Expediente,descripcion,16,,0,0,False,,,,,,1
+1138,ControlAdjuntosBuscadorDocumentos,Nº Expediente,expediente,14,,0,0,False,,,,,,1
+1139,ControlAdjuntosBuscadorDocumentos,Año Expediente,iyear,15,,0,0,False,,,,,,1
+1140,ControlAdjuntosBuscadorDocumentos,Tipo Expediente,tipoexp,11,,0,0,False,,,,,,1
+1141,ControlAdjuntosBuscadorDocumentos,Usuario Expediente,usuExp,13,,0,0,False,,,,,,1
+1142,ControlAdjuntosBuscadorDocumentos,Título Adjunto,titulo,9,,0,0,True,,,3,,,1
+1143,ControlAdjuntosBuscadorDocumentos,Cuerpo Adjunto,Cuerpo,2,,0,6,True,,,,,,1
+1144,ControlAdjuntosBuscadorDocumentos,Actuación,sactuacion,0,,0,0,True,,,3,,,1
+1145,ControlAdjuntosBuscadorDocumentos,Usuario Actuación,usuACT,12,,0,0,False,,,,,,1
+1146,ControlAdjuntosBuscadorDocumentos,Ref Expediente,srefcliente,10,,0,0,False,,,,,,1
+1147,ControlAdjuntosBuscadorDocumentos,Ref Propia,srefabogado,7,,0,0,True,,,3,,,1
+1148,ControlAdjuntosBuscadorDocumentos,Fecha Adjunto,fechaHora,0,,0,8,True,,,,,,1
+1149,ControlAdjuntosBuscadorDocumentos,Fecha Actuación,fechaactuacion,1,,0,8,True,,,,,,1
+1151,FacturasRecibidas,Importe,baseimp,10,,0,1,False,,,1,,,1
+1153,ControlTrabajos,Nombre,snombrecli,1,,0,0,True,,,,,,1
+1154,ControlTrabajos,Descripción,descripcion,2,,0,0,True,,,,,,1
+1155,ControlTrabajos,Etapa,etapaTarea,3,bMostrarCampoEtapaTarea,0,0,True,,,,,,1
+1156,ControlTrabajos,cliUsuario,susuario,4,,1,0,True,,,,,,1
+1157,ControlTrabajos,EtiqTipoMascota,facturable,5,bMostrarCampoFacturableTarea,1,0,True,,,,,,1
+1158,ControlTrabajos,NIF,snifcli,6,,0,0,False,,,,,,1
+1159,ControlTrabajos,Todos los Teléfonos,smovilcli|stelefonocli|telefono2|telefono3,7,,0,0,False,,,,,,1
+1160,ControlTrabajos,Correo Electrónico,email,8,,0,0,False,,,,,,1
+1161,ControlTrabajos,EtiqDescripExpediente,descripcionexp,9,,1,0,False,,,,,,1
+1162,ControlTrabajos,EtiqNumExpediente,numExpTarea,10,,1,1,False,,,,,,1
+1163,ControlTrabajos,EtiqYearExpediente,yearExpTarea,11,,1,1,False,,,,,,1
+1164,ControlTrabajos,Ref. Propia,refpropiaExpTarea,12,bverrefpropia,0,0,False,,,,,,1
+1165,ControlTrabajos,EtiqRefExpediente,refExpTarea,13,bverrefcliente,1,0,False,,,,,,1
+1166,ControlClientes,Profesión,campoPerfil4,24,,0,0,False,,ControlAlumnos,,,,1
+1167,ControlClientes,Peso,campoPerfil5,25,,0,0,False,,ControlAlumnos,,,,1
+1168,ControlClientes,Altura,campoPerfil6,26,,0,0,False,,ControlAlumnos,,,,1
+1169,ControlClientes,Práctica Deporte,campoPerfil7,27,,0,4,False,,ControlAlumnos,,,,1
+1170,ControlClientes,Frecuencia,campoPerfil8,28,,0,4,False,,ControlAlumnos,,,,1
+1171,ControlClientes,Fuente de Contacto,campoPerfil1,21,,0,4,False,,ControlAlumnos,,,,1
+1172,ControlClientes,Comunicaciones Comerciales,campoPerfil11,31,,0,4,False,,ControlAlumnos,,,,1
+1173,ControlClientes,Documento LOPD,campoPerfil12,32,,0,4,False,,ControlAlumnos,,,,1
+1174,ControlClientes,Servicios de Interés,campoPerfil14,34,,0,7,False,,ControlAlumnos,,,,1
+1175,ControlClientes,Nivel de Satisfacción,campoPerfil21,41,,0,4,False,,ControlAlumnos,,,,1
+1176,ControlClientes,Reclamaciones,campoPerfil23,43,,0,4,False,,ControlAlumnos,,,,1
+1177,ControlClientes,Trato Preferente,campoPerfil13,33,,0,4,False,,ControlAlumnos,,,,1
+1178,ControlClientes,Profesión,campoPerfil4,24,,0,0,False,,ControlClientes,,,,1
+1179,ControlClientes,Peso,campoPerfil5,25,,0,0,False,,ControlClientes,,,,1
+1180,ControlClientes,Altura,campoPerfil6,26,,0,0,False,,ControlClientes,,,,1
+1181,ControlClientes,Práctica Deporte,campoPerfil7,27,,0,4,False,,ControlClientes,,,,1
+1182,ControlClientes,Frecuencia,campoPerfil8,28,,0,4,False,,ControlClientes,,,,1
+1183,ControlClientes,Fuente de Contacto,campoPerfil1,21,,0,4,False,,ControlClientes,,,,1
+1184,ControlClientes,Comunicaciones Comerciales,campoPerfil11,31,,0,4,False,,ControlClientes,,,,1
+1185,ControlClientes,Documento LOPD,campoPerfil12,32,,0,4,False,,ControlClientes,,,,1
+1186,ControlClientes,Servicios de Interés,campoPerfil14,34,,0,7,False,,ControlClientes,,,,1
+1187,ControlClientes,Nivel de Satisfacción,campoPerfil21,41,,0,4,False,,ControlClientes,,,,1
+1188,ControlClientes,Reclamaciones,campoPerfil23,43,,0,4,False,,ControlClientes,,,,1
+1189,ControlClientes,Trato Preferente,campoPerfil13,33,,0,4,False,,ControlClientes,,,,1
+1214,ControlClientes,Profesión,campoPerfil4,24,,0,0,False,,ControlPacientes,,,,1
+1215,ControlClientes,Peso,campoPerfil5,25,,0,0,False,,ControlPacientes,,,,1
+1216,ControlClientes,Altura,campoPerfil6,26,,0,0,False,,ControlPacientes,,,,1
+1217,ControlClientes,Práctica Deporte,campoPerfil7,27,,0,4,False,,ControlPacientes,,,,1
+1218,ControlClientes,Frecuencia,campoPerfil8,28,,0,4,False,,ControlPacientes,,,,1
+1219,ControlClientes,Fuente de Contacto,campoPerfil1,21,,0,4,False,,ControlPacientes,,,,1
+1220,ControlClientes,Comunicaciones Comerciales,campoPerfil11,31,,0,4,False,,ControlPacientes,,,,1
+1221,ControlClientes,Documento LOPD,campoPerfil12,32,,0,4,False,,ControlPacientes,,,,1
+1222,ControlClientes,Servicios de Interés,campoPerfil14,34,,0,7,False,,ControlPacientes,,,,1
+1223,ControlClientes,Nivel de Satisfacción,campoPerfil21,41,,0,4,False,,ControlPacientes,,,,1
+1224,ControlClientes,Reclamaciones,campoPerfil23,43,,0,4,False,,ControlPacientes,,,,1
+1225,ControlClientes,Trato Preferente,campoPerfil13,33,,0,4,False,,ControlPacientes,,,,1
+1226,ControlClientes,Profesión,campoPerfil4,24,,0,0,False,,ControlPotenciales,,,,1
+1227,ControlClientes,Peso,campoPerfil5,25,,0,0,False,,ControlPotenciales,,,,1
+1228,ControlClientes,Altura,campoPerfil6,26,,0,0,False,,ControlPotenciales,,,,1
+1229,ControlClientes,Práctica Deporte,campoPerfil7,27,,0,4,False,,ControlPotenciales,,,,1
+1230,ControlClientes,Frecuencia,campoPerfil8,28,,0,4,False,,ControlPotenciales,,,,1
+1231,ControlClientes,Fuente de Contacto,campoPerfil1,21,,0,4,False,,ControlPotenciales,,,,1
+1232,ControlClientes,Comunicaciones Comerciales,campoPerfil11,31,,0,4,False,,ControlPotenciales,,,,1
+1233,ControlClientes,Documento LOPD,campoPerfil12,32,,0,4,False,,ControlPotenciales,,,,1
+1234,ControlClientes,Servicios de Interés,campoPerfil14,34,,0,7,False,,ControlPotenciales,,,,1
+1235,ControlClientes,Nivel de Satisfacción,campoPerfil21,41,,0,4,False,,ControlPotenciales,,,,1
+1236,ControlClientes,Reclamaciones,campoPerfil23,43,,0,4,False,,ControlPotenciales,,,,1
+1237,ControlClientes,Trato Preferente,campoPerfil13,33,,0,4,False,,ControlPotenciales,,,,1
+1262,ControlClientes,Profesión,campoPerfil4,24,,0,0,False,,Terceros,,,,1
+1263,ControlClientes,Peso,campoPerfil5,25,,0,0,False,,Terceros,,,,1
+1264,ControlClientes,Altura,campoPerfil6,26,,0,0,False,,Terceros,,,,1
+1265,ControlClientes,Práctica Deporte,campoPerfil7,27,,0,4,False,,Terceros,,,,1
+1266,ControlClientes,Frecuencia,campoPerfil8,28,,0,4,False,,Terceros,,,,1
+1267,ControlClientes,Fuente de Contacto,campoPerfil1,21,,0,4,False,,Terceros,,,,1
+1268,ControlClientes,Comunicaciones Comerciales,campoPerfil11,31,,0,4,False,,Terceros,,,,1
+1269,ControlClientes,Documento LOPD,campoPerfil12,32,,0,4,False,,Terceros,,,,1
+1270,ControlClientes,Servicios de Interés,campoPerfil14,34,,0,7,False,,Terceros,,,,1
+1271,ControlClientes,Nivel de Satisfacción,campoPerfil21,41,,0,4,False,,Terceros,,,,1
+1272,ControlClientes,Reclamaciones,campoPerfil23,43,,0,4,False,,Terceros,,,,1
+1273,ControlClientes,Trato Preferente,campoPerfil13,33,,0,4,False,,Terceros,,,,1
+1298,AtencionCliente,Edad Tarea,5000106,126,,0,0,False,,,,,,1
+1299,AtencionCliente,Días desde la última actuación,5000107,127,,0,0,False,,,,,,1
+1300,AtencionCliente,Días hasta Realización Tarea ,5000108,128,,0,0,False,,,,,,1
+1301,AtencionCliente,Importe,5000159,179,,0,0,False,,,,,,1
+1302,AtencionCliente,Aplazamiento,5000199,219,,0,4,False,,,,,,1
+1303,AtencionCliente,Forma Pago,5000157,177,,0,4,False,,,,,,1
+1304,AtencionCliente,Fraccionamiento,5000197,217,,0,4,False,,,,,,1
+1305,AtencionCliente,Forma Presentación,5000156,176,,0,4,False,,,,,,1
+1306,AtencionCliente,Código Electrónico,5000158,178,,0,0,False,,,,,,1
+1307,ControlClientes,Recomendaciones,campoPerfil22,42,,0,4,False,,ControlAlumnos,,,,1
+1308,ControlClientes,Recomendaciones,campoPerfil22,42,,0,4,False,,ControlClientes,,,,1
+1311,ControlClientes,Recomendaciones,campoPerfil22,42,,0,4,False,,ControlPacientes,,,,1
+1312,ControlClientes,Recomendaciones,campoPerfil22,42,,0,4,False,,ControlPotenciales,,,,1
+1315,ControlClientes,Recomendaciones,campoPerfil22,42,,0,4,False,,Terceros,,,,1
+1319,ControlFacturas,Descripción,sdescripcion,14,,0,0,True,,Oficial,,,,1
+1320,ControlFacturas,Descripción,sdescripcionorden,14,,0,0,True,,Proformas,,,,1
+1321,PrevisionCobros,Banco,bancoprev,14,,0,0,True,,PrevisionCobros,,,,1
+1322,Inmuebles,Referencia,referencia,1,,0,0,True,,,,,,1
+1323,Inmuebles,Descripción Corta,snombrecli,0,,0,0,True,,,,,,1
+1325,Inmuebles,Operación,operacion,4,,0,4,True,,,,inmueblesext|operacion,,1
+1326,Inmuebles,Estado,estadocli,5,,0,4,True,,,,clientes|EstadoInmueble,,1
+1327,Inmuebles,Población,poblacion,13,,0,0,False,,,,,,1
+1328,Inmuebles,Provincia,provincia,14,,0,0,False,,,,,,1
+1329,Inmuebles,cliUsuario,nomusuario,6,,1,1,False,,,,,,1
+1330,Inmuebles,M2 Construidos,7000600,620,,0,0,False,,,,,,1
+1331,Inmuebles,M2 útiles ,7000601,621,,0,0,False,,,,,,1
+1332,Inmuebles,Año de construcción ,7000602,622,,0,0,False,,,,,,1
+1333,Inmuebles,Edificio,7000603,623,,0,0,False,,,,,,1
+1334,Inmuebles,Nº habitaciones,7000604,624,,0,4,False,,,,,,1
+1335,Inmuebles,Nº baños,7000605,625,,0,4,False,,,,,,1
+1336,Inmuebles,Fachada del inmueble,7000606,626,,0,4,False,,,,,,1
+1337,Inmuebles,Equipamiento,7000607,627,,0,4,False,,,,,,1
+1338,Inmuebles,Otros,7000608,628,,0,4,False,,,,,,1
+1339,Inmuebles,Consumo energético,7000609,629,,0,0,False,,,,,,1
+1340,Inmuebles,Emisión CO2,7000610,630,,0,0,False,,,,,,1
+1341,Inmuebles,Certificado consumo energético,7000611,631,,0,0,False,,,,,,1
+1342,Inmuebles,Certificado de emisión energética,7000612,632,,0,0,False,,,,,,1
+1343,Inmuebles,Llaves,7000613,633,,0,4,False,,,,,,1
+1344,Inmuebles,Ref llavero,7000614,634,,0,0,False,,,,,,1
+1345,Inmuebles,Cartel,7000615,635,,0,4,False,,,,,,1
+1346,Inmuebles,Nota Simple,7000616,636,,0,4,False,,,,,,1
+1347,Inmuebles,Hipoteca,7000617,637,,0,4,False,,,,,,1
+1348,Inmuebles,Superficie catastral,7000618,638,,0,0,False,,,,,,1
+1349,Inmuebles,Superficie terraza,7000619,639,,0,0,False,,,,,,1
+1350,Inmuebles,Superficie garaje,7000620,640,,0,0,False,,,,,,1
+1351,Inmuebles,Precio plaza garaje,7000621,641,,0,0,False,,,,,,1
+1352,ControlClientes,Campo 1111,3100162,182,,0,0,False,,ControlClientes,,,,1
+1353,ControlHistorial,Campo 1111,100162,182,,0,0,False,,,,,,1
+1354,PrevCobros,Campo 1111,600162,182,,0,0,False,,,,,,1
+1355,ControlClientes,Campo 2222,3100163,183,,0,0,False,,ControlClientes,,,,1
+1356,ControlHistorial,Campo 2222,100163,183,,0,0,False,,,,,,1
+1357,PrevCobros,Campo 2222,600163,183,,0,0,False,,,,,,1
+1358,ControlClientes,Campo 3333,3100164,184,,0,7,False,,ControlClientes,,,,1
+1359,ControlHistorial,Campo 3333,100164,184,,0,7,False,,,,,,1
+1360,PrevCobros,Campo 3333,600164,184,,0,7,False,,,,,,1
+1361,ControlClientes,Campo 5,3100166,186,,0,0,False,,ControlClientes,,,,1
+1362,ControlHistorial,Campo 5,100166,186,,0,0,False,,,,,,1
+1363,PrevCobros,Campo 5,600166,186,,0,0,False,,,,,,1
+1364,ControlClientes,Campo 4,3100165,185,,0,0,False,,ControlClientes,,,,1
+1365,ControlHistorial,Campo 4,100165,185,,0,0,False,,,,,,1
+1366,PrevCobros,Campo 4,600165,185,,0,0,False,,,,,,1
+1367,ControlClientes,Campo 1,3100167,187,,0,0,False,,ControlClientes,,,,1
+1368,ControlHistorial,Campo 1,100167,187,,0,0,False,,,,,,1
+1369,PrevCobros,Campo 1,600167,187,,0,0,False,,,,,,1
+1370,ControlClientes,Campo 2,3100168,188,,0,0,False,,ControlClientes,,,,1
+1371,ControlHistorial,Campo 2,100168,188,,0,0,False,,,,,,1
+1372,PrevCobros,Campo 2,600168,188,,0,0,False,,,,,,1
+1373,ControlClientes,Campo 3,3100169,189,,0,7,False,,ControlClientes,,,,1
+1374,ControlHistorial,Campo 3,100169,189,,0,7,False,,,,,,1
+1375,PrevCobros,Campo 3,600169,189,,0,7,False,,,,,,1
+1376,ControlClientes,DECIMAL CLIENTE,3100368,388,,0,1,False,,ControlClientes,,,,1
+1377,ControlHistorial,DECIMAL CLIENTE,100368,388,,0,1,False,,,,,,1
+1378,PrevCobros,DECIMAL CLIENTE,600368,388,,0,1,False,,,,,,1
+1379,ControlClientes,DECIMAL 2,3100369,389,,0,1,False,,ControlClientes,,,,1
+1380,ControlHistorial,DECIMAL 2,100369,389,,0,1,False,,,,,,1
+1381,PrevCobros,DECIMAL 2,600369,389,,0,1,False,,,,,,1
+1382,ControlClientes,NO DECIMAL,3100370,390,,0,0,False,,ControlClientes,,,,1
+1383,ControlHistorial,NO DECIMAL,100370,390,,0,0,False,,,,,,1
+1384,PrevCobros,NO DECIMAL,600370,390,,0,0,False,,,,,,1
+1386,AtencionCliente,Referencia,referencia,51,,0,0,True,,,,,,1
+1387,ControlAdjuntosBuscadorDocumentosDocSign,Nombre Adjunto,nombreReal,1,,0,0,True,,,,,,1
+1388,ControlAdjuntosBuscadorDocumentosDocSign,Tipo Adjunto,TIPO_ADJUNTO,2,,0,0,True,,,,,,1
+1389,ControlAdjuntosBuscadorDocumentosDocSign,Nombre Ficha,NOMBRE_FICHA,3,,0,0,True,,,,,,1
+1390,ControlAdjuntosBuscadorDocumentosDocSign,Título Adjunto,titulo,4,,0,0,True,,,,,,1
+1391,ControlAdjuntosBuscadorDocumentosDocSign,Fecha Adjunto,fechaHora,1,,0,8,True,,,,,,1
+1392,ControlAdjuntosBuscadorDocumentosDocSign,Fecha Firma,fechaFirma,2,,0,8,True,,,,,,1
+1393,ControlAdjuntosBuscadorDocumentos,Abogado Propio,snombreabo,11,bverficabog,0,0,False,,,,,,1
+1394,ControlBonos,Referencia,referencia,5,bVerReferenciaBono,0,0,False,,,,,,1
+1395,PrevisionCobros,Campo 1111,600162,182,,0,0,False,,PrevisionCobros,,,,1
+1396,PrevisionCobros,Campo 2222,600163,183,,0,0,False,,PrevisionCobros,,,,1
+1397,PrevisionCobros,Campo 3333,600164,184,,0,7,False,,PrevisionCobros,,,,1
+1398,PrevisionCobros,Campo 5,600166,186,,0,0,False,,PrevisionCobros,,,,1
+1399,PrevisionCobros,Campo 4,600165,185,,0,0,False,,PrevisionCobros,,,,1
+1400,PrevisionCobros,Campo 1,600167,187,,0,0,False,,PrevisionCobros,,,,1
+1401,PrevisionCobros,Campo 2,600168,188,,0,0,False,,PrevisionCobros,,,,1
+1402,PrevisionCobros,Campo 3,600169,189,,0,7,False,,PrevisionCobros,,,,1
+1403,PrevisionCobros,DECIMAL CLIENTE,600368,388,,0,1,False,,PrevisionCobros,,,,1
+1404,PrevisionCobros,DECIMAL 2,600369,389,,0,1,False,,PrevisionCobros,,,,1
+1405,PrevisionCobros,NO DECIMAL,600370,390,,0,0,False,,PrevisionCobros,,,,1
+1406,AtencionCliente,EtiqEtapaExpediente,etapaexpedien,4,VerExpedientes,1,0,False,,,,,,1
+1407,AtencionCliente,Usuario Cliente,NombreClienteUsuario,6,,0,0,False,,,,,,1
+1408,AtencionCliente,EtiqYearExpediente,iyear,11,bVerExpedientes,1,3,False,,,,,,1
+1409,ControlClientes,clinombrecomercial,snombreclicomercial,1,tipoficherocli:4:bvernomcomercialcli,1,0,True,,ControlPacientes,,,,1
+1410,AtencionCliente,Dirección Tarea,direccionTarea,80,bverdireccionescli,0,0,False,,,,,,1
+1411,AtencionCliente,Dirección,sdomiciliocli,81,!bverSoloNomCli,0,0,False,,,,,,1
+1412,AtencionCliente,Población,spoblacioncli,82,!bverSoloNomCli,0,0,False,,,,,,1
+1413,AtencionCliente,Provincia,sprovinciacli,83,!bverSoloNomCli,0,0,False,,,,,,1
+1414,ControlClases,cliUsuarioMultiple,nomsubusutodos,51,multiprofesor,1,3,False,"id IN (SELECT sa.idAct FROM [[instancia]advabousu[empresa]].dbo.subususact sa LEFT JOIN [[instancia]advabousu[empresa]].dbo.subusu sub ON sa.codsubusu = sub.icodsubusu AND sa.origen = origen WHERE isnull(sub.nombre, 'DESPACHO') LIKE '%{0}%')",,,,,1
+1415,ControlClientes,clinombrecomercial,snombreclicomercial,6,tipoficherocli:2:bvernomcomercialcli,1,0,True,,ControlPotenciales,,,,1
+1417,ControlHistorial,Núm. Cobro,inumcobro,6,bvernumcobro,0,1,True,,,,,,1
+1418,ControlTesorerias,Núm. Cobro,inumcobro,6,bvernumcobro,0,1,True,,,,,,1
+1419,ControlBonos,Núm. Volante,numvolante,6,bvermutua,0,0,True,,,,,,1
+1420,ControlExpedientes,EtiqContactoNombre,nombrecont,32,expe_con|1[AND]bverficconta,1,3,False,"e.inumexp * CAST(10000 as bigint) + e.iyear    IN (SELECT ECT.inumexp * CAST(10000 as bigint) + ECT.iyear as idexp    
+		FROM expconta ECT    JOIN contacto CT ON ECT.codcontacto = CT.codcontacto    
+		WHERE CT.nombre LIKE '%{0}%')",frmSeleccionarFicha,,,,1
+1421,ControlExpedientes,NIF Persona de Contacto,nifCont,33,expe_con|1[AND]bverficconta,0,3,False,"e.inumexp * CAST(10000 as bigint) + e.iyear    IN (SELECT ECT.inumexp * CAST(10000 as bigint) + ECT.iyear as idexp    
+		FROM expconta ECT    JOIN contacto CT ON ECT.codcontacto = CT.codcontacto    
+		WHERE CT.nif LIKE '%{0}%')",frmSeleccionarFicha,,,,1
+1427,ControlTratamientos,Especialidad,tipoespecialidad,1,bVerPlanTratamiento,0,0,False,,,,,,1
+1435,ControlTratamientos,Tipo Tratamiento,tipoodontograma,4,,0,0,True,,,,,,1
+1444,ControlClientes,func:GetEtiqNombreCliente,snombrecli,10,bMostrarRefServSupGast,1,3,True,"icodcli in (SELECT DISTINCT icodcli 
+	FROM servicioscli S
+	WHERE
+		S.referencia LIKE '%{0}%')",,,,,1
+1460,FacturasRecibidas,cliUsuario,nombreusuario,7,,1,0,True,,,,,,1
+1466,ControlTratamientos,Tipo Tratamiento,tipoodontograma,4,,0,0,True,,,,,,1
+1469,ControlClases,CentrosSingular,nombreCentro,50,bvercentros,1,0,False,,,,,,1
+1470,ControlExpedientes,CentrosSingular,sdescripcion,100,bvercentros,1,0,False,,frmSeleccionarFicha,,,,1
+1477,ControlClientes,func:GetEtiqNombreCliente,snombrecli,10,bMostrarRefServSupGast,1,3,True,"icodcli in (SELECT DISTINCT icodcli 
+	FROM servicioscli S
+	WHERE
+		S.referencia LIKE '%{0}%')",,,,,1
+1488,ControlRecursosCamas,Cama,snombrecli,1,bvercamas,0,0,True,,,,,,1
+1489,ControlRecursosCamas,Tipo de Cama,tipofichero,2,bvercamas,0,0,True,,,,,,1
+1490,ControlRecursosCamas,Núm. Habitación,recursonumhabitacion,3,bvercamas,0,1,True,,,,,,1
+1491,ControlRecursosCamas,Planta,recursoplanta,4,bvercamas,0,0,True,,,,,,1
+1492,ControlRecursosCamas,Tipo de Habitación,recursotipohabitacion,5,bvercamas,0,0,True,,,,,,1
+1493,ControlRecursosCamas,Residente,residente,6,bvercamas,0,0,True,,,,,,1
+1494,ControlRecursosCamas,Sexo,mascotasexo,7,bvercamas,0,0,True,,,,,,1
+1496,ControlExpedientes,EtiqPotencialesSg,potencialestodos,58,bverpotenciales[AND]bverexpedienclipot,1,3,False,"idexp IN (SELECT ECP.inumexp * CAST(10000 as bigint) + ECP.iyear as idexp
+	FROM [[instancia]advabousu[empresa]].dbo.exclipro ECP
+	JOIN [[instancia]advabousu[empresa]].dbo.clientes C ON ECP.icodcli = C.icodcli
+	WHERE C.tipobd = 2 AND C.snombrecli LIKE '%{0}%')",,,,,1
+1497,ControlExpedientes,Otros Intervinientes,otrosintervinientestodos,152,,0,3,False,"idexp IN (
+--Cliente, Trabajador, Potencial, Tercero, Paciente, Alumno, Compañía, MascotaTutor, Mutua, Proveedor, Voluntario, Financiador, TerceraEdad, Recurso, Mascota, InmuebleCli
+SELECT ECP.inumexp * CAST(10000 as bigint) + ECP.iyear as idexp
+FROM [[instancia]advabousu[empresa]].dbo.expIntervinientes ECP
+INNER JOIN [[instancia]advabousu[empresa]].dbo.clientes C ON ECP.codigo = C.icodcli
+WHERE ECP.tipo IN (1000, 1001, 1002, 1003, 1004, 1005, 1006, 1007, 1008, 1009, 1010, 1011, 1012, 1013, 1014, 1015) AND C.snombrecli LIKE '%{0}%'
+UNION
+--Contrario
+SELECT ECP.inumexp * CAST(10000 as bigint) + ECP.iyear as idexp
+FROM [[instancia]advabousu[empresa]].dbo.expIntervinientes ECP
+INNER JOIN [[instancia]advabousu[empresa]].dbo.cliecont C ON ECP.codigo = C.icodclicon
+WHERE ECP.tipo = 2000 AND C.snombreclicon LIKE '%{0}%'
+UNION
+--Abogado, Abogado Contrario
+SELECT ECP.inumexp * CAST(10000 as bigint) + ECP.iyear as idexp
+FROM [[instancia]advabousu[empresa]].dbo.expIntervinientes ECP
+INNER JOIN [[instancia]advabousu[empresa]].dbo.abogados C ON ECP.codigo = C.icodabo
+WHERE ECP.tipo IN (2001, 2003) AND C.snombreabo LIKE '%{0}%'
+UNION
+--Procurador, Procurador Contrario
+SELECT ECP.inumexp * CAST(10000 as bigint) + ECP.iyear as idexp
+FROM [[instancia]advabousu[empresa]].dbo.expIntervinientes ECP
+INNER JOIN [[instancia]advabousu[empresa]].dbo.procurad C ON ECP.codigo = C.icodpro
+WHERE ECP.tipo IN (2002, 2004) AND C.snombrepro LIKE '%{0}%'
+UNION
+--Contacto
+SELECT ECP.inumexp * CAST(10000 as bigint) + ECP.iyear as idexp
+FROM [[instancia]advabousu[empresa]].dbo.expIntervinientes ECP
+INNER JOIN [[instancia]advabousu[empresa]].dbo.contacto C ON ECP.codigo = C.codcontacto
+WHERE ECP.tipo = 2005 AND C.nombre LIKE '%{0}%'
+UNION
+--Colaborador
+SELECT ECP.inumexp * CAST(10000 as bigint) + ECP.iyear as idexp
+FROM [[instancia]advabousu[empresa]].dbo.expIntervinientes ECP
+INNER JOIN [[instancia]advabousu[empresa]].dbo.colabora C ON ECP.codigo = C.codcolab
+WHERE ECP.tipo = 2006 AND C.snombrecol LIKE '%{0}%'
+UNION
+--Juzgado
+SELECT ECP.inumexp * CAST(10000 as bigint) + ECP.iyear as idexp
+FROM [[instancia]advabousu[empresa]].dbo.expIntervinientes ECP
+INNER JOIN [[instancia]advabousu[empresa]].dbo.juzgado C ON ECP.codigo = C.codjuzga
+WHERE ECP.tipo = 2007 AND C.juzgado LIKE '%{0}%'
+UNION
+--Organismo
+SELECT ECP.inumexp * CAST(10000 as bigint) + ECP.iyear as idexp
+FROM [[instancia]advabousu[empresa]].dbo.expIntervinientes ECP
+INNER JOIN [[instancia]advabousu[empresa]].dbo.organism C ON ECP.codigo = C.codorgan
+WHERE ECP.tipo = 2008 AND C.nombre LIKE '%{0}%'
+UNION
+--Perito
+SELECT ECP.inumexp * CAST(10000 as bigint) + ECP.iyear as idexp
+FROM [[instancia]advabousu[empresa]].dbo.expIntervinientes ECP
+INNER JOIN [[instancia]advabousu[empresa]].dbo.peritos C ON ECP.codigo = C.codigo
+WHERE ECP.tipo = 2009 AND C.nombre LIKE '%{0}%'
+UNION
+--Taller
+SELECT ECP.inumexp * CAST(10000 as bigint) + ECP.iyear as idexp
+FROM [[instancia]advabousu[empresa]].dbo.expIntervinientes ECP
+INNER JOIN [[instancia]advabousu[empresa]].dbo.talleres C ON ECP.codigo = C.codigo
+WHERE ECP.tipo = 2010 AND C.nombre LIKE '%{0}%'
+UNION
+--Inmueble
+SELECT ECP.inumexp * CAST(10000 as bigint) + ECP.iyear as idexp
+FROM [[instancia]advabousu[empresa]].dbo.expIntervinientes ECP
+INNER JOIN [[instancia]advabousu[empresa]].dbo.perso1 C ON ECP.codigo = C.codigo
+WHERE ECP.tipo = 2011 AND C.Perso1 LIKE '%{0}%'
+UNION
+--Notaria
+SELECT ECP.inumexp * CAST(10000 as bigint) + ECP.iyear as idexp
+FROM [[instancia]advabousu[empresa]].dbo.expIntervinientes ECP
+INNER JOIN [[instancia]advabousu[empresa]].dbo.perso2 C ON ECP.codigo = C.codigo
+WHERE ECP.tipo = 2012 AND C.Perso1 LIKE '%{0}%'
+UNION
+--Promotor
+SELECT ECP.inumexp * CAST(10000 as bigint) + ECP.iyear as idexp
+FROM [[instancia]advabousu[empresa]].dbo.expIntervinientes ECP
+INNER JOIN [[instancia]advabousu[empresa]].dbo.perso3 C ON ECP.codigo = C.codigo
+WHERE ECP.tipo = 2013 AND C.Perso1 LIKE '%{0}%'
+UNION
+--Inmobiliaria
+SELECT ECP.inumexp * CAST(10000 as bigint) + ECP.iyear as idexp
+FROM [[instancia]advabousu[empresa]].dbo.expIntervinientes ECP
+INNER JOIN [[instancia]advabousu[empresa]].dbo.perso5 C ON ECP.codigo = C.codigo
+WHERE ECP.tipo = 2014 AND C.Perso1 LIKE '%{0}%'
+UNION
+--Vehiculo
+SELECT ECP.inumexp * CAST(10000 as bigint) + ECP.iyear as idexp
+FROM [[instancia]advabousu[empresa]].dbo.expIntervinientes ECP
+INNER JOIN [[instancia]advabousu[empresa]].dbo.perso4 C ON ECP.codigo = C.codigo
+WHERE ECP.tipo = 2015 AND C.Perso1 LIKE '%{0}%'
+UNION
+--Colitigante
+SELECT ECP.inumexp * CAST(10000 as bigint) + ECP.iyear as idexp
+FROM [[instancia]advabousu[empresa]].dbo.expIntervinientes ECP
+INNER JOIN [[instancia]advabousu[empresa]].dbo.colitiga C ON ECP.codigo = C.codcolit
+WHERE ECP.tipo = 2016 AND C.snombrecol LIKE '%{0}%'
+)
+",ControlExpedientes,,,,1
+1498,Mascotas,Número,codigo,1,!bvercamponumerico,0,0,False,,,,,,1
+1499,Mascotas,Número,codigo,1,bvercamponumerico,0,1,False,,,,,,1
+1500,ControlFacturas,Núm. Factura,inumfactura,1,,0,1,True,,Oficial,,,,1
+1501,ControlFacturas,Núm. Proforma,inumfactura,1,,0,1,True,,Proformas,,,,1
+1502,ControlFacturas,Núm. Albarán,inumfactura,1,,0,1,True,,Albaranes,,,,1
+1503,ControlFacturas,Núm. Pedido,inumfactura,1,,0,1,True,,Pedidos,,,,1
+1504,ControlFacturas,Núm. Presupuesto,inumfactura,1,,0,1,True,,ControlPresupuestos,,,,1
+1505,ControlFacturas,Núm. Orden,inumfactura,1,,0,1,True,,OrdenTrabajo,,,,1
+1506,ControlFacturas,Descripción,sdescripcionorden,7,,0,0,True,,Albaranes,,,,1
+1507,ControlFacturas,Descripción,sdescripcionorden,7,,0,0,True,,Pedidos,,,,1
+1508,ControlFacturas,Descripción,sdescripcionorden,7,,0,0,True,,OrdenTrabajo,,,,1
+1509,ControlBonos,Aseguradora,Aseguradora,7,bvermutua,0,0,True,,,,,,1
+1510,ArticulosPredef,Marca,marca,1,,0,0,False,,,,,,1
+1511,ArticulosPredef,Tipo Consumo,tipoConsumo,1,bMostrarTipoConsumo,0,0,False,,,,,,1
+1512,Stock,Tipo Consumo,tipoConsumo,1,bMostrarTipoConsumo,0,0,False,,,,,,1
+1513,Stock,Marca,marca,1,,0,0,False,,,,,,1
+1514,ValidacionGastos,Tipo de Gasto,tipoGasto,0,,0,0,True,,,,,,1
+1515,ValidacionGastos,Importe,importe,1,,0,1,True,,,,,,1
+1516,ValidacionGastos,Proveedor,nombreProveedor,2,,0,0,True,,,,,,1
+1517,ValidacionGastos,NIF/CIF Proveedor,nifproveedor,3,,0,0,True,,,,,,1
+1518,ValidacionGastos,Núm. Documento,numDocumento,4,,0,0,True,,,,,,1
+1520,ValidacionGastos,Subido por,nombreCreador,6,,0,0,False,,,,,,1
+1521,ValidacionGastos,Validado por,nombreValidador,7,,0,0,False,,,,,,1
+1522,ValidacionGastos,Origen,origen,8,,0,0,False,,,,,,1
+1523,ValidacionGastos,Destino,destino,9,,0,0,False,,,,,,1
+1524,ValidacionGastos,Fecha Gasto,fechaGasto,0,,0,8,True,,,,,,1
+1525,ValidacionGastos,Fecha Registro,fechaCreacion,1,,0,8,False,,,,,,1
+1526,ValidacionGastos,Fecha Validación,fechaValidacion,2,,0,8,False,,,,,,1
+1527,Inmuebles,Tipo Propiedad,tipopropiedad,2,,0,4,True,,,,inmueblesext|tipo,,1
+1528,Inmuebles,Categoría,categoria,3,,0,4,True,,,,inmueblesext|categoria,,1
+1529,Inmuebles,Dirección,nombrevia,12,,0,0,False,,,,,,1
+1530,Inmuebles,Barrio,zona,15,,0,4,False,,,,inmueblesext|zona,,1
+1531,Inmuebles,Precio,precio,16,,0,1,False,,,,,,1
+1532,Inmuebles,Núm. Habitaciones,nhabitaciones,17,,0,1,False,,,,,,1
+1533,Inmuebles,Núm. Baños,nbanhos,18,,0,1,False,,,,,,1
+1534,Inmuebles,Superficie (m2),m2Total,19,,0,1,False,,,,,,1
+1535,Inmuebles,Superficie Útil (m2),m2Util,20,,0,1,False,,,,,,1
+1536,Inmuebles,Superficie Terreno (m2),m2Superficie,21,,0,1,False,,,,,,1
+1537,Inmuebles,Conservación,conservacion,22,,0,4,False,,,,inmueblesext|conservacion,,1
+1538,Inmuebles,Orientación,orientacion,23,,0,4,False,,,,inmueblesext|orientacion,,1
+1539,Inmuebles,Año Construcción,anhoConstruccion,23,,0,1,False,,,,,,1
+1540,Inmuebles,Certificado Energético,certEnergia,24,,0,4,False,,,,inmueblesext|certEnergia,,1
+1541,Inmuebles,Descripción Larga,descripcion,25,,0,0,False,,,,,,1
+1542,ControlOportunidades,Referencia Prop.,referenciain,30,bVerInmuebles,0,0,False,,,,,,1
+1543,ControlOportunidades,Descripción Corta Prop.,snombrecliin,31,bVerInmuebles,0,0,False,,,,,,1
+1544,ControlOportunidades,Tipo Prop.,tipoinmueblein,32,bVerInmuebles,0,0,False,,,,,,1
+1545,ControlOportunidades,Categoría Prop.,categoriain,33,bVerInmuebles,0,0,False,,,,,,1
+1546,ControlOportunidades,Operación Prop.,operacionin,34,bVerInmuebles,0,0,False,,,,,,1
+1547,ControlOportunidades,Obra Nueva Prop.,obranuevain,35,bVerInmuebles,0,0,False,,,,,,1
+1548,ControlOportunidades,Referencia Catastral Prop.,refcatastralin,36,bVerInmuebles,0,0,False,,,,,,1
+1549,ControlOportunidades,Usuario Prop.,usuarioin,37,bVerInmuebles,0,0,False,,,,,,1
+1550,ControlOportunidades,Estado Prop.,estadocliin,38,bVerInmuebles,0,0,False,,,,,,1
+1551,ControlOportunidades,Código Postal Prop.,codigopostalin,39,bVerInmuebles,0,0,False,,,,,,1
+1552,ControlOportunidades,Población Prop.,poblacionin,40,bVerInmuebles,0,0,False,,,,,,1
+1553,ControlOportunidades,Provincia Prop.,provinciain,41,bVerInmuebles,0,0,False,,,,,,1
+1554,ControlOportunidades,Precio Prop.,precioin,42,bVerInmuebles,0,0,False,,,,,,1
+1555,ControlOportunidades,Contacto Prop.,contactoin,43,bVerInmuebles,0,0,False,,,,,,1
+1556,ControlOportunidades,Teléfono 1 Contacto Prop.,telefonocontactoin,44,bVerInmuebles,0,0,False,,,,,,1
+1557,ControlOportunidades,Móvil Contacto Prop.,movilcontactoin,45,bVerInmuebles,0,0,False,,,,,,1
+1558,Diario,Tipo,tipopersoasiento,16,,0,0,True,tipopersoasiento like '%{0}%',,,,,1
+1559,ControlClientes,Comunicaciones Comerciales,comComerciales,55,,0,4,False,,,,{$}:int|Todas{=}|Sí{=}1|No{=}0,False,1
+1560,Mascotas,Pasaporte,pasaporteMascota,30,,0,0,False,,,,,,1
+1561,Mascotas,Núm. Chapa Rabia,numChapaRabia,31,,0,0,False,,,,,,1
+1562,ControlRecursosCamas,Estado,estadoCli,8,bvercamas,0,4,True,,,,{$}:string|Todos{=}|Alta{=}Alta|Baja{=}Baja,,1
+1563,Inmuebles,Certificado Emisiones,certEmisiones,24,,0,4,False,,,,inmueblesext|certEmisiones,,1
+1564,ControlOportunidades,Barrio Prop.,zonain,51,bVerInmuebles,0,0,False,,,,,,1
+1565,Inmuebles,EtiqTerceroProp,nomcontacto,0,,1,3,True,icodcli in (select terc.icodcli from [[instancia]advabousu[empresa]].dbo.cliterceros terc join [[instancia]advabousu[empresa]].dbo.clientes cli on terc.icodclitercero = cli.icodcli where cli.snombrecli like '%{0}%'),,,,,1
+1566,Inmuebles,EtiqTerceroNIF,nifcontacto,25,,1,3,True,icodcli in (select terc.icodcli from [[instancia]advabousu[empresa]].dbo.cliterceros terc join [[instancia]advabousu[empresa]].dbo.clientes cli on terc.icodclitercero = cli.icodcli where cli.snifcli like '%{0}%'),,,,,1
+1567,Inmuebles,EtiqTerceroCorreo,mailcontacto,26,,1,3,True,icodcli in (select terc.icodcli from [[instancia]advabousu[empresa]].dbo.cliterceros terc join [[instancia]advabousu[empresa]].dbo.clientes cli on terc.icodclitercero = cli.icodcli where cli.email like '%{0}%'),,,,,1
+1568,ControlTurnos,Nombre,snombrecli,0,,0,0,True,,,,,,1
+1569,ControlTurnos,Departamento,departamento,0,,0,0,True,,,,,,1
+1570,ControlTurnos,Descripción,descripcion,0,,0,0,True,,,,,,1
+1571,ControlTurnos,Disponibilidad,disponibilidad,0,,0,0,True,,,,,,1
+1572,ControlTurnos,Tipo,tipoturno,0,,0,0,True,,,,,,1
+1573,ControlTurnos,Estado,estado,0,,0,0,True,,,,,,1
+1574,frmSeleccionarFicha,Cualquier Criterio,cualquiera,0,,0,3,True,(descripcion like '%{0}%' or expediente like '%{0}%' or srefabogado like '%{0}%' or snumasunto like '%{0}%' or NIG like '%{0}%' or procedimiento like '%{0}%' or snombrecli like '%{0}%' or abocontrario like '%{0}%' or abopropio like '%{0}%' or snombreclicon like '%{0}%' or nomcomcli like '%{0}%'),expedien,,,,1
+1575,frmSeleccionarFicha,Número,expediente,1,,0,3,True,,expedien,,,,1
+1576,frmSeleccionarFicha,cliPrincipalCli,Cli1.snombrecli,2,,1,3,True,,expedien,,,,1
+1577,frmSeleccionarFicha,cliTodosCli,clientes,3,,1,3,True,e.inumexp * CAST(10000 as bigint) + e.iyear IN (SELECT ECP.inumexp * CAST(10000 as bigint) + ECP.iyear as idexp    FROM [[instancia]advabousu[empresa]].dbo.exclipro ECP    JOIN [[instancia]advabousu[empresa]].dbo.clientes C ON ECP.icodcli = C.icodcli    WHERE C.tipobd = 0 AND C.snombrecli LIKE '%{0}%'),expedien,,,,1
+1578,frmSeleccionarFicha,Ref. Propia,srefabogado,4,,0,3,True,,expedien,,,,1
+1579,frmSeleccionarFicha,Ref. Cliente,numref,5,,0,3,True,excli.numreferencia LIKE '%{0}%' ,expedien,,,,1
+1580,frmSeleccionarFicha,Descripción,descripcion,6,,0,3,True,,expedien,,,,1
+1581,frmSeleccionarFicha,TipExpTitulo,tipoexp.tipoexp,7,,1,3,True,,expedien,,,,1
+1582,frmSeleccionarFicha,cliUsuario,Subusu1.nombre,8,,1,3,True,,expedien,,,,1
+1583,frmSeleccionarFicha,Contrario,cliecont.snombreclicon,9,bverficcont,0,3,True,,expedien,,,,1
+1584,frmSeleccionarFicha,Procurador Propio,Procurad1.snombrepro,10,bverficproc,0,3,True,,expedien,,,,1
+1585,frmSeleccionarFicha,Abogado Propio,Abogados1.snombreabo,11,bverficabog,0,3,True,,expedien,,,,1
+1586,frmSeleccionarFicha,Abogado Contrario,Abogados2.snombreabo,12,bverficabog,0,3,True,,expedien,,,,1
+1587,frmSeleccionarFicha,Procurador Contrario,Procurad2.snombrepro,13,bverficproc,0,3,True,,expedien,,,,1
+1588,frmSeleccionarFicha,Núm. Autos,snumasunto,14,bverficjuzga,0,3,True,,expedien,,,,1
+1589,frmSeleccionarFicha,NIG,nig,15,bverficjuzga,0,3,True,,expedien,,,,1
+1590,frmSeleccionarFicha,Juzgado,juzgado,16,bverficjuzga,0,3,True,,expedien,,,,1
+1591,frmSeleccionarFicha,Tipo de Procedimiento,procedi.procedimiento,17,bverficjuzga,0,3,True,,expedien,,,,1
+1592,frmSeleccionarFicha,Cualquier Criterio,cualquiera,0,,0,3,True,(clientes.snombrecli like '%{0}%' or clientes.snifcli like '%{0}%' or clientes.email like '%{0}%' or clientes.stelefonocli like '%{0}%' or clientes.smovilcli like '%{0}%' or clientes.telefono2 like '%{0}%' or clientes.telefono3 like '%{0}%'),BBDDGeneral,,,,1
+1593,frmSeleccionarFicha,Nombre,clientes.snombrecli,1,,0,3,True,,BBDDGeneral,,,,1
+1594,frmSeleccionarFicha,Número,clientesext.numero,2,bvercamponumerico,0,3,True,"convert(varchar,isnull(clientesext.numero,0)) = '{0}'",BBDDGeneral,,,,1
+1595,frmSeleccionarFicha,Número,clientes.codigo,2,!bvercamponumerico,0,3,True,,BBDDGeneral,,,,1
+1596,frmSeleccionarFicha,Dirección,clientes.sdomiciliocli,3,,0,3,True,,BBDDGeneral,,,,1
+1597,frmSeleccionarFicha,Todos los Correos,cualquierCorreo,4,,0,3,True,clientes.icodcli in (select icodcli from diremailcli where email like '%{0}%'),BBDDGeneral,,,,1
+1598,frmSeleccionarFicha,CliNif,clientes.snifcli,5,,1,3,True,,BBDDGeneral,,,,1
+1599,frmSeleccionarFicha,Población,clientes.spoblacioncli,6,,0,3,True,,BBDDGeneral,,,,1
+1600,frmSeleccionarFicha,Provincia,clientes.sprovinciacli,7,,0,3,True,,BBDDGeneral,,,,1
+1601,frmSeleccionarFicha,Todos los Teléfonos,cualquierTelefono,8,,0,3,True,(clientes.stelefonocli like '%{0}%' or clientes.smovilcli like '%{0}%' or clientes.telefono2 like '%{0}%' or clientes.telefono3 like '%{0}%'),BBDDGeneral,,,,1
+1602,frmSeleccionarFicha,clinombrecomercial,clientes.snombreclicomercial,9,bvernomcomercialcli,1,3,True,,BBDDGeneral,,,,1
+1603,frmSeleccionarFicha,TituloMascota,clientes.snombrecli,0,,1,3,True,,Mascota,,,,1
+1604,frmSeleccionarFicha,CliTitulo2,cl.snombrecli,1,,1,3,True,,Mascota,,,,1
+1605,frmSeleccionarFicha,Número,clientesext.numero,2,bvercamponumerico,0,3,True,"convert(varchar,isnull(clientesext.numero,0)) = '{0}'",Mascota,,,,1
+1606,frmSeleccionarFicha,Número,clientes.codigo,2,!bvercamponumerico,0,3,True,,Mascota,,,,1
+1607,frmSeleccionarFicha,Todos los Teléfonos,cualquierTelefono,3,,0,3,True,(clientes.stelefonocli like '%{0}%' or clientes.smovilcli like '%{0}%' or clientes.telefono2 like '%{0}%' or clientes.telefono3 like '%{0}%'),Mascota,,,,1
+1608,frmSeleccionarFicha,Núm. Habitación,numeroHabitacion,0,,0,3,True,"convert(varchar,isnull(clientesext.recursonumhabitacion,0)) = '{0}'",Recurso,,,,1
+1609,frmSeleccionarFicha,Planta,clientesext.recursoplanta,1,,0,3,True,,Recurso,,,,1
+1610,frmSeleccionarFicha,Tipo de Habitación,clientesext.recursotipohabitacion,2,,0,3,True,,Recurso,,,,1
+1611,frmSeleccionarFicha,Cama,clientesext.snombrecli,3,,0,3,True,,Recurso,,,,1
+1612,frmSeleccionarFicha,Tipo de Cama,clientesext.tipofichero,4,,0,3,True,,Recurso,,,,1
+1613,frmSeleccionarFicha,CliTitulo2,clientes.snombrecli,0,,1,3,True,,Recurso,,,,1
+1614,frmSeleccionarFicha,Número,clientesext.numero,1,bvercamponumerico,0,3,True,"convert(varchar,isnull(clientesext.numero,0)) = '{0}'",Recurso,,,,1
+1615,frmSeleccionarFicha,Número,clientes.codigo,1,!bvercamponumerico,0,3,True,,Recurso,,,,1
+1616,frmSeleccionarFicha,Referencia,clientes.referencia,0,,0,3,True,,Inmueble,,,,1
+1617,frmSeleccionarFicha,Descripción Corta,clientes.sdomiciliocli,1,,0,3,True,,Inmueble,,,,1
+1618,frmSeleccionarFicha,Tipo de Propiedad,i.tipo,2,,0,3,True,,Inmueble,,,,1
+1619,frmSeleccionarFicha,Operación,clientesext.operacion,3,,0,3,True,,Inmueble,,,,1
+1620,frmSeleccionarFicha,Referencia Catastral,i.refCatastral,4,,0,3,True,,Inmueble,,,,1
+1621,frmSeleccionarFicha,Dirección,direccion,5,,0,3,True,d.tipovia + ' ' + d.nombrevia + ' ' + cast(d.numero as varchar) like '%{0}%',Inmueble,,,,1
+1622,frmSeleccionarFicha,Código Postal,d.codigoPostal,6,,0,3,True,,Inmueble,,,,1
+1623,frmSeleccionarFicha,Barrio,clientes.zona,7,,0,3,True,,Inmueble,,,,1
+1624,frmSeleccionarFicha,Población,clientes.poblacion,8,,0,3,True,,Inmueble,,,,1
+1625,ControlExpedientes,CentrosPlural,centrotodos,18,bvercentros,1,3,False,idexp IN (SELECT CE.inumexp * CAST(10000 as bigint) + CE.iyear as idexp FROM CentrosExpedien CE JOIN centrospredef CP ON CE.idCentro = CP.id WHERE CP.sdescripcion LIKE '%{0}%'),,,,,1
+1626,Stock,ExpDescripcionExp,descripcionExp,20,bVerExpedientes,1,0,False,,,,,,1
+1627,Stock,Descripción Tarea,descripcionTarea,21,,0,0,False,,,,,,1
+1628,Stock,Descripción Compra,descripcionCompra,22,bVerModuloCompra,0,0,False,,,,,,1
+1629,Diario,Área Cuenta,areaCuenta,17,bMostrarAreaContabilidad,0,0,True,areaCuenta like '%{0}%',,,,False,1
+1630,AtencionCliente,Creado por,creadopor,8,,0,0,False,,,,,,1
+1632,AtencionCliente,Todos los teléfonos,climvl|clitfo1|clitfo2|clitfo3,11,,0,0,False,,,,,,1
+1637,ControlTratamientos,Tipo Tratamiento,tipoodontograma,4,,0,0,True,,,,,,1
+1640,ControlClases,Cliente,snombrecli,1,,0,0,True,,,,,,1
+1641,ControlExpedientes,EtiqAbogadoContrario,abogadocontrario,50,bverficabog,1,0,False,,frmSeleccionarFicha,,,,1
+1642,ControlExpedientes,EtiqTercerosProp,tercerostodos,50,bVerTerceros,1,3,False,"e.inumexp * CAST(10000 as bigint) + e.iyear IN (SELECT DISTINCT ECP.inumexp * CAST(10000 as bigint) + ECP.iyear as idexp
+			FROM exclipro ECP
+			LEFT JOIN clientes C ON C.icodcli = ECP.icodcli
+			WHERE C.tipobd = 3 AND C.snombrecli LIKE '%{0}%')",frmSeleccionarFicha,,,,1
+1643,ControlClases,CentrosSingular,nombreCentro,50,bvercentros,1,0,False,,,,,,1
+1644,ControlExpedientes,CentrosSingular,sdescripcion,100,bvercentros,1,0,False,,frmSeleccionarFicha,,,,1
+1652,ControlClientes,func:GetEtiqNombreCliente,snombrecli,10,bMostrarRefServSupGast,1,3,True,"icodcli in (SELECT DISTINCT icodcli 
+	FROM servicioscli S
+	WHERE
+		S.referencia LIKE '%{0}%')",,,,,1
+1655,AtencionCliente,EtiqYearExpediente,iyear,11,bVerExpedientes,1,3,False,,,,,,1
+1666,FacturasRecibidas,cliUsuario,nombreusuario,7,,1,0,True,,,,,,1
+1671,ControlTratamientos,cliUsuario,Usuario,3,,1,0,True,,,,,,1
+1672,ControlTratamientos,Tipo Tratamiento,tipoodontograma,4,,0,0,True,,,,,,1
+1675,ControlExpedientes,EtiqAbogadoContrario,abogadocontrario,50,bverficabog,1,0,False,,frmSeleccionarFicha,,,,1
+1676,ControlExpedientes,EtiqTercerosProp,tercerostodos,50,bVerTerceros,1,3,False,"e.inumexp * CAST(10000 as bigint) + e.iyear IN (SELECT DISTINCT ECP.inumexp * CAST(10000 as bigint) + ECP.iyear as idexp
+			FROM exclipro ECP
+			LEFT JOIN clientes C ON C.icodcli = ECP.icodcli
+			WHERE C.tipobd = 3 AND C.snombrecli LIKE '%{0}%')",frmSeleccionarFicha,,,,1
+1677,ControlClases,CentrosSingular,nombreCentro,50,bvercentros,1,0,False,,,,,,1
+1678,ControlExpedientes,CentrosSingular,sdescripcion,100,bvercentros,1,0,False,,frmSeleccionarFicha,,,,1
+1684,ControlClientes,Ref. Serv. Contr.,snombrecli,10,bMostrarRefServSupGast,0,3,True,"icodcli in (SELECT DISTINCT icodcli 
+	FROM servicioscli S
+	WHERE
+		S.referencia LIKE '%{0}%')",,,,,1
+1685,Diario,Usuario,nombreUsu,6,,0,0,True,,,,,,1
+1686,ControlTratamientos,Estado,estadosegodont,8,,0,0,False,,,,,,1
+1691,ControlClientes,Cualquier criterio,cualquiera,0,!bvernomcomercialcli,0,3,True,"(snombrecli like '%{0}%' 
+					or snifcli like '%{0}%' 
+					or smovilcli  like '%{0}%' or stelefonocli like '%{0}%'  or telefono2 like '%{0}%' or telefono3 like '%{0}%'
+					or icodcli IN (select icodcli from diremailcli dec where email like '%{0}%'))",,,,,1
+1692,ControlClientes,Cualquier criterio,cualquiera,0,bvernomcomercialcli,0,3,True,"(snombrecli like '%{0}%' 
+					or snifcli like '%{0}%' 
+					or smovilcli  like '%{0}%' or stelefonocli like '%{0}%'  or telefono2 like '%{0}%' or telefono3 like '%{0}%'
+					or snombreclicomercial like '%{0}%' 
+					or icodcli IN (select icodcli from diremailcli dec where email like '%{0}%'))",,,,,1
+1693,ControlTesorerias,Tipo,stipo,7,,0,4,True,,,,tesoreria|tipocuenta,False,1
+1694,ControlTesorerias,Forma de Cobro/Pago,formacobropago,8,,0,4,True,,,,formacobro|formacobro,False,1
+1695,ControlFacturas,Ref. Factura,reffactu,100,,0,0,True,,Proformas,,,,
+1696,ControlFacturas,Ref. Factura,reffactu,101,,0,0,True,,Albaranes,,,,
+1697,ControlFacturas,Ref. Factura,reffactu,102,,0,0,True,,Pedidos,,,,
+1698,ControlFacturas,Ref. Factura,reffactu,103,,0,0,True,,ControlPresupuestos,,,,
+1699,ControlFacturas,Ref. Factura,reffactu,104,,0,0,True,,OrdenTrabajo,,,,
+1700,ControlFacturas,Estado Cobro,estado,200,,0,4,True,,Proformas,,{$}:int|Todas{=}|Cobradas{=}1|No Cobradas{=}2|Cobradas Parcialmente{=}3,,
+1701,ControlFacturas,Estado Cobro,estado,201,,0,4,True,,Albaranes,,{$}:int|Todas{=}|Cobradas{=}1|No Cobradas{=}2|Cobradas Parcialmente{=}3,,
+1702,ControlFacturas,Forma de Cobro,formapago,300,,0,0,True,,Proformas,3,,False,
+1703,ControlFacturas,Forma de Cobro,formapago,301,,0,0,True,,Albaranes,3,,False,
+1704,Mascotas,Comunicaciones Comerciales,comComerciales,20,,0,4,False,,,,{$}:int|Todas{=}|Sí{=}1|No{=}0,False,
+1705,ControlClientes,Nacionalidad,nacionalidad,100,bvernacionalidadotros,0,0,False,,Terceros,,,,
+1706,ControlClientes,Nacionalidad,nacionalidad,100,tipoficherocli:8:bvernacionalidadcli,0,0,False,,aseguradoras,,,,
+1707,ControlClientes,Nacionalidad,nacionalidad,100,tipoficherocli:5:bvernacionalidadcli,0,0,False,,ControlAlumnos,,,,
+1708,ControlClientes,Nacionalidad,nacionalidad,100,tipoficherocli:11:bvernacionalidadcli,0,0,False,,ControlFinanciadores,,,,
+1709,ControlClientes,Nacionalidad,nacionalidad,100,tipoficherocli:4:bvernacionalidadcli,0,0,False,,ControlPacientes,,,,
+1710,ControlClientes,Nacionalidad,nacionalidad,100,bvernacionalidadtrab,0,0,False,,ControlTrabajadores,,,,
+1711,ControlClientes,Nacionalidad,nacionalidad,100,tipoficherocli:7:bvernacionalidadcli,0,0,False,,Tutores,,,,
+1712,ControlClientes,Nacionalidad,nacionalidad,100,tipoficherocli:10:bvernacionalidadcli,0,0,False,,Voluntarios,,,,
+1713,ControlClientes,Todos los teléfonos,smovilcli|stelefonocli|telefono2|telefono3,4,!bVerDatosCliAFacturar_Alumno,0,0,True,,ControlAlumnos,,,False,
+1714,ControlClientes,Dirección,sdomiciliocli,15,!bVerDatosCliAFacturar_Alumno,0,0,False,,ControlAlumnos,,,False,
+1715,ControlClientes,Población,spoblacioncli,8,!bVerDatosCliAFacturar_Alumno,0,0,True,,ControlAlumnos,,,False,
+1716,ControlClientes,Provincia,sprovinciacli,10,!bVerDatosCliAFacturar_Alumno,0,0,True,,ControlAlumnos,,,False,
+1717,ControlClientes,Código Postal,scodpostalcli,14,!bVerDatosCliAFacturar_Alumno,0,0,True,,ControlAlumnos,,,False,
+1718,ControlClientes,País,snombrepais,9,!bVerDatosCliAFacturar_Alumno,0,0,True,,ControlAlumnos,,,False,
+1719,ControlClientes,Teléfono,stelefonocli,22,!bVerDatosCliAFacturar_Alumno,0,0,False,,ControlAlumnos,,,False,
+1720,ControlClientes,Teléfono 2,telefono2,23,!bVerDatosCliAFacturar_Alumno,0,0,False,,ControlAlumnos,,,False,
+1721,ControlClientes,Teléfono 3,telefono3,24,!bVerDatosCliAFacturar_Alumno,0,0,False,,ControlAlumnos,,,False,
+1722,ControlClientes,Fax,sfaxcli,17,!bVerDatosCliAFacturar_Alumno,1,0,False,,ControlAlumnos,,,False,
+1723,ControlClientes,Móvil,smovilcli,11,!bVerDatosCliAFacturar_Alumno,0,0,True,,ControlAlumnos,,,False,
+1724,ComunicacionesCorporativas,Nombre,snombrecli,1,,0,0,True,,,,,,
+1725,ComunicacionesCorporativas,Método de Envío,tipoenvioextra,3,,0,4,True,,,,{$}:string|Todas{=}|Correo{=}correo|WhatsApp{=}whatsapp|Sign de Correo{=}signcorreo|Sign de Whatsapp{=}signwhatsapp,,
+1726,ComunicacionesCorporativas,Creado Por,Operador,4,,0,0,False,,,,,,
+1727,ComunicacionesCorporativas,Enviado por,OperadorEnvio,4,,0,0,False,,,,,,
+1729,ComunicacionesCorporativas,Gestión Rzda,gestionRealizada,6,,0,4,False,,,,{$}:int|Todas{=}|Realizadas{=}True|Pendientes{=}False,,
+1730,ControlFacturas,Centros,sdescripcion,30,bvercentros,0,3,True,"icodcli in (SELECT DISTINCT icodcli 
+	FROM CentrosClientes C INNER JOIN centrospredef CP ON C.idCentro = CP.id
+	WHERE CP.sdescripcion LIKE '%{0}%')",ControlPresupuestos,,,,
+1731,ArticulosPredef,Referencia,referencia,12,,0,0,False,,,,,,
+1732,ComunicacionesCorporativas,Asunto,asunto,2,,0,0,True,,,,,,
+1733,ControlTratamientos,Número Bono,numbono,9,,0,1,True,,,,,,1
+1734,ControlTratamientos,Descripción Bono,descripcionbono,10,,0,0,True,,,,,,1
+1735,ControlClientes,LOPD,estadoLOPD,200,bVerCampoLOPD,0,4,True,,ControlClientes,,{$}:int|Todas{=}|Firmada{=}1|Pendiente{=}0,,1
+1736,ControlClientes,LOPD,estadoLOPD,200,bVerCampoLOPD,0,4,False,,ControlTrabajadores,,{$}:int|Todas{=}|Firmada{=}1|Pendiente{=}0,,1
+1737,ControlClientes,LOPD,estadoLOPD,200,,0,4,False,,ControlPotenciales,,{$}:int|Todas{=}|Firmada{=}1|Pendiente{=}0,,1
+1738,ControlClientes,LOPD,estadoLOPD,200,,0,4,False,,Terceros,,{$}:int|Todas{=}|Firmada{=}1|Pendiente{=}0,,1
+1739,ControlClientes,LOPD,estadoLOPD,200,bVerCampoLOPD,0,4,False,,ControlPacientes,,{$}:int|Todas{=}|Firmada{=}1|Pendiente{=}0,,1
+1740,ControlClientes,LOPD,estadoLOPD,200,bVerCampoLOPD,0,4,False,,ControlAlumnos,,{$}:int|Todas{=}|Firmada{=}1|Pendiente{=}0,,1
+1741,ControlClientes,LOPD,estadoLOPD,200,,0,4,False,,ControlCompañias,,{$}:int|Todas{=}|Firmada{=}1|Pendiente{=}0,,1
+1742,ControlClientes,LOPD,estadoLOPD,200,bVerCampoLOPD,0,4,False,,Tutores,,{$}:int|Todas{=}|Firmada{=}1|Pendiente{=}0,,1
+1743,ControlClientes,LOPD,estadoLOPD,200,,0,4,False,,aseguradoras,,{$}:int|Todas{=}|Firmada{=}1|Pendiente{=}0,,1
+1744,ControlClientes,LOPD,estadoLOPD,200,,0,4,False,,ControlProveedores,,{$}:int|Todas{=}|Firmada{=}1|Pendiente{=}0,,1
+1745,ControlClientes,LOPD,estadoLOPD,200,,0,4,False,,Voluntarios,,{$}:int|Todas{=}|Firmada{=}1|Pendiente{=}0,,1
+1746,ControlClientes,LOPD,estadoLOPD,200,bVerCampoLOPD,0,4,False,,ControlFinanciadores,,{$}:int|Todas{=}|Firmada{=}1|Pendiente{=}0,,1
+1747,Mascotas,LOPD,estadoLOPD,200,,0,4,False,,,,{$}:int|Todas{=}|Firmada{=}1|Pendiente{=}0,,1
+1749,Diario,Área,area,18,bMostrarAreaContabilidad,0,0,True,area like '%{0}%',,,,False,
+1750,Cuentas,Centros,centrotodos,8,bvercentros,1,3,True,idclave IN (SELECT CE.inumexp * CAST(10000 as bigint) + CE.iyear as idclave FROM CentrosExpedien CE JOIN centrospredef CP ON CE.idCentro = CP.id WHERE CP.sdescripcion LIKE '%{0}%' union SELECT (-1)*icodcli as idclave  FROM CentrosClientes CC JOIN centrospredef CP ON CC.idCentro = CP.id WHERE CP.sdescripcion LIKE '%{0}%'),,,,,
+1751,ControlOportunidades,campo18,campo18,20,bvercampobd2opor,2,0,True,,,,,False,1
+1752,ControlFacturas,Tipo Impositivo,tipoImpositivo,32,,0,4,True,,,,"{$}:string|Todos{=}|IVA{=}Impuesto sobre el Valor Añadido (IVA)|IGIC{=}Impuesto General Indirecto Canario (IGIC)|IPSI{=}Impuesto sobre la Producción, los Servicios y la Importación (IPSI) de Ceuta y Melilla",,
+1753,ControlDeCorreos,Nombre,snombrecli,1,,0,0,True,,,,,,1
+1754,ControlDeCorreos,De,remitente,5,,0,0,True,,,,,,1
+1755,ControlDeCorreos,Asunto,asunto,5,,0,0,True,,,,,,1
+1756,ControlDeCorreos,Para,para,5,,0,0,True,,,,,,1
+1757,ControlDeCorreos,Gestión Rzda,gestionRealizada,6,,0,4,True,,,,{$}:int|Todas{=}|Realizadas{=}1|Pendientes{=}0,,1
+1758,ControlDeCorreos,Forma de Envío,formaEnvio,6,,0,4,True,,,,{$}:string|Todos{=}|Manual{=}Manual|Automático{=}Automático,,1
+1759,ControlDeCorreos,Envío,envio,6,,0,4,True,,,,{$}:string|Todas{=}|Individual{=}Individual|Masivo{=}Masivo,,1
+1760,ControlAdjuntosBuscadorDocumentosDocSign,Fecha Caducidad,fechaCaducidad,3,,0,8,True,,,,,,1
+1761,frmSeleccionarFicha,EtiqRefExpediente,srefcliente,18,bverrefcliente,1,3,True,,expedien,,,False,1
+1762,ControlFacturas,Sistema de Emisión de Facturas,isistemaemision,33,False,0,4,True,,,,{$}:int|Todas{=}|Ninguno{=}0|TicketBai{=}1|Veri*Factu{=}2,,
+1763,ControlExpedientes,Todos los teléfonos,movil|telefono1|telefono2|telefono3,400,,0,3,False,"idexp IN (SELECT ECP.inumexp * CAST(10000 as bigint) + ECP.iyear as idexp   
+	FROM [[instancia]advabousu[empresa]].dbo.exclipro ECP   JOIN [[instancia]advabousu[empresa]].dbo.clientes C ON ECP.icodcli = C.icodcli   
+	WHERE C.tipobd = 0 AND (C.stelefonocli LIKE '%{0}%' or c.smovilcli LIKE '%{0}%' or c.telefono2 LIKE '%{0}%' or c.telefono3 LIKE '%{0}%'))",,,,,1
+1764,ControlClientes,Municipio,municipio,66,,0,0,False,,ControlClientes,,,,1
+1765,FacturasRecibidas,Ref. Abonada,refAbonada,12,,0,0,False,,,,,False,1

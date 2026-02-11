@@ -1,0 +1,41 @@
+﻿id,indice,orden,descripcion,codigo,referencia,descatalogado,codprove,margen,preciovenSI,preciovenI,preciocoste,familia,unidad,tipo,ctaArt,ctaiva,ctairpf,fecha,iva,notas,ubicacion,stockR,stockV,stockM,PUMP,PedProv,PedClie,talla,color,campo1,campo2,campo3,campo4,campo5,campo6,campo7,campo8,campofecha1,campofecha2,campofecha3,campofecha4,ctafrArt,ctafriva,ctafrirpf,stockMax,idalmacen,tipounidad,tipomargen,pormargen,stockkit,notas2,notas3,notas4,notas5,notas6,codificacion,codigobarras,idPestana,tipomedicacion,tipoalmacen,tipoenvase,notasmed,notasmed2,notasmed3,notasmed4,notasmed5,notasmed6,idpactivos,propiedad1,propiedad2,propiedad3,propiedad4,propfecha1,propfecha2,propfecha3,propfecha4,idfamilia,idsubfamilia,tipodosis,vendidoen,descripcionlarga,backcolor,tipoOperacionIvaVentas,detalleOperacionIVAVentas,tipoExencionIVAVentas,motivoExencionIVAVentas,modelosIVAVentas,modelosIRPFVentas,tipoOperacionIRPFVentas,aplicarRecEqVentas,cuentaIVARepVentas,aplicarProrrataVentas,mod233Ventas,mod233SubvencionVentas,clavemod349Ventas,motivoNoSujetoVentas,tipoOperacionIvaCompras,detalleOperacionIVACompras,tipoExencionIVACompras,motivoExencionIVACompras,modelosIVACompras,modelosIRPFCompras,tipoOperacionIRPFCompras,aplicarRecEqCompras,cuentaIVARepCompras,aplicarProrrataCompras,mod233Compras,mod233SubvencionCompras,clavemod349Compras,motivoNoSujetoCompras,via,formato,duracion,unidades,diagnostico,instrucciones,bInventario,diasRecall,marca,tipoConsumo,reMinoristaVentas,reMinoristaCompras,periodoVal,prescripExtra,bAutoReceta,unidadesporenvase,codigoIAETicketBai,clavemod190Compras,subclavemod190Compras
+1,0,1,Crema tratamiento,1,CRCO,0,38,15.0,65.0000,78.6500,50.0000,General,Unidad,Crema,7000000000,4770000021,          ,2013-04-11 00:00:00,21.0000,,Almacén,-4.0,0.0,10.0,65.0000,2.0,6.0,100 ml,,,,,,,,,,,,,,6000000000,4720000021,          ,,1,Ud,0,30.0,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,True,,,,,,,,,,,,
+2,0,2,Crema prevención,2,CRPR,0,38,15.0,45.0000,54.4500,30.0000,General,Unidad,Crema,7000000000,4770000021,          ,2013-04-11 00:00:00,21.0000,,Almacén,3.0,0.0,20.0,45.0000,3.0,0.0,100 ml,,,,,,,,,,,,,,6000000000,4720000021,          ,,1,Ud,0,50.0,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,True,,,,,,,,,,,,
+4,0,3,Ibuprofeno 600mg,3,,0,58,0.0,7.0000,7.0000,7.0000,,,,7000000000,4770000007,4750000015,2023-04-13 00:00:00,,"{\rtf1\ansi\ansicpg1252\deff0\deflang3082{\fonttbl{\f0\fnil\fcharset0 Microsoft Sans Serif;}}
+\viewkind4\uc1\pard\f0\fs20\par
+}
+",,,,,,,,,,,,,,,,,,,,,,6000000000,4720000021,,,,,,0.0,,"{\rtf1\ansi\ansicpg1252\deff0\deflang3082{\fonttbl{\f0\fnil\fcharset0 Microsoft Sans Serif;}}
+\viewkind4\uc1\pard\f0\fs20\par
+}
+","{\rtf1\ansi\ansicpg1252\deff0\deflang3082{\fonttbl{\f0\fnil\fcharset0 Microsoft Sans Serif;}}
+\viewkind4\uc1\pard\f0\fs20\par
+}
+","{\rtf1\ansi\ansicpg1252\deff0\deflang3082{\fonttbl{\f0\fnil\fcharset0 Microsoft Sans Serif;}}
+\viewkind4\uc1\pard\f0\fs20\par
+}
+","{\rtf1\ansi\ansicpg1252\deff0\deflang3082{\fonttbl{\f0\fnil\fcharset0 Microsoft Sans Serif;}}
+\viewkind4\uc1\pard\f0\fs20\par
+}
+","{\rtf1\ansi\ansicpg1252\deff0\deflang3082{\fonttbl{\f0\fnil\fcharset0 Microsoft Sans Serif;}}
+\viewkind4\uc1\pard\f0\fs20\par
+}
+",,,,,,,,,,,,,,,,,,,,,,2,1,,,,,,,,,,,,,,False,,,,,,,,,,,,,,False,,,,,,,,,,,True,,,,,,,,,,,,
+6,0,4,Ibuprofeno 600,4,,0,58,0.0,0.0000,0.0000,0.0000,,,,7000000000,4770000007,4750000015,2023-04-13 00:00:00,,"{\rtf1\ansi\ansicpg1252\deff0\deflang3082{\fonttbl{\f0\fnil\fcharset0 Microsoft Sans Serif;}}
+\viewkind4\uc1\pard\f0\fs20\par
+}
+",,,,,,,,,,,,,,,,,,,,,,6000000000,4720000021,,,,,,0.0,,"{\rtf1\ansi\ansicpg1252\deff0\deflang3082{\fonttbl{\f0\fnil\fcharset0 Microsoft Sans Serif;}}
+\viewkind4\uc1\pard\f0\fs20\par
+}
+","{\rtf1\ansi\ansicpg1252\deff0\deflang3082{\fonttbl{\f0\fnil\fcharset0 Microsoft Sans Serif;}}
+\viewkind4\uc1\pard\f0\fs20\par
+}
+","{\rtf1\ansi\ansicpg1252\deff0\deflang3082{\fonttbl{\f0\fnil\fcharset0 Microsoft Sans Serif;}}
+\viewkind4\uc1\pard\f0\fs20\par
+}
+","{\rtf1\ansi\ansicpg1252\deff0\deflang3082{\fonttbl{\f0\fnil\fcharset0 Microsoft Sans Serif;}}
+\viewkind4\uc1\pard\f0\fs20\par
+}
+","{\rtf1\ansi\ansicpg1252\deff0\deflang3082{\fonttbl{\f0\fnil\fcharset0 Microsoft Sans Serif;}}
+\viewkind4\uc1\pard\f0\fs20\par
+}
+",,,,,,,,,,,,,,,,,,,,,,2,1,,,,,,,,,,,,,,False,,,,,,,,,,,,,,False,,,,,,,,,,,True,,,,,,,,,,,,

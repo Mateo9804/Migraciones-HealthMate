@@ -1,0 +1,87 @@
+﻿id,tabla
+1,director
+2,abogados
+3,bancos
+4,clientes
+5,cliiae
+6,cliresult
+7,clisocie
+8,cliirpf
+9,clibase
+10,cliiva
+11,cliivaco
+12,socielib
+13,sociecue
+14,sociesoc
+15,socieadm
+16,sociemie
+17,sociecon
+18,socieapo
+19,sociereten
+20,colabora
+21,contacto
+22,cliecont
+23,procpro
+24,expedien
+25,procedi
+26,juzgado
+27,segexp
+28, MERGEFIELD Historial
+29,organism
+30,poderes
+31,procurad
+32,facturas
+33,linefactgas
+34,linefacthono
+35,segcli
+36,cliadjun
+37,subusu
+38,clientesoblig
+39,clientesobligdetalles
+40, MERGEFIELD Detalles
+41,ref director
+42,ref clientes
+43,ref facturas
+44,ref linefact
+45,linefact
+46,proforma
+47,lineprofgas
+48,lineprofhono
+49,abogprop
+50,proccont
+51,perso1
+52,perso2
+53,perso3
+54,perso5
+55,perso4
+56,perso7
+57,cuencli
+58,previcli1
+59,previcli3
+60,previcli
+61,tipoexp
+62,tipoasun
+63,expadjun
+64,cuenexpe
+65,previexp3
+66,previexp1
+67,previexp
+68,clientesobligdetalleshisto
+69,clientesultactu
+70,oporcli
+71,prevcobros
+72,recetasmedicas
+73,c2
+74,recetasxml
+75,juzgadoprincipal
+76,
+77,clivaloresperfil
+78,oporcuentas
+79,pacexp
+80, MERGEFIELD Pacientes
+81,historiaclinica
+82,clipac
+83,oporclipedido
+84,mergefield general
+85,paccli
+86,lineprof
