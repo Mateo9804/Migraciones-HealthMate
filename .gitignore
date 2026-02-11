@@ -18,3 +18,11 @@ downloads/*
 !downloads/.htaccess
 !downloads/.gitkeep
 
+# Archivos grandes que exceden el límite de GitHub (100MB)
+**/*.bak
+**/Completa_*.xml
+**/Copia*.bak
+DRICloud/Completa_2536.xml
+MN Program/*.bak
+MN Program/Copia*.bak
+
