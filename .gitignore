@@ -1,0 +1,14 @@
+# Directorio de archivos subidos
+uploads/
+*.log
+
+# Archivos del sistema
+.DS_Store
+Thumbs.db
+desktop.ini
+
+# Archivos temporales
+*.tmp
+*.temp
+~*
+

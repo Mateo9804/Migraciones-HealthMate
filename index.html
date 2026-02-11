@@ -1,0 +1,42 @@
+<!DOCTYPE html>
+<html lang="es">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Subir Archivos - CSV, XML, JSON</title>
+    <link rel="stylesheet" href="styles.css">
+</head>
+<body>
+    <div class="container">
+        <div class="header">
+            <h1>📁 Subir Archivos</h1>
+            <p>Sube archivos CSV, XML o JSON</p>
+        </div>
+
+        <div class="upload-area" id="uploadArea">
+            <div class="upload-content">
+                <svg class="upload-icon" viewBox="0 0 24 24" fill="none" stroke="currentColor">
+                    <path d="M21 15v4a2 2 0 0 1-2 2H5a2 2 0 0 1-2-2v-4"></path>
+                    <polyline points="17 8 12 3 7 8"></polyline>
+                    <line x1="12" y1="3" x2="12" y2="15"></line>
+                </svg>
+                <h2>Arrastra y suelta archivos aquí</h2>
+                <p>o</p>
+                <button class="btn-select" id="selectBtn">Seleccionar archivos</button>
+                <p class="file-types">Formatos permitidos: .csv, .xml, .json</p>
+            </div>
+            <input type="file" id="fileInput" multiple accept=".csv,.xml,.json" hidden>
+        </div>
+
+        <div class="files-list" id="filesList"></div>
+
+        <div class="actions" id="actions" style="display: none;">
+            <button class="btn-upload" id="uploadBtn">Subir archivos</button>
+            <button class="btn-clear" id="clearBtn">Limpiar lista</button>
+        </div>
+    </div>
+
+    <script src="script.js"></script>
+</body>
+</html>
+
