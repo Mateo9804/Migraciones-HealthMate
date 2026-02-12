@@ -1,5 +1,8 @@
 const fs = require('fs');
 const path = require('path');
+const { exec } = require('child_process');
+const { promisify } = require('util');
+const execAsync = promisify(exec);
 
 // Importar formidable - usar la misma forma que en upload.js
 const formidable = require('formidable');
