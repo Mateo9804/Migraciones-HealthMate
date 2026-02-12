@@ -448,34 +448,54 @@ async function generarCitas(inputDir, outputPath) {
 
 // Función principal
 async function processMNProgram(inputDir, outputDir) {
-  const folderSuffix = extractFolderSuffix(inputDir);
-  
-  await generarClientesYBonos(
-    inputDir,
-    path.join(outputDir, `clientes_y_bonos_${folderSuffix}.csv`)
-  );
-  
-  await generarBonos(
-    inputDir,
-    path.join(outputDir, `bonos_${folderSuffix}.csv`)
-  );
-  
-  await generarHistorialBasica(
-    inputDir,
-    path.join(outputDir, `historial_basica_${folderSuffix}.csv`)
-  );
-  
-  await generarHistorialCompleta(
-    inputDir,
-    path.join(outputDir, `historial_completa_${folderSuffix}.csv`)
-  );
-  
-  await generarCitas(
-    inputDir,
-    path.join(outputDir, `citas_${folderSuffix}.csv`)
-  );
-  
-  console.log(`\n[OK] Proceso completado. Archivos generados en: ${outputDir}`);
+  try {
+    console.log(`[INFO] processMNProgram iniciado`);
+    console.log(`[INFO] inputDir: ${inputDir}`);
+    console.log(`[INFO] outputDir: ${outputDir}`);
+    
+    // Asegurar que outputDir existe
+    if (!fs.existsSync(outputDir)) {
+      fs.mkdirSync(outputDir, { recursive: true });
+      console.log(`[INFO] Creado outputDir: ${outputDir}`);
+    }
+    
+    const folderSuffix = extractFolderSuffix(inputDir);
+    console.log(`[INFO] folderSuffix: ${folderSuffix}`);
+    
+    await generarClientesYBonos(
+      inputDir,
+      path.join(outputDir, `clientes_y_bonos_${folderSuffix}.csv`)
+    );
+    
+    await generarBonos(
+      inputDir,
+      path.join(outputDir, `bonos_${folderSuffix}.csv`)
+    );
+    
+    await generarHistorialBasica(
+      inputDir,
+      path.join(outputDir, `historial_basica_${folderSuffix}.csv`)
+    );
+    
+    await generarHistorialCompleta(
+      inputDir,
+      path.join(outputDir, `historial_completa_${folderSuffix}.csv`)
+    );
+    
+    await generarCitas(
+      inputDir,
+      path.join(outputDir, `citas_${folderSuffix}.csv`)
+    );
+    
+    console.log(`\n[OK] Proceso completado. Archivos generados en: ${outputDir}`);
+    
+    // Verificar que los archivos se crearon
+    const files = fs.readdirSync(outputDir);
+    console.log(`[INFO] Archivos en outputDir:`, files);
+  } catch (error) {
+    console.error(`[ERROR] Error en processMNProgram:`, error);
+    throw error;
+  }
 }
 
 module.exports = { processMNProgram };

@@ -185,24 +185,37 @@ module.exports = async function handler(req, res) {
 };
 
 // Función auxiliar para procesar archivos
-async function findFiles(dir, extensions) {
+function findFiles(dir, extensions) {
   const results = [];
-  if (!fs.existsSync(dir)) return results;
-  
-  const files = fs.readdirSync(dir);
-  files.forEach(file => {
-    const filePath = path.join(dir, file);
-    const stat = fs.statSync(filePath);
+  try {
+    if (!fs.existsSync(dir)) {
+      console.log(`[DEBUG] Directorio no existe: ${dir}`);
+      return results;
+    }
     
-    if (stat.isDirectory()) {
-      results.push(...findFiles(filePath, extensions));
-    } else {
-      const ext = path.extname(file).toLowerCase().substring(1);
-      if (extensions.includes(ext) || (extensions.includes('') && ext === '')) {
-        results.push(filePath);
+    const files = fs.readdirSync(dir);
+    for (const file of files) {
+      const filePath = path.join(dir, file);
+      try {
+        const stat = fs.statSync(filePath);
+        
+        if (stat.isDirectory()) {
+          const subResults = findFiles(filePath, extensions);
+          results.push(...subResults);
+        } else {
+          const ext = path.extname(file).toLowerCase().substring(1);
+          if (extensions.includes(ext) || (extensions.includes('') && ext === '')) {
+            results.push(filePath);
+          }
+        }
+      } catch (e) {
+        console.error(`[ERROR] Error procesando archivo ${filePath}:`, e.message);
+        // Continuar con el siguiente archivo
       }
     }
-  });
+  } catch (e) {
+    console.error(`[ERROR] Error en findFiles para ${dir}:`, e.message);
+  }
   return results;
 }
 
@@ -241,39 +254,86 @@ async function processFile(filePath, selectedPage, tmpDir) {
 
   // Procesar con módulos JavaScript
   try {
+    console.log(`[DEBUG] Procesando con página: ${selectedPage}`);
+    console.log(`[DEBUG] inputPath: ${inputPath}`);
+    console.log(`[DEBUG] resultsDir: ${resultsDir}`);
+    console.log(`[DEBUG] baseDir: ${baseDir}`);
+    
     switch (selectedPage) {
       case 'clinni':
         // Para CLINNI, buscar todos los archivos en inputPath
         const clinniFiles = findFiles(inputPath, ['csv', 'txt', 'gz', 'json', 'xml', '']);
+        console.log(`[DEBUG] Archivos CLINNI encontrados: ${clinniFiles.length}`);
         for (const clinniFile of clinniFiles) {
+          console.log(`[DEBUG] Procesando archivo CLINNI: ${clinniFile}`);
           await processCLINNI(clinniFile, resultsDir, baseDir);
         }
         break;
       case 'dricloud':
         // Para DRICloud, buscar archivos XML
         const xmlFiles = findFiles(inputPath, ['xml']);
+        console.log(`[DEBUG] Archivos XML encontrados: ${xmlFiles.length}`);
         for (const xmlFile of xmlFiles) {
+          console.log(`[DEBUG] Procesando archivo XML: ${xmlFile}`);
           await processDRICloud(xmlFile, resultsDir, baseDir);
         }
         break;
       case 'mnprogram':
         // Para MN Program, usar el directorio completo
+        console.log(`[DEBUG] Procesando MN Program desde: ${inputPath}`);
         await processMNProgram(inputPath, resultsDir);
         break;
       default:
         throw new Error(`Página no reconocida: ${selectedPage}`);
     }
+    
+    console.log(`[DEBUG] Procesamiento completado. Buscando CSV en: ${resultsDir}`);
   } catch (error) {
     console.error('Error al procesar:', error);
+    console.error('Stack trace:', error.stack);
     throw new Error(`Error al procesar archivo: ${error.message}`);
   }
 
   // Buscar CSV generados
-  const generatedCsvFiles = findFiles(resultsDir, ['csv']);
+  console.log(`[DEBUG] Buscando archivos CSV en: ${resultsDir}`);
+  console.log(`[DEBUG] ¿Existe resultsDir?: ${fs.existsSync(resultsDir)}`);
+  
+  if (fs.existsSync(resultsDir)) {
+    const dirContents = fs.readdirSync(resultsDir);
+    console.log(`[DEBUG] Contenido de resultsDir:`, dirContents);
+  }
+  
+  let generatedCsvFiles = findFiles(resultsDir, ['csv']);
+  console.log(`[DEBUG] Archivos CSV encontrados (primera búsqueda): ${generatedCsvFiles.length}`);
+  
+  // Asegurar que sea un array
+  if (!Array.isArray(generatedCsvFiles)) {
+    console.error('findFiles no devolvió un array:', typeof generatedCsvFiles, generatedCsvFiles);
+    generatedCsvFiles = [];
+  }
   
   if (generatedCsvFiles.length === 0) {
-    throw new Error('No se generaron archivos CSV');
+    // Intentar buscar de nuevo después de un pequeño delay
+    console.log(`[DEBUG] No se encontraron CSV, esperando 500ms y buscando de nuevo...`);
+    await new Promise(resolve => setTimeout(resolve, 500));
+    generatedCsvFiles = findFiles(resultsDir, ['csv']);
+    console.log(`[DEBUG] Archivos CSV encontrados (segunda búsqueda): ${generatedCsvFiles.length}`);
+    
+    if (!Array.isArray(generatedCsvFiles)) {
+      generatedCsvFiles = [];
+    }
+    
+    if (generatedCsvFiles.length === 0) {
+      // Listar todos los archivos en resultsDir para debug
+      if (fs.existsSync(resultsDir)) {
+        const allFiles = findFiles(resultsDir, []);
+        console.error(`[ERROR] No se encontraron CSV. Archivos en resultsDir:`, allFiles);
+      }
+      throw new Error('No se generaron archivos CSV. Verifica que los scripts de procesamiento se ejecutaron correctamente.');
+    }
   }
+  
+  console.log(`[DEBUG] Archivos CSV finales:`, generatedCsvFiles.map(f => path.basename(f)));
 
   // Crear ZIP
   const zipFileName = `resultados_${selectedPage}_${new Date().toISOString().replace(/[:.]/g, '-').slice(0, -5)}.zip`;
@@ -285,8 +345,8 @@ async function processFile(filePath, selectedPage, tmpDir) {
     return {
       success: true,
       message: `Archivos procesados. ${generatedCsvFiles.length} archivo(s) generado(s).`,
-      individual_files: generatedCsvFiles.map(f => path.basename(f)),
-      files_count: generatedCsvFiles.length,
+      individual_files: Array.isArray(generatedCsvFiles) ? generatedCsvFiles.map(f => path.basename(f)) : [],
+      files_count: Array.isArray(generatedCsvFiles) ? generatedCsvFiles.length : 0,
       zip_created: false
     };
   }
