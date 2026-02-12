@@ -279,7 +279,20 @@ async function processFile(filePath, selectedPage, tmpDir) {
         }
         break;
       case 'mnprogram':
-        // Para MN Program, usar el directorio completo
+        // Para MN Program, verificar si hay un solo archivo o un directorio
+        const mnFiles = fs.readdirSync(inputPath);
+        console.log(`[DEBUG] Archivos en inputPath para MN Program:`, mnFiles);
+        
+        // Si solo hay un archivo CSV, copiarlo como clientes.csv
+        if (mnFiles.length === 1 && mnFiles[0].toLowerCase().endsWith('.csv')) {
+          const singleFile = path.join(inputPath, mnFiles[0]);
+          const clientesPath = path.join(inputPath, 'clientes.csv');
+          if (singleFile !== clientesPath) {
+            console.log(`[DEBUG] Copiando ${mnFiles[0]} como clientes.csv`);
+            fs.copyFileSync(singleFile, clientesPath);
+          }
+        }
+        
         console.log(`[DEBUG] Procesando MN Program desde: ${inputPath}`);
         await processMNProgram(inputPath, resultsDir);
         break;

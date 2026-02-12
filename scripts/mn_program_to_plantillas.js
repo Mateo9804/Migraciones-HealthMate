@@ -40,22 +40,31 @@ function extractFolderSuffix(inputDir) {
 // Leer CSV con manejo de encoding
 function readCSV(filePath) {
   return new Promise((resolve, reject) => {
+    console.log(`[DEBUG] readCSV: leyendo ${filePath}`);
     const rows = [];
     const encodings = ['utf8', 'utf-8-sig', 'latin1'];
     let currentEncoding = 0;
+    let headersSeen = false;
     
     function tryRead() {
       if (currentEncoding >= encodings.length) {
+        console.log(`[DEBUG] readCSV: se intentaron todos los encodings, filas leídas: ${rows.length}`);
         resolve(rows);
         return;
       }
       
       const encoding = encodings[currentEncoding];
+      console.log(`[DEBUG] readCSV: intentando encoding ${encoding}`);
       const stream = fs.createReadStream(filePath, { encoding });
       
       stream
         .pipe(csv())
         .on('data', (row) => {
+          if (!headersSeen) {
+            console.log(`[DEBUG] readCSV: headers encontrados:`, Object.keys(row).slice(0, 10));
+            headersSeen = true;
+          }
+          
           // Limpiar BOM de las claves
           const cleanedRow = {};
           for (const [key, value] of Object.entries(row)) {
@@ -65,13 +74,18 @@ function readCSV(filePath) {
           rows.push(cleanedRow);
         })
         .on('end', () => {
+          console.log(`[DEBUG] readCSV: lectura completada con encoding ${encoding}, ${rows.length} filas`);
           resolve(rows);
         })
         .on('error', (err) => {
+          console.log(`[DEBUG] readCSV: error con encoding ${encoding}:`, err.message);
           currentEncoding++;
           if (currentEncoding < encodings.length) {
+            rows.length = 0; // Limpiar filas anteriores
+            headersSeen = false;
             tryRead();
           } else {
+            console.log(`[DEBUG] readCSV: todos los encodings fallaron, devolviendo ${rows.length} filas`);
             resolve(rows); // Devolver lo que se pudo leer
           }
         });
@@ -105,17 +119,64 @@ function writeCSV(outputPath, headers, rows) {
 
 // Cargar clientes
 async function loadClientes(inputDir) {
-  const clientesPath = path.join(inputDir, 'clientes.csv');
-  if (!fs.existsSync(clientesPath)) {
-    console.error('[AVISO] clientes.csv no encontrado');
+  console.log(`[DEBUG] loadClientes: buscando en ${inputDir}`);
+  
+  // Buscar archivo clientes.csv (puede tener diferentes nombres)
+  const possibleNames = ['clientes.csv', 'Clientes.csv', 'CLIENTES.csv'];
+  let clientesPath = null;
+  
+  for (const name of possibleNames) {
+    const testPath = path.join(inputDir, name);
+    if (fs.existsSync(testPath)) {
+      clientesPath = testPath;
+      console.log(`[DEBUG] Encontrado: ${testPath}`);
+      break;
+    }
+  }
+  
+  // Si no se encuentra con esos nombres, buscar cualquier CSV
+  if (!clientesPath) {
+    console.log(`[DEBUG] No se encontró clientes.csv, buscando cualquier CSV en ${inputDir}`);
+    const files = fs.readdirSync(inputDir);
+    console.log(`[DEBUG] Archivos en inputDir:`, files);
+    
+    for (const file of files) {
+      if (file.toLowerCase().includes('cliente') && file.toLowerCase().endsWith('.csv')) {
+        clientesPath = path.join(inputDir, file);
+        console.log(`[DEBUG] Usando archivo: ${clientesPath}`);
+        break;
+      }
+    }
+    
+    // Si aún no se encuentra, usar el primer CSV
+    if (!clientesPath) {
+      for (const file of files) {
+        if (file.toLowerCase().endsWith('.csv')) {
+          clientesPath = path.join(inputDir, file);
+          console.log(`[DEBUG] Usando primer CSV encontrado: ${clientesPath}`);
+          break;
+        }
+      }
+    }
+  }
+  
+  if (!clientesPath || !fs.existsSync(clientesPath)) {
+    console.error(`[AVISO] No se encontró archivo de clientes en ${inputDir}`);
+    console.error(`[AVISO] Archivos disponibles:`, fs.existsSync(inputDir) ? fs.readdirSync(inputDir) : 'directorio no existe');
     return {};
   }
   
+  console.log(`[DEBUG] Leyendo clientes desde: ${clientesPath}`);
   const rows = await readCSV(clientesPath);
+  console.log(`[DEBUG] Filas leídas: ${rows.length}`);
+  
   if (rows.length === 0) {
     console.error('[AVISO] clientes.csv no tiene filas de datos');
     return {};
   }
+  
+  console.log(`[DEBUG] Primera fila (muestra):`, Object.keys(rows[0]));
+  console.log(`[DEBUG] Primeras claves:`, Object.keys(rows[0]).slice(0, 5));
   
   const clientes = {};
   const sample = rows[0];
@@ -128,6 +189,7 @@ async function loadClientes(inputDir) {
       const cleanKey = realKey.replace(/^\ufeff/, '').trim();
       if (cleanKey.toLowerCase() === cand.toLowerCase()) {
         keyField = realKey;
+        console.log(`[DEBUG] Clave encontrada: '${realKey}' (limpia: '${cleanKey}')`);
         break;
       }
     }
@@ -202,27 +264,46 @@ const PLANTILLA_CITAS_HEADERS = [
 
 // Generar clientes_y_bonos
 async function generarClientesYBonos(inputDir, outputPath) {
+  console.log(`[DEBUG] generarClientesYBonos: inputDir=${inputDir}, outputPath=${outputPath}`);
   const clientes = await loadClientes(inputDir);
+  console.log(`[DEBUG] Clientes cargados: ${Object.keys(clientes).length}`);
+  
   const rowsOut = [];
   
+  // Si no hay clientes, mostrar muestra de qué hay disponible
+  if (Object.keys(clientes).length === 0) {
+    console.error(`[ERROR] No se cargaron clientes. Verifica que el archivo clientes.csv existe en ${inputDir}`);
+    // Intentar listar archivos disponibles
+    if (fs.existsSync(inputDir)) {
+      const files = fs.readdirSync(inputDir);
+      console.error(`[ERROR] Archivos disponibles en inputDir:`, files);
+    }
+  }
+  
   for (const cli of Object.values(clientes)) {
-    const nombreCompleto = (cli.snombrecli || '').trim();
+    // Intentar múltiples variantes de nombres de columnas
+    const nombreCompleto = firstNoEmpty(
+      cli.snombrecli, cli.SNOMBRECLI, cli.nombre, cli.NOMBRE,
+      cli.Nombre, cli.sNombreCli, cli.s_nombre_cli
+    ).trim();
+    
+    console.log(`[DEBUG] Procesando cliente: nombre=${nombreCompleto}, claves disponibles:`, Object.keys(cli).slice(0, 10));
     
     rowsOut.push({
       "Nombre": nombreCompleto,
       "Apellidos": "",
-      "CIF/NIF": cli.snifcli || "",
-      "Direccion": cli.sdomiciliocli || "",
-      "Codigo Postal": cli.scodpostalcli || "",
-      "Ciudad": cli.spoblacioncli || "",
-      "Provincia": cli.sprovinciacli || "",
-      "Pais": firstNoEmpty(cli.sNombrePais, "España"),
-      "Email": cli.email || "",
-      "Telefono": firstNoEmpty(cli.smovilcli, cli.stelefonocli),
-      "Tipo Cliente": cli.NaturJuridica || "",
-      "Fecha Nacimiento": cli.fechanacimiento || "",
-      "Genero": cli.sexo || "",
-      "Notas Medicas": cli.textoalerta || "",
+      "CIF/NIF": firstNoEmpty(cli.snifcli, cli.SNIFCLI, cli.nif, cli.NIF, cli.dni, cli.DNI),
+      "Direccion": firstNoEmpty(cli.sdomiciliocli, cli.SDOMICILIOCLI, cli.direccion, cli.DIRECCION, cli.domicilio),
+      "Codigo Postal": firstNoEmpty(cli.scodpostalcli, cli.SCODPOSTALCLI, cli.codpostal, cli.CODPOSTAL, cli.cp, cli.CP),
+      "Ciudad": firstNoEmpty(cli.spoblacioncli, cli.SPOBLACIONCLI, cli.poblacion, cli.POBLACION, cli.ciudad, cli.CIUDAD),
+      "Provincia": firstNoEmpty(cli.sprovinciacli, cli.SPROVINCIACLI, cli.provincia, cli.PROVINCIA),
+      "Pais": firstNoEmpty(cli.sNombrePais, cli.SNOMBREPAIS, cli.pais, cli.PAIS, "España"),
+      "Email": firstNoEmpty(cli.email, cli.EMAIL, cli.correo, cli.CORREO),
+      "Telefono": firstNoEmpty(cli.smovilcli, cli.SMOVILCLI, cli.stelefonocli, cli.STELEFONOCLI, cli.telefono, cli.TELEFONO),
+      "Tipo Cliente": firstNoEmpty(cli.NaturJuridica, cli.NATURJURIDICA, cli.tipo, cli.TIPO),
+      "Fecha Nacimiento": firstNoEmpty(cli.fechanacimiento, cli.FECHANACIMIENTO, cli.fecha_nac, cli.FECHA_NAC),
+      "Genero": firstNoEmpty(cli.sexo, cli.SEXO, cli.genero, cli.GENERO),
+      "Notas Medicas": firstNoEmpty(cli.textoalerta, cli.TEXTOALERTA, cli.notas, cli.NOTAS),
       "Fecha seguimiento": "",
       "Tipo seguimiento": "",
       "Descripción": "",
@@ -237,6 +318,7 @@ async function generarClientesYBonos(inputDir, outputPath) {
     });
   }
   
+  console.log(`[DEBUG] Filas generadas: ${rowsOut.length}`);
   await writeCSV(outputPath, PLANTILLA_CLIENTES_Y_BONOS_HEADERS, rowsOut);
   console.log(`[OK] Generado ${outputPath} (${rowsOut.length} filas)`);
 }
