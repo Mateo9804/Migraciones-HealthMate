@@ -291,6 +291,17 @@ function escapeHtml(text) {
     return div.innerHTML;
 }
 
+// Función auxiliar para convertir base64 a Blob
+function base64ToBlob(base64, mimeType) {
+    const byteCharacters = atob(base64);
+    const byteNumbers = new Array(byteCharacters.length);
+    for (let i = 0; i < byteCharacters.length; i++) {
+        byteNumbers[i] = byteCharacters.charCodeAt(i);
+    }
+    const byteArray = new Uint8Array(byteNumbers);
+    return new Blob([byteArray], { type: mimeType });
+}
+
 // Toggle preview
 window.togglePreview = function(index) {
     const preview = document.getElementById(`preview-${index}`);
@@ -363,9 +374,8 @@ async function uploadFiles() {
             }
         }
 
-        // Enviar 'page' tanto en la URL (GET) como en el FormData (POST)
-        // Esto asegura que el servidor siempre reciba el valor, incluso si hay problemas con FormData
-        const url = 'upload.php?page=' + encodeURIComponent(selectedPage);
+        // Usar la API de Vercel
+        const url = '/api/upload?page=' + encodeURIComponent(selectedPage);
         console.log('URL de la petición:', url);
         
         // NO establecer Content-Type manualmente - fetch lo hace automáticamente para FormData
@@ -432,8 +442,19 @@ async function uploadFiles() {
                 filesList.style.display = 'none';
                 actions.style.display = 'none';
                 
-                if (result.download_url) {
-                    // ZIP creado exitosamente
+                if (result.zip_base64) {
+                    // ZIP en base64 - crear descarga directa
+                    const zipBlob = base64ToBlob(result.zip_base64, 'application/zip');
+                    const zipUrl = URL.createObjectURL(zipBlob);
+                    downloadBtn.href = zipUrl;
+                    downloadBtn.download = result.filename || 'resultados.zip';
+                    downloadBtn.textContent = '📥 Descargar resultados (ZIP)';
+                    resultSection.style.display = 'block';
+                    
+                    // Scroll a la sección de resultados
+                    resultSection.scrollIntoView({ behavior: 'smooth' });
+                } else if (result.download_url) {
+                    // ZIP creado exitosamente (ruta tradicional)
                     downloadBtn.href = result.download_url;
                     downloadBtn.download = result.filename || 'resultados.zip';
                     downloadBtn.textContent = '📥 Descargar resultados (ZIP)';

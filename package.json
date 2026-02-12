@@ -1,0 +1,17 @@
+{
+  "name": "migraciones-healthmate",
+  "version": "1.0.0",
+  "description": "Aplicación para procesar archivos de migración de bases de datos",
+  "scripts": {
+    "build": "echo 'No build step required'"
+  },
+  "dependencies": {
+    "formidable": "^3.5.1",
+    "adm-zip": "^0.5.10"
+  },
+  "devDependencies": {},
+  "engines": {
+    "node": ">=18.x"
+  }
+}
+

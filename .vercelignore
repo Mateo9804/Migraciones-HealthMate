@@ -1,0 +1,19 @@
+# Archivos temporales
+temp/
+downloads/
+*.zip
+
+# Archivos de datos de ejemplo
+CLINNI/general_export_2026_01_15 (1)/
+DRICloud/Completa_2536.xml
+MN Program/*.bak
+MN Program/csv desde sql de*/
+
+# Archivos de sistema
+.DS_Store
+Thumbs.db
+*.log
+
+# Archivos PHP (ya no se usan)
+*.php
+

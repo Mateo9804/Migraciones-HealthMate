@@ -18,6 +18,10 @@ downloads/*
 !downloads/.htaccess
 !downloads/.gitkeep
 
+# Vercel
+.vercel
+.vercel/*
+
 # Archivos grandes que exceden el límite de GitHub (100MB)
 **/*.bak
 **/Completa_*.xml

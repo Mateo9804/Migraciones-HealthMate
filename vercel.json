@@ -1,0 +1,21 @@
+{
+  "version": 2,
+  "buildCommand": "echo 'No build needed'",
+  "outputDirectory": ".",
+  "routes": [
+    {
+      "src": "/api/(.*)",
+      "dest": "/api/$1"
+    },
+    {
+      "src": "/(.*)",
+      "dest": "/$1"
+    }
+  ],
+  "functions": {
+    "api/upload.js": {
+      "maxDuration": 60
+    }
+  }
+}
+
