@@ -485,162 +485,37 @@ async function uploadFiles() {
         return;
     }
 
+    // De momento procesamos solo un archivo por vez (para evitar rutas antiguas /api/upload)
+    if (selectedFiles.length > 1) {
+        alert(
+            'Por ahora solo se puede procesar un archivo por vez.\n\n' +
+            'Si necesitas subir muchos ficheros (por ejemplo, carpeta de MN Program), ' +
+            'comprímelos en un único ZIP o súbelos en varios pasos.'
+        );
+        return;
+    }
+
     uploadBtn.disabled = true;
     uploadBtn.textContent = 'Subiendo...';
 
     try {
-        const VERCEL_PAYLOAD_LIMIT = 4.5 * 1024 * 1024; // 4.5MB límite de Vercel
-        let hasLargeFiles = false;
-        let totalSize = 0;
-        
-        // Verificar si hay archivos grandes
-        selectedFiles.forEach((fileObj) => {
-            totalSize += fileObj.file.size;
-            if (fileObj.file.size > VERCEL_PAYLOAD_LIMIT) {
-                hasLargeFiles = true;
-            }
-        });
-        
-        // Si hay archivos grandes o el total es muy grande, usar chunked upload
-        if (hasLargeFiles || totalSize > VERCEL_PAYLOAD_LIMIT) {
-            console.log('Archivos grandes detectados, usando chunked upload');
-            
-            // Subir cada archivo en chunks
-            for (let i = 0; i < selectedFiles.length; i++) {
-                const fileObj = selectedFiles[i];
-                uploadBtn.textContent = `Subiendo archivo ${i + 1}/${selectedFiles.length}...`;
-                const isLastFile = (i === selectedFiles.length - 1);
-                
-                if (fileObj.file.size > VERCEL_PAYLOAD_LIMIT) {
-                    // Archivo grande: usar chunks
-                    const result = await uploadFileInChunks(fileObj.file, selectedPage, isLastFile);
-                    // Si es el último archivo y se procesó, manejar el resultado
-                    if (isLastFile && result && result.zip_base64) {
-                        handleUploadSuccess(result);
-                        return;
-                    }
-                } else {
-                    // Archivo pequeño: subir directamente a /tmp/uploads
-                    const formData = new FormData();
-                    formData.append('page', selectedPage);
-                    formData.append('files[]', fileObj.file);
-                    formData.append('saveOnly', 'true'); // Indicar que solo guarde, no procese
-                    
-                    const response = await fetch('/api/upload?page=' + encodeURIComponent(selectedPage), {
-                        method: 'POST',
-                        body: formData
-                    });
-                    
-                    if (!response.ok) {
-                        throw new Error(`Error al subir ${fileObj.file.name}`);
-                    }
-                }
-            }
-            
-            // Si llegamos aquí, los archivos se subieron pero no se procesaron automáticamente
-            // Esto solo debería pasar si hay múltiples archivos y no todos son grandes
-            // En ese caso, procesar todos juntos
-            uploadBtn.textContent = 'Procesando archivos...';
-            
-            // No necesitamos enviar FormData, solo el query string
-            const processResponse = await fetch('/api/process?page=' + encodeURIComponent(selectedPage), {
-                method: 'POST'
-            });
-            
-            if (!processResponse.ok) {
-                const errorText = await processResponse.text();
-                throw new Error(`Error al procesar archivos: ${errorText}`);
-            }
-            
-            const result = await processResponse.json();
+        // Nueva estrategia simplificada:
+        // - Siempre usamos chunked upload contra /api/upload-chunk
+        // - Solo un archivo por vez (validado arriba)
+        console.log('Usando chunked upload simplificado (un archivo por vez)');
+
+        const fileObj = selectedFiles[0];
+        uploadBtn.textContent = 'Subiendo archivo...';
+
+        const result = await uploadFileInChunks(fileObj.file, selectedPage, true);
+
+        if (result && result.zip_base64) {
+            console.log('Respuesta JSON recibida:', result);
             handleUploadSuccess(result);
             return;
         }
-        
-        // Método normal para archivos pequeños
-        const formData = new FormData();
-        formData.append('page', selectedPage);
-        
-        selectedFiles.forEach((fileObj) => {
-            formData.append('files[]', fileObj.file);
-        });
 
-        const url = '/api/upload?page=' + encodeURIComponent(selectedPage);
-        console.log('URL de la petición:', url);
-        
-        const response = await fetch(url, {
-            method: 'POST',
-            body: formData,
-            headers: {
-                'X-Requested-With': 'XMLHttpRequest'
-            }
-        });
-
-        // Verificar el tipo de contenido de la respuesta
-        const contentType = response.headers.get('content-type') || '';
-        console.log('Response Content-Type:', contentType);
-        console.log('Response Status:', response.status, response.statusText);
-        
-        if (!contentType.includes('application/json')) {
-            const text = await response.text();
-            
-            // Mostrar el error completo en la consola
-            console.error('=== ERROR: Respuesta no JSON recibida ===');
-            console.error('Content-Type recibido:', contentType);
-            console.error('Status:', response.status, response.statusText);
-            console.error('Contenido completo de la respuesta:');
-            console.error(text);
-            console.error('Primeros 2000 caracteres:', text.substring(0, 2000));
-            console.error('Últimos 500 caracteres:', text.substring(Math.max(0, text.length - 500)));
-            console.error('Longitud total:', text.length);
-            console.error('==========================================');
-            
-            // Intentar extraer mensaje de error de HTML si es posible
-            let errorMsg = 'El servidor devolvió una respuesta no válida (no es JSON).\n\n';
-            errorMsg += 'Content-Type: ' + contentType + '\n';
-            errorMsg += 'Status: ' + response.status + ' ' + response.statusText + '\n\n';
-            errorMsg += 'Contenido recibido (primeros 500 caracteres):\n';
-            errorMsg += text.substring(0, 500);
-            
-            if (text.includes('<b>')) {
-                const match = text.match(/<b>(.*?)<\/b>/);
-                if (match) {
-                    errorMsg += '\n\nError PHP detectado: ' + match[1];
-                }
-            }
-            
-            // Mostrar en un alert más detallado
-            alert('ERROR DETALLADO:\n\n' + errorMsg);
-            
-            throw new Error('El servidor devolvió HTML en lugar de JSON. Revisa la consola (F12) para ver el contenido completo.');
-        }
-
-        if (response.ok) {
-            const result = await response.json();
-            handleUploadSuccess(result);
-        } else {
-            // Intentar obtener el JSON del error
-            let errorMessage = 'Error al procesar archivos';
-            try {
-                const errorData = await response.json();
-                errorMessage = errorData.message || errorMessage;
-            } catch (e) {
-                // Si no es JSON, obtener el texto
-                const text = await response.text();
-                console.error('=== ERROR: No se pudo parsear como JSON ===');
-                console.error('Status:', response.status, response.statusText);
-                console.error('Content-Type:', response.headers.get('content-type'));
-                console.error('Contenido completo:', text);
-                console.error('Primeros 1000 caracteres:', text.substring(0, 1000));
-                console.error('==========================================');
-                
-                errorMessage = 'Error del servidor (Status: ' + response.status + ').\n\n';
-                errorMessage += 'El servidor devolvió:\n';
-                errorMessage += text.substring(0, 500);
-                errorMessage += '\n\nRevisa la consola (F12) para ver el contenido completo.';
-            }
-            throw new Error(errorMessage);
-        }
+        throw new Error('No se recibió un ZIP válido desde el servidor.');
     } catch (error) {
         console.error('=== ERROR COMPLETO ===');
         console.error('Tipo de error:', error.constructor.name);

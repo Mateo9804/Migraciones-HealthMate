@@ -417,10 +417,28 @@ function procesarDatosClinni(datosRaw) {
       }
     }
   }
-  
-  console.log(`[INFO] Datos procesados: ${estructurado.pacientes.length} pacientes, ` +
-    `${estructurado.bonos.length} bonos, ${estructurado.citas.length} citas, ` +
-    `${estructurado.historial.length} historiales`);
+
+  // Fallback: si no se pudo clasificar nada pero hay una lista de registros,
+  // tratarlos todos como pacientes para no generar CSV completamente vacío.
+  if (
+    Array.isArray(datosRaw) &&
+    estructurado.pacientes.length === 0 &&
+    estructurado.bonos.length === 0 &&
+    estructurado.citas.length === 0 &&
+    estructurado.historial.length === 0
+  ) {
+    console.warn(
+      '[AVISO] procesarDatosClinni: no se pudieron clasificar registros; ' +
+      'usando todos los registros como pacientes para generar al menos filas básicas.',
+    );
+    estructurado.pacientes = datosRaw;
+  }
+
+  console.log(
+    `[INFO] Datos procesados: ${estructurado.pacientes.length} pacientes, ` +
+      `${estructurado.bonos.length} bonos, ${estructurado.citas.length} citas, ` +
+      `${estructurado.historial.length} historiales`,
+  );
   
   return estructurado;
 }
