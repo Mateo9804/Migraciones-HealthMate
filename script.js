@@ -391,7 +391,7 @@ async function splitFileIntoChunks(file) {
 }
 
 // Subir archivo usando chunks si es muy grande
-async function uploadFileInChunks(file, selectedPage) {
+async function uploadFileInChunks(file, selectedPage, processNow = false) {
     const fileId = `${Date.now()}_${Math.random().toString(36).substring(7)}`;
     const chunks = await splitFileIntoChunks(file);
     const totalChunks = chunks.length;
@@ -410,6 +410,9 @@ async function uploadFileInChunks(file, selectedPage) {
         formData.append('fileName', file.name);
         formData.append('page', selectedPage);
         formData.append('chunk', chunks[i]); // Enviar el Blob directamente
+        // Si es el último chunk y processNow es true, indicar que procese inmediatamente
+        const isLastChunk = (i === chunks.length - 1);
+        formData.append('processNow', (isLastChunk && processNow) ? 'true' : 'false');
         
         const response = await fetch('/api/upload-chunk', {
             method: 'POST',
@@ -424,8 +427,14 @@ async function uploadFileInChunks(file, selectedPage) {
         
         const result = await response.json();
         
-        // Si el archivo está completo, devolver la información
-        if (result.filePath) {
+        // Si el archivo está completo y se procesó, devolver el resultado completo
+        if (result.zip_base64) {
+            // El archivo se procesó inmediatamente, devolver el resultado
+            return result;
+        }
+        
+        // Si el archivo está completo pero no se procesó, devolver la información
+        if (result.filePath || result.ready) {
             return {
                 fileId: result.fileId,
                 filePath: result.filePath,
@@ -500,10 +509,16 @@ async function uploadFiles() {
             for (let i = 0; i < selectedFiles.length; i++) {
                 const fileObj = selectedFiles[i];
                 uploadBtn.textContent = `Subiendo archivo ${i + 1}/${selectedFiles.length}...`;
+                const isLastFile = (i === selectedFiles.length - 1);
                 
                 if (fileObj.file.size > VERCEL_PAYLOAD_LIMIT) {
                     // Archivo grande: usar chunks
-                    await uploadFileInChunks(fileObj.file, selectedPage);
+                    const result = await uploadFileInChunks(fileObj.file, selectedPage, isLastFile);
+                    // Si es el último archivo y se procesó, manejar el resultado
+                    if (isLastFile && result && result.zip_base64) {
+                        handleUploadSuccess(result);
+                        return;
+                    }
                 } else {
                     // Archivo pequeño: subir directamente a /tmp/uploads
                     const formData = new FormData();
@@ -522,7 +537,9 @@ async function uploadFiles() {
                 }
             }
             
-            // Ahora procesar todos los archivos subidos
+            // Si llegamos aquí, los archivos se subieron pero no se procesaron automáticamente
+            // Esto solo debería pasar si hay múltiples archivos y no todos son grandes
+            // En ese caso, procesar todos juntos
             uploadBtn.textContent = 'Procesando archivos...';
             
             // No necesitamos enviar FormData, solo el query string

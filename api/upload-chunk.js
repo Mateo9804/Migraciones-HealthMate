@@ -112,12 +112,29 @@ module.exports = async function handler(req, res) {
         // Limpiar chunks de memoria
         chunksStore.delete(fileId);
 
+        // Verificar si hay un parámetro "processNow" para procesar inmediatamente
+        const processNow = Array.isArray(fields.processNow) ? fields.processNow[0] : fields.processNow;
+        
+        if (processNow === 'true') {
+          // Procesar el archivo inmediatamente en esta misma función
+          try {
+            const result = await processFile(filePath, fileInfo.page, tmpDir);
+            return res.json(result);
+          } catch (processError) {
+            return res.status(500).json({
+              success: false,
+              message: `Error al procesar: ${processError.message}`
+            });
+          }
+        }
+
         return res.json({
           success: true,
           message: 'Archivo reconstruido exitosamente',
           filePath,
           fileId,
-          page: fileInfo.page
+          page: fileInfo.page,
+          ready: true
         });
       }
 
@@ -161,4 +178,130 @@ module.exports = async function handler(req, res) {
 
   return res.status(405).json({ success: false, message: 'Método no permitido' });
 };
+
+// Función auxiliar para procesar archivos
+async function findFiles(dir, extensions) {
+  const results = [];
+  if (!fs.existsSync(dir)) return results;
+  
+  const files = fs.readdirSync(dir);
+  files.forEach(file => {
+    const filePath = path.join(dir, file);
+    const stat = fs.statSync(filePath);
+    
+    if (stat.isDirectory()) {
+      results.push(...findFiles(filePath, extensions));
+    } else {
+      const ext = path.extname(file).toLowerCase().substring(1);
+      if (extensions.includes(ext) || (extensions.includes('') && ext === '')) {
+        results.push(filePath);
+      }
+    }
+  });
+  return results;
+}
+
+function createZip(files, zipPath) {
+  try {
+    const AdmZip = require('adm-zip');
+    const zip = new AdmZip();
+    
+    files.forEach(filePath => {
+      const fileName = path.basename(filePath);
+      const fileContent = fs.readFileSync(filePath);
+      zip.addFile(fileName, fileContent);
+    });
+    
+    fs.writeFileSync(zipPath, zip.toBuffer());
+    return true;
+  } catch (e) {
+    console.error('Error al crear ZIP:', e);
+    return false;
+  }
+}
+
+async function processFile(filePath, selectedPage, tmpDir) {
+  const baseDir = process.cwd();
+  const tempDir = path.join(tmpDir, `temp_${Date.now()}_${Math.random().toString(36).substring(7)}`);
+  const resultsDir = path.join(tempDir, 'results');
+  const inputPath = path.join(tempDir, 'input');
+  
+  fs.mkdirSync(tempDir, { recursive: true });
+  fs.mkdirSync(resultsDir, { recursive: true });
+  fs.mkdirSync(inputPath, { recursive: true });
+
+  // Copiar archivo a inputPath
+  const destPath = path.join(inputPath, path.basename(filePath));
+  fs.copyFileSync(filePath, destPath);
+
+  // Procesar con Python
+  const pythonCmd = process.env.VERCEL ? 'python3' : (process.platform === 'win32' ? 'python' : 'python3');
+  let scriptPath = '';
+
+  switch (selectedPage) {
+    case 'clinni':
+      scriptPath = path.join(baseDir, 'CLINNI', 'script', 'clinni_to_plantillas.py');
+      const csvFiles = findFiles(inputPath, ['csv', 'txt', '']);
+      for (const csvFile of csvFiles) {
+        const command = `${pythonCmd} "${scriptPath}" --input-file "${csvFile}" --output-dir "${resultsDir}" --plantillas-dir "${baseDir}"`;
+        await execAsync(command, { cwd: baseDir, timeout: 50000 });
+      }
+      break;
+    case 'dricloud':
+      scriptPath = path.join(baseDir, 'DRICloud', 'script', 'dricloud_to_plantillas.py');
+      const xmlFiles = findFiles(inputPath, ['xml']);
+      for (const xmlFile of xmlFiles) {
+        const command = `${pythonCmd} "${scriptPath}" --input-xml "${xmlFile}" --output-dir "${resultsDir}" --plantillas-dir "${baseDir}"`;
+        await execAsync(command, { cwd: baseDir, timeout: 50000 });
+      }
+      break;
+    case 'mnprogram':
+      scriptPath = path.join(baseDir, 'MN Program', 'script', 'mn_program_to_plantillas.py');
+      const command = `${pythonCmd} "${scriptPath}" --input-dir "${inputPath}" --output-dir "${resultsDir}"`;
+      await execAsync(command, { cwd: baseDir, timeout: 50000 });
+      break;
+  }
+
+  // Buscar CSV generados
+  const generatedCsvFiles = findFiles(resultsDir, ['csv']);
+  
+  if (generatedCsvFiles.length === 0) {
+    throw new Error('No se generaron archivos CSV');
+  }
+
+  // Crear ZIP
+  const zipFileName = `resultados_${selectedPage}_${new Date().toISOString().replace(/[:.]/g, '-').slice(0, -5)}.zip`;
+  const zipPath = path.join(tmpDir, zipFileName);
+  
+  const zipCreated = createZip(generatedCsvFiles, zipPath);
+  
+  if (!zipCreated) {
+    return {
+      success: true,
+      message: `Archivos procesados. ${generatedCsvFiles.length} archivo(s) generado(s).`,
+      individual_files: generatedCsvFiles.map(f => path.basename(f)),
+      files_count: generatedCsvFiles.length,
+      zip_created: false
+    };
+  }
+
+  // Leer ZIP y devolver como base64
+  const zipBuffer = fs.readFileSync(zipPath);
+  const zipBase64 = zipBuffer.toString('base64');
+
+  // Limpiar
+  try {
+    fs.unlinkSync(zipPath);
+    fs.unlinkSync(filePath);
+  } catch(e) {}
+
+  return {
+    success: true,
+    message: `Archivos procesados exitosamente. ${generatedCsvFiles.length} archivo(s) generado(s).`,
+    zip_base64: zipBase64,
+    filename: zipFileName,
+    files_count: generatedCsvFiles.length,
+    zip_created: true
+  };
+}
 
