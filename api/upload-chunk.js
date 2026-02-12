@@ -1,5 +1,7 @@
 const fs = require('fs');
 const path = require('path');
+
+// Importar formidable - usar la misma forma que en upload.js
 const formidable = require('formidable');
 
 // Almacenar chunks temporalmente en memoria (en producción usar Redis o similar)
@@ -15,12 +17,33 @@ module.exports = async function handler(req, res) {
     // Recibir un chunk usando FormData
     try {
       const uploadDir = process.env.VERCEL ? '/tmp' : require('os').tmpdir();
-      const form = formidable({
-        multiples: false,
-        maxFileSize: 5 * 1024 * 1024, // 5MB máximo por chunk
-        uploadDir: uploadDir,
-        keepExtensions: false
-      });
+      
+      // formidable v3 puede necesitar ser llamado de forma diferente
+      let form;
+      try {
+        if (typeof formidable === 'function') {
+          form = formidable({
+            multiples: false,
+            maxFileSize: 5 * 1024 * 1024, // 5MB máximo por chunk
+            uploadDir: uploadDir,
+            keepExtensions: false
+          });
+        } else if (formidable.formidable && typeof formidable.formidable === 'function') {
+          form = formidable.formidable({
+            multiples: false,
+            maxFileSize: 5 * 1024 * 1024,
+            uploadDir: uploadDir,
+            keepExtensions: false
+          });
+        } else {
+          throw new Error(`formidable no es una función. Tipo: ${typeof formidable}`);
+        }
+      } catch (e) {
+        console.error('Error al crear form:', e);
+        console.error('formidable:', formidable);
+        console.error('typeof formidable:', typeof formidable);
+        throw new Error(`Error al inicializar formidable: ${e.message}`);
+      }
 
       const [fields, files] = await new Promise((resolve, reject) => {
         form.parse(req, (err, fields, files) => {
