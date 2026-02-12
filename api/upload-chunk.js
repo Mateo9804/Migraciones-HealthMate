@@ -1,11 +1,13 @@
 const fs = require('fs');
 const path = require('path');
-const { exec } = require('child_process');
-const { promisify } = require('util');
-const execAsync = promisify(exec);
 
 // Importar formidable - usar la misma forma que en upload.js
 const formidable = require('formidable');
+
+// Importar módulos de procesamiento JavaScript
+const { processMNProgram } = require('../scripts/mn_program_to_plantillas');
+const { processDRICloud } = require('../scripts/dricloud_to_plantillas');
+const { processCLINNI } = require('../scripts/clinni_to_plantillas');
 
 // Almacenar chunks temporalmente en memoria (en producción usar Redis o similar)
 const chunksStore = new Map();
@@ -237,32 +239,33 @@ async function processFile(filePath, selectedPage, tmpDir) {
   const destPath = path.join(inputPath, path.basename(filePath));
   fs.copyFileSync(filePath, destPath);
 
-  // Procesar con Python
-  const pythonCmd = process.env.VERCEL ? 'python3' : (process.platform === 'win32' ? 'python' : 'python3');
-  let scriptPath = '';
-
-  switch (selectedPage) {
-    case 'clinni':
-      scriptPath = path.join(baseDir, 'CLINNI', 'script', 'clinni_to_plantillas.py');
-      const csvFiles = findFiles(inputPath, ['csv', 'txt', '']);
-      for (const csvFile of csvFiles) {
-        const command = `${pythonCmd} "${scriptPath}" --input-file "${csvFile}" --output-dir "${resultsDir}" --plantillas-dir "${baseDir}"`;
-        await execAsync(command, { cwd: baseDir, timeout: 50000 });
-      }
-      break;
-    case 'dricloud':
-      scriptPath = path.join(baseDir, 'DRICloud', 'script', 'dricloud_to_plantillas.py');
-      const xmlFiles = findFiles(inputPath, ['xml']);
-      for (const xmlFile of xmlFiles) {
-        const command = `${pythonCmd} "${scriptPath}" --input-xml "${xmlFile}" --output-dir "${resultsDir}" --plantillas-dir "${baseDir}"`;
-        await execAsync(command, { cwd: baseDir, timeout: 50000 });
-      }
-      break;
-    case 'mnprogram':
-      scriptPath = path.join(baseDir, 'MN Program', 'script', 'mn_program_to_plantillas.py');
-      const command = `${pythonCmd} "${scriptPath}" --input-dir "${inputPath}" --output-dir "${resultsDir}"`;
-      await execAsync(command, { cwd: baseDir, timeout: 50000 });
-      break;
+  // Procesar con módulos JavaScript
+  try {
+    switch (selectedPage) {
+      case 'clinni':
+        // Para CLINNI, buscar todos los archivos en inputPath
+        const clinniFiles = findFiles(inputPath, ['csv', 'txt', 'gz', 'json', 'xml', '']);
+        for (const clinniFile of clinniFiles) {
+          await processCLINNI(clinniFile, resultsDir, baseDir);
+        }
+        break;
+      case 'dricloud':
+        // Para DRICloud, buscar archivos XML
+        const xmlFiles = findFiles(inputPath, ['xml']);
+        for (const xmlFile of xmlFiles) {
+          await processDRICloud(xmlFile, resultsDir, baseDir);
+        }
+        break;
+      case 'mnprogram':
+        // Para MN Program, usar el directorio completo
+        await processMNProgram(inputPath, resultsDir);
+        break;
+      default:
+        throw new Error(`Página no reconocida: ${selectedPage}`);
+    }
+  } catch (error) {
+    console.error('Error al procesar:', error);
+    throw new Error(`Error al procesar archivo: ${error.message}`);
   }
 
   // Buscar CSV generados
@@ -296,7 +299,13 @@ async function processFile(filePath, selectedPage, tmpDir) {
   try {
     fs.unlinkSync(zipPath);
     fs.unlinkSync(filePath);
-  } catch(e) {}
+    // Limpiar directorio temporal
+    if (fs.existsSync(tempDir)) {
+      fs.rmSync(tempDir, { recursive: true, force: true });
+    }
+  } catch(e) {
+    console.error('Error al limpiar archivos temporales:', e);
+  }
 
   return {
     success: true,
