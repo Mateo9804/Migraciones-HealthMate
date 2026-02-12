@@ -302,6 +302,55 @@ function base64ToBlob(base64, mimeType) {
     return new Blob([byteArray], { type: mimeType });
 }
 
+// Manejar éxito de upload
+function handleUploadSuccess(result) {
+    console.log('Respuesta JSON recibida:', result);
+    
+    if (result.success) {
+        // Limpiar archivos seleccionados
+        selectedFiles = [];
+        renderFilesList();
+        updateActions();
+        
+        // Ocultar selector de base de datos y área de upload
+        document.querySelector('.page-selector').style.display = 'none';
+        uploadArea.style.display = 'none';
+        filesList.style.display = 'none';
+        actions.style.display = 'none';
+        
+        if (result.zip_base64) {
+            // ZIP en base64 - crear descarga directa
+            const zipBlob = base64ToBlob(result.zip_base64, 'application/zip');
+            const zipUrl = URL.createObjectURL(zipBlob);
+            downloadBtn.href = zipUrl;
+            downloadBtn.download = result.filename || 'resultados.zip';
+            downloadBtn.textContent = '📥 Descargar resultados (ZIP)';
+            resultSection.style.display = 'block';
+            
+            // Scroll a la sección de resultados
+            resultSection.scrollIntoView({ behavior: 'smooth' });
+        } else if (result.download_url) {
+            // ZIP creado exitosamente (ruta tradicional)
+            downloadBtn.href = result.download_url;
+            downloadBtn.download = result.filename || 'resultados.zip';
+            downloadBtn.textContent = '📥 Descargar resultados (ZIP)';
+            resultSection.style.display = 'block';
+            
+            // Scroll a la sección de resultados
+            resultSection.scrollIntoView({ behavior: 'smooth' });
+        } else if (result.individual_files && result.individual_files.length > 0) {
+            // No se pudo crear ZIP, mostrar archivos individuales
+            showIndividualFiles(result.individual_files, result.downloads_dir);
+            resultSection.style.display = 'block';
+            resultSection.scrollIntoView({ behavior: 'smooth' });
+        } else {
+            throw new Error(result.message || 'Error al procesar archivos');
+        }
+    } else {
+        throw new Error(result.message || 'Error al procesar archivos');
+    }
+}
+
 // Toggle preview
 window.togglePreview = function(index) {
     const preview = document.getElementById(`preview-${index}`);
@@ -326,6 +375,103 @@ function updateActions() {
     }
 }
 
+// Dividir archivo en chunks (4MB por chunk para estar bajo el límite de 4.5MB de Vercel)
+async function splitFileIntoChunks(file) {
+    const CHUNK_SIZE = 4 * 1024 * 1024; // 4MB
+    const chunks = [];
+    let offset = 0;
+    
+    while (offset < file.size) {
+        const chunk = file.slice(offset, offset + CHUNK_SIZE);
+        const chunkArrayBuffer = await chunk.arrayBuffer();
+        const uint8Array = new Uint8Array(chunkArrayBuffer);
+        
+        // Convertir a base64 de forma eficiente
+        let binary = '';
+        const len = uint8Array.length;
+        // Procesar en lotes para evitar problemas de memoria
+        const BATCH_SIZE = 8192;
+        for (let i = 0; i < len; i += BATCH_SIZE) {
+            const batch = uint8Array.slice(i, Math.min(i + BATCH_SIZE, len));
+            binary += String.fromCharCode.apply(null, batch);
+        }
+        const chunkBase64 = btoa(binary);
+        chunks.push(chunkBase64);
+        offset += CHUNK_SIZE;
+    }
+    
+    return chunks;
+}
+
+// Subir archivo usando chunks si es muy grande
+async function uploadFileInChunks(file, selectedPage) {
+    const fileId = `${Date.now()}_${Math.random().toString(36).substring(7)}`;
+    const chunks = await splitFileIntoChunks(file);
+    const totalChunks = chunks.length;
+    
+    console.log(`Dividiendo archivo ${file.name} (${(file.size / 1024 / 1024).toFixed(2)} MB) en ${totalChunks} chunks`);
+    
+    // Subir cada chunk
+    for (let i = 0; i < chunks.length; i++) {
+        const chunkData = {
+            chunkIndex: i,
+            totalChunks: totalChunks,
+            fileId: fileId,
+            fileName: file.name,
+            page: selectedPage,
+            chunkData: chunks[i]
+        };
+        
+        uploadBtn.textContent = `Subiendo chunk ${i + 1}/${totalChunks}...`;
+        
+        const response = await fetch('/api/upload-chunk', {
+            method: 'POST',
+            headers: {
+                'Content-Type': 'application/json'
+            },
+            body: JSON.stringify(chunkData)
+        });
+        
+        if (!response.ok) {
+            const error = await response.text();
+            throw new Error(`Error al subir chunk ${i + 1}: ${error}`);
+        }
+        
+        const result = await response.json();
+        
+        // Si el archivo está completo, devolver la información
+        if (result.filePath) {
+            return {
+                fileId: result.fileId,
+                filePath: result.filePath,
+                fileName: result.fileName,
+                page: result.page
+            };
+        }
+    }
+    
+    // Esperar a que el servidor termine de reconstruir
+    let attempts = 0;
+    while (attempts < 50) {
+        await new Promise(resolve => setTimeout(resolve, 500));
+        const statusResponse = await fetch(`/api/upload-chunk?fileId=${fileId}`);
+        if (statusResponse.ok) {
+            const status = await statusResponse.json();
+            if (status.received === status.total) {
+                // El archivo está completo, ahora procesarlo
+                return {
+                    fileId: fileId,
+                    fileName: file.name,
+                    page: selectedPage
+                };
+            }
+        }
+        attempts++;
+    }
+    
+    throw new Error('Timeout esperando que el archivo se reconstruya');
+}
+
 // Subir archivos
 async function uploadFiles() {
     if (selectedFiles.length === 0) {
@@ -337,8 +483,6 @@ async function uploadFiles() {
     const selectedPage = pageSelect.value;
     console.log('=== DEBUG: Iniciando upload ===');
     console.log('Valor de pageSelect:', selectedPage);
-    console.log('Elemento pageSelect:', pageSelect);
-    console.log('Opciones disponibles:', Array.from(pageSelect.options).map(opt => ({value: opt.value, text: opt.text, selected: opt.selected})));
     
     if (!selectedPage) {
         console.error('ERROR: No se seleccionó una base de datos');
@@ -351,34 +495,80 @@ async function uploadFiles() {
     uploadBtn.textContent = 'Subiendo...';
 
     try {
+        const VERCEL_PAYLOAD_LIMIT = 4.5 * 1024 * 1024; // 4.5MB límite de Vercel
+        let hasLargeFiles = false;
+        let totalSize = 0;
+        
+        // Verificar si hay archivos grandes
+        selectedFiles.forEach((fileObj) => {
+            totalSize += fileObj.file.size;
+            if (fileObj.file.size > VERCEL_PAYLOAD_LIMIT) {
+                hasLargeFiles = true;
+            }
+        });
+        
+        // Si hay archivos grandes o el total es muy grande, usar chunked upload
+        if (hasLargeFiles || totalSize > VERCEL_PAYLOAD_LIMIT) {
+            console.log('Archivos grandes detectados, usando chunked upload');
+            
+            // Subir cada archivo en chunks
+            for (let i = 0; i < selectedFiles.length; i++) {
+                const fileObj = selectedFiles[i];
+                uploadBtn.textContent = `Subiendo archivo ${i + 1}/${selectedFiles.length}...`;
+                
+                if (fileObj.file.size > VERCEL_PAYLOAD_LIMIT) {
+                    // Archivo grande: usar chunks
+                    await uploadFileInChunks(fileObj.file, selectedPage);
+                } else {
+                    // Archivo pequeño: subir directamente a /tmp/uploads
+                    const formData = new FormData();
+                    formData.append('page', selectedPage);
+                    formData.append('files[]', fileObj.file);
+                    formData.append('saveOnly', 'true'); // Indicar que solo guarde, no procese
+                    
+                    const response = await fetch('/api/upload?page=' + encodeURIComponent(selectedPage), {
+                        method: 'POST',
+                        body: formData
+                    });
+                    
+                    if (!response.ok) {
+                        throw new Error(`Error al subir ${fileObj.file.name}`);
+                    }
+                }
+            }
+            
+            // Ahora procesar todos los archivos subidos
+            uploadBtn.textContent = 'Procesando archivos...';
+            
+            const processFormData = new FormData();
+            processFormData.append('page', selectedPage);
+            
+            const processResponse = await fetch('/api/process?page=' + encodeURIComponent(selectedPage), {
+                method: 'POST',
+                body: processFormData
+            });
+            
+            if (!processResponse.ok) {
+                const errorText = await processResponse.text();
+                throw new Error(`Error al procesar archivos: ${errorText}`);
+            }
+            
+            const result = await processResponse.json();
+            handleUploadSuccess(result);
+            return;
+        }
+        
+        // Método normal para archivos pequeños
         const formData = new FormData();
-        
-        // Agregar la página seleccionada PRIMERO (antes de los archivos)
-        // Esto asegura que se envíe correctamente
         formData.append('page', selectedPage);
-        console.log('FormData - page agregado:', selectedPage);
-        console.log('Cantidad de archivos a subir:', selectedFiles.length);
         
-        // Agregar archivos después
         selectedFiles.forEach((fileObj) => {
             formData.append('files[]', fileObj.file);
         });
-        
-        // Verificar que el FormData tiene el page
-        console.log('FormData entries:');
-        for (let pair of formData.entries()) {
-            if (pair[0] === 'page') {
-                console.log('  - page:', pair[1]);
-            } else {
-                console.log('  -', pair[0], ':', pair[1] instanceof File ? pair[1].name : pair[1]);
-            }
-        }
 
-        // Usar la API de Vercel
         const url = '/api/upload?page=' + encodeURIComponent(selectedPage);
         console.log('URL de la petición:', url);
         
-        // NO establecer Content-Type manualmente - fetch lo hace automáticamente para FormData
         const response = await fetch(url, {
             method: 'POST',
             body: formData,
@@ -428,51 +618,7 @@ async function uploadFiles() {
 
         if (response.ok) {
             const result = await response.json();
-            console.log('Respuesta JSON recibida:', result);
-            
-            if (result.success) {
-                // Limpiar archivos seleccionados
-                selectedFiles = [];
-                renderFilesList();
-                updateActions();
-                
-                // Ocultar selector de base de datos y área de upload
-                document.querySelector('.page-selector').style.display = 'none';
-                uploadArea.style.display = 'none';
-                filesList.style.display = 'none';
-                actions.style.display = 'none';
-                
-                if (result.zip_base64) {
-                    // ZIP en base64 - crear descarga directa
-                    const zipBlob = base64ToBlob(result.zip_base64, 'application/zip');
-                    const zipUrl = URL.createObjectURL(zipBlob);
-                    downloadBtn.href = zipUrl;
-                    downloadBtn.download = result.filename || 'resultados.zip';
-                    downloadBtn.textContent = '📥 Descargar resultados (ZIP)';
-                    resultSection.style.display = 'block';
-                    
-                    // Scroll a la sección de resultados
-                    resultSection.scrollIntoView({ behavior: 'smooth' });
-                } else if (result.download_url) {
-                    // ZIP creado exitosamente (ruta tradicional)
-                    downloadBtn.href = result.download_url;
-                    downloadBtn.download = result.filename || 'resultados.zip';
-                    downloadBtn.textContent = '📥 Descargar resultados (ZIP)';
-                    resultSection.style.display = 'block';
-                    
-                    // Scroll a la sección de resultados
-                    resultSection.scrollIntoView({ behavior: 'smooth' });
-                } else if (result.individual_files && result.individual_files.length > 0) {
-                    // No se pudo crear ZIP, mostrar archivos individuales
-                    showIndividualFiles(result.individual_files, result.downloads_dir);
-                    resultSection.style.display = 'block';
-                    resultSection.scrollIntoView({ behavior: 'smooth' });
-                } else {
-                    throw new Error(result.message || 'Error al procesar archivos');
-                }
-            } else {
-                throw new Error(result.message || 'Error al procesar archivos');
-            }
+            handleUploadSuccess(result);
         } else {
             // Intentar obtener el JSON del error
             let errorMessage = 'Error al procesar archivos';

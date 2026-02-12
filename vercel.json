@@ -15,6 +15,12 @@
   "functions": {
     "api/upload.js": {
       "maxDuration": 60
+    },
+    "api/upload-chunk.js": {
+      "maxDuration": 60
+    },
+    "api/process.js": {
+      "maxDuration": 60
     }
   }
 }

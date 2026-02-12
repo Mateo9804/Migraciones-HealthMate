@@ -107,6 +107,7 @@ module.exports = async function handler(req, res) {
     
     // Obtener la página seleccionada
     const selectedPage = Array.isArray(fields.page) ? fields.page[0] : fields.page;
+    const saveOnly = Array.isArray(fields.saveOnly) ? fields.saveOnly[0] : fields.saveOnly;
     
     if (!selectedPage || !['clinni', 'dricloud', 'mnprogram'].includes(selectedPage)) {
       return res.status(400).json({
@@ -122,6 +123,33 @@ module.exports = async function handler(req, res) {
       return res.status(400).json({
         success: false,
         message: 'No se recibieron archivos válidos'
+      });
+    }
+
+    // Si saveOnly está activado, solo guardar archivos sin procesar
+    if (saveOnly === 'true') {
+      const tmpDir = process.env.VERCEL ? '/tmp' : require('os').tmpdir();
+      const uploadDir = path.join(tmpDir, 'uploads');
+      if (!fs.existsSync(uploadDir)) {
+        fs.mkdirSync(uploadDir, { recursive: true });
+      }
+
+      const savedFiles = [];
+      for (const file of uploadedFiles) {
+        const fileName = (file.originalFilename || file.name || 'file').replace(/[<>:"|?*]/g, '_');
+        const fileId = `${Date.now()}_${Math.random().toString(36).substring(7)}`;
+        const filePath = path.join(uploadDir, `${selectedPage}_${fileId}_${fileName}`);
+        
+        if (fs.existsSync(file.filepath)) {
+          fs.copyFileSync(file.filepath, filePath);
+          savedFiles.push(fileName);
+        }
+      }
+
+      return res.json({
+        success: true,
+        message: `${savedFiles.length} archivo(s) guardado(s) exitosamente`,
+        saved_files: savedFiles
       });
     }
 
