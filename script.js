@@ -525,12 +525,9 @@ async function uploadFiles() {
             // Ahora procesar todos los archivos subidos
             uploadBtn.textContent = 'Procesando archivos...';
             
-            const processFormData = new FormData();
-            processFormData.append('page', selectedPage);
-            
+            // No necesitamos enviar FormData, solo el query string
             const processResponse = await fetch('/api/process?page=' + encodeURIComponent(selectedPage), {
-                method: 'POST',
-                body: processFormData
+                method: 'POST'
             });
             
             if (!processResponse.ok) {

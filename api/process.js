@@ -56,19 +56,8 @@ module.exports = async function handler(req, res) {
   }
 
   try {
-    const formidable = require('formidable');
-    const form = formidable({
-      multiples: true
-    });
-
-    const [fields] = await new Promise((resolve, reject) => {
-      form.parse(req, (err, fields) => {
-        if (err) reject(err);
-        else resolve([fields]);
-      });
-    });
-
-    const selectedPage = Array.isArray(fields.page) ? fields.page[0] : fields.page;
+    // Obtener page desde query string (más simple y no requiere formidable)
+    const selectedPage = req.query.page;
     
     if (!selectedPage || !['clinni', 'dricloud', 'mnprogram'].includes(selectedPage)) {
       return res.status(400).json({
