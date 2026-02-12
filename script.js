@@ -375,28 +375,15 @@ function updateActions() {
     }
 }
 
-// Dividir archivo en chunks (4MB por chunk para estar bajo el límite de 4.5MB de Vercel)
+// Dividir archivo en chunks (3MB por chunk - base64 aumenta ~33%, así que 3MB binario = ~4MB base64)
 async function splitFileIntoChunks(file) {
-    const CHUNK_SIZE = 4 * 1024 * 1024; // 4MB
+    const CHUNK_SIZE = 3 * 1024 * 1024; // 3MB (será ~4MB en base64)
     const chunks = [];
     let offset = 0;
     
     while (offset < file.size) {
         const chunk = file.slice(offset, offset + CHUNK_SIZE);
-        const chunkArrayBuffer = await chunk.arrayBuffer();
-        const uint8Array = new Uint8Array(chunkArrayBuffer);
-        
-        // Convertir a base64 de forma eficiente
-        let binary = '';
-        const len = uint8Array.length;
-        // Procesar en lotes para evitar problemas de memoria
-        const BATCH_SIZE = 8192;
-        for (let i = 0; i < len; i += BATCH_SIZE) {
-            const batch = uint8Array.slice(i, Math.min(i + BATCH_SIZE, len));
-            binary += String.fromCharCode.apply(null, batch);
-        }
-        const chunkBase64 = btoa(binary);
-        chunks.push(chunkBase64);
+        chunks.push(chunk);
         offset += CHUNK_SIZE;
     }
     
@@ -411,30 +398,28 @@ async function uploadFileInChunks(file, selectedPage) {
     
     console.log(`Dividiendo archivo ${file.name} (${(file.size / 1024 / 1024).toFixed(2)} MB) en ${totalChunks} chunks`);
     
-    // Subir cada chunk
+    // Subir cada chunk usando FormData (más eficiente que JSON)
     for (let i = 0; i < chunks.length; i++) {
-        const chunkData = {
-            chunkIndex: i,
-            totalChunks: totalChunks,
-            fileId: fileId,
-            fileName: file.name,
-            page: selectedPage,
-            chunkData: chunks[i]
-        };
-        
         uploadBtn.textContent = `Subiendo chunk ${i + 1}/${totalChunks}...`;
+        
+        // Usar FormData en lugar de JSON para ser más eficiente
+        const formData = new FormData();
+        formData.append('chunkIndex', i.toString());
+        formData.append('totalChunks', totalChunks.toString());
+        formData.append('fileId', fileId);
+        formData.append('fileName', file.name);
+        formData.append('page', selectedPage);
+        formData.append('chunk', chunks[i]); // Enviar el Blob directamente
         
         const response = await fetch('/api/upload-chunk', {
             method: 'POST',
-            headers: {
-                'Content-Type': 'application/json'
-            },
-            body: JSON.stringify(chunkData)
+            body: formData
         });
         
         if (!response.ok) {
-            const error = await response.text();
-            throw new Error(`Error al subir chunk ${i + 1}: ${error}`);
+            const errorText = await response.text();
+            console.error(`Error en chunk ${i + 1}:`, errorText);
+            throw new Error(`Error al subir chunk ${i + 1}: ${errorText.substring(0, 200)}`);
         }
         
         const result = await response.json();
