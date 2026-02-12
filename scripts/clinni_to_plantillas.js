@@ -42,19 +42,85 @@ function formatearHora(fechaStr) {
   return "";
 }
 
-// Leer headers de plantilla
-function readCSVHeaders(plantillaPath) {
+// Cabeceras fijas de las plantillas (fallback cuando no se encuentra la plantilla en disco)
+const PLANTILLA_CLIENTES_Y_BONOS_HEADERS = [
+  "Nombre","Apellidos","CIF/NIF","Direccion","Codigo Postal","Ciudad","Provincia",
+  "Pais","Email","Telefono","Tipo Cliente","Fecha Nacimiento","Genero","Notas Medicas",
+  "Fecha seguimiento","Tipo seguimiento","Descripción","Recomendaciones",
+  "Nombre Bono","Servicio","Precio","Sesiones Totales","Sesiones Consumidas",
+  "Fecha Caducidad","Notas Bono"
+];
+
+const PLANTILLA_BONOS_HEADERS = [
+  "Teléfono","Nombre Cliente","Nombre Bono","Servicio","Sesiones Totales",
+  "Sesiones Consumidas","Precio Total","Pagado","Importe Pagado","Fecha Caducidad"
+];
+
+const PLANTILLA_HISTORIAL_BASICA_HEADERS = [
+  "Teléfono","Profesional","Motivo Consulta","Tiempo Evolución",
+  "Descripción Detallada","Enfermedades Crónicas","Alergias Medicamentosas",
+  "Medicación Habitual","Diagnóstico","Recomendaciones","Observaciones"
+];
+
+const PLANTILLA_HISTORIAL_COMPLETA_HEADERS = [
+  "Teléfono Cliente","Profesional","Motivo Consulta","Tiempo Evolución",
+  "Descripción Detallada","Inicio Evolución","Factores Agravantes","Factores Atenuantes",
+  "Intensidad Síntomas","Frecuencia Síntomas","Localización","Impacto Vida Diaria",
+  "Enfermedades Crónicas","Enfermedades Agudas","Cirugías Previas","Alergias Medicamentosas",
+  "Alergias Alimentarias","Alergias Ambientales","Medicación Habitual","Hospitalizaciones Previas",
+  "Accidentes/Traumatismos","Enfermedades Hereditarias","Patologías Padres","Patologías Hermanos",
+  "Patologías Abuelos","Alimentación","Actividad Física","Consumo Tabaco","Cantidad Tabaco",
+  "Tiempo Tabaco","Consumo Alcohol","Cantidad Alcohol","Frecuencia Alcohol","Otras Sustancias",
+  "Calidad Sueño","Horas Sueño","Nivel Estrés","Apetito","Digestión","Evacuaciones",
+  "Frecuencia Evacuaciones","Consistencia Evacuaciones","Cambios Evacuaciones","Náuseas/Vómitos",
+  "Reflujo","Frecuencia Urinaria","Dolor al Urinar","Incontinencia","Cambios Color Orina",
+  "Cambios Olor Orina","Palpitaciones","Disnea","Dolor Torácico","Tos","Esputo",
+  "Dolor Articular","Dolor Muscular","Limitaciones Movimiento","Debilidad/Fatiga",
+  "Mareos/Vértigo","Pérdida Sensibilidad","Pérdida Fuerza","Cefaleas","Alteraciones Visuales",
+  "Alteraciones Auditivas","Estado Ánimo","Ansiedad","Depresión","Cambios Conducta",
+  "Trastornos Sueño","Sistema Cutáneo","Sistema Endocrino","Sistema Hematológico",
+  "Tensión Arterial","Frecuencia Cardíaca","Frecuencia Respiratoria","Temperatura",
+  "Saturación O2","Peso","Talla","IMC","Observaciones Clínicas","Pruebas Complementarias",
+  "Diagnóstico","Medicación Prescrita","Recomendaciones","Derivaciones","Seguimiento",
+  "Observaciones Adicionales"
+];
+
+const PLANTILLA_CITAS_HEADERS = [
+  "professional_name","client_phone","service_name","date","start_time",
+  "end_time","duration","status","notes","modalidad"
+];
+
+// Leer headers de plantilla con fallback
+function readCSVHeaders(plantillaPath, fallbackHeaders) {
   if (!fs.existsSync(plantillaPath)) {
-    console.error(`[AVISO] Plantilla no encontrada: ${plantillaPath}`);
-    return [];
+    console.error(
+      `[AVISO] Plantilla no encontrada: ${plantillaPath}, usando fallback en memoria`,
+    );
+    return fallbackHeaders;
   }
-  
-  const content = fs.readFileSync(plantillaPath, 'utf-8-sig');
-  const lines = content.split('\n');
-  if (lines.length === 0) return [];
-  
-  const headers = lines[0].split(',').map(h => h.trim().replace(/^\ufeff/, ''));
-  return headers.filter(h => h);
+
+  try {
+    const content = fs.readFileSync(plantillaPath, 'utf-8-sig');
+    const lines = content.split('\n');
+    if (lines.length === 0) return fallbackHeaders;
+
+    const headers = lines[0]
+      .split(',')
+      .map((h) => h.trim().replace(/^\ufeff/, ''))
+      .filter(Boolean);
+
+    if (!headers.length) {
+      console.error(
+        `[AVISO] La plantilla ${plantillaPath} no tiene cabeceras válidas, usando fallback`,
+      );
+      return fallbackHeaders;
+    }
+
+    return headers;
+  } catch (e) {
+    console.error(`[ERROR] Leyendo plantilla ${plantillaPath}:`, e.message);
+    return fallbackHeaders;
+  }
 }
 
 // Escribir CSV con BOM
@@ -361,7 +427,7 @@ function procesarDatosClinni(datosRaw) {
 
 // Generar clientes_y_bonos
 async function generarClientesYBonos(datos, outputPath, plantillaPath) {
-  const headers = readCSVHeaders(plantillaPath);
+  const headers = readCSVHeaders(plantillaPath, PLANTILLA_CLIENTES_Y_BONOS_HEADERS);
   const pacientes = datos.pacientes || [];
   const bonos = datos.bonos || [];
   
@@ -446,7 +512,7 @@ async function generarClientesYBonos(datos, outputPath, plantillaPath) {
 
 // Generar bonos
 async function generarBonos(datos, outputPath, plantillaPath) {
-  const headers = readCSVHeaders(plantillaPath);
+  const headers = readCSVHeaders(plantillaPath, PLANTILLA_BONOS_HEADERS);
   const pacientes = datos.pacientes || [];
   const bonos = datos.bonos || [];
   
@@ -494,7 +560,7 @@ async function generarBonos(datos, outputPath, plantillaPath) {
 
 // Generar historial_basica
 async function generarHistorialBasica(datos, outputPath, plantillaPath) {
-  const headers = readCSVHeaders(plantillaPath);
+  const headers = readCSVHeaders(plantillaPath, PLANTILLA_HISTORIAL_BASICA_HEADERS);
   const pacientes = datos.pacientes || [];
   const historial = datos.historial || [];
   
@@ -569,7 +635,7 @@ async function generarHistorialBasica(datos, outputPath, plantillaPath) {
 
 // Generar historial_completa
 async function generarHistorialCompleta(datos, outputPath, plantillaPath) {
-  const headers = readCSVHeaders(plantillaPath);
+  const headers = readCSVHeaders(plantillaPath, PLANTILLA_HISTORIAL_COMPLETA_HEADERS);
   const pacientes = datos.pacientes || [];
   const historial = datos.historial || [];
   
@@ -638,7 +704,7 @@ async function generarHistorialCompleta(datos, outputPath, plantillaPath) {
 
 // Generar citas
 async function generarCitas(datos, outputPath, plantillaPath) {
-  const headers = readCSVHeaders(plantillaPath);
+  const headers = readCSVHeaders(plantillaPath, PLANTILLA_CITAS_HEADERS);
   const pacientes = datos.pacientes || [];
   const citas = datos.citas || [];
   

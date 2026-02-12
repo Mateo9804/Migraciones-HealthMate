@@ -38,33 +38,43 @@ function extractFolderSuffix(inputDir) {
 }
 
 // Leer CSV con manejo de encoding
+// IMPORTANTE: priorizamos latin1 porque los CSV de MN Program suelen venir en Windows‑1252
 function readCSV(filePath) {
-  return new Promise((resolve, reject) => {
+  return new Promise((resolve) => {
     console.log(`[DEBUG] readCSV: leyendo ${filePath}`);
     const rows = [];
-    const encodings = ['utf8', 'utf-8-sig', 'latin1'];
+    // latin1 primero para que acentos/ñ salgan bien
+    const encodings = ['latin1', 'utf-8-sig', 'utf8'];
     let currentEncoding = 0;
     let headersSeen = false;
-    
+
     function tryRead() {
       if (currentEncoding >= encodings.length) {
-        console.log(`[DEBUG] readCSV: se intentaron todos los encodings, filas leídas: ${rows.length}`);
+        console.log(
+          `[DEBUG] readCSV: se intentaron todos los encodings, filas leídas: ${rows.length}`,
+        );
         resolve(rows);
         return;
       }
-      
+
       const encoding = encodings[currentEncoding];
       console.log(`[DEBUG] readCSV: intentando encoding ${encoding}`);
       const stream = fs.createReadStream(filePath, { encoding });
-      
+
+      rows.length = 0;
+      headersSeen = false;
+
       stream
         .pipe(csv())
         .on('data', (row) => {
           if (!headersSeen) {
-            console.log(`[DEBUG] readCSV: headers encontrados:`, Object.keys(row).slice(0, 10));
+            console.log(
+              `[DEBUG] readCSV: headers encontrados (${encoding}):`,
+              Object.keys(row).slice(0, 10),
+            );
             headersSeen = true;
           }
-          
+
           // Limpiar BOM de las claves
           const cleanedRow = {};
           for (const [key, value] of Object.entries(row)) {
@@ -74,23 +84,21 @@ function readCSV(filePath) {
           rows.push(cleanedRow);
         })
         .on('end', () => {
-          console.log(`[DEBUG] readCSV: lectura completada con encoding ${encoding}, ${rows.length} filas`);
+          console.log(
+            `[DEBUG] readCSV: lectura completada con encoding ${encoding}, ${rows.length} filas`,
+          );
           resolve(rows);
         })
         .on('error', (err) => {
-          console.log(`[DEBUG] readCSV: error con encoding ${encoding}:`, err.message);
-          currentEncoding++;
-          if (currentEncoding < encodings.length) {
-            rows.length = 0; // Limpiar filas anteriores
-            headersSeen = false;
-            tryRead();
-          } else {
-            console.log(`[DEBUG] readCSV: todos los encodings fallaron, devolviendo ${rows.length} filas`);
-            resolve(rows); // Devolver lo que se pudo leer
-          }
+          console.log(
+            `[DEBUG] readCSV: error con encoding ${encoding}:`,
+            err && err.message ? err.message : err,
+          );
+          currentEncoding += 1;
+          tryRead();
         });
     }
-    
+
     tryRead();
   });
 }
